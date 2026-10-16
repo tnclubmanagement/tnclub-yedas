@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <!-- Nhin tu tren xuong (top-down view) -->
+  <!-- San -->
+  <rect x="24" y="300" width="752" height="110" fill="#DCE3EC"/>
+
+  <!-- Buc tuong mau tron, ve nhu 1 khoi mau phang -->
+  <rect x="24" y="60" width="140" height="240" rx="10" fill="#FFC9B8"/>
+  <text x="94" y="40" font-family="Arial, sans-serif" font-size="20" fill="#1D1D2B" text-anchor="middle">Tường màu trơn</text>
+
+  <!-- Nguoi dung cach tuong 1-1.5m -->
+  <g transform="translate(300,230)">
+    <circle cx="0" cy="-54" r="24" fill="#F0C9A0"/>
+    <rect x="-26" y="-30" width="52" height="80" rx="16" fill="#5AA9FF"/>
+  </g>
+
+  <!-- Mui ten khoang cach tuong -> nguoi -->
+  <line x1="170" y1="230" x2="270" y2="230" stroke="#FF7A8A" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="220" y="215" font-family="Arial, sans-serif" font-size="18" fill="#FF7A8A" text-anchor="middle">1 - 1.5m</text>
+
+  <!-- May anh / dien thoai dung xa hon chut, huong ve nguoi -->
+  <g transform="translate(560,230)">
+    <rect x="-18" y="-36" width="36" height="72" rx="8" fill="#1D1D2B"/>
+    <circle cx="0" cy="-10" r="10" fill="#5AA9FF"/>
+  </g>
+  <text x="560" y="300" font-family="Arial, sans-serif" font-size="18" fill="#1D1D2B" text-anchor="middle">Điện thoại</text>
+
+  <!-- Vung lay net (nguoi ro) va vung mo (nen) the hien bang cham mo -->
+  <line x1="334" y1="230" x2="524" y2="230" stroke="#4AD6A8" stroke-width="3" stroke-dasharray="8 6"/>
+  <g fill="#9FB7C9" opacity="0.7">
+    <circle cx="150" cy="120" r="10"/>
+    <circle cx="110" cy="180" r="7"/>
+    <circle cx="60" cy="140" r="6"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#FF7A8A"/>
+    </marker>
+  </defs>
+</svg>

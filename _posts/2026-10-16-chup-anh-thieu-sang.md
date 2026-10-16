@@ -16,6 +16,10 @@ Thiếu sáng khiến máy tự kéo dài thời gian phơi sáng (chụp lâu h
 cần tay rung nhẹ là ảnh mờ ngay. Tì khuỷu tay vào bàn/tường, hoặc đặt máy
 lên vật cố định (ghế, lan can...) trước khi bấm chụp.
 
+![Sơ đồ: tì khuỷu tay vào tường, chạm vào điểm sáng để đo sáng lại](/assets/img/illustrations/giu-may-vung.svg)
+<p class="text-muted">Tì khuỷu tay vào điểm tựa cố định + chạm vào vùng
+sáng (đèn, lửa...) để máy đo sáng đúng chỗ.</p>
+
 ### 2. Chạm vào vùng sáng nhất để đo sáng lại
 
 Hầu hết camera điện thoại cho chạm vào màn hình để chọn điểm đo sáng. Chạm

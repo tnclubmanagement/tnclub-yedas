@@ -25,6 +25,10 @@ thẳng vào gương mặt/dáng đứng của người được chụp.
 3. Chụp vào lúc trời có nắng dịu hoặc trong bóng râm — tránh nắng gắt buổi
    trưa làm đổ bóng cứng trên mặt.
 
+![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1.5m, điện thoại chụp từ xa hơn](/assets/img/illustrations/khoang-cach-chan-dung.svg)
+<p class="text-muted">Nhìn từ trên xuống: cách tường 1-1.5m giúp nền hơi
+mờ, tách lớp rõ với chủ thể.</p>
+
 ### Mẹo nhỏ thêm
 
 Màu tường và màu trang phục nên **tương phản nhẹ** (không trùng màu hệt

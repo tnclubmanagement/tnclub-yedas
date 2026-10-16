@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <!-- Bau troi -->
+  <rect x="24" y="24" width="752" height="402" rx="12" fill="#CFE6FF"/>
+  <!-- Mat troi -->
+  <circle cx="620" cy="110" r="36" fill="#FFC770"/>
+  <!-- Nui xa -->
+  <polygon points="24,230 180,120 320,230" fill="#9FB7C9"/>
+  <polygon points="220,230 400,90 620,230" fill="#7E9CB2"/>
+  <!-- Mat ho -->
+  <rect x="24" y="230" width="752" height="196" fill="#A8D6D1"/>
+  <!-- Phan chiem nui xuong ho (lat nguoc, mo) -->
+  <polygon points="220,230 400,320 620,230" fill="#7E9CB2" opacity="0.35"/>
+
+  <!-- Nha go nho, dat lech trai (giao diem 1/3) -->
+  <g transform="translate(230,255)">
+    <rect x="-28" y="0" width="56" height="40" fill="#6B4A32"/>
+    <polygon points="-34,0 0,-26 34,0" fill="#4A3122"/>
+  </g>
+
+  <!-- Thuyen nho tren mat ho -->
+  <g transform="translate(560,300)">
+    <polygon points="-24,0 24,0 16,14 -16,14" fill="#B5651D"/>
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#4A3122" stroke-width="3"/>
+  </g>
+
+  <!-- Luoi 1/3: 2 duong doc, 2 duong ngang -->
+  <g stroke="#FF7A8A" stroke-width="3" stroke-dasharray="10 8" opacity="0.9">
+    <line x1="291" y1="24" x2="291" y2="426"/>
+    <line x1="533" y1="24" x2="533" y2="426"/>
+    <line x1="24" y1="150" x2="776" y2="150"/>
+    <line x1="24" y1="300" x2="776" y2="300"/>
+  </g>
+
+  <!-- 4 giao diem, highlight -->
+  <g fill="#5AA9FF" stroke="#ffffff" stroke-width="3">
+    <circle cx="291" cy="150" r="9"/>
+    <circle cx="533" cy="150" r="9"/>
+    <circle cx="291" cy="300" r="9"/>
+    <circle cx="533" cy="300" r="9"/>
+  </g>
+</svg>

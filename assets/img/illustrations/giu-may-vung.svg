@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <!-- Buc tuong lam diem tua -->
+  <rect x="40" y="40" width="90" height="370" fill="#C7B8E0"/>
+  <rect x="40" y="40" width="90" height="370" fill="none" stroke="#9A86C4" stroke-width="3"/>
+
+  <!-- Nen toi (ban dem) -->
+  <rect x="150" y="40" width="610" height="370" rx="12" fill="#2B2B45"/>
+  <!-- Vai ngoi sao nho -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <circle cx="600" cy="90" r="2.5"/>
+    <circle cx="650" cy="130" r="2"/>
+    <circle cx="700" cy="80" r="2.5"/>
+    <circle cx="560" cy="150" r="2"/>
+    <circle cx="730" cy="160" r="2"/>
+  </g>
+  <!-- Nguon sang (den duong) duoc cham lam diem do sang -->
+  <circle cx="560" cy="230" r="46" fill="#FFC770" opacity="0.35"/>
+  <circle cx="560" cy="230" r="20" fill="#FFE2A3"/>
+  <!-- Vong tron cham man hinh (diem do sang) -->
+  <circle cx="560" cy="230" r="34" fill="none" stroke="#FF7A8A" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <!-- Canh tay + dien thoai, ti khuyu tay vao tuong -->
+  <g>
+    <!-- Khuyu tay tua tuong -->
+    <ellipse cx="120" cy="330" rx="22" ry="16" fill="#F0C9A0"/>
+    <!-- Canh tay noi den dien thoai -->
+    <path d="M132,324 C220,300 300,270 352,248" stroke="#F0C9A0" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <!-- Dien thoai -->
+    <g transform="translate(352,210) rotate(-18)">
+      <rect x="-26" y="-50" width="52" height="100" rx="10" fill="#1D1D2B"/>
+      <rect x="-20" y="-42" width="40" height="76" rx="4" fill="#5AA9FF"/>
+      <circle cx="0" cy="-34" r="4" fill="#1D1D2B"/>
+    </g>
+  </g>
+
+  <!-- Duong ngam toi diem sang, the hien "khoa net" -->
+  <line x1="352" y1="210" x2="560" y2="230" stroke="#4AD6A8" stroke-width="3" stroke-dasharray="8 6"/>
+</svg>

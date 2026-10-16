@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC770"/>
+      <stop offset="55%" stop-color="#FF7A8A"/>
+      <stop offset="100%" stop-color="#5AA9FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#g)"/>
+  <!-- Than may anh, cach dieu don gian, mau trang -->
+  <rect x="96" y="196" width="320" height="200" rx="28" fill="none" stroke="#ffffff" stroke-width="16"/>
+  <!-- Nhap nho tren than may (vien kinh ngam) -->
+  <path d="M176 196 L204 156 L308 156 L336 196" fill="none" stroke="#ffffff" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Ong kinh (lens) -->
+  <circle cx="256" cy="296" r="64" fill="none" stroke="#ffffff" stroke-width="16"/>
+  <circle cx="256" cy="296" r="30" fill="none" stroke="#ffffff" stroke-width="10"/>
+  <!-- Den flash nho -->
+  <rect x="356" y="220" width="32" height="20" rx="4" fill="#ffffff"/>
+  <!-- Sparkle nho -->
+  <path d="M120 128 L128 150 L150 158 L128 166 L120 188 L112 166 L90 158 L112 150 Z" fill="#ffffff"/>
+</svg>

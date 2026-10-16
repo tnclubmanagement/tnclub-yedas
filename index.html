@@ -1,0 +1,28 @@
+---
+layout: home
+title: Mẹo Chụp Ảnh Yedas
+subtitle: Chụp đẹp bằng điện thoại, không cần máy ảnh xịn
+cover-img: "/assets/img/hero-1.jpg"
+---
+
+<script>
+  // Danh sách ảnh hero để chọn ngẫu nhiên mỗi lần tải trang (xem assets/js/custom-animations.js)
+  window.HERO_IMAGES = [
+    "{{ '/assets/img/hero-1.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-2.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-3.jpg' | relative_url }}",
+    "{{ '/assets/img/hero-4.jpg' | relative_url }}"
+  ];
+</script>
+
+<section class="landing-intro glass-surface">
+  <h2>Chào bạn 👋</h2>
+  <p>
+    Đây là nơi chia sẻ những mẹo chụp ảnh đơn giản, dễ áp dụng ngay bằng
+    chiếc điện thoại bạn đang cầm — không cần máy ảnh chuyên nghiệp, không
+    cần kiến thức phức tạp. Mỗi mẹo đều kèm ví dụ thực tế để bạn thử liền.
+  </p>
+  <a class="landing-cta" href="#latest">Xem mẹo mới nhất ↓</a>
+</section>
+
+<h2 id="latest" class="latest-heading">Mẹo mới nhất</h2>

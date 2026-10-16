@@ -1,0 +1,138 @@
+############################
+# --- Required options --- #
+############################
+
+title: Mẹo Chụp Ảnh Yedas
+
+author: TN Club
+
+theme: beautiful-jekyll-theme
+
+# URL thật của site sau khi deploy GitHub Pages (Settings > Pages)
+url: "https://tnclubmanagement.github.io"
+baseurl: "/tnclub-yedas"
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  Giới thiệu: "aboutme"
+  Mẹo theo chủ đề: "tags"
+  Liên hệ: "contact"
+  Chính sách: "privacy"
+
+################
+# --- Logo --- #
+################
+
+# Ảnh đại diện hiện ở góc trên navbar (tỉ lệ vuông đẹp nhất). Bỏ comment và
+# bỏ ảnh vào assets/img/ để dùng.
+# avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+social-network-links:
+  rss: true
+  facebook: # điền username/trang Facebook của bạn, ví dụ: your.page.name
+
+rss-description: Mẹo chụp ảnh đơn giản, dễ áp dụng ngay bằng điện thoại - dành cho người mới bắt đầu.
+
+###########################
+# --- General options --- #
+###########################
+
+share-links-active:
+  facebook: true
+  twitter: false
+  linkedin: false
+
+title-on-all-pages: true
+excerpt_length: 50
+feed_show_excerpt: false
+feed_show_tags: true
+post_search: true
+edit_page_button: true
+
+######################################
+# --- Colours / background image --- #
+######################################
+
+page-col: "#EEF1F6"
+text-col: "#1D1D2B"
+link-col: "#5AA9FF"
+hover-col: "#FF7A8A"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#1D1D2B"
+navbar-border-col: "#FFFFFF"
+footer-col: "#1D1D2B"
+footer-text-col: "#C7C7D1"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#5AA9FF"
+
+# File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
+site-css:
+  - "/assets/css/custom-styles.css"
+
+# JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
+site-js:
+  - "/assets/js/custom-animations.js"
+
+####################
+# --- Comments --- #
+####################
+
+# Bình luận bằng Facebook: cần tạo 1 Facebook App ID miễn phí (không cần
+# code), xem hướng dẫn trong README.md, rồi điền ID vào đây.
+fb_comment_id: ""
+
+################
+# --- Misc --- #
+################
+
+date_format: "%d/%m/%Y"
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
+
+lang: vi
+timezone: "Asia/Ho_Chi_Minh"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+      head-extra: ["favicon.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html"]
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+      head-extra: ["favicon.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html"]
+
+exclude:
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap

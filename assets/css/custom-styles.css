@@ -1,83 +1,92 @@
-/* Giao diện tuỳ biến: "Liquid Glass" kiểu Apple — kính trong suốt bóng,
-   bo pill, highlight sáng ở góc, viền phát sáng màu nhẹ, nền sáng trung tính. */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Dancing+Script:wght@600;700&display=swap');
+/* Giao diện tuỳ biến: "Apple-style" - nền sáng tối giản, chữ hệ thống to
+   đậm, nhiều khoảng trắng, ảnh nền lớn full-bleed, rất ít chi tiết trang
+   trí (không kính mờ/blob màu như bản cũ). */
 
 :root {
-  --ink: #1d1d2b;
-  --muted: #6b6b7a;
-  --accent-pink: #ff7a8a;
-  --accent-blue: #5aa9ff;
-  --accent-green: #4ad6a8;
-  --glass-bg: rgba(255, 255, 255, 0.45);
-  --glass-border: rgba(255, 255, 255, 0.9);
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --accent-blue: #0071e3;
+  --accent-blue-hover: #0077ed;
+  --bg-light: #f5f5f7;
+  --bg-white: #ffffff;
+  --hairline: rgba(0, 0, 0, 0.08);
 
   /* ========================================================================
-     TYPOGRAPHY DÙNG CHUNG — khai báo font DUY NHẤT ở đây.
-     Muốn đổi font chữ của toàn trang chỉ cần sửa 2 dòng dưới, KHÔNG sửa
-     rải rác ở các selector khác (tránh "clone" font-family đi nhiều chỗ).
+     TYPOGRAPHY DÙNG CHUNG — font hệ thống (giống cách Apple dùng SF Pro
+     trên máy Apple, fallback sang font hệ thống trên các máy khác) thay vì
+     tải font ngoài - vừa đúng tinh thần "Apple-style", vừa nhanh hơn vì
+     không cần tải font từ Google Fonts.
      ======================================================================== */
-  --font-title: "Playfair Display", Georgia, serif;    /* dùng cho title/heading */
-  --font-subtitle: "Dancing Script", cursive;           /* dùng cho subtitle/tagline */
+  --font-title: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  --font-subtitle: var(--font-title);
 }
 
-/* Mọi heading thật (h1-h4) trong khu vực nội dung tuỳ biến đều tự động
-   dùng --font-title — không cần khai báo lại font-family ở từng heading.
-   Với các phần tử KHÔNG phải tag heading (span, a, p...) nhưng muốn dùng
-   font title/subtitle, gắn class `.font-title` / `.font-subtitle`. */
-h1, h2, h3, h4,
+/* Theme Beautiful Jekyll gán cứng font 'Lora' (tiêu đề) / 'Open Sans' (nội
+   dung) riêng lẻ cho rất nhiều selector cụ thể (.post-meta, .blog-tags,
+   .navbar-custom, footer, pagination, subheading...) - override riêng
+   từng chỗ sẽ rất dài dòng và dễ sót. Ép 1 rule universal `!important` là
+   cách chắc chắn nhất để TOÀN BỘ nội dung (chữ thường lẫn tiêu đề) luôn
+   dùng đúng font hệ thống của site này. */
+/* Loại trừ icon font (Font Awesome) khỏi rule universal bên dưới - nếu
+   không, icon sẽ hiện thành ô vuông/ký tự lạ vì bị ép sang font chữ (FA
+   vẽ icon qua `content` + font riêng trên chính thẻ hoặc trên ::before). */
+*:not(.fa):not([class*="fa-"]) {
+  font-family: var(--font-title) !important;
+}
+
+*:not(.fa):not([class*="fa-"])::before,
+*:not(.fa):not([class*="fa-"])::after {
+  font-family: var(--font-title) !important;
+}
+
+h1, h2, h3, h4, h5, h6,
 .font-title {
-  font-family: var(--font-title);
-  font-weight: 800;
-  letter-spacing: -0.01em;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--ink);
 }
 
 .font-subtitle {
-  font-family: var(--font-subtitle);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 body {
-  background-color: #eef1f6;
+  background-color: var(--bg-white);
+  color: var(--ink);
 }
 
-/* Khối màu nền: tạo bằng JS (custom-animations.js), "trôi" 1 lần vào đúng vị
-   trí khi tải trang rồi đứng yên — không loop. */
-#bg-blobs {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.bg-blob {
-  position: absolute;
-  top: var(--blob-top);
-  left: var(--blob-left);
-  width: var(--blob-size);
-  height: var(--blob-size);
-  border-radius: 50%;
-  background: var(--blob-color);
-  filter: blur(60px);
+/* Fade-in-up khi cuộn tới (hoặc khi tải trang), chỉ chạy 1 lần */
+.reveal {
   opacity: 0;
-  transform: translate(var(--blob-dx), var(--blob-dy)) scale(0.7);
-  transition: transform 1.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.4s ease-out;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-#bg-blobs.settled .bg-blob {
+.reveal.is-visible {
   opacity: 1;
-  transform: translate(0, 0) scale(1);
+  transform: translateY(0);
 }
 
-/* Hero: zoom nhẹ 1 lần (Ken Burns), không lặp lại */
+/* ---------- Hero / header lớn (ảnh nền giữ nguyên) ---------- */
 .header-section.has-img .big-img {
+  position: relative;
   overflow: hidden;
+}
+
+/* Lớp phủ tối dần phía dưới để chữ trắng luôn đọc rõ trên mọi ảnh nền,
+   giống cách Apple luôn đảm bảo độ tương phản chữ/ảnh. */
+.header-section.has-img .big-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.45) 100%);
+  pointer-events: none;
 }
 
 .header-section.has-img .big-img.intro-header {
   opacity: 0;
-  transform: scale(1.12);
+  transform: scale(1.08);
   transition: opacity 0.6s ease-out, transform 6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -86,121 +95,106 @@ body {
   transform: scale(1);
 }
 
-/* Fade-in-up khi cuộn tới (hoặc khi tải trang), chỉ chạy 1 lần */
-.reveal {
-  opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.7s ease-out, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+.header-section.has-img .page-heading h1,
+.header-section.has-img .post-heading h1 {
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 3.25rem;
+  letter-spacing: -0.02em;
 }
 
-.reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+.header-section.has-img .page-subheading,
+.header-section.has-img .post-subheading {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-family: var(--font-subtitle);
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
-/* Lớp kính dùng chung: nền mờ, viền sáng, highlight góc, bóng đổ mềm */
-.glass-surface {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.08));
-  backdrop-filter: blur(36px) saturate(220%);
-  -webkit-backdrop-filter: blur(36px) saturate(220%);
-  border: 1px solid var(--glass-border);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 1),
-    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.6),
-    0 20px 44px rgba(31, 38, 70, 0.16);
-}
-
-.glass-surface::before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -10%;
-  width: 65%;
-  height: 60%;
-  background: radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 25%, transparent 70%);
-  pointer-events: none;
-  mix-blend-mode: screen;
+@media (max-width: 640px) {
+  .header-section.has-img .page-heading h1,
+  .header-section.has-img .post-heading h1 {
+    font-size: 2.1rem;
+  }
+  .header-section.has-img .page-subheading,
+  .header-section.has-img .post-subheading {
+    font-size: 1.1rem;
+  }
 }
 
 /* ---------- Landing: khối giới thiệu + nút CTA ---------- */
 .landing-intro {
-  border-radius: 32px;
-  padding: 2rem 2.25rem;
-  margin: -4rem auto 2.5rem;
-  max-width: 760px;
+  padding: 3.5rem 1.5rem 1.5rem;
+  margin: 0 auto 1rem;
+  max-width: 720px;
   text-align: center;
-  position: relative;
-  z-index: 3;
 }
 
 .landing-intro h2 {
   margin-top: 0;
+  font-size: 2.25rem;
 }
 
 .landing-intro p {
   color: var(--muted);
-  margin: 1rem 0 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 1rem 0 1.75rem;
 }
 
 .landing-cta {
   display: inline-block;
-  position: relative;
-  z-index: 1;
   font-family: var(--font-subtitle);
-  font-size: 1.4rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 500;
   color: #ffffff !important;
-  background: linear-gradient(135deg, var(--accent-pink), var(--accent-blue));
+  background: var(--accent-blue);
   border-radius: 999px;
-  padding: 0.5rem 1.75rem;
+  padding: 0.65rem 1.75rem;
   text-decoration: none;
-  box-shadow: 0 10px 24px rgba(255, 122, 138, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .landing-cta:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 30px rgba(90, 169, 255, 0.4);
+  background: var(--accent-blue-hover);
+  transform: translateY(-1px);
   color: #ffffff !important;
 }
 
 .latest-heading {
   text-align: center;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
   color: var(--ink);
 }
 
-/* ---------- Navbar: kính nổi, bo góc lớn (không dùng pill 999px để tránh
-   méo hình khi menu mobile mở ra) ---------- */
+/* ---------- Navbar: thanh mỏng, nền trắng mờ nhẹ, không nổi/bo pill ---------- */
 .navbar-custom {
-  background: rgba(255, 255, 255, 0.35) !important;
-  backdrop-filter: blur(34px) saturate(200%);
-  -webkit-backdrop-filter: blur(34px) saturate(200%);
-  border: 1px solid rgba(255, 255, 255, 0.95) !important;
-  border-radius: 26px !important;
-  overflow: hidden;
-  left: 50% !important;
-  right: auto !important;
-  transform: translateX(-50%);
-  top: 14px !important;
-  width: calc(100% - 32px);
-  max-width: 920px;
-  padding-left: 1.25rem !important;
-  padding-right: 1.25rem !important;
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.9),
-    0 10px 30px rgba(31, 38, 70, 0.12);
+  background: rgba(255, 255, 255, 0.82) !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border: none !important;
+  border-bottom: 1px solid var(--hairline);
+  border-radius: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  transform: none;
+  top: 0 !important;
+  width: 100%;
+  max-width: none;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  box-shadow: none;
+  min-height: 48px;
 }
 
-.navbar-custom .nav-link,
 .navbar-custom .navbar-brand {
   color: var(--ink) !important;
-}
-
-.navbar-custom .navbar-brand {
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
+  font-weight: 600;
+  font-size: 0.95rem;
 }
 
 /* ---------- Logo + Home icon ---------- */
@@ -211,53 +205,76 @@ body {
 }
 
 .navbar-logo-icon {
-  width: 2rem;
-  height: 2rem;
+  width: 1.75rem;
+  height: 1.75rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(31, 38, 70, 0.25);
 }
 
 .navbar-brand-text {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
-/* Mọi link trong nav (Trang chủ, Giới thiệu, Lưu trữ, Liên hệ, Chính sách...)
-   đều có icon + chữ, canh chỉnh đồng bộ cùng 1 kiểu. */
+/* Các mục menu: căn GIỮA, khoảng cách đều nhau, cỡ chữ nhỏ gọn + hơi
+   nhạt màu hơn link thường - đúng kiểu nav của apple.com (không icon,
+   không bám sát lề phải như mặc định Bootstrap `ml-auto`). */
+.navbar-custom .navbar-nav {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: center;
+}
+
+.navbar-custom .nav-item {
+  margin: 0 0.9rem;
+}
+
+.navbar-custom .nav-link {
+  color: var(--muted) !important;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: color 0.15s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: var(--ink) !important;
+}
+
+/* Bỏ icon trang trí trước mỗi link nav - giữ chữ gọn, đúng tinh thần
+   tối giản (Apple chỉ dùng chữ thường, không icon trong nav chính). */
+.nav-link-home .fa,
+.nav-link-icon .fa,
+#nav-search-icon {
+  display: none;
+}
+
 .nav-link-home,
 .nav-link-icon {
   display: flex !important;
   align-items: center;
-  gap: 0.4rem;
 }
 
-.nav-link-home .fa,
-.nav-link-icon .fa,
-#nav-search-icon {
-  color: var(--accent-pink);
-  font-size: 0.9rem;
-  line-height: 1;
-}
-
-/* ---------- Footer: slogan + link ---------- */
+/* ---------- Footer: nền xám nhạt, chữ xám đậm - giống footer apple.com ---------- */
 .footer-slogan {
   font-family: var(--font-subtitle);
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--muted);
   margin: 0.5rem 0 1rem;
 }
 
 .footer-extra-links {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
 
 .footer-extra-links a {
-  color: #e6d9e2;
+  color: var(--muted);
 }
 
 .footer-extra-links a:hover {
-  color: var(--accent-pink);
+  color: var(--accent-blue);
 }
 
 .footer-extra-dot {
@@ -265,170 +282,64 @@ body {
   opacity: 0.6;
 }
 
-/* Menu mobile khi mở: bỏ margin âm của theme, làm liền mạch với khối kính,
-   thêm padding trái cho các mục cho thẳng với logo */
+/* Menu mobile khi mở: liền mạch với thanh nav, thêm padding trái cho các
+   mục cho thẳng với logo. Theme mặc định gán `border-top` cho
+   `.navbar-collapse` ở mọi màn hình <1200px (xem beautifuljekyll.css) -
+   bỏ hẳn viền này vì tạo thành 1 đường kẻ ngang xấu ngay dưới logo. */
 .navbar-custom .navbar-collapse {
-  margin: 0.5rem -1.25rem -0.5rem !important;
+  margin: 0 !important;
+  border-top: none !important;
 }
 
 .navbar-custom .navbar-nav .nav-link {
-  padding-left: 1.25rem !important;
+  padding-left: 1.5rem !important;
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.6rem !important;
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-  padding-left: 2.25rem !important;
+  padding-left: 2.5rem !important;
 }
 
-/* ---------- Hero / header lớn trên trang chủ ---------- */
-.header-section.has-img .big-img {
-  position: relative;
-}
-
-.header-section.has-img .big-img::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(20, 20, 40, 0.05) 0%, rgba(20, 20, 40, 0.4) 100%);
-  pointer-events: none;
-}
-
-.header-section.has-img .page-heading h1,
-.header-section.has-img .post-heading h1 {
-  color: #ffffff !important;
-  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
-}
-
-.header-section.has-img .page-subheading,
-.header-section.has-img .post-subheading {
-  display: inline-block;
-  margin-top: 0.75rem;
-  color: #ffffff !important;
-  font-family: var(--font-subtitle);
-  font-weight: 700;
-  font-size: 1.8rem;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 999px;
-  padding: 0.3rem 1.5rem;
-  text-shadow: none;
-}
-
-/* ---------- Danh sách bài viết: card kính bóng, masonry bằng JS ----------
-   (Không dùng CSS column-count: bị lỗi dồn hết item vào 1 cột khi item cao
-   + ít item với break-inside:avoid. Xem initMasonry() trong
-   custom-animations.js — phân cột theo chiều cao thực tế, luôn bỏ item vào
-   cột đang thấp nhất. Nếu JS tắt, danh sách vẫn hiển thị đúng dạng 1 cột.) */
+/* ---------- Danh sách bài viết: lưới đều, thẻ phẳng tối giản (không
+   masonry lệch cột, không hiệu ứng kính) ---------- */
 .posts-list {
   list-style: none;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
-.posts-list.js-masonry {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.75rem;
-}
-
-.masonry-col {
-  flex: 1 1 0;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
+@media (max-width: 640px) {
+  .posts-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .post-preview {
   display: block;
   width: 100%;
-  margin: 0 0 1.75rem 0;
-  position: relative;
+  margin: 0;
+  border-radius: 18px;
   overflow: hidden;
-  border-radius: 32px;
-  padding-bottom: 1.5rem;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.32), rgba(255, 255, 255, 0.05));
-  backdrop-filter: blur(40px) saturate(220%);
-  -webkit-backdrop-filter: blur(40px) saturate(220%);
-  border: 1px solid rgba(255, 255, 255, 0.95);
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 1),
-    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.6),
-    0 20px 44px rgba(31, 38, 70, 0.16);
+  background: var(--bg-white);
+  border: 1px solid var(--hairline);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-/* Highlight bóng sắc ở góc trên-trái, giống ánh sáng phản chiếu trên kính thật */
-.post-preview::before {
-  content: "";
-  position: absolute;
-  top: -10%;
-  left: -10%;
-  width: 70%;
-  height: 55%;
-  background: radial-gradient(circle at 25% 15%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 25%, transparent 65%);
-  pointer-events: none;
-  mix-blend-mode: screen;
-  z-index: 1;
-}
-
-/* Vệt sáng chéo (sheen) chạy qua toàn bộ card, giống phản xạ trên mặt kính */
-.post-preview::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -60%;
-  width: 45%;
-  height: 100%;
-  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55), transparent);
-  transform: skewX(-18deg);
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* Viền phát sáng 2 tông màu (giả cảm giác khúc xạ cầu vồng trên kính),
-   xen kẽ theo từng card. Lưu ý: `.post-preview` chính là thẻ `<li>`, không
-   phải con của nó, nên phải viết liền `li.post-preview:nth-child(...)`
-   (compound selector), không phải descendant selector. */
-.posts-list li.post-preview:nth-child(3n+1) {
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,1),
-    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    -3px -3px 0 -1px rgba(255,199,112,0.4),
-    3px 3px 0 -1px rgba(255,122,138,0.4),
-    0 20px 44px rgba(255,122,138,0.3);
-}
-.posts-list li.post-preview:nth-child(3n+2) {
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,1),
-    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    -3px -3px 0 -1px rgba(190,150,255,0.4),
-    3px 3px 0 -1px rgba(90,169,255,0.4),
-    0 20px 44px rgba(90,169,255,0.3);
-}
-.posts-list li.post-preview:nth-child(3n) {
-  box-shadow:
-    inset 0 1px 1px rgba(255,255,255,1),
-    inset 0 -20px 30px -18px rgba(255,255,255,0.6),
-    -3px -3px 0 -1px rgba(255,199,112,0.4),
-    3px 3px 0 -1px rgba(74,214,168,0.4),
-    0 20px 44px rgba(74,214,168,0.3);
-}
-
-.posts-list li.post-preview:nth-child(2) { margin-top: 2.5rem; }
-
 .post-preview:hover {
-  transform: translateY(-6px);
-  z-index: 2;
-  position: relative;
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
 }
 
 .post-preview .post-image {
-  margin: 0 0 1.1rem 0;
+  margin: 0;
   float: none !important;
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
-  padding: 10px 10px 0 10px;
+  padding: 0;
 }
 
 .post-preview .post-image img {
@@ -438,7 +349,6 @@ body {
   max-height: none !important;
   object-fit: cover;
   display: block;
-  border-radius: 20px;
 }
 
 /* Theme ẩn ảnh lớn và hiện ảnh nhỏ 100x100 khi màn hình <500px — luôn giữ
@@ -453,52 +363,46 @@ body {
   }
 }
 
-/* Biến thiên chiều cao ảnh để card cao thấp khác nhau (masonry) */
-.posts-list li:nth-child(3n+1) .post-image img { height: 180px; }
-.posts-list li:nth-child(3n+2) .post-image img { height: 260px; }
-.posts-list li:nth-child(3n) .post-image img { height: 220px; }
-
 .post-preview .post-title,
 .post-preview .post-subtitle,
 .post-preview .post-meta,
 .post-preview .post-entry {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .post-preview .post-title {
-  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
   color: var(--ink);
 }
 
 .post-preview .post-subtitle {
   font-family: var(--font-subtitle);
-  font-weight: 600;
-  font-size: 1.3rem;
-  color: #c2447a;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--muted);
 }
 
 .post-preview .post-meta {
-  color: #9898a6;
-  font-size: 0.85rem;
+  color: var(--muted);
+  font-size: 0.8rem;
 }
 
 .post-preview .blog-tags {
-  padding-left: 1.5rem;
+  padding-left: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
-/* Tag dạng pill kính bóng nhỏ */
+/* Tag dạng pill xám nhạt, phẳng */
 .post-preview .blog-tags a {
   display: inline-block;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
-  backdrop-filter: blur(8px);
-  color: var(--ink);
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 4px 10px rgba(31, 38, 70, 0.08);
+  background: var(--bg-light);
+  color: var(--muted);
   border-radius: 999px;
-  padding: 0.25rem 0.9rem;
+  padding: 0.25rem 0.85rem;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -509,33 +413,19 @@ body {
 }
 
 .post-container {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(145deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
-  backdrop-filter: blur(34px) saturate(200%);
-  -webkit-backdrop-filter: blur(34px) saturate(200%);
-  border: 1px solid rgba(255, 255, 255, 0.95);
-  border-radius: 28px;
-  padding: 2rem;
-  box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 1),
-    inset 0 -20px 30px -18px rgba(255, 255, 255, 0.5),
-    0 20px 44px rgba(31, 38, 70, 0.12);
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-.post-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 45%;
-  height: 30%;
-  background: radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.9), transparent 70%);
-  pointer-events: none;
-  mix-blend-mode: screen;
+.post-container img {
+  border-radius: 14px;
 }
 
 /* ---------- Footer ---------- */
 footer.footer {
-  background: rgba(29, 29, 43, 0.92) !important;
+  background: var(--bg-light) !important;
+  border-top: 1px solid var(--hairline);
 }

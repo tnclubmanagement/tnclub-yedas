@@ -42,13 +42,26 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   cũ chưa tương thích). Chạy `./serve.sh` để tự xử lý việc này.
 - Sửa `_config.yml` xong phải tắt (`Ctrl+C`) và chạy lại server — Jekyll chỉ
   đọc file này lúc khởi động, không tự reload.
-- CSS tuỳ biến: `assets/css/custom-styles.css` (giao diện "Liquid Glass" —
-  kính trong suốt, highlight bóng, khối màu nền mờ phía sau để kính khúc xạ)
-  — copy nguyên từ `inspiring-stories`, dùng chung được cho mọi theme nội
-  dung vì không gắn cứng chữ/màu theo chủ đề cụ thể.
+- CSS tuỳ biến: `assets/css/custom-styles.css` — giao diện **"Apple-style"**
+  (đổi từ "Liquid Glass" ban đầu theo yêu cầu người dùng): nền trắng/xám
+  nhạt tối giản, chữ hệ thống (`-apple-system`...) to đậm cho tiêu đề,
+  không backdrop-filter/blob màu/card kính. Nav là thanh mỏng mờ nhẹ full
+  width (không floating pill), lưới bài viết là CSS Grid đều cột (không
+  masonry lệch), footer nền xám nhạt kiểu apple.com.
+  - Theme Beautiful Jekyll gán cứng font `Lora`/`Open Sans` cho rất nhiều
+    selector riêng lẻ (`.post-meta`, `.blog-tags`, navbar, footer,
+    pagination...) — thay vì override từng chỗ, file này dùng 1 rule
+    universal `*:not(.fa):not([class*="fa-"]) { font-family: ... !important }`
+    để chắc chắn MỌI nơi (kể cả nơi quên override) đều ra đúng font, trừ
+    icon Font Awesome (loại trừ bằng `:not()` để icon không bị vỡ).
+  - `_layouts/base.html` override lại front matter của theme để bỏ 2 dòng
+    tải Google Fonts (Lora, Open Sans) — không cần nữa vì dùng font hệ
+    thống, đỡ tải thêm request.
 - JS tuỳ biến: `assets/js/custom-animations.js` (hero ảnh ngẫu nhiên + Ken
-  Burns 1 lần, fade-in khi cuộn, khối màu nền "settle" khi tải trang — tất cả
-  animation đều chạy 1 lần, không loop) — cũng copy nguyên, generic.
+  Burns 1 lần, fade-in khi cuộn khi tải trang — animation chạy 1 lần, không
+  loop). Bản gốc "Liquid Glass" còn có khối màu nền "blob" + masonry lệch
+  cột — đã bỏ cả 2 khi đổi sang Apple-style vì không hợp phong cách tối
+  giản.
 - Theme Beautiful Jekyll dùng 2 class ảnh: `.post-image-normal` (ảnh lớn đầu
   bài) và `.post-image-small` (ảnh nhỏ 100x100 theme tự hiện khi màn hình
   <500px) — ta đã ẩn `.post-image-small` và ép `.post-image-normal` luôn hiện

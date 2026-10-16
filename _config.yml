@@ -61,17 +61,17 @@ edit_page_button: true
 # --- Colours / background image --- #
 ######################################
 
-page-col: "#EEF1F6"
-text-col: "#1D1D2B"
-link-col: "#5AA9FF"
-hover-col: "#FF7A8A"
+page-col: "#FFFFFF"
+text-col: "#1D1D1F"
+link-col: "#0071E3"
+hover-col: "#0077ED"
 navbar-col: "#FFFFFF"
-navbar-text-col: "#1D1D2B"
-navbar-border-col: "#FFFFFF"
-footer-col: "#1D1D2B"
-footer-text-col: "#C7C7D1"
-footer-link-col: "#FFFFFF"
-footer-hover-col: "#5AA9FF"
+navbar-text-col: "#1D1D1F"
+navbar-border-col: "#F5F5F7"
+footer-col: "#F5F5F7"
+footer-text-col: "#6E6E73"
+footer-link-col: "#424245"
+footer-hover-col: "#0071E3"
 
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:

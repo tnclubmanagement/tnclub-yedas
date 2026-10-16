@@ -16,6 +16,10 @@ riêng khác với chụp người/cảnh vật tĩnh.
 lớn nhìn xuống"). Quỳ/cúi xuống để ống kính ngang tầm mắt con vật - ảnh sẽ
 có cảm giác gần gũi, "nhìn vào mắt nhau" thay vì xa cách.
 
+![So sánh đứng chụp từ trên xuống và hạ ngang tầm mắt con vật](/assets/img/illustrations/goc-thap-dong-vat.svg)
+<p class="text-muted">Ngang tầm mắt (phải) tạo cảm giác gần gũi, "nhìn
+vào mắt nhau" - khác hẳn góc nhìn từ trên xuống quen thuộc mỗi ngày.</p>
+
 ### 2. Dùng chế độ chụp liên tiếp (burst)
 
 Động vật đổi tư thế/biểu cảm liên tục chỉ trong vài giây. Giữ nút chụp

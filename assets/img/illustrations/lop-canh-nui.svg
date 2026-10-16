@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <!-- Bau troi -->
+  <rect x="24" y="24" width="752" height="372" rx="16" fill="#D7E9F7"/>
+
+  <!-- Lop xa nhat: nui mo, nhat mau (atmospheric perspective) -->
+  <polygon points="24,220 160,120 280,220 400,150 540,220 680,140 776,220 776,396 24,396" fill="#C3D2DE"/>
+  <!-- Lop giua: nui ro hon, dam mau hon -->
+  <polygon points="24,280 180,190 320,280 480,200 620,280 776,230 776,396 24,396" fill="#9FB7C9"/>
+  <!-- Lop gan: doi/dat, dam mau nhat -->
+  <polygon points="24,340 220,290 420,340 600,300 776,340 776,396 24,396" fill="#7E9CB2"/>
+
+  <!-- Tien canh: bui cay/da ngay truoc may, sam mau nhat tao chieu sau manh -->
+  <g fill="#3E3E4F">
+    <ellipse cx="110" cy="396" rx="90" ry="34"/>
+    <ellipse cx="60" cy="390" rx="40" ry="46"/>
+    <ellipse cx="160" cy="392" rx="46" ry="40"/>
+  </g>
+
+  <!-- Nhan cho tung lop -->
+  <text x="690" y="175" font-family="Arial, sans-serif" font-size="14" fill="#5A6B7A" text-anchor="middle" font-weight="bold">Núi xa</text>
+  <text x="560" y="255" font-family="Arial, sans-serif" font-size="14" fill="#3E5468" text-anchor="middle" font-weight="bold">Núi giữa</text>
+  <text x="150" y="360" font-family="Arial, sans-serif" font-size="14" fill="#1D1D1F" text-anchor="middle" font-weight="bold">Tiền cảnh</text>
+
+  <!-- Mui ten chieu sau -->
+  <g stroke="#FF7A8A" stroke-width="2.5" fill="none" marker-end="url(#arrowDepth)">
+    <path d="M400,380 C 420,340 460,280 520,220"/>
+  </g>
+  <defs>
+    <marker id="arrowDepth" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#FF7A8A"/>
+    </marker>
+  </defs>
+  <text x="430" y="400" font-family="Arial, sans-serif" font-size="14" fill="#FF7A8A" text-anchor="middle" font-weight="bold">Chiều sâu 3 lớp</text>
+</svg>

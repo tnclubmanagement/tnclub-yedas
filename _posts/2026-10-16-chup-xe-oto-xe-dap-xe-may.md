@@ -17,6 +17,10 @@ hông) thường cho cảm giác xe "có khối", có chiều sâu hơn nhiều 
 thẳng góc 0 độ hoặc 90 độ - đây là góc các hãng xe hay dùng trong ảnh
 quảng cáo.
 
+![Sơ đồ nhìn từ trên xuống: vị trí đứng chụp 0°, 90°, và góc 3/4 (~45°) quanh xe](/assets/img/illustrations/goc-34-chup-xe.svg)
+<p class="text-muted">Góc 3/4 (~45°) thấy được cả đầu lẫn hông xe - cho
+cảm giác "có khối" hơn hẳn 2 góc thẳng còn lại.</p>
+
 ### 2. Hạ thấp máy ngang tầm bánh xe
 
 Giống mẹo chụp hoa/động vật: hạ máy xuống thấp, gần ngang tầm bánh xe thay

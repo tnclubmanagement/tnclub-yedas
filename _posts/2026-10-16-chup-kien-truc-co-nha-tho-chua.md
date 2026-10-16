@@ -17,9 +17,13 @@ xa qua khung đó - kỹ thuật "khung trong khung" (framing) này giúp mắt
 người xem tập trung ngay vào chủ thể chính, đồng thời tạo chiều sâu cho
 bức ảnh.
 
+![Sơ đồ: đứng trong khung tối, máy ngắm thẳng qua khung tới công trình sáng phía xa](/assets/img/illustrations/khung-trong-khung.svg)
+<p class="text-muted">Nguyên lý: vùng khung cửa/mái vòm tối bao quanh,
+công trình chính nằm trong vùng sáng chính giữa.</p>
+
 ![Chụp Taj Mahal qua khung cổng vòm - kỹ thuật \"khung trong khung\"](/assets/img/extra-khung-cua.jpg)
-<p class="text-muted">Ví dụ: đứng trong 1 cổng/mái vòm tối, chụp công
-trình chính sáng rõ ở giữa khung - vừa có khung, vừa có độ sâu.</p>
+<p class="text-muted">Ví dụ ảnh thật: đứng trong 1 cổng/mái vòm tối, chụp
+công trình chính sáng rõ ở giữa khung - vừa có khung, vừa có độ sâu.</p>
 
 ### 2. Chụp cận chi tiết chạm khắc, hoa văn
 

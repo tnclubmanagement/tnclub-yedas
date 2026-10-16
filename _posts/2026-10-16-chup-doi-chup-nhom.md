@@ -15,6 +15,10 @@ Xếp cả nhóm đứng thành 1 hàng ngang bằng vai nhau trông khá cứng
 thẻ". Thử để 1-2 người đứng lùi lại phía sau 1 chút, hoặc người cao/thấp
 xen kẽ nhau - bố cục sẽ tự nhiên và có chiều sâu hơn nhiều.
 
+![So sánh đứng thẳng hàng ngang cứng nhắc và so le vị trí/chiều cao tự nhiên hơn](/assets/img/illustrations/xep-dang-nhom.svg)
+<p class="text-muted">So le vị trí (người lùi sau, người tiến trước, cao
+thấp xen kẽ) giúp bố cục mềm mại và có chiều sâu hơn đứng thẳng hàng.</p>
+
 ### 2. Chụp đôi: không nhất thiết phải quay mặt thẳng vào máy
 
 Một người quay mặt vào máy, người còn lại quay nghiêng nhìn về phía bạn

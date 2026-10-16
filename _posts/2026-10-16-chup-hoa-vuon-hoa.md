@@ -23,6 +23,10 @@ mờ.
 "tầm thường". Ngồi/cúi xuống để ống kính ngang tầm bông hoa - góc nhìn lạ
 hơn, hậu cảnh phía sau cũng dễ mờ đi tự nhiên hơn vì khoảng cách xa dần.
 
+![So sánh: đứng chụp từ trên xuống làm hoa bé tí, hạ thấp máy ngang tầm hoa giúp hoa to rõ + nền mờ](/assets/img/illustrations/goc-thap-chup-hoa.svg)
+<p class="text-muted">Đứng thẳng nhìn xuống (trái) hoa bé tí, lọt thỏm;
+hạ máy ngang tầm hoa (phải) hoa to rõ, nền phía sau tự mờ vì xa máy hơn.</p>
+
 ### 3. Chụp ngược sáng (backlight) để lá/cánh hoa "phát sáng"
 
 Buổi sáng sớm hoặc chiều muộn, thử đứng sao cho ánh nắng chiếu từ phía sau

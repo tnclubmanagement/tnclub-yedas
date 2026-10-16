@@ -23,6 +23,11 @@ sau rất dễ bị "cháy" trắng/mất chi tiết màu. Thay vào đó, chạ
 VÙNG BẦU TRỜI SÁNG NHẤT gần mặt trời - cảnh vật phía trước sẽ tối hẳn thành
 silhouette (chỉ còn đường viền đen), tạo hiệu ứng rất ấn tượng.
 
+![So sánh chạm đo sáng vào người (trời cháy trắng) và chạm vào vùng sáng gần mặt trời (cảnh vật thành bóng đen)](/assets/img/illustrations/do-sang-hoang-hon.svg)
+<p class="text-muted">Chạm đúng vùng sáng gần mặt trời giữ được màu trời,
+đổi lại cảnh vật phía trước thành bóng đen (silhouette) - hiệu ứng mong
+muốn.</p>
+
 ### 3. Tìm 1 chủ thể rõ hình để làm silhouette
 
 Silhouette đẹp cần chủ thể có đường viền RÕ RÀNG, dễ nhận ra: dáng người

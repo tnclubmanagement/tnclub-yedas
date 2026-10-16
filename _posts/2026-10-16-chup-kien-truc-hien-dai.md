@@ -17,12 +17,22 @@ thể dùng làm "đường dẫn" hướng mắt người xem từ cạnh khung
 thể chính. Đứng sao cho các đường này chạy chéo vào trong ảnh thay vì cắt
 ngang giữa khung hình.
 
+![Sơ đồ đường dẫn hội tụ: đứng giữa 2 dãy nhà, các đường dẫn chéo về 1 điểm hội tụ ở xa](/assets/img/illustrations/duong-dan-kien-truc.svg)
+<p class="text-muted">Đứng ngay chính giữa con đường/dãy nhà - 2 bên tự
+tạo thành đường dẫn chéo hội tụ về 1 điểm phía xa, kéo mắt người xem vào
+chủ thể.</p>
+
 ### 2. Căn thẳng các đường dọc - tránh toà nhà bị "đổ nghiêng"
 
 Chụp toà nhà cao từ dưới lên rất dễ bị các cạnh dọc nghiêng vào trong
 (hiệu ứng phối cảnh). Nếu không cố ý lấy hiệu ứng này, hãy lùi xa thêm một
 chút và giữ điện thoại thẳng đứng (dùng đường lưới dọc làm chuẩn) thay vì
 ngửa máy lên cao.
+
+![So sánh: ngửa máy lên cao làm toà nhà nghiêng vào trong, giữ máy thẳng đứng giúp cạnh toà nhà song song](/assets/img/illustrations/doc-thang-toa-nha.svg)
+<p class="text-muted">Ngửa máy lên cao (trái) làm 2 cạnh toà nhà "đổ" vào
+nhau; lùi xa + giữ máy thẳng đứng (phải) giữ cạnh toà nhà song song tự
+nhiên.</p>
 
 ### 3. Chụp phản chiếu trên mặt kính/vũng nước
 

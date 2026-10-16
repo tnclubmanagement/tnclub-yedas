@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <!-- Chia 2 khung SAI / DUNG -->
+  <rect x="24" y="24" width="360" height="372" rx="16" fill="#FDECEC"/>
+  <rect x="416" y="24" width="360" height="372" rx="16" fill="#E9F9F2"/>
+
+  <text x="204" y="60" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#D14343" text-anchor="middle">✗ Ngửa máy lên cao</text>
+  <text x="596" y="60" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E9E6B" text-anchor="middle">✓ Giữ máy thẳng đứng</text>
+
+  <!-- Toa nha SAI: canh doc nghieng vao trong (hieu ung keystone) -->
+  <polygon points="150,340 258,340 238,100 170,100" fill="#7E9CB2"/>
+  <g fill="#CFE6FF" opacity="0.85">
+    <rect x="182" y="130" width="16" height="16" transform="skewX(-3)"/>
+    <rect x="210" y="128" width="16" height="16" transform="skewX(-3)"/>
+    <rect x="180" y="165" width="16" height="16" transform="skewX(-3)"/>
+    <rect x="207" y="163" width="16" height="16" transform="skewX(-3)"/>
+    <rect x="178" y="200" width="16" height="16" transform="skewX(-3)"/>
+    <rect x="204" y="198" width="16" height="16" transform="skewX(-3)"/>
+  </g>
+  <!-- duong gioi han the hien do nghieng -->
+  <line x1="150" y1="340" x2="170" y2="100" stroke="#D14343" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <line x1="258" y1="340" x2="238" y2="100" stroke="#D14343" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <!-- Dien thoai ngua len (sai) -->
+  <g transform="translate(204,370) rotate(-25)">
+    <rect x="-16" y="-32" width="32" height="64" rx="7" fill="#1D1D1F"/>
+    <rect x="-11" y="-26" width="22" height="48" rx="3" fill="#D14343"/>
+  </g>
+
+  <!-- Toa nha DUNG: canh doc thang song song -->
+  <rect x="540" y="100" width="92" height="240" fill="#7E9CB2"/>
+  <g fill="#CFE6FF" opacity="0.85">
+    <rect x="556" y="130" width="16" height="16"/>
+    <rect x="584" y="130" width="16" height="16"/>
+    <rect x="556" y="165" width="16" height="16"/>
+    <rect x="584" y="165" width="16" height="16"/>
+    <rect x="556" y="200" width="16" height="16"/>
+    <rect x="584" y="200" width="16" height="16"/>
+  </g>
+  <line x1="540" y1="340" x2="540" y2="100" stroke="#1E9E6B" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <line x1="632" y1="340" x2="632" y2="100" stroke="#1E9E6B" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <!-- Dien thoai giu thang (dung) -->
+  <g transform="translate(586,370)">
+    <rect x="-16" y="-32" width="32" height="64" rx="7" fill="#1D1D1F"/>
+    <rect x="-11" y="-26" width="22" height="48" rx="3" fill="#1E9E6B"/>
+  </g>
+</svg>

@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-01 00:00:00 +0700"
 title: "Chụp gấu trúc ở công viên Chengdu: 4 mẹo cho người mới"
 subtitle: "Từ chọn giờ đến cách tránh hàng rào/đông người"
-cover-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=400&q=70"
+cover-img: "/posts/2026/11/01/chup-gau-truc-chengdu/cover.jpg"
+thumbnail-img: "/posts/2026/11/01/chup-gau-truc-chengdu/cover.jpg"
 tags: [Động vật, Du lịch, Bố cục]
 ---
 

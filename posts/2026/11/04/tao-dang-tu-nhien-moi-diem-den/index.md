@@ -57,6 +57,9 @@ Chạm nhẹ vào tường gạch, cầm lan can, ngồi bệt trên thảm cỏ
 một góc phố, hoặc cười với người đi đường. Tương tác giúp bạn quên máy ảnh và
 thả lỏng, người xem cũng cảm nhận được không khí của địa điểm.
 
+![Cười nói với người địa phương hoặc chạm nhẹ vào bức tường](m5-tuong-tac.jpg)
+<p class="text-muted">Một cử chỉ tự nhiên với người xung quanh hoặc vật thể gần đó — không cần nhìn thẳng máy.</p>
+
 ### 6. Biểu cảm khuôn mặt thả lỏng
 
 Không cần cười toe toét. Nhìn xa, nhắm mắt hít thở, cười nhẹ, hoặc giữ vẻ mặt

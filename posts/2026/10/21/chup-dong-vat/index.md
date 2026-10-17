@@ -23,6 +23,9 @@ có cảm giác gần gũi, "nhìn vào mắt nhau" thay vì xa cách.
 <p class="text-muted">Ngang tầm mắt (phải) tạo cảm giác gần gũi, "nhìn
 vào mắt nhau" - khác hẳn góc nhìn từ trên xuống quen thuộc mỗi ngày.</p>
 
+![Ngồi xuống để ống kính ngang tầm mắt thú cưng](m1-ngang-tam-mat.jpg)
+<p class="text-muted">Ngồi xuống cỏ, hạ máy ngang tầm mắt con vật — ảnh sẽ gần gũi và "có hồn" hơn.</p>
+
 ### 2. Dùng chế độ chụp liên tiếp (burst)
 
 Động vật đổi tư thế/biểu cảm liên tục chỉ trong vài giây. Giữ nút chụp

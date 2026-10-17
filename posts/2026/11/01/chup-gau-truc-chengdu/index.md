@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-01 00:00:00 +0700"
 title: "Chụp gấu trúc ở công viên Chengdu: 4 mẹo cho người mới"
 subtitle: "Từ chọn giờ đến cách tránh hàng rào/đông người"
-cover-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=400&q=70"
+cover-img: "https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp"
+thumbnail-img: "https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp"
 tags: [dong-vat, du-lich, bo-cuc]
 ---
 

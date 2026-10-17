@@ -1,6 +1,6 @@
 #!/bin/bash
 # Chạy thử trang trên máy. Dùng: ./serve.sh
-# Mở http://localhost:4000 sau khi thấy "Server running..."
+# Mở http://localhost:4000/tnclub-yedas/ sau khi thấy "Server running..."
 
 set -e
 export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
@@ -15,4 +15,4 @@ fi
 
 bundle check >/dev/null 2>&1 || bundle install
 
-bundle exec jekyll serve --future --baseurl "" --livereload
+bundle exec jekyll serve --future --baseurl "/tnclub-yedas" --livereload

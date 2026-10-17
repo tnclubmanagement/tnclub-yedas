@@ -63,5 +63,39 @@
     document.querySelectorAll(".posts-list li.post-preview").forEach(function (li, i) {
       li.style.transitionDelay = Math.min(i * 80, 320) + "ms";
     });
+
+    // Toggle so sánh trước/sau trong bài viết.
+    initBeforeAfterToggles();
   });
+
+  function initBeforeAfterToggles() {
+    document.querySelectorAll("[data-ba-toggle]").forEach(function (toggle) {
+      var img = toggle.querySelector("img");
+      var caption = toggle.querySelector(".ba-caption");
+      var buttons = toggle.querySelectorAll(".ba-btn");
+
+      function setMode(btn) {
+        var mode = btn.dataset.mode;
+        var captions = {
+          before: img.dataset.beforeCaption || "",
+          after: img.dataset.afterCaption || "",
+          compare: img.dataset.compareCaption || ""
+        };
+
+        img.src = img.dataset[mode] || img.dataset.before;
+        if (caption) caption.textContent = captions[mode] || "";
+
+        buttons.forEach(function (b) {
+          b.classList.remove("is-active");
+          b.setAttribute("aria-pressed", "false");
+        });
+        btn.classList.add("is-active");
+        btn.setAttribute("aria-pressed", "true");
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () { setMode(btn); });
+      });
+    });
+  }
 })();

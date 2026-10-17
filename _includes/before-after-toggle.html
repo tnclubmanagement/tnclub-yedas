@@ -1,0 +1,23 @@
+<div class="ba-toggle" data-ba-toggle>
+  <div class="ba-buttons" role="group" aria-label="So sánh trước và sau">
+    <button type="button" class="ba-btn is-active" data-mode="before" aria-pressed="true">{{ include.before_label | default: "Trước" }}</button>
+    <button type="button" class="ba-btn" data-mode="after" aria-pressed="false">{{ include.after_label | default: "Sau" }}</button>
+    {% if include.compare %}
+    <button type="button" class="ba-btn" data-mode="compare" aria-pressed="false">{{ include.compare_label | default: "So sánh" }}</button>
+    {% endif %}
+  </div>
+
+  <figure class="ba-frame">
+    <img
+      src="{{ include.before | relative_url }}"
+      alt="{{ include.alt }}"
+      data-before="{{ include.before | relative_url }}"
+      data-after="{{ include.after | relative_url }}"
+      {% if include.compare %}data-compare="{{ include.compare | relative_url }}"{% endif %}
+      data-before-caption="{{ include.before_caption }}"
+      data-after-caption="{{ include.after_caption }}"
+      {% if include.compare %}data-compare-caption="{{ include.compare_caption }}"{% endif %}
+    />
+    <figcaption class="ba-caption">{{ include.before_caption }}</figcaption>
+  </figure>
+</div>

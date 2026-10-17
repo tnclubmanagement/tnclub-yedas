@@ -6,7 +6,7 @@ title: "Chụp thú cưng/động vật nét căng, không bị nhoè"
 subtitle: "Mẹo hạ máy ngang tầm mắt + bắt khoảnh khắc bằng chụp liên tiếp"
 cover-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
 thumbnail-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
-tags: [dong-vat, bo-cuc]
+tags: [Động vật, Bố cục]
 ---
 
 Động vật (thú cưng, chim, vật nuôi...) luôn di chuyển bất ngờ, lại thêm

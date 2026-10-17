@@ -6,7 +6,7 @@ title: "Mẹo chụp hình tượng to lớn: Lạc Sơn Đại Phật"
 subtitle: "Làm sao để chụp tượng Phật 71m cao ấn tượng bằng điện thoại"
 cover-img: "https://ak-d.tripcdn.com/images/0100612000ikktqugFE55_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip"
 thumbnail-img: "https://ak-d.tripcdn.com/images/0100612000ikktqugFE55_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip"
-tags: [du-lich, lac-son-dai-phat, tuong-lon, bo-cuc, huong-dan]
+tags: [Du lịch, Lạc Sơn Đại Phật, Tượng lớn, Bố cục, Hướng dẫn]
 ---
 
 Lạc Sơn Đại Phật là tượng Phật bằng đá cao 71m, ngồi nhìn ra nơi hợp lưu của ba

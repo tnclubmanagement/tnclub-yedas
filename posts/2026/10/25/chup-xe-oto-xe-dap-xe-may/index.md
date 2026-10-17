@@ -6,7 +6,7 @@ title: "Chụp xe hơi, xe đạp, xe máy \"có hồn\" hơn là đứng yên c
 subtitle: "Mẹo chọn góc 3/4, hậu cảnh, và chụp panning tạo chuyển động"
 cover-img: "/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/cover-oto.jpg"
 thumbnail-img: "/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/cover-oto.jpg"
-tags: [phuong-tien, bo-cuc]
+tags: [Phương tiện, Bố cục]
 ---
 
 Chụp thẳng mặt trước/mặt bên xe (như ảnh catalogue) thường khá nhàm chán.

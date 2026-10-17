@@ -6,7 +6,7 @@ title: "Chụp biển đẹp hơn: sóng, cát, và đường chân trời"
 subtitle: "Mẹo giữ đường chân trời thẳng + bắt khoảnh khắc sóng vỗ"
 cover-img: "/posts/2026/10/07/chup-bien/cover-bien.jpg"
 thumbnail-img: "/posts/2026/10/07/chup-bien/cover-bien.jpg"
-tags: [thien-nhien, bo-cuc, bien]
+tags: [Thiên nhiên, Bố cục, Biển]
 ---
 
 Biển là chủ đề quen thuộc nhưng rất dễ chụp hỏng vì 2 lỗi phổ biến: đường

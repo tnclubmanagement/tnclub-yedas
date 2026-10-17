@@ -6,7 +6,7 @@ title: "Chụp cầu thang, con dốc: tận dụng đường nét lặp lại"
 subtitle: "Mẹo tìm góc đối xứng/xoáy tâm cho ảnh \"ảo diệu\""
 cover-img: "/posts/2026/10/04/chup-cau-thang-con-doc/cover-cauthang.jpg"
 thumbnail-img: "/posts/2026/10/04/chup-cau-thang-con-doc/cover-cauthang.jpg"
-tags: [bo-cuc, kien-truc]
+tags: [Bố cục, Kiến trúc]
 ---
 
 Cầu thang xoắn ốc, con dốc dài hun hút là chủ đề cực kỳ hợp để luyện mắt

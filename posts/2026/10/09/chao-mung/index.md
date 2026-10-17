@@ -6,7 +6,7 @@ title: "Chào mừng đến với Mẹo Chụp Ảnh Yedas"
 subtitle: "Nơi lưu lại các mẹo chụp ảnh dễ áp dụng bằng điện thoại"
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"
-tags: [gioi-thieu]
+tags: [Giới thiệu]
 ---
 
 Đây là bài viết đầu tiên. Từ giờ, mỗi mẹo chụp ảnh đơn giản mình đúc kết

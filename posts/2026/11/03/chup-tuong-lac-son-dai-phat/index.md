@@ -66,4 +66,7 @@ Thay vào đó, hãy tận dụng:
   nền trời.
 - **Tránh giữa trưa**: nếu nắng lọt qua khe, bóng sẽ rất cứng và chia đôi tượng.
 
+![Góc nhìn khác về Lạc Sơn Đại Phật](https://ak-d.tripcdn.com/images/010081200048m5tgw5BAD_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip)
+<p class="text-muted">Tượng Phật nằm trong vách núi, dù ánh sáng không rực rỡ vẫn có thể tận dụng nền trời, cây cối hoặc sương mù để tạo khung hình ấn tượng.</p>
+
 Chúc bạn có những tấm ảnh Lạc Sơn Đại Phật thật ấn tượng!

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <marker id="arrowPink" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#FF7A8A"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4AD6A8"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <!-- Bau troi -->
+  <rect x="24" y="24" width="752" height="250" rx="12" fill="#CFE6FF"/>
+
+  <!-- Toa nha ben trai: 3 khoi nho dan ve diem tu, co o cua so -->
+  <g fill="#7E9CB2">
+    <rect x="40" y="100" width="90" height="174" rx="4"/>
+    <rect x="150" y="150" width="60" height="124" rx="3"/>
+    <rect x="230" y="190" width="38" height="84" rx="2"/>
+  </g>
+  <g fill="#CFE6FF" opacity="0.8">
+    <rect x="52" y="116" width="14" height="14"/>
+    <rect x="76" y="116" width="14" height="14"/>
+    <rect x="100" y="116" width="14" height="14"/>
+    <rect x="52" y="144" width="14" height="14"/>
+    <rect x="76" y="144" width="14" height="14"/>
+    <rect x="100" y="144" width="14" height="14"/>
+    <rect x="160" y="162" width="10" height="10"/>
+    <rect x="178" y="162" width="10" height="10"/>
+    <rect x="160" y="182" width="10" height="10"/>
+    <rect x="178" y="182" width="10" height="10"/>
+  </g>
+
+  <!-- Toa nha ben phai: doi xung -->
+  <g fill="#7E9CB2">
+    <rect x="670" y="100" width="90" height="174" rx="4"/>
+    <rect x="590" y="150" width="60" height="124" rx="3"/>
+    <rect x="532" y="190" width="38" height="84" rx="2"/>
+  </g>
+  <g fill="#CFE6FF" opacity="0.8">
+    <rect x="734" y="116" width="14" height="14"/>
+    <rect x="710" y="116" width="14" height="14"/>
+    <rect x="686" y="116" width="14" height="14"/>
+    <rect x="734" y="144" width="14" height="14"/>
+    <rect x="710" y="144" width="14" height="14"/>
+    <rect x="686" y="144" width="14" height="14"/>
+    <rect x="630" y="162" width="10" height="10"/>
+    <rect x="612" y="162" width="10" height="10"/>
+    <rect x="630" y="182" width="10" height="10"/>
+    <rect x="612" y="182" width="10" height="10"/>
+  </g>
+
+  <!-- Mat duong -->
+  <rect x="24" y="274" width="752" height="152" fill="#B9BEC7"/>
+  <polygon points="24,274 268,274 300,426 24,426" fill="#D8DCE2"/>
+  <polygon points="776,274 532,274 500,426 776,426" fill="#D8DCE2"/>
+
+  <!-- Duong dan hoi tu ve diem tu, dung NGAN truoc diem tu de mui ten
+       khong chong len vong tron - nhin ro rang hon -->
+  <line x1="60" y1="420" x2="355" y2="236" stroke="#FF7A8A" stroke-width="3.5" stroke-dasharray="12 8" marker-end="url(#arrowPink)"/>
+  <line x1="740" y1="420" x2="445" y2="236" stroke="#FF7A8A" stroke-width="3.5" stroke-dasharray="12 8" marker-end="url(#arrowPink)"/>
+  <line x1="400" y1="420" x2="400" y2="245" stroke="#4AD6A8" stroke-width="3.5" stroke-dasharray="10 6" marker-end="url(#arrowGreen)"/>
+
+  <!-- Diem hoi tu -->
+  <circle cx="400" cy="200" r="9" fill="#5AA9FF" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="400" cy="200" r="16" fill="none" stroke="#5AA9FF" stroke-width="1.5" opacity="0.5"/>
+  <text x="400" y="172" font-family="Arial, sans-serif" font-size="16" fill="#1D1D1F" text-anchor="middle" font-weight="bold">Điểm hội tụ</text>
+
+  <!-- Nguoi dung tai vi tri chup -->
+  <g transform="translate(400,410)">
+    <circle cx="0" cy="-34" r="12" fill="#F0C9A0"/>
+    <rect x="-13" y="-22" width="26" height="36" rx="8" fill="#1D1D1F"/>
+  </g>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="14" fill="#1D1D1F" text-anchor="middle">Đứng giữa 2 đường dẫn</text>
+</svg>

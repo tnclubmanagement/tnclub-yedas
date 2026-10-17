@@ -1,4 +1,7 @@
 ---
+draft: true
+layout: post
+date: "2026-10-09 00:00:00 +0700"
 title: "Chào mừng đến với Mẹo Chụp Ảnh Yedas"
 subtitle: "Nơi lưu lại các mẹo chụp ảnh dễ áp dụng bằng điện thoại"
 cover-img: "/assets/img/hero-2.jpg"

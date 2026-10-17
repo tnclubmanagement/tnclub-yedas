@@ -1,9 +1,12 @@
 ---
+draft: true
+layout: post
+date: "2026-10-12 00:00:00 +0700"
 title: "Chụp ảnh thiếu sáng/ban đêm bằng điện thoại sao cho đỡ nhoè?"
 subtitle: "3 mẹo đơn giản, không cần app chỉnh sửa phức tạp"
-cover-img: "/assets/img/cover-1.jpg"
-thumbnail-img: "/assets/img/cover-1.jpg"
-tags: [anh-sang, ban-dem]
+cover-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
+thumbnail-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
+tags: [anh-sang, ban-dem, dien-thoai]
 ---
 
 Chụp thiếu sáng là tình huống dễ bị "cháy" hoặc nhoè ảnh nhất với điện
@@ -16,7 +19,7 @@ Thiếu sáng khiến máy tự kéo dài thời gian phơi sáng (chụp lâu h
 cần tay rung nhẹ là ảnh mờ ngay. Tì khuỷu tay vào bàn/tường, hoặc đặt máy
 lên vật cố định (ghế, lan can...) trước khi bấm chụp.
 
-![Sơ đồ: tì khuỷu tay vào tường, chạm vào điểm sáng để đo sáng lại](/assets/img/illustrations/giu-may-vung.svg)
+![Sơ đồ: tì khuỷu tay vào tường, chạm vào điểm sáng để đo sáng lại](/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung.svg)
 <p class="text-muted">Tì khuỷu tay vào điểm tựa cố định + chạm vào vùng
 sáng (đèn, lửa...) để máy đo sáng đúng chỗ.</p>
 

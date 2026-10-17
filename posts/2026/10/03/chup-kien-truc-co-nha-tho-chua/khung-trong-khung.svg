@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <!-- Nen toi: dung trong cong/mai vom toi -->
+  <rect x="24" y="24" width="752" height="372" rx="16" fill="#2B2B45"/>
+
+  <!-- O sang o giua: canh ben ngoai qua khung cua -->
+  <rect x="240" y="80" width="320" height="300" rx="8" fill="#CFE6FF"/>
+
+  <!-- Nui/dat phia xa trong khung sang -->
+  <polygon points="240,300 360,210 440,260 560,190 560,380 240,380" fill="#9FB7C9"/>
+  <!-- Ngoi chua nho trong khung sang -->
+  <g transform="translate(400,250)">
+    <polygon points="-40,60 40,60 40,10 0,-30 -40,10" fill="#D98A4A"/>
+    <polygon points="-48,10 0,-38 48,10" fill="#B5651D"/>
+    <rect x="-8" y="30" width="16" height="30" fill="#7E5A3A"/>
+  </g>
+  <!-- Mat troi nho -->
+  <circle cx="500" cy="120" r="22" fill="#FFC770"/>
+
+  <!-- Vien khung cua (toi, tao cam giac dang dung trong khung nhin ra) -->
+  <!-- da ve bang nen toi bao quanh o sang nen khong can ve them -->
+
+  <!-- Nguoi dung trong bong toi, ben trai khung cua -->
+  <g transform="translate(140,300)">
+    <circle cx="0" cy="-40" r="16" fill="#F0C9A0"/>
+    <rect x="-16" y="-24" width="32" height="56" rx="10" fill="#FF7A8A"/>
+  </g>
+  <!-- May anh gio len -->
+  <g transform="translate(168,250) rotate(-10)">
+    <rect x="-14" y="-10" width="28" height="20" rx="4" fill="#1D1D1F"/>
+    <circle cx="6" cy="0" r="7" fill="#5AA9FF"/>
+  </g>
+
+  <!-- Duong ngam tu may qua khung cua toi chua -->
+  <line x1="180" y1="248" x2="400" y2="250" stroke="#4AD6A8" stroke-width="3" stroke-dasharray="10 7"/>
+
+  <text x="400" y="408" font-family="Arial, sans-serif" font-size="16" fill="#1D1D1F" text-anchor="middle" font-weight="bold">Đứng trong khung tối, chụp cảnh sáng phía xa</text>
+</svg>

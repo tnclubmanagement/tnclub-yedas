@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <!-- Nhin tu tren xuong: cac vong tron dong tam the hien bac thang xoay oc -->
+  <g transform="translate(400,210)">
+    <circle r="180" fill="#9FB7C9"/>
+    <circle r="155" fill="#EEF1F6"/>
+    <circle r="132" fill="#9FB7C9"/>
+    <circle r="108" fill="#EEF1F6"/>
+    <circle r="85" fill="#9FB7C9"/>
+    <circle r="62" fill="#EEF1F6"/>
+    <circle r="40" fill="#7E9CB2"/>
+
+    <!-- Duong xoay oc nho de the hien huong bac thang -->
+    <path d="M 0,-180 A 180,180 0 0 1 180,0" fill="none" stroke="#5A6B7A" stroke-width="2" opacity="0.5"/>
+    <path d="M 0,-132 A 132,132 0 0 1 132,0" fill="none" stroke="#5A6B7A" stroke-width="2" opacity="0.5"/>
+    <path d="M 0,-85 A 85,85 0 0 1 85,0" fill="none" stroke="#5A6B7A" stroke-width="2" opacity="0.5"/>
+
+    <!-- May anh dat chinh giua, chia thang xuong -->
+    <circle r="22" fill="#1D1D1F"/>
+    <circle r="12" fill="#5AA9FF"/>
+    <circle r="4" fill="#ffffff"/>
+  </g>
+
+  <!-- Mui ten doi xung tu tam ra 4 huong, the hien can giua khung hinh -->
+  <g stroke="#FF7A8A" stroke-width="2.5" stroke-dasharray="6 5">
+    <line x1="400" y1="20" x2="400" y2="188"/>
+    <line x1="400" y1="232" x2="400" y2="400"/>
+    <line x1="210" y1="210" x2="378" y2="210"/>
+    <line x1="422" y1="210" x2="590" y2="210"/>
+  </g>
+
+  <text x="400" y="408" font-family="Arial, sans-serif" font-size="15" fill="#1D1D1F" text-anchor="middle" font-weight="bold">Đứng đúng tâm, giữ máy song song mặt sàn</text>
+</svg>

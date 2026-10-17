@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <rect x="24" y="24" width="360" height="372" rx="16" fill="#FDECEC"/>
+  <rect x="416" y="24" width="360" height="372" rx="16" fill="#E9F9F2"/>
+
+  <text x="204" y="56" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#D14343" text-anchor="middle">✗ Chân trời bị nghiêng</text>
+  <text x="596" y="56" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#1E9E6B" text-anchor="middle">✓ Chân trời thẳng</text>
+
+  <!-- Panel trai: bien+troi nghieng -->
+  <g transform="rotate(-7 204 240)">
+    <rect x="54" y="90" width="300" height="200" fill="#CFE6FF"/>
+    <rect x="54" y="190" width="300" height="100" fill="#4F8FC7"/>
+  </g>
+  <!-- duong tham chieu ngang (de thay do nghieng) -->
+  <line x1="54" y1="230" x2="354" y2="230" stroke="#D14343" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Panel phai: bien+troi thang -->
+  <rect x="436" y="90" width="300" height="140" fill="#CFE6FF"/>
+  <rect x="436" y="230" width="300" height="60" fill="#4F8FC7"/>
+  <line x1="436" y1="230" x2="736" y2="230" stroke="#1E9E6B" stroke-width="3"/>
+
+  <!-- Cat o duoi ca 2 ben -->
+  <rect x="54" y="290" width="300" height="60" fill="#E8D3A8"/>
+  <rect x="436" y="290" width="300" height="60" fill="#E8D3A8"/>
+
+  <text x="204" y="378" font-family="Arial, sans-serif" font-size="14" fill="#D14343" text-anchor="middle">Dễ nhận ra, mất cân đối</text>
+  <text x="596" y="378" font-family="Arial, sans-serif" font-size="14" fill="#1E9E6B" text-anchor="middle">Dùng lưới/level để canh chuẩn</text>
+</svg>

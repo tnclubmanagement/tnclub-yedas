@@ -1,8 +1,11 @@
 ---
+draft: true
+layout: post
+date: "2026-10-30 00:00:00 +0700"
 title: "Chọn hậu cảnh đơn giản để ảnh chân dung \"nịnh mắt\" hơn"
 subtitle: "Không cần phông nền studio, chỉ cần 1 bức tường"
-cover-img: "/assets/img/cover-2.jpg"
-thumbnail-img: "/assets/img/cover-2.jpg"
+cover-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/cover-2.jpg"
+thumbnail-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/cover-2.jpg"
 tags: [chan-dung, bo-cuc]
 ---
 
@@ -25,7 +28,7 @@ thẳng vào gương mặt/dáng đứng của người được chụp.
 3. Chụp vào lúc trời có nắng dịu hoặc trong bóng râm — tránh nắng gắt buổi
    trưa làm đổ bóng cứng trên mặt.
 
-![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1.5m, điện thoại chụp từ xa hơn](/assets/img/illustrations/khoang-cach-chan-dung.svg)
+![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1.5m, điện thoại chụp từ xa hơn](/posts/2026/10/30/hau-canh-don-gian-chan-dung/khoang-cach-chan-dung.svg)
 <p class="text-muted">Nhìn từ trên xuống: cách tường 1-1.5m giúp nền hơi
 mờ, tách lớp rõ với chủ thể.</p>
 

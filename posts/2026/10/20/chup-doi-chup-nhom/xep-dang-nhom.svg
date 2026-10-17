@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" rx="24" fill="#EEF1F6"/>
+
+  <rect x="24" y="24" width="360" height="372" rx="16" fill="#FDECEC"/>
+  <rect x="416" y="24" width="360" height="372" rx="16" fill="#E9F9F2"/>
+
+  <text x="204" y="56" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#D14343" text-anchor="middle">✗ Đứng thẳng hàng ngang</text>
+  <text x="596" y="56" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1E9E6B" text-anchor="middle">✓ So le vị trí/chiều cao</text>
+
+  <!-- Panel trai: 3 nguoi thang hang, cung do cao -->
+  <g>
+    <line x1="60" y1="330" x2="350" y2="330" stroke="#9AA3AE" stroke-width="3"/>
+    <g transform="translate(130,330)">
+      <circle cx="0" cy="-90" r="18" fill="#F0C9A0"/>
+      <rect x="-18" y="-72" width="36" height="72" rx="10" fill="#D14343"/>
+    </g>
+    <g transform="translate(205,330)">
+      <circle cx="0" cy="-90" r="18" fill="#F0C9A0"/>
+      <rect x="-18" y="-72" width="36" height="72" rx="10" fill="#FF7A8A"/>
+    </g>
+    <g transform="translate(280,330)">
+      <circle cx="0" cy="-90" r="18" fill="#F0C9A0"/>
+      <rect x="-18" y="-72" width="36" height="72" rx="10" fill="#D14343"/>
+    </g>
+    <line x1="112" y1="240" x2="298" y2="240" stroke="#D14343" stroke-width="2" stroke-dasharray="5 5"/>
+  </g>
+
+  <!-- Panel phai: 3 nguoi so le chieu sau + chieu cao -->
+  <g>
+    <line x1="440" y1="330" x2="760" y2="330" stroke="#9AA3AE" stroke-width="3"/>
+    <!-- nguoi lui ve sau, nho hon -->
+    <g transform="translate(500,310) scale(0.85)">
+      <circle cx="0" cy="-90" r="18" fill="#F0C9A0"/>
+      <rect x="-18" y="-72" width="36" height="72" rx="10" fill="#1E9E6B"/>
+    </g>
+    <!-- nguoi dung giua, phia truoc hon -->
+    <g transform="translate(600,345)">
+      <circle cx="0" cy="-95" r="19" fill="#F0C9A0"/>
+      <rect x="-19" y="-76" width="38" height="76" rx="10" fill="#4AD6A8"/>
+    </g>
+    <!-- nguoi ngoi/thap hon -->
+    <g transform="translate(690,330) scale(0.75)">
+      <circle cx="0" cy="-90" r="18" fill="#F0C9A0"/>
+      <rect x="-18" y="-60" width="36" height="60" rx="10" fill="#1E9E6B"/>
+    </g>
+    <path d="M 480,235 Q 600,200 712,260" fill="none" stroke="#1E9E6B" stroke-width="2" stroke-dasharray="5 5"/>
+  </g>
+</svg>

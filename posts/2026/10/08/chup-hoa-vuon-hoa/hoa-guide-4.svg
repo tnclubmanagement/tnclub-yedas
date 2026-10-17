@@ -1,0 +1,42 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" width="1200" height="800">
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  <text x="600" y="60" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#1d1d1f">Mẹo 4: Bật chế độ Chân dung để làm mờ hậu cảnh</text>
+
+  <!-- Background blurred flowers -->
+  <circle cx="300" cy="400" r="70" fill="#ff9e80" opacity="0.25" filter="url(#blur)"/>
+  <circle cx="900" cy="300" r="80" fill="#ff9e80" opacity="0.2" filter="url(#blur)"/>
+  <circle cx="250" cy="600" r="60" fill="#ff9e80" opacity="0.15" filter="url(#blur)"/>
+  <circle cx="950" cy="600" r="75" fill="#ff9e80" opacity="0.2" filter="url(#blur)"/>
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <!-- Main flower in focus -->
+  <g transform="translate(600, 420)">
+    <circle r="100" fill="#ff6b35" opacity="0.95"/>
+    <circle r="40" fill="#1d1d1f" opacity="0.1"/>
+    <circle r="100" fill="none" stroke="#0071e3" stroke-width="4" stroke-dasharray="8 6"/>
+  </g>
+
+  <!-- Phone -->
+  <g transform="translate(140, 260) rotate(10)">
+    <rect x="0" y="0" width="200" height="300" rx="20" fill="#ffffff" stroke="#1d1d1f" stroke-width="6"/>
+    <rect x="16" y="40" width="168" height="220" fill="#f0f7ff"/>
+    <rect x="60" y="210" width="80" height="28" rx="14" fill="#0071e3"/>
+    <text x="100" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#ffffff" font-weight="600">Portrait</text>
+  </g>
+
+  <!-- Steps -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#1d1d1f" transform="translate(820, 300)">
+    <text x="0" y="0" font-weight="600" fill="#0071e3">1.</text>
+    <text x="40" y="0">Bật chế độ Chân dung</text>
+    <text x="0" y="60" font-weight="600" fill="#0071e3">2.</text>
+    <text x="40" y="60">Chọn chủ thể cách nền 1-2m</text>
+    <text x="0" y="120" font-weight="600" fill="#0071e3">3.</text>
+    <text x="40" y="120">Chạm lấy nét, để máy làm mờ phía sau</text>
+  </g>
+
+  <text x="600" y="760" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" fill="#6e6e73">Không cần ống kính xịn, điện thoại cũng tách chủ thể rõ ràng.</text>
+</svg>

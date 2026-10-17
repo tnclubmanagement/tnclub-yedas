@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" width="1200" height="800">
+  <rect width="1200" height="800" fill="#fff7ed"/>
+  <text x="600" y="60" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#1d1d1f">Mẹo 3: Chụp ngược sáng để cánh hoa "phát sáng"</text>
+
+  <!-- Sun behind -->
+  <circle cx="900" cy="250" r="100" fill="#ffb84d" opacity="0.8"/>
+  <g stroke="#ffb84d" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <line x1="900" y1="100" x2="900" y2="60"/>
+    <line x1="900" y1="400" x2="900" y2="440"/>
+    <line x1="750" y1="250" x2="710" y2="250"/>
+    <line x1="1050" y1="250" x2="1090" y2="250"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="680" width="1200" height="120" fill="#d4e4d1"/>
+
+  <!-- Phone in front -->
+  <g transform="translate(300, 480) rotate(-10)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#ffffff" stroke="#1d1d1f" stroke-width="6"/>
+    <rect x="12" y="12" width="156" height="96" fill="#e8f4f8"/>
+  </g>
+
+  <!-- Flower between sun and phone -->
+  <g transform="translate(620, 520)">
+    <line x1="0" y1="180" x2="0" y2="0" stroke="#4a7c59" stroke-width="8" stroke-linecap="round"/>
+    <circle r="75" fill="#ff6b35" opacity="0.85"/>
+    <circle r="30" fill="#1d1d1f" opacity="0.1"/>
+    <!-- Petal glow -->
+    <circle r="90" fill="none" stroke="#ffb84d" stroke-width="3" opacity="0.4"/>
+  </g>
+
+  <!-- Light rays -->
+  <line x1="820" y1="250" x2="680" y2="500" stroke="#ffb84d" stroke-width="4" stroke-linecap="round" opacity="0.4" stroke-dasharray="10 10"/>
+  <line x1="940" y1="260" x2="710" y2="520" stroke="#ffb84d" stroke-width="4" stroke-linecap="round" opacity="0.4" stroke-dasharray="10 10"/>
+
+  <!-- Steps -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" fill="#1d1d1f" transform="translate(150, 260)">
+    <text x="0" y="0" font-weight="600" fill="#0071e3">1.</text>
+    <text x="40" y="0">Chọn buổi sáng sớm hoặc chiều muộn</text>
+    <text x="0" y="60" font-weight="600" fill="#0071e3">2.</text>
+    <text x="40" y="60">Đứng sao cho nắng ở phía sau hoa</text>
+    <text x="0" y="120" font-weight="600" fill="#0071e3">3.</text>
+    <text x="40" y="120">Chạm lấy nét trên cánh hoa để đo sáng</text>
+  </g>
+
+  <text x="600" y="760" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" fill="#6e6e73">Ánh sáng xuyên qua cánh hoa mỏng tạo hiệu ứng trong suốt, rất đẹp.</text>
+</svg>

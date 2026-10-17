@@ -30,6 +30,9 @@ chân duỗi, một chân gập, hai tay đặt lên đầu gối hoặc tựa n
 có túi, mũ, chai nước, hãy cầm hoặc đặt bên cạnh để tạo cảm giác đang nghỉ ngơi
 thật sự.
 
+![Ngồi tự nhiên trên bậc thang đá](m2-ngoi.jpg)
+<p class="text-muted">Một chân duỗi, một chân gập, túi và chai nước đặt bên cạnh — như vừa dừng lại nghỉ chân.</p>
+
 ### 3. Đi lại, quay lưng, nhìn ra xa
 
 Ảnh tĩnh đứng nhìn máy dễ gượng. Thử đi lại chậm vài bước, quay lưng về phía

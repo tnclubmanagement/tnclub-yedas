@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-04 00:00:00 +0700"
 title: "Tạo dáng tự nhiên ở mọi điểm đến: 7 tip chụp đâu cũng đẹp"
 subtitle: "Từ phố cổ, núi rừng đến bờ biển — đứng, ngồi, đi đều có chiêu"
-cover-img: "https://images.unsplash.com/photo-1756473090854-b0f550fb0617?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-1756473090854-b0f550fb0617?w=400&q=70"
+cover-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
+thumbnail-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
 tags: [tao-dang, chan-dung, du-lich, huong-dan]
 ---
 
@@ -13,7 +13,7 @@ Khi đi du lịch, không phải lúc nào bạn cũng có thời gian chuẩn b
 Vài tip dưới đây giúp tạo dáng tự nhiên ở hầu hết mọi địa điểm, từ phố cổ, công
 viên, núi rừng đến bờ biển.
 
-![Người đứng tự nhiên ngoài trời](https://images.unsplash.com/photo-1756473090854-b0f550fb0617?w=1200&q=70)
+![Người đứng tự nhiên ngoài trời](cover.jpg)
 <p class="text-muted">Tạo dáng tự nhiên nhờ tương tác với không gian xung quanh thay vì đứng yên nhìn máy.</p>
 
 ### 1. Đứng nghiêng người, không đứng thẳng đơ

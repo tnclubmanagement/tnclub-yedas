@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-03 00:00:00 +0700"
 title: "Mẹo chụp hình tượng to lớn: Lạc Sơn Đại Phật"
 subtitle: "Làm sao để chụp tượng Phật 71m cao ấn tượng bằng điện thoại"
-cover-img: "https://images.unsplash.com/photo-1766537794462-e7a8ce5c30d7?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-1766537794462-e7a8ce5c30d7?w=400&q=70"
+cover-img: "https://ak-d.tripcdn.com/images/0100612000ikktqugFE55_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip"
+thumbnail-img: "https://ak-d.tripcdn.com/images/0100612000ikktqugFE55_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip"
 tags: [du-lich, lac-son-dai-phat, tuong-lon, bo-cuc, huong-dan]
 ---
 
@@ -13,7 +13,7 @@ Lạc Sơn Đại Phật là tượng Phật bằng đá cao 71m, ngồi nhìn r
 con sông. Đây là một trong những tượng Phật bằng đá lớn nhất thế giới, nên chụp
 sao cho thấy được độ cao và sự trang nghiêm là thử thách thú vị.
 
-![Tượng Phật lớn nhô ra sau tán cây xanh](https://images.unsplash.com/photo-1766537794462-e7a8ce5c30d7?w=1200&q=70)
+![Tượng Phật lớn nhô ra sau tán cây xanh](https://ak-d.tripcdn.com/images/0100612000ikktqugFE55_W_1200_0_R5_Q60.webp?proc=source/trip&proc=source/trip)
 <p class="text-muted">Tượng Phật khổng lồ tạo cảm giác bao la khi được đặt trong khung với cây cối hoặc người đi lại phía trước.</p>
 
 ### 1. Chụp từ dưới lên để thể hiện độ cao

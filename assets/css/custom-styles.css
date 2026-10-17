@@ -188,6 +188,8 @@ body {
   padding-right: 1.5rem !important;
   box-shadow: none;
   min-height: 48px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-custom .navbar-brand {
@@ -219,12 +221,12 @@ body {
    không bám sát lề phải như mặc định Bootstrap `ml-auto`). */
 .navbar-custom .navbar-nav {
   margin-left: auto !important;
-  margin-right: auto !important;
-  align-items: flex-start;
+  margin-right: 0 !important;
+  align-items: center;
 }
 
 .navbar-custom .nav-item {
-  margin: 0 0.9rem;
+  margin: 0 0.55rem;
 }
 
 .navbar-custom .nav-link {
@@ -295,6 +297,24 @@ body {
   padding-left: 1.5rem !important;
   padding-top: 0.6rem !important;
   padding-bottom: 0.6rem !important;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom {
+    padding-left: max(1.5rem, calc((100vw - 1200px) / 2)) !important;
+    padding-right: max(1.5rem, calc((100vw - 1200px) / 2)) !important;
+  }
+
+  .navbar-custom .navbar-collapse {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    padding-left: 0.65rem !important;
+    padding-right: 0.65rem !important;
+    white-space: nowrap;
+  }
 }
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {

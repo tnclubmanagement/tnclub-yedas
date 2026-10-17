@@ -2,45 +2,55 @@
 draft: true
 layout: post
 date: "2026-11-02 00:00:00 +0700"
-title: "Chụp hình đẹp ở CTC: mẹo cho chuyến đi Chengdu"
-subtitle: "Tận dụng sương mù, cây xanh và đèn thành phố"
-cover-img: "https://images.unsplash.com/photo-1693858325816-b7a7c1066838?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-1693858325816-b7a7c1066838?w=400&q=70"
-tags: [du-lich, chengdu, bo-cuc, huong-dan]
+title: "Chụp hình đẹp ở CTC (Cửu Trại Câu): mẹo không thể bỏ qua"
+subtitle: "Tận dụng hồ nước xanh, lá thu và phản chiếu"
+cover-img: "https://images.unsplash.com/photo-Dcr69VX0n_w?w=1200&q=70"
+thumbnail-img: "https://images.unsplash.com/photo-Dcr69VX0n_w?w=400&q=70"
+tags: [du-lich, cuu-trai-cau, bo-cuc, huong-dan]
 ---
 
-CTC (Chengdu — Thành Đô) là điểm đến có cả nét cổ kính lẫn hiện đại, lại hay
-bọc trong lớp sương mù đặc trưng. Với điện thoại, bạn hoàn toàn có thể mang
-về những tấm ảnh "có chất" nếu chú ý vài điểm sau.
+CTC ở đây là **Cửu Trại Câu (Jiuzhaigou)** — thung lũng nổi tiếng với những hồ
+nước xanh ngọc, rừng lá thu rực rỡ và thác nước tầng tầng lớp lớp. Đây sẽ là
+tâm điểm chụp ảnh của chuyến đi, nên cần chuẩn bị trước vài mẹo để không bỏ lỡ
+khoảnh khắc đẹp.
 
-### 1. Dùng sương mù làm nền mơ ảo
+![Hồ nước xanh phản chiếu rừng lá thu ở Cửu Trại Câu](https://images.unsplash.com/photo-Dcr69VX0n_w?w=1200&q=70)
+<p class="text-muted">Hồ nước trong xanh là "gương" tự nhiên — chụp vào sáng sớm khi gió lặng để có phản chiếu rõ nét.</p>
 
-Chengdu không phải lúc nào cũng nắng gắt. Nếu trời mờ sương, đừng thất vọng —
-hãy chụp các tòa nhà, cầu hoặc người đi đường từ xa, để sương làm mờ hậu cảnh.
-Sáng sớm hoặc sau mưa là thời điểm đẹp nhất cho kiểu ảnh này.
+### 1. Sáng sớm = phản chiếu đẹp nhất
 
-### 2. Kết hợp hiện đại và cổ kính trong 1 khung
+Mặt hồ Cửu Trại Câu sáng sớm thường yên ả nhất, biến rừng cây và núi non thành
+bức tranh đối xứng. Đến điểm chụp trước 8h để tránh đông khách và sóng nước bị
+khuấy động. Chụp theo chiều ngang (landscape) để lấy cả phản chiếu hai bên bờ.
 
-Thành phố có nhiều khu như Kuanzhai Xiangzi (Phố Trài), Jinli, cùng các cao ốc
-hiện đại ở Tianfu. Thử đứng ở góc phố cổ, để tòa nhà chọc trời ló ra phía sau —
-sự tương phản "xưa - nay" tạo ảnh thú vị hơn chỉ chụp riêng lẻ từng chỗ.
+### 2. Mùa thu là mùa vàng
 
-### 3. Dùng màu xanh tre/trúc làm nền chân dung
+Cuối tháng 9 đến tháng 10, rừng tùng, phong, bạch dương chuyển vàng, đỏ, cam.
+Tìm điểm có nhiều tầng màu chồng lên nhau, đặt người ở góc dưới khung để tạo
+cảm giác con người hòa vào thiên nhiên rực rỡ.
 
-Chengdu có nhiều công viên, trà viện và vườn trúc. Màu xanh đậm của cây cối là
-nền lý tưởng để chụp chân dung cho mẹ hoặc người đi cùng. Đứng lệch khỏi khung
-trung tâm, đặt mặt người vào 1/3 khung theo quy tắc 1/3 là đủ nổi bật.
+![Hồ xanh ngọc giữa rừng thông và núi ở Cửu Trại Câu](https://images.unsplash.com/photo-pVEzaThl6Lg?w=1200&q=70)
+<p class="text-muted">Màu xanh ngọc của nước hồ đối lập mạnh với màu xanh đậm của rừng thông — đừng lọc màu quá tay.</p>
 
-### 4. Chụp đêm: giữ máy vững hoặc tìm điểm tựa
+### 3. Chân dung bên hồ
 
-Cầu Anshun, phố đi bộ Chunxi, và các quán trà sáng đèn là những điểm chụp đêm
-đẹp. Điện thoại chụp đêm dễ bị nhòe nếu rung tay. Hãy tìa cột đèn, lan can,
-bức tường để tựa máy, hoặc bật chế độ Night mode nếu máy hỗ trợ.
+Để mẹ hoặc người đi cùng đứng ở mép bờ hồ, hơi lệch về 1/3 khung, nhìn về phía
+nước. Phần hồ và rừng núi phía sau chiếm 2/3 khung còn lại. Tránh đứng chính
+giữa làm chia đôi ảnh.
 
-### 5. Đừng quên chi tiết nhỏ
+### 4. Thác nước: bắt chuyển động hoặc làm mờ
 
-Một ấm trà, bát mì cay, góc phố đông người, hoặc mảng tường gạch cũ cũng là
-Chengdu. Chụp cận cảnh những chi tiết này xen kẽ ảnh phong cảnh sẽ khiến album
-của bạn kể chuyện tốt hơn.
+Với thác nước, bạn có 2 lựa chọn: chụp nhanh để bắt từng giọt nước rõ nét,
+hoặc giữ máy vững và chụp hơi lâu để nước mượt mà như lụa. Nếu điện thoại có
+chế độ Long Exposure / Live Photo kéo dài, hãy thử để tạo hiệu ứng mềm mại.
+
+![Hồ Cửu Trại Câu phía dưới chân núi tuyết](https://images.unsplash.com/photo-tuQqWxbqvvA?w=1200&q=70)
+<p class="text-muted">Nếu thời tiết se lạnh, núi tuyết phía xa là nền hoàn hảo cho hồ nước ở phía trước.</p>
+
+### 5. Chi tiết nhỏ: cầu gỗ, lá rụng, dòng suối
+
+Đừng chỉ chụp toàn cảnh. Một chiếc cầu gỗ cong cong, lá thu rơi trên mặt hồ,
+hoặc dòng suối chảy qua đá cũng là những khoảnh khắc rất "Cửu Trại Câu". Kết hợp
+ảnh to và ảnh chi tiết sẽ giúp album có nhịp điệu.
 
 Chúc bạn có chuyến đi CTC - Lạc Sơn - Cổ Trấn đầy ảnh đẹp!

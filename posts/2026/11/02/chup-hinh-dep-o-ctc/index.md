@@ -59,7 +59,7 @@ chế độ Long Exposure / Live Photo kéo dài, hãy thử để tạo hiệu 
 hoặc dòng suối chảy qua đá cũng là những khoảnh khắc rất "Cửu Trại Câu". Kết hợp
 ảnh to và ảnh chi tiết sẽ giúp album có nhịp điệu.
 
-![Hồ núi North Cascades mùa thu](https://images.unsplash.com/photo-1731000893814-3bd9d9a3c4e6?w=1200&q=70)
+![Cầu gỗ, lá rụng, dòng suối ở Cửu Trại Câu](m5-chi-tiet.jpg)
 <p class="text-muted">Cầu gỗ, lá rụng, dòng suối nhỏ — kết hợp ảnh to và chi tiết để album có nhịp điệu.</p>
 
 Chúc bạn có chuyến đi CTC - Lạc Sơn - Cổ Trấn đầy ảnh đẹp!

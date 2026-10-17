@@ -587,8 +587,8 @@ footer .theme-by {
 }
 
 .tags-cloud {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0.6rem;
   margin-bottom: 2.5rem;
 }
@@ -596,6 +596,9 @@ footer .theme-by {
 .tag-pill {
   display: inline-flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
   gap: 0.35rem;
   border-radius: 999px;
   padding: 0.45rem 0.9rem;
@@ -645,6 +648,18 @@ footer .theme-by {
 .tag-pill:nth-of-type(7n+5) .tag-pill-count { background: #7c4cbf; color: #ffffff; }
 .tag-pill:nth-of-type(7n+6) .tag-pill-count { background: #0077b6; color: #ffffff; }
 .tag-pill:nth-of-type(7n+7) .tag-pill-count { background: #9c27b0; color: #ffffff; }
+
+@media (max-width: 700px) {
+  .tags-cloud {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .tags-cloud {
+    grid-template-columns: 1fr;
+  }
+}
 
 .tag-section {
   margin-bottom: 2.5rem;

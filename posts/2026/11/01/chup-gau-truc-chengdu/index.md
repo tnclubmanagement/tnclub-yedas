@@ -4,14 +4,17 @@ layout: post
 date: "2026-11-01 00:00:00 +0700"
 title: "Chụp gấu trúc ở công viên Chengdu: 4 mẹo cho người mới"
 subtitle: "Từ chọn giờ đến cách tránh hàng rào/đông người"
-cover-img: "https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp"
-thumbnail-img: "https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp"
+cover-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=1200&q=70"
+thumbnail-img: "https://images.unsplash.com/photo-1768058294695-ca7ff3ae9f89?w=400&q=70"
 tags: [dong-vat, du-lich, bo-cuc]
 ---
 
 Công viên gấu trúc ở Chengdu rất đông khách, gấu trúc lại hay nằm/ngủ — nếu
 không chuẩn bị trước, dễ ra toàn ảnh "cục bông đen trắng mờ ảo" hoặc bị
 hàng rào/đầu người che mất.
+
+![Gấu trúc đang chơi đùa trong công viên Chengdu](https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp)
+<p class="text-muted">Gấu trúc thường hoạt động nhiều nhất vào buổi sáng — đây là khung giờ dễ bắt được khoảnh khắc đáng yêu nhất.</p>
 
 ### 1. Đi sáng sớm, khi gấu còn ăn uống
 

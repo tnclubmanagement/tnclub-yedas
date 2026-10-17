@@ -43,3 +43,6 @@ hiệu quả hơn gọi tên nhiều lần khiến chúng quen và lờ đi.
 Y hệt nguyên lý chụp chân dung người: mắt luôn là chi tiết quan trọng nhất
 để ảnh "có hồn". Chạm tay vào đúng vùng mắt con vật trên màn hình trước
 khi chụp, đặc biệt khi chụp cận mặt với hậu cảnh mờ.
+
+![Chạm lấy nét vào mắt con vật, hậu cảnh mờ nhẹ](m4-lay-net-mat.jpg)
+<p class="text-muted">Mắt mèo sắc nét, hậu cảnh công viên mờ nhẹ — đó là điểm làm ảnh "có hồn".</p>

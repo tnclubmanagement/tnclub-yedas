@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: 2026-10-08 00:00:00 +0700
 title: "Chụp hoa, vườn hoa, khóm hoa sao cho không bị \"phẳng\"?"

@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-10 00:00:00 +0700"
 title: "Chụp núi sao cho ra được sự hùng vĩ, không bị \"phẳng lì\""

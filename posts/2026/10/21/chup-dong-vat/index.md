@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-21 00:00:00 +0700"
 title: "Chụp thú cưng/động vật nét căng, không bị nhoè"

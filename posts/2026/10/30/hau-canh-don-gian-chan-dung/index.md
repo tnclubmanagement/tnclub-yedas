@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-30 00:00:00 +0700"
 title: "Chọn hậu cảnh đơn giản để ảnh chân dung \"nịnh mắt\" hơn"

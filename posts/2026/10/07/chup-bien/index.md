@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-07 00:00:00 +0700"
 title: "Chụp biển đẹp hơn: sóng, cát, và đường chân trời"

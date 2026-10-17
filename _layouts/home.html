@@ -46,7 +46,7 @@ layout: page
         {% endif %}
       </a>
 
-      <p class="post-meta">
+      <p class="post-meta">{% if post.draft %}<span class="badge badge-warning" style="margin-right: .5em;">Bản nháp</span>{% endif %}
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         Posted on {{ post.date | date: date_format }}
       </p>

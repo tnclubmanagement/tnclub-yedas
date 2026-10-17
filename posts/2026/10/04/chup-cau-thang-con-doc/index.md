@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-04 00:00:00 +0700"
 title: "Chụp cầu thang, con dốc: tận dụng đường nét lặp lại"

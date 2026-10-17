@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-20 00:00:00 +0700"
 title: "Chụp đôi, chụp nhóm 3 người sao cho không ai bị \"khuất\""

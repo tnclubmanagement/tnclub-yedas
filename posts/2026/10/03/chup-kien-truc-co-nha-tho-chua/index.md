@@ -1,11 +1,12 @@
 ---
+draft: true
 layout: post
 date: "2026-10-03 00:00:00 +0700"
 title: "Chụp kiến trúc cổ: nhà thờ, chùa sao cho toát lên vẻ trang nghiêm"
 subtitle: "Dùng khung cửa/mái vòm làm \"khung\" cho bức ảnh"
 cover-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
 thumbnail-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
-tags: [kien-truc, bo-cuc]
+tags: [kien-truc, bo-cuc, nha-tho-chua]
 ---
 
 Nhà thờ, chùa, đình, miếu thường có hoa văn/chi tiết chạm khắc rất đẹp -

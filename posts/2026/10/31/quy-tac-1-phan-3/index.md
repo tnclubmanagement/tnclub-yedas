@@ -1,11 +1,12 @@
 ---
+draft: true
 layout: post
 date: "2026-10-31 00:00:00 +0700"
 title: "Quy tắc 1/3: mẹo bố cục dễ nhất để ảnh bớt \"chán\""
 subtitle: "Bật lưới chia ô trên điện thoại, chỉ mất 30 giây"
 cover-img: "/posts/2026/10/31/quy-tac-1-phan-3/cover-3.jpg"
 thumbnail-img: "/posts/2026/10/31/quy-tac-1-phan-3/cover-3.jpg"
-tags: [bo-cuc]
+tags: [bo-cuc, huong-dan]
 ---
 
 Nếu chỉ học một mẹo bố cục duy nhất, hãy học quy tắc 1/3 — đơn giản, áp

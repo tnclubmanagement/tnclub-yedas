@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-28 00:00:00 +0700"
 title: "Chụp công trình kiến trúc hiện đại: toà nhà, cây cầu, phố xá"

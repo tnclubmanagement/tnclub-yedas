@@ -1,4 +1,5 @@
 ---
+draft: true
 layout: post
 date: "2026-10-05 00:00:00 +0700"
 title: "Chụp bình minh, hoàng hôn \"ăn tiền\" bằng điện thoại"

@@ -6,7 +6,7 @@ title: "Chụp ảnh thiếu sáng/ban đêm bằng điện thoại sao cho đ�
 subtitle: "3 mẹo đơn giản, không cần app chỉnh sửa phức tạp"
 cover-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 thumbnail-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
-tags: [anh-sang, ban-dem, dien-thoai]
+tags: [Ánh sáng, Ban đêm, Điện thoại]
 ---
 
 Chụp thiếu sáng là tình huống dễ bị "cháy" hoặc nhoè ảnh nhất với điện

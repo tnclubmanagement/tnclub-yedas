@@ -6,7 +6,7 @@ title: "Chụp công trình kiến trúc hiện đại: toà nhà, cây cầu, p
 subtitle: "Tận dụng đường nét thẳng, kính, và góc nhìn để ảnh \"chất\" hơn"
 cover-img: "/posts/2026/10/28/chup-kien-truc-hien-dai/cover-kientruc-hiendai.jpg"
 thumbnail-img: "/posts/2026/10/28/chup-kien-truc-hien-dai/cover-kientruc-hiendai.jpg"
-tags: [kien-truc, bo-cuc]
+tags: [Kiến trúc, Bố cục]
 ---
 
 Kiến trúc hiện đại (toà nhà kính, cầu, phố xá) có sẵn rất nhiều đường

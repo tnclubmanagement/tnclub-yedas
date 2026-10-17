@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <!-- frame -->
+  <rect x="20" y="20" width="360" height="260" fill="none" stroke="#212529" stroke-width="2" rx="4"/>
+  <!-- rule of thirds grid -->
+  <line x1="140" y1="20" x2="140" y2="280" stroke="#adb5bd" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="260" y1="20" x2="260" y2="280" stroke="#adb5bd" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="20" y1="107" x2="380" y2="107" stroke="#adb5bd" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="20" y1="193" x2="380" y2="193" stroke="#adb5bd" stroke-width="1" stroke-dasharray="4"/>
+  <!-- Buddha (right 4/5) -->
+  <rect x="200" y="40" width="140" height="210" fill="#6c757d" stroke="#343a40" stroke-width="2" rx="12"/>
+  <circle cx="270" cy="75" r="22" fill="#8d99ae" stroke="#343a40" stroke-width="2"/>
+  <text x="270" y="270" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" text-anchor="middle" fill="#212529">Tượng chiếm ~4/5 khung</text>
+  <!-- small person (bottom left 1/5) -->
+  <circle cx="70" cy="245" r="7" fill="#e76f51"/>
+  <rect x="64" y="252" width="12" height="22" rx="2" fill="#e76f51"/>
+  <text x="70" y="285" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" text-anchor="middle" fill="#212529">Người ~1/5 khung</text>
+</svg>

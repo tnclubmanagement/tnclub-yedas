@@ -6,7 +6,7 @@ title: "Chụp đôi, chụp nhóm 3 người sao cho không ai bị \"khuất\"
 subtitle: "Mẹo xếp dáng đứng + lấy nét đúng người"
 cover-img: "/posts/2026/10/20/chup-doi-chup-nhom/cover-nhom.jpg"
 thumbnail-img: "/posts/2026/10/20/chup-doi-chup-nhom/cover-nhom.jpg"
-tags: [chan-dung, nhom, bo-cuc]
+tags: [Chân dung, Nhóm, Bố cục]
 ---
 
 Chụp nhiều người cùng lúc dễ gặp lỗi: người đứng thẳng hàng cứng nhắc,

@@ -6,7 +6,7 @@ title: "Chụp núi sao cho ra được sự hùng vĩ, không bị \"phẳng l�
 subtitle: "Mẹo thêm tiền cảnh để ảnh có chiều sâu"
 cover-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 thumbnail-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
-tags: [thien-nhien, bo-cuc, nui]
+tags: [Thiên nhiên, Bố cục, Núi]
 ---
 
 Núi thường rất đẹp khi đứng ngắm trực tiếp, nhưng lên ảnh lại dễ bị "phẳng

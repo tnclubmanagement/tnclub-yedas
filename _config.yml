@@ -19,8 +19,7 @@ baseurl: "/tnclub-yedas"
 navbar-links:
   Giới thiệu: "aboutme"
   Mẹo theo chủ đề: "tags"
-  Liên hệ: "contact"
-  Chính sách: "privacy"
+  Playlist: "playlist"
 
 ################
 # --- Logo --- #
@@ -76,10 +75,12 @@ footer-hover-col: "#0071E3"
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:
   - "/assets/css/custom-styles.css"
+  - "/assets/css/playlist.css"
 
 # JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
 site-js:
   - "/assets/js/custom-animations.js"
+  - "/assets/js/playlist.js"
 
 ####################
 # --- Comments --- #
@@ -117,14 +118,14 @@ defaults:
       layout: "post"
       comments: true
       social-share: true
-      head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html", "footer-links.html"]
+      head-extra: ["favicon.html", "pwa-manifest.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
   - scope:
       path: ""
     values:
       layout: "page"
-      head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html", "footer-links.html"]
+      head-extra: ["favicon.html", "pwa-manifest.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
 
 exclude:
   - CHANGELOG.md

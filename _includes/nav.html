@@ -11,12 +11,6 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link nav-link-home" href="{{ '' | absolute_url }}" title="Trang chủ">
-          <span class="fa fa-home" aria-hidden="true"></span>
-          <span class="nav-link-home-text">Trang chủ</span>
-        </a>
-      </li>
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="nav-item dropdown">

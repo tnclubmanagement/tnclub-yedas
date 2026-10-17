@@ -1,0 +1,32 @@
+<script>
+  if ('serviceWorker' in navigator) {
+    var isLocal = window.location.hostname === 'localhost' ||
+      window.location.hostname === '127.0.0.1';
+
+    if (isLocal) {
+      // Không cache localhost: tránh giữ HTML/CSS/ảnh cũ khi đang phát triển.
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        registrations.forEach(function(registration) {
+          registration.unregister();
+        });
+      });
+      if ('caches' in window) {
+        caches.keys().then(function(keys) {
+          keys.filter(function(key) {
+            return key.indexOf('yedas-') === 0;
+          }).forEach(function(key) {
+            caches.delete(key);
+          });
+        });
+      }
+    } else {
+      navigator.serviceWorker.register('{{ '/service-worker.js' | relative_url }}')
+        .then(function(registration) {
+          console.log('[SW] Registered:', registration.scope);
+        })
+        .catch(function(error) {
+          console.error('[SW] Registration failed:', error);
+        });
+    }
+  }
+</script>

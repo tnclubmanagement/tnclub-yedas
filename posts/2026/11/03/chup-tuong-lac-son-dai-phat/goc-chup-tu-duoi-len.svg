@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  <!-- cliff / mountain -->
+  <path d="M120 20 L280 20 L300 260 L100 260 Z" fill="#8d99ae" stroke="#495057" stroke-width="2"/>
+  <!-- Buddha head -->
+  <ellipse cx="200" cy="75" rx="28" ry="32" fill="#6c757d" stroke="#343a40" stroke-width="2"/>
+  <!-- Buddha shoulders -->
+  <path d="M150 110 Q200 90 250 110 L250 180 Q200 200 150 180 Z" fill="#adb5bd" stroke="#343a40" stroke-width="2"/>
+  <!-- Buddha body / robe -->
+  <path d="M160 180 L240 180 L260 260 L140 260 Z" fill="#ced4da" stroke="#343a40" stroke-width="2"/>
+  <!-- person at bottom with phone -->
+  <circle cx="80" cy="245" r="8" fill="#e76f51"/>
+  <rect x="74" y="253" width="12" height="24" rx="2" fill="#e76f51"/>
+  <line x1="80" y1="245" x2="80" y2="230" stroke="#e76f51" stroke-width="2"/>
+  <!-- phone -->
+  <rect x="76" y="225" width="12" height="7" fill="#333" rx="1" transform="rotate(-25 82 228)"/>
+  <!-- angle lines -->
+  <line x1="88" y1="228" x2="170" y2="110" stroke="#2a9d8f" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="88" y1="228" x2="230" y2="110" stroke="#2a9d8f" stroke-width="2" stroke-dasharray="5,3"/>
+  <path d="M120 230 A 30 30 0 0 1 150 220" fill="none" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="200" y="285" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" text-anchor="middle" fill="#212529">Chụp từ dưới lên với góc rộng</text>
+  <text x="80" y="295" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" text-anchor="middle" fill="#495057">Người chụp</text>
+</svg>

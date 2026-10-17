@@ -1,0 +1,6 @@
+# Cấu hình cho môi trường dev local.
+# Ghi đè baseurl và url để site chạy ở http://localhost:4000/ thay vì /tnclub-yedas/.
+# serve.sh sẽ merge file này sau _config.yml khi chạy local.
+# GitHub Pages chỉ dùng _config.yml nên deploy vẫn giữ baseurl /tnclub-yedas.
+baseurl: ""
+url: "http://localhost:4000"

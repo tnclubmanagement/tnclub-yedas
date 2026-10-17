@@ -6,7 +6,7 @@ title: "Chụp thú cưng/động vật nét căng, không bị nhoè"
 subtitle: "Mẹo hạ máy ngang tầm mắt + bắt khoảnh khắc bằng chụp liên tiếp"
 cover-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
 thumbnail-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
-tags: [dong-vat, bo-cuc]
+tags: [Động vật, Bố cục]
 ---
 
 Động vật (thú cưng, chim, vật nuôi...) luôn di chuyển bất ngờ, lại thêm
@@ -22,6 +22,9 @@ có cảm giác gần gũi, "nhìn vào mắt nhau" thay vì xa cách.
 ![So sánh đứng chụp từ trên xuống và hạ ngang tầm mắt con vật](/posts/2026/10/21/chup-dong-vat/goc-thap-dong-vat.svg)
 <p class="text-muted">Ngang tầm mắt (phải) tạo cảm giác gần gũi, "nhìn
 vào mắt nhau" - khác hẳn góc nhìn từ trên xuống quen thuộc mỗi ngày.</p>
+
+![Ngồi xuống để ống kính ngang tầm mắt thú cưng](m1-ngang-tam-mat.jpg)
+<p class="text-muted">Ngồi xuống cỏ, hạ máy ngang tầm mắt con vật — ảnh sẽ gần gũi và "có hồn" hơn.</p>
 
 ### 2. Dùng chế độ chụp liên tiếp (burst)
 
@@ -40,3 +43,6 @@ hiệu quả hơn gọi tên nhiều lần khiến chúng quen và lờ đi.
 Y hệt nguyên lý chụp chân dung người: mắt luôn là chi tiết quan trọng nhất
 để ảnh "có hồn". Chạm tay vào đúng vùng mắt con vật trên màn hình trước
 khi chụp, đặc biệt khi chụp cận mặt với hậu cảnh mờ.
+
+![Chạm lấy nét vào mắt con vật, hậu cảnh mờ nhẹ](m4-lay-net-mat.jpg)
+<p class="text-muted">Mắt mèo sắc nét, hậu cảnh công viên mờ nhẹ — đó là điểm làm ảnh "có hồn".</p>

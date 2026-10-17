@@ -66,6 +66,9 @@ Không cần cười toe toét. Nhìn xa, nhắm mắt hít thở, cười nhẹ
 trầm tư đều đẹp. Quan trọng là không căng vai và cằm. Hãy thở ra một hơi trước
 khi chụp, vai hạ xuống, cằm hơi nhô nhẹ — khuôn mặt sẽ gọn và tự nhiên.
 
+![Nhìn xa và thả lỏng khớp hàm, vai](m6-bieu-cam.jpg)
+<p class="text-muted">Không cần cười toe toét — nhìn xa, khớp hàm thư giãn, khuôn mặt sẽ tự nhiên.</p>
+
 ### 7. Chụp theo nhóm: xếp so le, không thẳng hàng
 
 Nếu chụp nhóm, tránh xếp hàng ngang như chụp hộ chiếu. Xếp người so le thành

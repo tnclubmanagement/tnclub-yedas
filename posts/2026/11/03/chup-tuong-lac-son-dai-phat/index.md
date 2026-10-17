@@ -55,8 +55,15 @@ sáng sớm, ánh sáng dịu sẽ làm nổi bật màu xám của đá và mà
 
 ### 5. Chọn ánh sáng và thời gian
 
-Tránh chụp giữa trưa nắng gắt vì bóng trên tượng sẽ rất cứng. Sáng sớm và chiều
-tà là đẹp nhất: ánh nắng xiên tạo chiều sâu, màu đá ấm hơn. Nếu trời nhiều mây,
-tượng càng có vẻ trang nghiêm và huyền bí.
+Tượng Phật nằm lọt thỏm trong núi nên phần lớn thời gian trong bóng râm, khó có
+ánh sáng rực rỡ chiếu trực tiếp. Đừng kỳ vọng hoàng hôn vàng óng trên mặt tượng.
+Thay vào đó, hãy tận dụng:
+
+- **Sương mù hoặc mây thấp**: làm nền mờ ảo, tượng đá xám nổi bật hơn.
+- **Nắng xiên vào khe núi**: chỉ cần một vệt sáng nhẹ trên mặt Phật hoặc vai
+  tượng cũng đủ tạo điểm nhấn.
+- **HDR / chụp RAW**: giúp giữ chi tiết vùng tối ở chân tượng và vùng sáng ở
+  nền trời.
+- **Tránh giữa trưa**: nếu nắng lọt qua khe, bóng sẽ rất cứng và chia đôi tượng.
 
 Chúc bạn có những tấm ảnh Lạc Sơn Đại Phật thật ấn tượng!

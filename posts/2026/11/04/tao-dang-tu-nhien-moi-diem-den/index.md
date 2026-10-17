@@ -48,6 +48,9 @@ Tay không biết để đâu là nguyên nhân chính khiến ảnh gượng. M
 chai nước, khăn, bản đồ đều là đạo cụ tốt. Cầm nhẹ, đưa lên, đặt xuống, hoặc
 che nắng — động tác nhỏ sẽ giúp tay tự nhiên và khuôn mặt thư giãn hơn.
 
+![Dùng mũ, kính, túi và chai nước làm đạo cụ](m4-phu-kien.jpg)
+<p class="text-muted">Tay luôn bận rộn với mũ, kính, túi hoặc chai nước — không còn cảm giác rỗng, gượng.</p>
+
 ### 5. Tương tác với môi trường
 
 Chạm nhẹ vào tường gạch, cầm lan can, ngồi bệt trên thảm cỏ, nhặt lá, chỉ vào

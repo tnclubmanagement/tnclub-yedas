@@ -49,7 +49,7 @@ Chưa có tag nào.
             <a class="tag-post-card" href="{{ post.url | relative_url }}">
               {% if thumb %}
                 <div class="tag-post-thumb">
-                  <img src="{{ thumb | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}" alt="{{ post.title }}">
+                  <img src="{{ thumb | relative_url }}?v={{ site.time | date: "%Y%m%d%H%M%S" }}" alt="{{ post.title | escape }}">
                 </div>
               {% endif %}
               <div class="tag-post-info">

@@ -17,6 +17,9 @@ không chuẩn bị trước, dễ ra toàn ảnh "cục bông đen trắng mờ
 ![Gấu trúc đang chơi đùa trong công viên Chengdu](https://worldanimalfoundation.org/wp-content/uploads/2023/02/pandas_are_playing_202606081541-1024x572.webp)
 <p class="text-muted">Gấu trúc thường hoạt động nhiều nhất vào buổi sáng — đây là khung giờ dễ bắt được khoảnh khắc đáng yêu nhất.</p>
 
+![Cổng vào công viên gấu trúc Dujiangyan Panda Valley](https://willtravelforpandas.com/wp-content/uploads/2024/09/d3Dujiangyan-PandaValley3v2-1536x1024.jpg)
+<p class="text-muted">Cổng vào công viên — đến sớm để tranh thủ ánh sáng mềm và khách chưa đông.</p>
+
 ### 1. Đi sáng sớm, khi gấu còn ăn uống
 
 Trưa gấu trúc thường ngủ. Buổi sáng (khoảng 8h–10h) là lúc chúng ăn tre, leo

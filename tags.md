@@ -2,6 +2,7 @@
 layout: page
 title: Lưu trữ theo chủ đề
 subtitle: Tất cả mẹo chụp ảnh, nhóm theo tag
+cover-img: "/assets/img/hero-2.jpg"
 permalink: /tags/
 ---
 

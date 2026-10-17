@@ -394,17 +394,45 @@ body {
   padding-bottom: 1.25rem;
 }
 
-/* Tag dạng pill xám nhạt, phẳng */
-.post-preview .blog-tags a {
+/* Tag dạng pill nhỏ gọn, màu pastel xen kẽ */
+.blog-tags ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.blog-tags li {
   display: inline-block;
-  background: var(--bg-light);
-  color: var(--muted);
+  padding: 0;
+}
+
+.blog-tags a {
+  display: inline-block;
+  border: none;
+  outline: none;
   border-radius: 999px;
-  padding: 0.25rem 0.85rem;
-  font-size: 0.75rem;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.7rem;
   font-weight: 500;
   text-decoration: none;
+  margin: 0.15rem 0.1rem;
+  transition: filter 0.15s ease;
 }
+
+.blog-tags a:hover,
+.blog-tags a:focus {
+  border: none;
+  outline: none;
+  filter: brightness(0.92);
+}
+
+/* Nhiều sắc độ màu pastel cho các tag */
+.blog-tags li:nth-of-type(7n+1) a { background: #e8f0fe; color: #174ea6; }
+.blog-tags li:nth-of-type(7n+2) a { background: #e6f4ea; color: #1e8e3e; }
+.blog-tags li:nth-of-type(7n+3) a { background: #fef3e2; color: #b06000; }
+.blog-tags li:nth-of-type(7n+4) a { background: #fce8e8; color: #c5221f; }
+.blog-tags li:nth-of-type(7n+5) a { background: #f3e8fd; color: #7c4cbf; }
+.blog-tags li:nth-of-type(7n+6) a { background: #e7f3ff; color: #0077b6; }
+.blog-tags li:nth-of-type(7n+7) a { background: #fff0f5; color: #9c27b0; }
 
 /* ---------- Nội dung trang chi tiết bài viết ---------- */
 .post-container,

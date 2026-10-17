@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-02 00:00:00 +0700"
 title: "Chụp hình đẹp ở CTC (Cửu Trại Câu): mẹo không thể bỏ qua"
 subtitle: "Tận dụng hồ nước xanh, lá thu và phản chiếu"
-cover-img: "https://images.unsplash.com/photo-Dcr69VX0n_w?w=1200&q=70"
-thumbnail-img: "https://images.unsplash.com/photo-Dcr69VX0n_w?w=400&q=70"
+cover-img: "https://images.unsplash.com/photo-1763484582220-27a0338544d3?w=1200&q=70"
+thumbnail-img: "https://images.unsplash.com/photo-1763484582220-27a0338544d3?w=400&q=70"
 tags: [du-lich, cuu-trai-cau, bo-cuc, huong-dan]
 ---
 
@@ -14,7 +14,7 @@ nước xanh ngọc, rừng lá thu rực rỡ và thác nước tầng tầng l
 tâm điểm chụp ảnh của chuyến đi, nên cần chuẩn bị trước vài mẹo để không bỏ lỡ
 khoảnh khắc đẹp.
 
-![Hồ nước xanh phản chiếu rừng lá thu ở Cửu Trại Câu](https://images.unsplash.com/photo-Dcr69VX0n_w?w=1200&q=70)
+![Hồ nước xanh phản chiếu rừng lá thu ở Cửu Trại Câu](https://images.unsplash.com/photo-1763484582220-27a0338544d3?w=1200&q=70)
 <p class="text-muted">Hồ nước trong xanh là "gương" tự nhiên — chụp vào sáng sớm khi gió lặng để có phản chiếu rõ nét.</p>
 
 ### 1. Sáng sớm = phản chiếu đẹp nhất
@@ -29,7 +29,7 @@ Cuối tháng 9 đến tháng 10, rừng tùng, phong, bạch dương chuyển v
 Tìm điểm có nhiều tầng màu chồng lên nhau, đặt người ở góc dưới khung để tạo
 cảm giác con người hòa vào thiên nhiên rực rỡ.
 
-![Hồ xanh ngọc giữa rừng thông và núi ở Cửu Trại Câu](https://images.unsplash.com/photo-pVEzaThl6Lg?w=1200&q=70)
+![Hồ xanh ngọc giữa rừng thông và núi ở Cửu Trại Câu](https://images.unsplash.com/photo-1768276530825-984264ab5bfc?w=1200&q=70)
 <p class="text-muted">Màu xanh ngọc của nước hồ đối lập mạnh với màu xanh đậm của rừng thông — đừng lọc màu quá tay.</p>
 
 ### 3. Chân dung bên hồ
@@ -44,7 +44,7 @@ Với thác nước, bạn có 2 lựa chọn: chụp nhanh để bắt từng g
 hoặc giữ máy vững và chụp hơi lâu để nước mượt mà như lụa. Nếu điện thoại có
 chế độ Long Exposure / Live Photo kéo dài, hãy thử để tạo hiệu ứng mềm mại.
 
-![Hồ Cửu Trại Câu phía dưới chân núi tuyết](https://images.unsplash.com/photo-tuQqWxbqvvA?w=1200&q=70)
+![Hồ Cửu Trại Câu phía dưới chân núi tuyết](https://images.unsplash.com/photo-1733812849867-f17923ad8d0a?w=1200&q=70)
 <p class="text-muted">Nếu thời tiết se lạnh, núi tuyết phía xa là nền hoàn hảo cho hồ nước ở phía trước.</p>
 
 ### 5. Chi tiết nhỏ: cầu gỗ, lá rụng, dòng suối

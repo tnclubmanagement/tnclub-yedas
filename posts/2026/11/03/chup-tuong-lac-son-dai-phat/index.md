@@ -29,6 +29,9 @@ Tượng 71m cao khó hình dung nếu không có vật tham chiếu. Nhờ ngư
 1/5 khung dưới, tượng chiếm phần còn lại. Kết quả là cảm giác con người trở nên
 nhỏ bé trước đại tượng.
 
+![Người đi lại trước tượng Phật khổng lồ](https://ak-d.tripcdn.com/images/0HJ5a12000ti5f15sF2DE_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip)
+<p class="text-muted">Người nhỏ bé ở góc dưới làm vật tham chiếu, giúp người xem cảm nhận độ cao thực của tượng.</p>
+
 ### 3. Chụp chi tiết: mặt, bàn tay, ngón chân
 
 Đừng chỉ chụp toàn thân. Cận cảnh khuôn mặt hiền từ, bàn tay khổng lồ đặt trên
@@ -40,6 +43,9 @@ Dùng zoom 2x–3x nếu đứng xa, hoặc chụp gần khi đi xuống chân t
 Lạc Sơn Đại Phật quay mặt ra sông, nên nếu đi thuyền hoặc đứng ở bờ đối diện,
 bạn có thể chụp cả tượng và dòng nước trong cùng khung. Thời điểm hoàng hôn hoặc
 sáng sớm, ánh sáng dịu sẽ làm nổi bật màu xám của đá và màu xanh của nước.
+
+![Tượng Phật bên dòng sông và cầu](https://ak-d.tripcdn.com/images/0HJ6s12000tabe6ot415D_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip)
+<p class="text-muted">Tượng Phật quay mặt ra sông, dùng nước và cầu làm nền để tăng chiều sâu cho ảnh.</p>
 
 ### 5. Chọn ánh sáng và thời gian
 

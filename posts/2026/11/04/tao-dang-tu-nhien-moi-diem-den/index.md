@@ -39,6 +39,9 @@ thật sự.
 máy nhìn ra cảnh, hoặc quay đầu nhìn qua vai. Nhờ người chụp bấm liên tiếp 3–5
 tấm để chọn khoảnh khắc tự nhiên nhất — tóc bay, bước chân, áo xoè đều đẹp.
 
+![Chụp liên tiếp khi đi lại và quay đầu](m3-di-lai.jpg)
+<p class="text-muted">Ba khoảnh khắc liên tiếp: quay lưng đi, ngoái lại, nhìn qua vai — chọn tấm tự nhiên nhất.</p>
+
 ### 4. Dùng phụ kiện để tay không bị rỗi
 
 Tay không biết để đâu là nguyên nhân chính khiến ảnh gượng. Mũ, kính, túi,

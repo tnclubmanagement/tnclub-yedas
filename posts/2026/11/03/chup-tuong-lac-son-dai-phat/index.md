@@ -22,12 +22,18 @@ sao cho thấy được độ cao và sự trang nghiêm là thử thách thú v
 bộ tượng từ chân đến đầu. Tránh đứng quá gần, sẽ bị méo đầu và chân. Nếu có chân
 máy hoặc tìm chỗ cao hơn một chút, hãy tận dụng.
 
+![Sơ đồ chụp từ dưới lên](goc-chup-tu-duoi-len.svg)
+<p class="text-muted">Người đứng xa, đưa máy lên cao hoặc dùng góc rộng để bắt trọn tượng từ chân đến đầu.</p>
+
 ### 2. Đưa người vào khung để so sánh kích thước
 
 Tượng 71m cao khó hình dung nếu không có vật tham chiếu. Nhờ người đi cùng đứng
 ở góc dưới khung, cách máy khoảng 5–10m, tượng ở phía sau. Người chiếm khoảng
 1/5 khung dưới, tượng chiếm phần còn lại. Kết quả là cảm giác con người trở nên
 nhỏ bé trước đại tượng.
+
+![Sơ đồ bố cục người và tượng](bo-cuc-nguoi-va-tuong.svg)
+<p class="text-muted">Đặt người ở 1/5 khung dưới, tượng chiếm 4/5 còn lại — cảm giác quy mô sẽ rõ ràng.</p>
 
 ![Người đi lại trước tượng Phật khổng lồ](https://ak-d.tripcdn.com/images/0HJ5a12000ti5f15sF2DE_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip)
 <p class="text-muted">Người nhỏ bé ở góc dưới làm vật tham chiếu, giúp người xem cảm nhận độ cao thực của tượng.</p>

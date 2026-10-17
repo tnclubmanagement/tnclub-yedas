@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="20" fill="#1D1D2B" text-anchor="middle" font-weight="bold">Đừng dùng flash, chụp qua kính/hàng rào</text>
+
+  <!-- Phone on the left -->
+  <g transform="translate(120, 110)">
+    <rect x="0" y="0" width="120" height="200" rx="16" fill="#1D1D2B"/>
+    <rect x="15" y="25" width="90" height="150" rx="4" fill="#DCE3EC"/>
+  </g>
+
+  <!-- No flash symbol below phone -->
+  <g transform="translate(180, 350)">
+    <path d="M-10,-24 L2,-24 L-6,-6 L12,-6 L-12,22 L-4,2 L-22,2 Z" fill="#FFC107"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#FF4444" stroke-width="4"/>
+    <line x1="-22" y1="-22" x2="22" y2="22" stroke="#FF4444" stroke-width="4"/>
+  </g>
+  <text x="180" y="405" font-family="Arial, sans-serif" font-size="16" fill="#1D1D2B" text-anchor="middle">Tắt flash</text>
+
+  <!-- Glass / fence in the middle -->
+  <g transform="translate(320, 80)">
+    <rect x="0" y="0" width="160" height="300" fill="#A8D8EA" opacity="0.3"/>
+    <line x1="0" y1="0" x2="0" y2="300" stroke="#5AA9FF" stroke-width="3"/>
+    <line x1="40" y1="0" x2="40" y2="300" stroke="#5AA9FF" stroke-width="3"/>
+    <line x1="80" y1="0" x2="80" y2="300" stroke="#5AA9FF" stroke-width="3"/>
+    <line x1="120" y1="0" x2="120" y2="300" stroke="#5AA9FF" stroke-width="3"/>
+    <line x1="160" y1="0" x2="160" y2="300" stroke="#5AA9FF" stroke-width="3"/>
+  </g>
+  <text x="400" y="405" font-family="Arial, sans-serif" font-size="16" fill="#1D1D2B" text-anchor="middle">Kính / hàng rào</text>
+
+  <!-- Panda behind the glass on the right -->
+  <g transform="translate(620, 170)">
+    <ellipse cx="0" cy="70" rx="70" ry="60" fill="#FFFFFF" stroke="#1D1D2B" stroke-width="3"/>
+    <circle cx="0" cy="-10" r="45" fill="#FFFFFF" stroke="#1D1D2B" stroke-width="3"/>
+    <circle cx="-35" cy="-45" r="14" fill="#1D1D2B"/>
+    <circle cx="35" cy="-45" r="14" fill="#1D1D2B"/>
+    <ellipse cx="-16" cy="-15" rx="8" ry="10" fill="#1D1D2B"/>
+    <ellipse cx="16" cy="-15" rx="8" ry="10" fill="#1D1D2B"/>
+    <circle cx="-14" cy="-18" r="3" fill="#FFFFFF"/>
+    <circle cx="18" cy="-18" r="3" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="5" rx="6" ry="4" fill="#1D1D2B"/>
+    <ellipse cx="-50" cy="40" rx="18" ry="14" fill="#1D1D2B"/>
+    <ellipse cx="50" cy="40" rx="18" ry="14" fill="#1D1D2B"/>
+  </g>
+  <text x="620" y="290" font-family="Arial, sans-serif" font-size="16" fill="#1D1D2B" text-anchor="middle">Gấu trúc</text>
+
+  <!-- Reflection on glass -->
+  <line x1="340" y1="120" x2="460" y2="240" stroke="#FFFFFF" stroke-width="4" opacity="0.5"/>
+</svg>

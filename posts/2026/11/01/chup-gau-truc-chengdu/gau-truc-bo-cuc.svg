@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" rx="24" fill="#EEF1F6"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="20" fill="#1D1D2B" text-anchor="middle" font-weight="bold">Bố cục mẹ ở góc, gấu trúc làm nền xa</text>
+
+  <!-- Rule of thirds grid -->
+  <line x1="266" y1="70" x2="266" y2="420" stroke="#9FB7C9" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="533" y1="70" x2="533" y2="420" stroke="#9FB7C9" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="60" y1="190" x2="740" y2="190" stroke="#9FB7C9" stroke-width="2" stroke-dasharray="10 8"/>
+  <line x1="60" y1="320" x2="740" y2="320" stroke="#9FB7C9" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <!-- Mom in lower left foreground -->
+  <g transform="translate(160, 270)">
+    <circle cx="0" cy="-55" r="34" fill="#F0C9A0"/>
+    <path d="M-42,0 Q0,-20 42,0 L42,130 Q0,110 -42,130 Z" fill="#5AA9FF"/>
+  </g>
+  <text x="160" y="420" font-family="Arial, sans-serif" font-size="18" fill="#1D1D2B" text-anchor="middle">Mẹ (gần)</text>
+
+  <!-- Panda in upper right background -->
+  <g transform="translate(620, 130) scale(0.65)">
+    <ellipse cx="0" cy="70" rx="70" ry="60" fill="#FFFFFF" stroke="#1D1D2B" stroke-width="3"/>
+    <circle cx="0" cy="-10" r="45" fill="#FFFFFF" stroke="#1D1D2B" stroke-width="3"/>
+    <circle cx="-35" cy="-45" r="14" fill="#1D1D2B"/>
+    <circle cx="35" cy="-45" r="14" fill="#1D1D2B"/>
+    <ellipse cx="-16" cy="-15" rx="8" ry="10" fill="#1D1D2B"/>
+    <ellipse cx="16" cy="-15" rx="8" ry="10" fill="#1D1D2B"/>
+    <circle cx="-14" cy="-18" r="3" fill="#FFFFFF"/>
+    <circle cx="18" cy="-18" r="3" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="5" rx="6" ry="4" fill="#1D1D2B"/>
+  </g>
+  <text x="620" y="210" font-family="Arial, sans-serif" font-size="18" fill="#1D1D2B" text-anchor="middle">Gấu trúc (xa)</text>
+</svg>

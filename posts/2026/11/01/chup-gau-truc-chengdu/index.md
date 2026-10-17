@@ -38,6 +38,9 @@ Nhiều khu có kính chắn. Flash sẽ làm loá ảnh và làm phiền gấu.
 kính, hơi nghiêng điện thoại hoặc chụp sát ống kính vào mặt kính để giảm phản
 chiếu, đồng thời chạm tay lấy nét vào mặt gấu trước khi bấm.
 
+![Minh họa chụp gấu trúc qua kính, tắt flash](/posts/2026/11/01/chup-gau-truc-chengdu/gau-truc-qua-kinh.svg)
+<p class="text-muted">Tắt flash, chụp qua kính/hàng rào — lấy nét vào mặt gấu trúc.</p>
+
 ### 4. Bố cục có mẹ trong khung nếu muốn
 
 Muốn mẹ xuất hiện cùng gấu trúc? Vì **không được lại gần**, gấu trúc sẽ nhỏ
@@ -45,6 +48,9 @@ hơn chủ thể. Để mẹ đứng ở góc khung, phía sau là gấu trúc (
 1/3 khung đối diện theo quy tắc 1/3. Nếu gấu trúc quá nhỏ, có thể chụp riêng
 mẹ ở khu vực công viên rồi chụp riêng gấu trúc, ghép thành album thay vì ép
 cả hai vào 1 khung. Tránh zoom kỹ số vì ảnh dễ vỡ.
+
+![Minh họa bố cục mẹ ở góc, gấu trúc làm nền xa](/posts/2026/11/01/chup-gau-truc-chengdu/gau-truc-bo-cuc.svg)
+<p class="text-muted">Mẹ ở góc gần, gấu trúc ở 1/3 khung đối diện làm nền.</p>
 
 Chụp gấu trúc chủ yếu là **kiên nhẫn + chọn đúng giờ**. Chúc bạn có những
 tấm ảnh đáng yêu cho mẹ!

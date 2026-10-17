@@ -472,10 +472,42 @@ body {
   border-radius: 14px;
 }
 
-/* ---------- Footer ---------- */
-footer.footer {
+/* ---------- Footer gọn gàng ---------- */
+footer {
+  padding: 2rem 0 1.25rem !important;
   background: var(--bg-light) !important;
   border-top: 1px solid var(--hairline);
+}
+
+footer .beautiful-jekyll-footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+footer .footer-links {
+  margin: 0 0 0.75rem !important;
+}
+
+footer .footer-links .fa-stack {
+  transform: scale(0.8);
+}
+
+footer .footer-custom-content {
+  margin: 0;
+}
+
+footer .footer-slogan {
+  margin: 0 0 0.65rem;
+}
+
+footer .copyright,
+footer .theme-by {
+  margin: 0.45rem 0 0;
+  font-size: 0.8rem;
+}
+
+footer .theme-by {
+  display: none;
 }
 
 /* ---------- Before/After toggle (trong bài viết) ---------- */

@@ -117,14 +117,14 @@ defaults:
       layout: "post"
       comments: true
       social-share: true
-      head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html", "footer-links.html"]
+      head-extra: ["favicon.html", "pwa-manifest.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
   - scope:
       path: ""
     values:
       layout: "page"
-      head-extra: ["favicon.html"]
-      footer-extra: ["footer-slogan.html", "footer-links.html"]
+      head-extra: ["favicon.html", "pwa-manifest.html"]
+      footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
 
 exclude:
   - CHANGELOG.md

@@ -1,0 +1,11 @@
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('{{ '/service-worker.js' | relative_url }}')
+      .then(function(registration) {
+        console.log('[SW] Registered:', registration.scope);
+      })
+      .catch(function(error) {
+        console.error('[SW] Registration failed:', error);
+      });
+  }
+</script>

@@ -76,4 +76,7 @@ vài hàng, cao đứng sau, thấp ngồi/đứng trước, để khoảng tr�
 không cần cùng nhìn máy: người nói chuyện, người nhìn nhau, người nhìn cảnh —
 nhóm sẽ sống động hơn.
 
+![Nhóm ngồi/đứng so le trên bậc thang, không ai thẳng hàng](m7-nhom.jpg)
+<p class="text-muted">Người cao đứng sau, người thấp ngồi trước, ai cũng làm một việc riêng — nhóm sống động hơn.</p>
+
 Chúc bạn có những tấm ảnh du lịch tự nhiên và đầy cảm xúc!

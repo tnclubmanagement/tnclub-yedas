@@ -106,6 +106,24 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // Luôn thử lấy CSS/JS mới khi online để thay đổi giao diện local hiện ngay.
+  // Nếu mất mạng thì vẫn dùng bản đã cache.
+  const isAsset = requestUrl.pathname.includes('/assets/');
+  if (isAsset) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response && (response.ok || response.type === 'opaque')) {
+            const clone = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then(cached => {
       if (cached) return cached;

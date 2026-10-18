@@ -54,6 +54,9 @@ Lối cửa, hành lang, cầu thang và ban công thường có đường dẫn
 đi chậm qua khung hình, quay lưng hoặc ngoái lại qua vai để ảnh bớt cảm giác
 đang sắp đặt.
 
+![Tạo dáng ở lối vào quán cà phê](m5-loi-vao.jpg)
+<p class="text-muted">Một bước chân qua cửa, tay chạm tay nắm và ánh mắt nhìn lại giúp khoảnh khắc chuyển tiếp trông tự nhiên.</p>
+
 ### 6. Để hậu cảnh có dấu hiệu của địa điểm
 
 Không cần xóa sạch mọi thứ phía sau. Một chiếc máy pha cà phê, giá sách, bảng

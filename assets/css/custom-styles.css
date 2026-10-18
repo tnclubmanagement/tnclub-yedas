@@ -606,30 +606,50 @@ footer .beautiful-jekyll-footer {
   padding-bottom: 0 !important;
 }
 
-footer .footer-links {
-  margin: 0 0 0.75rem !important;
+footer .footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 2rem;
 }
 
-footer .footer-links .fa-stack {
-  transform: scale(0.8);
+footer .footer-row-top {
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
-footer .footer-custom-content {
+footer .footer-row-bottom {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+footer .footer-compact-links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.footer-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  color: var(--muted);
+  background: rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.footer-icon-link:hover {
+  color: var(--accent-blue);
+  background: rgba(0, 113, 227, 0.12);
+  text-decoration: none;
+}
+
+footer .copyright {
   margin: 0;
-}
-
-footer .footer-slogan {
-  margin: 0 0 0.65rem;
-}
-
-footer .copyright,
-footer .theme-by {
-  margin: 0.45rem 0 0;
-  font-size: 0.8rem;
-}
-
-footer .theme-by {
-  display: none;
 }
 
 /* ---------- Before/After toggle (trong bài viết) ---------- */

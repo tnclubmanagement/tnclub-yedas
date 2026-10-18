@@ -135,6 +135,14 @@ nhạt, hạ máy thấp hơn và để các luống lúa dẫn mắt về phía
     <img src="lua-mi-goc-4.jpg" alt="Chụp chân dung từ trên cao với góc một phần ba">
     <figcaption>Với góc 1/3, đặt nhân vật lệch khung và chừa khoảng trời vừa đủ.</figcaption>
   </figure>
+  <figure>
+    <img src="lua-mi-goc-5-sai.jpg" alt="Góc chụp lúa mì bị nhiễu bởi nhiều vật ở hậu cảnh">
+    <figcaption>Tránh để đường điện, cầu và vật thể thừa làm hậu cảnh bị nhiễu.</figcaption>
+  </figure>
+  <figure>
+    <img src="lua-mi-goc-6-chan-dung.jpg" alt="Chụp chân dung giữa cánh đồng lúa mì với nhiều tư thế">
+    <figcaption>Zoom vừa phải, chọn hậu cảnh sạch rồi đổi nhẹ ánh mắt và vị trí tay.</figcaption>
+  </figure>
 </div>
 
 **Thử ngay đi!** Lần tới đi qua vườn hoa hoặc cánh đồng, áp dụng 1 trong 6 mẹo trên và xem

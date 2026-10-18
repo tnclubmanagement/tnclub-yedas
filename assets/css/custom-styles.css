@@ -457,26 +457,41 @@ body {
 /* ---------- Nội dung trang chi tiết bài viết ---------- */
 .post-view-toggle {
   display: flex;
-  justify-content: flex-end;
-  margin: 1.25rem 0 0;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0 1rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--bg-light);
+}
+
+.post-view-toggle-label {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .post-view-toggle-btn {
   border: 1px solid var(--hairline);
   border-radius: 999px;
   padding: 0.5rem 0.9rem;
-  background: var(--bg-light);
-  color: var(--muted);
+  background: var(--bg-white);
+  color: var(--accent-blue);
   font-size: 0.8rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.post-view-toggle-btn:hover,
 .post-view-toggle-btn[aria-pressed="true"] {
   background: var(--accent-blue);
   color: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 113, 227, 0.18);
+}
+
+.post-view-toggle-btn:hover {
+  border-color: var(--accent-blue);
 }
 
 .post-view-toggle-hide {
@@ -493,6 +508,24 @@ body {
 
 .post-body-hidden {
   display: none;
+}
+
+.post-compact-view .post-meta,
+.post-compact-view .post-tags,
+.post-compact-view .post-extra-content {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .post-view-toggle {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .post-view-toggle-btn {
+    width: 100%;
+  }
 }
 
 .post-container,

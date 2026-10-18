@@ -25,6 +25,10 @@ ngang giữa khung hình.
 tạo thành đường dẫn chéo hội tụ về 1 điểm phía xa, kéo mắt người xem vào
 chủ thể.</p>
 
+![So sánh góc chụp đường phố ngang tầm mắt với góc ngẩng lên để các tòa nhà tạo đường dẫn vào trung tâm khung hình](/posts/2026/10/28/chup-kien-truc-hien-dai/duong-dan-goc-chup.jpg)
+<p class="text-muted">Có thể dùng đường phố để dẫn mắt về phía xa, hoặc ngẩng
+máy có chủ ý để các mặt kính hội tụ vào khoảng trời ở giữa.</p>
+
 ### 2. Căn thẳng các đường dọc - tránh toà nhà bị "đổ nghiêng"
 
 Chụp toà nhà cao từ dưới lên rất dễ bị các cạnh dọc nghiêng vào trong
@@ -36,6 +40,11 @@ ngửa máy lên cao.
 <p class="text-muted">Ngửa máy lên cao (trái) làm 2 cạnh toà nhà "đổ" vào
 nhau; lùi xa + giữ máy thẳng đứng (phải) giữ cạnh toà nhà song song tự
 nhiên.</p>
+
+![So sánh tòa nhà bị thu nhỏ khi chụp từ xa và góc thấp làm các đường dọc hội tụ mạnh](/posts/2026/10/28/chup-kien-truc-hien-dai/duong-doc-toa-nha.jpg)
+<p class="text-muted">Góc thấp tạo cảm giác tòa nhà vươn cao nhưng làm các
+đường dọc nghiêng và hội tụ. Hãy dùng hiệu ứng này khi muốn ảnh mạnh mẽ;
+muốn công trình cân bằng thì giữ máy thẳng và chừa đủ khoảng lùi.</p>
 
 ### 3. Chụp phản chiếu trên mặt kính/vũng nước
 

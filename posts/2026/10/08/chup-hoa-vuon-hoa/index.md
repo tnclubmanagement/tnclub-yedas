@@ -40,17 +40,19 @@ bé và tầm thường. Thử ngồi hoặc cúi xuống, đưa máy ngang tầ
 góc nhìn lạ hơn, hậu cảnh phía sau cũng dễ mờ tự nhiên vì khoảng cách xa
 dần.
 
-{% include before-after-toggle.html
-  before="/posts/2026/10/08/chup-hoa-vuon-hoa/cover-hoa.jpg"
-  after="/posts/2026/10/08/chup-hoa-vuon-hoa/hoa-trial-1.jpg"
-  before_caption="Chụp cả vườn từ trên xuống: nhiều hoa lẫn lộn, thiếu điểm nhấn."
-  after_caption="Hạ máy, chọn 1 bông: chủ thể nổi bật, nền mờ tự nhiên."
-  alt="So sánh chụp cả vườn và chụp cận 1 bông hoa"
-%}
+<div class="post-gallery" aria-label="Gallery hạ máy ngang tầm hoa">
+  <figure>
+    <img src="hoa-ha-thap-1.jpg" alt="So sánh đứng chụp từ trên xuống và hạ thấp máy, hình một">
+    <figcaption>Đứng từ trên xuống khiến hoa nhỏ và lẫn vào nền.</figcaption>
+  </figure>
+  <figure>
+    <img src="hoa-ha-thap-2.jpg" alt="So sánh đứng chụp từ trên xuống và hạ thấp máy, hình hai">
+    <figcaption>Hạ máy ngang tầm hoa giúp chủ thể nổi bật và hậu cảnh dễ mờ hơn.</figcaption>
+  </figure>
+</div>
 
 **Hướng dẫn:**
 
-![Hướng dẫn hạ thấp máy](hoa-guide-2.png)
 <p class="text-muted">Ngồi hoặc cúi xuống, đưa máy ngang tầm hoa để góc nhìn lạ hơn, hậu cảnh mờ tự nhiên.</p>
 
 ### 3. Chụp ngược sáng để lá/cánh hoa "phát sáng"

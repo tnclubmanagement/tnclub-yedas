@@ -9,30 +9,56 @@ thumbnail-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/cover-2.jpg"
 tags: [Chân dung, Bố cục]
 ---
 
-Nhiều bạn nghĩ chụp chân dung đẹp cần phông nền cầu kỳ — thật ra một bức
-tường màu trơn, cửa cuốn, hay mảng tường sơn đồng màu quanh khu bạn ở là
-quá đủ.
+<section class="portrait-intro">
+  <p class="portrait-kicker">CHÂN DUNG DỄ ÁP DỤNG</p>
+  <h2>Một hậu cảnh yên sẽ làm gương mặt lên tiếng.</h2>
+  <p>Không cần phông nền studio. Một bức tường màu trơn, cánh cửa hoặc mảng
+  sơn đồng màu quanh khu bạn ở cũng đủ để tạo một bức chân dung sạch và nịnh
+  mắt.</p>
+</section>
 
 ### Vì sao hậu cảnh đơn giản lại "ăn ảnh"?
 
-Hậu cảnh càng nhiều chi tiết (biển quảng cáo, xe cộ, dây điện...) càng kéo
-sự chú ý khỏi chủ thể. Một nền màu trơn giúp ánh mắt người xem tập trung
-thẳng vào gương mặt/dáng đứng của người được chụp.
+Biển quảng cáo, xe cộ, dây điện và quá nhiều màu sắc sẽ kéo ánh mắt người xem
+ra khỏi chủ thể. Khi nền được tiết chế, gương mặt và dáng đứng trở thành điểm
+nhấn tự nhiên.
 
-### Cách áp dụng nhanh
+<div class="portrait-tip-grid">
+  <article>
+    <span class="portrait-tip-number">01</span>
+    <h3>Chọn nền ít chi tiết</h3>
+    <p>Tường, cửa hoặc mảng màu đồng nhất giúp ảnh sạch hơn ngay lập tức.</p>
+  </article>
+  <article>
+    <span class="portrait-tip-number">02</span>
+    <h3>Tạo khoảng cách</h3>
+    <p>Để người cách nền 1–1,5m để chủ thể tách lớp và nền mềm hơn.</p>
+  </article>
+  <article>
+    <span class="portrait-tip-number">03</span>
+    <h3>Giữ ánh sáng dịu</h3>
+    <p>Chụp trong bóng râm hoặc lúc nắng nhẹ, tránh bóng cứng trên mặt.</p>
+  </article>
+</div>
 
-1. Đi dạo quanh khu vực, để ý các bức tường/cánh cửa có màu đồng nhất.
-2. Đứng người được chụp cách tường khoảng 1-1.5m (không áp sát) để nền hơi
-   mờ nhẹ (tạo cảm giác tách lớp chủ thể/nền) nếu điện thoại có chế độ chân
-   dung (Portrait mode).
-3. Chụp vào lúc trời có nắng dịu hoặc trong bóng râm — tránh nắng gắt buổi
-   trưa làm đổ bóng cứng trên mặt.
+### Cách áp dụng trong 30 giây
 
-![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1.5m, điện thoại chụp từ xa hơn](/posts/2026/10/30/hau-canh-don-gian-chan-dung/khoang-cach-chan-dung.svg)
-<p class="text-muted">Nhìn từ trên xuống: cách tường 1-1.5m giúp nền hơi
-mờ, tách lớp rõ với chủ thể.</p>
+1. Đứng ở vị trí có nền sạch, kiểm tra nhanh bốn góc khung hình.
+2. Cho người được chụp cách tường khoảng 1–1,5m, không áp sát vào nền.
+3. Chạm lấy nét vào mắt, bật Portrait nếu máy tách chủ thể ổn và giảm sáng
+   nhẹ nếu vùng da bị cháy.
 
-### Mẹo nhỏ thêm
+![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1,5m, điện thoại chụp từ xa hơn](/posts/2026/10/30/hau-canh-don-gian-chan-dung/khoang-cach-chan-dung.svg)
+<p class="text-muted">Tách người khỏi tường giúp ảnh có chiều sâu; người chụp nên lùi ra thay vì dí máy quá gần.</p>
 
-Màu tường và màu trang phục nên **tương phản nhẹ** (không trùng màu hệt
-nhau) để chủ thể không bị "chìm" vào nền.
+### Kiểm tra trước khi bấm máy
+
+<div class="portrait-checklist">
+  <label><input type="checkbox"> Không có vật thể mọc ra khỏi đầu.</label>
+  <label><input type="checkbox"> Màu nền không trùng hoàn toàn với quần áo.</label>
+  <label><input type="checkbox"> Ánh sáng trên mặt mềm, không có bóng gắt.</label>
+  <label><input type="checkbox"> Mắt nằm gần đường 1/3 phía trên.</label>
+</div>
+
+<p class="portrait-closing">Hậu cảnh đẹp không phải là hậu cảnh cầu kỳ — đó là
+hậu cảnh biết lùi lại để nhân vật được nổi bật.</p>

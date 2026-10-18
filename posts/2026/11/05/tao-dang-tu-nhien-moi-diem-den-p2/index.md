@@ -39,6 +39,9 @@ gương mặt.
 đường nét của địa điểm. Một chân có thể bước nhẹ về phía trước để dáng không bị
 đứng yên và khung hình có cảm giác chuyển động.
 
+![Dùng con đường cong làm đường dẫn trong ảnh](m3-duong-dan.jpg)
+<p class="text-muted">Con đường và lan can dẫn mắt người xem từ tiền cảnh đến nhân vật, tạo cảm giác có chiều sâu.</p>
+
 ### 4. Chụp từ phía sau rồi gọi nhẹ qua vai
 
 Quay lưng nhìn cảnh, sau đó quay đầu lại một chút khi người chụp bấm máy.

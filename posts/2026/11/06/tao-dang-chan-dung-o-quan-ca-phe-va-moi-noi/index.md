@@ -19,6 +19,9 @@ Ngồi nghiêng người về phía cửa sổ, đặt tay cạnh ly nước ho�
 bàn. Không cần nhìn máy; hãy nhìn ra đường hoặc nhìn vào ánh sáng để gương mặt
 thư giãn hơn.
 
+![Ngồi cạnh cửa sổ quán cà phê và nhìn ra ngoài](m1-cua-so.jpg)
+<p class="text-muted">Ánh sáng từ cửa sổ làm gương mặt sáng dịu, còn ánh mắt nhìn ra ngoài giúp dáng ngồi tự nhiên.</p>
+
 ### 2. Cầm ly nước như một đạo cụ
 
 Ly cà phê giúp hai tay có việc để làm và tạo cảm giác bức ảnh đang ghi lại một

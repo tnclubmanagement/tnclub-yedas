@@ -2,6 +2,14 @@
   margin: 1.5rem 0 0.5rem;
 }
 
+.playlist-intro {
+  max-width: 620px;
+  margin: 2rem auto 1.25rem;
+  color: #6e6e73;
+  text-align: center;
+  line-height: 1.6;
+}
+
 .playlist-save-btn.saved {
   opacity: 0.75;
 }
@@ -12,8 +20,9 @@
 
 .playlist-create-page {
   display: flex;
+  max-width: 620px;
   gap: 0.5rem;
-  margin-top: 1.25rem;
+  margin: 1.25rem auto 2rem;
 }
 
 .playlist-create-page input {
@@ -31,6 +40,12 @@
   background: #0071e3;
   color: #fff;
   cursor: pointer;
+}
+
+.playlist-create-page button:hover,
+.playlist-picker-save:hover,
+.playlist-create-btn:hover {
+  background: #0077ed;
 }
 
 .playlist-list {
@@ -53,15 +68,18 @@
 }
 
 .playlist-card {
-  margin: 1rem 0;
-  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+  padding: 1.25rem 1.4rem;
   border: 1px solid #e5e5ea;
-  border-radius: 14px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
 }
 
 .playlist-card h2 {
   margin: 0;
-  font-size: 1.1rem;
+  color: #1d1d1f;
+  font-size: 1.25rem;
 }
 
 .playlist-card h2 small,
@@ -75,6 +93,45 @@
   background: transparent;
   color: #c5221f;
   cursor: pointer;
+}
+
+.playlist-remove-btn:hover {
+  text-decoration: underline;
+}
+
+.playlist-card .playlist-list {
+  margin-top: 0.75rem;
+}
+
+.playlist-item {
+  gap: 1rem;
+  padding: 0.85rem 0;
+}
+
+.playlist-item a {
+  color: #1d1d1f;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.playlist-item a:hover {
+  color: #0071e3;
+}
+
+#playlist-container {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 480px) {
+  .playlist-create-page {
+    flex-direction: column;
+  }
+
+  .playlist-create-page button {
+    width: 100%;
+  }
 }
 
 .playlist-picker {

@@ -91,6 +91,11 @@ flash. Nếu buộc phải dùng flash, hãy đứng xa hơn một chút và tr�
 cảnh quá tối; flash điện thoại thường làm da bóng, nền đen và ảnh thiếu chiều
 sâu.
 
+![So sánh ảnh chân dung dùng flash trực diện ở bên trái và tận dụng ánh sáng cửa hàng ở bên phải](/posts/2026/10/12/chup-anh-thieu-sang/flash-vs-anh-sang-san.jpg)
+<p class="text-muted">Flash trực diện làm da bóng, mặt phẳng và hậu cảnh tối.
+Ánh sáng từ cửa hàng ở góc chếch giữ được màu da, tạo khối trên gương mặt và
+vẫn cho thấy không khí ban đêm phía sau.</p>
+
 ### 6. Giảm nhiễu bằng cách phơi sáng vừa đủ
 
 Nếu điện thoại có chế độ Pro/Manual, bắt đầu với ISO thấp nhất có thể và tốc

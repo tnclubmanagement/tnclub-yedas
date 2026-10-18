@@ -105,6 +105,10 @@ Không dùng flash để chụp qua kính hoặc trong khu chờ đông người
 bảng hiệu, cửa hàng và đèn trần thường tự nhiên hơn, đồng thời giữ được không
 khí của sân bay.
 
+![So sánh ảnh nhà ga ban đêm bị cháy cửa sổ và ảnh cân chỉnh sáng thủ công, giữ được cả người lẫn bảng chuyến bay](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/chup-dem-nha-ga.jpg)
+<p class="text-muted">Kéo thanh sáng xuống nhẹ, tựa máy vào vali và chọn đúng
+chủ thể cần nét giúp ảnh đêm giữ được chi tiết thay vì cửa sổ bị cháy trắng.</p>
+
 ### 6. Chụp từ cửa sổ máy bay đúng thời điểm
 
 Nếu được phép dùng điện thoại, hãy chụp sau khi máy bay đã ổn định và làm theo

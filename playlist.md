@@ -2,10 +2,12 @@
 layout: page
 title: "Playlist của bạn"
 subtitle: "Tạo tối đa 10 playlist để sắp xếp các bài viết bạn muốn xem lại"
+cover-img: "/assets/img/hero-4.jpg"
 permalink: /playlist/
 ---
 
-<p>Dữ liệu được lưu trên trình duyệt này, không đồng bộ giữa các thiết bị.</p>
+<p class="playlist-intro">Lưu các bài muốn đọc lại, chia theo chuyến đi, chủ đề
+hoặc kế hoạch chụp ảnh. Dữ liệu chỉ nằm trên trình duyệt này.</p>
 
 <div class="playlist-create-page">
   <input id="playlist-name-input" type="text" placeholder="Tên playlist mới">

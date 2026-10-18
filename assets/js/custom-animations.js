@@ -18,15 +18,20 @@
       controls.innerHTML = '<span>Hiển thị</span>' +
         '<button type="button" class="gallery-mode-btn is-active" data-mode="grid">Lưới</button>' +
         '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="stack">Xếp chồng</button>';
+        '<button type="button" class="gallery-mode-btn" data-mode="stack">Xếp chồng</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="masonry">Masonry</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="film">Film strip</button>';
+      if (gallery.querySelectorAll("figure").length === 2) {
+        controls.innerHTML += '<button type="button" class="gallery-mode-btn" data-mode="compare">So sánh</button>';
+      }
       gallery.parentNode.insertBefore(controls, gallery);
 
       controls.querySelectorAll(".gallery-mode-btn").forEach(function (button) {
         button.addEventListener("click", function () {
-          var isSingle = button.dataset.mode === "single";
-          var isStack = button.dataset.mode === "stack";
-          gallery.classList.toggle("gallery-mode-single", isSingle);
-          gallery.classList.toggle("gallery-mode-stack", isStack);
+          var mode = button.dataset.mode;
+          ["single", "stack", "masonry", "film", "compare"].forEach(function (name) {
+            gallery.classList.toggle("gallery-mode-" + name, mode === name);
+          });
           controls.querySelectorAll(".gallery-mode-btn").forEach(function (item) {
             var active = item === button;
             item.classList.toggle("is-active", active);

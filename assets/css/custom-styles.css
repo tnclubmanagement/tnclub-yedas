@@ -918,6 +918,14 @@ body {
   display: block;
 }
 
+.post-compact-view .post-body > .post-gallery.gallery-mode-masonry {
+  display: block;
+}
+
+.post-compact-view .post-body > .post-gallery.gallery-mode-film {
+  display: flex;
+}
+
 .post-compact-view .post-body > .gallery-controls {
   display: flex;
 }
@@ -973,6 +981,7 @@ body {
 
 .gallery-controls {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
   gap: 0.35rem;
@@ -1052,6 +1061,78 @@ body {
 
 .post-gallery.gallery-mode-stack figcaption {
   background: #fff;
+}
+
+.post-gallery.gallery-mode-masonry {
+  display: block;
+  column-count: 3;
+  column-gap: 0.75rem;
+}
+
+.post-gallery.gallery-mode-masonry figure {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.75rem;
+  break-inside: avoid;
+}
+
+.post-gallery.gallery-mode-masonry img {
+  aspect-ratio: auto;
+}
+
+.post-gallery.gallery-mode-film {
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  padding: 0.25rem 0.25rem 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.post-gallery.gallery-mode-film figure {
+  flex: 0 0 min(72vw, 360px);
+  scroll-snap-align: center;
+}
+
+.post-gallery.gallery-mode-film img {
+  aspect-ratio: auto;
+}
+
+.post-gallery.gallery-mode-compare {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.post-gallery.gallery-mode-compare figure:first-child::before,
+.post-gallery.gallery-mode-compare figure:nth-child(2)::before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0.65rem;
+  left: 0.65rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.post-gallery.gallery-mode-compare figure:first-child::before {
+  content: "Trước";
+}
+
+.post-gallery.gallery-mode-compare figure:nth-child(2)::before {
+  content: "Sau";
+}
+
+.post-gallery.gallery-mode-compare figure {
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  .post-gallery.gallery-mode-masonry {
+    column-count: 2;
+  }
 }
 
 @media (max-width: 700px) {

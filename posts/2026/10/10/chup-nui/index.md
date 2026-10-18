@@ -30,6 +30,9 @@ Núi to cỡ nào cũng khó cảm nhận nếu trong ảnh không có gì để
 cần 1 người đứng nhỏ ở góc khung hình (theo quy tắc 1/3) là người xem lập
 tức hình dung được núi lớn tới mức nào.
 
+![So sánh ảnh núi không có người và có người làm mốc tỉ lệ](nguoi-thay-ti-le.jpg)
+<p class="text-muted">Một người nhỏ ở lối đi tạo mốc so sánh, giúp người xem cảm nhận rõ quy mô của dãy núi.</p>
+
 ### 3. Chụp lúc trời có mây để bầu trời "có chuyện"
 
 Bầu trời trong xanh không 1 gợn mây tuy đẹp mắt khi đứng ngắm, nhưng lên

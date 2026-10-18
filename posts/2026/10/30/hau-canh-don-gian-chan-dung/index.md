@@ -51,6 +51,11 @@ nhấn tự nhiên.
 ![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1,5m, điện thoại chụp từ xa hơn](/posts/2026/10/30/hau-canh-don-gian-chan-dung/khoang-cach-chan-dung.svg)
 <p class="text-muted">Tách người khỏi tường giúp ảnh có chiều sâu; người chụp nên lùi ra thay vì dí máy quá gần.</p>
 
+![So sánh bỏ qua quy trình 30 giây với ảnh chân dung áp dụng đúng cách chọn nền, khoảng cách, lấy nét và ánh sáng](/posts/2026/10/30/hau-canh-don-gian-chan-dung/quy-trinh-30-giay.jpg)
+<p class="text-muted">Bên trái, nhân vật bị chìm vào nền tối và ánh sáng trên mặt
+không đều. Bên phải, nền sạch hơn, chủ thể tách khỏi hậu cảnh và gương mặt
+được chiếu sáng dịu.</p>
+
 ### Kiểm tra trước khi bấm máy
 
 <div class="portrait-checklist">

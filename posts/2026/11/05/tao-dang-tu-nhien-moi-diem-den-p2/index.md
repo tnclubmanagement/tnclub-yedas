@@ -21,6 +21,9 @@ diễn xuất cầu kỳ — chỉ cần chọn đúng góc máy, khoảng cách
 trống. Tiền cảnh làm bức ảnh có chiều sâu và giúp bạn không phải đứng giữa
 không gian quá rộng.
 
+![Dùng tán lá làm tiền cảnh cho ảnh chân dung](m1-tien-canh.jpg)
+<p class="text-muted">Tán lá ở tiền cảnh che nhẹ một phần khung hình, tạo chiều sâu và làm chủ thể nổi bật hơn.</p>
+
 ### 2. Nhìn về phía có ánh sáng
 
 Thay vì nhìn thẳng máy, quay mặt về phía nguồn sáng dịu hoặc nhìn ra ngoài

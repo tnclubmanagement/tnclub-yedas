@@ -10,6 +10,45 @@
   }
 
   onReady(function () {
+    // Lọc bài viết và đổi giữa chế độ lưới/danh sách trên trang chủ.
+    var homeControls = document.querySelector(".home-controls");
+    var postsList = document.querySelector(".posts-list");
+    if (homeControls && postsList) {
+      var search = document.getElementById("home-post-search");
+      var tagFilter = document.getElementById("home-tag-filter");
+      var modeButtons = homeControls.querySelectorAll(".home-mode-btn");
+      var cards = postsList.querySelectorAll(".post-preview");
+
+      function filterPosts() {
+        var query = (search.value || "").trim().toLowerCase();
+        var selectedTag = (tagFilter.value || "").toLowerCase();
+        cards.forEach(function (card) {
+          var title = (card.dataset.postTitle || "").toLowerCase();
+          var tags = (card.dataset.postTags || "").toLowerCase();
+          var matches = (!query || title.indexOf(query) !== -1) &&
+            (!selectedTag || tags.split(",").indexOf(selectedTag) !== -1);
+          card.hidden = !matches;
+        });
+      }
+
+      function setDisplayMode(mode) {
+        postsList.classList.toggle("posts-list-mode-list", mode === "list");
+        modeButtons.forEach(function (button) {
+          var active = button.dataset.mode === mode;
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+        localStorage.setItem("yedas-home-display-mode", mode);
+      }
+
+      search.addEventListener("input", filterPosts);
+      tagFilter.addEventListener("change", filterPosts);
+      modeButtons.forEach(function (button) {
+        button.addEventListener("click", function () { setDisplayMode(button.dataset.mode); });
+      });
+      setDisplayMode(localStorage.getItem("yedas-home-display-mode") || "grid");
+    }
+
     // Hiện tiêu đề và mô tả ngắn đè lên ảnh khi rê chuột.
     var postImages = document.querySelectorAll(".post-body img");
     postImages.forEach(function (image) {

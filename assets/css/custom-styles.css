@@ -910,6 +910,14 @@ body {
   display: block;
 }
 
+.post-compact-view .post-body > .post-gallery {
+  display: grid;
+}
+
+.post-compact-view .post-gallery figcaption {
+  display: none;
+}
+
 .post-compact-view .post-body > p:has(> img) img,
 .post-compact-view .post-body > img {
   display: block;
@@ -946,6 +954,76 @@ body {
 .post-photo-overlay span {
   font-size: 0.85rem;
   line-height: 1.4;
+}
+
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.post-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--bg-light);
+}
+
+.post-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+}
+
+.post-gallery figure:hover img {
+  transform: scale(1.04);
+}
+
+.post-gallery figcaption {
+  padding: 0.6rem 0.65rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.86);
+  cursor: zoom-out;
+}
+
+.gallery-lightbox img {
+  max-width: min(92vw, 900px);
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.gallery-lightbox button {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .post-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {

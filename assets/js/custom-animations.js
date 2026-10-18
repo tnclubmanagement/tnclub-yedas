@@ -10,6 +10,27 @@
   }
 
   onReady(function () {
+    // Gallery: bấm vào ảnh để xem lớn, đóng bằng nút, nền tối hoặc phím Escape.
+    var galleryImages = document.querySelectorAll(".post-gallery img");
+    galleryImages.forEach(function (image) {
+      image.addEventListener("click", function () {
+        var lightbox = document.createElement("div");
+        lightbox.className = "gallery-lightbox";
+        lightbox.innerHTML = '<button type="button" aria-label="Đóng">&times;</button>' +
+          '<img src="' + image.src + '" alt="' + (image.alt || "") + '">';
+        document.body.appendChild(lightbox);
+        lightbox.addEventListener("click", function (event) {
+          if (event.target === lightbox || event.target.tagName === "BUTTON") lightbox.remove();
+        });
+        document.addEventListener("keydown", function closeOnEscape(event) {
+          if (event.key === "Escape") {
+            lightbox.remove();
+            document.removeEventListener("keydown", closeOnEscape);
+          }
+        });
+      });
+    });
+
     // Lọc bài viết và đổi giữa chế độ lưới/danh sách trên trang chủ.
     var homeControls = document.querySelector(".home-controls");
     var postsList = document.querySelector(".posts-list");

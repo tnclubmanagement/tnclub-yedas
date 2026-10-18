@@ -94,16 +94,23 @@ Tránh dùng camera góc siêu rộng khi đứng quá gần vì khuôn mặt v�
 biến dạng. Nếu muốn lấy cả mặt tiền, hãy lùi ra xa rồi zoom nhẹ 2x để đường nét
 gọn hơn.
 
-![So sánh đứng thẳng và tạo dáng tự nhiên trước cửa quán](m8-cua-quan-sai.jpg)
-<p class="text-muted">Không đứng cứng chính giữa cửa; hãy tận dụng khung cửa, bảng hiệu và khoảng trống xung quanh.</p>
-
-![Đứng tự nhiên trước cửa quán với một tay chạm nhẹ vào cửa](m8-cua-quan-1.jpg)
-<p class="text-muted">Một tay chạm cửa, tay còn lại giữ túi hoặc phụ kiện để tạo dáng bớt gượng.</p>
-
-![Tạo dáng nghiêng người trước cửa quán cà phê](m8-cua-quan-2.jpg)
-<p class="text-muted">Nghiêng người và đặt một chân lên trước giúp đường nét cơ thể mềm mại hơn.</p>
-
-![Tạo dáng vui tươi trước cửa quán cà phê](m8-cua-quan-3.jpg)
-<p class="text-muted">Có thể thêm một động tác vui như giơ tay hoặc nhấc nhẹ chân, nhưng vẫn giữ ánh mắt và vai thư giãn.</p>
+<div class="post-gallery" aria-label="Gallery tạo dáng trước cửa quán">
+  <figure>
+    <img src="m8-cua-quan-sai.jpg" alt="So sánh đứng thẳng và tạo dáng tự nhiên trước cửa quán">
+    <figcaption>Tận dụng khung cửa, bảng hiệu và khoảng trống thay vì đứng cứng chính giữa.</figcaption>
+  </figure>
+  <figure>
+    <img src="m8-cua-quan-1.jpg" alt="Đứng tự nhiên trước cửa quán với một tay chạm nhẹ vào cửa">
+    <figcaption>Một tay chạm cửa, tay còn lại giữ túi hoặc phụ kiện.</figcaption>
+  </figure>
+  <figure>
+    <img src="m8-cua-quan-2.jpg" alt="Tạo dáng nghiêng người trước cửa quán cà phê">
+    <figcaption>Nghiêng người và đặt một chân lên trước để dáng mềm mại hơn.</figcaption>
+  </figure>
+  <figure>
+    <img src="m8-cua-quan-3.jpg" alt="Tạo dáng vui tươi trước cửa quán cà phê">
+    <figcaption>Thêm một động tác vui nhưng vẫn giữ vai và ánh mắt thư giãn.</figcaption>
+  </figure>
+</div>
 
 Trong lúc chờ, bạn có thể lưu bài vào playlist để chuẩn bị trước khi đi chụp.

@@ -72,5 +72,8 @@ Giữ nguyên tư thế trong vài giây rồi chụp toàn cảnh, trung cảnh
 Sau đó đổi hướng nhìn hoặc thay đổi nhẹ vị trí tay. Một buổi cà phê sẽ có đủ
 ảnh chân dung, ảnh kể chuyện và ảnh chi tiết.
 
+![Một dáng chụp theo ba khung hình: toàn cảnh, trung cảnh và cận cảnh](m7-nhieu-khung-hinh.jpg)
+<p class="text-muted">Giữ nguyên tư thế nhưng đổi khoảng cách để có một bộ ảnh đa dạng từ không gian quán đến biểu cảm gương mặt.</p>
+
 Ảnh minh họa riêng cho từng mẹo sẽ được bổ sung sau khi hoàn thiện bộ hình.
 Trong lúc chờ, bạn có thể lưu bài vào playlist để chuẩn bị trước khi đi chụp.

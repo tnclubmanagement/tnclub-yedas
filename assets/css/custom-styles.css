@@ -506,14 +506,24 @@ body {
   display: inline;
 }
 
-.post-body-hidden {
+.post-compact-view .post-meta,
+.post-compact-view .post-tags,
+.post-compact-view .post-extra-content,
+.post-compact-view .post-body > * {
   display: none;
 }
 
-.post-compact-view .post-meta,
-.post-compact-view .post-tags,
-.post-compact-view .post-extra-content {
-  display: none;
+/* Chế độ rút gọn vẫn giữ toàn bộ ảnh trong bài; chỉ ẩn chữ hướng dẫn. */
+.post-compact-view .post-body > p:has(> img),
+.post-compact-view .post-body > img {
+  display: block;
+}
+
+.post-compact-view .post-body > p:has(> img) img,
+.post-compact-view .post-body > img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 480px) {

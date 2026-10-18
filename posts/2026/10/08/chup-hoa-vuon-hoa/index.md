@@ -73,5 +73,35 @@ hoa. Hậu cảnh lá/hoa phía sau sẽ mờ nhẹ, giúp bông hoa chính tác
 ![Hướng dẫn chế độ Chân dung](hoa-guide-4.png)
 <p class="text-muted">Bật Portrait → chọn chủ thể cách nền 1-2m → chạm lấy nét.</p>
 
-**Thử ngay đi!** Lần tới đi qua vườn hoa, áp dụng 1 trong 4 mẹo trên và xem
+### 5. Chụp ảnh chân dung ở vườn hoa
+
+Khi chụp người giữa vườn hoa, hãy để nhân vật tương tác với không gian thay vì
+đứng thẳng nhìn máy. Có thể cúi xuống chạm hoa, cầm túi, nhìn lên trời hoặc
+dang nhẹ hai tay. Đặt người lệch khỏi trung tâm để vừa giữ được nhân vật vừa
+cho thấy độ rộng và màu sắc của vườn.
+
+<div class="post-gallery" aria-label="Gallery chụp chân dung ở vườn hoa">
+  <figure>
+    <img src="hoa-chan-dung-1.jpg" alt="Cúi xuống chạm hoa trong vườn">
+    <figcaption>Cúi nhẹ xuống, chạm hoa để tạo cảm giác đang khám phá.</figcaption>
+  </figure>
+  <figure>
+    <img src="hoa-chan-dung-2.jpg" alt="Đứng giữa vườn hoa với túi cói">
+    <figcaption>Đứng lệch khung, dùng túi và hoa làm điểm nhấn.</figcaption>
+  </figure>
+  <figure>
+    <img src="hoa-chan-dung-3.jpg" alt="Nhìn lên trời giữa vườn hoa">
+    <figcaption>Nhìn lên và đưa tay theo hướng ánh sáng để dáng mềm mại hơn.</figcaption>
+  </figure>
+  <figure>
+    <img src="hoa-chan-dung-4.jpg" alt="Dùng bông hoa che một phần gương mặt">
+    <figcaption>Dùng hoa che nhẹ một phần mặt để tạo lớp lang và sự tò mò.</figcaption>
+  </figure>
+  <figure>
+    <img src="hoa-chan-dung-5.jpg" alt="Dang tay giữa cánh đồng hoa">
+    <figcaption>Dang tay, thả lỏng vai và để hậu cảnh hoa lấp đầy khung hình.</figcaption>
+  </figure>
+</div>
+
+**Thử ngay đi!** Lần tới đi qua vườn hoa, áp dụng 1 trong 5 mẹo trên và xem
 ảnh của bạn khác biệt thế nào.

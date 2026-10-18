@@ -39,7 +39,14 @@ layout: base
         </div>
       {% endif %}
 
-      <article role="main" class="blog-post">
+      <div class="post-view-toggle" role="group" aria-label="Chế độ xem bài viết">
+        <button type="button" class="post-view-toggle-btn" aria-pressed="false">
+          <span class="post-view-toggle-show">Chỉ xem ảnh</span>
+          <span class="post-view-toggle-hide">Xem nội dung</span>
+        </button>
+      </div>
+
+      <article role="main" class="blog-post post-body">
         {{ content }}
       </article>
 

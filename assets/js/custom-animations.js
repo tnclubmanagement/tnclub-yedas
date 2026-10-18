@@ -10,6 +10,26 @@
   }
 
   onReady(function () {
+    // Cho phép chuyển nhanh giữa chế độ xem ảnh/tiêu đề và toàn bộ nội dung.
+    var postToggle = document.querySelector(".post-view-toggle-btn");
+    var postBody = document.querySelector(".post-body");
+    if (postToggle && postBody) {
+      var storageKey = "yedas-post-view:" + window.location.pathname;
+      var isCompact = localStorage.getItem(storageKey) === "compact";
+
+      function updatePostView() {
+        postBody.classList.toggle("post-body-hidden", isCompact);
+        postToggle.setAttribute("aria-pressed", String(isCompact));
+      }
+
+      postToggle.addEventListener("click", function () {
+        isCompact = !isCompact;
+        localStorage.setItem(storageKey, isCompact ? "compact" : "full");
+        updatePostView();
+      });
+      updatePostView();
+    }
+
     // 1) Hero: chọn ngẫu nhiên 1 trong các ảnh (window.HERO_IMAGES, tránh lặp
     // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");

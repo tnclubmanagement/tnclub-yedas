@@ -18,7 +18,6 @@
       var isCompact = localStorage.getItem(storageKey) === "compact";
 
       function updatePostView() {
-        postBody.classList.toggle("post-body-hidden", isCompact);
         document.body.classList.toggle("post-compact-view", isCompact);
         postToggle.setAttribute("aria-pressed", String(isCompact));
       }

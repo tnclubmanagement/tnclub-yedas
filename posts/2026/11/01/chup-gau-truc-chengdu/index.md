@@ -35,6 +35,9 @@ Gấu trúc ăn chậm nhưng thỉnh thoảng ngước lên, quay đầu, leo c
 chụp để chụp 1 loạt rồi chọn tấm có ánh mắt hoặc động tác đẹp nhất — hiệu
 quả hơn nhiều so với canh chụp đúng 1 lần.
 
+![Dùng chế độ chụp liên tiếp trên điện thoại](m2-burst.jpg)
+<p class="text-muted">Giữ nút chụp để ghi lại cả chuỗi chuyển động, sau đó chọn khoảnh khắc gấu nhìn hoặc cử động đẹp nhất.</p>
+
 ### 3. Không dùng đèn flash và tránh phản chiếu kính
 
 Nhiều khu có kính chắn. Flash sẽ làm loá ảnh và làm phiền gấu. Nếu chụp qua

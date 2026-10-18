@@ -2,7 +2,7 @@
 draft: true
 layout: post
 date: "2026-11-04 00:00:00 +0700"
-title: "Tạo dáng tự nhiên ở mọi điểm đến: 7 tip chụp đâu cũng đẹp"
+title: "Tạo dáng tự nhiên ở mọi điểm đến P1"
 subtitle: "Từ phố cổ, núi rừng đến bờ biển — đứng, ngồi, đi đều có chiêu"
 cover-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
 thumbnail-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"

@@ -43,6 +43,9 @@ Nhiều nơi thờ tự không cho phép dùng flash hoặc chụp ảnh trong k
 hành lễ. Luôn để ý biển báo, hỏi người quản lý nếu không chắc, và giữ
 khoảng cách lịch sự với người đang hành lễ/cầu nguyện khi chụp.
 
+![So sánh chụp có flash và tắt flash trong không gian thờ tự](khong-flash.jpg)
+<p class="text-muted">Tắt flash, giữ yên lặng và đứng ngoài lối hành lễ để không làm phiền người đang cầu nguyện.</p>
+
 ### 4. Canh giờ vắng người (sáng sớm) để có khung hình sạch
 
 Các điểm nổi tiếng thường đông khách tham quan vào giữa trưa/cuối tuần.

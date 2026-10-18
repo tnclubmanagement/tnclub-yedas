@@ -19,19 +19,8 @@ Một khung hình ôm trọn cả luống hoa thường rối mắt vì quá nhi
 chen nhau. Hãy chọn 1 bông đẹp nhất (không héo, không bị che khuất) làm
 "nhân vật chính", để những bông còn lại lùi ra phía sau làm nền mờ.
 
-**Hình sai:** cả vườn hoa chen chúc, không có điểm nhấn.
-
-![Hình sai: cả vườn hoa chen chúc](cover-hoa.jpg)
-
-**Hình đúng:** chọn 1 bông, nền mờ tự nhiên.
-
-![Hình đúng: chọn 1 bông làm chủ thể](hoa-trial-1.jpg)
-<p class="text-muted">1 bông hoa rõ nét làm chủ thể, những bông khác tự động trở thành nền mờ.</p>
-
-**Hướng dẫn:**
-
-![Hướng dẫn chọn chủ thể](hoa-guide-1.png)
-<p class="text-muted">Tìm bông đẹp nhất → chạm lấy nét → để hậu cảnh tự làm mờ.</p>
+![So sánh chụp cả vườn và chọn một bông làm chủ thể](hoa-chu-the.jpg)
+<p class="text-muted">Bên trái là khung hình rối mắt; bên phải chọn một khóm hoa làm nhân vật chính và để phần còn lại lùi vào nền.</p>
 
 ### 2. Hạ thấp máy xuống ngang tầm hoa
 

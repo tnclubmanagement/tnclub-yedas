@@ -26,6 +26,9 @@ Trưa gấu trúc thường ngủ. Buổi sáng (khoảng 8h–10h) là lúc ch�
 trèo, hoạt động nhiều nhất. Ảnh lúc này có nhiều biểu cảm và tư thế đẹp hơn
 hẳn chiều tối.
 
+![Chụp gấu trúc vào sáng sớm khi chúng đang ăn](m1-sang-som.jpg)
+<p class="text-muted">Đến sớm, đứng ngoài lối tham quan và chờ khoảnh khắc gấu đang ăn hoặc hoạt động.</p>
+
 ### 2. Dùng chụp liên tiếp (burst)
 
 Gấu trúc ăn chậm nhưng thỉnh thoảng ngước lên, quay đầu, leo cây. Giữ nút

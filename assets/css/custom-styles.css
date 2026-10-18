@@ -455,6 +455,46 @@ body {
 .blog-tags li:nth-of-type(7n+7) a { background: #fff0f5; color: #9c27b0; }
 
 /* ---------- Nội dung trang chi tiết bài viết ---------- */
+.post-view-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.25rem 0 0;
+}
+
+.post-view-toggle-btn {
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+  background: var(--bg-light);
+  color: var(--muted);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-view-toggle-btn:hover,
+.post-view-toggle-btn[aria-pressed="true"] {
+  background: var(--accent-blue);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 113, 227, 0.18);
+}
+
+.post-view-toggle-hide {
+  display: none;
+}
+
+.post-view-toggle-btn[aria-pressed="true"] .post-view-toggle-show {
+  display: none;
+}
+
+.post-view-toggle-btn[aria-pressed="true"] .post-view-toggle-hide {
+  display: inline;
+}
+
+.post-body-hidden {
+  display: none;
+}
+
 .post-container,
 #main-content {
   color: var(--ink);

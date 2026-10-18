@@ -75,5 +75,23 @@ Sau đó đổi hướng nhìn hoặc thay đổi nhẹ vị trí tay. Một bu�
 ![Một dáng chụp theo ba khung hình: toàn cảnh, trung cảnh và cận cảnh](m7-nhieu-khung-hinh.jpg)
 <p class="text-muted">Giữ nguyên tư thế nhưng đổi khoảng cách để có một bộ ảnh đa dạng từ không gian quán đến biểu cảm gương mặt.</p>
 
-Ảnh minh họa riêng cho từng mẹo sẽ được bổ sung sau khi hoàn thiện bộ hình.
+### 8. Chụp chân dung trước cửa quán
+
+Cửa quán thường có bảng hiệu, khung kính và ánh sáng chuyển tiếp giữa trong
+nhà với ngoài trời. Hãy đứng lệch khỏi chính giữa cửa, chạm nhẹ vào tay nắm,
+nghiêng người hoặc bước ra ngoài để dáng trông tự nhiên hơn. Nếu có bảng hiệu,
+để khoảng trống phía trên đầu vừa đủ để tên quán vẫn đọc được.
+
+![So sánh đứng thẳng và tạo dáng tự nhiên trước cửa quán](m8-cua-quan-sai.jpg)
+<p class="text-muted">Không đứng cứng chính giữa cửa; hãy tận dụng khung cửa, bảng hiệu và khoảng trống xung quanh.</p>
+
+![Đứng tự nhiên trước cửa quán với một tay chạm nhẹ vào cửa](m8-cua-quan-1.jpg)
+<p class="text-muted">Một tay chạm cửa, tay còn lại giữ túi hoặc phụ kiện để tạo dáng bớt gượng.</p>
+
+![Tạo dáng nghiêng người trước cửa quán cà phê](m8-cua-quan-2.jpg)
+<p class="text-muted">Nghiêng người và đặt một chân lên trước giúp đường nét cơ thể mềm mại hơn.</p>
+
+![Tạo dáng vui tươi trước cửa quán cà phê](m8-cua-quan-3.jpg)
+<p class="text-muted">Có thể thêm một động tác vui như giơ tay hoặc nhấc nhẹ chân, nhưng vẫn giữ ánh mắt và vai thư giãn.</p>
+
 Trong lúc chờ, bạn có thể lưu bài vào playlist để chuẩn bị trước khi đi chụp.

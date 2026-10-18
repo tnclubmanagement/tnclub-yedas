@@ -52,6 +52,10 @@ Toà nhà kính, cửa kính lớn, hay vũng nước sau mưa đều là "gươ
 - chụp sao cho vừa thấy toà nhà thật vừa thấy ảnh phản chiếu tạo cảm giác
 đối xứng rất ấn tượng, không cần chỉnh sửa gì.
 
+![So sánh góc chụp chỉ thấy mặt kính và góc hạ máy để lấy cả tòa nhà cùng hình phản chiếu trong vũng nước](/posts/2026/10/28/chup-kien-truc-hien-dai/phan-chieu-kinh-vung-nuoc.jpg)
+<p class="text-muted">Hạ máy gần mặt vũng nước để đường phản chiếu chiếm phần
+dưới khung hình; với mặt kính, đổi góc nhẹ để tránh phản chiếu người chụp.</p>
+
 ### 4. Chụp buổi tối để bắt đèn + ánh sáng toà nhà
 
 Kiến trúc hiện đại thường đẹp nhất lúc lên đèn (khoảng 30-45 phút sau khi

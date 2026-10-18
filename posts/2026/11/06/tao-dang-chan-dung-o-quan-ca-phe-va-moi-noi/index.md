@@ -82,6 +82,18 @@ nhà với ngoài trời. Hãy đứng lệch khỏi chính giữa cửa, chạm
 nghiêng người hoặc bước ra ngoài để dáng trông tự nhiên hơn. Nếu có bảng hiệu,
 để khoảng trống phía trên đầu vừa đủ để tên quán vẫn đọc được.
 
+Về góc chụp, hãy thử ba cách sau:
+
+- **Ngang tầm mắt:** góc an toàn nhất, giữ gương mặt và khung cửa tự nhiên.
+- **Thấp hơn một chút:** giúp cửa và bảng hiệu trông cao hơn, nhưng chỉ hạ máy
+  nhẹ để chân không bị kéo dài quá mức.
+- **Chụp chếch 45 độ:** đứng lệch sang một bên cửa, để khung cửa tạo đường dẫn
+  vào nhân vật thay vì chụp chính diện phẳng.
+
+Tránh dùng camera góc siêu rộng khi đứng quá gần vì khuôn mặt và tay chân dễ bị
+biến dạng. Nếu muốn lấy cả mặt tiền, hãy lùi ra xa rồi zoom nhẹ 2x để đường nét
+gọn hơn.
+
 ![So sánh đứng thẳng và tạo dáng tự nhiên trước cửa quán](m8-cua-quan-sai.jpg)
 <p class="text-muted">Không đứng cứng chính giữa cửa; hãy tận dụng khung cửa, bảng hiệu và khoảng trống xung quanh.</p>
 

@@ -45,6 +45,9 @@ Thử chụp qua gương, phản chiếu trên cửa kính hoặc đặt điện
 bàn. Các lớp phản chiếu giúp ảnh có chiều sâu và ghi lại được không khí của
 quán.
 
+![Tận dụng mặt kính và mặt bàn để tạo lớp phản chiếu](m4-guong-kinh.jpg)
+<p class="text-muted">Chụp qua lớp kính hoặc mặt bàn để thêm phản chiếu, giúp bức ảnh có chiều sâu và vẫn giữ được không khí quán.</p>
+
 ### 5. Chụp ở lối vào hoặc góc chuyển tiếp
 
 Lối cửa, hành lang, cầu thang và ban công thường có đường dẫn đẹp. Để nhân vật

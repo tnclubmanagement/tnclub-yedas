@@ -119,6 +119,10 @@ che hết cảnh mây hoặc thành phố.
 Tránh chụp khi máy bay đang cất/hạ cánh nếu phi hành đoàn yêu cầu cất thiết bị.
 An toàn và hướng dẫn trên chuyến bay luôn quan trọng hơn bức ảnh.
 
+![So sánh dùng zoom kỹ thuật số làm mất tiền cảnh với dùng camera chính và cánh máy bay làm tiền cảnh](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/canh-may-bay-tien-canh.jpg)
+<p class="text-muted">Camera chính giữ được độ rõ của cảnh và cánh máy bay tạo
+tiền cảnh tự nhiên. Hãy đặt cánh ở góc dưới thay vì zoom sát vào một chi tiết.</p>
+
 ### 7. Giữ nhịp chụp nhanh để không lỡ chuyến
 
 Sân bay là nơi không nên dựng chân máy hoặc đứng lâu chắn lối đi. Chuẩn bị

@@ -60,14 +60,8 @@ hoa về phía máy. Ánh sáng xuyên qua cánh hoa/lá mỏng tạo hiệu ứ
 sáng" rất đẹp. Chỉ cần chạm tay vào cánh hoa trên màn hình để đo sáng lại
 (xem thêm mẹo trong bài "Chụp ảnh thiếu sáng").
 
-**Hình sai:** ánh sáng chiếu trực tiếp từ trước, cánh hoa thiếu độ trong.
-
-![Hình sai: ánh sáng phẳng từ trước](hoa-wrong-3.jpg)
-
-**Hình đúng:** ánh sáng chiếu từ phía sau, cánh hoa phát sáng.
-
-![Hình đúng: ngược sáng](hoa-trial-3.jpg)
-<p class="text-muted">Ánh nắng chiếu từ phía sau giúp cánh hoa mỏng có độ trong và nổi bật.</p>
+![So sánh ánh sáng trước và ngược sáng khi chụp hoa](hoa-nguoc-sang.jpg)
+<p class="text-muted">Bên trái là ánh sáng trực tiếp từ trước; bên phải là ánh sáng phía sau giúp cánh hoa có độ trong và nổi bật.</p>
 
 **Hướng dẫn:**
 

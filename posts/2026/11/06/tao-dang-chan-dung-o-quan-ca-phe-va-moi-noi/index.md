@@ -36,6 +36,9 @@ thẳng máy quá lâu.
 Đứng cạnh quầy, xem menu, chỉnh túi hoặc nhìn về phía nhân viên. Những động tác
 nhỏ này tạo dáng tự nhiên hơn việc đứng yên giữa quán.
 
+![Đứng gọi đồ và chờ đồ uống ở quầy cà phê](m3-goi-do.jpg)
+<p class="text-muted">Xem menu, chỉnh túi hoặc chờ đồ uống — những khoảnh khắc đời thường giúp dáng đứng bớt gượng.</p>
+
 ### 4. Tận dụng gương, kính và mặt bàn
 
 Thử chụp qua gương, phản chiếu trên cửa kính hoặc đặt điện thoại thấp sát mặt

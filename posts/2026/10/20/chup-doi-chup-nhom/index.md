@@ -22,6 +22,10 @@ xen kẽ nhau - bố cục sẽ tự nhiên và có chiều sâu hơn nhiều.
 <p class="text-muted">So le vị trí (người lùi sau, người tiến trước, cao
 thấp xen kẽ) giúp bố cục mềm mại và có chiều sâu hơn đứng thẳng hàng.</p>
 
+![So sánh nhóm đứng thẳng hàng với nhóm so le chiều cao và xen kẽ khoảng cách](/posts/2026/10/20/chup-doi-chup-nhom/so-le-xen-ke.jpg)
+<p class="text-muted">Không cần tạo dáng phức tạp: chỉ cần thay đổi nhẹ chiều
+cao, khoảng cách và hướng nhìn là nhóm đã tự nhiên hơn.</p>
+
 ### 2. Chụp đôi: không nhất thiết phải quay mặt thẳng vào máy
 
 Một người quay mặt vào máy, người còn lại quay nghiêng nhìn về phía bạn

@@ -57,6 +57,9 @@ chuyện về nơi bạn đang đứng.
 chân, đưa tay lên phụ kiện, rồi nhìn sang một hướng khác. Người chụp bấm liên
 tiếp trong cả chuỗi để bắt được khoảnh khắc mềm mại nhất.
 
+![Ba nhịp tạo dáng liên tiếp khi đang bước đi](m5-ba-nhip.jpg)
+<p class="text-muted">Đặt chân, chạm nhẹ vào phụ kiện rồi nhìn sang hướng khác — ba nhịp nhỏ tạo ra nhiều khoảnh khắc tự nhiên.</p>
+
 ### 6. Chừa khoảng thở cho khung hình
 
 Không nhất thiết phải đứng giữa ảnh. Đặt người ở một phần ba khung và chừa

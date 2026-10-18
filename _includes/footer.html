@@ -2,22 +2,25 @@
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        {% include social-networks-links.html %}
-        {% if page.footer-extra %}
-          <div class="footer-custom-content">
-            {% for file in page.footer-extra %}
-              {% include {{ file }} %}
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        <p class="copyright text-muted">
-          {% if site.author %}
-            {{ site.author }}
-            &nbsp;&bull;&nbsp;
-          {% endif %}
-          {{ site.time | date: '%Y' }}
-        </p>
+        <div class="footer-row footer-row-top">
+          <span>Chụp đẹp bằng điện thoại, dễ như trở bàn tay 📸</span>
+          <a class="footer-icon-link" href="{{ '/feed.xml' | relative_url }}" title="RSS" aria-label="RSS">
+            <span class="fas fa-rss" aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="footer-row footer-row-bottom">
+          <nav class="footer-compact-links" aria-label="Liên kết footer">
+            <a class="footer-icon-link" href="{{ '/contact/' | relative_url }}" title="Liên hệ" aria-label="Liên hệ">
+              <span class="fas fa-envelope" aria-hidden="true"></span>
+            </a>
+            <a class="footer-icon-link" href="{{ '/privacy/' | relative_url }}" title="Chính sách & điều khoản" aria-label="Chính sách & điều khoản">
+              <span class="fas fa-shield-alt" aria-hidden="true"></span>
+            </a>
+          </nav>
+          <span class="copyright">
+            {{ site.author }} &nbsp;•&nbsp; {{ site.time | date: '%Y' }}
+          </span>
+        </div>
       </div>
     </div>
   </div>

@@ -83,15 +83,6 @@ hoa. Hậu cảnh lá/hoa phía sau sẽ mờ nhẹ, giúp bông hoa chính tác
 ![So sánh chụp hoa thường và bật chế độ Chân dung](hoa-portrait.jpg)
 <p class="text-muted">Giữ bông hoa ở tiền cảnh, cách nền một khoảng rồi bật Portrait để hậu cảnh mờ nhẹ và chủ thể nổi bật hơn.</p>
 
-**Hình sai:** chụp thường, hậu cảnh và chủ thể cùng rõ nét, rối mắt.
-
-![Hình sai: không có độ mờ hậu cảnh](hoa-wrong-3.jpg)
-
-**Hình đúng:** bật chế độ Chân dung, chủ thể rõ, hậu cảnh mờ.
-
-![Hình đúng: chế độ Chân dung](hoa-trial-2.jpg)
-<p class="text-muted">Bông hoa chính rõ nét, lá/hoa phía sau mờ nhẹ tách biệt.</p>
-
 **Hướng dẫn:**
 
 ![Hướng dẫn chế độ Chân dung](hoa-guide-4.png)

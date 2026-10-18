@@ -10,6 +10,35 @@
   }
 
   onReady(function () {
+    // Hiện tiêu đề và mô tả ngắn đè lên ảnh khi rê chuột.
+    var postImages = document.querySelectorAll(".post-body img");
+    postImages.forEach(function (image) {
+      var imageBlock = image.closest("p");
+      if (!imageBlock || imageBlock.querySelector(".post-photo-overlay")) return;
+
+      var heading = imageBlock.previousElementSibling;
+      var description = heading && heading.tagName === "P" ? heading : null;
+      var title = description ? description.previousElementSibling : heading;
+      var overlayTitle = title && title.tagName === "H3" ? title.textContent.trim() : "";
+      var overlayText = description ? description.textContent.trim() : "";
+      if (!overlayTitle && !overlayText) return;
+
+      imageBlock.classList.add("post-photo-block");
+      var overlay = document.createElement("span");
+      overlay.className = "post-photo-overlay";
+      if (overlayTitle) {
+        var titleElement = document.createElement("strong");
+        titleElement.textContent = overlayTitle;
+        overlay.appendChild(titleElement);
+      }
+      if (overlayText) {
+        var textElement = document.createElement("span");
+        textElement.textContent = overlayText;
+        overlay.appendChild(textElement);
+      }
+      imageBlock.appendChild(overlay);
+    });
+
     // Cho phép chuyển nhanh giữa chế độ xem ảnh/tiêu đề và toàn bộ nội dung.
     var postToggle = document.querySelector(".post-view-toggle-btn");
     var postBody = document.querySelector(".post-body");

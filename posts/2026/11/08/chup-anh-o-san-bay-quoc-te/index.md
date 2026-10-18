@@ -60,6 +60,11 @@ trời bị trắng.
 <p class="text-muted">Ống kính càng gần kính và nguồn sáng phía sau càng được che,
 ảnh càng ít bóng phản chiếu.</p>
 
+![So sánh khung cửa kính và đèn phản chiếu làm ảnh rối với góc đứng tránh khung để thấy rõ máy bay](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/can-khung-cua-kinh.jpg)
+<p class="text-muted">Nếu khung cửa nằm giữa chủ thể, hãy bước sang bên hoặc
+đổi góc để đường khung không cắt vào máy bay; ảnh sẽ thoáng và có cảm giác tự
+do hơn.</p>
+
 ### 3. Chụp người với bối cảnh sân bay
 
 Cho nhân vật đứng lệch 1/3 khung hình, chừa khoảng trống về phía họ đang nhìn

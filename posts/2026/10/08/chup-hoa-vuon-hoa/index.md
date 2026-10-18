@@ -103,5 +103,16 @@ cho thấy độ rộng và màu sắc của vườn.
   </figure>
 </div>
 
-**Thử ngay đi!** Lần tới đi qua vườn hoa, áp dụng 1 trong 5 mẹo trên và xem
+### 6. Chụp ảnh ở cánh đồng lúa mì
+
+Với cánh đồng lúa mì, hãy tận dụng những đường luống chạy sâu vào khung hình
+để tạo chiều dài và cảm giác rộng lớn. Đặt người ở một phần ba khung, tránh
+đứng chính giữa làm ảnh bị chia đôi. Có thể để nhân vật vuốt nhẹ bông lúa, đi
+chậm giữa các luống hoặc quay lưng nhìn về phía cuối cánh đồng.
+
+Chụp vào sáng sớm hoặc cuối buổi chiều để ánh sáng xiên làm bông lúa có màu
+ấm và nổi khối. Nếu bầu trời đẹp, chừa khoảng trống phía trên; nếu nền trời
+nhạt, hạ máy thấp hơn và để các luống lúa dẫn mắt về phía nhân vật.
+
+**Thử ngay đi!** Lần tới đi qua vườn hoa hoặc cánh đồng, áp dụng 1 trong 6 mẹo trên và xem
 ảnh của bạn khác biệt thế nào.

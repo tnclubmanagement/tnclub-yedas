@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-30 00:00:00 +0700"
 title: "Chọn hậu cảnh đơn giản để ảnh chân dung \"nịnh mắt\" hơn"
 subtitle: "Không cần phông nền studio, chỉ cần 1 bức tường"
-cover-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg"
-thumbnail-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg"
+cover-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/cover-2.jpg"
+thumbnail-img: "/posts/2026/10/30/hau-canh-don-gian-chan-dung/cover-2.jpg"
 tags: [Chân dung, Bố cục]
 ---
 
@@ -22,6 +22,10 @@ tags: [Chân dung, Bố cục]
 Biển quảng cáo, xe cộ, dây điện và quá nhiều màu sắc sẽ kéo ánh mắt người xem
 ra khỏi chủ thể. Khi nền được tiết chế, gương mặt và dáng đứng trở thành điểm
 nhấn tự nhiên.
+
+![So sánh chân dung với nền phức tạp và nền đơn sắc](/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg)
+<p class="text-muted">Cùng một chủ thể nhưng nền đơn sắc làm gương mặt nổi bật
+hơn, trong khi nền phức tạp kéo sự chú ý ra khỏi nhân vật.</p>
 
 <div class="portrait-tip-grid">
   <article>

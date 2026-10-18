@@ -28,6 +28,10 @@ Một người quay mặt vào máy, người còn lại quay nghiêng nhìn v�
 đồng hành (hoặc cả hai cùng nhìn về 1 hướng xa xăm) thường ra ảnh có cảm
 xúc hơn là cả 2 cùng cười thẳng vào ống kính.
 
+![So sánh hai người cùng nhìn thẳng cứng nhắc với hai người tương tác và nhìn về nhau tự nhiên hơn](tuong-tac-tu-nhien.jpg)
+<p class="text-muted">Chỉ cần thay đổi hướng nhìn — một người nhìn máy, một
+người nhìn bạn đồng hành — là bức ảnh đã có tương tác và cảm xúc hơn.</p>
+
 ### 3. Chạm lấy nét đúng vào gương mặt người ở giữa/phía trước
 
 Khi nhiều người đứng cách máy không đều nhau, điện thoại dễ tự lấy nét

@@ -34,6 +34,9 @@ công trình chính sáng rõ ở giữa khung - vừa có khung, vừa có đ�
 ngói cong, tượng...) thường là thứ làm nên nét riêng của mỗi công trình cổ.
 Lại gần, chụp cận 1 góc chi tiết cũng ra 1 bức ảnh đẹp không kém toàn cảnh.
 
+![So sánh chụp toàn cảnh và chụp cận chi tiết chạm khắc](chi-tiet-cham-khac.jpg)
+<p class="text-muted">Một khung hình lấy cả không gian, một khung hình tập trung vào hoa văn rồng và mái ngói để thấy rõ nét riêng của công trình.</p>
+
 ### 3. Tôn trọng không gian - tắt flash, giữ yên lặng
 
 Nhiều nơi thờ tự không cho phép dùng flash hoặc chụp ảnh trong khu vực

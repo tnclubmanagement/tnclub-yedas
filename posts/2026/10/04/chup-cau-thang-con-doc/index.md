@@ -48,3 +48,7 @@ Một cầu thang/con dốc trống trơn tuy có đường nét đẹp nhưng t
 chuyện". Chụp đúng lúc có người đang bước lên/xuống (ở xa, nhỏ trong khung)
 vừa giúp người xem hình dung độ cao/dốc thực tế, vừa thêm cảm giác chuyển
 động cho bức ảnh.
+
+![So sánh cầu thang trống ở bên trái và cầu thang có một người đang bước đi ở bên phải](nguoi-tao-ti-le.jpg)
+<p class="text-muted">Một người nhỏ trong khung vừa tạo mốc tỉ lệ cho độ cao
+cầu thang, vừa khiến bức ảnh có câu chuyện và cảm giác chuyển động.</p>

@@ -63,6 +63,9 @@ Không cần xóa sạch mọi thứ phía sau. Một chiếc máy pha cà phê,
 hiệu hoặc hàng cây sẽ giúp người xem biết bạn đang ở đâu. Chỉ cần giữ hậu cảnh
 gọn và không cắt ngang đầu nhân vật.
 
+![Giữ lại quầy bar và không khí quán trong hậu cảnh](m6-hau-canh.jpg)
+<p class="text-muted">Quầy bar, máy pha cà phê và cửa sổ giúp người xem nhận ra địa điểm mà không làm nhân vật bị chìm.</p>
+
 ### 7. Chụp một dáng, nhiều khung hình
 
 Giữ nguyên tư thế trong vài giây rồi chụp toàn cảnh, trung cảnh và cận cảnh.

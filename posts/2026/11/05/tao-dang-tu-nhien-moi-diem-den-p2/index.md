@@ -48,6 +48,9 @@ Quay lưng nhìn cảnh, sau đó quay đầu lại một chút khi người ch�
 Không cần quay hẳn mặt — góc nghiêng qua vai thường tự nhiên và kể được câu
 chuyện về nơi bạn đang đứng.
 
+![Quay lưng rồi nhìn qua vai trong công viên](m4-qua-vai.jpg)
+<p class="text-muted">Một cái nhìn nhẹ qua vai giữ được cảm giác đang khám phá, thay vì tạo dáng cứng trước máy ảnh.</p>
+
 ### 5. Tạo dáng theo ba nhịp
 
 Đừng giữ nguyên một tư thế quá lâu. Hãy thực hiện ba động tác liên tiếp: đặt

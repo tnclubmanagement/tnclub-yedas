@@ -66,6 +66,9 @@ Không nhất thiết phải đứng giữa ảnh. Đặt người ở một ph�
 không gian về hướng mắt nhìn hoặc hướng đang bước tới. Khoảng trống làm ảnh
 thoáng hơn và giúp địa điểm được kể rõ hơn.
 
+![Chừa khoảng trống theo hướng người đang nhìn và bước tới](m6-khoang-tho.jpg)
+<p class="text-muted">Đặt nhân vật lệch sang một bên, chừa khoảng trống theo hướng nhìn để bức ảnh thoáng và có câu chuyện hơn.</p>
+
 ### 7. Chụp cùng một tư thế ở nhiều góc
 
 Sau khi có ảnh chính diện, hãy thử chụp ngang hông, thấp hơn tầm mắt hoặc lùi

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" rx="28" fill="#111827"/>
+  <text x="500" y="55" fill="#fff" font-family="sans-serif" font-size="28" text-anchor="middle" font-weight="700">Chọn cách chụp theo chuyển động</text>
+  <g font-family="sans-serif">
+    <rect x="45" y="105" width="280" height="320" rx="22" fill="#173c4a"/>
+    <circle cx="185" cy="175" r="42" fill="#ffd166"/>
+    <path d="M130 285h110M145 285v75M225 285v75M145 305l-35 45M225 305l35 45" stroke="#8be9fd" stroke-width="14" stroke-linecap="round"/>
+    <text x="185" y="395" fill="#fff" font-size="22" text-anchor="middle" font-weight="700">CẢNH TĨNH</text>
+    <text x="185" y="454" fill="#bde9ee" font-size="18" text-anchor="middle">Night mode + tì máy</text>
+    <rect x="360" y="105" width="280" height="320" rx="22" fill="#3c294f"/>
+    <circle cx="500" cy="175" r="35" fill="#ffd166"/>
+    <circle cx="475" cy="275" r="20" fill="#ff7b9c"/><circle cx="525" cy="275" r="20" fill="#ff7b9c"/>
+    <path d="M475 298l-25 70M475 310l-45 35M525 298l25 70M525 310l45 35M475 250l-30-35M525 250l30-35" stroke="#f7b2cc" stroke-width="13" stroke-linecap="round"/>
+    <text x="500" y="395" fill="#fff" font-size="22" text-anchor="middle" font-weight="700">NGƯỜI ĐỨNG YÊN</text>
+    <text x="500" y="454" fill="#f5c7d8" font-size="18" text-anchor="middle">Night mode ngắn hoặc Photo</text>
+    <rect x="675" y="105" width="280" height="320" rx="22" fill="#45361c"/>
+    <path d="M780 285l55-65M780 285l-35-65M780 285v90M780 285l-55 60M780 285l50 60" stroke="#ffca72" stroke-width="14" stroke-linecap="round"/>
+    <path d="M715 220h-45M715 250h-35M845 220h45M845 250h35" stroke="#ffca72" stroke-width="8" stroke-linecap="round"/>
+    <text x="815" y="395" fill="#fff" font-size="22" text-anchor="middle" font-weight="700">ĐANG DI CHUYỂN</text>
+    <text x="815" y="454" fill="#ffe0a3" font-size="18" text-anchor="middle">Photo thường + tìm thêm sáng</text>
+  </g>
+</svg>

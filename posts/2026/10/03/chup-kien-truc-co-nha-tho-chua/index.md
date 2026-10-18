@@ -48,3 +48,6 @@ khoảng cách lịch sự với người đang hành lễ/cầu nguyện khi ch
 Các điểm nổi tiếng thường đông khách tham quan vào giữa trưa/cuối tuần.
 Đi vào sáng sớm vừa có ánh sáng dịu, vừa dễ chụp được khung hình không bị
 người qua lại che khuất công trình chính.
+
+![So sánh công trình đông người và khung hình sạch vào sáng sớm](sang-som-vang-nguoi.jpg)
+<p class="text-muted">Bên trái bị người qua lại che khuất; bên phải sáng sớm vắng hơn nên đường nét công trình được giữ trọn.</p>

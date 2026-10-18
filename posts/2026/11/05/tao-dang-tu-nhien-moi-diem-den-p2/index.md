@@ -75,5 +75,8 @@ Sau khi có ảnh chính diện, hãy thử chụp ngang hông, thấp hơn tầ
 ra xa để lấy cả bối cảnh. Một tư thế nhưng nhiều góc máy sẽ cho bạn cả ảnh
 chân dung lẫn ảnh kể chuyện trong cùng một điểm đến.
 
+![Một tư thế được chụp từ xa, trung cảnh và cận cảnh](m7-nhieu-goc.jpg)
+<p class="text-muted">Giữ cùng một tư thế nhưng đổi khoảng cách và góc máy để có cả ảnh kể chuyện lẫn ảnh chân dung.</p>
+
 Chúc bạn có thêm nhiều bức ảnh tự nhiên, có chiều sâu và đúng với cá tính của
 mình.

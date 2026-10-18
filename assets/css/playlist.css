@@ -4,11 +4,33 @@
 
 .playlist-save-btn.saved {
   opacity: 0.75;
-  cursor: not-allowed;
 }
 
 #playlist-container {
   margin-top: 1.5rem;
+}
+
+.playlist-create-page {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.playlist-create-page input {
+  min-width: 0;
+  flex: 1;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d2d2d7;
+  border-radius: 8px;
+}
+
+.playlist-create-page button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 0.85rem;
+  background: #0071e3;
+  color: #fff;
+  cursor: pointer;
 }
 
 .playlist-list {
@@ -28,6 +50,112 @@
   font-weight: 500;
   margin-right: 1rem;
   word-break: break-word;
+}
+
+.playlist-card {
+  margin: 1rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e5e5ea;
+  border-radius: 14px;
+}
+
+.playlist-card h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.playlist-card h2 small,
+.playlist-picker-list small {
+  color: #6e6e73;
+  font-size: 0.75rem;
+}
+
+.playlist-remove-btn {
+  border: 0;
+  background: transparent;
+  color: #c5221f;
+  cursor: pointer;
+}
+
+.playlist-picker {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+}
+
+.playlist-picker-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.playlist-picker-dialog {
+  position: relative;
+  width: min(92vw, 420px);
+  margin: 12vh auto 0;
+  padding: 1.5rem;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-picker-dialog h2 {
+  margin-top: 0;
+}
+
+.playlist-picker-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  border: 0;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.playlist-picker-list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+
+.playlist-picker-list label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.playlist-picker-list small {
+  margin-left: auto;
+}
+
+.playlist-create-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.playlist-create-row input {
+  min-width: 0;
+  flex: 1;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d2d2d7;
+  border-radius: 8px;
+}
+
+.playlist-create-btn,
+.playlist-picker-save {
+  padding: 0.55rem 0.8rem;
+  border: 0;
+  border-radius: 8px;
+  background: #0071e3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.playlist-limit {
+  margin: 0.7rem 0;
+  color: #6e6e73;
+  font-size: 0.8rem;
 }
 
 .playlist-empty {

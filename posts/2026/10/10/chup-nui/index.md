@@ -40,6 +40,9 @@ Bầu trời trong xanh không 1 gợn mây tuy đẹp mắt khi đứng ngắm,
 muộn với ánh sáng vàng) giúp phần bầu trời có thêm chi tiết, hài hoà với
 phần núi phía dưới.
 
+![So sánh bầu trời trống và bầu trời có mây trên cùng một cảnh núi](may-tren-nui.jpg)
+<p class="text-muted">Mây và ánh sáng cuối ngày làm bầu trời có lớp lang, giúp ảnh núi bớt trống trải và có không khí hơn.</p>
+
 ### 4. Đừng đặt đường chân trời ngay chính giữa
 
 Áp dụng quy tắc 1/3 (xem bài riêng về chủ đề này): nếu bầu trời đẹp, đặt

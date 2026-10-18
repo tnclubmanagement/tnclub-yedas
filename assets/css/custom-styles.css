@@ -914,6 +914,10 @@ body {
   display: grid;
 }
 
+.post-compact-view .post-body > .post-gallery.gallery-mode-stack {
+  display: flex;
+}
+
 .post-compact-view .post-body > .gallery-controls {
   display: flex;
 }
@@ -1001,6 +1005,38 @@ body {
 .post-gallery.gallery-mode-single img {
   aspect-ratio: auto;
   max-height: 720px;
+}
+
+.post-gallery.gallery-mode-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 0.5rem 0 1rem;
+}
+
+.post-gallery.gallery-mode-stack figure {
+  position: relative;
+  width: min(76%, 500px);
+  margin-top: -2rem;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
+}
+
+.post-gallery.gallery-mode-stack figure:first-child {
+  margin-top: 0;
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(odd) {
+  transform: rotate(-1.5deg);
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(even) {
+  transform: rotate(1.5deg);
+}
+
+.post-gallery.gallery-mode-stack figcaption {
+  background: #fff;
 }
 
 .post-gallery figure {

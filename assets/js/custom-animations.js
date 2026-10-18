@@ -17,13 +17,16 @@
       controls.className = "gallery-controls";
       controls.innerHTML = '<span>Hiển thị</span>' +
         '<button type="button" class="gallery-mode-btn is-active" data-mode="grid">Lưới</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>';
+        '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="stack">Xếp chồng</button>';
       gallery.parentNode.insertBefore(controls, gallery);
 
       controls.querySelectorAll(".gallery-mode-btn").forEach(function (button) {
         button.addEventListener("click", function () {
           var isSingle = button.dataset.mode === "single";
+          var isStack = button.dataset.mode === "stack";
           gallery.classList.toggle("gallery-mode-single", isSingle);
+          gallery.classList.toggle("gallery-mode-stack", isStack);
           controls.querySelectorAll(".gallery-mode-btn").forEach(function (item) {
             var active = item === button;
             item.classList.toggle("is-active", active);

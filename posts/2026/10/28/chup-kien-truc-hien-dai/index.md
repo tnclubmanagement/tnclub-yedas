@@ -61,3 +61,12 @@ dưới khung hình; với mặt kính, đổi góc nhẹ để tránh phản ch
 Kiến trúc hiện đại thường đẹp nhất lúc lên đèn (khoảng 30-45 phút sau khi
 mặt trời lặn - gọi là "giờ xanh"/blue hour), khi bầu trời còn chút ánh sáng
 xanh làm nền cho ánh đèn vàng của toà nhà - tương phản màu rất đẹp.
+
+![Toà nhà và mặt nước trong giờ xanh, khi ánh đèn vàng tương phản với bầu trời xanh đậm](/posts/2026/10/28/chup-kien-truc-hien-dai/kien-truc-gio-xanh.jpg)
+<p class="text-muted">Giờ xanh giúp giữ được màu bầu trời thay vì để nền
+đen hoàn toàn; mặt nước còn tạo thêm các vệt phản chiếu màu sắc.</p>
+
+![Toà nhà hiện đại chụp ban ngày với bầu trời sáng và đường nét kiến trúc rõ ràng](/posts/2026/10/28/chup-kien-truc-hien-dai/kien-truc-ban-ngay.jpg)
+<p class="text-muted">Nếu cần thấy rõ hình khối và mặt kính, chụp ban ngày
+với ánh sáng dịu cũng là lựa chọn tốt. Hãy chụp thêm một tấm lúc giờ xanh để
+so sánh không khí của công trình.</p>

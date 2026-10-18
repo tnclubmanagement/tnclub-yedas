@@ -30,6 +30,9 @@ Thay vì nhìn thẳng máy, quay mặt về phía nguồn sáng dịu hoặc nh
 khung hình. Cách này giúp biểu cảm tự nhiên hơn và tạo một vùng sáng đẹp trên
 gương mặt.
 
+![Nhìn về phía nguồn sáng dịu trong công viên](m2-anh-sang.jpg)
+<p class="text-muted">Quay mặt về phía ánh sáng dịu giúp gương mặt sáng hơn và biểu cảm tự nhiên hơn.</p>
+
 ### 3. Dùng đường dẫn để hướng mắt người xem
 
 Đứng trên bậc thang, con đường, cây cầu hoặc hành lang rồi đặt cơ thể theo

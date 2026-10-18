@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+  <rect width="1000" height="430" rx="28" fill="#122333"/>
+  <text x="500" y="48" fill="#fff" font-family="sans-serif" font-size="27" text-anchor="middle" font-weight="700">Chụp qua cửa kính ít phản chiếu</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(70 95)"><rect width="360" height="235" rx="18" fill="#4c86a5"/><rect x="55" y="35" width="250" height="165" fill="#a9d9e8" opacity=".65" stroke="#fff" stroke-width="4"/><rect x="135" y="82" width="90" height="145" rx="14" fill="#172033"/><circle cx="180" cy="100" r="8" fill="#82cce4"/><path d="M255 70l55-35M255 105l70-10" stroke="#fff" stroke-width="8" stroke-linecap="round"/><path d="M180 250v-30M155 250h50" stroke="#fff" stroke-width="8" stroke-linecap="round"/><text x="180" y="285" fill="#fff" font-size="19" font-weight="700">Đúng: sát kính + che sáng</text></g>
+    <g transform="translate(570 95)"><rect width="360" height="235" rx="18" fill="#4c86a5"/><rect x="55" y="35" width="250" height="165" fill="#a9d9e8" opacity=".65" stroke="#fff" stroke-width="4"/><rect x="135" y="82" width="90" height="145" rx="14" fill="#172033"/><path d="M80 65l210 130M80 195 290 65" stroke="#ff8b8b" stroke-width="8" stroke-linecap="round"/><path d="M250 230h45M270 210v40" stroke="#ff8b8b" stroke-width="8" stroke-linecap="round"/><text x="180" y="285" fill="#fff" font-size="19" font-weight="700">Sai: flash + đứng xa kính</text></g>
+  </g>
+</svg>

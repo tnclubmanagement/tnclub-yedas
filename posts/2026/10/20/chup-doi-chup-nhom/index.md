@@ -38,6 +38,10 @@ Khi nhiều người đứng cách máy không đều nhau, điện thoại dễ
 nhầm vào người ở xa hoặc vào hậu cảnh. Luôn chạm tay vào đúng gương mặt
 người quan trọng nhất (hoặc người ở giữa khung hình) trước khi bấm chụp.
 
+![So sánh lấy nét nhầm vào hậu cảnh làm người phía trước bị mờ với chạm lấy nét vào gương mặt chủ thể](/posts/2026/10/20/chup-doi-chup-nhom/cham-lay-net-dung-nguoi.jpg)
+<p class="text-muted">Khi khoảng cách giữa các thành viên khác nhau, hãy chạm
+vào đúng gương mặt quan trọng nhất trước khi chụp để chủ thể chính sắc nét.</p>
+
 ### 4. Chụp nhiều tấm liên tiếp, không chỉ 1 tấm
 
 Với nhóm từ 3 người trở lên, xác suất có ít nhất 1 người nhắm mắt/cười

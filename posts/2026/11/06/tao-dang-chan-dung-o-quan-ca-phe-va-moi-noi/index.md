@@ -28,6 +28,9 @@ Ly cà phê giúp hai tay có việc để làm và tạo cảm giác bức ản
 khoảnh khắc thật. Cầm ly nhẹ, đưa lên gần môi hoặc đặt xuống bàn thay vì nhìn
 thẳng máy quá lâu.
 
+![Cầm ly nước làm đạo cụ khi chụp chân dung trong quán](m2-ly-nuoc.jpg)
+<p class="text-muted">Cầm ly nhẹ gần môi, nhìn ra ngoài thay vì nhìn thẳng máy để đôi tay và biểu cảm tự nhiên hơn.</p>
+
 ### 3. Đứng gọi đồ hoặc chờ đồ uống
 
 Đứng cạnh quầy, xem menu, chỉnh túi hoặc nhìn về phía nhân viên. Những động tác

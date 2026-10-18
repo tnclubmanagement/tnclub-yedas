@@ -41,6 +41,11 @@ thẳng chạy từ góc ảnh vào cổng máy bay, bảng thông tin hoặc nh
 Đừng để đường dẫn bị cắt ngang bởi quá nhiều vật ở tiền cảnh. Hạ máy thấp một
 chút, giữ điện thoại thẳng và chờ một người kéo vali đi vào đúng điểm cần nhấn.
 
+![So sánh nhà ga trống chỉ có đường dẫn với ảnh có người kéo vali đi qua để tạo điểm nhấn và cảm giác chuyển động](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/duong-dan-nha-ga.jpg)
+<p class="text-muted">Các vạch trên sàn, dãy đèn và hàng ghế dẫn mắt về phía
+xa. Một người đang kéo vali giúp khung hình có điểm nhấn và kể được câu chuyện
+đang di chuyển.</p>
+
 ### 2. Chụp qua cửa kính mà không bị lóa
 
 Lau nhanh mặt kính bằng khăn mềm, tắt flash và đưa ống kính gần mặt kính nhưng

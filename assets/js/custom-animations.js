@@ -10,6 +10,29 @@
   }
 
   onReady(function () {
+    // Đổi cách hiển thị từng gallery: lưới gọn hoặc xem từng ảnh lớn.
+    var galleries = document.querySelectorAll(".post-gallery");
+    galleries.forEach(function (gallery) {
+      var controls = document.createElement("div");
+      controls.className = "gallery-controls";
+      controls.innerHTML = '<span>Hiển thị</span>' +
+        '<button type="button" class="gallery-mode-btn is-active" data-mode="grid">Lưới</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>';
+      gallery.parentNode.insertBefore(controls, gallery);
+
+      controls.querySelectorAll(".gallery-mode-btn").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var isSingle = button.dataset.mode === "single";
+          gallery.classList.toggle("gallery-mode-single", isSingle);
+          controls.querySelectorAll(".gallery-mode-btn").forEach(function (item) {
+            var active = item === button;
+            item.classList.toggle("is-active", active);
+            item.setAttribute("aria-pressed", String(active));
+          });
+        });
+      });
+    });
+
     // Gallery: bấm vào ảnh để xem lớn, đóng bằng nút, nền tối hoặc phím Escape.
     var galleryImages = document.querySelectorAll(".post-gallery img");
     galleryImages.forEach(function (image) {

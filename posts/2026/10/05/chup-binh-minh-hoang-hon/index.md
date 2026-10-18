@@ -38,6 +38,10 @@ Silhouette đẹp cần chủ thể có đường viền RÕ RÀNG, dễ nhận 
 lộn xộn (bụi cây rậm) vì khi thành silhouette sẽ chỉ còn 1 khối đen vô
 định hình.
 
+![So sánh chủ thể hình dáng lộn xộn (trái) và chủ thể có đường viền rõ ràng (trái) để làm silhouette](/posts/2026/10/05/chup-binh-minh-hoang-hon/silhouette-chu-the.jpg)
+<p class="text-muted">Cây khô và người đứng có đường viền rõ ràng rất hợp
+làm silhouette; bụi cây rậm (trái) sẽ chỉ thành khối đen không rõ hình.</p>
+
 ### 4. Đừng vội tắt máy khi mặt trời đã lặn hẳn
 
 Khoảng 10-20 phút SAU khi mặt trời khuất hẳn (gọi là "giờ xanh" - blue

@@ -22,8 +22,6 @@ tags: [Chân dung, Bố cục]
 Biển quảng cáo, xe cộ, dây điện và quá nhiều màu sắc sẽ kéo ánh mắt người xem
 ra khỏi chủ thể. Khi nền được tiết chế, gương mặt và dáng đứng trở thành điểm
 nhấn tự nhiên.
-
-![So sánh chân dung với nền phức tạp và nền đơn sắc](/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg)
 <p class="text-muted">Cùng một chủ thể nhưng nền đơn sắc làm gương mặt nổi bật
 hơn, trong khi nền phức tạp kéo sự chú ý ra khỏi nhân vật.</p>
 
@@ -52,7 +50,7 @@ hơn, trong khi nền phức tạp kéo sự chú ý ra khỏi nhân vật.</p>
 3. Chạm lấy nét vào mắt, bật Portrait nếu máy tách chủ thể ổn và giảm sáng
    nhẹ nếu vùng da bị cháy.
 
-![Sơ đồ nhìn từ trên xuống: người đứng cách tường 1-1,5m, điện thoại chụp từ xa hơn](/posts/2026/10/30/hau-canh-don-gian-chan-dung/khoang-cach-chan-dung.svg)
+![So sánh chân dung với nền phức tạp và nền đơn sắc](/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg)
 <p class="text-muted">Tách người khỏi tường giúp ảnh có chiều sâu; người chụp nên lùi ra thay vì dí máy quá gần.</p>
 
 ![So sánh bỏ qua quy trình 30 giây với ảnh chân dung áp dụng đúng cách chọn nền, khoảng cách, lấy nét và ánh sáng](/posts/2026/10/30/hau-canh-don-gian-chan-dung/quy-trinh-30-giay.jpg)

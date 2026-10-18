@@ -1289,18 +1289,54 @@ body {
 
 .gallery-lightbox button {
   position: absolute;
-  top: 1rem;
-  right: 1.5rem;
   border: 0;
   background: transparent;
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  line-height: 1;
   cursor: pointer;
+}
+
+.gallery-lightbox-close {
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.gallery-lightbox-prev,
+.gallery-lightbox-next {
+  top: 50%;
+  padding: 1rem;
+  transform: translateY(-50%);
+}
+
+.gallery-lightbox-prev {
+  left: 1rem;
+}
+
+.gallery-lightbox-next {
+  right: 1rem;
+}
+
+.gallery-lightbox button:hover,
+.gallery-lightbox button:focus-visible {
+  color: #b9d7ff;
 }
 
 @media (max-width: 700px) {
   .post-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-lightbox {
+    padding: 1rem 3.5rem;
+  }
+
+  .gallery-lightbox-prev {
+    left: 0.25rem;
+  }
+
+  .gallery-lightbox-next {
+    right: 0.25rem;
   }
 }
 

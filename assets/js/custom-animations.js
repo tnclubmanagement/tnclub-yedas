@@ -41,23 +41,60 @@
       });
     });
 
-    // Gallery: bấm vào ảnh để xem lớn, đóng bằng nút, nền tối hoặc phím Escape.
-    var galleryImages = document.querySelectorAll(".post-gallery img");
-    galleryImages.forEach(function (image) {
-      image.addEventListener("click", function () {
+    // Gallery: bấm vào ảnh để xem lớn, có thể chuyển ảnh bằng nút hoặc phím.
+    document.querySelectorAll(".post-gallery").forEach(function (gallery) {
+      var images = Array.prototype.slice.call(gallery.querySelectorAll("img"));
+
+      function openLightbox(startIndex) {
+        var index = startIndex;
         var lightbox = document.createElement("div");
         lightbox.className = "gallery-lightbox";
-        lightbox.innerHTML = '<button type="button" aria-label="Đóng">&times;</button>' +
-          '<img src="' + image.src + '" alt="' + (image.alt || "") + '">';
-        document.body.appendChild(lightbox);
+        lightbox.setAttribute("role", "dialog");
+        lightbox.setAttribute("aria-modal", "true");
+        lightbox.innerHTML =
+          '<button type="button" class="gallery-lightbox-prev" aria-label="Ảnh trước">&#10094;</button>' +
+          '<button type="button" class="gallery-lightbox-close" aria-label="Đóng">&times;</button>' +
+          '<img alt="">' +
+          '<button type="button" class="gallery-lightbox-next" aria-label="Ảnh tiếp theo">&#10095;</button>';
+
+        var lightboxImage = lightbox.querySelector("img");
+        var previousButton = lightbox.querySelector(".gallery-lightbox-prev");
+        var nextButton = lightbox.querySelector(".gallery-lightbox-next");
+
+        function showImage(nextIndex) {
+          index = (nextIndex + images.length) % images.length;
+          lightboxImage.src = images[index].currentSrc || images[index].src;
+          lightboxImage.alt = images[index].alt || "";
+          previousButton.hidden = images.length < 2;
+          nextButton.hidden = images.length < 2;
+        }
+
+        function closeLightbox() {
+          lightbox.remove();
+          document.removeEventListener("keydown", handleKeydown);
+        }
+
+        function handleKeydown(event) {
+          if (event.key === "Escape") closeLightbox();
+          if (event.key === "ArrowLeft" && images.length > 1) showImage(index - 1);
+          if (event.key === "ArrowRight" && images.length > 1) showImage(index + 1);
+        }
+
         lightbox.addEventListener("click", function (event) {
-          if (event.target === lightbox || event.target.tagName === "BUTTON") lightbox.remove();
+          if (event.target === lightbox) closeLightbox();
+          if (event.target === previousButton) showImage(index - 1);
+          if (event.target === nextButton) showImage(index + 1);
+          if (event.target === lightbox.querySelector(".gallery-lightbox-close")) closeLightbox();
         });
-        document.addEventListener("keydown", function closeOnEscape(event) {
-          if (event.key === "Escape") {
-            lightbox.remove();
-            document.removeEventListener("keydown", closeOnEscape);
-          }
+        document.body.appendChild(lightbox);
+        showImage(index);
+        document.addEventListener("keydown", handleKeydown);
+        lightbox.querySelector(".gallery-lightbox-close").focus();
+      }
+
+      images.forEach(function (image, index) {
+        image.addEventListener("click", function () {
+          openLightbox(index);
         });
       });
     });

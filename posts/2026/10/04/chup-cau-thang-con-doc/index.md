@@ -38,6 +38,10 @@ vì đứng ngang giữa) để các bậc thang xếp hàng dẫn mắt ngườ
 sang góc kia của khung hình, giống hệt nguyên lý "đường dẫn" (leading
 lines) đã nói ở bài kiến trúc hiện đại.
 
+![So sánh góc đứng ngang làm cầu thang kém chiều sâu ở bên trái và góc đứng ở đầu cầu thang để các bậc tạo đường dẫn ở bên phải](bac-thang-duong-dan.jpg)
+<p class="text-muted">Đứng ở đầu hoặc cuối cầu thang giúp các bậc xếp lớp
+liên tiếp, lan can tạo hai đường dẫn và dẫn mắt về cửa ở phía xa.</p>
+
 ### 4. Thêm 1 người đang bước đi để có tỉ lệ + chuyển động
 
 Một cầu thang/con dốc trống trơn tuy có đường nét đẹp nhưng thiếu "câu

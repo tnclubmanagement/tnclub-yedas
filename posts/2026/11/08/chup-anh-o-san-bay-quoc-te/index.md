@@ -75,6 +75,10 @@ Nếu chụp người lạ, hãy tránh chụp cận mặt khi chưa được đ
 cùng, có thể nhờ họ kéo vali, xem bảng chuyến bay hoặc bước chậm qua khung hình;
 chụp liên tiếp 3–5 tấm để bắt khoảnh khắc tự nhiên.
 
+![So sánh đặt người chính giữa và đứng thẳng cứng với bố cục một phần ba có vali và khoảng trống phía trước](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/nguoi-va-boi-canh-san-bay.jpg)
+<p class="text-muted">Đặt người lệch một phần ba, dùng vali làm đạo cụ và chừa
+khoảng trống theo hướng di chuyển giúp ảnh có câu chuyện hơn.</p>
+
 ### 4. Tận dụng bảng chuyến bay nhưng không biến ảnh thành ảnh chụp màn hình
 
 Bảng điện tử có chữ và giờ bay tạo cảm giác rất “đang đi du lịch”, nhưng thông

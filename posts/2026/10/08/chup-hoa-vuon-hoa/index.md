@@ -114,5 +114,28 @@ Chụp vào sáng sớm hoặc cuối buổi chiều để ánh sáng xiên làm
 ấm và nổi khối. Nếu bầu trời đẹp, chừa khoảng trống phía trên; nếu nền trời
 nhạt, hạ máy thấp hơn và để các luống lúa dẫn mắt về phía nhân vật.
 
+<div class="post-gallery" aria-label="Gallery góc chụp chân dung ở cánh đồng lúa mì">
+  <figure>
+    <img src="lua-mi-goc-sai.jpg" alt="Góc chụp từ trên cao khiến chân dung ở cánh đồng lúa mì trông nhỏ">
+    <figcaption>Góc từ trên cao và 1x làm người nhỏ, lối đi và cánh đồng bị rối.</figcaption>
+  </figure>
+  <figure>
+    <img src="lua-mi-goc-1.jpg" alt="Chụp chân dung từ trên cao với zoom 2x ở cánh đồng lúa mì">
+    <figcaption>Zoom 2x, lấy nhân vật làm trung tâm và giữ hậu cảnh lúa mềm hơn.</figcaption>
+  </figure>
+  <figure>
+    <img src="lua-mi-goc-2.jpg" alt="Chụp gần khiến khuôn mặt bị lớn ở cánh đồng lúa mì">
+    <figcaption>Không dí máy quá gần vì khuôn mặt dễ bị lớn và dáng bị lùn.</figcaption>
+  </figure>
+  <figure>
+    <img src="lua-mi-goc-3.jpg" alt="Góc thấp zoom 2x dọc theo lối đi giữa cánh đồng">
+    <figcaption>Hạ máy thấp, zoom 2x và chụp dọc lối đi để tạo chiều sâu.</figcaption>
+  </figure>
+  <figure>
+    <img src="lua-mi-goc-4.jpg" alt="Chụp chân dung từ trên cao với góc một phần ba">
+    <figcaption>Với góc 1/3, đặt nhân vật lệch khung và chừa khoảng trời vừa đủ.</figcaption>
+  </figure>
+</div>
+
 **Thử ngay đi!** Lần tới đi qua vườn hoa hoặc cánh đồng, áp dụng 1 trong 6 mẹo trên và xem
 ảnh của bạn khác biệt thế nào.

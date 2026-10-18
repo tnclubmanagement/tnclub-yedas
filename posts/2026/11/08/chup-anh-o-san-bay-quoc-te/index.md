@@ -89,6 +89,11 @@ mã đặt chỗ hoặc thông tin cá nhân nếu chúng hiện rõ.
 Có thể đợi một người đứng nhỏ dưới bảng để tạo mốc tỉ lệ. Đừng che toàn bộ bảng
 bằng nhân vật; đặt người ở mép dưới hoặc một phần ba khung sẽ cân bằng hơn.
 
+![So sánh chụp cận bảng chuyến bay thiếu không gian với ảnh chụp rộng có hành khách làm mốc tỉ lệ](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/bang-chuyen-bay-boi-canh.jpg)
+<p class="text-muted">Chụp rộng hơn, để bảng nằm ở phần trên và một người nhỏ
+ở mép dưới sẽ cho thấy cả quy mô nhà ga, thay vì biến ảnh thành ảnh chụp màn
+hình.</p>
+
 ### 5. Chụp đêm và ánh sáng trong nhà ga
 
 Nhà ga thường sáng không đều: bảng quảng cáo rất sáng nhưng góc ghế lại tối.

@@ -35,7 +35,7 @@ round-avatar: true
 #####################################
 
 social-network-links:
-  rss: true
+  rss: false
   facebook: # điền username/trang Facebook của bạn, ví dụ: your.page.name
 
 rss-description: Mẹo chụp ảnh đơn giản, dễ áp dụng ngay bằng điện thoại - dành cho người mới bắt đầu.

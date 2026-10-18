@@ -49,3 +49,6 @@ phần núi phía dưới.
 đường chân trời ở khoảng 1/3 phía dưới khung hình để dành nhiều đất cho
 bầu trời; nếu núi/tiền cảnh ấn tượng hơn, đặt đường chân trời ở 1/3 phía
 trên.
+
+![So sánh đặt đường chân trời giữa khung và đặt theo quy tắc 1/3](duong-chan-troi.jpg)
+<p class="text-muted">Đặt đường chân trời lệch 1/3 để ưu tiên phần đang có chi tiết và cảm xúc hơn: bầu trời hoặc dãy núi.</p>

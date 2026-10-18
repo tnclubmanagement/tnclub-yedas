@@ -515,7 +515,8 @@ body {
 
 /* Chế độ rút gọn vẫn giữ toàn bộ ảnh trong bài; chỉ ẩn chữ hướng dẫn. */
 .post-compact-view .post-body > p:has(> img),
-.post-compact-view .post-body > img {
+.post-compact-view .post-body > img,
+.post-compact-view .post-body > h3 {
   display: block;
 }
 

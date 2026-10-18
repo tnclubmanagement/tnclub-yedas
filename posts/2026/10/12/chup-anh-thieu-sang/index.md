@@ -42,6 +42,11 @@ hình.
 <p class="text-muted">Tì khuỷu tay vào điểm tựa cố định + chạm vào vùng sáng
 (đèn, lửa...) để máy đo sáng đúng chỗ.</p>
 
+![So sánh ảnh thành phố ban đêm bị rung ở bên trái và ảnh rõ nét khi đặt máy lên mặt phẳng ở bên phải](/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung-dung-sai.jpg)
+<p class="text-muted">Khi máy rung trong lúc phơi sáng, các tòa nhà và đèn
+thành phố bị kéo thành vệt. Chỉ cần đặt máy lên mặt phẳng hoặc tì chắc là
+đường nét đã rõ hơn rất nhiều.</p>
+
 **Mẹo nhỏ:** dùng hẹn giờ 2 giây khi đặt máy lên bàn hoặc lan can. Nó giúp
 tránh rung do ngón tay vừa chạm nút chụp.
 

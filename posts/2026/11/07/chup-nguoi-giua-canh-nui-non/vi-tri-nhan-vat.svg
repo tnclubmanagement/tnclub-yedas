@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+  <rect width="1000" height="430" rx="28" fill="#142b34"/>
+  <text x="500" y="48" fill="#fff" font-family="sans-serif" font-size="27" text-anchor="middle" font-weight="700">Đặt nhân vật và khoảng trống</text>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(45 85)"><rect width="410" height="245" rx="18" fill="#9bc3c1"/><path d="M0 235 135 105l55 60 80-105 140 175z" fill="#477a72"/><path d="M205 85v175M40 207h330" stroke="#f8c96a" stroke-width="3" stroke-dasharray="8 8"/><circle cx="205" cy="170" r="14" fill="#f8c7a0"/><path d="M205 187v48m-20-26 20 9 20-9m-20 9-16 24m16-24 16 24" stroke="#fff" stroke-width="9" stroke-linecap="round"/><text x="205" y="285" fill="#17343a" font-size="19" font-weight="700">Giữa khung: cân đối nhưng dễ cứng</text></g>
+    <g transform="translate(545 85)"><rect width="410" height="245" rx="18" fill="#9bc3c1"/><path d="M0 235 135 105l55 60 80-105 140 175z" fill="#477a72"/><path d="M275 85v175M40 207h330" stroke="#f8c96a" stroke-width="3" stroke-dasharray="8 8"/><circle cx="275" cy="170" r="14" fill="#f8c7a0"/><path d="M275 187v48m-20-26 20 9 20-9m-20 9-16 24m16-24 16 24" stroke="#fff" stroke-width="9" stroke-linecap="round"/><path d="M305 170h78" stroke="#f8c96a" stroke-width="4"/><path d="m372 158 18 12-18 12" fill="none" stroke="#f8c96a" stroke-width="4"/><text x="205" y="285" fill="#17343a" font-size="19" font-weight="700">Lệch 1/3: chừa hướng nhìn</text></g>
+  </g>
+</svg>

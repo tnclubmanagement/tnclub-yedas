@@ -10,6 +10,58 @@
   }
 
   onReady(function () {
+    // Đổi cách hiển thị từng gallery: lưới gọn hoặc xem từng ảnh lớn.
+    var galleries = document.querySelectorAll(".post-gallery");
+    galleries.forEach(function (gallery) {
+      var controls = document.createElement("div");
+      controls.className = "gallery-controls";
+      controls.innerHTML = '<span>Hiển thị</span>' +
+        '<button type="button" class="gallery-mode-btn is-active" data-mode="grid">Lưới</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="stack">Xếp chồng</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="masonry">Masonry</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="film">Film strip</button>';
+      if (gallery.querySelectorAll("figure").length === 2) {
+        controls.innerHTML += '<button type="button" class="gallery-mode-btn" data-mode="compare">So sánh</button>';
+      }
+      gallery.parentNode.insertBefore(controls, gallery);
+
+      controls.querySelectorAll(".gallery-mode-btn").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var mode = button.dataset.mode;
+          ["single", "stack", "masonry", "film", "compare"].forEach(function (name) {
+            gallery.classList.toggle("gallery-mode-" + name, mode === name);
+          });
+          controls.querySelectorAll(".gallery-mode-btn").forEach(function (item) {
+            var active = item === button;
+            item.classList.toggle("is-active", active);
+            item.setAttribute("aria-pressed", String(active));
+          });
+        });
+      });
+    });
+
+    // Gallery: bấm vào ảnh để xem lớn, đóng bằng nút, nền tối hoặc phím Escape.
+    var galleryImages = document.querySelectorAll(".post-gallery img");
+    galleryImages.forEach(function (image) {
+      image.addEventListener("click", function () {
+        var lightbox = document.createElement("div");
+        lightbox.className = "gallery-lightbox";
+        lightbox.innerHTML = '<button type="button" aria-label="Đóng">&times;</button>' +
+          '<img src="' + image.src + '" alt="' + (image.alt || "") + '">';
+        document.body.appendChild(lightbox);
+        lightbox.addEventListener("click", function (event) {
+          if (event.target === lightbox || event.target.tagName === "BUTTON") lightbox.remove();
+        });
+        document.addEventListener("keydown", function closeOnEscape(event) {
+          if (event.key === "Escape") {
+            lightbox.remove();
+            document.removeEventListener("keydown", closeOnEscape);
+          }
+        });
+      });
+    });
+
     // Lọc bài viết và đổi giữa chế độ lưới/danh sách trên trang chủ.
     var homeControls = document.querySelector(".home-controls");
     var postsList = document.querySelector(".posts-list");

@@ -30,6 +30,9 @@ Núi to cỡ nào cũng khó cảm nhận nếu trong ảnh không có gì để
 cần 1 người đứng nhỏ ở góc khung hình (theo quy tắc 1/3) là người xem lập
 tức hình dung được núi lớn tới mức nào.
 
+![So sánh ảnh núi không có người và có người làm mốc tỉ lệ](nguoi-thay-ti-le.jpg)
+<p class="text-muted">Một người nhỏ ở lối đi tạo mốc so sánh, giúp người xem cảm nhận rõ quy mô của dãy núi.</p>
+
 ### 3. Chụp lúc trời có mây để bầu trời "có chuyện"
 
 Bầu trời trong xanh không 1 gợn mây tuy đẹp mắt khi đứng ngắm, nhưng lên
@@ -37,9 +40,15 @@ Bầu trời trong xanh không 1 gợn mây tuy đẹp mắt khi đứng ngắm,
 muộn với ánh sáng vàng) giúp phần bầu trời có thêm chi tiết, hài hoà với
 phần núi phía dưới.
 
+![So sánh bầu trời trống và bầu trời có mây trên cùng một cảnh núi](may-tren-nui.jpg)
+<p class="text-muted">Mây và ánh sáng cuối ngày làm bầu trời có lớp lang, giúp ảnh núi bớt trống trải và có không khí hơn.</p>
+
 ### 4. Đừng đặt đường chân trời ngay chính giữa
 
 Áp dụng quy tắc 1/3 (xem bài riêng về chủ đề này): nếu bầu trời đẹp, đặt
 đường chân trời ở khoảng 1/3 phía dưới khung hình để dành nhiều đất cho
 bầu trời; nếu núi/tiền cảnh ấn tượng hơn, đặt đường chân trời ở 1/3 phía
 trên.
+
+![So sánh đặt đường chân trời giữa khung và đặt theo quy tắc 1/3](duong-chan-troi.jpg)
+<p class="text-muted">Đặt đường chân trời lệch 1/3 để ưu tiên phần đang có chi tiết và cảm xúc hơn: bầu trời hoặc dãy núi.</p>

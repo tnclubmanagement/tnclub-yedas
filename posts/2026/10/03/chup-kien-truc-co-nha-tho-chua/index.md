@@ -34,14 +34,23 @@ công trình chính sáng rõ ở giữa khung - vừa có khung, vừa có đ�
 ngói cong, tượng...) thường là thứ làm nên nét riêng của mỗi công trình cổ.
 Lại gần, chụp cận 1 góc chi tiết cũng ra 1 bức ảnh đẹp không kém toàn cảnh.
 
+![So sánh chụp toàn cảnh và chụp cận chi tiết chạm khắc](chi-tiet-cham-khac.jpg)
+<p class="text-muted"><strong>Bên trái — hình sai:</strong> góc rộng ôm quá nhiều cột, mái, bậc thềm và sân khiến công trình bị phẳng, lộn xộn; hoa văn rồng phượng bị chìm. <strong>Bên phải — hình đúng:</strong> tiến gần hoặc zoom vào một chi tiết chạm khắc, dùng ánh sáng xiên và hậu cảnh mờ để làm nổi bật từng nét đục đẽo, thớ gỗ và dấu vết thời gian.</p>
+
 ### 3. Tôn trọng không gian - tắt flash, giữ yên lặng
 
 Nhiều nơi thờ tự không cho phép dùng flash hoặc chụp ảnh trong khu vực
 hành lễ. Luôn để ý biển báo, hỏi người quản lý nếu không chắc, và giữ
 khoảng cách lịch sự với người đang hành lễ/cầu nguyện khi chụp.
 
+![So sánh chụp có flash và tắt flash trong không gian thờ tự](khong-flash.jpg)
+<p class="text-muted">Tắt flash, giữ yên lặng và đứng ngoài lối hành lễ để không làm phiền người đang cầu nguyện.</p>
+
 ### 4. Canh giờ vắng người (sáng sớm) để có khung hình sạch
 
 Các điểm nổi tiếng thường đông khách tham quan vào giữa trưa/cuối tuần.
 Đi vào sáng sớm vừa có ánh sáng dịu, vừa dễ chụp được khung hình không bị
 người qua lại che khuất công trình chính.
+
+![So sánh công trình đông người và khung hình sạch vào sáng sớm](sang-som-vang-nguoi.jpg)
+<p class="text-muted">Bên trái bị người qua lại che khuất; bên phải sáng sớm vắng hơn nên đường nét công trình được giữ trọn.</p>

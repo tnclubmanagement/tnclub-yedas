@@ -311,6 +311,94 @@ body {
   color: var(--ink);
 }
 
+/* ---------- Trang chân dung ---------- */
+.portrait-intro {
+  max-width: 680px;
+  margin: 2.25rem auto 2rem;
+  text-align: center;
+}
+
+.portrait-kicker {
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.portrait-intro h2 {
+  margin: 0.5rem 0 0.8rem;
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  line-height: 1.08;
+}
+
+.portrait-intro p:last-child,
+.portrait-tip-grid p,
+.portrait-closing {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.portrait-tip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.portrait-tip-grid article {
+  padding: 1.1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 15px;
+  background: var(--bg-light);
+}
+
+.portrait-tip-number {
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.portrait-tip-grid h3 {
+  margin: 0.45rem 0 0.3rem;
+  font-size: 1rem;
+}
+
+.portrait-tip-grid p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.portrait-checklist {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 15px;
+  background: var(--bg-light);
+}
+
+.portrait-checklist label {
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.portrait-checklist input {
+  margin-right: 0.55rem;
+  accent-color: var(--accent-blue);
+}
+
+.portrait-closing {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent-blue);
+}
+
+@media (max-width: 640px) {
+  .portrait-tip-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---------- Trang Giới thiệu ---------- */
 .about-intro {
   display: grid;
@@ -910,6 +998,30 @@ body {
   display: block;
 }
 
+.post-compact-view .post-body > .post-gallery {
+  display: grid;
+}
+
+.post-compact-view .post-body > .post-gallery.gallery-mode-stack {
+  display: block;
+}
+
+.post-compact-view .post-body > .post-gallery.gallery-mode-masonry {
+  display: block;
+}
+
+.post-compact-view .post-body > .post-gallery.gallery-mode-film {
+  display: flex;
+}
+
+.post-compact-view .post-body > .gallery-controls {
+  display: flex;
+}
+
+.post-compact-view .post-gallery figcaption {
+  display: none;
+}
+
 .post-compact-view .post-body > p:has(> img) img,
 .post-compact-view .post-body > img {
   display: block;
@@ -946,6 +1058,250 @@ body {
 .post-photo-overlay span {
   font-size: 0.85rem;
   line-height: 1.4;
+}
+
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.gallery-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  margin: 1.25rem 0 -0.75rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.gallery-mode-btn {
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  background: var(--bg-white);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.gallery-mode-btn.is-active,
+.gallery-mode-btn:hover {
+  border-color: var(--accent-blue);
+  background: #e8f0fe;
+  color: var(--accent-blue);
+}
+
+.post-gallery.gallery-mode-single {
+  grid-template-columns: minmax(0, 640px);
+  justify-content: center;
+}
+
+.post-gallery.gallery-mode-single img {
+  aspect-ratio: auto;
+  max-height: 720px;
+}
+
+.post-gallery.gallery-mode-stack {
+  position: relative;
+  display: block;
+  min-height: 520px;
+  padding: 0.5rem 0;
+}
+
+.post-gallery.gallery-mode-stack figure {
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(58%, 400px);
+  margin: 0;
+  border: 6px solid #fff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
+}
+
+.post-gallery.gallery-mode-stack figure:first-child {
+  transform: translate(-50%, -50%) translateX(-42%) rotate(-10deg);
+  z-index: 1;
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(2) {
+  transform: translate(-50%, -50%) translateX(-20%) rotate(6deg);
+  z-index: 2;
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-2deg);
+  z-index: 3;
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(4) {
+  transform: translate(-50%, -50%) translateX(20%) rotate(8deg);
+  z-index: 2;
+}
+
+.post-gallery.gallery-mode-stack figure:nth-child(n+5) {
+  transform: translate(-50%, -50%) translateX(40%) rotate(-7deg);
+  z-index: 1;
+}
+
+.post-gallery.gallery-mode-stack figcaption {
+  background: #fff;
+}
+
+.post-gallery.gallery-mode-masonry {
+  display: block;
+  column-count: 3;
+  column-gap: 0.75rem;
+}
+
+.post-gallery.gallery-mode-masonry figure {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0.75rem;
+  break-inside: avoid;
+}
+
+.post-gallery.gallery-mode-masonry img {
+  aspect-ratio: auto;
+}
+
+.post-gallery.gallery-mode-film {
+  display: flex;
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  padding: 0.25rem 0.25rem 1rem;
+  scroll-snap-type: x mandatory;
+}
+
+.post-gallery.gallery-mode-film figure {
+  flex: 0 0 min(72vw, 360px);
+  scroll-snap-align: center;
+}
+
+.post-gallery.gallery-mode-film img {
+  aspect-ratio: auto;
+}
+
+.post-gallery.gallery-mode-compare {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.post-gallery.gallery-mode-compare figure:first-child::before,
+.post-gallery.gallery-mode-compare figure:nth-child(2)::before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0.65rem;
+  left: 0.65rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.post-gallery.gallery-mode-compare figure:first-child::before {
+  content: "Trước";
+}
+
+.post-gallery.gallery-mode-compare figure:nth-child(2)::before {
+  content: "Sau";
+}
+
+.post-gallery.gallery-mode-compare figure {
+  position: relative;
+}
+
+@media (max-width: 700px) {
+  .post-gallery.gallery-mode-masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .post-gallery.gallery-mode-stack {
+    min-height: 400px;
+  }
+
+  .post-gallery.gallery-mode-stack figure {
+    width: min(64%, 300px);
+  }
+}
+
+.post-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--bg-light);
+}
+
+.post-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+}
+
+.post-gallery:has(> figure:nth-child(4)) {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.post-gallery:has(> figure:nth-child(4)) img {
+  aspect-ratio: 3 / 4;
+}
+
+.post-gallery figure:hover img {
+  transform: scale(1.04);
+}
+
+.post-gallery figcaption {
+  padding: 0.6rem 0.65rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.gallery-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.86);
+  cursor: zoom-out;
+}
+
+.gallery-lightbox img {
+  max-width: min(92vw, 900px);
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.gallery-lightbox button {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .post-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (hover: hover) and (pointer: fine) {

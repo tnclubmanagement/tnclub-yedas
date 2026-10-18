@@ -35,7 +35,7 @@ ngói cong, tượng...) thường là thứ làm nên nét riêng của mỗi c
 Lại gần, chụp cận 1 góc chi tiết cũng ra 1 bức ảnh đẹp không kém toàn cảnh.
 
 ![So sánh chụp toàn cảnh và chụp cận chi tiết chạm khắc](chi-tiet-cham-khac.jpg)
-<p class="text-muted">Một khung hình lấy cả không gian, một khung hình tập trung vào hoa văn rồng và mái ngói để thấy rõ nét riêng của công trình.</p>
+<p class="text-muted"><strong>Bên trái — hình sai:</strong> góc rộng ôm quá nhiều cột, mái, bậc thềm và sân khiến công trình bị phẳng, lộn xộn; hoa văn rồng phượng bị chìm. <strong>Bên phải — hình đúng:</strong> tiến gần hoặc zoom vào một chi tiết chạm khắc, dùng ánh sáng xiên và hậu cảnh mờ để làm nổi bật từng nét đục đẽo, thớ gỗ và dấu vết thời gian.</p>
 
 ### 3. Tôn trọng không gian - tắt flash, giữ yên lặng
 

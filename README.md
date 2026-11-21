@@ -76,7 +76,7 @@ git push
 ./serve.sh
 ```
 
-Mở `http://localhost:4000` để xem trước. Nhấn `Ctrl+C` trong terminal để tắt
+Mở `http://localhost:4010` để xem trước. Nhấn `Ctrl+C` trong terminal để tắt
 server. Script này tự trỏ đúng phiên bản Ruby và cài gem nếu thiếu, bạn không
 cần tự chạy `bundle install`/`bundle exec jekyll serve` thủ công.
 

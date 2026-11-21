@@ -73,6 +73,14 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   (xem lệnh trong README mục "Tạo lại favicon từ logo.svg") — macOS `sips`
   không rasterize SVG trực tiếp được nên phải qua bước chụp màn hình headless
   trước.
+- Dark mode: `data-theme` trên `<html>` (light/dark). `_includes/theme-init.html`
+  đặt sớm trong `<head>` (localStorage `yedas-theme`, fallback
+  `prefers-color-scheme`); nút toggle ở `_includes/nav.html` xử lý bởi
+  `assets/js/theme-toggle.js`. Trong `custom-styles.css`, mọi màu theo theme
+  đều đi qua biến (`--ink`/`--muted`/`--bg-white` = nền trang, `--surface` =
+  nền card, `--bg-light` = panel/footer, `--hairline`, `--nav-bg`) — khi thêm
+  style mới dùng biến này, và nếu cần màu cứng riêng cho dark thì thêm vào
+  block override cuối file.
 - Ảnh demo (`hero-*.jpg`, `cover-*.jpg`) lấy từ Unsplash (ảnh thật, miễn phí
   bản quyền) qua `images.unsplash.com/photo-<id>?w=1200&q=70`, không phải
   ảnh minh hoạ/placeholder giả.

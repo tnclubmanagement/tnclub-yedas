@@ -77,10 +77,11 @@ site-css:
   - "/assets/css/custom-styles.css"
   - "/assets/css/playlist.css"
 
-# JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, khối màu nền
+# JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, nút đổi theme
 site-js:
   - "/assets/js/custom-animations.js"
   - "/assets/js/playlist.js"
+  - "/assets/js/theme-toggle.js"
 
 ####################
 # --- Comments --- #
@@ -118,13 +119,13 @@ defaults:
       layout: "post"
       comments: true
       social-share: true
-      head-extra: ["favicon.html", "pwa-manifest.html"]
+      head-extra: ["theme-init.html", "favicon.html", "pwa-manifest.html"]
       footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
   - scope:
       path: ""
     values:
       layout: "page"
-      head-extra: ["favicon.html", "pwa-manifest.html"]
+      head-extra: ["theme-init.html", "favicon.html", "pwa-manifest.html"]
       footer-extra: ["footer-slogan.html", "footer-links.html", "sw-register.html"]
 
 exclude:

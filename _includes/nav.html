@@ -41,6 +41,12 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+      <li class="nav-item">
+        <button type="button" class="nav-link theme-toggle-btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
+          <span class="fa fa-moon theme-icon-dark" aria-hidden="true"></span>
+          <span class="fa fa-sun theme-icon-light" aria-hidden="true"></span>
+        </button>
+      </li>
       {% if site.post_search %}
         <li class="nav-item">
           <a class="nav-link" id="nav-search-link" href="#" title="Search">

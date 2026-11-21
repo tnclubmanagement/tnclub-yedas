@@ -1,0 +1,14 @@
+<!-- Đặt data-theme lên <html> NGAY trong <head> (trước khi CSS áp dụng) để
+     tránh "flash" nền sáng khi người dùng đã lưu chế độ tối. Đọc lựa chọn từ
+     localStorage; nếu chưa từng chọn thì theo prefers-color-scheme của máy. -->
+<script>
+  (function () {
+    var theme = null;
+    try { theme = localStorage.getItem('yedas-theme'); } catch (e) {}
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark' : 'light';
+    }
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>

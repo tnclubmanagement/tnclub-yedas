@@ -107,20 +107,36 @@
     var postsList = document.querySelector(".posts-list");
     if (homeControls && postsList) {
       var search = document.getElementById("home-post-search");
-      var tagFilter = document.getElementById("home-tag-filter");
+      var tabButtons = document.querySelectorAll(".home-tab");
+      var totalCount = document.getElementById("home-post-total");
       var modeButtons = homeControls.querySelectorAll(".home-mode-btn");
       var cards = postsList.querySelectorAll(".post-preview");
+      var selectedTag = "";
 
       function filterPosts() {
         var query = (search.value || "").trim().toLowerCase();
-        var selectedTag = (tagFilter.value || "").toLowerCase();
+        var visible = 0;
         cards.forEach(function (card) {
           var title = (card.dataset.postTitle || "").toLowerCase();
           var tags = (card.dataset.postTags || "").toLowerCase();
           var matches = (!query || title.indexOf(query) !== -1) &&
             (!selectedTag || tags.split(",").indexOf(selectedTag) !== -1);
           card.hidden = !matches;
+          if (matches) visible++;
         });
+        if (totalCount) {
+          totalCount.textContent = visible + " bài viết";
+        }
+      }
+
+      function setTag(tag) {
+        selectedTag = tag.toLowerCase();
+        tabButtons.forEach(function (button) {
+          var active = button.dataset.tag === tag;
+          button.classList.toggle("is-active", active);
+          button.setAttribute("aria-pressed", String(active));
+        });
+        filterPosts();
       }
 
       function setDisplayMode(mode) {
@@ -134,11 +150,14 @@
       }
 
       search.addEventListener("input", filterPosts);
-      tagFilter.addEventListener("change", filterPosts);
+      tabButtons.forEach(function (button) {
+        button.addEventListener("click", function () { setTag(button.dataset.tag); });
+      });
       modeButtons.forEach(function (button) {
         button.addEventListener("click", function () { setDisplayMode(button.dataset.mode); });
       });
       setDisplayMode(localStorage.getItem("yedas-home-display-mode") || "grid");
+      filterPosts();
     }
 
     // Hiện tiêu đề và mô tả ngắn đè lên ảnh khi rê chuột.

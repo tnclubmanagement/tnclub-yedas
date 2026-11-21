@@ -6,36 +6,28 @@ layout: page
 
 {% assign posts = site.pages | where: 'layout', 'post' | sort: 'date' | reverse %}
 
-{% assign home_tags = "" | split: "" %}
-{% for post in posts %}
-  {% for tag in post.tags %}
-    {% assign home_tags = home_tags | push: tag %}
-  {% endfor %}
-{% endfor %}
-{% assign home_tags = home_tags | uniq | sort %}
-
 <div class="home-controls" role="region" aria-label="Lọc bài viết">
-  <label class="home-search">
+  <label class="home-search" data-tip="Tìm bài viết theo tên">
     <span class="sr-only">Tìm bài viết</span>
-    <input type="search" id="home-post-search" placeholder="Tìm bài viết..." autocomplete="off" title="Tìm bài viết theo tên">
-  </label>
-  <label class="home-filter">
-    <span class="sr-only">Lọc theo chủ đề</span>
-    <select id="home-tag-filter" title="Lọc bài viết theo chủ đề">
-      <option value="">Tất cả chủ đề</option>
-      {% for tag in home_tags %}
-        <option value="{{ tag | escape }}">{{ tag }}</option>
-      {% endfor %}
-    </select>
+    <input type="search" id="home-post-search" placeholder="Tìm bài viết..." autocomplete="off">
   </label>
   <div class="home-display-mode" role="group" aria-label="Kiểu hiển thị">
-    <button type="button" class="home-mode-btn is-active" data-mode="grid" aria-label="Hiển thị dạng lưới" title="Hiển thị dạng lưới" aria-pressed="true">
+    <button type="button" class="home-mode-btn is-active" data-mode="grid" aria-label="Hiển thị dạng lưới" data-tip="Hiển thị dạng lưới" aria-pressed="true">
       <span class="fa fa-th-large" aria-hidden="true"></span>
     </button>
-    <button type="button" class="home-mode-btn" data-mode="list" aria-label="Hiển thị dạng danh sách" title="Hiển thị dạng danh sách" aria-pressed="false">
+    <button type="button" class="home-mode-btn" data-mode="list" aria-label="Hiển thị dạng danh sách" data-tip="Hiển thị dạng danh sách" aria-pressed="false">
       <span class="fa fa-list" aria-hidden="true"></span>
     </button>
   </div>
+</div>
+<div class="home-tabs-row">
+  <div class="home-tabs" role="group" aria-label="Lọc theo chủ đề">
+    <button type="button" class="home-tab is-active" data-tag="" aria-pressed="true" data-tip="Hiện tất cả bài viết">Tất cả</button>
+    <button type="button" class="home-tab" data-tag="Chụp ảnh" aria-pressed="false" data-tip="Bài viết chủ đề chụp ảnh">Chụp ảnh</button>
+    <button type="button" class="home-tab" data-tag="Thể thao" aria-pressed="false" data-tip="Bài viết chủ đề thể thao">Thể thao</button>
+    <button type="button" class="home-tab" data-tag="Du lịch" aria-pressed="false" data-tip="Bài viết chủ đề du lịch">Du lịch</button>
+  </div>
+  <span class="home-total" id="home-post-total" data-tip="Số bài viết đang hiển thị" aria-live="polite"></span>
 </div>
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->

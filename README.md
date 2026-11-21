@@ -105,7 +105,7 @@ matter (đầu file) của bài đó.
 - `_config.yml`: đổi tên trang (`title`), tác giả (`author`), màu sắc
   (`page-col`, `link-col`, v.v.), link Facebook ở footer
   (`social-network-links.facebook`), avatar (`avatar: "/assets/img/..."`).
-- `aboutme.md`: nội dung trang "Giới thiệu".
+- `about-me.md`: nội dung trang "Giới thiệu".
 - `assets/img/icons/logo.svg`: logo/favicon — sửa file SVG rồi chạy lại
   lệnh rasterize (xem phần dưới) để cập nhật `favicon-16.png`,
   `favicon-32.png`, `apple-touch-icon.png`, `icon-512.png`.
@@ -130,7 +130,7 @@ rm tmp-512.png
 ```
 _config.yml       Cấu hình chung của site (tên, màu sắc, comment, v.v.)
 _posts/           Nơi chứa mẹo chụp ảnh (mỗi file .md = 1 bài)
-aboutme.md        Trang giới thiệu
+about-me.md       Trang giới thiệu
 assets/img/       Ảnh dùng trong bài viết / cover image / icon
 .github/workflows/  Workflow build & deploy tự động lên GitHub Pages
 ```

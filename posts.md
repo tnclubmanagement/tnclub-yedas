@@ -3,7 +3,7 @@ layout: page
 title: Bài viết
 subtitle: Tất cả bài viết trên Yedas, mới nhất trước
 cover-img: "/assets/img/hero-3.jpg"
-permalink: /bai-viet/
+permalink: /posts/
 ---
 
 {% assign all_posts = site.pages | where: 'layout', 'post' | sort: 'date' | reverse %}
@@ -41,7 +41,7 @@ permalink: /bai-viet/
 </div>
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list" id="bai-viet-list">
+<ul class="posts-list list-unstyled" role="list" id="posts-list">
   {% for post in all_posts %}
   <li class="post-preview" data-post-title="{{ post.title | strip_html | escape }}" data-post-tags="{{ post.tags | join: ',' | escape }}">
     <article>

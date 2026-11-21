@@ -6,7 +6,7 @@ title: "Chụp người giữa cảnh núi non sao cho vừa nổi bật vừa h
 subtitle: "Đặt nhân vật đúng chỗ để giữ được cả người và không gian"
 cover-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 thumbnail-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
-tags: [Du lịch, Chân dung, Núi, Bố cục]
+tags: [Chụp ảnh, Du lịch, Chân dung, Núi, Bố cục]
 ---
 
 Chụp người giữa núi không chỉ là đưa một người vào trước phong cảnh. Nếu đứng

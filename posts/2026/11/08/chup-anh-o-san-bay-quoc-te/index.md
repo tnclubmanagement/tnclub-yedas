@@ -6,7 +6,7 @@ title: "Chụp hình ở sân bay quốc tế: 7 mẹo có ảnh đẹp mà vẫ
 subtitle: "Tận dụng cửa kính, bảng chuyến bay và đường dẫn — không lỡ chuyến, không lộ thông tin"
 cover-img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=75"
 thumbnail-img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=75"
-tags: [Du lịch, Sân bay, Bố cục, Chụp người]
+tags: [Chụp ảnh, Du lịch, Sân bay, Bố cục, Chụp người]
 ---
 
 Sân bay quốc tế có rất nhiều chất liệu để chụp: cửa kính lớn, bảng chuyến bay,

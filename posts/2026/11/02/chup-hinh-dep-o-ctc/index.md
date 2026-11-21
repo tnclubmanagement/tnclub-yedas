@@ -6,7 +6,7 @@ title: "Chụp hình đẹp ở CTC (Cửu Trại Câu): mẹo không thể bỏ
 subtitle: "Tận dụng hồ nước xanh, lá thu và phản chiếu"
 cover-img: "/posts/2026/11/02/chup-hinh-dep-o-ctc/cover.jpg"
 thumbnail-img: "/posts/2026/11/02/chup-hinh-dep-o-ctc/cover.jpg"
-tags: [Du lịch, Cửu Trại Câu, Bố cục, Hướng dẫn]
+tags: [Chụp ảnh, Du lịch, Cửu Trại Câu, Bố cục, Hướng dẫn]
 ---
 
 CTC ở đây là **Cửu Trại Câu (Jiuzhaigou)** — thung lũng nổi tiếng với những hồ

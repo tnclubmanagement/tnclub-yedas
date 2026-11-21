@@ -2518,3 +2518,120 @@ body:has(.home-landing) .post-container {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- Series nav + badge (các bài cùng chuỗi) ---------- */
+.series-badge {
+  margin: 0 0 1rem;
+}
+
+.series-badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent-blue);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: border-color 200ms ease, color 200ms ease;
+}
+
+.series-badge-link:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue-hover);
+  text-decoration: none;
+}
+
+.series-nav {
+  margin-top: 2.25rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--hairline);
+  border-radius: 16px;
+  background: var(--bg-light);
+}
+
+.series-nav-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.series-nav-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.series-nav-title .fa {
+  color: var(--accent-blue);
+  margin-right: 0.4rem;
+}
+
+.series-nav-progress {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.series-nav-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.series-nav-item {
+  margin: 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.series-nav-num {
+  color: var(--muted);
+}
+
+.series-nav-item a {
+  color: var(--accent-blue);
+}
+
+.series-nav-item.is-current {
+  font-weight: 600;
+}
+
+.series-nav-current {
+  color: var(--ink);
+}
+
+.series-nav-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.9rem;
+}
+
+.series-nav-pager-link {
+  color: var(--accent-blue);
+  min-width: 0;
+}
+
+.series-nav-next {
+  margin-left: auto;
+  text-align: right;
+}
+
+/* Nhãn series ngay trên tiêu đề bài viết (trong header). */
+.post-series-label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--accent-blue);
+}

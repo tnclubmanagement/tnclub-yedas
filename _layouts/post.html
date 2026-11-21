@@ -39,6 +39,7 @@ layout: base
       {% endif %}
 
       <div class="post-reading-area">
+        {% include series-badge.html %}
         <div class="post-view-toggle" role="group" aria-label="Chế độ xem bài viết">
           <span class="post-view-toggle-label">Chế độ xem</span>
           <button type="button" class="post-view-toggle-btn" aria-pressed="false" title="Đổi chế độ xem bài viết">
@@ -62,6 +63,8 @@ layout: base
             </ul>
           </div>
         {% endif %}
+
+        {% include series-nav.html %}
 
         <div class="post-extra-content">
           {% if page.after-content %}

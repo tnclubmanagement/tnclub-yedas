@@ -1,0 +1,46 @@
+{% if page.series %}
+{% assign series_posts = site.pages | where: "layout", "post" | where: "series", page.series | sort: "date" %}
+{% if series_posts.size > 1 %}
+{% for sp in series_posts %}
+  {% if sp.url == page.url %}
+    {% assign series_index = forloop.index %}
+    {% assign series_prev_i = forloop.index0 | minus: 1 %}
+    {% if series_prev_i >= 0 %}{% assign series_prev = series_posts[series_prev_i] %}{% endif %}
+    {% unless forloop.last %}{% assign series_next = series_posts[forloop.index] %}{% endunless %}
+  {% endif %}
+{% endfor %}
+<nav class="series-nav" aria-label="Các bài cùng series {{ page.series }}">
+  <div class="series-nav-head">
+    <p class="series-nav-title">
+      <span class="fa fa-list-ul" aria-hidden="true"></span>
+      Series: {{ page.series }}
+    </p>
+    <span class="series-nav-progress">Phần {{ series_index }} / {{ series_posts.size }}</span>
+  </div>
+  <ol class="series-nav-list">
+    {% for sp in series_posts %}
+    <li class="series-nav-item{% if sp.url == page.url %} is-current{% endif %}">
+      <span class="series-nav-num">{{ forloop.index }}.</span>
+      {% if sp.url == page.url %}
+        <span class="series-nav-current" aria-current="true">{{ sp.title }}</span>
+      {% else %}
+        <a href="{{ sp.url | relative_url }}">{{ sp.title }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  <div class="series-nav-pager">
+    {% if series_prev %}
+    <a class="series-nav-pager-link series-nav-prev" href="{{ series_prev.url | relative_url }}">
+      <span aria-hidden="true">←</span> {{ series_prev.title }}
+    </a>
+    {% endif %}
+    {% if series_next %}
+    <a class="series-nav-pager-link series-nav-next" href="{{ series_next.url | relative_url }}">
+      {{ series_next.title }} <span aria-hidden="true">→</span>
+    </a>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}
+{% endif %}

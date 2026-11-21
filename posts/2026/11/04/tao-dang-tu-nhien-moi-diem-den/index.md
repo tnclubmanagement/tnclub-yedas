@@ -6,7 +6,8 @@ title: "Tạo dáng tự nhiên ở mọi điểm đến P1: 7 tip chụp đâu 
 subtitle: "Từ phố cổ, núi rừng đến bờ biển — đứng, ngồi, đi đều có chiêu"
 cover-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
 thumbnail-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
-tags: [Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
+series: "Tạo dáng tự nhiên"
+tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 
 Khi đi du lịch, không phải lúc nào bạn cũng có thời gian chuẩn bị tạo dáng kỹ.

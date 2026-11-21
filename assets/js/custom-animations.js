@@ -207,7 +207,7 @@
       });
 
       jQuery("body").tooltip({
-        selector: "[title]:not(.navbar-custom [title])",
+        selector: "[title]:not(.navbar-custom [title]):not(.footer-icon-link)",
         trigger: "hover",
         container: "body",
         boundary: "window"

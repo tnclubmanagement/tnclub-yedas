@@ -2,7 +2,9 @@
 layout: base
 ---
 
+{% unless page.url == "/" %}
 {% include header.html type="page" %}
+{% endunless %}
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
     <div class="{% if page.full-width %} col {% else %} post-container {% endif %}">

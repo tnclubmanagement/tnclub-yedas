@@ -6,7 +6,8 @@ title: "Tạo dáng tự nhiên P2: 7 cách chụp ảnh có chiều sâu"
 subtitle: "Thêm vài cách tạo dáng có chiều sâu mà không cần đứng nhìn thẳng vào máy"
 cover-img: "/posts/2026/11/05/tao-dang-tu-nhien-moi-diem-den-p2/m1-tien-canh.jpg"
 thumbnail-img: "/posts/2026/11/05/tao-dang-tu-nhien-moi-diem-den-p2/m1-tien-canh.jpg"
-tags: [Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
+series: "Tạo dáng tự nhiên"
+tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 
 Ở phần 2, thử biến những tư thế đơn giản thành ảnh có câu chuyện hơn. Không cần

@@ -2,6 +2,14 @@
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
+{% if include.type == "post" and page.series %}
+{% assign series_posts = site.pages | where: "layout", "post" | where: "series", page.series | sort: "date" %}
+{% for sp in series_posts %}
+  {% if sp.url == page.url %}{% assign series_index = forloop.index %}{% endif %}
+{% endfor %}
+{% capture series_label %}Series: {{ page.series }} — Phần {{ series_index }}/{{ series_posts.size }}{% endcapture %}
+{% endif %}
+
 {% if page.cover-img or page.title %}
 
 {% if page.cover-img %}
@@ -10,10 +18,10 @@
     {% assign imgnum = forloop.index %}
     {% for imginfo in bigimg %}
       {% if imginfo[0] %}
-      data-img-src-{{ imgnum }}="{{ imginfo[0] | relative_url }}"
+      data-img-src-{{ imgnum }}="{{ imginfo[0] | absolute_url }}"
       data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
     {% else %}
-      data-img-src-{{ imgnum }}="{{ imginfo | relative_url }}"
+      data-img-src-{{ imgnum }}="{{ imginfo | absolute_url }}"
     {% endif %}
     {% endfor %}
     {% endfor %}
@@ -27,6 +35,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="{{ include.type }}-heading">
+          {% if series_label %}<span class="post-series-label">{{ series_label }}</span>{% endif %}
           <h1>{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
           {% if page.subtitle %}
             {% if include.type == "page" %}
@@ -42,7 +51,8 @@
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}</span>
+                Last updated {{ page.last-updated | date: date_format }}
+              </span>
             {% endif %}
             {% if page.readtime %}
               {% include readtime.html %}
@@ -54,12 +64,13 @@
   </div>
   <span class='img-desc'></span>
 </div>
-{% else %}
+{% endif %}
 <div class="intro-header no-img">
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="{{ include.type }}-heading">
+          {% if series_label %}<span class="post-series-label">{{ series_label }}</span>{% endif %}
           <h1>{% if page.title %}{{ page.title | strip_html }}{% else %}<br/>{% endif %}</h1>
           {% if page.subtitle %}
             {% if include.type == "page" %}
@@ -75,7 +86,8 @@
             {% if page.last-updated %}
               <span class="post-meta">
                 <span class="d-none d-md-inline middot">&middot;</span>
-                Last updated {{ page.last-updated | date: date_format }}</span>
+                Last updated {{ page.last-updated | date: date_format }}
+              </span>
             {% endif %}
             {% if page.readtime %}
               {% include readtime.html %}
@@ -86,7 +98,6 @@
     </div>
   </div>
 </div>
-{% endif %}
 </header>
 
 

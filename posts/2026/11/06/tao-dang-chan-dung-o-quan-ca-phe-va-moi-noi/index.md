@@ -6,7 +6,8 @@ title: "Tạo dáng chân dung ở quán cà phê và mọi nơi"
 subtitle: "Những cách tạo dáng tự nhiên khi ngồi uống cà phê, đi dạo hoặc khám phá một địa điểm mới"
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"
-tags: [Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
+series: "Tạo dáng tự nhiên"
+tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 
 Quán cà phê, khu phố, công viên hay một góc nhỏ trong chuyến đi đều có thể trở

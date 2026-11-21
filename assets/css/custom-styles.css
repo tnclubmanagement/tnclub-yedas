@@ -15,6 +15,9 @@
   --surface: #ffffff;
   --hairline: rgba(0, 0, 0, 0.08);
   --nav-bg: rgba(255, 255, 255, 0.82);
+  /* Bề rộng cột nội dung chính (.post-container) - chỉnh 1 chỗ này là đổi
+     bề rộng toàn site. */
+  --content-width: 1000px;
 
   /* ========================================================================
      TYPOGRAPHY DÙNG CHUNG — font hệ thống (giống cách Apple dùng SF Pro
@@ -25,6 +28,10 @@
   --font-title: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif;
   --font-subtitle: var(--font-title);
+
+  /* Cỡ chữ + giãn dòng nội dung chính */
+  --font-size-base: 1.1rem;
+  --line-height-base: 1.7;
 }
 
 /* Theme tối (dark mode): cùng tinh thần Apple - nền đen, bề mặt xám đậm,
@@ -1385,12 +1392,15 @@ body {
   color: var(--ink);
 }
 
+/* Cột nội dung chính của mọi trang/bài viết - layout (post.html, page.html)
+   dùng class này trực tiếp thay cho lưới col-*/offset-* của Bootstrap nên
+   chỉ cần chỉnh --content-width trong :root là đổi bề rộng toàn site. */
 .post-container {
-  max-width: 720px;
+  max-width: var(--content-width);
   margin: 0 auto;
   padding: 2rem 0;
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
 }
 
 .post-container img {

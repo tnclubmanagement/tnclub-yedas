@@ -9,7 +9,7 @@ permalink: /privacy/
 <div class="policy-intro">
   <p class="contact-kicker">THÔNG TIN CỦA BẠN</p>
   <h2>Đọc dễ hiểu, không câu chữ rườm rà.</h2>
-  <p>Trang Mẹo Chụp Ảnh Yedas ưu tiên một trải nghiệm nhẹ, rõ ràng và tôn
+  <p>Trang Yedas ưu tiên một trải nghiệm nhẹ, rõ ràng và tôn
   trọng quyền riêng tư của người đọc.</p>
 </div>
 
@@ -34,7 +34,7 @@ permalink: /privacy/
 <section class="policy-section">
   <h2>Điều khoản sử dụng</h2>
   <ul>
-    <li>Nội dung nhằm chia sẻ mẹo chụp ảnh bằng điện thoại, không thay thế tư vấn chuyên môn.</li>
+    <li>Nội dung nhằm chia sẻ mẹo và trải nghiệm cá nhân, không thay thế tư vấn chuyên môn.</li>
     <li>Ảnh minh họa thuộc nguồn được ghi chú trong từng bài viết.</li>
     <li>Bạn có thể chia sẻ lại nội dung, vui lòng ghi nguồn khi trích dẫn.</li>
     <li>Nếu phát hiện nội dung chưa phù hợp, hãy gửi góp ý qua trang <a href="{{ '/contact/' | relative_url }}">Liên hệ</a>.</li>

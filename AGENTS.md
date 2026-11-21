@@ -1,8 +1,10 @@
-# Mẹo Chụp Ảnh Yedas — Ghi chú cho Agent
+# Yedas — Ghi chú cho Agent
 
 Trang blog tĩnh (Jekyll + theme Beautiful Jekyll), host trên GitHub Pages,
-build qua GitHub Actions — chia sẻ mẹo chụp ảnh đơn giản bằng điện thoại
-cho người mới bắt đầu. Xem `README.md` để biết cách chạy thử/đăng bài mới.
+build qua GitHub Actions — blog đa chủ đề: mẹo chụp ảnh bằng điện thoại,
+thể thao, du lịch/trải nghiệm. Chủ đề phân loại bằng **tags** trong front
+matter (trang `/tags` tự gom, không cần tạo page riêng cho chủ đề mới).
+Xem `README.md` để biết cách chạy thử/đăng bài mới.
 Project này dựng theo đúng khung của `inspiring-stories` (cùng tác giả) —
 2 project dùng chung 1 bộ quy ước bên dưới, chỉ khác nội dung/chủ đề.
 

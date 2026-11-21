@@ -1,9 +1,10 @@
-# Mẹo Chụp Ảnh Yedas
+# Yedas
 
-Trang blog tĩnh dùng theme **[Beautiful Jekyll](https://beautifuljekyll.com)**
-(Jekyll), build và host hoàn toàn miễn phí bằng **GitHub Pages**. Không cần
-chạy server/backend. Mỗi mẹo chụp ảnh là một file Markdown, có thể kèm ảnh
-lớn kiểu tạp chí.
+Blog cá nhân đa chủ đề (mẹo chụp ảnh, thể thao, du lịch/trải nghiệm) dùng
+theme **[Beautiful Jekyll](https://beautifuljekyll.com)** (Jekyll), build và
+host hoàn toàn miễn phí bằng **GitHub Pages**. Không cần chạy server/backend.
+Mỗi bài viết là một file Markdown, chủ đề được phân loại bằng `tags` trong
+front matter (xem tất cả ở trang `/tags`).
 
 ## 1. Đưa lên GitHub lần đầu
 

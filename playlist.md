@@ -7,7 +7,7 @@ permalink: /playlist/
 ---
 
 <p class="playlist-intro">Lưu các bài muốn đọc lại, chia theo chuyến đi, chủ đề
-hoặc kế hoạch chụp ảnh. Dữ liệu chỉ nằm trên trình duyệt này.</p>
+hoặc sở thích của bạn. Dữ liệu chỉ nằm trên trình duyệt này.</p>
 
 <div class="playlist-create-page">
   <input id="playlist-name-input" type="text" placeholder="Tên playlist mới">

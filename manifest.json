@@ -1,7 +1,7 @@
 {
-  "name": "Mẹo Chụp Ảnh Yedas",
+  "name": "Yedas",
   "short_name": "Yedas",
-  "description": "Mẹo chụp ảnh đơn giản, dễ áp dụng ngay bằng điện thoại - dành cho người mới bắt đầu.",
+  "description": "Chia sẻ mẹo chụp ảnh, thể thao và những chuyến đi đáng nhớ - đơn giản, dễ áp dụng ngay.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

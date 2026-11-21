@@ -2,7 +2,7 @@
 # --- Required options --- #
 ############################
 
-title: Mẹo Chụp Ảnh Yedas
+title: Yedas
 
 author: TN Club
 
@@ -18,7 +18,7 @@ baseurl: "/tnclub-yedas"
 
 navbar-links:
   Giới thiệu: "aboutme"
-  Mẹo theo chủ đề: "tags"
+  Chủ đề: "tags"
   Playlist: "playlist"
 
 ################
@@ -38,7 +38,7 @@ social-network-links:
   rss: false
   facebook: # điền username/trang Facebook của bạn, ví dụ: your.page.name
 
-rss-description: Mẹo chụp ảnh đơn giản, dễ áp dụng ngay bằng điện thoại - dành cho người mới bắt đầu.
+rss-description: Chia sẻ mẹo chụp ảnh, thể thao và những chuyến đi đáng nhớ - đơn giản, dễ áp dụng ngay.
 
 ###########################
 # --- General options --- #

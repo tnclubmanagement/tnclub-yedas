@@ -8,8 +8,8 @@ permalink: /contact/
 
 <div class="contact-intro">
   <p class="contact-kicker">KẾT NỐI VỚI YEDAS</p>
-  <h2>Có câu hỏi hoặc một bức ảnh muốn chia sẻ?</h2>
-  <p>Gửi cho mình mẹo chụp ảnh, góp ý về bài viết hoặc câu hỏi về chuyến đi.
+  <h2>Có câu hỏi hoặc một câu chuyện muốn chia sẻ?</h2>
+  <p>Gửi cho mình một mẹo hay, góp ý về bài viết hoặc câu hỏi về chuyến đi.
   Mỗi phản hồi đều giúp trang này thực tế và hữu ích hơn.</p>
 </div>
 

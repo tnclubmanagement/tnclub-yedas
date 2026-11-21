@@ -195,9 +195,29 @@
     // nút playlist...) cũng được tooltip mà không cần init lại. Site đã load
     // sẵn jQuery + Popper + bootstrap.js trong footer-scripts.
     if (window.jQuery && jQuery.fn.tooltip) {
+      // Trigger nằm trong navbar `position: fixed`: Popper mặc định tính vị
+      // trí theo document nên tooltip bị lệch đúng bằng khoảng scroll đã
+      // cuộn - cần positionFixed để tính theo viewport.
       jQuery("body").tooltip({
-        selector: "[title]",
+        selector: ".navbar-custom [title]",
         trigger: "hover",
+        container: "body",
+        boundary: "window",
+        popperConfig: { positionFixed: true }
+      });
+
+      jQuery("body").tooltip({
+        selector: "[title]:not(.navbar-custom [title])",
+        trigger: "hover",
+        container: "body",
+        boundary: "window"
+      });
+
+      // 2 icon link cuối footer: init tường minh + ép placement top để
+      // tooltip luôn bật lên trên (footer nằm sát cuối trang, để auto dễ
+      // bị flip xuống bottom tràn viewport gây giật trang).
+      jQuery(".footer-icon-link[title]").tooltip({
+        placement: "top",
         container: "body",
         boundary: "window"
       });
@@ -224,7 +244,7 @@
 
     // 2) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     var revealTargets = document.querySelectorAll(
-      ".landing-intro, .latest-heading, .posts-list li.post-preview, .pagination.main-pager"
+      ".landing-intro, .latest-heading, .posts-list li.post-preview, .pagination.main-pager, .featured-stories-heading, .featured-story-card, .home-info-card"
     );
     revealTargets.forEach(function (el) {
       el.classList.add("reveal");
@@ -259,7 +279,80 @@
 
     // Toggle so sánh trước/sau trong bài viết.
     initBeforeAfterToggles();
+
+    // Homepage: lọc bài viết tiêu biểu theo tag + dots điều hướng section.
+    initFeaturedStories();
+    initHomeSectionDots();
   });
+
+  // Lọc card "Bài viết tiêu biểu" trên trang chủ theo tag của nút bấm;
+  // mỗi nhóm hiện tối đa 4 bài mới nhất.
+  function initFeaturedStories() {
+    var section = document.querySelector(".featured-stories");
+    if (!section) return;
+    var filters = section.querySelectorAll(".featured-filter");
+    var cards = Array.prototype.slice.call(section.querySelectorAll(".featured-story-card"));
+    if (!filters.length) return;
+
+    function select(tag) {
+      var selectedTags = tag.split(",");
+      var shown = 0;
+      cards.forEach(function (card) {
+        var cardTags = (card.getAttribute("data-featured-tags") || "").split(",");
+        var matches = selectedTags.some(function (selectedTag) {
+          return cardTags.indexOf(selectedTag) !== -1;
+        });
+        card.hidden = !matches || shown >= 4;
+        if (matches && shown < 4) shown += 1;
+      });
+      filters.forEach(function (filter) {
+        var active = filter.getAttribute("data-featured-tag") === tag;
+        filter.classList.toggle("is-active", active);
+        filter.setAttribute("aria-selected", active ? "true" : "false");
+      });
+    }
+
+    filters.forEach(function (filter) {
+      filter.addEventListener("click", function () {
+        select(filter.getAttribute("data-featured-tag"));
+      });
+    });
+    select(filters[0].getAttribute("data-featured-tag"));
+  }
+
+  // Các chấm điều hướng bên phải trang chủ: tự tô sáng theo section đang xem.
+  function initHomeSectionDots() {
+    var sections = document.querySelectorAll("[data-home-section]");
+    var dots = document.querySelectorAll("[data-home-dot]");
+    if (!sections.length || !dots.length) return;
+
+    var ticking = false;
+    function update() {
+      var marker = window.innerHeight * 0.35;
+      var current = sections[0].getAttribute("data-home-section");
+      sections.forEach(function (section) {
+        if (section.getBoundingClientRect().top <= marker) {
+          current = section.getAttribute("data-home-section");
+        }
+      });
+      dots.forEach(function (dot) {
+        var active = dot.getAttribute("data-home-dot") === current;
+        dot.classList.toggle("is-active", active);
+        dot.setAttribute("aria-current", active ? "true" : "false");
+      });
+      ticking = false;
+    }
+
+    function requestUpdate() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+    update();
+  }
 
   function initBeforeAfterToggles() {
     document.querySelectorAll("[data-ba-toggle]").forEach(function (toggle) {

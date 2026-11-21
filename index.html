@@ -1,28 +1,154 @@
 ---
-layout: home
-title: Yedas
-subtitle: Mẹo chụp ảnh, thể thao & những chuyến đi đáng nhớ
-cover-img: "/assets/img/hero-1.jpg"
+layout: page
+title: ""
+subtitle: ""
 ---
 
-<script>
-  // Danh sách ảnh hero để chọn ngẫu nhiên mỗi lần tải trang (xem assets/js/custom-animations.js)
-  window.HERO_IMAGES = [
-    "{{ '/assets/img/hero-1.jpg' | relative_url }}",
-    "{{ '/assets/img/hero-2.jpg' | relative_url }}",
-    "{{ '/assets/img/hero-3.jpg' | relative_url }}",
-    "{{ '/assets/img/hero-4.jpg' | relative_url }}"
-  ];
-</script>
+<main class="home-landing">
+  <section id="home-hero" class="home-hero-clean" data-home-section="hero">
+    <div class="home-hero-copy">
+      <p class="home-eyebrow">Yedas</p>
+      <h1>Những điều nhỏ<br><em>đáng để kể.</em></h1>
+      <p class="home-hero-lead">
+        Mẹo chụp ảnh bằng điện thoại, câu chuyện thể thao và kinh nghiệm từ
+        những chuyến đi — đơn giản, thực tế, thử được ngay.
+      </p>
+      <a class="home-hero-button" href="{{ '/posts/' | relative_url }}">Khám phá bài viết <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="home-hero-visual">
+      <img src="{{ '/assets/img/hero-1.jpg' | relative_url }}" alt="Một chuyến đi đáng nhớ" fetchpriority="high">
+      <span class="home-hero-note">Mỗi chuyến đi<br>là một câu chuyện.</span>
+    </div>
+  </section>
 
-<section class="landing-intro">
-  <h2>Chào bạn 👋</h2>
-  <p>
-    Đây là nơi chia sẻ những điều nhỏ mà hay: mẹo chụp ảnh đơn giản bằng
-    điện thoại, câu chuyện thể thao và kinh nghiệm từ những chuyến đi.
-    Không cần kiến thức phức tạp — mỗi bài đều có ví dụ thực tế để bạn thử liền.
-  </p>
-  <a class="landing-cta" href="#latest">Xem bài mới nhất ↓</a>
-</section>
+  <section id="home-intro" class="landing-intro" aria-labelledby="landing-intro-title" data-home-section="intro">
+    <div class="landing-intro-copy">
+      <p class="landing-intro-kicker">Một góc nhỏ để dừng lại</p>
+      <h2 id="landing-intro-title">Chào bạn <span aria-hidden="true">👋</span></h2>
+      <p>
+        Đây là nơi mình ghi lại những mẹo và câu chuyện đã thử — đã đi qua:
+        chụp đẹp bằng điện thoại, niềm vui thể thao và kinh nghiệm du lịch.
+        Không cần kiến thức phức tạp, mỗi bài đều có ví dụ thực tế.
+      </p>
+      <a class="landing-cta" href="{{ '/posts/' | relative_url }}">Đọc các bài viết <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="landing-intro-visual">
+      <span class="landing-intro-orbit landing-intro-orbit-one" aria-hidden="true"></span>
+      <span class="landing-intro-orbit landing-intro-orbit-two" aria-hidden="true"></span>
+      <div class="landing-intro-image">
+        <img src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Khung cảnh đẹp trong một chuyến đi" loading="lazy">
+      </div>
+      <p class="landing-intro-note">Một mẹo hay<br><em>có thể đổi một ngày.</em></p>
+    </div>
+  </section>
 
-<h2 id="latest" class="latest-heading">Bài mới nhất</h2>
+  {% assign featured_posts = site.pages | where: "layout", "post" | sort: "date" | reverse %}
+  <section id="home-featured" class="featured-stories" aria-labelledby="featured-stories-title" data-home-section="featured">
+    <div class="featured-stories-heading">
+      <div>
+        <p class="home-eyebrow">Đọc chọn lọc</p>
+        <h2 id="featured-stories-title">Bài viết tiêu biểu</h2>
+      </div>
+      <div class="featured-story-filters" role="tablist" aria-label="Lọc bài viết tiêu biểu">
+        <button class="featured-filter is-active" type="button" data-featured-tag="Du lịch" role="tab" aria-selected="true">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>Du lịch</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Chân dung" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>Chân dung</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Bố cục" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>Bố cục</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Ánh sáng" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>Ánh sáng</span>
+        </button>
+      </div>
+    </div>
+    <div class="featured-story-grid">
+      {% for post in featured_posts %}
+      {% assign post_tags = post.tags | join: "," %}
+      {% assign featured_visible = false %}
+      {% if post.tags contains "Du lịch" %}{% assign featured_visible = true %}{% endif %}
+      <article class="featured-story-card" data-featured-tags="{{ post_tags }}"{% unless featured_visible %} hidden{% endunless %}>
+        <a class="featured-story-image" href="{{ post.url | relative_url }}">
+          {%- capture thumbnail -%}
+            {% if post.thumbnail-img %}
+              {{ post.thumbnail-img }}
+            {% elsif post.cover-img %}
+              {% if post.cover-img.first %}
+                {{ post.cover-img[0].first.first }}
+              {% else %}
+                {{ post.cover-img }}
+              {% endif %}
+            {% endif %}
+          {%- endcapture -%}
+          {% assign thumbnail = thumbnail | strip %}
+          {% if thumbnail != "" %}
+          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+          {% endif %}
+        </a>
+        <div class="featured-story-content">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.content | strip_html | strip | truncatewords: 20 }}</p>
+          <a class="featured-story-more" href="{{ post.url | relative_url }}">Đọc tiếp <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="home-info" class="home-info-stack" aria-label="Thông tin về website" data-home-section="info">
+    <article id="about" class="home-info-card home-info-card-about">
+      <div class="home-info-image">
+        <img src="{{ '/assets/img/hero-3.jpg' | relative_url }}" alt="Khoảnh khắc đẹp ghi lại bằng điện thoại" loading="lazy">
+        <span class="home-info-image-label">01 / Về trang này</span>
+      </div>
+      <div class="home-info-content">
+        <p class="home-info-kicker">Một góc nhỏ để dừng lại</p>
+        <h2>Giới thiệu</h2>
+        <p>
+          Yedas là nơi mình lưu lại những mẹo và trải nghiệm thật — chụp ảnh
+          bằng điện thoại, thể thao và những chuyến đi đáng nhớ.
+        </p>
+        <p>
+          Mỗi bài viết đều viết theo cách đơn giản nhất để bạn đọc chậm và áp
+          dụng được ngay.
+        </p>
+        <a class="home-info-link" href="{{ '/about-me/' | relative_url }}">Đọc thêm về trang này <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article id="privacy" class="home-info-card home-info-card-privacy">
+      <div class="home-info-content">
+        <p class="home-info-kicker">Rõ ràng và vừa đủ</p>
+        <h2>Chính sách &amp; Điều khoản</h2>
+        <p>
+          Đây là một blog cá nhân. Trang không bán dữ liệu, không dùng cookie
+          theo dõi quảng cáo, playlist chỉ lưu trên chính trình duyệt của bạn.
+        </p>
+        <ul class="home-info-list">
+          <li>Nội dung nhằm chia sẻ mẹo và trải nghiệm, không thay thế tư vấn chuyên môn.</li>
+          <li>Vui lòng ghi nguồn khi chia sẻ lại nội dung.</li>
+          <li>Nếu thấy nội dung chưa phù hợp, hãy gửi lời nhắn để trang điều chỉnh.</li>
+        </ul>
+        <a class="home-info-link" href="{{ '/privacy/' | relative_url }}">Xem đầy đủ chính sách <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-info-image">
+        <img src="{{ '/assets/img/hero-4.jpg' | relative_url }}" alt="Ánh sáng đẹp trên hành trình" loading="lazy">
+        <span class="home-info-image-label">02 / Minh bạch</span>
+      </div>
+    </article>
+  </section>
+</main>
+
+<nav class="home-section-dots" aria-label="Điều hướng trang chủ">
+  <a class="home-section-dot is-active" href="#home-hero" data-home-dot="hero" aria-label="Phần mở đầu" title="Phần mở đầu" aria-current="true"></a>
+  <a class="home-section-dot" href="#home-intro" data-home-dot="intro" aria-label="Giới thiệu" title="Giới thiệu" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-featured" data-home-dot="featured" aria-label="Bài viết tiêu biểu" title="Bài viết tiêu biểu" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-info" data-home-dot="info" aria-label="Thông tin website" title="Thông tin website" aria-current="false"></a>
+</nav>

@@ -35,7 +35,7 @@ permalink: /posts/
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
 <ul class="posts-list list-unstyled" role="list" id="posts-list">
   {% for post in all_posts %}
-  <li class="post-preview" data-post-title="{{ post.title | strip_html | escape }}" data-post-tags="{{ post.tags | join: ',' | escape }}">
+  <li class="post-preview" data-post-title="{{ post.title | strip_html | escape }}" data-post-tags="{{ post.tags | join: ',' | escape }}" data-post-category="{{ post.category | escape }}">
     <article>
 
       {%- capture thumbnail -%}
@@ -52,14 +52,30 @@ permalink: /posts/
       {%- endcapture -%}
       {% assign thumbnail=thumbnail | strip %}
 
+      {% assign topic = post.category | default: "" %}
+      {% if topic == "" %}
+        {% for tag in post.tags %}
+          {% if topic == "" and tag != "Chụp ảnh" %}{% assign topic = tag %}{% endif %}
+        {% endfor %}
+        {% if topic == "" and post.tags.size > 0 %}{% assign topic = post.tags[0] %}{% endif %}
+      {% endif %}
+      {% case topic %}
+        {% when "Chụp ảnh" %}{% assign topic_mod = "photo" %}
+        {% when "Thể thao" %}{% assign topic_mod = "sport" %}
+        {% when "Du lịch" %}{% assign topic_mod = "travel" %}
+        {% else %}{% assign topic_mod = "other" %}
+      {% endcase %}
+
       {% if thumbnail != "" %}
       <div class="post-image post-image-normal">
         <a href="{{ post.url | relative_url }}" aria-label="Thumbnail">
           <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | strip_html | escape }}">
         </a>
+        {% if topic != "" %}<span class="post-topic post-topic-{{ topic_mod }}">{{ topic }}</span>{% endif %}
       </div>
       {% endif %}
 
+      {% if thumbnail == "" and topic != "" %}<span class="post-topic post-topic-inline post-topic-{{ topic_mod }}">{{ topic }}</span>{% endif %}
       <a href="{{ post.url | relative_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 

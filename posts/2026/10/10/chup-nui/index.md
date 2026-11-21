@@ -6,6 +6,7 @@ title: "Chụp núi sao cho ra được sự hùng vĩ, không bị \"phẳng l�
 subtitle: "Mẹo thêm tiền cảnh để ảnh có chiều sâu"
 cover-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 thumbnail-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Thiên nhiên, Bố cục, Núi]
 ---
 

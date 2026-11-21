@@ -6,6 +6,7 @@ title: "Chụp biển đẹp hơn: sóng, cát, và đường chân trời"
 subtitle: "Mẹo giữ đường chân trời thẳng + bắt khoảnh khắc sóng vỗ"
 cover-img: "/posts/2026/10/07/chup-bien/cover-bien.jpg"
 thumbnail-img: "/posts/2026/10/07/chup-bien/cover-bien.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Thiên nhiên, Bố cục, Biển]
 ---
 

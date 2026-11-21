@@ -6,6 +6,7 @@ title: "Chụp ảnh thiếu sáng/ban đêm bằng điện thoại sao cho đ�
 subtitle: "Hiểu ánh sáng, chọn đúng camera và giữ máy đủ vững"
 cover-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 thumbnail-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Ánh sáng, Ban đêm, Điện thoại]
 ---
 

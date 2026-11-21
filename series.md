@@ -1,0 +1,48 @@
+---
+layout: page
+title: Series bài viết
+subtitle: Các bài viết nối tiếp nhau theo từng series
+cover-img: "/assets/img/hero-1.jpg"
+permalink: /series/
+---
+
+{% assign all_posts = site.pages | where: 'layout', 'post' | sort: 'date' %}
+
+{% assign series_names = "" | split: "" %}
+{% for post in all_posts %}
+  {% if post.series %}
+    {% assign series_names = series_names | push: post.series %}
+  {% endif %}
+{% endfor %}
+{% assign series_names = series_names | uniq | sort %}
+
+{% if series_names.size == 0 %}
+Chưa có series nào.
+{% else %}
+
+<div class="tags-sections">
+  {% for name in series_names %}
+    {% assign series_posts = all_posts | where: "series", name %}
+    <section class="tag-section" id="{{ name | slugify }}">
+      <h2 class="tag-section-title">{{ name }} <span class="tag-pill-count">{{ series_posts.size }}</span></h2>
+      <div class="tag-posts">
+        {% for post in series_posts %}
+          {% assign thumb = post.thumbnail-img | default: post.cover-img %}
+          <a class="tag-post-card" href="{{ post.url | relative_url }}">
+            {% if thumb %}
+              <div class="tag-post-thumb">
+                <img src="{{ thumb | relative_url }}" alt="{{ post.title | escape }}">
+              </div>
+            {% endif %}
+            <div class="tag-post-info">
+              <h3><span class="series-part-num">Phần {{ forloop.index }}</span> {{ post.title }}</h3>
+              <time>{{ post.date | date: site.date_format }}</time>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>
+
+{% endif %}

@@ -6,6 +6,7 @@ title: "Chụp hoa, vườn hoa, khóm hoa sao cho không bị \"phẳng\"?"
 subtitle: "Mẹo chọn góc, chọn sáng để hoa nổi bật khỏi đám lá xanh"
 cover-img: "/posts/2026/10/08/chup-hoa-vuon-hoa/cover-hoa.jpg"
 thumbnail-img: "/posts/2026/10/08/chup-hoa-vuon-hoa/cover-hoa.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Hoa, Bố cục, Ánh sáng]
 ---
 

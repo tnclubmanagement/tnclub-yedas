@@ -6,6 +6,7 @@ title: "Chụp thú cưng/động vật nét căng, không bị nhoè"
 subtitle: "Mẹo hạ máy ngang tầm mắt + bắt khoảnh khắc bằng chụp liên tiếp"
 cover-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
 thumbnail-img: "/posts/2026/10/21/chup-dong-vat/cover-dongvat.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Động vật, Bố cục]
 ---
 

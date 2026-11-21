@@ -5,7 +5,7 @@
   {% if sp.url == page.url %}{% assign series_index = forloop.index %}{% endif %}
 {% endfor %}
 <p class="series-badge">
-  <a class="series-badge-link" href="{{ series_posts.first.url | relative_url }}" title="Xem toàn bộ series {{ page.series }}">
+  <a class="series-badge-link" href="{{ '/series/' | relative_url }}#{{ page.series | slugify }}" title="Xem toàn bộ series {{ page.series }}">
     <span class="fa fa-list-ul" aria-hidden="true"></span>
     Series {{ page.series }} · Phần {{ series_index }}/{{ series_posts.size }}
   </a>

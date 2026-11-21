@@ -6,6 +6,7 @@ title: "Chụp cầu thang, con dốc: tận dụng đường nét lặp lại"
 subtitle: "Mẹo tìm góc đối xứng/xoáy tâm cho ảnh \"ảo diệu\""
 cover-img: "/posts/2026/10/04/chup-cau-thang-con-doc/cover-cauthang.jpg"
 thumbnail-img: "/posts/2026/10/04/chup-cau-thang-con-doc/cover-cauthang.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Bố cục, Kiến trúc]
 ---
 

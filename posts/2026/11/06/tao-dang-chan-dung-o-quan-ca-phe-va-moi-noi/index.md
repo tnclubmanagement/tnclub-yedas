@@ -7,6 +7,7 @@ subtitle: "Những cách tạo dáng tự nhiên khi ngồi uống cà phê, đi
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"
 series: "Tạo dáng tự nhiên"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 

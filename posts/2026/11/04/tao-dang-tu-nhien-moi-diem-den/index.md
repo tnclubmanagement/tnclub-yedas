@@ -7,6 +7,7 @@ subtitle: "Từ phố cổ, núi rừng đến bờ biển — đứng, ngồi, 
 cover-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
 thumbnail-img: "/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg"
 series: "Tạo dáng tự nhiên"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 

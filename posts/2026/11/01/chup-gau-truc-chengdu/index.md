@@ -6,6 +6,7 @@ title: "Chụp gấu trúc ở công viên Chengdu: 4 mẹo cho người mới"
 subtitle: "Từ chọn giờ đến cách tránh hàng rào/đông người"
 cover-img: "/posts/2026/11/01/chup-gau-truc-chengdu/cover.jpg"
 thumbnail-img: "/posts/2026/11/01/chup-gau-truc-chengdu/cover.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Động vật, Du lịch, Bố cục]
 ---
 

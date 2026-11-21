@@ -118,9 +118,11 @@
         var visible = 0;
         cards.forEach(function (card) {
           var title = (card.dataset.postTitle || "").toLowerCase();
+          var category = (card.dataset.postCategory || "").toLowerCase();
           var tags = (card.dataset.postTags || "").toLowerCase();
           var matches = (!query || title.indexOf(query) !== -1) &&
-            (!selectedTag || tags.split(",").indexOf(selectedTag) !== -1);
+            (!selectedTag || category === selectedTag ||
+              (!category && tags.split(",").indexOf(selectedTag) !== -1));
           card.hidden = !matches;
           if (matches) visible++;
         });

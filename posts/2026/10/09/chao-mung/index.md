@@ -6,6 +6,7 @@ title: "Chào mừng đến với Yedas"
 subtitle: "Nơi lưu lại mẹo chụp ảnh, thể thao và những chuyến đi"
 cover-img: "/assets/img/hero-2.jpg"
 thumbnail-img: "/assets/img/hero-2.jpg"
+category: "Chụp ảnh"
 tags: [Giới thiệu]
 ---
 

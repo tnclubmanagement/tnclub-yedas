@@ -7,6 +7,7 @@ subtitle: "Thêm vài cách tạo dáng có chiều sâu mà không cần đứn
 cover-img: "/posts/2026/11/05/tao-dang-tu-nhien-moi-diem-den-p2/m1-tien-canh.jpg"
 thumbnail-img: "/posts/2026/11/05/tao-dang-tu-nhien-moi-diem-den-p2/m1-tien-canh.jpg"
 series: "Tạo dáng tự nhiên"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 ---
 

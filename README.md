@@ -43,6 +43,7 @@ Vào GitHub (web hoặc app điện thoại) → mở repo → vào thư mục `
 title: "Tên mẹo của bạn"
 subtitle: "Một câu mô tả ngắn, tuỳ chọn"
 cover-img: /assets/img/ten-anh.jpg   # ảnh lớn ở đầu bài, tuỳ chọn
+category: "Chụp ảnh"                 # chuyên mục chính: Chụp ảnh / Thể thao / Du lịch
 tags: [tag1, tag2]
 ---
 

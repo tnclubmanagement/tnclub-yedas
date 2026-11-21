@@ -6,6 +6,7 @@ title: "Mẹo chụp hình tượng to lớn: Lạc Sơn Đại Phật"
 subtitle: "Làm sao để chụp tượng Phật 71m cao ấn tượng bằng điện thoại"
 cover-img: "/posts/2026/11/03/chup-tuong-lac-son-dai-phat/cover.jpg"
 thumbnail-img: "/posts/2026/11/03/chup-tuong-lac-son-dai-phat/cover.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Du lịch, Lạc Sơn Đại Phật, Tượng lớn, Bố cục, Hướng dẫn]
 ---
 

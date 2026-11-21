@@ -6,6 +6,7 @@ title: "Chụp kiến trúc cổ: nhà thờ, chùa sao cho toát lên vẻ tran
 subtitle: "Dùng khung cửa/mái vòm làm \"khung\" cho bức ảnh"
 cover-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
 thumbnail-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
+category: "Chụp ảnh"
 tags: [Chụp ảnh, Kiến trúc, Bố cục, Nhà thờ - chùa]
 ---
 

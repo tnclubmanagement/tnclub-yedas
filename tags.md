@@ -20,7 +20,7 @@ Chưa có tag nào.
 {% else %}
 
 <div class="tags-search">
-  <input type="text" id="tag-search" placeholder="Tìm tag hoặc bài viết..." autocomplete="off">
+  <input type="text" id="tag-search" placeholder="Tìm tag hoặc bài viết..." autocomplete="off" title="Tìm tag hoặc bài viết">
 </div>
 
 <div class="tags-cloud" id="tags-cloud">

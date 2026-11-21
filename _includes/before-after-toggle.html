@@ -1,9 +1,9 @@
 <div class="ba-toggle" data-ba-toggle>
   <div class="ba-buttons" role="group" aria-label="So sánh trước và sau">
-    <button type="button" class="ba-btn is-active" data-mode="before" aria-pressed="true">{{ include.before_label | default: "Trước" }}</button>
-    <button type="button" class="ba-btn" data-mode="after" aria-pressed="false">{{ include.after_label | default: "Sau" }}</button>
+    <button type="button" class="ba-btn is-active" data-mode="before" aria-pressed="true" title="Xem ảnh trước khi chỉnh">{{ include.before_label | default: "Trước" }}</button>
+    <button type="button" class="ba-btn" data-mode="after" aria-pressed="false" title="Xem ảnh sau khi chỉnh">{{ include.after_label | default: "Sau" }}</button>
     {% if include.compare %}
-    <button type="button" class="ba-btn" data-mode="compare" aria-pressed="false">{{ include.compare_label | default: "So sánh" }}</button>
+    <button type="button" class="ba-btn" data-mode="compare" aria-pressed="false" title="So sánh trước và sau">{{ include.compare_label | default: "So sánh" }}</button>
     {% endif %}
   </div>
 

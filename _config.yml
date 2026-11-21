@@ -17,6 +17,7 @@ baseurl: "/tnclub-yedas"
 ###############################################
 
 navbar-links:
+  Bài viết: "bai-viet"
   Giới thiệu: "aboutme"
   Chủ đề: "tags"
   Playlist: "playlist"

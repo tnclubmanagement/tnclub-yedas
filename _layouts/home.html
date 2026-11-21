@@ -17,11 +17,11 @@ layout: page
 <div class="home-controls" role="region" aria-label="Lọc bài viết">
   <label class="home-search">
     <span class="sr-only">Tìm bài viết</span>
-    <input type="search" id="home-post-search" placeholder="Tìm bài viết..." autocomplete="off">
+    <input type="search" id="home-post-search" placeholder="Tìm bài viết..." autocomplete="off" title="Tìm bài viết theo tên">
   </label>
   <label class="home-filter">
     <span class="sr-only">Lọc theo chủ đề</span>
-    <select id="home-tag-filter">
+    <select id="home-tag-filter" title="Lọc bài viết theo chủ đề">
       <option value="">Tất cả chủ đề</option>
       {% for tag in home_tags %}
         <option value="{{ tag | escape }}">{{ tag }}</option>
@@ -29,10 +29,10 @@ layout: page
     </select>
   </label>
   <div class="home-display-mode" role="group" aria-label="Kiểu hiển thị">
-    <button type="button" class="home-mode-btn is-active" data-mode="grid" aria-label="Hiển thị dạng lưới" aria-pressed="true">
+    <button type="button" class="home-mode-btn is-active" data-mode="grid" aria-label="Hiển thị dạng lưới" title="Hiển thị dạng lưới" aria-pressed="true">
       <span class="fa fa-th-large" aria-hidden="true"></span>
     </button>
-    <button type="button" class="home-mode-btn" data-mode="list" aria-label="Hiển thị dạng danh sách" aria-pressed="false">
+    <button type="button" class="home-mode-btn" data-mode="list" aria-label="Hiển thị dạng danh sách" title="Hiển thị dạng danh sách" aria-pressed="false">
       <span class="fa fa-list" aria-hidden="true"></span>
     </button>
   </div>

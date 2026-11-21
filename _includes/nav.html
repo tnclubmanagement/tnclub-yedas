@@ -5,7 +5,7 @@
     <span class="navbar-brand-text font-title">{{ site.title }}</span>
   </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation" title="Mở menu">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -26,6 +26,7 @@
         {% else %}
           {%- capture icon -%}
             {%- case link[1] -%}
+              {%- when "bai-viet" -%}fa-file-text
               {%- when "aboutme" -%}fa-info-circle
               {%- when "tags" -%}fa-tags
               {%- when "contact" -%}fa-envelope
@@ -49,7 +50,7 @@
       </li>
       {% if site.post_search %}
         <li class="nav-item">
-          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+          <a class="nav-link" id="nav-search-link" href="#" title="Tìm kiếm bài viết">
             <span id="nav-search-icon" class="fa fa-search"></span>
             <span id="nav-search-text">Search</span>
           </a>

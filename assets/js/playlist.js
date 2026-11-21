@@ -84,12 +84,12 @@
     modal.className = 'playlist-picker';
     modal.innerHTML = '<div class="playlist-picker-backdrop"></div>' +
       '<div class="playlist-picker-dialog" role="dialog" aria-modal="true" aria-label="Chọn playlist">' +
-      '<button class="playlist-picker-close" type="button" aria-label="Đóng">&times;</button>' +
+      '<button class="playlist-picker-close" type="button" aria-label="Đóng" title="Đóng">&times;</button>' +
       '<h2>Lưu vào playlist</h2><p>Chọn một hoặc nhiều playlist:</p>' +
       '<div class="playlist-picker-list"></div>' +
-      '<div class="playlist-create-row"><input type="text" placeholder="Tên playlist mới">' +
-      '<button type="button" class="playlist-create-btn">Tạo</button></div>' +
-      '<p class="playlist-limit"></p><button type="button" class="playlist-picker-save">Lưu lựa chọn</button>' +
+      '<div class="playlist-create-row"><input type="text" placeholder="Tên playlist mới" title="Nhập tên cho playlist mới">' +
+      '<button type="button" class="playlist-create-btn" title="Tạo playlist mới">Tạo</button></div>' +
+      '<p class="playlist-limit"></p><button type="button" class="playlist-picker-save" title="Lưu bài viết vào playlist đã chọn">Lưu lựa chọn</button>' +
       '</div>';
     document.body.appendChild(modal);
 
@@ -133,6 +133,7 @@
     var btn = document.createElement('button');
     btn.className = 'playlist-save-btn btn btn-primary';
     btn.type = 'button';
+    btn.title = 'Lưu bài viết này vào playlist';
     btn.addEventListener('click', function() { openPicker(url, title, tags); });
     container.appendChild(btn);
     updatePostButton(url);
@@ -150,7 +151,7 @@
       var items = playlist.items.length ? playlist.items.map(function(item) {
         return '<li class="playlist-item"><a href="' + escapeHtml(item.url) + '">' +
           escapeHtml(item.title) + '</a><button class="playlist-remove-btn" data-playlist="' +
-          playlist.id + '" data-url="' + escapeHtml(item.url) + '">Xóa</button></li>';
+          playlist.id + '" data-url="' + escapeHtml(item.url) + '" title="Xóa bài này khỏi playlist">Xóa</button></li>';
       }).join('') : '<li class="playlist-empty">Chưa có bài viết.</li>';
       return '<section class="playlist-card"><h2>' + escapeHtml(playlist.name) +
         ' <small>(' + playlist.items.length + ')</small></h2><ul class="playlist-list">' +

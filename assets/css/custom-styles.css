@@ -1828,3 +1828,14 @@ footer .copyright {
 [data-theme="dark"] .tag-pill:nth-of-type(7n+5) { background: rgba(197, 138, 249, 0.14); color: #c58af9; border-color: rgba(197, 138, 249, 0.3); }
 [data-theme="dark"] .tag-pill:nth-of-type(7n+6) { background: rgba(120, 189, 255, 0.14); color: #78bdff; border-color: rgba(120, 189, 255, 0.3); }
 [data-theme="dark"] .tag-pill:nth-of-type(7n+7) { background: rgba(244, 143, 177, 0.14); color: #f48fb1; border-color: rgba(244, 143, 177, 0.3); }
+
+/* ---------- Tooltip (Bootstrap) ---------- */
+.tooltip {
+  font-family: var(--font-title) !important;
+}
+
+.tooltip-inner {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 8px;
+}

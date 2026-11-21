@@ -16,13 +16,13 @@
       var controls = document.createElement("div");
       controls.className = "gallery-controls";
       controls.innerHTML = '<span>Hiển thị</span>' +
-        '<button type="button" class="gallery-mode-btn is-active" data-mode="grid">Lưới</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="single">Từng ảnh</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="stack">Xếp chồng</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="masonry">Masonry</button>' +
-        '<button type="button" class="gallery-mode-btn" data-mode="film">Film strip</button>';
+        '<button type="button" class="gallery-mode-btn is-active" data-mode="grid" title="Hiển thị dạng lưới">Lưới</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="single" title="Xem từng ảnh một">Từng ảnh</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="stack" title="Xếp chồng các ảnh">Xếp chồng</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="masonry" title="Hiển thị kiểu masonry">Masonry</button>' +
+        '<button type="button" class="gallery-mode-btn" data-mode="film" title="Xem dạng dải phim ngang">Film strip</button>';
       if (gallery.querySelectorAll("figure").length === 2) {
-        controls.innerHTML += '<button type="button" class="gallery-mode-btn" data-mode="compare">So sánh</button>';
+        controls.innerHTML += '<button type="button" class="gallery-mode-btn" data-mode="compare" title="So sánh 2 ảnh cạnh nhau">So sánh</button>';
       }
       gallery.parentNode.insertBefore(controls, gallery);
 
@@ -44,6 +44,9 @@
     // Gallery: bấm vào ảnh để xem lớn, có thể chuyển ảnh bằng nút hoặc phím.
     document.querySelectorAll(".post-gallery").forEach(function (gallery) {
       var images = Array.prototype.slice.call(gallery.querySelectorAll("img"));
+      images.forEach(function (image) {
+        if (!image.title) image.title = "Bấm để phóng to";
+      });
 
       function openLightbox(startIndex) {
         var index = startIndex;
@@ -52,10 +55,10 @@
         lightbox.setAttribute("role", "dialog");
         lightbox.setAttribute("aria-modal", "true");
         lightbox.innerHTML =
-          '<button type="button" class="gallery-lightbox-prev" aria-label="Ảnh trước">&#10094;</button>' +
-          '<button type="button" class="gallery-lightbox-close" aria-label="Đóng">&times;</button>' +
+          '<button type="button" class="gallery-lightbox-prev" aria-label="Ảnh trước" title="Ảnh trước">&#10094;</button>' +
+          '<button type="button" class="gallery-lightbox-close" aria-label="Đóng" title="Đóng">&times;</button>' +
           '<img alt="">' +
-          '<button type="button" class="gallery-lightbox-next" aria-label="Ảnh tiếp theo">&#10095;</button>';
+          '<button type="button" class="gallery-lightbox-next" aria-label="Ảnh tiếp theo" title="Ảnh tiếp theo">&#10095;</button>';
 
         var lightboxImage = lightbox.querySelector("img");
         var previousButton = lightbox.querySelector(".gallery-lightbox-prev");
@@ -187,6 +190,19 @@
       updatePostView();
     }
 
+    // Tooltip kiểu Bootstrap cho mọi element có attribute `title` — gắn
+    // delegated trên body nên element tạo động sau (nút gallery, lightbox,
+    // nút playlist...) cũng được tooltip mà không cần init lại. Site đã load
+    // sẵn jQuery + Popper + bootstrap.js trong footer-scripts.
+    if (window.jQuery && jQuery.fn.tooltip) {
+      jQuery("body").tooltip({
+        selector: "[title]",
+        trigger: "hover",
+        container: "body",
+        boundary: "window"
+      });
+    }
+
     // 1) Hero: chọn ngẫu nhiên 1 trong các ảnh (window.HERO_IMAGES, tránh lặp
     // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
@@ -208,7 +224,7 @@
 
     // 2) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     var revealTargets = document.querySelectorAll(
-      ".landing-intro, .latest-heading, .posts-list li.post-preview, .post-container, .pagination.main-pager"
+      ".landing-intro, .latest-heading, .posts-list li.post-preview, .pagination.main-pager"
     );
     revealTargets.forEach(function (el) {
       el.classList.add("reveal");

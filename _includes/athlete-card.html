@@ -1,0 +1,31 @@
+{% if page.athlete %}
+{% assign a = page.athlete %}
+<section class="athlete-card" aria-label="Thông tin vận động viên {{ a.name }}">
+  {% if a.avatar %}
+  <div class="athlete-card-media">
+    <img src="{{ a.avatar | relative_url }}" alt="{{ a.name }}" loading="lazy">
+    {% if a.nickname %}<span class="athlete-card-nickname">“{{ a.nickname }}”</span>{% endif %}
+  </div>
+  {% endif %}
+  <div class="athlete-card-body">
+    <p class="athlete-card-kicker">Hồ sơ vận động viên</p>
+    <h2 class="athlete-card-name">{{ a.name }}</h2>
+    <dl class="athlete-card-grid">
+      {% if a.country %}<div class="athlete-card-item"><dt>Quốc tịch</dt><dd>{{ a.country }}</dd></div>{% endif %}
+      {% if a.born %}<div class="athlete-card-item"><dt>Ngày sinh</dt><dd>{{ a.born }}</dd></div>{% endif %}
+      {% if a.height %}<div class="athlete-card-item"><dt>Chiều cao</dt><dd>{{ a.height }}</dd></div>{% endif %}
+      {% if a.hand %}<div class="athlete-card-item"><dt>Thuận tay</dt><dd>{{ a.hand }}</dd></div>{% endif %}
+      {% if a.event %}<div class="athlete-card-item"><dt>Nội dung</dt><dd>{{ a.event }}</dd></div>{% endif %}
+      {% if a.debut %}<div class="athlete-card-item"><dt>Lên chuyên nghiệp</dt><dd>{{ a.debut }}</dd></div>{% endif %}
+      {% if a.racket %}<div class="athlete-card-item"><dt>Vợt</dt><dd>{{ a.racket }}</dd></div>{% endif %}
+      {% if a.current_rank %}<div class="athlete-card-item"><dt>Hạng BWF hiện tại</dt><dd>{{ a.current_rank }}</dd></div>{% endif %}
+    </dl>
+    {% if a.highest_rank %}
+    <p class="athlete-card-rank">
+      <span class="athlete-card-rank-label">Hạng cao nhất</span>
+      <span class="athlete-card-rank-value">{{ a.highest_rank }}</span>
+    </p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

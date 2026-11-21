@@ -52,6 +52,27 @@ Nội dung mẹo viết bằng Markdown bình thường ở đây.
 Có thể chèn **chữ đậm**, *chữ nghiêng*, ảnh, link, v.v.
 ```
 
+Bài profile vận động viên (series "VĐV cầu lông") khai báo thêm khối
+`athlete` để hiện khung hồ sơ đầu bài + card đẹp ở trang `/series/`:
+
+```yaml
+category: "Thể thao"
+series: "VĐV cầu lông"
+athlete:
+  name: "Viktor Axelsen"
+  nickname: "Cỗ máy Đan Mạch"
+  avatar: /posts/.../avatar.jpg
+  country: "Đan Mạch"
+  born: "04/01/1994"
+  height: "1m94"
+  hand: "Phải"
+  event: "Đơn nam"
+  debut: "2010"
+  racket: "Yonex Astrox 100ZZ"
+  current_rank: "Số 2"
+  highest_rank: "Số 1 thế giới"
+```
+
 - Bấm **Commit changes** → xong! Sau ~1-2 phút (Actions build) bài sẽ tự
   xuất hiện trên trang.
 

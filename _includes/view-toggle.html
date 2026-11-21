@@ -1,0 +1,35 @@
+<div class="view-toggle" role="group" aria-label="Kiểu hiển thị">
+  <button type="button" class="view-toggle-btn" data-view="list" title="Xem dạng danh sách" aria-label="Xem dạng danh sách">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12"/></svg>
+    <span>Danh sách</span>
+  </button>
+  <button type="button" class="view-toggle-btn" data-view="grid" title="Xem dạng lưới" aria-label="Xem dạng lưới">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1"/><rect x="9" y="2" width="5" height="5" rx="1"/><rect x="2" y="9" width="5" height="5" rx="1"/><rect x="9" y="9" width="5" height="5" rx="1"/></svg>
+    <span>Lưới</span>
+  </button>
+</div>
+<script>
+(function () {
+  var KEY = 'yedas-view-mode';
+  var group = document.currentScript.previousElementSibling;
+  document.addEventListener('DOMContentLoaded', function () {
+  var sections = document.getElementById('tags-sections') || document.querySelector('.tags-sections');
+  if (!sections || !group) return;
+  var btns = group.querySelectorAll('.view-toggle-btn');
+  function apply(mode) {
+    sections.classList.toggle('view-grid', mode === 'grid');
+    sections.classList.toggle('view-list', mode !== 'grid');
+    btns.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.view === (mode === 'grid' ? 'grid' : 'list'));
+    });
+    try { localStorage.setItem(KEY, mode); } catch (e) {}
+  }
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () { apply(b.dataset.view); });
+  });
+  var saved = 'list';
+  try { saved = localStorage.getItem(KEY) || 'list'; } catch (e) {}
+  apply(saved);
+  });
+})();
+</script>

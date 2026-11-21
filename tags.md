@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Lưu trữ theo chủ đề
-subtitle: Tất cả bài viết, nhóm theo chủ đề
+title: Lưu trữ theo thẻ
+subtitle: Tất cả bài viết, nhóm theo thẻ
 cover-img: "/assets/img/hero-2.jpg"
 permalink: /tags/
 ---
@@ -37,6 +37,8 @@ Chưa có tag nào.
     </a>
   {% endfor %}
 </div>
+
+{% include view-toggle.html %}
 
 <div class="tags-sections" id="tags-sections">
   {% for tag in sorted_tags %}

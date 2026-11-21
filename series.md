@@ -20,6 +20,8 @@ permalink: /series/
 Chưa có series nào.
 {% else %}
 
+{% include view-toggle.html %}
+
 <div class="tags-sections">
   {% for name in series_names %}
     {% assign series_posts = all_posts | where: "series", name %}
@@ -27,6 +29,25 @@ Chưa có series nào.
       <h2 class="tag-section-title">{{ name }} <span class="tag-pill-count">{{ series_posts.size }}</span></h2>
       <div class="tag-posts">
         {% for post in series_posts %}
+          {% if post.athlete %}
+          <a class="athlete-index-card" href="{{ post.url | relative_url }}">
+            {% if post.athlete.avatar %}
+            <span class="athlete-index-avatar">
+              <img src="{{ post.athlete.avatar | relative_url }}" alt="{{ post.athlete.name | escape }}" loading="lazy">
+            </span>
+            {% endif %}
+            <span class="athlete-index-info">
+              <span class="athlete-index-name">{{ post.athlete.name }}</span>
+              {% if post.athlete.nickname %}<span class="athlete-index-nick">“{{ post.athlete.nickname }}”</span>{% endif %}
+              <span class="athlete-index-meta">
+                {% if post.athlete.country %}{{ post.athlete.country }}{% endif %}
+                {% if post.athlete.event %} · {{ post.athlete.event }}{% endif %}
+                {% if post.athlete.highest_rank %} · {{ post.athlete.highest_rank }}{% endif %}
+              </span>
+            </span>
+            <span class="athlete-index-part">Phần {{ forloop.index }}</span>
+          </a>
+          {% else %}
           {% assign thumb = post.thumbnail-img | default: post.cover-img %}
           <a class="tag-post-card" href="{{ post.url | relative_url }}">
             {% if thumb %}
@@ -39,6 +60,7 @@ Chưa có series nào.
               <time>{{ post.date | date: site.date_format }}</time>
             </div>
           </a>
+          {% endif %}
         {% endfor %}
       </div>
     </section>

@@ -265,7 +265,7 @@
 
     // 2) Fade-in-up khi cuộn tới, chỉ chạy 1 lần cho mỗi phần tử.
     var revealTargets = document.querySelectorAll(
-      ".landing-intro, .latest-heading, .posts-list li.post-preview, .pagination.main-pager, .featured-stories-heading, .featured-story-card, .home-info-card"
+      ".landing-intro, .latest-heading, .posts-list li.post-preview, .pagination.main-pager, .featured-stories-heading, .featured-story-card, .home-info-card, .athlete-card, .athlete-index-card"
     );
     revealTargets.forEach(function (el) {
       el.classList.add("reveal");

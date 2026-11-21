@@ -44,9 +44,9 @@
     btn.classList.toggle('saved', count > 0);
   }
 
-  function saveSelection(url, title, tags, selectedIds) {
+  function saveSelection(url, title, tags, thumb, selectedIds) {
     var playlists = getPlaylists();
-    var item = { url: url, title: title, tags: tags };
+    var item = { url: url, title: title, tags: tags, thumb: thumb };
     playlists.forEach(function(playlist) {
       if (selectedIds.indexOf(playlist.id) !== -1) addToPlaylist(playlist, item);
       else removeFromPlaylist(playlist, url);
@@ -77,7 +77,7 @@
     if (modal) modal.remove();
   }
 
-  function openPicker(url, title, tags) {
+  function openPicker(url, title, tags, thumb) {
     closePicker();
     var playlists = getPlaylists();
     var modal = document.createElement('div');
@@ -119,7 +119,7 @@
     modal.querySelector('.playlist-picker-save').onclick = function() {
       var selected = Array.prototype.slice.call(list.querySelectorAll('input:checked'))
         .map(function(input) { return input.value; });
-      saveSelection(url, title, tags, selected);
+      saveSelection(url, title, tags, thumb, selected);
       closePicker();
     };
   }
@@ -130,11 +130,12 @@
     var url = container.dataset.url;
     var title = container.dataset.title;
     var tags = container.dataset.tags ? container.dataset.tags.split(',') : [];
+    var thumb = container.dataset.thumb || '';
     var btn = document.createElement('button');
     btn.className = 'playlist-save-btn btn btn-primary';
     btn.type = 'button';
     btn.title = 'Lưu bài viết này vào playlist';
-    btn.addEventListener('click', function() { openPicker(url, title, tags); });
+    btn.addEventListener('click', function() { openPicker(url, title, tags, thumb); });
     container.appendChild(btn);
     updatePostButton(url);
   }
@@ -149,13 +150,30 @@
     }
     container.innerHTML = playlists.map(function(playlist) {
       var items = playlist.items.length ? playlist.items.map(function(item) {
-        return '<li class="playlist-item"><a href="' + escapeHtml(item.url) + '">' +
-          escapeHtml(item.title) + '</a><button class="playlist-remove-btn" data-playlist="' +
-          playlist.id + '" data-url="' + escapeHtml(item.url) + '" title="Xóa bài này khỏi playlist">Xóa</button></li>';
-      }).join('') : '<li class="playlist-empty">Chưa có bài viết.</li>';
-      return '<section class="playlist-card"><h2>' + escapeHtml(playlist.name) +
-        ' <small>(' + playlist.items.length + ')</small></h2><ul class="playlist-list">' +
-        items + '</ul></section>';
+        var thumb = item.thumb
+          ? '<span class="playlist-item-thumb"><img src="' + escapeHtml(item.thumb) +
+            '" alt="" loading="lazy"></span>'
+          : '<span class="playlist-item-thumb playlist-item-thumb--empty" aria-hidden="true">' +
+            '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-5 4 4 3-3 6 6"/></svg></span>';
+        var tags = (item.tags && item.tags.length)
+          ? '<span class="playlist-item-tags">' + item.tags.map(escapeHtml).join(' · ') + '</span>'
+          : '';
+        return '<div class="playlist-item">' + thumb +
+          '<a class="playlist-item-info" href="' + escapeHtml(item.url) + '">' +
+          '<span class="playlist-item-title">' + escapeHtml(item.title) + '</span>' +
+          tags + '</a>' +
+          '<button class="playlist-remove-btn" data-playlist="' + playlist.id +
+          '" data-url="' + escapeHtml(item.url) +
+          '" title="Xóa bài này khỏi playlist" aria-label="Xóa bài này khỏi playlist">&times;</button></div>';
+      }).join('') : '<p class="playlist-empty">Chưa có bài viết — mở một bài viết và bấm "Lưu vào playlist".</p>';
+      return '<section class="playlist-card" data-playlist="' + playlist.id + '">' +
+        '<header class="playlist-card-head"><h2>' + escapeHtml(playlist.name) +
+        ' <small>' + playlist.items.length + ' bài</small></h2>' +
+        '<div class="playlist-card-actions">' +
+        '<button class="playlist-rename-btn" type="button" title="Đổi tên playlist">Đổi tên</button>' +
+        '<button class="playlist-delete-btn" type="button" title="Xóa playlist này">Xóa playlist</button>' +
+        '</div></header>' +
+        '<div class="playlist-items">' + items + '</div></section>';
     }).join('');
     container.querySelectorAll('.playlist-remove-btn').forEach(function(btn) {
       btn.onclick = function() {
@@ -164,6 +182,30 @@
         if (playlist) removeFromPlaylist(playlist, btn.dataset.url);
         setPlaylists(data);
         renderPlaylist();
+      };
+    });
+    container.querySelectorAll('.playlist-delete-btn').forEach(function(btn) {
+      btn.onclick = function() {
+        var card = btn.closest('.playlist-card');
+        var playlist = getPlaylists().find(function(p) { return p.id === card.dataset.playlist; });
+        if (!playlist) return;
+        if (!confirm('Xóa playlist "' + playlist.name + '"? Các bài viết vẫn được giữ nguyên.')) return;
+        setPlaylists(getPlaylists().filter(function(p) { return p.id !== card.dataset.playlist; }));
+        renderPlaylist();
+      };
+    });
+    container.querySelectorAll('.playlist-rename-btn').forEach(function(btn) {
+      btn.onclick = function() {
+        var card = btn.closest('.playlist-card');
+        var data = getPlaylists();
+        var playlist = data.find(function(p) { return p.id === card.dataset.playlist; });
+        if (!playlist) return;
+        var name = prompt('Tên mới cho playlist:', playlist.name);
+        if (name && name.trim()) {
+          playlist.name = name.trim();
+          setPlaylists(data);
+          renderPlaylist();
+        }
       };
     });
   }

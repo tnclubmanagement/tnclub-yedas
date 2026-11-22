@@ -152,7 +152,8 @@ window.__athletePins = [
       event: {{ post.athlete.event | default: "" | jsonify }},
       rank: {{ post.athlete.highest_rank | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
-      avatar: {{ post.athlete.avatar | relative_url | jsonify }}
+      avatar: {{ post.athlete.avatar | relative_url | jsonify }},
+      sprite: {{ site.data.pin_sprite[post.athlete.avatar] | default: -1 }}
     }
     {% elsif post.geo %}
     {% unless first %},{% endunless %}{% assign first = false %}{
@@ -171,9 +172,12 @@ window.__athletePins = [
       url: {{ post.url | relative_url | jsonify }},
       {% if post["cover-img"] and post["cover-img"] contains 'cover.' %}
       {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}
-      avatar: {{ pin_base | append: 'avatar.jpg' | relative_url | jsonify }}
+      {% assign pin_av = pin_base | append: 'avatar.jpg' %}
+      avatar: {{ pin_av | relative_url | jsonify }},
+      sprite: {{ site.data.pin_sprite[pin_av] | default: -1 }}
       {% else %}
-      avatar: {{ post["cover-img"] | relative_url | jsonify }}
+      avatar: {{ post["cover-img"] | relative_url | jsonify }},
+      sprite: -1
       {% endif %}
     }
     {% endif %}
@@ -316,11 +320,22 @@ window.__athletePins = [
       Namibia: 'africa', Zimbabwe: 'africa', 'South Africa': 'africa', Mauritius: 'africa'
     };
 
+    var SPRITE_URL = {{ '/assets/img/pins-sprite.jpg' | relative_url | jsonify }};
+    var SPRITE_COLS = 16;
+    var pinFace = function (d) {
+      if (d.sprite >= 0) {
+        var c = d.sprite % SPRITE_COLS, r = Math.floor(d.sprite / SPRITE_COLS);
+        return '<span class="pin-face" style="background-image:url(\'' + SPRITE_URL +
+               '\');background-position:' + (c * 100 / (SPRITE_COLS - 1)) + '% ' +
+               (r * 100 / (SPRITE_COLS - 1)) + '%"></span>';
+      }
+      return d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '';
+    };
     var entries = window.__athletePins.map(function (d, i) {
       var icon = L.divIcon({
         className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
         html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + (i * 40) + 'ms">' +
-              (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '') +
+              pinFace(d) +
               '<span class="athlete-pin-shadow"></span></span>',
         iconSize: [44, 54], iconAnchor: [22, 52]
       });

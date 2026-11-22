@@ -67,9 +67,13 @@ place_name: "Seoul, Hàn Quốc"
 place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
                                 # Taiwan / Thailand / Korea / Indonesia /
                                 # Malaysia / Philippines / Laos / Cambodia /
-                                # India / Australia (khớp nút lọc trên
-                                # bản đồ — quốc gia mới cần thêm nút + khung
-                                # nhìn trong _includes/athlete-map.html)
+                                # India / Australia / France / Italy / Spain /
+                                # United Kingdom / Germany / Netherlands /
+                                # Switzerland / Greece / United States /
+                                # Canada / Brazil / Argentina / Peru / Chile /
+                                # Colombia (khớp nút lọc trên bản đồ — quốc
+                                # gia mới cần thêm nút + khung nhìn trong
+                                # _includes/athlete-map.html)
 place_region: "Đông Á"
 ```
 

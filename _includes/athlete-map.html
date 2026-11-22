@@ -36,36 +36,50 @@
       {% if map_series contains "Du lịch" %}
       <div class="filter-drop" id="filter-drop-travel">
         <button class="home-tab" type="button" data-filter="Du lịch"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
-        <div class="drop-menu">
+        <div class="drop-menu drop-menu-countries">
           <button class="drop-item drop-item-active" type="button" data-country="all">Tất cả quốc gia</button>
-          <button class="drop-item" type="button" data-country="Vietnam">Vietnam</button>
-          <button class="drop-item" type="button" data-country="China">China</button>
-          <button class="drop-item" type="button" data-country="Japan">Japan</button>
-          <button class="drop-item" type="button" data-country="Taiwan">Taiwan</button>
-          <button class="drop-item" type="button" data-country="Thailand">Thailand</button>
-          <button class="drop-item" type="button" data-country="Korea">Korea</button>
-          <button class="drop-item" type="button" data-country="Indonesia">Indonesia</button>
-          <button class="drop-item" type="button" data-country="Malaysia">Malaysia</button>
-          <button class="drop-item" type="button" data-country="Philippines">Philippines</button>
-          <button class="drop-item" type="button" data-country="Laos">Laos</button>
-          <button class="drop-item" type="button" data-country="Cambodia">Cambodia</button>
-          <button class="drop-item" type="button" data-country="India">India</button>
-          <button class="drop-item" type="button" data-country="Australia">Australia</button>
-          <button class="drop-item" type="button" data-country="France">France</button>
-          <button class="drop-item" type="button" data-country="Italy">Italy</button>
-          <button class="drop-item" type="button" data-country="Spain">Spain</button>
-          <button class="drop-item" type="button" data-country="United Kingdom">United Kingdom</button>
-          <button class="drop-item" type="button" data-country="Germany">Germany</button>
-          <button class="drop-item" type="button" data-country="Netherlands">Netherlands</button>
-          <button class="drop-item" type="button" data-country="Switzerland">Switzerland</button>
-          <button class="drop-item" type="button" data-country="Greece">Greece</button>
-          <button class="drop-item" type="button" data-country="United States">United States</button>
-          <button class="drop-item" type="button" data-country="Canada">Canada</button>
-          <button class="drop-item" type="button" data-country="Brazil">Brazil</button>
-          <button class="drop-item" type="button" data-country="Argentina">Argentina</button>
-          <button class="drop-item" type="button" data-country="Peru">Peru</button>
-          <button class="drop-item" type="button" data-country="Chile">Chile</button>
-          <button class="drop-item" type="button" data-country="Colombia">Colombia</button>
+          <div class="drop-groups">
+            <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="asia">Châu Á</button>
+              <button class="drop-item" type="button" data-country="Vietnam">Vietnam</button>
+              <button class="drop-item" type="button" data-country="China">China</button>
+              <button class="drop-item" type="button" data-country="Japan">Japan</button>
+              <button class="drop-item" type="button" data-country="Taiwan">Taiwan</button>
+              <button class="drop-item" type="button" data-country="Thailand">Thailand</button>
+              <button class="drop-item" type="button" data-country="Korea">Korea</button>
+              <button class="drop-item" type="button" data-country="Indonesia">Indonesia</button>
+              <button class="drop-item" type="button" data-country="Malaysia">Malaysia</button>
+              <button class="drop-item" type="button" data-country="Philippines">Philippines</button>
+              <button class="drop-item" type="button" data-country="Laos">Laos</button>
+              <button class="drop-item" type="button" data-country="Cambodia">Cambodia</button>
+              <button class="drop-item" type="button" data-country="India">India</button>
+            </div>
+            <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="europe">Châu Âu</button>
+              <button class="drop-item" type="button" data-country="France">France</button>
+              <button class="drop-item" type="button" data-country="Italy">Italy</button>
+              <button class="drop-item" type="button" data-country="Spain">Spain</button>
+              <button class="drop-item" type="button" data-country="United Kingdom">United Kingdom</button>
+              <button class="drop-item" type="button" data-country="Germany">Germany</button>
+              <button class="drop-item" type="button" data-country="Netherlands">Netherlands</button>
+              <button class="drop-item" type="button" data-country="Switzerland">Switzerland</button>
+              <button class="drop-item" type="button" data-country="Greece">Greece</button>
+            </div>
+            <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="americas">Châu Mỹ</button>
+              <button class="drop-item" type="button" data-country="United States">United States</button>
+              <button class="drop-item" type="button" data-country="Canada">Canada</button>
+              <button class="drop-item" type="button" data-country="Brazil">Brazil</button>
+              <button class="drop-item" type="button" data-country="Argentina">Argentina</button>
+              <button class="drop-item" type="button" data-country="Peru">Peru</button>
+              <button class="drop-item" type="button" data-country="Chile">Chile</button>
+              <button class="drop-item" type="button" data-country="Colombia">Colombia</button>
+            </div>
+            <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
+              <button class="drop-item" type="button" data-country="Australia">Australia</button>
+            </div>
+          </div>
         </div>
       </div>
       {% endif %}
@@ -262,6 +276,18 @@ window.__athletePins = [
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
     qv.querySelector('.athlete-qv-close').addEventListener('click', close);
 
+    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', oceania: 'Châu Đại Dương' };
+    var COUNTRY_CONTINENT = {
+      Vietnam: 'asia', China: 'asia', Japan: 'asia', Taiwan: 'asia',
+      Thailand: 'asia', Korea: 'asia', Indonesia: 'asia', Malaysia: 'asia',
+      Philippines: 'asia', Laos: 'asia', Cambodia: 'asia', India: 'asia',
+      France: 'europe', Italy: 'europe', Spain: 'europe', 'United Kingdom': 'europe',
+      Germany: 'europe', Netherlands: 'europe', Switzerland: 'europe', Greece: 'europe',
+      'United States': 'americas', Canada: 'americas', Brazil: 'americas',
+      Argentina: 'americas', Peru: 'americas', Chile: 'americas', Colombia: 'americas',
+      Australia: 'oceania'
+    };
+
     var entries = window.__athletePins.map(function (d, i) {
       var icon = L.divIcon({
         className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
@@ -306,7 +332,8 @@ window.__athletePins = [
       return {
         marker: m, kind: d.kind, series: d.series, country: d.country || '',
         searchText: normalizeText([d.name, d.nick, d.series, d.country, d.hometown,
-          d.event, d.subtitle, d.region, d.economy, d.festival].join(' '))
+          d.event, d.subtitle, d.region, d.economy, d.festival,
+          CONTINENT_LABEL[COUNTRY_CONTINENT[d.country]] || ''].join(' '))
       };
     });
 
@@ -378,7 +405,11 @@ window.__athletePins = [
         else if (activeFilter === 'Thể thao')
           on = en.kind === 'athlete' && (activeSport === 'all' || en.series === activeSport);
         else if (activeFilter === 'Du lịch')
-          on = en.kind === 'place' && (activeCountry === 'all' || en.country === activeCountry);
+          on = en.kind === 'place' &&
+            (activeCountry === 'all' ||
+             (activeCountry.indexOf('continent:') === 0
+               ? COUNTRY_CONTINENT[en.country] === activeCountry.slice(10)
+               : en.country === activeCountry));
         else on = false;
         on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
         if (on) { en.marker.addTo(map); shown++; }
@@ -414,6 +445,9 @@ window.__athletePins = [
     function resetDrop(wrap, label, baseLabel, key, items) {
       wrap.querySelectorAll('.drop-item').forEach(function (b) {
         b.classList.toggle('drop-item-active', b.dataset[key] === 'all');
+      });
+      wrap.querySelectorAll('.drop-group-title').forEach(function (b) {
+        b.classList.remove('drop-group-title-active');
       });
       label.textContent = baseLabel;
     }
@@ -458,7 +492,25 @@ window.__athletePins = [
         travelDrop.querySelectorAll('.drop-item').forEach(function (b) {
           b.classList.toggle('drop-item-active', b === btn);
         });
+        travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
+          b.classList.remove('drop-group-title-active');
+        });
         travelLabel.textContent = activeCountry === 'all' ? 'Du lịch' : 'Du lịch: ' + activeCountry;
+        setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
+        travelDrop.classList.remove('open');
+        return;
+      }
+
+      // Chọn cả châu lục → lọc tất cả quốc gia thuộc châu đó
+      if (btn.dataset.continent) {
+        activeCountry = 'continent:' + btn.dataset.continent;
+        travelDrop.querySelectorAll('.drop-item').forEach(function (b) {
+          b.classList.remove('drop-item-active');
+        });
+        travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
+          b.classList.toggle('drop-group-title-active', b === btn);
+        });
+        travelLabel.textContent = 'Du lịch: ' + (CONTINENT_LABEL[btn.dataset.continent] || btn.dataset.continent);
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         travelDrop.classList.remove('open');
         return;
@@ -530,6 +582,14 @@ window.__athletePins = [
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         cb.classList.add('drop-item-active');
         travelLabel.textContent = 'Du lịch: ' + activeCountry;
+      }
+      if (saved.country && travelDrop && saved.country.indexOf('continent:') === 0 &&
+          travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]')) {
+        activeCountry = saved.country;
+        var gb = travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]');
+        travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
+        gb.classList.add('drop-group-title-active');
+        travelLabel.textContent = 'Du lịch: ' + (CONTINENT_LABEL[saved.country.slice(10)] || '');
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
         : (f === 'Thể thao' ? sportDrop : travelDrop).querySelector(':scope > .home-tab');

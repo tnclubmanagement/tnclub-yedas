@@ -3503,6 +3503,76 @@ body:has(.home-landing) .post-container {
   font-size: 0.95em;
 }
 
+/* Dropdown quốc gia: nhóm theo châu lục, nhiều cột */
+.filter-drop .drop-menu-countries {
+  min-width: 0;
+  left: auto;
+  right: 0;
+  width: max-content;
+  max-width: 94vw;
+}
+
+.drop-menu-countries .drop-item { padding: 0.48rem 0.8rem; }
+
+.drop-menu-countries::before { left: auto; right: 26px; }
+
+.drop-menu-countries .drop-groups {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid var(--hairline);
+}
+
+.drop-menu-countries .drop-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 150px;
+}
+
+.drop-group-title {
+  display: block;
+  width: 100%;
+  padding: 0.3rem 0.8rem 0.25rem;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.drop-group-title:hover {
+  background: var(--bg-light);
+  color: var(--ink);
+}
+
+.drop-group-title.drop-group-title-active {
+  background: var(--bg-light);
+  color: #f5a623;
+}
+
+.drop-group-title.drop-group-title-active::after {
+  content: " ✓";
+}
+
+@media (max-width: 760px) {
+  .drop-menu-countries { width: 330px; max-width: 94vw; }
+  .drop-menu-countries .drop-groups {
+    flex-wrap: wrap;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  .drop-menu-countries .drop-group { min-width: calc(50% - 4px); }
+}
+
 .athlete-map {
   position: relative;
   height: 480px;

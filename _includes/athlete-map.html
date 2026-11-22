@@ -456,7 +456,13 @@ window.__athletePins = [
                : en.country === activeCountry));
         else on = false;
         on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
-        if (on) { en.marker.addTo(map); shown++; }
+        if (on) {
+          en.marker.addTo(map);
+          var pinEl = en.marker.getElement() &&
+            en.marker.getElement().querySelector('.athlete-pin');
+          if (pinEl) pinEl.style.animationDelay = Math.min(shown * 20, 1200) + 'ms';
+          shown++;
+        }
         else map.removeLayer(en.marker);
       });
       if (count) count.textContent = shown;

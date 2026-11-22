@@ -13,6 +13,7 @@ athlete:
   nickname: "Greysia"
   avatar: /posts/2026/11/29/greysia-polii/avatar.jpg
   country: "Indonesia"
+  hometown: "Jakarta, Indonesia"
   born: "11/08/1987"
   height: "1m64"
   hand: "Phải"

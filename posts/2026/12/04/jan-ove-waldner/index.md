@@ -13,6 +13,7 @@ athlete:
   nickname: "Mozart of Table Tennis / Lao Wa"
   avatar: /posts/2026/12/04/jan-ove-waldner/avatar.jpg
   country: "Thụy Điển"
+  hometown: "Stockholm, Thụy Điển"
   born: "03/10/1965"
   height: "1m79"
   hand: "Phải"

@@ -13,6 +13,7 @@ athlete:
   nickname: "PV Sindhu"
   avatar: /posts/2026/11/21/pv-sindhu/avatar.jpg
   country: "Ấn Độ"
+  hometown: "Hyderabad, Ấn Độ"
   born: "05/07/1995"
   height: "1m80"
   hand: "Phải"

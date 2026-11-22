@@ -13,6 +13,7 @@ athlete:
   nickname: "Nữ hoàng nghệ thuật"
   avatar: /posts/2026/11/15/tai-tzu-ying/avatar.jpg
   country: "Đài Bắc Trung Hoa"
+  hometown: "Cao Hùng, Đài Loan"
   born: "20/06/1994"
   height: "1m62"
   hand: "Phải"

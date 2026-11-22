@@ -13,6 +13,7 @@ athlete:
   nickname: "Đức Phát"
   avatar: /posts/2026/11/25/le-duc-phat/avatar.jpg
   country: "Việt Nam"
+  hometown: "Đồng Nai, Việt Nam"
   born: "1998"
   height: "1m78"
   hand: "Phải"

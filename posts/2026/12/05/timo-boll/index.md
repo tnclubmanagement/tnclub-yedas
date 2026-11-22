@@ -13,6 +13,7 @@ athlete:
   nickname: "Timo"
   avatar: /posts/2026/12/05/timo-boll/avatar.jpg
   country: "Đức"
+  hometown: "Erbach, Đức"
   born: "08/03/1981"
   height: "1m82"
   hand: "Trái"

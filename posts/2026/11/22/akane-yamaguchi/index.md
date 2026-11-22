@@ -13,6 +13,7 @@ athlete:
   nickname: "The Roadrunner"
   avatar: /posts/2026/11/22/akane-yamaguchi/avatar.jpg
   country: "Nhật Bản"
+  hometown: "Fukui, Nhật Bản"
   born: "06/06/1997"
   height: "1m56"
   hand: "Phải"

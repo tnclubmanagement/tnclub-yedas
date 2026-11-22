@@ -13,6 +13,7 @@ athlete:
   nickname: "Xiao Pang / 'Tiểu béo'"
   avatar: /posts/2026/12/02/fan-zhendong/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Quảng Châu, Quảng Đông, Trung Quốc"
   born: "22/01/1997"
   height: "1m73"
   hand: "Phải"

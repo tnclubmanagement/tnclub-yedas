@@ -13,6 +13,7 @@ athlete:
   nickname: "Nữ hoàng bóng bàn"
   avatar: /posts/2026/12/10/deng-yaping/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Trịnh Châu, Hà Nam, Trung Quốc"
   born: "05/02/1973"
   height: "1m49"
   hand: "Phải"

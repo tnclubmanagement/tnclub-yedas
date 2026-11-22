@@ -63,6 +63,7 @@ athlete:
   nickname: "Cỗ máy Đan Mạch"
   avatar: /posts/.../avatar.jpg
   country: "Đan Mạch"
+  hometown: "Odense, Đan Mạch"
   born: "04/01/1994"
   height: "1m94"
   hand: "Phải"

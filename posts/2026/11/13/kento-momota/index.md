@@ -13,6 +13,7 @@ athlete:
   nickname: "Momota bất khả chiến bại"
   avatar: /posts/2026/11/13/kento-momota/avatar.jpg
   country: "Nhật Bản"
+  hometown: "Kagawa, Nhật Bản"
   born: "01/09/1994"
   height: "1m75"
   hand: "Trái"

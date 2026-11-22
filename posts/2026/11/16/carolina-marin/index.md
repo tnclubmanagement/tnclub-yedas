@@ -13,6 +13,7 @@ athlete:
   nickname: "La Guerrera"
   avatar: /posts/2026/11/16/carolina-marin/avatar.jpg
   country: "Tây Ban Nha"
+  hometown: "Huelva, Tây Ban Nha"
   born: "15/06/1993"
   height: "1m71"
   hand: "Trái"

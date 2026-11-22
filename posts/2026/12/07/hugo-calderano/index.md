@@ -13,6 +13,7 @@ athlete:
   nickname: "The Thrill from Brazil"
   avatar: /posts/2026/12/07/hugo-calderano/avatar.jpg
   country: "Brazil"
+  hometown: "Rio de Janeiro, Brazil"
   born: "22/06/1996"
   height: "1m82"
   hand: "Phải"

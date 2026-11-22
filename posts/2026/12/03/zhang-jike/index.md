@@ -13,6 +13,7 @@ athlete:
   nickname: "Kẻ ngủ gật / Tibetan Mastiff"
   avatar: /posts/2026/12/03/zhang-jike/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Thanh Đảo, Sơn Đông, Trung Quốc"
   born: "16/02/1988"
   height: "1m81"
   hand: "Phải"

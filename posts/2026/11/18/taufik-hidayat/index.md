@@ -13,6 +13,7 @@ athlete:
   nickname: "Ông hoàng backhand"
   avatar: /posts/2026/11/18/taufik-hidayat/avatar.jpg
   country: "Indonesia"
+  hometown: "Bandung, Tây Java, Indonesia"
   born: "10/08/1981"
   height: "1m76"
   hand: "Phải"

@@ -13,6 +13,7 @@ athlete:
   nickname: "Captain Long / The Dictator"
   avatar: /posts/2026/12/01/ma-long/avatar.jpg
   country: "Trung Quốc"
+  hometown: "An Sơn, Liêu Ninh, Trung Quốc"
   born: "20/10/1988"
   height: "1m75"
   hand: "Phải"

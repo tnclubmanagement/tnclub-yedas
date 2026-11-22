@@ -13,6 +13,7 @@ athlete:
   nickname: "Tay vợt số 1 Việt Nam"
   avatar: /posts/2026/11/14/nguyen-tien-minh/avatar.jpg
   country: "Việt Nam"
+  hometown: "TP. Hồ Chí Minh, Việt Nam"
   born: "16/02/1983"
   height: "1m69"
   hand: "Phải"

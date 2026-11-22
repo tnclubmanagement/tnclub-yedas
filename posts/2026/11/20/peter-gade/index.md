@@ -13,6 +13,7 @@ athlete:
   nickname: "The Wizard"
   avatar: /posts/2026/11/20/peter-gade/avatar.jpg
   country: "Đan Mạch"
+  hometown: "Aalborg, Đan Mạch"
   born: "14/12/1976"
   height: "1m82"
   hand: "Phải"

@@ -13,6 +13,7 @@ athlete:
   nickname: "Truls"
   avatar: /posts/2026/12/06/truls-moregardh/avatar.jpg
   country: "Thụy Điển"
+  hometown: "Hovmantorp, Thụy Điển"
   born: "16/02/2002"
   height: "1m83"
   hand: "Phải"

@@ -13,6 +13,7 @@ athlete:
   nickname: "Meng Meng"
   avatar: /posts/2026/12/09/chen-meng/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Thanh Đảo, Sơn Đông, Trung Quốc"
   born: "15/01/1994"
   height: "1m67"
   hand: "Phải"

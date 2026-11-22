@@ -13,6 +13,7 @@ athlete:
   nickname: "Datuk"
   avatar: /posts/2026/11/11/lee-chong-wei/avatar.jpg
   country: "Malaysia"
+  hometown: "Bagan Serai, Perak, Malaysia"
   born: "21/10/1982"
   height: "1m72"
   hand: "Phải"

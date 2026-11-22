@@ -13,6 +13,7 @@ athlete:
   nickname: "The Great Dane"
   avatar: /posts/2026/11/12/viktor-axelsen/avatar.jpg
   country: "Đan Mạch"
+  hometown: "Odense, Đan Mạch"
   born: "04/01/1994"
   height: "1m94"
   hand: "Phải"

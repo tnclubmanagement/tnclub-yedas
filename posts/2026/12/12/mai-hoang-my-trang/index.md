@@ -13,6 +13,7 @@ athlete:
   nickname: "Mỹ Trang"
   avatar: /posts/2026/12/12/mai-hoang-my-trang/avatar.jpg
   country: "Việt Nam"
+  hometown: "TP. Hồ Chí Minh, Việt Nam"
   born: "1998"
   height: "1m60"
   hand: "Phải"

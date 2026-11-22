@@ -13,6 +13,7 @@ athlete:
   nickname: "Tiểu ma vương / Sha Sha"
   avatar: /posts/2026/12/08/sun-yingsha/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Thạch Gia Trang, Hà Bắc, Trung Quốc"
   born: "04/11/2000"
   height: "1m62"
   hand: "Phải"

@@ -13,6 +13,7 @@ athlete:
   nickname: "Super Dan"
   avatar: /posts/2026/11/10/lin-dan/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Thượng Hàng, Phúc Kiến, Trung Quốc"
   born: "14/10/1983"
   height: "1m78"
   hand: "Trái"

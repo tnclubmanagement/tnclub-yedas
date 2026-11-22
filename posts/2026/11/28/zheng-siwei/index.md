@@ -13,6 +13,7 @@ athlete:
   nickname: "IELTS (cùng Huang Yaqiong)"
   avatar: /posts/2026/11/28/zheng-siwei/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Ôn Châu, Chiết Giang, Trung Quốc"
   born: "26/02/1997"
   height: "1m76"
   hand: "Phải"

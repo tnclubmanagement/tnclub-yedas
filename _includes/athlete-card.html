@@ -12,6 +12,7 @@
     <h2 class="athlete-card-name">{{ a.name }}</h2>
     <dl class="athlete-card-grid">
       {% if a.country %}<div class="athlete-card-item"><dt>Quốc tịch</dt><dd>{{ a.country }}</dd></div>{% endif %}
+      {% if a.hometown %}<div class="athlete-card-item"><dt>Nguyên quán</dt><dd>{{ a.hometown }}</dd></div>{% endif %}
       {% if a.born %}<div class="athlete-card-item"><dt>Ngày sinh</dt><dd>{{ a.born }}</dd></div>{% endif %}
       {% if a.height %}<div class="athlete-card-item"><dt>Chiều cao</dt><dd>{{ a.height }}</dd></div>{% endif %}
       {% if a.hand %}<div class="athlete-card-item"><dt>Thuận tay</dt><dd>{{ a.hand }}</dd></div>{% endif %}

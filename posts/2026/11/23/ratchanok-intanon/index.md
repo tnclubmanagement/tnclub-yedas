@@ -13,6 +13,7 @@ athlete:
   nickname: "May"
   avatar: /posts/2026/11/23/ratchanok-intanon/avatar.jpg
   country: "Thái Lan"
+  hometown: "Yasothon, Thái Lan"
   born: "05/02/1995"
   height: "1m68"
   hand: "Phải"

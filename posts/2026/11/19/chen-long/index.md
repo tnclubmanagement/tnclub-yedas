@@ -13,6 +13,7 @@ athlete:
   nickname: "The Wall"
   avatar: /posts/2026/11/19/chen-long/avatar.jpg
   country: "Trung Quốc"
+  hometown: "Kinh Châu, Hồ Bắc, Trung Quốc"
   born: "18/01/1989"
   height: "1m87"
   hand: "Phải"

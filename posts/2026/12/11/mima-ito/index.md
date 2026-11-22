@@ -13,6 +13,7 @@ athlete:
   nickname: "Ito"
   avatar: /posts/2026/12/11/mima-ito/avatar.jpg
   country: "Nhật Bản"
+  hometown: "Shizuoka, Nhật Bản"
   born: "21/10/2000"
   height: "1m50"
   hand: "Phải"

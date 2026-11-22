@@ -13,6 +13,7 @@ athlete:
   nickname: "View"
   avatar: /posts/2026/11/24/kunlavut-vitidsarn/avatar.jpg
   country: "Thái Lan"
+  hometown: "Băng Cốc, Thái Lan"
   born: "11/05/2001"
   height: "1m78"
   hand: "Phải"

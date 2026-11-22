@@ -13,6 +13,7 @@ athlete:
   nickname: "LYD"
   avatar: /posts/2026/11/27/lee-yong-dae/avatar.jpg
   country: "Hàn Quốc"
+  hometown: "Hwasun, Hàn Quốc"
   born: "11/09/1988"
   height: "1m80"
   hand: "Phải"

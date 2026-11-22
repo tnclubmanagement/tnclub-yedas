@@ -13,6 +13,7 @@ athlete:
   nickname: "Minions"
   avatar: /posts/2026/11/26/kevin-sanjaya-sukamuljo/avatar.jpg
   country: "Indonesia"
+  hometown: "Banyuwangi, Đông Java, Indonesia"
   born: "02/08/1995"
   height: "1m70"
   hand: "Phải"

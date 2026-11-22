@@ -13,6 +13,7 @@ athlete:
   nickname: "Thần đồng cầu lông"
   avatar: /posts/2026/11/17/an-se-young/avatar.jpg
   country: "Hàn Quốc"
+  hometown: "Gwangju, Hàn Quốc"
   born: "05/02/2002"
   height: "1m70"
   hand: "Phải"

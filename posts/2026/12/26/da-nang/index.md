@@ -5,6 +5,13 @@ title: "Đà Nẵng: thành phố đáng sống bên sông Hàn"
 subtitle: "Cầu Rồng phun lửa, bãi biển đẹp nhất Việt Nam và Bà Nà Hills trên mây"
 cover-img: "/posts/2026/12/26/da-nang/cover.jpg"
 thumbnail-img: "/posts/2026/12/26/da-nang/cover.jpg"
+geo: [16.05, 108.21]
+place_name: "Đà Nẵng"
+place_country: "Vietnam"
+place_population: "~1,2 triệu"
+place_economy: "Dịch vụ – du lịch, công nghệ cao, cảng biển"
+place_festival: "Lễ hội pháo hoa quốc tế DIFF, lễ hội Quán Thế Âm"
+place_region: "Duyên hải Nam Trung Bộ"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Đà Nẵng, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Bãi biển từng được Forbes bình chọn một trong những bãi biển 
 - Đà Nẵng nằm giữa **3 di sản thế giới UNESCO**: cố đô Huế, phố cổ Hội An và thánh địa Mỹ Sơn.
 - Cáp treo Bà Nà giữ nhiều kỷ lục thế giới về chiều dài và độ chênh cao nhất thế giới một thời.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/26/da-nang/img3.webp" alt="Cầu Rồng"><figcaption>Cầu Rồng — biểu tượng của Đà Nẵng (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/26/da-nang/img4.webp" alt="Khu du lịch Bà Nà Hills"><figcaption>Khu du lịch Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/26/da-nang/img5.webp" alt="Đà Nẵng lúc hoàng hôn"><figcaption>Đà Nẵng lúc hoàng hôn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/26/da-nang/img6.webp" alt="Cầu Rồng mùa xuân"><figcaption>Cầu Rồng mùa xuân (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/26/da-nang/img7.jpg" alt="Biển Mỹ Khê"><figcaption>Biển Mỹ Khê (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/26/da-nang/img8.webp" alt="Cầu Vàng Bà Nà Hills"><figcaption>Cầu Vàng Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/SLWLTuab5tU?start=2037" title="Đà Nẵng — Vietnam 8K HDR" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/6FSqD_En0Xo" title="Đà Nẵng Flycam 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/PzC4_zNcSSM" title="Đà Nẵng thành phố đáng sống Flycam" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: 8K Nature & Travel HDR (đoạn Đà Nẵng).*

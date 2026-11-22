@@ -5,6 +5,13 @@ title: "Lào Cai: Sa Pa và nóc nhà Đông Dương"
 subtitle: "Fansipan, ruộng bậc thang và thị trấn trong mây"
 cover-img: "/posts/2026/12/23/lao-cai/cover.jpg"
 thumbnail-img: "/posts/2026/12/23/lao-cai/cover.jpg"
+geo: [22.34, 103.84]
+place_name: "Sa Pa (Lào Cai)"
+place_country: "Vietnam"
+place_population: "~790.000"
+place_economy: "Du lịch Sa Pa, thương mại cửa khẩu, khoáng sản"
+place_festival: "Chợ phiên Bắc Hà, lễ hội xuống đồng"
+place_region: "Tây Bắc"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Lào Cai, Sa Pa, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Chợ phiên lớn nhất vùng cao mỗi sáng Chủ nhật — nơi hội tụ
 - Ruộng bậc thang Sa Pa từng được tạp chí Travel and Leisure bình chọn trong **top ruộng bậc thang đẹp nhất châu Á và thế giới**.
 - Tên "Sa Pa" xuất phát từ "Se Pá" — nghĩa là bãi cát, vì khu vực trung tâm thị trấn từng là bãi cát họp chợ.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/23/lao-cai/img3.webp" alt="Bản Cát Cát"><figcaption>Bản Cát Cát (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/23/lao-cai/img4.webp" alt="Thị trấn Sa Pa trong mây"><figcaption>Thị trấn Sa Pa trong mây (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/23/lao-cai/img5.webp" alt="Đỉnh Fansipan"><figcaption>Đỉnh Fansipan (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/23/lao-cai/img6.jpg" alt="Ruộng bậc thang Sa Pa"><figcaption>Ruộng bậc thang Sa Pa (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/23/lao-cai/img7.webp" alt="Hoa mận rừng Tây Bắc"><figcaption>Hoa mận rừng Tây Bắc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/23/lao-cai/img8.webp" alt="Khách sạn de la Coupole Sa Pa"><figcaption>Khách sạn de la Coupole Sa Pa (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/J1PN5A8ih8I" title="Fansipan Legend, Sapa in 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/2_86KFKD1wE" title="Sapa, Vietnam By Drone 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/VG3oKmR7Dj0" title="Sapa Vietnam 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: Welcome to Vietnam / Vu Flycam.*

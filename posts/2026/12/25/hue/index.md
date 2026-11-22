@@ -5,6 +5,13 @@ title: "Huế: cố đô ngàn năm thơ mộng"
 subtitle: "Kinh thành triều Nguyễn, dòng sông Hương và chốn an nhiên bậc nhất Việt Nam"
 cover-img: "/posts/2026/12/25/hue/cover.jpg"
 thumbnail-img: "/posts/2026/12/25/hue/cover.jpg"
+geo: [16.46, 107.59]
+place_name: "Huế"
+place_country: "Vietnam"
+place_population: "~1,15 triệu"
+place_economy: "Du lịch di sản, dệt may, giáo dục"
+place_festival: "Festival Huế (2 năm/lần), lễ hội áo dài"
+place_region: "Bắc Trung Bộ"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Huế, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Nghe ca Huế trên thuyền rồng dọc sông Hương, ngắm tháp Phước D
 - Năm 2025 Huế trở thành **thành phố trực thuộc trung ương** thứ 6 của Việt Nam.
 - Chùa Thiên Mụ xây năm 1601 — ngôi chùa cổ nhất Huế, từng trung tâm Phật giáo cả nước thời Nguyễn.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/25/hue/img3.webp" alt="Cố đô Huế nhìn từ trên cao"><figcaption>Cố đô Huế nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/25/hue/img4.webp" alt="Bên trong Đại Nội"><figcaption>Bên trong Đại Nội (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/25/hue/img5.webp" alt="Đường sắt qua đèo Hải Vân"><figcaption>Đường sắt qua đèo Hải Vân (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/25/hue/img6.webp" alt="Di tích cố đô Huế"><figcaption>Di tích cố đô Huế (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/25/hue/img7.webp" alt="Cầu Hiền Lương – sông Bến Hải"><figcaption>Cầu Hiền Lương – sông Bến Hải (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/25/hue/img8.webp" alt="Đại Nội Huế"><figcaption>Đại Nội Huế (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/ew9oWlg1yu0" title="The Imperial City of Hue — Vietnam Today" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/HVJzdi5zoWE" title="Inside Hue Imperial City" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/MSjARAq0YHc" title="Best things to do in Hue Vietnam" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: Vietnam Today.*

@@ -5,6 +5,13 @@ title: "Kiên Giang: Phú Quốc — đảo ngọc của vịnh Thái Lan"
 subtitle: "Bãi Sao, hoàng hôn Sanato và thủ phủ nước mắm của cả nước"
 cover-img: "/posts/2026/12/29/kien-giang/cover.jpg"
 thumbnail-img: "/posts/2026/12/29/kien-giang/cover.jpg"
+geo: [10.29, 103.98]
+place_name: "Phú Quốc (Kiên Giang)"
+place_country: "Vietnam"
+place_population: "~1,8 triệu"
+place_economy: "Thủy sản, nước mắm Phú Quốc, du lịch đảo, lúa gạo"
+place_festival: "Lễ hội Nghinh Ông, lễ hội Nguyễn Trung Trực"
+place_region: "Tây Nam Bộ"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Kiên Giang, Phú Quốc, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Làng chài cổ Hàm Ninh, bãi Sao, nhà thùng nước mắm, vườn tiêu v
 - Nghề làm nước mắm Phú Quốc được công nhận **di sản văn hóa phi vật thể quốc gia** (2021).
 - Chó Phú Quốc với xoáy lưng đặc trưng là một trong **ba giống chó xoáy duy nhất trên thế giới**.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/29/kien-giang/img3.webp" alt="Bãi Sao Phú Quốc"><figcaption>Bãi Sao Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/29/kien-giang/img4.webp" alt="Vinpearl Safari"><figcaption>Vinpearl Safari (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/29/kien-giang/img5.webp" alt="Cáp treo Sun World Hòn Thơm"><figcaption>Cáp treo Sun World Hòn Thơm (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/29/kien-giang/img6.webp" alt="Bờ biển Phú Quốc"><figcaption>Bờ biển Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/29/kien-giang/img7.webp" alt="Hoàng hôn Sanato"><figcaption>Hoàng hôn Sanato (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/29/kien-giang/img8.webp" alt="Grand World Phú Quốc"><figcaption>Grand World Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/SLWLTuab5tU?start=2830" title="Phú Quốc — Vietnam 8K HDR" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/pAUO1qBD4-g" title="Phú Quốc 4K Cinematic" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/IxLEvNpYAc0" title="Phu Quoc Island 4K Aerial" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: 8K Nature & Travel HDR (đoạn Phú Quốc).*

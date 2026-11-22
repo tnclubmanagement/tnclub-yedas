@@ -5,6 +5,13 @@ title: "Hà Giang: vùng đất địa đầu của Tổ quốc"
 subtitle: "Cao nguyên đá Đồng Văn, đèo Mã Pí Lèng và mùa hoa tam giác mạch"
 cover-img: "/posts/2026/12/22/ha-giang/cover.jpg"
 thumbnail-img: "/posts/2026/12/22/ha-giang/cover.jpg"
+geo: [22.82, 104.98]
+place_name: "Hà Giang"
+place_country: "Vietnam"
+place_population: "~905.000"
+place_economy: "Du lịch, nông lâm nghiệp, khoáng sản"
+place_festival: "Lễ hội hoa tam giác mạch, chợ tình Khâu Vai"
+place_region: "Đông Bắc"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Hà Giang, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Công viên địa chất toàn cầu UNESCO — ruộng đá, phố cổ Đồn
 - Hoa tam giác mạch chỉ nở đúng ~1 tháng/năm quanh tháng 10–11, biến cả cao nguyên đá thành biển hoa hồng tím.
 - Làng Lô Lô Chải ngay dưới chân Lũng Cú từng được vinh danh một trong những **làng du lịch đẹp nhất thế giới** theo UNWTO.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/22/ha-giang/img3.webp" alt="Sông Nho Quế xanh ngọc giữa hẻm Tu Sản"><figcaption>Sông Nho Quế xanh ngọc giữa hẻm Tu Sản (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/22/ha-giang/img4.webp" alt="Mùa hoa tam giác mạch"><figcaption>Mùa hoa tam giác mạch (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/22/ha-giang/img5.webp" alt="Cung đèo vùng cao Hà Giang"><figcaption>Cung đèo vùng cao Hà Giang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/22/ha-giang/img6.webp" alt="Cao nguyên đá Đồng Văn"><figcaption>Cao nguyên đá Đồng Văn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/22/ha-giang/img7.webp" alt="Cột cờ Lũng Cú"><figcaption>Cột cờ Lũng Cú (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/22/ha-giang/img8.webp" alt="Dốc Thẩm Mã uốn lượn"><figcaption>Dốc Thẩm Mã uốn lượn (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/SLWLTuab5tU?start=1214" title="Hà Giang — Vietnam 8K HDR" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/t7cjV33SNhA" title="Hà Giang Flycam 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/L5sm4auGIKU" title="Hà Giang 4K Cinematic" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: 8K Nature & Travel HDR (đoạn Hà Giang).*

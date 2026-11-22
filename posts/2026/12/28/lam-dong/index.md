@@ -5,6 +5,13 @@ title: "Lâm Đồng: Đà Lạt — thành phố ngàn hoa trên cao nguyên"
 subtitle: "Thủ phủ hoa, cà phê và nông nghiệp công nghệ cao của Tây Nguyên"
 cover-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 thumbnail-img: "/posts/2026/12/28/lam-dong/cover.jpg"
+geo: [11.94, 108.44]
+place_name: "Đà Lạt (Lâm Đồng)"
+place_country: "Vietnam"
+place_population: "~1,35 triệu"
+place_economy: "Nông nghiệp công nghệ cao (hoa, cà phê), du lịch"
+place_festival: "Festival hoa Đà Lạt, lễ hội trà Đà Lạt"
+place_region: "Tây Nguyên"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Lâm Đồng, Đà Lạt, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Datanla với máng trượt alpine coaster xuyên rừng; Pongour — "Nam thi�
 - Tên "Đà Lạt" ghép từ "Đạ Lạch" — dòng sông của người Lạch (K'Ho), và theo truyền thuyết "dòng suối của người Lạt".
 - Hoa dã quỳ đồng bào Tây Nguyên gọi là "hoa ba xương" — nở vàng rực cả sườn đồi mỗi tháng 10–11.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/28/lam-dong/img3.webp" alt="Cảnh quan Đà Lạt"><figcaption>Cảnh quan Đà Lạt (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/28/lam-dong/img4.webp" alt="Đà Lạt nhìn từ trên cao"><figcaption>Đà Lạt nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/28/lam-dong/img5.webp" alt="Thành phố Bảo Lộc"><figcaption>Thành phố Bảo Lộc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/28/lam-dong/img6.webp" alt="Thác Bobla Lâm Đồng"><figcaption>Thác Bobla Lâm Đồng (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/28/lam-dong/img7.webp" alt="Hoa dã quỳ Đà Lạt"><figcaption>Hoa dã quỳ Đà Lạt (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/28/lam-dong/img8.webp" alt="Đèo Prenn"><figcaption>Đèo Prenn (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/SLWLTuab5tU?start=2728" title="Đà Lạt — Vietnam 8K HDR" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/wwAPOuyI3tg" title="Đà Lạt Flycam 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/V9IIO8GkssE" title="Đà Lạt 4K Cinematic" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: 8K Nature & Travel HDR (đoạn Đà Lạt).*

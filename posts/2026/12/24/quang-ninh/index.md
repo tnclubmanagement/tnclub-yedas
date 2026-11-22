@@ -5,6 +5,13 @@ title: "Quảng Ninh: vịnh di sản thế giới Hạ Long"
 subtitle: "Kỳ quan thiên nhiên thế giới và vùng đất Phật giáo Yên Tử"
 cover-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
 thumbnail-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
+geo: [20.95, 107.07]
+place_name: "Hạ Long (Quảng Ninh)"
+place_country: "Vietnam"
+place_population: "~1,4 triệu"
+place_economy: "Khai thác than, du lịch biển, cảng & kinh tế Vân Đồn"
+place_festival: "Lễ hội Yên Tử, Carnaval Hạ Long"
+place_region: "Đông Bắc"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Quảng Ninh, Hạ Long, Giới thiệu]
 ---
@@ -59,10 +66,28 @@ Quần thể di tích thiền phái Trúc Lâm trên đỉnh núi 1.068m — ch�
 - Truyền thuyết vịnh Hạ Long gắn với đàn rồng mẹ và rồng con đá xuống tạo thành các đảo — "Hạ Long" nghĩa là "rồng đáp xuống".
 - Đảo Tuần Châu từng là nơi dưỡng thư của Vua Bảo Đại và Chủ tịch Hồ Chí Minh.
 
+## Thư viện ảnh
+
+<div class="photo-grid">
+  <figure><img src="/posts/2026/12/24/quang-ninh/img3.webp" alt="Vịnh Hạ Long nhìn từ trên cao"><figcaption>Vịnh Hạ Long nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/24/quang-ninh/img4.webp" alt="Du thuyền tham quan vịnh"><figcaption>Du thuyền tham quan vịnh (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/24/quang-ninh/img5.webp" alt="Du thuyền giữa các đảo đá vôi"><figcaption>Du thuyền giữa các đảo đá vôi (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/24/quang-ninh/img6.webp" alt="Cao nguyên Bình Liêu"><figcaption>Cao nguyên Bình Liêu (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/24/quang-ninh/img7.webp" alt="Cảnh biển Quảng Ninh"><figcaption>Cảnh biển Quảng Ninh (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="/posts/2026/12/24/quang-ninh/img8.webp" alt="Vịnh Hạ Long"><figcaption>Vịnh Hạ Long (ảnh: Vietravel)</figcaption></figure>
+</div>
+
 ## Video
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/SLWLTuab5tU?start=56" title="Vịnh Hạ Long — Vietnam 8K HDR" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/KsSGZkd1im0" title="Ha Long Bay Flying Tour 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/vt9OL_sJ5gA" title="Ha Long Bay UNESCO 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 *Ảnh: Vietravel (travel.com.vn). Video: 8K Nature & Travel HDR (đoạn vịnh Hạ Long).*

@@ -260,6 +260,30 @@
     // lại ảnh vừa xem lần trước), rồi zoom nhẹ 1 lần (Ken Burns), không lặp.
     var hero = document.querySelector(".header-section.has-img .big-img.intro-header");
     if (hero) {
+      var bannerImages = document.getElementById("banner-images");
+      if (bannerImages) {
+        var bannerIndex = 0;
+        var bannerCount = Number(bannerImages.dataset.numImg);
+        var bannerDots = hero.querySelectorAll("[data-banner-index]");
+        function showBanner(index) {
+          bannerIndex = (index + bannerCount) % bannerCount;
+          hero.style.backgroundImage = 'url("' + bannerImages.getAttribute("data-img-src-" + (bannerIndex + 1)) + '")';
+          bannerDots.forEach(function (dot, i) {
+            dot.setAttribute("aria-pressed", String(i === bannerIndex));
+          });
+        }
+        hero.querySelectorAll("[data-banner-step]").forEach(function (button) {
+          button.addEventListener("click", function () {
+            showBanner(bannerIndex + Number(button.dataset.bannerStep));
+          });
+        });
+        bannerDots.forEach(function (dot) {
+          dot.addEventListener("click", function () {
+            showBanner(Number(dot.dataset.bannerIndex));
+          });
+        });
+        showBanner(0);
+      }
       var images = window.HERO_IMAGES;
       if (Array.isArray(images) && images.length > 0) {
         var prev = sessionStorage.getItem("heroImagePrev");

@@ -13,7 +13,7 @@
 {% if page.cover-img or page.title %}
 
 {% if page.cover-img %}
-  <div id="header-big-imgs" data-num-img={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
+  <div id="{% if page.banner-nav %}banner-images{% else %}header-big-imgs{% endif %}" data-num-img={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
     {% for bigimg in page.cover-img %}
     {% assign imgnum = forloop.index %}
     {% for imginfo in bigimg %}
@@ -28,7 +28,7 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.cover-img %}has-img{% endif %}">
+<header class="header-section {% if page.cover-img %}has-img{% endif %}{% if page.banner-nav %} compact-banner{% endif %}">
 {% if page.cover-img %}
 <div class="big-img intro-header">
   <div class="container-md">
@@ -62,6 +62,15 @@
       </div>
     </div>
   </div>
+  {% if page.banner-nav %}
+  <div class="banner-controls" role="group" aria-label="Chọn ảnh banner">
+    <button type="button" class="banner-arrow" data-banner-step="-1" aria-label="Ảnh trước">&#8249;</button>
+    {% for image in page.cover-img %}
+    <button type="button" class="banner-dot" data-banner-index="{{ forloop.index0 }}" aria-label="Ảnh {{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"></button>
+    {% endfor %}
+    <button type="button" class="banner-arrow" data-banner-step="1" aria-label="Ảnh tiếp theo">&#8250;</button>
+  </div>
+  {% endif %}
   <span class='img-desc'></span>
 </div>
 {% endif %}

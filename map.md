@@ -1,8 +1,12 @@
 ---
 layout: page
-title: "Bản đồ VĐV"
-subtitle: "Nơi sinh của các vận động viên trong các series thể thao — hover để xem nhanh, click để xem hồ sơ"
-cover-img: "/assets/img/hero-4.jpg"
+title: "Bản đồ khám phá"
+subtitle: "Thể thao, du lịch và ẩm thực — mỗi điểm đến, một câu chuyện."
+banner-nav: true
+cover-img:
+  - "/assets/img/map-sports.jpg"
+  - "/assets/img/map-travel.jpg"
+  - "/assets/img/map-food.jpg"
 permalink: /map/
 ---
 

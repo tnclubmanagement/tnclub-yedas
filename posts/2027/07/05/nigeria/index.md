@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/05 00:00:00 +0700"
 title: "Nigeria: Gã khổng lồ của châu Phi"
 subtitle: "Lagos năng động, Nollywood, Afrobeats và những kỳ quan thiên nhiên ít khám phá"
-cover-img: "/posts/2027/07/05/nigeria/cover.png"
-thumbnail-img: "/posts/2027/07/05/nigeria/cover.png"
+cover-img: "/posts/2027/07/05/nigeria/cover.jpg"
+thumbnail-img: "/posts/2027/07/05/nigeria/cover.jpg"
 geo: [6.5244, 3.3792]
 place_name: "Lagos"
 place_country: "Nigeria"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Nigeria, Châu Phi, Lagos, Thành phố, Chụp ảnh]
 photo_source: "https://www.pinterest.com/"
 travel_photos:
-  - [cover.png, "Nigeria — Lagos, gã khổng lồ châu Phi (Ảnh: Sưu tầm/Pinterest)"]
+  - [cover.jpg, "Nigeria — Lagos, gã khổng lồ châu Phi (Ảnh: Sưu tầm/Pinterest)"]
 ---
 
 **Nigeria** là quốc gia đông dân nhất châu Phi và "gã khổng lồ" về kinh tế-văn hóa: quê hương Afrobeats và Nollywood, Lagos không bao giờ ngủ — và là điểm đến cho người muốn thấy châu Phi đương đại thật sự hơn là safari.

@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/04 00:00:00 +0700"
 title: "Ghana: Cổng vào Tây Phi thân thiện"
 subtitle: "Lâu đài nô lệ Cape Coast, chợ Accra nhộn nhịp và cầu treo rừng Kakum"
-cover-img: "/posts/2027/07/04/ghana/cover.png"
-thumbnail-img: "/posts/2027/07/04/ghana/cover.png"
+cover-img: "/posts/2027/07/04/ghana/cover.jpg"
+thumbnail-img: "/posts/2027/07/04/ghana/cover.jpg"
 geo: [5.6037, -0.1870]
 place_name: "Accra"
 place_country: "Ghana"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Ghana, Châu Phi, Lịch sử, Thiên nhiên, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Cape_Coast_Castle%2C_Cape_Coast%2C_Ghana.JPG"
 travel_photos:
-  - [cover.png, "Ghana — lâu đài Cape Coast trên bờ biển (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Ghana — lâu đài Cape Coast trên bờ biển (Ảnh: Wikimedia Commons)"]
 ---
 
 **Ghana** được gọi là "cổng vào Tây Phi" — nước ổn định, người dân nổi tiếng thân thiện, nói tiếng Anh và có lịch sử nặng-đẹp: các lâu đài nô lệ ven biển UNESCO, vùng đất vua Ashanti và rừng mưa Kakum.

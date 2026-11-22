@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/26 00:00:00 +0700"
 title: "Tunisia: Địa Trung Hải Bắc Phi, Carthage và Sidi Bou Said"
 subtitle: "Thành phố trắng-xanh trên vách, tàn tích Carthage-La Mã và bờ biển êm dịu"
-cover-img: "/posts/2027/06/26/tunisia/cover.png"
-thumbnail-img: "/posts/2027/06/26/tunisia/cover.png"
+cover-img: "/posts/2027/06/26/tunisia/cover.jpg"
+thumbnail-img: "/posts/2027/06/26/tunisia/cover.jpg"
 geo: [36.8065, 10.1815]
 place_name: "Tunis"
 place_country: "Tunisia"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Tunisia, Châu Phi, Địa Trung Hải, Lịch sử, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Tunisie_Sidi_Bou_Said_10.jpg"
 travel_photos:
-  - [cover.png, "Tunisia — Sidi Bou Said trắng-xanh trên vách biển (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Tunisia — Sidi Bou Said trắng-xanh trên vách biển (Ảnh: Wikimedia Commons)"]
 ---
 
 **Tunisia** là nước Bắc Phi "dễ thở" nhất: giàu di tích Carthage-La Mã, bờ biển Địa Trung Hải êm, medina xinh và giá cả mềm — bản thu nhỏ của cả châu Phi lẫn thế giới Ả Rập-Địa Trung Hải.

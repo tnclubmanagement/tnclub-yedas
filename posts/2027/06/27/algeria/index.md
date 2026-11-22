@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/27 00:00:00 +0700"
 title: "Algeria: Casbah trắng, sa mạc Sahara và di tích La Mã"
 subtitle: "Thủ đô Algiers hai mặt Địa Trung Hải-Hồi giáo và những thành phố cổ trong sa mạc"
-cover-img: "/posts/2027/06/27/algeria/cover.png"
-thumbnail-img: "/posts/2027/06/27/algeria/cover.png"
+cover-img: "/posts/2027/06/27/algeria/cover.jpg"
+thumbnail-img: "/posts/2027/06/27/algeria/cover.jpg"
 geo: [36.7538, 3.0588]
 place_name: "Algiers"
 place_country: "Algeria"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Algeria, Châu Phi, Sahara, Di sản, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Djamaa_El_Djazaïr.jpg"
 travel_photos:
-  - [cover.png, "Algeria — Đại nhà thờ Djamaa el Djazaïr, Algiers (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Algeria — Đại nhà thờ Djamaa el Djazaïr, Algiers (Ảnh: Wikimedia Commons)"]
 ---
 
 **Algeria** là quốc gia lớn nhất châu Phi (và top 10 thế giới): 4/5 diện tích là Sahara, phần còn lại là dải Địa Trung Hải xinh đẹp với thủ đô trắng Algiers, di tích La Mã nguyên vẹn hàng đầu và những thành phố sa mạc xa xôi. Du lịch còn ít khách — thưởng cho người thích phiêu lưu.

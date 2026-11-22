@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/08 00:00:00 +0700"
 title: "Nam Phi: Cape Town, Kruger và hành trình đẹp nhất châu Phi"
 subtitle: "Mũi Hảo Vọng, Table Mountain, Big Five Kruger và Garden Route dọc biển"
-cover-img: "/posts/2027/07/08/south-africa/cover.png"
-thumbnail-img: "/posts/2027/07/08/south-africa/cover.png"
+cover-img: "/posts/2027/07/08/south-africa/cover.jpg"
+thumbnail-img: "/posts/2027/07/08/south-africa/cover.jpg"
 geo: [-33.9249, 18.4241]
 place_name: "Cape Town"
 place_country: "South Africa"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Nam Phi, Châu Phi, Safari, Cape Town, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-nam-phi-v16346.aspx"
 travel_photos:
-  - [cover.png, "Nam Phi — Cape Town và Table Mountain (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Nam Phi — Cape Town và Table Mountain (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Nam Phi** là điểm đến "hai thế giới trong một nước": safari Big Five ở Kruger, Cape Town — một trong những thành phố đẹp nhất hành tinh, vùng rượu Stellenbosch và Garden Route dọc bờ biển tuyệt đẹp. Hạ tầng tốt nhất châu Phi, đồ ăn-rượu ngon giá mềm.

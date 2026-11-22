@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/29 00:00:00 +0700"
 title: "Kenya: Safari quê nhà và di cư vĩ đại"
 subtitle: "Maasai Mara, đàn voi dưới Kilimanjaro, hồ Nakuru hồng hạc và bờ biển Swahili"
-cover-img: "/posts/2027/06/29/kenya/cover.png"
-thumbnail-img: "/posts/2027/06/29/kenya/cover.png"
+cover-img: "/posts/2027/06/29/kenya/cover.jpg"
+thumbnail-img: "/posts/2027/06/29/kenya/cover.jpg"
 geo: [-1.2921, 36.8219]
 place_name: "Nairobi"
 place_country: "Kenya"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Kenya, Châu Phi, Safari, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-kenya-v16813.aspx"
 travel_photos:
-  - [cover.png, "Kenya — safari tại Maasai Mara (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Kenya — safari tại Maasai Mara (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Kenya** là cái nôi của safari: Maasai Mara — nơi diễn ra đại di cư gnu-zebra vĩ đại nhất hành tinh, đàn voi Amboseli dưới chân Kilimanjaro, hồ hồng hạc Nakuru và bờ biển Swahili Diani-Mombasa để nghỉ dưỡng sau rừng.

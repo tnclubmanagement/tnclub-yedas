@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/06 00:00:00 +0700"
 title: "Namibia: Đồi cát đỏ, sa mạc cổ nhất và safari Etosha"
 subtitle: "Sossusvlei thiên đường nhiếp ảnh, Skeleton Coast và Etosha — safari xung quanh hố muối"
-cover-img: "/posts/2027/07/06/namibia/cover.png"
-thumbnail-img: "/posts/2027/07/06/namibia/cover.png"
+cover-img: "/posts/2027/07/06/namibia/cover.jpg"
+thumbnail-img: "/posts/2027/07/06/namibia/cover.jpg"
 geo: [-22.5609, 17.0658]
 place_name: "Windhoek"
 place_country: "Namibia"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Namibia, Châu Phi, Sa mạc, Safari, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/vuon-quoc-gia-o-chau-phi-v17329.aspx"
 travel_photos:
-  - [cover.png, "Namibia — vườn quốc gia Etosha và đồi cát (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Namibia — vườn quốc gia Etosha và đồi cát (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Namibia** là đất nước thưa dân thứ hai thế giới: sa mạc Namib cổ nhất hành tinh với đồi cát đỏ cao hàng trăm mét, bờ biển Skeleton ma mị và safari Etosha tự lái thân thiện nhất châu Phi. Đường nhựa-đất đẹp cho road trip.

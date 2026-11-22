@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/28 00:00:00 +0700"
 title: "Ethiopia: Cái nôi của nhân loại và nhà thờ đá Lalibela"
 subtitle: "11 nhà thờ đục nguyên khối, cà phê quê hương và nền văn minh chưa từng bị thuộc địa"
-cover-img: "/posts/2027/06/28/ethiopia/cover.png"
-thumbnail-img: "/posts/2027/06/28/ethiopia/cover.png"
+cover-img: "/posts/2027/06/28/ethiopia/cover.jpg"
+thumbnail-img: "/posts/2027/06/28/ethiopia/cover.jpg"
 geo: [9.0300, 38.7400]
 place_name: "Addis Ababa"
 place_country: "Ethiopia"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Ethiopia, Châu Phi, Lalibela, Lịch sử, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Ethiopia_-_sunset_at_Church_of_Saint_George%2C_Lalibela_01.jpg"
 travel_photos:
-  - [cover.png, "Ethiopia — nhà thờ Bete Giyorgis, Lalibela (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Ethiopia — nhà thờ Bete Giyorgis, Lalibela (Ảnh: Wikimedia Commons)"]
 ---
 
 **Ethiopia** là nước châu Phi duy nhất chưa từng bị thuộc địa hóa: lịch sử 3.000 năm riêng biệt, quê hương của cà phê, nhà thờ đá Lalibela — "Jerusalem thứ hai" — và hóa thạch Lucy trong bảo tàng Addis Ababa.

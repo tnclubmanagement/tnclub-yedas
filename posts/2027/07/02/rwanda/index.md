@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/02 00:00:00 +0700"
 title: "Rwanda: Đất nước ngàn đồi tái sinh"
 subtitle: "Gorilla Volcanoes, rừng Nyungwe và thủ đô Kigali sạch đẹp bậc nhất châu Phi"
-cover-img: "/posts/2027/07/02/rwanda/cover.png"
-thumbnail-img: "/posts/2027/07/02/rwanda/cover.png"
+cover-img: "/posts/2027/07/02/rwanda/cover.jpg"
+thumbnail-img: "/posts/2027/07/02/rwanda/cover.jpg"
 geo: [-1.9403, 29.8739]
 place_name: "Kigali"
 place_country: "Rwanda"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Rwanda, Châu Phi, Gorilla, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/vuon-quoc-gia-o-chau-phi-v17329.aspx"
 travel_photos:
-  - [cover.png, "Rwanda — vườn quốc gia Volcanoes và đồi núi xanh (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Rwanda — vườn quốc gia Volcanoes và đồi núi xanh (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Rwanda** — "đất nước ngàn đồi" — vươn lên từ bi kịch 1994 thành một trong những quốc gia sạch-an toàn-phát triển nhanh nhất châu Phi: Kigali gọn gàng, đường nhựa đẹp, và quê nhà của gorilla núi trong vườn Volcanoes.

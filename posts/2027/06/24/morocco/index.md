@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/24 00:00:00 +0700"
 title: "Morocco: Vương quốc ngàn màu sắc nơi cửa Sahara"
 subtitle: "Medina Marrakech, thành phố xanh Chefchaouen, Fes cổ kính và đêm trăng sa mạc"
-cover-img: "/posts/2027/06/24/morocco/cover.png"
-thumbnail-img: "/posts/2027/06/24/morocco/cover.png"
+cover-img: "/posts/2027/06/24/morocco/cover.jpg"
+thumbnail-img: "/posts/2027/06/24/morocco/cover.jpg"
 geo: [31.6295, -7.9811]
 place_name: "Marrakech"
 place_country: "Morocco"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Morocco, Châu Phi, Medina, Sahara, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-ma-roc-v16347.aspx"
 travel_photos:
-  - [cover.png, "Marrakech — medina và quảng trường Jemaa el-Fnaa (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Marrakech — medina và quảng trường Jemaa el-Fnaa (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Morocco** là cánh cửa châu Phi gần châu Âu nhất — chỉ 14km eo biển Gibraltar: medina loắt ngoắt nghìn năm, sa mạc Sahara, dãy Atlas và thành phố xanh Chefchaouen. Nước nói tiếng Ả Rập-Pháp dễ đi nhất Tây Bắc châu Phi.

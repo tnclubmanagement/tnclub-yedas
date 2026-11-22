@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/03 00:00:00 +0700"
 title: "Senegal: Cửa ngờ Tây Phi của văn hóa và đảo Gorée"
 subtitle: "Đảo lịch sử nô lệ, Dakar nhộn nhịp, hồ hồng Retba và sinh thái Casamance"
-cover-img: "/posts/2027/07/03/senegal/cover.png"
-thumbnail-img: "/posts/2027/07/03/senegal/cover.png"
+cover-img: "/posts/2027/07/03/senegal/cover.jpg"
+thumbnail-img: "/posts/2027/07/03/senegal/cover.jpg"
 geo: [14.7167, -17.4677]
 place_name: "Dakar"
 place_country: "Senegal"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Senegal, Châu Phi, Dakar, Goree, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Île_de_Gorée_vue_de_la_chaloupe_15.jpg"
 travel_photos:
-  - [cover.png, "Senegal — đảo Gorée nhìn từ thuyền (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Senegal — đảo Gorée nhìn từ thuyền (Ảnh: Wikimedia Commons)"]
 ---
 
 **Senegal** là điểm đến đầu tiên dễ đi nhất Tây Phi: đất nước ổn định, khách sộc "teranga", âm nhạc mbalax sống động và Dakar sầm uất — cùng đảo Gorée nặng ký ức nô lệ qua Đại Tây Dương.

@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/30 00:00:00 +0700"
 title: "Tanzania: Serengeti, Kilimanjaro và Zanzibar"
 subtitle: "Đại di cư vô tận, miệng núi lửa Ngorongoro và đỉnh cao nhất châu Phi"
-cover-img: "/posts/2027/06/30/tanzania/cover.png"
-thumbnail-img: "/posts/2027/06/30/tanzania/cover.png"
+cover-img: "/posts/2027/06/30/tanzania/cover.jpg"
+thumbnail-img: "/posts/2027/06/30/tanzania/cover.jpg"
 geo: [-6.3690, 34.8888]
 place_name: "Dodoma / Arusha"
 place_country: "Tanzania"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Tanzania, Châu Phi, Serengeti, Kilimanjaro, Safari, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/safari-o-chau-phi-v17315.aspx"
 travel_photos:
-  - [cover.png, "Tanzania — Serengeti và đại di cư (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Tanzania — Serengeti và đại di cư (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Tanzania** là "siêu cường safari": Serengeti bao la vô tận, hố Ngorongoro — vườn động vật khép kín lớn nhất thế giới, Kilimanjaro — đỉnh cao nhất châu Phi (5.895m) và đảo Zanzibar bãi cát trắng phố cổ Stone Town.

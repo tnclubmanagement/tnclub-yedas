@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/01 00:00:00 +0700"
 title: "Uganda: Ngọn nguồn sông Nile và quê hương khỉ đột"
 subtitle: "Bwindi trekking gorilla núi, Queen Elizabeth và thác Murchison mạnh nhất Nile"
-cover-img: "/posts/2027/07/01/uganda/cover.png"
-thumbnail-img: "/posts/2027/07/01/uganda/cover.png"
+cover-img: "/posts/2027/07/01/uganda/cover.jpg"
+thumbnail-img: "/posts/2027/07/01/uganda/cover.jpg"
 geo: [0.3476, 32.5825]
 place_name: "Kampala"
 place_country: "Uganda"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Uganda, Châu Phi, Gorilla, Thiên nhiên, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/wiki/File:Gorila_de_montaña_%28Gorilla_beringei_beringei%29%2C_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi%2C_Uganda%2C_2024-02-02%2C_DD_80.jpg"
 travel_photos:
-  - [cover.png, "Uganda — gorilla núi trong rừng Bwindi (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Uganda — gorilla núi trong rừng Bwindi (Ảnh: Wikimedia Commons)"]
 ---
 
 **Uganda** — "hòn ngọc của châu Phi" theo Churchill — là một trong ba nơi trên đời còn gorilla núi hoang dã: rừng Bwindi, vườn Queen Elizabeth và nguồn sông Nile tại Jinja. Safari truyền thống + trekking linh trưởng trong một nước.

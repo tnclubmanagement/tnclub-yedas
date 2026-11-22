@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/25 00:00:00 +0700"
 title: "Ai Cập: Đất của Pharaoh và sông Nile"
 subtitle: "Kim tự tháp Giza, Luxor thành phố đền, du thuyền Nile và biển Đỏ lặn san hô"
-cover-img: "/posts/2027/06/25/egypt/cover.png"
-thumbnail-img: "/posts/2027/06/25/egypt/cover.png"
+cover-img: "/posts/2027/06/25/egypt/cover.jpg"
+thumbnail-img: "/posts/2027/06/25/egypt/cover.jpg"
 geo: [30.0444, 31.2357]
 place_name: "Cairo"
 place_country: "Egypt"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Ai Cập, Egypt, Kim tự tháp, Lịch sử, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-ai-cap-v15802.aspx"
 travel_photos:
-  - [cover.png, "Giza — đại kim tự tháp và Nhân sư, Ai Cập (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Giza — đại kim tự tháp và Nhân sư, Ai Cập (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Ai Cập** là đất nước 5.000 năm lịch sử: kim tự tháp — kỳ quan cổ đại duy nhất còn sót lại, thành phố đền Luxor, du thuyền Nile và biển Đỏ đầy san hô. Một trong những hành trình "phải đi một lần" của mọi du khách.

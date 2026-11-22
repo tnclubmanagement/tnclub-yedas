@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/07 00:00:00 +0700"
 title: "Zimbabwe: Thác Victoria và những thành phố đá cổ"
 subtitle: "Mosi-oa-Tunya — 'khói thành sấm' — vườn Hwange safari và di tích Great Zimbabwe"
-cover-img: "/posts/2027/07/07/zimbabwe/cover.png"
-thumbnail-img: "/posts/2027/07/07/zimbabwe/cover.png"
+cover-img: "/posts/2027/07/07/zimbabwe/cover.jpg"
+thumbnail-img: "/posts/2027/07/07/zimbabwe/cover.jpg"
 geo: [-17.9319, 25.8301]
 place_name: "Victoria Falls"
 place_country: "Zimbabwe"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Zimbabwe, Châu Phi, Victoria Falls, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-chau-phi-mua-he-v17353.aspx"
 travel_photos:
-  - [cover.png, "Zimbabwe — thác Victoria Falls Mosi-oa-Tunya (Ảnh: Sưu tầm/Vietravel)"]
+  - [cover.jpg, "Zimbabwe — thác Victoria Falls Mosi-oa-Tunya (Ảnh: Sưu tầm/Vietravel)"]
 ---
 
 **Zimbabwe** sở hữu một nửa thác Victoria — "Mosi-oa-Tunya" (khói thành sấm) — thác rộng 1,7km cao 108m lớn nhất Trái đất, cùng vườn Hwange voi đông nhất châu Phi và di tích đá Great Zimbabwe bí ẩn.

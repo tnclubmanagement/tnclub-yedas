@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/09 00:00:00 +0700"
 title: "Mauritius: Đảo ngọc Ấn Độ Dương"
 subtitle: "Bãi biển thiên đường, đất bảy màu Chamarel và 'thác nước dưới biển' Le Morne"
-cover-img: "/posts/2027/07/09/mauritius/cover.png"
-thumbnail-img: "/posts/2027/07/09/mauritius/cover.png"
+cover-img: "/posts/2027/07/09/mauritius/cover.jpg"
+thumbnail-img: "/posts/2027/07/09/mauritius/cover.jpg"
 geo: [-20.3484, 57.5522]
 place_name: "Port Louis"
 place_country: "Mauritius"
@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Mauritius, Châu Phi, Đảo, Biển đảo, Chụp ảnh]
 photo_source: "https://www.holidify.com/"
 travel_photos:
-  - [cover.png, "Mauritius — bãi biển và núi Le Morne (Ảnh: Holidify)"]
+  - [cover.jpg, "Mauritius — bãi biển và núi Le Morne (Ảnh: Holidify)"]
 ---
 
 **Mauritius** — Mark Twain từng viết thiên đường được tạo ra theo mẫu Mauritius — là đảo quốc Ấn Độ Dương pha Ấn-Phi-Âu-Hoa: bãi cát trắng vòng san hô, đất bảy màu và hạ tầng nghỉ dưỡng đỉnh châu Phi.

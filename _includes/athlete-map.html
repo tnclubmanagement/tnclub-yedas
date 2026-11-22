@@ -53,6 +53,9 @@
               <button class="drop-item" type="button" data-country="Laos">Laos</button>
               <button class="drop-item" type="button" data-country="Cambodia">Cambodia</button>
               <button class="drop-item" type="button" data-country="India">India</button>
+            </div>
+            <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="mideast">Trung Đông</button>
               <button class="drop-item" type="button" data-country="United Arab Emirates">UAE</button>
               <button class="drop-item" type="button" data-country="Saudi Arabia">Saudi Arabia</button>
               <button class="drop-item" type="button" data-country="Israel">Israel</button>
@@ -86,6 +89,11 @@
               <button class="drop-item" type="button" data-country="Ukraine">Ukraine</button>
               <button class="drop-item" type="button" data-country="Serbia">Serbia</button>
               <button class="drop-item" type="button" data-country="Russia">Russia</button>
+              <button class="drop-item" type="button" data-country="Denmark">Denmark</button>
+              <button class="drop-item" type="button" data-country="Norway">Norway</button>
+              <button class="drop-item" type="button" data-country="Sweden">Sweden</button>
+              <button class="drop-item" type="button" data-country="Finland">Finland</button>
+              <button class="drop-item" type="button" data-country="Iceland">Iceland</button>
             </div>
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="americas">Châu Mỹ</button>
@@ -119,6 +127,7 @@
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
               <button class="drop-item" type="button" data-country="Australia">Australia</button>
+              <button class="drop-item" type="button" data-country="New Zealand">New Zealand</button>
             </div>
           </div>
         </div>
@@ -322,22 +331,24 @@ window.__athletePins = [
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
     qv.querySelector('.athlete-qv-close').addEventListener('click', close);
 
-    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', africa: 'Châu Phi', oceania: 'Châu Đại Dương' };
+    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', africa: 'Châu Phi', oceania: 'Châu Đại Dương', mideast: 'Trung Đông' };
     var COUNTRY_CONTINENT = {
       Vietnam: 'asia', China: 'asia', Japan: 'asia', Taiwan: 'asia',
       Thailand: 'asia', Korea: 'asia', Indonesia: 'asia', Malaysia: 'asia',
       Philippines: 'asia', Laos: 'asia', Cambodia: 'asia', India: 'asia',
-      'United Arab Emirates': 'asia', 'Saudi Arabia': 'asia', Israel: 'asia',
-      Jordan: 'asia', Turkey: 'asia', Qatar: 'asia', Oman: 'asia', Iran: 'asia',
-      Bahrain: 'asia', Kuwait: 'asia', Lebanon: 'asia', Iraq: 'asia', Cyprus: 'asia',
+      'United Arab Emirates': 'mideast', 'Saudi Arabia': 'mideast', Israel: 'mideast',
+      Jordan: 'mideast', Turkey: 'mideast', Qatar: 'mideast', Oman: 'mideast', Iran: 'mideast',
+      Bahrain: 'mideast', Kuwait: 'mideast', Lebanon: 'mideast', Iraq: 'mideast', Cyprus: 'mideast',
       France: 'europe', Italy: 'europe', Spain: 'europe', 'United Kingdom': 'europe',
       Germany: 'europe', Netherlands: 'europe', Switzerland: 'europe', Greece: 'europe',
       Poland: 'europe', Czechia: 'europe', Hungary: 'europe', Croatia: 'europe',
       Romania: 'europe', Bulgaria: 'europe', Ukraine: 'europe', Serbia: 'europe',
       Russia: 'europe',
+      Denmark: 'europe', Norway: 'europe', Sweden: 'europe', Finland: 'europe',
+      Iceland: 'europe',
       'United States': 'americas', Canada: 'americas', Brazil: 'americas',
       Argentina: 'americas', Peru: 'americas', Chile: 'americas', Colombia: 'americas',
-      Australia: 'oceania',
+      Australia: 'oceania', 'New Zealand': 'oceania',
       Morocco: 'africa', Egypt: 'africa', Tunisia: 'africa', Algeria: 'africa',
       Ethiopia: 'africa', Kenya: 'africa', Tanzania: 'africa', Uganda: 'africa',
       Rwanda: 'africa', Senegal: 'africa', Ghana: 'africa', Nigeria: 'africa',
@@ -460,7 +471,13 @@ window.__athletePins = [
       Lebanon:   [[33.0, 35.0], [34.8, 36.7]],
       Iraq:      [[29.0, 38.5], [37.5, 48.8]],
       Cyprus:    [[34.5, 32.2], [35.8, 34.7]],
-      Russia:    [[41.0, 19.0], [78.0, 180.0]]
+      Russia:    [[41.0, 19.0], [78.0, 180.0]],
+      Denmark:   [[54.5, 8.0], [57.8, 15.5]],
+      Norway:    [[57.5, 4.0], [71.5, 31.5]],
+      Sweden:    [[55.0, 10.5], [69.5, 24.5]],
+      Finland:   [[59.5, 19.0], [70.5, 32.0]],
+      Iceland:   [[63.0, -24.5], [66.8, -13.0]],
+      "New Zealand": [[-47.5, 165.5], [-34.0, 179.5]]
     };
     var HOME_VIEW = { center: [20, 105], zoom: 2 };
 

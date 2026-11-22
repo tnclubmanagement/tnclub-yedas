@@ -3460,6 +3460,15 @@ body:has(.home-landing) .post-container {
   transform: rotate(45deg);
 }
 
+.filter-drop .drop-menu::after {
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  height: 9px;
+}
+
 .filter-drop:hover .drop-menu,
 .filter-drop.open .drop-menu { display: flex; }
 

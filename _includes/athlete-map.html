@@ -36,10 +36,22 @@
       </div>
       <dl class="athlete-qv-grid"></dl>
       <a class="athlete-qv-link" href="#">Xem hồ sơ đầy đủ ↓</a>
+      <div class="athlete-qv-shortcuts">
+        <a class="athlete-qv-goto" href="#" data-goto="gallery">Galleries</a>
+        <a class="athlete-qv-goto" href="#" data-goto="video">Videos</a>
+      </div>
     </div>
   </div>
   <div class="athlete-detail" id="athlete-detail" hidden></div>
 </section>
+
+<div class="athlete-modal" id="athlete-modal" hidden>
+  <div class="athlete-modal-backdrop"></div>
+  <div class="athlete-modal-dialog">
+    <button class="athlete-modal-close" type="button" aria-label="Đóng">&times;</button>
+    <div class="athlete-media-content" id="athlete-media-content"></div>
+  </div>
+</div>
 
 <script>
 window.__athletePins = [
@@ -85,27 +97,80 @@ window.__athletePins = [
 
     function close() { qv.hidden = true; }
     var detail = document.getElementById('athlete-detail');
+    var modal = document.getElementById('athlete-modal');
+    var mediaContent = document.getElementById('athlete-media-content');
     var detailCache = {};
 
     function closeDetail() { detail.hidden = true; }
+    function closeModal() {
+      modal.hidden = true;
+      mediaContent.innerHTML = ''; // dừng video đang phát
+      document.body.style.overflow = '';
+    }
 
+    modal.querySelector('.athlete-modal-backdrop').addEventListener('click', closeModal);
+    modal.querySelector('.athlete-modal-close').addEventListener('click', closeModal);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+    // Fetch + parse bài viết, cache lại Document
+    function fetchDoc(url) {
+      if (detailCache[url]) return Promise.resolve(detailCache[url]);
+      return fetch(url).then(function (r) { return r.text(); }).then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        detailCache[url] = doc;
+        return doc;
+      });
+    }
+
+    // Panel hồ sơ inline dưới bản đồ
     function loadPost(url) {
       close();
       detail.hidden = false;
       detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      if (detailCache[url]) { detail.innerHTML = detailCache[url]; return; }
       detail.innerHTML = '<p class="athlete-detail-loading">Đang tải hồ sơ…</p>';
-      fetch(url).then(function (r) { return r.text(); }).then(function (html) {
-        var doc = new DOMParser().parseFromString(html, 'text/html');
+      fetchDoc(url).then(function (doc) {
         var body = doc.querySelector('.post-body');
-        var inner = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
           (body ? '<div class="blog-post post-body">' + body.innerHTML + '</div>'
                 : '<p>Không đọc được nội dung bài viết.</p>');
-        detailCache[url] = inner;
-        detail.innerHTML = inner;
       }).catch(function () {
         detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
           '<p class="athlete-detail-loading">Không tải được bài viết — <a href="' + url + '">mở trang riêng</a>.</p>';
+      });
+    }
+
+    // Modal riêng cho Galleries / Videos — trích đúng phần đó từ bài
+    function openMedia(url, kind, name) {
+      close();
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+      mediaContent.innerHTML = '<p class="athlete-detail-loading">Đang tải…</p>';
+      fetchDoc(url).then(function (doc) {
+        var body = doc.querySelector('.post-body'), inner = '';
+        if (body) {
+          if (kind === 'gallery') {
+            var figs = body.querySelectorAll('figure');
+            if (figs.length) {
+              inner = '<h3 class="athlete-media-title">Galleries — ' + name + '</h3>' +
+                '<div class="blog-post post-body"><div class="athlete-media-gallery">' +
+                Array.prototype.map.call(figs, function (f) { return f.outerHTML; }).join('') +
+                '</div></div>';
+            }
+          } else {
+            var vids = body.querySelectorAll('.video-embed');
+            if (vids.length) {
+              inner = '<h3 class="athlete-media-title">Videos — ' + name + '</h3>' +
+                '<div class="blog-post post-body"><div class="athlete-media-videos">' +
+                Array.prototype.map.call(vids, function (v) { return v.outerHTML; }).join('') +
+                '</div></div>';
+            }
+          }
+        }
+        mediaContent.innerHTML = inner ||
+          '<p class="athlete-detail-loading">' + name + ' chưa có ' +
+          (kind === 'gallery' ? 'ảnh minh họa' : 'video') + '.</p>';
+      }).catch(function () {
+        mediaContent.innerHTML = '<p class="athlete-detail-loading">Không tải được nội dung.</p>';
       });
     }
 
@@ -116,6 +181,14 @@ window.__athletePins = [
       e.preventDefault();
       e.stopPropagation();
       loadPost(this.href);
+    });
+    qv.querySelectorAll('.athlete-qv-goto').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        openMedia(qv.querySelector('.athlete-qv-link').href, a.dataset.goto,
+          qv.querySelector('.athlete-qv-name').textContent);
+      });
     });
     map.on('click', close);
     map.on('zoomstart', close);

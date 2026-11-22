@@ -6,7 +6,7 @@ subtitle: "Vịnh Nha Trang, đảo Hòn Mun và di tích Chăm ngàn năm"
 cover-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
 thumbnail-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
 geo: [12.24, 109.19]
-place_name: "Nha Trang (Khánh Hòa)"
+place_name: "Khánh Hòa"
 place_country: "Vietnam"
 place_population: "~1,3 triệu"
 place_economy: "Du lịch biển, thủy sản & yến sào, cảng Cam Ranh"

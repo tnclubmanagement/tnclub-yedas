@@ -6,7 +6,7 @@ subtitle: "Thủ phủ hoa, cà phê và nông nghiệp công nghệ cao của T
 cover-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 thumbnail-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 geo: [11.94, 108.44]
-place_name: "Đà Lạt (Lâm Đồng)"
+place_name: "Lâm Đồng"
 place_country: "Vietnam"
 place_population: "~1,35 triệu"
 place_economy: "Nông nghiệp công nghệ cao (hoa, cà phê), du lịch"

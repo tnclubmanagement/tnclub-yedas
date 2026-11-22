@@ -6,7 +6,7 @@ subtitle: "Fansipan, ruộng bậc thang và thị trấn trong mây"
 cover-img: "/posts/2026/12/23/lao-cai/cover.jpg"
 thumbnail-img: "/posts/2026/12/23/lao-cai/cover.jpg"
 geo: [22.34, 103.84]
-place_name: "Sa Pa (Lào Cai)"
+place_name: "Lào Cai"
 place_country: "Vietnam"
 place_population: "~790.000"
 place_economy: "Du lịch Sa Pa, thương mại cửa khẩu, khoáng sản"

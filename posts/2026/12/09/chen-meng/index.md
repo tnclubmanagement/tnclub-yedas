@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/09/chen-meng/avatar.jpg
   country: "Trung Quốc"
   hometown: "Thanh Đảo, Sơn Đông, Trung Quốc"
+  geo: [35.85, 119.95]
   born: "15/01/1994"
   height: "1m67"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "红双喜 (DHS)"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Backhand chắc chắn", "Kiểm soát nhịp đấu", "Ít lỗi 'đại tỷ'"]
 ---
 
 ## Tiểu sử

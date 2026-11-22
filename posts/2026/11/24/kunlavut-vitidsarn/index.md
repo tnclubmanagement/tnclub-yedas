@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/24/kunlavut-vitidsarn/avatar.jpg
   country: "Thái Lan"
   hometown: "Băng Cốc, Thái Lan"
+  geo: [13.76, 100.5]
   born: "11/05/2001"
   height: "1m78"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Kiên nhẫn siêu hạng", "Cầu lưới chuẩn xác", "Phản công lạnh lùng"]
 ---
 
 ## Tiểu sử

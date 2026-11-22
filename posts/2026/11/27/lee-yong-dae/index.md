@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/27/lee-yong-dae/avatar.jpg
   country: "Hàn Quốc"
   hometown: "Hwasun, Hàn Quốc"
+  geo: [35.06, 126.98]
   born: "11/09/1988"
   height: "1m80"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Giải nghệ (2020)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phủ lưới đánh đôi", "Phản xạ cực nhanh", "Đánh lách cầu"]
 ---
 
 ## Tiểu sử

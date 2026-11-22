@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/12/viktor-axelsen/avatar.jpg
   country: "Đan Mạch"
   hometown: "Odense, Đan Mạch"
+  geo: [55.4, 10.4]
   born: "04/01/1994"
   height: "1m94"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex Astrox 100ZZ"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Smash từ độ cao 1m94", "Bỏ nhỏ chéo lưới", "Phủ cầu sát lưới"]
 ---
 
 ## Tiểu sử

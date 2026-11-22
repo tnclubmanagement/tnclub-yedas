@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/10/lin-dan/avatar.jpg
   country: "Trung Quốc"
   hometown: "Thượng Hàng, Phúc Kiến, Trung Quốc"
+  geo: [25.05, 116.42]
   born: "14/10/1983"
   height: "1m78"
   hand: "Trái"
@@ -22,6 +23,7 @@ athlete:
   racket: "Li-Ning N90 / Yonex"
   current_rank: "Giải nghệ (2020)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Smash chéo sân", "Bỏ nhỏ xoáy lưới", "Phản công siêu tốc"]
 ---
 
 ## Tiểu sử

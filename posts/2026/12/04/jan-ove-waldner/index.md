@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/04/jan-ove-waldner/avatar.jpg
   country: "Thụy Điển"
   hometown: "Stockholm, Thụy Điển"
+  geo: [59.33, 18.07]
   born: "03/10/1965"
   height: "1m79"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Donic"
   current_rank: "Giải nghệ (2016)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phục vụ xoáy biến ảo", "Cảm giác bóng 'Mozart'", "Block chuẩn xác"]
 ---
 
 ## Tiểu sử

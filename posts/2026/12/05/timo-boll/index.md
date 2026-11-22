@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/05/timo-boll/avatar.jpg
   country: "Đức"
   hometown: "Erbach, Đức"
+  geo: [49.66, 9.22]
   born: "08/03/1981"
   height: "1m82"
   hand: "Trái"
@@ -22,6 +23,7 @@ athlete:
   racket: "Butterfly Timo Boll ALC"
   current_rank: "Giải nghệ (2025)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Topspin siêu quay", "Đổi nhịp khôn ngoan", "Kinh nghiệm 25 năm"]
 ---
 
 ## Tiểu sử

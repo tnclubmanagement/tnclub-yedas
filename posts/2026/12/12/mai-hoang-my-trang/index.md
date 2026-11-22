@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/12/mai-hoang-my-trang/avatar.jpg
   country: "Việt Nam"
   hometown: "TP. Hồ Chí Minh, Việt Nam"
+  geo: [11.0, 107.0]
   born: "1998"
   height: "1m60"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "—"
   current_rank: "Số 1 Việt Nam"
   highest_rank: "Số 1 Việt Nam / top SEA"
+  skills: ["Forehand tốc độ", "Kinh nghiệm trận mạc", "Đa năng đơn-đôi"]
 ---
 
 ## Tiểu sử

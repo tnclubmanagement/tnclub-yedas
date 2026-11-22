@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/06/truls-moregardh/avatar.jpg
   country: "Thụy Điển"
   hometown: "Hovmantorp, Thụy Điển"
+  geo: [56.78, 15.14]
   born: "16/02/2002"
   height: "1m83"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Stiga Cybershape (vợt lục giác)"
   current_rank: "Top đầu thế giới"
   highest_rank: "Top 10 thế giới"
+  skills: ["Vợt lục giác Cybershape", "Đổi tốc độ bất thường", "Cú đánh 'không tưởng'"]
 ---
 
 ## Tiểu sử

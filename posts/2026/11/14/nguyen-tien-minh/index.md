@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/14/nguyen-tien-minh/avatar.jpg
   country: "Việt Nam"
   hometown: "TP. Hồ Chí Minh, Việt Nam"
+  geo: [10.6, 106.5]
   born: "16/02/1983"
   height: "1m69"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Chuyển vai trò huấn luyện"
   highest_rank: "Số 5 thế giới"
+  skills: ["Smash uy lực", "Đánh cầu khó", "Độ bền thể lực"]
 ---
 
 ## Tiểu sử

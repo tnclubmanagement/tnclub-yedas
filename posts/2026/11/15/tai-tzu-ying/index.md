@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/15/tai-tzu-ying/avatar.jpg
   country: "Đài Bắc Trung Hoa"
   hometown: "Cao Hùng, Đài Loan"
+  geo: [22.62, 120.3]
   born: "20/06/1994"
   height: "1m62"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Victor Thruster"
   current_rank: "Giải nghệ (2024)"
   highest_rank: "Số 1 thế giới (214 tuần)"
+  skills: ["Động tác giả (deception)", "Đánh cầu sau lưng", "Kỹ thuật lưới ảo diệu"]
 ---
 
 ## Tiểu sử

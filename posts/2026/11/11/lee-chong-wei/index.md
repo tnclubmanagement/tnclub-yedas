@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/11/lee-chong-wei/avatar.jpg
   country: "Malaysia"
   hometown: "Bagan Serai, Perak, Malaysia"
+  geo: [5.0, 100.53]
   born: "21/10/1982"
   height: "1m72"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex Voltric"
   current_rank: "Giải nghệ (2019)"
   highest_rank: "Số 1 thế giới (349 tuần)"
+  skills: ["Chớp cầu lưới nhanh", "Phòng thủ phản công", "Smash chính xác"]
 ---
 
 ## Tiểu sử

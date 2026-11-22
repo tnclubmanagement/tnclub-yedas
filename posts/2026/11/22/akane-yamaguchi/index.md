@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/22/akane-yamaguchi/avatar.jpg
   country: "Nhật Bản"
   hometown: "Fukui, Nhật Bản"
+  geo: [36.06, 136.22]
   born: "06/06/1997"
   height: "1m56"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Tốc độ di chuyển", "Phòng thủ đánh trả", "Độ bền 'Roadrunner'"]
 ---
 
 ## Tiểu sử

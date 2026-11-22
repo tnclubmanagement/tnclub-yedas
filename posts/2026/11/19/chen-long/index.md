@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/19/chen-long/avatar.jpg
   country: "Trung Quốc"
   hometown: "Kinh Châu, Hồ Bắc, Trung Quốc"
+  geo: [30.33, 112.24]
   born: "18/01/1989"
   height: "1m87"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Li-Ning"
   current_rank: "Giải nghệ (2023)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phòng thủ 'bức tường'", "Kéo dài rally", "Tấn công bất ngờ"]
 ---
 
 ## Tiểu sử

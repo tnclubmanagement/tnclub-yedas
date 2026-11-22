@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/02/fan-zhendong/avatar.jpg
   country: "Trung Quốc"
   hometown: "Quảng Châu, Quảng Đông, Trung Quốc"
+  geo: [23.13, 113.26]
   born: "22/01/1997"
   height: "1m73"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Butterfly"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Backhand mạnh nhất thế giới", "Banana flick", "Độ bền rally"]
 ---
 
 ## Tiểu sử

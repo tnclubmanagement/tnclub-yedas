@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/18/taufik-hidayat/avatar.jpg
   country: "Indonesia"
   hometown: "Bandung, Tây Java, Indonesia"
+  geo: [-6.91, 107.61]
   born: "10/08/1981"
   height: "1m76"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex ArcSaber"
   current_rank: "Giải nghệ (2013)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Backhand huyền thoại", "Cầu lưới tinh tế", "Phong cách thiên tài"]
 ---
 
 ## Tiểu sử

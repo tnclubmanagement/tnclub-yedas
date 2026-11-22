@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/20/peter-gade/avatar.jpg
   country: "Đan Mạch"
   hometown: "Aalborg, Đan Mạch"
+  geo: [57.05, 9.92]
   born: "14/12/1976"
   height: "1m82"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Giải nghệ (2012)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Double action deception", "Smash mượt mà", "Điều cầu thông minh"]
 ---
 
 ## Tiểu sử

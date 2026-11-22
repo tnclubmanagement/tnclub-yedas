@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/16/carolina-marin/avatar.jpg
   country: "Tây Ban Nha"
   hometown: "Huelva, Tây Ban Nha"
+  geo: [37.26, -6.95]
   born: "15/06/1993"
   height: "1m71"
   hand: "Trái"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Thi đấu trở lại"
   highest_rank: "Số 1 thế giới"
+  skills: ["Tấn công tốc độ cao", "Smash dồn dập", "Áp lực tinh thần"]
 ---
 
 ## Tiểu sử

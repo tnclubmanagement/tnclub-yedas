@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/23/ratchanok-intanon/avatar.jpg
   country: "Thái Lan"
   hometown: "Yasothon, Thái Lan"
+  geo: [15.79, 104.15]
   born: "05/02/1995"
   height: "1m68"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Thi đấu chuyên nghiệp"
   highest_rank: "Số 1 thế giới"
+  skills: ["Động tác giả lưới", "Cầu lưới nghệ thuật", "Cảm giác cầu"]
 ---
 
 ## Tiểu sử

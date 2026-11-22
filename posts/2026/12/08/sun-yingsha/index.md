@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/08/sun-yingsha/avatar.jpg
   country: "Trung Quốc"
   hometown: "Thạch Gia Trang, Hà Bắc, Trung Quốc"
+  geo: [38.04, 114.51]
   born: "04/11/2000"
   height: "1m62"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Stiga/红双喜"
   current_rank: "Số 1 thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Tốc độ trả giao", "Tấn công liên tục", "Forehand nhanh 'ma vương'"]
 ---
 
 ## Tiểu sử

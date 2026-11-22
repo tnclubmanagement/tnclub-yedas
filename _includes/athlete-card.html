@@ -21,6 +21,14 @@
       {% if a.racket %}<div class="athlete-card-item"><dt>Vợt</dt><dd>{{ a.racket }}</dd></div>{% endif %}
       {% if a.current_rank %}<div class="athlete-card-item"><dt>Hạng BWF hiện tại</dt><dd>{{ a.current_rank }}</dd></div>{% endif %}
     </dl>
+    {% if a.skills %}
+    <div class="athlete-card-skills">
+      <span class="athlete-card-skills-label">Kỹ năng đặc trưng</span>
+      <ul>
+        {% for skill in a.skills %}<li>{{ skill }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
     {% if a.highest_rank %}
     <p class="athlete-card-rank">
       <span class="athlete-card-rank-label">Hạng cao nhất</span>

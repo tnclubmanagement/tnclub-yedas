@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/01/ma-long/avatar.jpg
   country: "Trung Quốc"
   hometown: "An Sơn, Liêu Ninh, Trung Quốc"
+  geo: [41.11, 122.99]
   born: "20/10/1988"
   height: "1m75"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Butterfly (tự thiết kế)"
   current_rank: "Thi đấu chuyên nghiệp"
   highest_rank: "Số 1 thế giới"
+  skills: ["Forehand loop toàn năng", "Chuyển tiếp hai cánh", "Kiểm soát nhịp 'độc tài'"]
 ---
 
 ## Tiểu sử

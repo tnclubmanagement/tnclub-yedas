@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/26/kevin-sanjaya-sukamuljo/avatar.jpg
   country: "Indonesia"
   hometown: "Banyuwangi, Đông Java, Indonesia"
+  geo: [-8.22, 114.37]
   born: "02/08/1995"
   height: "1m70"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex Astrox 88"
   current_rank: "Thi đấu chuyên nghiệp"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phản xạ lưới siêu tốc", "Trick shots sau lưng", "Phủ lưới 'Minions'"]
 ---
 
 ## Tiểu sử

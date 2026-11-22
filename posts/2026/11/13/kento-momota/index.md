@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/13/kento-momota/avatar.jpg
   country: "Nhật Bản"
   hometown: "Kagawa, Nhật Bản"
+  geo: [34.3, 134.0]
   born: "01/09/1994"
   height: "1m75"
   hand: "Trái"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex Astrox 99 Pro"
   current_rank: "Rời đội tuyển quốc gia (2024)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phòng thủ bức tường", "Điều cầu lưới", "Bẻ lái bất ngờ"]
 ---
 
 ## Tiểu sử

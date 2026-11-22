@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/10/deng-yaping/avatar.jpg
   country: "Trung Quốc"
   hometown: "Trịnh Châu, Hà Nam, Trung Quốc"
+  geo: [34.75, 113.63]
   born: "05/02/1973"
   height: "1m49"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "红双喜"
   current_rank: "Giải nghệ (1997)"
   highest_rank: "Số 1 thế giới (8 năm liền)"
+  skills: ["Tấn công sát bàn", "Tốc độ phản xạ", "Động lực 'nữ hoàng'"]
 ---
 
 ## Tiểu sử

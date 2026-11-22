@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/28/zheng-siwei/avatar.jpg
   country: "Trung Quốc"
   hometown: "Ôn Châu, Chiết Giang, Trung Quốc"
+  geo: [28.0, 120.65]
   born: "26/02/1997"
   height: "1m76"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Thi đấu chuyên nghiệp"
   highest_rank: "Số 1 thế giới"
+  skills: ["Smash nặng hậu phương", "Kiểm soát trung sân", "Chuyển đổi linh hoạt"]
 ---
 
 ## Tiểu sử

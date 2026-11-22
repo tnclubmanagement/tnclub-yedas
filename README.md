@@ -72,6 +72,7 @@ athlete:
   racket: "Yonex Astrox 100ZZ"
   current_rank: "Số 2"
   highest_rank: "Số 1 thế giới"
+  skills: ["Smash từ độ cao", "Bỏ nhỏ chéo lưới", "Phủ cầu sát lưới"]
 ```
 
 - Bấm **Commit changes** → xong! Sau ~1-2 phút (Actions build) bài sẽ tự

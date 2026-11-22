@@ -1,0 +1,180 @@
+{% assign athlete_posts = site.pages | where: 'layout', 'post' %}
+{% assign map_series = "" | split: "" %}
+{% assign pin_count = 0 %}
+{% for post in athlete_posts %}
+  {% if post.athlete and post.athlete.geo %}
+    {% assign pin_count = pin_count | plus: 1 %}
+    {% if post.series %}{% assign map_series = map_series | push: post.series %}{% endif %}
+  {% endif %}
+{% endfor %}
+{% assign map_series = map_series | uniq | sort %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<section class="athlete-map-section" aria-label="Bản đồ vận động viên">
+  <div class="athlete-map-head">
+    <h2 class="tag-section-title">Bản đồ VĐV <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+    <div class="athlete-map-filters" id="athlete-map-filters">
+      <button class="home-tab home-tab-active" type="button" data-filter="all">Tất cả</button>
+      {% for name in map_series %}
+      <button class="home-tab" type="button" data-filter="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="athlete-map" id="athlete-map">
+    <div class="athlete-quickview" id="athlete-quickview" hidden>
+      <button class="athlete-qv-close" type="button" aria-label="Đóng">&times;</button>
+      <div class="athlete-qv-head">
+        <img class="athlete-qv-avatar" src="" alt="">
+        <div>
+          <h3 class="athlete-qv-name"></h3>
+          <p class="athlete-qv-nick"></p>
+        </div>
+      </div>
+      <dl class="athlete-qv-grid"></dl>
+      <a class="athlete-qv-link" href="#">Xem hồ sơ đầy đủ ↓</a>
+    </div>
+  </div>
+  <div class="athlete-detail" id="athlete-detail" hidden></div>
+</section>
+
+<script>
+window.__athletePins = [
+  {% assign first = true %}
+  {% for post in athlete_posts %}
+    {% if post.athlete and post.athlete.geo %}
+    {% unless first %},{% endunless %}{% assign first = false %}{
+      lat: {{ post.athlete.geo[0] }}, lng: {{ post.athlete.geo[1] }},
+      series: {{ post.series | default: "" | jsonify }},
+      name: {{ post.athlete.name | jsonify }},
+      nick: {{ post.athlete.nickname | default: "" | jsonify }},
+      country: {{ post.athlete.country | default: "" | jsonify }},
+      born: {{ post.athlete.born | default: "" | jsonify }},
+      hometown: {{ post.athlete.hometown | default: "" | jsonify }},
+      event: {{ post.athlete.event | default: "" | jsonify }},
+      rank: {{ post.athlete.highest_rank | default: "" | jsonify }},
+      url: {{ post.url | relative_url | jsonify }},
+      avatar: {{ post.athlete.avatar | relative_url | jsonify }}
+    }
+    {% endif %}
+  {% endfor %}
+];
+
+(function () {
+  function initMap() {
+    var el = document.getElementById('athlete-map');
+    var qv = document.getElementById('athlete-quickview');
+    var count = document.getElementById('athlete-map-count');
+    if (!el || !window.L || !window.__athletePins) return;
+
+    var map = L.map(el, {
+      minZoom: 2, maxZoom: 10, zoomSnap: 0.5,
+      worldCopyJump: true,
+      attributionControl: true
+    }).setView([20, 105], 2);
+    map.setMaxBounds([[-75, -200], [80, 200]]);
+
+    // Tiles kiểu Google Maps — Esri World Street Map, miễn phí không cần key
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Esri, HERE, Garmin &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19
+    }).addTo(map);
+
+    function close() { qv.hidden = true; }
+    var detail = document.getElementById('athlete-detail');
+    var detailCache = {};
+
+    function closeDetail() { detail.hidden = true; }
+
+    function loadPost(url) {
+      close();
+      detail.hidden = false;
+      detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (detailCache[url]) { detail.innerHTML = detailCache[url]; return; }
+      detail.innerHTML = '<p class="athlete-detail-loading">Đang tải hồ sơ…</p>';
+      fetch(url).then(function (r) { return r.text(); }).then(function (html) {
+        var doc = new DOMParser().parseFromString(html, 'text/html');
+        var body = doc.querySelector('.post-body');
+        var inner = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
+          (body ? '<div class="blog-post post-body">' + body.innerHTML + '</div>'
+                : '<p>Không đọc được nội dung bài viết.</p>');
+        detailCache[url] = inner;
+        detail.innerHTML = inner;
+      }).catch(function () {
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
+          '<p class="athlete-detail-loading">Không tải được bài viết — <a href="' + url + '">mở trang riêng</a>.</p>';
+      });
+    }
+
+    detail.addEventListener('click', function (e) {
+      if (e.target.closest('.athlete-detail-close')) closeDetail();
+    });
+    qv.querySelector('.athlete-qv-link').addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      loadPost(this.href);
+    });
+    map.on('click', close);
+    map.on('zoomstart', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    qv.querySelector('.athlete-qv-close').addEventListener('click', close);
+
+    var entries = window.__athletePins.map(function (d, i) {
+      var icon = L.divIcon({
+        className: 'athlete-pin-wrap',
+        html: '<span class="athlete-pin" style="animation-delay:' + (i * 40) + 'ms">' +
+              (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false">' : '') +
+              '<span class="athlete-pin-shadow"></span></span>',
+        iconSize: [44, 54], iconAnchor: [22, 52]
+      });
+      var m = L.marker([d.lat, d.lng], { icon: icon, riseOnHover: true }).addTo(map);
+      m.bindTooltip(
+        '<strong>' + d.name + '</strong>' +
+        (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
+        '<br><small>' + (d.born ? d.born.split('/').pop() : '') +
+        (d.hometown ? ' · ' + d.hometown : '') + '</small>',
+        { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
+      );
+      m.on('click', function () {
+        qv.querySelector('.athlete-qv-avatar').src = d.avatar;
+        qv.querySelector('.athlete-qv-avatar').alt = d.name;
+        qv.querySelector('.athlete-qv-name').textContent = d.name;
+        qv.querySelector('.athlete-qv-nick').textContent = d.nick ? '“' + d.nick + '”' : '';
+        var rows = [
+          ['Quốc tịch', d.country], ['Nguyên quán', d.hometown],
+          ['Ngày sinh', d.born], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]
+        ].filter(function (r) { return r[1]; });
+        qv.querySelector('.athlete-qv-grid').innerHTML = rows.map(function (r) {
+          return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
+        }).join('');
+        qv.querySelector('.athlete-qv-link').href = d.url;
+        qv.hidden = false;
+      });
+      return { marker: m, series: d.series };
+    });
+
+    var filterBar = document.getElementById('athlete-map-filters');
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      filterBar.querySelectorAll('button').forEach(function (b) {
+        b.classList.toggle('home-tab-active', b === btn);
+      });
+      var f = btn.dataset.filter, shown = 0;
+      entries.forEach(function (en) {
+        var on = f === 'all' || en.series === f;
+        if (on) { en.marker.addTo(map); shown++; }
+        else map.removeLayer(en.marker);
+      });
+      if (count) count.textContent = shown;
+      close();
+    });
+  }
+
+  if (window.L) initMap();
+  else document.addEventListener('DOMContentLoaded', initMap);
+})();
+</script>

@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/29/greysia-polii/avatar.jpg
   country: "Indonesia"
   hometown: "Jakarta, Indonesia"
+  geo: [-6.21, 106.85]
   born: "11/08/1987"
   height: "1m64"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Giải nghệ (2021)"
   highest_rank: "Số 1 thế giới"
+  skills: ["Kinh nghiệm lưới", "Bọc hậu cho đồng đội", "Phản công sắc bén"]
 ---
 
 ## Tiểu sử

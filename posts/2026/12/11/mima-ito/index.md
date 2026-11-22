@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/11/mima-ito/avatar.jpg
   country: "Nhật Bản"
   hometown: "Shizuoka, Nhật Bản"
+  geo: [35.02, 138.4]
   born: "21/10/2000"
   height: "1m50"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Nittaku"
   current_rank: "Top đầu thế giới"
   highest_rank: "Số 2 thế giới"
+  skills: ["Chiquita trả giao", "Giao bóng biến ảo", "Đánh điểm bóng lên sớm"]
 ---
 
 ## Tiểu sử

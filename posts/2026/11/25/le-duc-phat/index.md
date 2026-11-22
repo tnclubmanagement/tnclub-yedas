@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/25/le-duc-phat/avatar.jpg
   country: "Việt Nam"
   hometown: "Đồng Nai, Việt Nam"
+  geo: [10.95, 107.18]
   born: "1998"
   height: "1m78"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Top 70 thế giới"
   highest_rank: "Top 60-70 BWF"
+  skills: ["Smash mạnh", "Tấn công nhanh", "Dũng mãnh trận mạc"]
 ---
 
 ## Tiểu sử

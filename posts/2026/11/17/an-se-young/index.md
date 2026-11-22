@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/17/an-se-young/avatar.jpg
   country: "Hàn Quốc"
   hometown: "Gwangju, Hàn Quốc"
+  geo: [35.16, 126.85]
   born: "05/02/2002"
   height: "1m70"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex Astrox 77 Pro"
   current_rank: "Số 1 thế giới"
   highest_rank: "Số 1 thế giới"
+  skills: ["Phòng thủ bền bỉ", "Điều cầu chuẩn xác", "Chuyển trạng thái nhanh"]
 ---
 
 ## Tiểu sử

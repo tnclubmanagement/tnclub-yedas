@@ -1680,6 +1680,7 @@ footer .copyright {
   min-width: 1.4rem;
   height: 1.4rem;
   padding: 0 0.35rem;
+  margin-left: 0.5rem;
   border-radius: 999px;
   font-size: 0.7rem;
   font-weight: 600;
@@ -1725,6 +1726,8 @@ footer .copyright {
   margin-bottom: 1rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--hairline);
+  display: flex;
+  align-items: center;
 }
 
 .series-part-num {
@@ -3261,4 +3264,299 @@ body:has(.home-landing) .post-container {
   .blog-post.post-body .video-embed {
     width: 100%;
   }
+}
+
+/* ---------- Bản đồ VĐV (series) ---------- */
+.athlete-map-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.athlete-map-filters {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.9rem;
+}
+
+.athlete-map {
+  position: relative;
+  height: 480px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  background: var(--bg-light);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.5rem;
+  z-index: 0;
+}
+
+.athlete-map .leaflet-container {
+  font: inherit;
+  border-radius: inherit;
+}
+
+.athlete-map .leaflet-control-zoom {
+  border: 1px solid var(--hairline) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12) !important;
+}
+
+.athlete-map .leaflet-control-zoom a {
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  color: var(--ink) !important;
+  border: 0 !important;
+}
+
+/* Pin avatar "rơi" xuống bản đồ với bóng đổ — hiệu ứng 2.5D */
+.athlete-pin-wrap { background: none; border: 0; }
+
+.athlete-pin {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2.5px solid #ffffff;
+  background: var(--bg-light);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  animation: athlete-pin-drop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+}
+
+@keyframes athlete-pin-drop {
+  0%   { transform: translateY(-170%) scale(0.6); opacity: 0; }
+  60%  { transform: translateY(8%) scale(1.06); opacity: 1; }
+  80%  { transform: translateY(-6%) scale(0.98); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+.athlete-pin img {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 0.2s ease;
+}
+
+.athlete-pin:hover { transform: scale(1.18); }
+
+/* Mũi nhọn dưới chân pin — kiểu marker Google Maps */
+.athlete-pin-wrap::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top: 10px solid #ffffff;
+  filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.22));
+  pointer-events: none;
+}
+
+.athlete-pin-shadow { display: none; }
+
+@keyframes athlete-pin-shadow {
+  to { transform: translateX(-50%); }
+}
+
+/* Tooltip khi hover — Leaflet tooltip */
+.athlete-pin-tip {
+  border: 0 !important;
+  border-radius: 12px !important;
+  padding: 0.5rem 0.75rem !important;
+  background: rgba(20, 22, 28, 0.92) !important;
+  color: #fff !important;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25) !important;
+}
+
+.athlete-pin-tip::before { display: none; }
+.athlete-pin-tip em { opacity: 0.85; }
+.athlete-pin-tip small { opacity: 0.7; }
+
+/* Panel quick view */
+.athlete-quickview {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  z-index: 1000;
+  width: min(280px, calc(100% - 16px));
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+  animation: athlete-qv-in 0.25s ease;
+}
+
+@keyframes athlete-qv-in {
+  from { opacity: 0; transform: translateY(6px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.athlete-qv-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.6rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.athlete-qv-head {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.athlete-qv-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--hairline);
+}
+
+.athlete-qv-name {
+  margin: 0;
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+
+.athlete-qv-nick {
+  margin: 0.1rem 0 0;
+  font-size: 0.8rem;
+  color: var(--accent-blue);
+}
+
+.athlete-qv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.3rem 0.8rem;
+  margin: 0 0 0.7rem;
+}
+
+.athlete-qv-grid dt {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.athlete-qv-grid dd {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.athlete-qv-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+.athlete-qv-link:hover { text-decoration: underline; }
+
+/* Pin nhỏ lại trên mobile */
+@media (max-width: 640px) {
+  .athlete-map { height: 380px; }
+  .athlete-pin { width: 30px; height: 30px; border-width: 2px; }
+  .athlete-pin-tip { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .athlete-pin,
+  .athlete-pin-shadow { animation: none; }
+}
+
+/* ---------- Hồ sơ VĐV load inline dưới bản đồ ---------- */
+.athlete-detail {
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+  animation: athlete-qv-in 0.25s ease;
+}
+
+.athlete-detail-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.9rem;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.athlete-detail-close:hover { color: var(--ink); }
+
+.athlete-detail-loading {
+  color: var(--muted);
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+@media (max-width: 640px) {
+  .athlete-detail { padding: 1.1rem 1.1rem; }
+}
+
+/* ---------- Kỹ năng đặc trưng trong athlete card ---------- */
+.athlete-card-skills {
+  margin-top: 0.9rem;
+}
+
+.athlete-card-skills-label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+.athlete-card-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.athlete-card-skills li {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  background: rgba(0, 113, 227, 0.09);
+  border: 1px solid rgba(0, 113, 227, 0.18);
 }

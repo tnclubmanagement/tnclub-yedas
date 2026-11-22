@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/03/zhang-jike/avatar.jpg
   country: "Trung Quốc"
   hometown: "Thanh Đảo, Sơn Đông, Trung Quốc"
+  geo: [36.2, 120.6]
   born: "16/02/1988"
   height: "1m81"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Butterfly Viscaria"
   current_rank: "Giải nghệ"
   highest_rank: "Số 1 thế giới"
+  skills: ["Chiquita backhand", "Sức bật bùng nổ", "Tâm lý trận lớn"]
 ---
 
 ## Tiểu sử

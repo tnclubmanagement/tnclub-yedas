@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/11/21/pv-sindhu/avatar.jpg
   country: "Ấn Độ"
   hometown: "Hyderabad, Ấn Độ"
+  geo: [17.38, 78.49]
   born: "05/07/1995"
   height: "1m80"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Yonex"
   current_rank: "Thi đấu chuyên nghiệp"
   highest_rank: "Số 2 thế giới"
+  skills: ["Smash xa sân", "Cầu cao sâu", "Sức mạnh cánh tay"]
 ---
 
 ## Tiểu sử

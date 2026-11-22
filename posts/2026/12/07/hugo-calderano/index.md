@@ -14,6 +14,7 @@ athlete:
   avatar: /posts/2026/12/07/hugo-calderano/avatar.jpg
   country: "Brazil"
   hometown: "Rio de Janeiro, Brazil"
+  geo: [-22.91, -43.17]
   born: "22/06/1996"
   height: "1m82"
   hand: "Phải"
@@ -22,6 +23,7 @@ athlete:
   racket: "Butterfly"
   current_rank: "Top 5 thế giới"
   highest_rank: "Top 3-5 thế giới"
+  skills: ["Smash xa bàn", "Thể chất bùng nổ", "Forehand loop lùi sân"]
 ---
 
 ## Tiểu sử

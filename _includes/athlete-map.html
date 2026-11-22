@@ -5,6 +5,9 @@
   {% if post.athlete and post.athlete.geo %}
     {% assign pin_count = pin_count | plus: 1 %}
     {% if post.series %}{% assign map_series = map_series | push: post.series %}{% endif %}
+  {% elsif post.geo %}
+    {% assign pin_count = pin_count | plus: 1 %}
+    {% assign map_series = map_series | push: post.category %}
   {% endif %}
 {% endfor %}
 {% assign map_series = map_series | uniq | sort %}
@@ -16,15 +19,38 @@
 
 <section class="athlete-map-section" aria-label="Bản đồ vận động viên">
   <div class="athlete-map-head">
-    <h2 class="tag-section-title">Bản đồ VĐV <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+    <h2 class="tag-section-title">Bản đồ <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
     <div class="athlete-map-filters" id="athlete-map-filters">
-      <button class="home-tab home-tab-active" type="button" data-filter="all">Tất cả</button>
-      {% for name in map_series %}
-      <button class="home-tab" type="button" data-filter="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
-      {% endfor %}
+      <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="Tìm tên, địa điểm, quốc gia…" aria-label="Lọc bản đồ theo văn bản">
+      <div class="filter-drop" id="filter-drop-sport">
+        <button class="home-tab" type="button" data-filter="Thể thao"><span class="filter-drop-label">Thể thao</span> <span class="drop-caret">▾</span></button>
+        <div class="drop-menu">
+          <button class="drop-item drop-item-active" type="button" data-sport="all">Tất cả môn</button>
+          {% for name in map_series %}
+          {% if name != "Du lịch" %}
+          <button class="drop-item" type="button" data-sport="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% if map_series contains "Du lịch" %}
+      <div class="filter-drop" id="filter-drop-travel">
+        <button class="home-tab" type="button" data-filter="Du lịch"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
+        <div class="drop-menu">
+          <button class="drop-item drop-item-active" type="button" data-country="all">Tất cả quốc gia</button>
+          <button class="drop-item" type="button" data-country="Vietnam">Vietnam</button>
+          <button class="drop-item" type="button" data-country="China">China</button>
+          <button class="drop-item" type="button" data-country="Japan">Japan</button>
+          <button class="drop-item" type="button" data-country="Taiwan">Taiwan</button>
+          <button class="drop-item" type="button" data-country="Thailand">Thailand</button>
+          <button class="drop-item" type="button" data-country="Korea">Korea</button>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
   <div class="athlete-map" id="athlete-map">
+    <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="Toàn màn hình" title="Toàn màn hình">⛶</button>
     <div class="athlete-quickview" id="athlete-quickview" hidden>
       <button class="athlete-qv-close" type="button" aria-label="Đóng">&times;</button>
       <div class="athlete-qv-head">
@@ -43,15 +69,15 @@
     </div>
   </div>
   <div class="athlete-detail" id="athlete-detail" hidden></div>
-</section>
 
-<div class="athlete-modal" id="athlete-modal" hidden>
-  <div class="athlete-modal-backdrop"></div>
-  <div class="athlete-modal-dialog">
-    <button class="athlete-modal-close" type="button" aria-label="Đóng">&times;</button>
-    <div class="athlete-media-content" id="athlete-media-content"></div>
+  <div class="athlete-modal" id="athlete-modal" hidden>
+    <div class="athlete-modal-backdrop"></div>
+    <div class="athlete-modal-dialog">
+      <button class="athlete-modal-close" type="button" aria-label="Đóng">&times;</button>
+      <div class="athlete-media-content" id="athlete-media-content"></div>
+    </div>
   </div>
-</div>
+</section>
 
 <script>
 window.__athletePins = [
@@ -59,6 +85,7 @@ window.__athletePins = [
   {% for post in athlete_posts %}
     {% if post.athlete and post.athlete.geo %}
     {% unless first %},{% endunless %}{% assign first = false %}{
+      kind: "athlete",
       lat: {{ post.athlete.geo[0] }}, lng: {{ post.athlete.geo[1] }},
       series: {{ post.series | default: "" | jsonify }},
       name: {{ post.athlete.name | jsonify }},
@@ -70,6 +97,22 @@ window.__athletePins = [
       rank: {{ post.athlete.highest_rank | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
       avatar: {{ post.athlete.avatar | relative_url | jsonify }}
+    }
+    {% elsif post.geo %}
+    {% unless first %},{% endunless %}{% assign first = false %}{
+      kind: "place",
+      lat: {{ post.geo[0] }}, lng: {{ post.geo[1] }},
+      series: {{ post.category | default: "" | jsonify }},
+      name: {{ post.place_name | default: post.title | jsonify }},
+      nick: "",
+      subtitle: {{ post.subtitle | default: "" | jsonify }},
+      region: {{ post.place_region | default: "" | jsonify }},
+      country: {{ post.place_country | default: "Vietnam" | jsonify }},
+      population: {{ post.place_population | default: "" | jsonify }},
+      economy: {{ post.place_economy | default: "" | jsonify }},
+      festival: {{ post.place_festival | default: "" | jsonify }},
+      url: {{ post.url | relative_url | jsonify }},
+      avatar: {{ post["cover-img"] | relative_url | jsonify }}
     }
     {% endif %}
   {% endfor %}
@@ -197,54 +240,239 @@ window.__athletePins = [
 
     var entries = window.__athletePins.map(function (d, i) {
       var icon = L.divIcon({
-        className: 'athlete-pin-wrap',
-        html: '<span class="athlete-pin" style="animation-delay:' + (i * 40) + 'ms">' +
+        className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
+        html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + (i * 40) + 'ms">' +
               (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false">' : '') +
               '<span class="athlete-pin-shadow"></span></span>',
         iconSize: [44, 54], iconAnchor: [22, 52]
       });
       var m = L.marker([d.lat, d.lng], { icon: icon, riseOnHover: true }).addTo(map);
-      m.bindTooltip(
-        '<strong>' + d.name + '</strong>' +
-        (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
-        '<br><small>' + (d.born ? d.born.split('/').pop() : '') +
-        (d.hometown ? ' · ' + d.hometown : '') + '</small>',
+      var tipHtml = d.kind === 'place'
+        ? '<strong>' + d.name + '</strong>' +
+          (d.region ? '<br><small>' + d.region + '</small>' : '')
+        : '<strong>' + d.name + '</strong>' +
+          (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
+          '<br><small>' + (d.born ? d.born.split('/').pop() : '') +
+          (d.hometown ? ' · ' + d.hometown : '') + '</small>';
+      m.bindTooltip(tipHtml,
         { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
       );
       m.on('click', function () {
         qv.querySelector('.athlete-qv-avatar').src = d.avatar;
         qv.querySelector('.athlete-qv-avatar').alt = d.name;
         qv.querySelector('.athlete-qv-name').textContent = d.name;
-        qv.querySelector('.athlete-qv-nick').textContent = d.nick ? '“' + d.nick + '”' : '';
-        var rows = [
-          ['Quốc tịch', d.country], ['Nguyên quán', d.hometown],
-          ['Ngày sinh', d.born], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]
-        ].filter(function (r) { return r[1]; });
+        qv.querySelector('.athlete-qv-nick').textContent = d.kind === 'place'
+          ? (d.subtitle || '')
+          : (d.nick ? '“' + d.nick + '”' : '');
+        var rows = d.kind === 'place'
+          ? [['Vùng', d.region], ['Dân số', d.population],
+             ['Kinh tế', d.economy], ['Lễ hội', d.festival],
+             ['Điểm nhấn', d.subtitle]]
+          : [['Quốc tịch', d.country], ['Nguyên quán', d.hometown],
+             ['Ngày sinh', d.born], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]];
+        rows = rows.filter(function (r) { return r[1]; });
         qv.querySelector('.athlete-qv-grid').innerHTML = rows.map(function (r) {
           return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
         }).join('');
         qv.querySelector('.athlete-qv-link').href = d.url;
+        qv.querySelector('.athlete-qv-link').textContent = d.kind === 'place'
+          ? 'Xem bài viết đầy đủ ↓' : 'Xem hồ sơ đầy đủ ↓';
         qv.hidden = false;
       });
-      return { marker: m, series: d.series };
+      return {
+        marker: m, kind: d.kind, series: d.series, country: d.country || '',
+        searchText: normalizeText([d.name, d.nick, d.series, d.country, d.hometown,
+          d.event, d.subtitle, d.region, d.economy, d.festival].join(' '))
+      };
     });
 
+    // Khung nhìn theo quốc gia — dùng khi chọn trong dropdown Du lịch
+    var COUNTRY_BOUNDS = {
+      Vietnam:  [[8.0, 102.0], [23.5, 110.5]],
+      China:    [[18.0, 73.0], [54.0, 135.0]],
+      Japan:    [[30.0, 129.0], [45.5, 146.0]],
+      Taiwan:   [[21.4, 119.0], [25.6, 122.5]],
+      Thailand: [[5.5, 97.0], [20.6, 106.0]],
+      Korea:    [[33.0, 124.0], [39.5, 132.5]]
+    };
+    var HOME_VIEW = { center: [20, 105], zoom: 2 };
+
     var filterBar = document.getElementById('athlete-map-filters');
-    filterBar.addEventListener('click', function (e) {
-      var btn = e.target.closest('button');
-      if (!btn) return;
-      filterBar.querySelectorAll('button').forEach(function (b) {
-        b.classList.toggle('home-tab-active', b === btn);
-      });
-      var f = btn.dataset.filter, shown = 0;
+    var sportDrop = document.getElementById('filter-drop-sport');
+    var travelDrop = document.getElementById('filter-drop-travel');
+    var sportLabel = sportDrop.querySelector('.filter-drop-label');
+    var travelLabel = travelDrop ? travelDrop.querySelector('.filter-drop-label') : null;
+    var activeFilter = 'all', activeSport = 'all', activeCountry = 'all';
+
+    // Filter mặc định + ghi nhớ lựa chọn của người dùng
+    var DEFAULT_FILTER = {{ include.default_filter | default: "all" | jsonify }};
+    var LS_KEY = 'yedas-map-filters';
+    function saveFilters() {
+      try {
+        localStorage.setItem(LS_KEY, JSON.stringify({
+          f: activeFilter, sport: activeSport, country: activeCountry
+        }));
+      } catch (e) {}
+    }
+    function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+
+    function normalizeText(value) {
+      return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd');
+    }
+
+    var searchInput = document.getElementById('athlete-map-search');
+    searchInput.addEventListener('input', function () { applyFilters(true); });
+
+    function applyFilters(silent) {
+      var shown = 0, bounds = [];
+      var terms = normalizeText(searchInput.value).trim().split(/\s+/).filter(Boolean);
       entries.forEach(function (en) {
-        var on = f === 'all' || en.series === f;
-        if (on) { en.marker.addTo(map); shown++; }
+        var on;
+        if (activeFilter === 'all') on = true;
+        else if (activeFilter === 'Thể thao')
+          on = en.kind === 'athlete' && (activeSport === 'all' || en.series === activeSport);
+        else if (activeFilter === 'Du lịch')
+          on = en.kind === 'place' && (activeCountry === 'all' || en.country === activeCountry);
+        else on = false;
+        on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
+        if (on) { en.marker.addTo(map); shown++; bounds.push(en.marker.getLatLng()); }
         else map.removeLayer(en.marker);
       });
       if (count) count.textContent = shown;
       close();
+
+      // Tự zoom theo filter: quốc gia cụ thể → khung nước đó;
+      // "Tất cả" → về khung nhìn mặc định; còn lại fit theo các pin đang hiện
+      if (silent) return;
+      if (activeFilter === 'Du lịch' && activeCountry !== 'all' && COUNTRY_BOUNDS[activeCountry]) {
+        map.flyToBounds(COUNTRY_BOUNDS[activeCountry], { padding: [40, 40], duration: 1.2, maxZoom: 8 });
+      } else if (activeFilter === 'all') {
+        map.flyTo(HOME_VIEW.center, HOME_VIEW.zoom, { duration: 1.0 });
+      } else if (bounds.length) {
+        map.flyToBounds(L.latLngBounds(bounds), { padding: [50, 50], duration: 1.2, maxZoom: 7 });
+      }
+    }
+
+    function resetDrop(wrap, label, baseLabel, key, items) {
+      wrap.querySelectorAll('.drop-item').forEach(function (b) {
+        b.classList.toggle('drop-item-active', b.dataset[key] === 'all');
+      });
+      label.textContent = baseLabel;
+    }
+
+    function setMainFilter(name, btn, silent) {
+      activeFilter = name;
+      filterBar.querySelectorAll(':scope > .home-tab, :scope .filter-drop > .home-tab').forEach(function (b) {
+        b.classList.toggle('home-tab-active', b === btn);
+      });
+      if (name !== 'Thể thao' && activeSport !== 'all') {
+        activeSport = 'all';
+        resetDrop(sportDrop, sportLabel, 'Thể thao', 'sport');
+      }
+      if (name !== 'Du lịch' && activeCountry !== 'all' && travelDrop) {
+        activeCountry = 'all';
+        resetDrop(travelDrop, travelLabel, 'Du lịch', 'country');
+      }
+      applyFilters(silent);
+      saveFilters();
+    }
+
+    filterBar.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+
+      // Chọn môn trong dropdown Thể thao → tự bật filter Thể thao
+      if (btn.dataset.sport) {
+        activeSport = btn.dataset.sport;
+        sportDrop.querySelectorAll('.drop-item').forEach(function (b) {
+          b.classList.toggle('drop-item-active', b === btn);
+        });
+        sportLabel.textContent = activeSport === 'all' ? 'Thể thao'
+          : 'Thể thao: ' + cap(btn.textContent.trim());
+        setMainFilter('Thể thao', sportDrop.querySelector('[data-filter="Thể thao"]'));
+        sportDrop.classList.remove('open');
+        return;
+      }
+
+      // Chọn quốc gia trong dropdown Du lịch → tự bật filter Du lịch
+      if (btn.dataset.country) {
+        activeCountry = btn.dataset.country;
+        travelDrop.querySelectorAll('.drop-item').forEach(function (b) {
+          b.classList.toggle('drop-item-active', b === btn);
+        });
+        travelLabel.textContent = activeCountry === 'all' ? 'Du lịch' : 'Du lịch: ' + activeCountry;
+        setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
+        travelDrop.classList.remove('open');
+        return;
+      }
+
+      if (!btn.dataset.filter) return;
+      var f = btn.dataset.filter;
+      if (f === 'Thể thao') sportDrop.classList.toggle('open');
+      else sportDrop.classList.remove('open');
+      if (f === 'Du lịch' && travelDrop) travelDrop.classList.toggle('open');
+      else if (travelDrop) travelDrop.classList.remove('open');
+      if (f === activeFilter) {
+        sportDrop.classList.remove('open');
+        if (travelDrop) travelDrop.classList.remove('open');
+        setMainFilter('all', null);
+      } else {
+        setMainFilter(f, btn);
+      }
     });
+
+    // Phóng to trong tab trình duyệt — phủ viewport, giữ hàng filter phía trên
+    var section = el.closest('.athlete-map-section');
+    var fsBtn = document.getElementById('map-fs-btn');
+    function setMax(on) {
+      if (on) {
+        var nav = document.querySelector('.navbar-custom');
+        section.style.setProperty('--nav-h', (nav ? nav.offsetHeight : 66) + 'px');
+      }
+      section.classList.toggle('is-max', on);
+      document.body.style.overflow = on ? 'hidden' : '';
+      fsBtn.textContent = on ? '✕' : '⛶';
+      fsBtn.setAttribute('aria-label', on ? 'Thu nhỏ bản đồ' : 'Phóng to bản đồ');
+      setTimeout(function () { map.invalidateSize(); }, 60);
+    }
+    fsBtn.addEventListener('click', function () {
+      setMax(!section.classList.contains('is-max'));
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && section.classList.contains('is-max')) setMax(false);
+    });
+
+    // Đóng dropdown khi click ra ngoài
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.filter-drop')) {
+        sportDrop.classList.remove('open');
+        if (travelDrop) travelDrop.classList.remove('open');
+      }
+    });
+
+    // Khôi phục filter lần trước (localStorage), fallback về default
+    try {
+      var saved = JSON.parse(localStorage.getItem(LS_KEY) || 'null') || {};
+      var f = ['all', 'Thể thao', 'Du lịch'].indexOf(saved.f) >= 0 ? saved.f : DEFAULT_FILTER;
+      if (f === 'Du lịch' && !travelDrop) f = 'all';
+      if (saved.sport && sportDrop.querySelector('[data-sport="' + saved.sport + '"]')) {
+        activeSport = saved.sport;
+        var sb = sportDrop.querySelector('[data-sport="' + saved.sport + '"]');
+        sportDrop.querySelector('[data-sport="all"]').classList.remove('drop-item-active');
+        sb.classList.add('drop-item-active');
+        sportLabel.textContent = 'Thể thao: ' + cap(sb.textContent.trim());
+      }
+      if (saved.country && travelDrop && travelDrop.querySelector('[data-country="' + saved.country + '"]')) {
+        activeCountry = saved.country;
+        var cb = travelDrop.querySelector('[data-country="' + saved.country + '"]');
+        travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
+        cb.classList.add('drop-item-active');
+        travelLabel.textContent = 'Du lịch: ' + activeCountry;
+      }
+      var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
+        : (f === 'Thể thao' ? sportDrop : travelDrop).querySelector(':scope > .home-tab');
+      setMainFilter(f, initBtn, true); // silent: không bay zoom lúc mới load
+    } catch (e) {}
   }
 
   if (window.L) initMap();

@@ -3284,8 +3284,145 @@ body:has(.home-landing) .post-container {
 
 .athlete-map-filters {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 0.4rem;
   margin-bottom: 0.9rem;
+  max-width: 100%;
+}
+
+.athlete-map-search {
+  flex: 1 1 220px;
+  min-width: 0;
+  width: 260px;
+  max-width: 100%;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.athlete-map-search::placeholder {
+  color: var(--muted);
+}
+
+.athlete-map-search:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Lưới thư viện ảnh trong bài du lịch */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  margin: 1rem 0 1.5rem;
+  clear: both;
+}
+
+.photo-grid figure {
+  margin: 0;
+}
+
+.photo-grid figure img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photo-grid figcaption {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Dropdown sub-menu trong filter bản đồ */
+.filter-drop { position: relative; }
+
+.filter-drop .drop-caret {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 0.75em;
+  transition: transform 0.2s ease;
+}
+
+.filter-drop.open .drop-caret,
+.filter-drop:hover .drop-caret { transform: rotate(180deg); }
+
+.filter-drop .drop-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 700;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 190px;
+  padding: 0.45rem;
+  background: var(--surface, #fff);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.18), 0 2px 8px rgba(0, 0, 0, 0.08);
+  animation: drop-menu-in 0.18s ease;
+}
+
+@keyframes drop-menu-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Mũi tên nhỏ trên đỉnh menu */
+.filter-drop .drop-menu::before {
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 22px;
+  width: 12px;
+  height: 12px;
+  background: var(--surface, #fff);
+  border-left: 1px solid var(--hairline);
+  border-top: 1px solid var(--hairline);
+  transform: rotate(45deg);
+}
+
+.filter-drop:hover .drop-menu,
+.filter-drop.open .drop-menu { display: flex; }
+
+.drop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.55rem 0.8rem;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.88rem;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.drop-item:hover { background: var(--bg-light); }
+
+.drop-item.drop-item-active {
+  background: var(--bg-light);
+  font-weight: 700;
+}
+
+.drop-item.drop-item-active::after {
+  content: "✓";
+  color: #f5a623;
+  font-size: 0.95em;
 }
 
 .athlete-map {
@@ -3303,6 +3440,59 @@ body:has(.home-landing) .post-container {
 .athlete-map .leaflet-container {
   font: inherit;
   border-radius: inherit;
+}
+
+/* Nút toàn màn hình — góc trái dưới, tránh quick view (phải trên) và attribution (phải dưới) */
+.map-fs-btn {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 800;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--hairline);
+  background: var(--surface, #fff);
+  color: var(--ink);
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+  transition: background 0.15s ease;
+}
+
+.map-fs-btn:hover { background: var(--bg-light); }
+
+/* Phóng to trong tab trình duyệt — overlay fixed phủ viewport, giữ hàng filter trên cùng */
+.athlete-map-section.is-max {
+  position: fixed;
+  top: var(--nav-h, 66px);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1020;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: var(--bg-white);
+  padding: 1rem 1.5rem;
+  overflow-y: auto;
+}
+
+.athlete-map-section.is-max .athlete-map-head { flex: none; }
+
+.athlete-map-section.is-max .athlete-map {
+  flex: 1;
+  height: auto;
+  min-height: 0;
+  margin-bottom: 0;
+  border-radius: 14px;
+}
+
+.athlete-map-section.is-max .athlete-detail {
+  flex: none;
+  max-height: 45%;
+  overflow-y: auto;
 }
 
 .athlete-map .leaflet-control-zoom {
@@ -3357,6 +3547,11 @@ body:has(.home-landing) .post-container {
 }
 
 .athlete-pin:hover { transform: scale(1.18); }
+
+/* Pin điểm đến du lịch — viền + đuôi màu cam để phân biệt với pin VĐV */
+.athlete-pin.place-pin { border-color: #f5a623; }
+.athlete-pin.place-pin img { object-position: center; }
+.place-pin-wrap::after { border-top-color: #f5a623; }
 
 /* Mũi nhọn dưới chân pin — kiểu marker Google Maps */
 .athlete-pin-wrap::after {
@@ -3471,7 +3666,7 @@ body:has(.home-landing) .post-container {
 .athlete-qv-grid dd {
   margin: 0;
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--ink);
 }
 

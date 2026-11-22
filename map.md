@@ -6,4 +6,4 @@ cover-img: "/assets/img/hero-4.jpg"
 permalink: /map/
 ---
 
-{% include athlete-map.html %}
+{% include athlete-map.html default_filter="all" %}

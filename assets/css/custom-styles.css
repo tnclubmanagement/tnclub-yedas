@@ -3541,6 +3541,9 @@ body:has(.home-landing) .post-container {
 
 .map-fs-btn:hover { background: var(--bg-light); }
 
+/* Nút về giữa vùng đang chọn — xếp chồng ngay trên nút toàn màn hình */
+.map-center-btn { bottom: 58px; }
+
 /* Phóng to trong tab trình duyệt — overlay fixed phủ viewport, giữ hàng filter trên cùng */
 .athlete-map-section.is-max {
   position: fixed;

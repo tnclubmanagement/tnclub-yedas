@@ -54,6 +54,7 @@
   </div>
   <div class="athlete-map" id="athlete-map">
     <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="Toàn màn hình" title="Toàn màn hình">⛶</button>
+    <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="Về giữa vùng đang chọn" title="Về giữa vùng đang chọn">◎</button>
     <div class="athlete-quickview" id="athlete-quickview" hidden>
       <button class="athlete-qv-close" type="button" aria-label="Đóng">&times;</button>
       <div class="athlete-qv-head">
@@ -331,7 +332,7 @@ window.__athletePins = [
     searchInput.addEventListener('input', function () { applyFilters(true); });
 
     function applyFilters(silent) {
-      var shown = 0, bounds = [];
+      var shown = 0;
       var terms = normalizeText(searchInput.value).trim().split(/\s+/).filter(Boolean);
       entries.forEach(function (en) {
         var on;
@@ -342,7 +343,7 @@ window.__athletePins = [
           on = en.kind === 'place' && (activeCountry === 'all' || en.country === activeCountry);
         else on = false;
         on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
-        if (on) { en.marker.addTo(map); shown++; bounds.push(en.marker.getLatLng()); }
+        if (on) { en.marker.addTo(map); shown++; }
         else map.removeLayer(en.marker);
       });
       if (count) count.textContent = shown;
@@ -351,12 +352,24 @@ window.__athletePins = [
       // Tự zoom theo filter: quốc gia cụ thể → khung nước đó;
       // "Tất cả" → về khung nhìn mặc định; còn lại fit theo các pin đang hiện
       if (silent) return;
+      focusView();
+    }
+
+    // Bay về đúng khung nhìn của lựa chọn hiện tại — nút ◎ trên bản đồ
+    // và filter đều đi qua hàm này (zoom luôn được áp theo vùng đích).
+    function focusView() {
       if (activeFilter === 'Du lịch' && activeCountry !== 'all' && COUNTRY_BOUNDS[activeCountry]) {
         map.flyToBounds(COUNTRY_BOUNDS[activeCountry], { padding: [40, 40], duration: 1.2, maxZoom: 8 });
       } else if (activeFilter === 'all') {
         map.flyTo(HOME_VIEW.center, HOME_VIEW.zoom, { duration: 1.0 });
-      } else if (bounds.length) {
-        map.flyToBounds(L.latLngBounds(bounds), { padding: [50, 50], duration: 1.2, maxZoom: 7 });
+      } else {
+        var bounds = [];
+        entries.forEach(function (en) {
+          if (map.hasLayer(en.marker)) bounds.push(en.marker.getLatLng());
+        });
+        if (bounds.length) {
+          map.flyToBounds(L.latLngBounds(bounds), { padding: [50, 50], duration: 1.2, maxZoom: 7 });
+        }
       }
     }
 
@@ -444,6 +457,10 @@ window.__athletePins = [
     }
     fsBtn.addEventListener('click', function () {
       setMax(!section.classList.contains('is-max'));
+    });
+    document.getElementById('map-center-btn').addEventListener('click', function () {
+      close();
+      focusView();
     });
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && section.classList.contains('is-max')) setMax(false);

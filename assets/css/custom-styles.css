@@ -3697,16 +3697,6 @@ body:has(.home-landing) .post-container {
   transition: transform 0.2s ease;
 }
 
-/* Avatar pin lấy từ sprite sheet (1 request thay vì hàng trăm) */
-.athlete-pin .pin-face {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: 1600% 1600%;
-}
-
 .athlete-pin:hover { transform: scale(1.18); }
 
 /* Pin điểm đến du lịch — viền + đuôi màu cam để phân biệt với pin VĐV */

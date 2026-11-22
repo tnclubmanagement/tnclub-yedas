@@ -75,6 +75,10 @@ place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
                                 # Algeria / Ethiopia / Kenya / Tanzania /
                                 # Uganda / Rwanda / Senegal / Ghana / Nigeria /
                                 # Namibia / Zimbabwe / South Africa / Mauritius
+                                # United Arab Emirates / Saudi Arabia / Israel /
+                                # Jordan / Turkey / Qatar / Oman / Iran /
+                                # Poland / Czechia / Hungary / Croatia /
+                                # Romania / Bulgaria / Ukraine / Serbia
                                 # (khớp nút lọc trên bản đồ — quốc gia mới cần
                                 # thêm nút + khung nhìn trong
                                 # _includes/athlete-map.html)

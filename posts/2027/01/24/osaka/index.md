@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/24/osaka/cover.jpg"
 geo: [34.6873, 135.5262]
 place_name: "Osaka"
 place_country: "Japan"
+place_population: "~2,7 triệu"
+place_area: "223 km²"
 place_region: "Kansai, Nhật Bản"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Osaka, Ẩm thực, Chụp ảnh]

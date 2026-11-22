@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
 geo: [20.95, 107.07]
 place_name: "Quảng Ninh"
 place_country: "Vietnam"
+place_area: "6.178 km²"
 place_population: "~1,4 triệu"
 place_economy: "Khai thác than, du lịch biển, cảng & kinh tế Vân Đồn"
 place_festival: "Lễ hội Yên Tử, Carnaval Hạ Long"

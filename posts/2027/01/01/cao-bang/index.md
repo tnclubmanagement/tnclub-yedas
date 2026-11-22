@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/01/cao-bang/cover.jpg"
 geo: [22.8539, 106.7222]
 place_name: "Cao Bằng"
 place_country: "Vietnam"
+place_population: "~560.000"
+place_area: "6.724 km²"
 place_region: "Đông Bắc"
 place_economy: "Du lịch thiên nhiên, nông nghiệp và nghề thủ công"
 place_festival: "Lễ hội thác Bản Giốc, lễ hội Lồng Tồng"

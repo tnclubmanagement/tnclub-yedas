@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/20/dai-nam/cover.jpg"
 geo: [23.0015, 120.1608]
 place_name: "Đài Nam"
 place_country: "Taiwan"
+place_population: "~1,85 triệu"
+place_area: "2.192 km²"
 place_region: "Đài Loan"
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Đài Nam, Di sản, Ẩm thực, Chụp ảnh]

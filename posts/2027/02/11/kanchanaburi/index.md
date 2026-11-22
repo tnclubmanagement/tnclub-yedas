@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/11/kanchanaburi/cover.jpg"
 geo: [14.0228, 99.5328]
 place_name: "Kanchanaburi"
 place_country: "Thailand"
+place_population: "~900.000"
+place_area: "19.483 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Kanchanaburi, Erawan, Lịch sử, Chụp ảnh]

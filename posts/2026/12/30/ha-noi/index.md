@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2026/12/30/ha-noi/cover.jpg"
 geo: [21.0288, 105.8525]
 place_name: "Hà Nội"
 place_country: "Vietnam"
+place_population: "~8,4 triệu"
+place_area: "3.360 km²"
 place_region: "Đồng bằng sông Hồng"
 place_economy: "Dịch vụ, thương mại, du lịch văn hóa"
 place_festival: "Lễ hội Cổ Loa, hội Gióng, Trung thu phố cổ"

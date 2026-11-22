@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/15/gyeongju/cover.jpg"
 geo: [35.8345, 129.2265]
 place_name: "Gyeongju"
 place_country: "Korea"
+place_population: "~255.000"
+place_area: "1.324 km²"
 place_region: "Gyeongsangbuk, Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Gyeongju, Di sản, Chụp ảnh]

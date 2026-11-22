@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/29/thuong-hai/cover.jpg"
 geo: [31.2304, 121.4737]
 place_name: "Thượng Hải"
 place_country: "China"
+place_population: "~24,9 triệu"
+place_area: "6.341 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Thượng Hải, Hoa Đông, Chụp ảnh]

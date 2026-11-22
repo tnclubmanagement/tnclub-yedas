@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/02/thanh-do/cover.jpg"
 geo: [30.5728, 104.0668]
 place_name: "Thành Đô"
 place_country: "China"
+place_population: "~21,3 triệu"
+place_area: "14.335 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Thành Đô, Tứ Xuyên, Gấu trúc, Chụp ảnh]

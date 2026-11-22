@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/27/bac-kinh/cover.jpg"
 geo: [39.9042, 116.4074]
 place_name: "Bắc Kinh"
 place_country: "China"
+place_population: "~21,9 triệu"
+place_area: "16.410 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Bắc Kinh, Hoa Bắc, Chụp ảnh]

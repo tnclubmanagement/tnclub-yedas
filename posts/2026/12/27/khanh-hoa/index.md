@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
 geo: [12.24, 109.19]
 place_name: "Khánh Hòa"
 place_country: "Vietnam"
+place_area: "5.197 km²"
 place_population: "~1,3 triệu"
 place_economy: "Du lịch biển, thủy sản & yến sào, cảng Cam Ranh"
 place_festival: "Lễ hội tháp Bà Po Nagar, lễ hội biển Nha Trang"

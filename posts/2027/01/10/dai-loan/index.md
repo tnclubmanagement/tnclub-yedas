@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/10/dai-loan/cover.jpg"
 geo: [25.0330, 121.5654]
 place_name: "Đài Bắc, Đài Loan"
 place_country: "Taiwan"
+place_population: "~23 triệu"
+place_area: "36.197 km²"
 place_region: "Đông Á"
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Đài Bắc, Chụp ảnh, Giới thiệu]

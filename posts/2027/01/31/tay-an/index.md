@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/31/tay-an/cover.jpg"
 geo: [34.3416, 108.9398]
 place_name: "Tây An"
 place_country: "China"
+place_population: "~13 triệu"
+place_area: "10.108 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Tây An, Thiểm Tây, Di sản, Chụp ảnh]

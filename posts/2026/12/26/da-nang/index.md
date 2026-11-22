@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/26/da-nang/cover.jpg"
 geo: [16.05, 108.21]
 place_name: "Đà Nẵng"
 place_country: "Vietnam"
+place_area: "1.285 km²"
 place_population: "~1,2 triệu"
 place_economy: "Dịch vụ – du lịch, công nghệ cao, cảng biển"
 place_festival: "Lễ hội pháo hoa quốc tế DIFF, lễ hội Quán Thế Âm"

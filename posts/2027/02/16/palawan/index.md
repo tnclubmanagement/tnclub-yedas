@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/16/palawan/philippines-12158.jpg"
 geo: [11.1780, 119.3940]
 place_name: "El Nido, Palawan"
 place_country: "Philippines"
+place_population: "~940.000"
+place_area: "14.650 km²"
 place_region: "Philippines"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Palawan, El Nido, Coron, Biển đảo, Chụp ảnh]

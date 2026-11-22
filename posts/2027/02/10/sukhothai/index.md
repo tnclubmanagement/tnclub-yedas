@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/10/sukhothai/cover.jpg"
 geo: [17.0056, 99.8264]
 place_name: "Sukhothai"
 place_country: "Thailand"
+place_population: "~590.000"
+place_area: "6.671 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Sukhothai, Di sản, Xe đạp, Chụp ảnh]

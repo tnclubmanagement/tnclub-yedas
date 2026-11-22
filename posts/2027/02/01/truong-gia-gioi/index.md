@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/01/truong-gia-gioi/cover.jpg"
 geo: [29.1171, 110.4792]
 place_name: "Trương Gia Giới"
 place_country: "China"
+place_population: "~1,5 triệu"
+place_area: "9.534 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Trương Gia Giới, Hồ Nam, Thiên nhiên, Chụp ảnh]

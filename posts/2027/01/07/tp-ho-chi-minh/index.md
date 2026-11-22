@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/07/tp-ho-chi-minh/cover.jpg"
 geo: [10.7769, 106.6953]
 place_name: "Thành phố Hồ Chí Minh"
 place_country: "Vietnam"
+place_population: "~9,4 triệu"
+place_area: "2.095 km²"
 place_region: "Đông Nam Bộ"
 place_economy: "Thương mại, dịch vụ, công nghiệp và du lịch"
 place_festival: "Lễ hội Áo dài, lễ hội Nghinh Ông Cần Giờ"

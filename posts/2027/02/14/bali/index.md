@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/14/bali/cover.png"
 geo: [-8.5069, 115.2625]
 place_name: "Ubud, Bali"
 place_country: "Indonesia"
+place_population: "~4,4 triệu"
+place_area: "5.780 km²"
 place_region: "Indonesia"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bali, Biển đảo, Văn hóa, Chụp ảnh]

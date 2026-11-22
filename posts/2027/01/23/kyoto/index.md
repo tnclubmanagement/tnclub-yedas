@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/23/kyoto/cover.jpg"
 geo: [34.9949, 135.7850]
 place_name: "Kyoto"
 place_country: "Japan"
+place_population: "~1,44 triệu"
+place_area: "828 km²"
 place_region: "Kansai, Nhật Bản"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Kyoto, Di sản, Chụp ảnh]

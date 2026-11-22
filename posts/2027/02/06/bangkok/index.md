@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/06/bangkok/cover.jpg"
 geo: [13.7563, 100.5018]
 place_name: "Bangkok"
 place_country: "Thailand"
+place_population: "~10 triệu"
+place_area: "1.569 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Bangkok, Chùa cổ, Ẩm thực, Chụp ảnh]

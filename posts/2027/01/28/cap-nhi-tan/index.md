@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/28/cap-nhi-tan/cover.jpg"
 geo: [45.8038, 126.5349]
 place_name: "Cáp Nhĩ Tân"
 place_country: "China"
+place_population: "~9,4 triệu"
+place_area: "53.068 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Cáp Nhĩ Tân, Hắc Long Giang, Mùa đông, Chụp ảnh]

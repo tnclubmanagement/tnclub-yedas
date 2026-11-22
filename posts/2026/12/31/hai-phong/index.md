@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2026/12/31/hai-phong/cover.jpg"
 geo: [20.8449, 106.6881]
 place_name: "Hải Phòng"
 place_country: "Vietnam"
+place_population: "~2,1 triệu"
+place_area: "1.526 km²"
 place_region: "Đồng bằng sông Hồng & duyên hải Bắc Bộ"
 place_economy: "Cảng biển, công nghiệp, dịch vụ và du lịch"
 place_festival: "Lễ hội Hoa Phượng Đỏ, lễ hội du lịch Cát Bà"

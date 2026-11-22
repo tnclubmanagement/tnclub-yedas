@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/25/hue/cover.jpg"
 geo: [16.46, 107.59]
 place_name: "Huế"
 place_country: "Vietnam"
+place_area: "4.947 km²"
 place_population: "~1,15 triệu"
 place_economy: "Du lịch di sản, dệt may, giáo dục"
 place_festival: "Festival Huế (2 năm/lần), lễ hội áo dài"

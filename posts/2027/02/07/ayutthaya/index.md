@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/07/ayutthaya/cover.jpg"
 geo: [14.3532, 100.5689]
 place_name: "Ayutthaya"
 place_country: "Thailand"
+place_population: "~820.000"
+place_area: "2.557 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Ayutthaya, Di sản, Chụp ảnh]

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/05/quang-tri/cover.jpg"
 geo: [17.0026, 107.0520]
 place_name: "Quảng Trị"
 place_country: "Vietnam"
+place_population: "~660.000"
+place_area: "4.740 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Du lịch lịch sử, du lịch thiên nhiên và dịch vụ"
 place_festival: "Lễ hội Vì Hòa bình, các hoạt động tưởng niệm tháng 7"

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/30/hang-chau/cover.jpg"
 geo: [30.2741, 120.1551]
 place_name: "Hàng Châu"
 place_country: "China"
+place_population: "~12,9 triệu"
+place_area: "16.850 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Hàng Châu, Chiết Giang, Chụp ảnh]

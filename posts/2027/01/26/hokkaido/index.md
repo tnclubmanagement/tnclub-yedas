@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/26/hokkaido/cover.jpg"
 geo: [43.0618, 141.3545]
 place_name: "Hokkaido"
 place_country: "Japan"
+place_population: "~5,1 triệu"
+place_area: "83.457 km²"
 place_region: "Nhật Bản"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Hokkaido, Sapporo, Mùa đông, Chụp ảnh]

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/18/tan-bac/cover.jpg"
 geo: [25.1092, 121.8450]
 place_name: "Tân Bắc"
 place_country: "Taiwan"
+place_population: "~4 triệu"
+place_area: "2.053 km²"
 place_region: "Đài Loan"
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Tân Bắc, Cửu Phần, Thiên nhiên, Chụp ảnh]

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/05/urumqi/cover.jpg"
 geo: [43.8256, 87.6168]
 place_name: "Urumqi"
 place_country: "China"
+place_population: "~4,1 triệu"
+place_area: "14.578 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Urumqi, Tân Cương, Thiên Sơn, Chụp ảnh]

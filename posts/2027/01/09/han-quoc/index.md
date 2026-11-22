@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/09/han-quoc/cover.jpg"
 geo: [37.5796, 126.9770]
 place_name: "Seoul, Hàn Quốc"
 place_country: "Korea"
+place_population: "~9,4 triệu"
+place_area: "605 km²"
 place_region: "Đông Á"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Seoul, Chụp ảnh, Giới thiệu]

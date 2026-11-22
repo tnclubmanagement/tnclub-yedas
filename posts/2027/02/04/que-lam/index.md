@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/04/que-lam/cover.jpg"
 geo: [25.2742, 110.2902]
 place_name: "Quế Lâm"
 place_country: "China"
+place_population: "~4,9 triệu"
+place_area: "27.809 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Quế Lâm, Quảng Tây, Dương Sóc, Chụp ảnh]

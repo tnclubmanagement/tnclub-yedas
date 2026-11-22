@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/08/can-tho/cover.jpg"
 geo: [10.0070, 105.7460]
 place_name: "Cần Thơ"
 place_country: "Vietnam"
+place_population: "~1,25 triệu"
+place_area: "1.440 km²"
 place_region: "Đồng bằng sông Cửu Long"
 place_economy: "Thương mại sông nước, nông nghiệp và du lịch"
 place_festival: "Ok Om Bok, đua ghe Ngo và các lễ hội Khmer"

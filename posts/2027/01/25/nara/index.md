@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/25/nara/cover.jpg"
 geo: [34.6851, 135.8430]
 place_name: "Nara"
 place_country: "Japan"
+place_population: "~350.000"
+place_area: "277 km²"
 place_region: "Kansai, Nhật Bản"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Nara, Di sản, Thiên nhiên, Chụp ảnh]

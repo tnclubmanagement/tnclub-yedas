@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 geo: [11.94, 108.44]
 place_name: "Lâm Đồng"
 place_country: "Vietnam"
+place_area: "9.773 km²"
 place_population: "~1,35 triệu"
 place_economy: "Nông nghiệp công nghệ cao (hoa, cà phê), du lịch"
 place_festival: "Festival hoa Đà Lạt, lễ hội trà Đà Lạt"

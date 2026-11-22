@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/29/kien-giang/cover.jpg"
 geo: [10.29, 103.98]
 place_name: "Kiên Giang"
 place_country: "Vietnam"
+place_area: "6.348 km²"
 place_population: "~1,8 triệu"
 place_economy: "Thủy sản, nước mắm Phú Quốc, du lịch đảo, lúa gạo"
 place_festival: "Lễ hội Nghinh Ông, lễ hội Nguyễn Trung Trực"

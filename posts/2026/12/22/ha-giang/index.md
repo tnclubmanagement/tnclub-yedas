@@ -8,6 +8,7 @@ thumbnail-img: "/posts/2026/12/22/ha-giang/cover.jpg"
 geo: [22.82, 104.98]
 place_name: "Hà Giang"
 place_country: "Vietnam"
+place_area: "7.929 km²"
 place_population: "~905.000"
 place_economy: "Du lịch, nông lâm nghiệp, khoáng sản"
 place_festival: "Lễ hội hoa tam giác mạch, chợ tình Khâu Vai"

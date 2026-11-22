@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/02/ninh-binh/cover.jpg"
 geo: [20.2510, 105.9180]
 place_name: "Ninh Bình"
 place_country: "Vietnam"
+place_population: "~1,05 triệu"
+place_area: "1.411 km²"
 place_region: "Đồng bằng sông Hồng"
 place_economy: "Du lịch di sản, dịch vụ và nông nghiệp"
 place_festival: "Lễ hội Hoa Lư, lễ hội Tràng An"

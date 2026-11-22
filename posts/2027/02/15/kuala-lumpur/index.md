@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/15/kuala-lumpur/cover.png"
 geo: [3.1390, 101.6869]
 place_name: "Kuala Lumpur"
 place_country: "Malaysia"
+place_population: "~2 triệu"
+place_area: "243 km²"
 place_region: "Malaysia"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Kuala Lumpur, Ẩm thực, Thành phố, Chụp ảnh]

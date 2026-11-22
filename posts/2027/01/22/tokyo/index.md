@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/22/tokyo/cover.jpg"
 geo: [35.7148, 139.7967]
 place_name: "Tokyo"
 place_country: "Japan"
+place_population: "~14 triệu"
+place_area: "2.194 km²"
 place_region: "Nhật Bản"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Tokyo, Đô thị, Chụp ảnh]

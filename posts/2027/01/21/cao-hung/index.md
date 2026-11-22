@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/21/cao-hung/cover.jpg"
 geo: [22.6813, 120.2927]
 place_name: "Cao Hùng"
 place_country: "Taiwan"
+place_population: "~2,7 triệu"
+place_area: "2.952 km²"
 place_region: "Đài Loan"
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Cao Hùng, Văn hóa, Chụp ảnh]

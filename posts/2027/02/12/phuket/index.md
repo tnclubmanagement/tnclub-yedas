@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/12/phuket/cover.jpg"
 geo: [7.8804, 98.3923]
 place_name: "Phuket"
 place_country: "Thailand"
+place_population: "~420.000"
+place_area: "576 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Phuket, Biển đảo, Phố cổ, Chụp ảnh]

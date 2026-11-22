@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/08/chiang-mai/cover.jpg"
 geo: [18.7883, 98.9853]
 place_name: "Chiang Mai"
 place_country: "Thailand"
+place_population: "~1,8 triệu"
+place_area: "20.107 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Chiang Mai, Lanna, Ẩm thực, Chụp ảnh]

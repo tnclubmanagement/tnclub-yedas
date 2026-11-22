@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/13/krabi/cover.jpg"
 geo: [8.0863, 98.9063]
 place_name: "Krabi"
 place_country: "Thailand"
+place_population: "~480.000"
+place_area: "4.709 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Krabi, Railay, Biển đảo, Chụp ảnh]

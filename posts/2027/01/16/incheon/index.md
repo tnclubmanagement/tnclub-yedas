@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/16/incheon/cover.jpg"
 geo: [37.4763, 126.6172]
 place_name: "Incheon"
 place_country: "Korea"
+place_population: "~3 triệu"
+place_area: "1.063 km²"
 place_region: "Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Incheon, Kiến trúc, Chụp ảnh]

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/19/dai-trung/cover.jpg"
 geo: [24.3110, 120.5490]
 place_name: "Đài Trung"
 place_country: "Taiwan"
+place_population: "~2,8 triệu"
+place_area: "2.215 km²"
 place_region: "Đài Loan"
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Đài Trung, Hoàng hôn, Chụp ảnh]

@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/14/jeju/cover.jpg"
 geo: [33.4581, 126.9425]
 place_name: "Jeju"
 place_country: "Korea"
+place_population: "~670.000"
+place_area: "1.848 km²"
 place_region: "Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Jeju, Biển, Thiên nhiên, Chụp ảnh]

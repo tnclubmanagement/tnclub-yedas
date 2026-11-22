@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/11/nhat-ban/cover.jpg"
 geo: [35.7148, 139.7967]
 place_name: "Tokyo, Nhật Bản"
 place_country: "Japan"
+place_population: "~124 triệu"
+place_area: "377.975 km²"
 place_region: "Đông Á"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Tokyo, Kyoto, Chụp ảnh, Giới thiệu]

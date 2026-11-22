@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/04/nghe-an/cover.jpg"
 geo: [18.6796, 105.6813]
 place_name: "Nghệ An"
 place_country: "Vietnam"
+place_population: "~3,4 triệu"
+place_area: "16.486 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Dịch vụ, nông nghiệp và du lịch văn hóa – sinh thái"
 place_festival: "Lễ hội Làng Sen, lễ hội đền Cuông"

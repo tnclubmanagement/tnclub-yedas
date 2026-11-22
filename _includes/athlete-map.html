@@ -112,6 +112,7 @@ window.__athletePins = [
       region: {{ post.place_region | default: "" | jsonify }},
       country: {{ post.place_country | default: "Vietnam" | jsonify }},
       population: {{ post.place_population | default: "" | jsonify }},
+      area: {{ post.place_area | default: "" | jsonify }},
       economy: {{ post.place_economy | default: "" | jsonify }},
       festival: {{ post.place_festival | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
@@ -268,7 +269,7 @@ window.__athletePins = [
           ? (d.subtitle || '')
           : (d.nick ? '“' + d.nick + '”' : '');
         var rows = d.kind === 'place'
-          ? [['Vùng', d.region], ['Dân số', d.population],
+          ? [['Vùng', d.region], ['Dân số', d.population], ['Diện tích', d.area],
              ['Kinh tế', d.economy], ['Lễ hội', d.festival],
              ['Điểm nhấn', d.subtitle]]
           : [['Quốc tịch', d.country], ['Nguyên quán', d.hometown],

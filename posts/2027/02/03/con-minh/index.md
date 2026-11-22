@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/03/con-minh/cover.jpg"
 geo: [25.0389, 102.7183]
 place_name: "Côn Minh"
 place_country: "China"
+place_population: "~8,6 triệu"
+place_area: "21.013 km²"
 place_region: "Trung Quốc"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Côn Minh, Vân Nam, Thiên nhiên, Chụp ảnh]

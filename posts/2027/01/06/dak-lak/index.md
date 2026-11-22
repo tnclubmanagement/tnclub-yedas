@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/06/dak-lak/cover.jpg"
 geo: [12.6667, 108.0500]
 place_name: "Đắk Lắk"
 place_country: "Vietnam"
+place_population: "~1,95 triệu"
+place_area: "13.070 km²"
 place_region: "Tây Nguyên & duyên hải Nam Trung Bộ"
 place_economy: "Cà phê, nông nghiệp và du lịch"
 place_festival: "Lễ hội Cà phê Buôn Ma Thuột, sinh hoạt văn hóa cồng chiêng"

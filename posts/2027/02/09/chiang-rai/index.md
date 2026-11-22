@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/02/09/chiang-rai/cover.jpg"
 geo: [19.9105, 99.8406]
 place_name: "Chiang Rai"
 place_country: "Thailand"
+place_population: "~1,3 triệu"
+place_area: "11.678 km²"
 place_region: "Thái Lan"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Chiang Rai, Nghệ thuật, Đồi trà, Chụp ảnh]

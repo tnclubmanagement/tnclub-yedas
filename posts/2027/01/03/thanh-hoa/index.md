@@ -8,6 +8,8 @@ thumbnail-img: "/posts/2027/01/03/thanh-hoa/cover.jpg"
 geo: [20.4500, 105.1800]
 place_name: "Thanh Hóa"
 place_country: "Vietnam"
+place_population: "~3,7 triệu"
+place_area: "11.115 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Nông nghiệp, dịch vụ và du lịch sinh thái"
 place_festival: "Lễ hội Lam Kinh, lễ hội du lịch biển Sầm Sơn"

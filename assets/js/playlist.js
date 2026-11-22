@@ -145,10 +145,24 @@
     if (!container) return;
     var playlists = getPlaylists();
     if (!playlists.length) {
-      container.innerHTML = '<p class="playlist-empty">Bạn chưa tạo playlist nào.</p>';
+      container.innerHTML = '<div class="playlist-empty-state">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">' +
+        '<path d="M9 18V6l10-2v11"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="15" r="2.5"/></svg>' +
+        '<h3>Chưa có playlist nào</h3>' +
+        '<p>Tạo playlist đầu tiên ở ô phía trên, rồi mở một bài viết và bấm "Lưu vào playlist".</p></div>';
       return;
     }
     container.innerHTML = playlists.map(function(playlist) {
+      var covers = playlist.items.filter(function(i) { return i.thumb; }).slice(0, 4);
+      var coverHtml;
+      if (covers.length > 1) {
+        coverHtml = '<span class="playlist-cover playlist-cover--grid">' +
+          covers.map(function(i) {
+            return '<img src="' + escapeHtml(i.thumb) + '" alt="" loading="lazy">';
+          }).join('') + '</span>';
+      } else {
+        coverHtml = '';
+      }
       var items = playlist.items.length ? playlist.items.map(function(item) {
         var thumb = item.thumb
           ? '<span class="playlist-item-thumb"><img src="' + escapeHtml(item.thumb) +
@@ -167,13 +181,16 @@
           '" title="Xóa bài này khỏi playlist" aria-label="Xóa bài này khỏi playlist">&times;</button></div>';
       }).join('') : '<p class="playlist-empty">Chưa có bài viết — mở một bài viết và bấm "Lưu vào playlist".</p>';
       return '<section class="playlist-card" data-playlist="' + playlist.id + '">' +
-        '<header class="playlist-card-head"><h2>' + escapeHtml(playlist.name) +
+        coverHtml +
+        '<div class="playlist-card-body"><header class="playlist-card-head"><h2>' + escapeHtml(playlist.name) +
         ' <small>' + playlist.items.length + ' bài</small></h2>' +
         '<div class="playlist-card-actions">' +
-        '<button class="playlist-rename-btn" type="button" title="Đổi tên playlist">Đổi tên</button>' +
-        '<button class="playlist-delete-btn" type="button" title="Xóa playlist này">Xóa playlist</button>' +
+        '<button class="playlist-rename-btn" type="button" title="Đổi tên playlist" aria-label="Đổi tên playlist">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z"/></svg></button>' +
+        '<button class="playlist-delete-btn" type="button" title="Xóa playlist này" aria-label="Xóa playlist này">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M6 6l1 14h10l1-14"/></svg></button>' +
         '</div></header>' +
-        '<div class="playlist-items">' + items + '</div></section>';
+        '<div class="playlist-items">' + items + '</div></div></section>';
     }).join('');
     container.querySelectorAll('.playlist-remove-btn').forEach(function(btn) {
       btn.onclick = function() {

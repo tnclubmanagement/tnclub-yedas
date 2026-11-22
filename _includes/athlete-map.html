@@ -319,7 +319,7 @@ window.__athletePins = [
     var entries = window.__athletePins.map(function (d, i) {
       var icon = L.divIcon({
         className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
-        html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + (i * 40) + 'ms">' +
+        html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + Math.min(i * 20, 1200) + 'ms">' +
               (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '') +
               '<span class="athlete-pin-shadow"></span></span>',
         iconSize: [44, 54], iconAnchor: [22, 52]

@@ -7,7 +7,7 @@ cover-img: "/posts/2027/01/14/jeju/cover.jpg"
 thumbnail-img: "/posts/2027/01/14/jeju/cover.jpg"
 geo: [33.4581, 126.9425]
 place_name: "Jeju"
-place_country: "South Korea"
+place_country: "Korea"
 place_region: "Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Jeju, Biển, Thiên nhiên, Chụp ảnh]

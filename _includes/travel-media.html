@@ -1,0 +1,16 @@
+{% if include.kind == 'photos' %}
+<div class="photo-grid">
+{% for photo in page.travel_photos %}
+  {% if forloop.first %}{% assign photo_file = 'cover.jpg' %}{% else %}{% assign photo_file = 'photo-' | append: forloop.index | append: '.jpg' %}{% endif %}
+  {% assign photo_source = photo[2] | default: page.photo_source %}
+  <figure><img src="{{ page.url | append: photo_file | relative_url }}" alt="{{ photo[1] | escape }}" loading="lazy"><figcaption>{{ photo[1] | escape }} — ảnh theo <a href="{{ photo_source | escape }}" target="_blank" rel="noopener">{{ photo[3] | default: 'Vietravel' | escape }}</a>.</figcaption></figure>
+{% endfor %}
+</div>
+{% elsif include.kind == 'videos' %}
+{% for video in page.travel_videos %}
+<figure class="gallery-video">
+  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/{{ video[0] }}" title="{{ video[1] | escape }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <figcaption>{{ video[1] | escape }} — {{ video[2] | escape }}. <a href="https://www.youtube.com/watch?v={{ video[0] }}" target="_blank" rel="noopener">Xem video gốc trên YouTube</a>.</figcaption>
+</figure>
+{% endfor %}
+{% endif %}

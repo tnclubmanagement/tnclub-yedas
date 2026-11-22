@@ -7,7 +7,7 @@ cover-img: "/posts/2027/01/13/busan/cover.jpg"
 thumbnail-img: "/posts/2027/01/13/busan/cover.jpg"
 geo: [35.1532, 129.1186]
 place_name: "Busan"
-place_country: "South Korea"
+place_country: "Korea"
 place_region: "Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Busan, Biển, Chụp ảnh]

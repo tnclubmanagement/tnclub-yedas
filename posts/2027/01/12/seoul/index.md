@@ -7,7 +7,7 @@ cover-img: "/posts/2027/01/12/seoul/cover.jpg"
 thumbnail-img: "/posts/2027/01/12/seoul/cover.jpg"
 geo: [37.5796, 126.9770]
 place_name: "Seoul"
-place_country: "South Korea"
+place_country: "Korea"
 place_region: "Hàn Quốc"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Seoul, Chụp ảnh]

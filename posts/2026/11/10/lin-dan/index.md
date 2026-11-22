@@ -51,6 +51,16 @@ là "Super Grand Slam".
 - Vô địch Asian Games, nhiều lần cùng đội tuyển Trung Quốc đoạt Thomas Cup và
   Sudirman Cup.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/10/lin-dan/action1.jpg" alt="Lin Dan thi đấu">
+  <figcaption>Lin Dan thi đấu — cú đập cầu hất chéo sân trứ danh — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/10/lin-dan/action2.jpg" alt="Super Dan trên sân">
+  <figcaption>Super Dan trên sân — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 "**Super Dan**" — do người hâm mộ và truyền thông quốc tế đặt, gắn liền với
@@ -62,5 +72,11 @@ Kỳ tích được nhắc nhiều nhất là 2 trận chung kết Olympic thắ
 Chong Wei — cặp đấu kinh điển nhất lịch sử cầu lông với hơn 40 lần chạm trán.
 Ngoài sân, cuộc hôn nhân với cựu vô địch thế giới Tạ Tư Phương (Xie Xingfang)
 cũng là đề tài truyền thông lớn ở Trung Quốc.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/5_YmSE1Vs4w" title="Lin Dan vs Lee Chong Wei — chung kết World Championships 2011" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

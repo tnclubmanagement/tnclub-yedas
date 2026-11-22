@@ -3058,3 +3058,193 @@ body:has(.home-landing) .post-container {
     animation: none;
   }
 }
+
+/* ---------- Typography nội dung bài viết (.post-body) ---------- */
+.blog-post.post-body {
+  font-size: 1.06rem;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+.blog-post.post-body > p {
+  margin: 0 0 1.15rem;
+}
+
+.blog-post.post-body h2 {
+  margin: 2.6rem 0 1rem;
+  padding-bottom: 0.45rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.blog-post.post-body h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-right: 0.55rem;
+  border-radius: 2px;
+  background: var(--accent-blue);
+  transform: rotate(45deg) translateY(-1px);
+}
+
+.blog-post.post-body h3 {
+  margin: 1.8rem 0 0.7rem;
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.blog-post.post-body ul,
+.blog-post.post-body ol {
+  margin: 0 0 1.15rem;
+  padding-left: 1.4rem;
+}
+
+.blog-post.post-body li {
+  margin-bottom: 0.45rem;
+}
+
+.blog-post.post-body li::marker {
+  color: var(--accent-blue);
+}
+
+.blog-post.post-body strong {
+  font-weight: 700;
+}
+
+.blog-post.post-body blockquote {
+  margin: 1.5rem 0;
+  padding: 0.9rem 1.2rem;
+  border-left: 3px solid var(--accent-blue);
+  border-radius: 0 10px 10px 0;
+  background: var(--bg-light);
+  font-style: italic;
+  color: var(--muted);
+}
+
+.blog-post.post-body hr {
+  margin: 2.2rem 0;
+  border: 0;
+  border-top: 1px solid var(--hairline);
+}
+
+/* Dòng nguồn/ngữ cảnh cuối bài viết nghiêng */
+.blog-post.post-body p > em:only-child {
+  color: var(--muted);
+  font-size: 0.92em;
+}
+
+/* ---------- Ảnh minh họa trong bài: khung + click phóng to ---------- */
+.blog-post.post-body figure {
+  width: 62%;
+  margin: 1.5rem auto 1.8rem;
+}
+
+/* Ảnh nổi trái/phải cho chữ chảy quanh: <figure class="fig-left|fig-right"> */
+.blog-post.post-body figure.fig-left,
+.blog-post.post-body figure.fig-right {
+  width: 44%;
+  margin-top: 0.4rem;
+}
+
+.blog-post.post-body figure.fig-left {
+  float: left;
+  margin-right: 1.4rem;
+  margin-left: 0;
+}
+
+.blog-post.post-body figure.fig-right {
+  float: right;
+  margin-left: 1.4rem;
+  margin-right: 0;
+}
+
+/* Hai figure đi liền nhau (fig-left + fig-right): xếp thành 1 hàng 2 ảnh,
+   nội dung phía sau clear xuống dưới — tránh chữ bị kẹp hẹp giữa 2 ảnh. */
+.blog-post.post-body figure.fig-left:has(+ figure.fig-right) {
+  width: 49%;
+  margin-right: 1%;
+}
+.blog-post.post-body figure.fig-left + figure.fig-right {
+  width: 49%;
+  margin-left: 1%;
+}
+.blog-post.post-body figure.fig-left + figure.fig-right + * {
+  clear: both;
+}
+
+/* Ảnh markdown đứng riêng một dòng: không full-width, vừa nhìn hơn */
+.blog-post.post-body p:has(> img:only-child),
+.blog-post.post-body p:has(> a > img:only-child) {
+  max-width: 62%;
+  margin: 1.5rem auto 1.8rem;
+}
+
+.blog-post.post-body img,
+.blog-post.post-body figure img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 1px solid var(--hairline);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
+  cursor: zoom-in;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.blog-post.post-body img:hover,
+.blog-post.post-body figure img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.blog-post.post-body figcaption {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .blog-post.post-body figure,
+  .blog-post.post-body p:has(> img:only-child),
+  .blog-post.post-body p:has(> a > img:only-child) {
+    width: 100%;
+    max-width: 100%;
+  }
+  .blog-post.post-body figure.fig-left,
+  .blog-post.post-body figure.fig-right {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ---------- Nhúng video YouTube responsive trong bài ---------- */
+.blog-post.post-body .video-embed {
+  position: relative;
+  width: 78%;
+  margin: 1.5rem auto 1.8rem;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
+  background: #000;
+}
+
+.blog-post.post-body .video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  .blog-post.post-body .video-embed {
+    width: 100%;
+  }
+}

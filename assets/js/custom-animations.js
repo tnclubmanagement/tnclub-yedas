@@ -41,9 +41,8 @@
       });
     });
 
-    // Gallery: bấm vào ảnh để xem lớn, có thể chuyển ảnh bằng nút hoặc phím.
-    document.querySelectorAll(".post-gallery").forEach(function (gallery) {
-      var images = Array.prototype.slice.call(gallery.querySelectorAll("img"));
+    // Lightbox dùng chung: bấm ảnh phóng to, chuyển ảnh bằng nút hoặc phím.
+    function attachLightbox(images) {
       images.forEach(function (image) {
         if (!image.title) image.title = "Bấm để phóng to";
       });
@@ -100,7 +99,20 @@
           openLightbox(index);
         });
       });
+    }
+
+    // Gallery: gắn lightbox riêng cho từng cụm.
+    document.querySelectorAll(".post-gallery").forEach(function (gallery) {
+      attachLightbox(Array.prototype.slice.call(gallery.querySelectorAll("img")));
     });
+
+    // Ảnh rời trong nội dung bài: gom thành 1 nhóm để lướt qua lại được.
+    var contentImages = Array.prototype.slice.call(
+      document.querySelectorAll(".post-body img")
+    ).filter(function (image) {
+      return !image.closest(".post-gallery") && !image.closest(".athlete-card");
+    });
+    if (contentImages.length) attachLightbox(contentImages);
 
     // Lọc bài viết và đổi giữa chế độ lưới/danh sách trên trang chủ.
     var homeControls = document.querySelector(".home-controls");

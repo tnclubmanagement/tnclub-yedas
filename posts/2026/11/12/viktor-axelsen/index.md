@@ -48,6 +48,16 @@ trong những VĐV phương Tây hiếm hoi thống trị thời đại hiện n
 - Nhiều mùa liên tiếp giữ ngôi số 1 BWF và giành hàng loạt danh hiệu World
   Tour.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/12/viktor-axelsen/action1.jpg" alt="Axelsen năm 16 tuổi tại Dutch Open 2010">
+  <figcaption>Axelsen năm 16 tuổi tại Dutch Open 2010 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/12/viktor-axelsen/action2.jpg" alt="Axelsen thời thiếu niên">
+  <figcaption>Axelsen thời thiếu niên — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 "**The Great Dane**" — vừa chỉ "người Đan Mạch vĩ đại", vừa ám chỉ thể hình
@@ -59,5 +69,11 @@ Axelsen là hiện tượng truyền thông: vlog tập luyện ở Dubai, nói 
 trên sân, và mô hình "VĐV tự do" mà sau này nhiều tay vợt châu Âu học theo.
 Ở Paris 2024 anh khóc nức nở khi bảo vệ vàng — hình ảnh đi vào lịch sử cầu
 lông châu Âu.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/b4bZy8WYOIU" title="Viktor Axelsen vô địch Spain Masters 2019 — BWF highlights" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

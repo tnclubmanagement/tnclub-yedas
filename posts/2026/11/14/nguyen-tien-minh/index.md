@@ -50,6 +50,16 @@ bảng xếp hạng BWF.
   thập kỷ.
 - Nhiều danh hiệu quốc tế hệ thống Grand Prix / Challenge.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/14/nguyen-tien-minh/action1.jpg" alt="Nguyễn Tiến Minh thi đấu US Open 2011">
+  <figcaption>Nguyễn Tiến Minh thi đấu US Open 2011 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/14/nguyen-tien-minh/action2.jpg" alt="Tiến Minh trên bục trao giải US Open Grand Prix Gold 2014">
+  <figcaption>Tiến Minh trên bục trao giải US Open Grand Prix Gold 2014 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 Giới hâm mộ Việt gọi anh là "**tay vợt số 1 Việt Nam**" — vừa là thực tế
@@ -61,5 +71,11 @@ Thời đỉnh cao, Tiến Minh từng gây chấn động khi thắng các tay 
 thế giới như Peter Gade. Sau này anh chuyển sang huấn luyện, mở trung tâm
 đào tạo cầu lông riêng tại TP.HCM, tiếp tục đào tạo thế hệ trẻ cho cầu lông
 Việt Nam.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/SM9pMG_sZRY" title="Nguyễn Tiến Minh vs Lin Dan — BWF 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

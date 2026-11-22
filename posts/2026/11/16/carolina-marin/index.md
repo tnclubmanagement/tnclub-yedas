@@ -47,6 +47,16 @@ Cô là VĐV cầu lông châu Âu thành công nhất ở cấp độ thế gi�
 - **Vô địch châu Âu**: 7 lần liên tiếp.
 - Hai lần tái xuất thành công sau chấn thương đứt dây chằng gối (2019, 2021).
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/16/carolina-marin/action1.jpg" alt="Carolina Marín thi đấu">
+  <figcaption>Carolina Marín thi đấu — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/16/carolina-marin/action2.jpg" alt="Marín tại Olympic Paris 2024">
+  <figcaption>Marín tại Olympic Paris 2024 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 "**La Guerrera**" — "nữ chiến binh", vì phong cách máu lửa và những pha lội
@@ -58,5 +68,11 @@ Sự nghiệp Marín gắn liền với những lần trở lại phi thường:
 2 lần trở về đỉnh cao và đoạt thêm danh hiệu. Tại Olympic Paris 2024 cô lại
 rách gối ngay bán kết khi đang dẫn trước — hình ảnh cô rời sân trong nước
 mắt khiến cả thế giới cầu lông nghẹn ngào.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/fNPKiPoNu9U" title="Carolina Marín vô địch All England 2015 vs Saina Nehwal" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

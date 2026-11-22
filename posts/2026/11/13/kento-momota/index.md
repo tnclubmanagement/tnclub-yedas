@@ -48,6 +48,16 @@ nhất: **11 danh hiệu trong một năm** — kỷ lục Guinness.
 - Hơn 100 tuần đứng số 1 BWF; vô địch All England chưa có nhưng sở hữu gần
   như mọi giải lớn khác của hệ thống World Tour.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/13/kento-momota/action1.jpg" alt="Kento Momota thi đấu">
+  <figcaption>Kento Momota thi đấu — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/13/kento-momota/action2.jpg" alt="Momota với pha rê cầu sát lưới đặc trưng">
+  <figcaption>Momota với pha rê cầu sát lưới đặc trưng — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 Truyền thông châu Á gọi anh là "**tay vợt bất khả chiến bại**" trong giai
@@ -59,5 +69,11 @@ Tháng 1/2020, chiếc xe chở Momota đến sân bay Kuala Lumpur gặp tai n�
 xế tử vong còn anh chấn thương mắt — chấn thương ảnh hưởng thị lực và được
 cho là nguyên nhân khiến phong độ anh không còn như xưa. Năm 2024 anh rời
 đội tuyển quốc gia Nhật Bản sau hơn một thập kỷ cống hiến.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/boQC4J4E1ZQ" title="Kento Momota vs Viktor Axelsen — chung kết BWF 2020" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

@@ -45,6 +45,16 @@ Cô giữ ngôi số 1 thế giới tổng cộng **214 tuần** — kỷ lục 
 - **HCĐ vô địch thế giới** 2021, 2022.
 - Hơn 30 danh hiệu World Tour/Superseries; nhiều mùa giải thống trị.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/15/tai-tzu-ying/action1.jpg" alt="Tai Tzu-ying tại Asian Games 2018">
+  <figcaption>Tai Tzu-ying tại Asian Games 2018 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/15/tai-tzu-ying/action2.jpg" alt="Tai Tzu-ying thi đấu Universiade Đài Bắc 2017">
+  <figcaption>Tai Tzu-ying thi đấu Universiade Đài Bắc 2017 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 "**Nữ hoàng nghệ thuật**" (Queen of Deception) — vì những
@@ -57,5 +67,11 @@ Clip những pha "magic shot" của Tai Tzu-ying là nội dung cầu lông đư
 sẻ nhiều nhất trên mạng xã hội — nhiều cú đánh sau lưng, đánh chéo lưới khi
 đã ngã được BWF đăng lại như "pha bóng của năm". Cô từ giã sự nghiệp thi đấu
 quốc tế sau Olympic Paris 2024.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/NsWV0T0Hb2U" title="Tai Tzu-ying vs An Se-young — chung kết Asia Championships 2023" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

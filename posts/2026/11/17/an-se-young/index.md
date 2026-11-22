@@ -46,6 +46,16 @@ thống cầu lông Hàn Quốc và mở ra vương triều riêng.
 - **Vô địch All England** 2023 và hàng loạt danh hiệu World Tour 1000/750.
 - Giữ ngôi số 1 BWF suốt thời gian dài từ 2023.
 
+<figure class="fig-left">
+  <img src="/posts/2026/11/17/an-se-young/action1.jpg" alt="An Se-young trên sân đấu">
+  <figcaption>An Se-young trên sân đấu — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
+<figure class="fig-right">
+  <img src="/posts/2026/11/17/an-se-young/action2.jpg" alt="An Se-young tại Chinese Taipei Open 2019">
+  <figcaption>An Se-young tại Chinese Taipei Open 2019 — ảnh: Wikimedia Commons</figcaption>
+</figure>
+
 ## Biệt danh
 
 Truyền thông Hàn gọi cô là "**thần đồng cầu lông**" (badminton genius) từ
@@ -57,5 +67,11 @@ Sau tấm vàng Olympic, An Se-young từng công khai bất đồng với cách
 của hiệp hội cầu lông Hàn Quốc — sự việc gây chấn động thể thao nước này và
 dẫn tới những cải cách về điều kiện tập luyện, chấn thương cho VĐV. Cô cũng
 nổi tiếng với nụ cười và cú cảm ơn khán giả sau mỗi trận.
+
+## Video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/49OglwaWp_Y" title="An Se-young vs Akane Yamaguchi — chung kết thế giới" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 *Nguồn tham khảo: BWF, Wikipedia.*

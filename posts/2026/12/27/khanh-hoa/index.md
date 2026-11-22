@@ -33,7 +33,7 @@ Vùng đất Khánh Hòa từng thuộc vương quốc Chăm Pa — tháp Po Nag
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/27/khanh-hoa/img1.jpg" alt="Hòn Chồng Nha Trang">
+  <img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img1.jpg" alt="Hòn Chồng Nha Trang">
   <figcaption>Hòn Chồng — điểm ngắm vịnh Nha Trang đẹp nhất (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Quần thể tháp Chăm trên đồi ven sông Cái — công trình kiến tr�
 Nhóm đá chồng chất kỳ vĩ nhìn ra vịnh; tắm bùn khoáng Tháp Bà — trải nghiệm nghỉ dưỡng đặc trưng Nha Trang.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/27/khanh-hoa/img2.jpg" alt="Tháp Trầm Hương Nha Trang">
+  <img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img2.jpg" alt="Tháp Trầm Hương Nha Trang">
   <figcaption>Tháp Trầm Hương — biểu tượng mới trên quảng trường ven biển Nha Trang (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Nhóm đá chồng chất kỳ vĩ nhìn ra vịnh; tắm bùn khoáng Tháp Bà
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img3.webp" alt="Bãi biển Nha Trang"><figcaption>Bãi biển Nha Trang (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img4.webp" alt="Toàn cảnh bờ biển Nha Trang"><figcaption>Toàn cảnh bờ biển Nha Trang (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img5.webp" alt="Vịnh Nha Trang nhìn từ trên cao"><figcaption>Vịnh Nha Trang nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img6.webp" alt="Nhà hát Đó Nha Trang"><figcaption>Nhà hát Đó Nha Trang (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img7.webp" alt="Điểm check-in ở Nha Trang"><figcaption>Điểm check-in nổi tiếng ở Nha Trang (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/27/khanh-hoa/img8.webp" alt="Biển đảo Nha Trang"><figcaption>Biển đảo Nha Trang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img3.webp" alt="Bãi biển Nha Trang"><figcaption>Bãi biển Nha Trang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img4.webp" alt="Toàn cảnh bờ biển Nha Trang"><figcaption>Toàn cảnh bờ biển Nha Trang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img5.webp" alt="Vịnh Nha Trang nhìn từ trên cao"><figcaption>Vịnh Nha Trang nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img6.webp" alt="Nhà hát Đó Nha Trang"><figcaption>Nhà hát Đó Nha Trang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img7.webp" alt="Điểm check-in ở Nha Trang"><figcaption>Điểm check-in nổi tiếng ở Nha Trang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/27/khanh-hoa/img8.webp" alt="Biển đảo Nha Trang"><figcaption>Biển đảo Nha Trang (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

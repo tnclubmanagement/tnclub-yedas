@@ -31,7 +31,7 @@ athlete:
 Shi Yuqi sinh ngày 28/2/1996 tại Nam Thông, Giang Tô (Trung Quốc). Vượt qua chấn thương mắt cá chân nghiêm trọng năm 2019, anh trở lại mạnh mẽ để lên **số 1 thế giới** năm 2024 và đăng quang **vô địch thế giới 2025** — cây đơn nam Trung Quốc đầu tiên vô địch thế giới sau Chen Long.
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/19/shi-yuqi/action1.jpg" alt="Shi Yuqi thi đấu năm 2018">
+  <img src="{{ site.baseurl }}/posts/2026/12/19/shi-yuqi/action1.jpg" alt="Shi Yuqi thi đấu năm 2018">
   <figcaption>Shi Yuqi năm 2018 — mùa giải vô địch All England đầu tiên (ảnh: Wikimedia Commons)</figcaption>
 </figure>
 

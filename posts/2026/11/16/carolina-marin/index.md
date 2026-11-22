@@ -51,12 +51,12 @@ Cô là VĐV cầu lông châu Âu thành công nhất ở cấp độ thế gi�
 - Hai lần tái xuất thành công sau chấn thương đứt dây chằng gối (2019, 2021).
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/16/carolina-marin/action1.jpg" alt="Carolina Marín thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/16/carolina-marin/action1.jpg" alt="Carolina Marín thi đấu">
   <figcaption>Carolina Marín thi đấu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/16/carolina-marin/action2.jpg" alt="Marín tại Olympic Paris 2024">
+  <img src="{{ site.baseurl }}/posts/2026/11/16/carolina-marin/action2.jpg" alt="Marín tại Olympic Paris 2024">
   <figcaption>Marín tại Olympic Paris 2024 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

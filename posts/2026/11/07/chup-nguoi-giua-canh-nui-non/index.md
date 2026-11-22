@@ -22,7 +22,7 @@ Bạn muốn người xem chú ý vào **con người**, **sự nhỏ bé trư�
 sang một bên. Với ảnh nhấn vào nhân vật, tiến gần hơn nhưng vẫn giữ lại đường
 núi, mây hoặc thung lũng để người xem biết bối cảnh.
 
-![Sơ đồ ba tỉ lệ: người nhỏ giữa cảnh núi, người ở một phần ba khung và chân dung có giữ lại nền núi](/posts/2026/11/07/chup-nguoi-giua-canh-nui-non/ti-le-nguoi-va-nui.svg)
+![Sơ đồ ba tỉ lệ: người nhỏ giữa cảnh núi, người ở một phần ba khung và chân dung có giữ lại nền núi]({{ site.baseurl }}/posts/2026/11/07/chup-nguoi-giua-canh-nui-non/ti-le-nguoi-va-nui.svg)
 <p class="text-muted">Người càng nhỏ, cảnh càng hùng vĩ; người lớn hơn giúp thấy
 biểu cảm và trang phục nhưng vẫn cần giữ một phần núi làm bối cảnh.</p>
 
@@ -34,7 +34,7 @@ Nếu người đang nhìn thẳng vào máy, có thể đặt ở giữa để 
 nhưng hãy kiểm tra xem phía sau đầu có đỉnh núi, cột điện hoặc cành cây “mọc”
 ra không.
 
-![So sánh đặt người chính giữa với đặt người ở một phần ba và chừa khoảng trống theo hướng nhìn](/posts/2026/11/07/chup-nguoi-giua-canh-nui-non/vi-tri-nhan-vat.svg)
+![So sánh đặt người chính giữa với đặt người ở một phần ba và chừa khoảng trống theo hướng nhìn]({{ site.baseurl }}/posts/2026/11/07/chup-nguoi-giua-canh-nui-non/vi-tri-nhan-vat.svg)
 <p class="text-muted">Đặt người lệch sang một bên và chừa không gian về hướng
 nhìn giúp bức ảnh có chuyển động thay vì bị chia đôi cứng nhắc.</p>
 

@@ -44,7 +44,7 @@ Taufik Hidayat sinh năm 1981 tại Bandung, Indonesia, lớn lên trong lò đ�
 - Cùng Indonesia nhiều lần đoạt Thomas Cup.
 
 <figure>
-  <img src="/posts/2026/11/18/taufik-hidayat/action1.jpg" alt="Taufik Hidayat với cú backhand huyền thoại">
+  <img src="{{ site.baseurl }}/posts/2026/11/18/taufik-hidayat/action1.jpg" alt="Taufik Hidayat với cú backhand huyền thoại">
   <figcaption>Taufik Hidayat với cú backhand huyền thoại — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

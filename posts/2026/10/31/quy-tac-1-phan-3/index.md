@@ -20,7 +20,7 @@ và 2 đường kẻ dọc. Thay vì đặt chủ thể/đường chân trời n
 khung hình, hãy đặt lệch vào 1 trong 4 giao điểm của các đường kẻ — ảnh sẽ
 có cảm giác cân đối và "có chuyện để kể" hơn hẳn.
 
-![Sơ đồ lưới 1/3: đường chân trời đặt ở 1/3 trên, nhà và thuyền đặt đúng giao điểm](/posts/2026/10/31/quy-tac-1-phan-3/luoi-1-phan-3.svg)
+![Sơ đồ lưới 1/3: đường chân trời đặt ở 1/3 trên, nhà và thuyền đặt đúng giao điểm]({{ site.baseurl }}/posts/2026/10/31/quy-tac-1-phan-3/luoi-1-phan-3.svg)
 <p class="text-muted">Đường chân trời nằm ở 1/3 phía trên, nhà/thuyền đặt
 đúng vào các giao điểm của lưới — thay vì dồn hết vào chính giữa.</p>
 

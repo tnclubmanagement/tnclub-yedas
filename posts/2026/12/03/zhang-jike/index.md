@@ -37,7 +37,7 @@ Zhang Jike sinh năm 1988 tại Thanh Đảo, Trung Quốc, là tay vợt hoàn 
 - Đánh theo cảm hứng: lúc hay nhất không ai đỡ nổi.
 
 <figure>
-  <img src="/posts/2026/12/03/zhang-jike/action1.jpg" alt="Zhang Jike">
+  <img src="{{ site.baseurl }}/posts/2026/12/03/zhang-jike/action1.jpg" alt="Zhang Jike">
   <figcaption>Zhang Jike — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

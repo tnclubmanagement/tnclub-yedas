@@ -44,7 +44,7 @@ Ratchanok Intanon sinh năm 1995 tại Yasothon, Thái Lan, trong gia đình ngh
 - Nhiều HCV SEA Games cùng đội tuyển Thái Lan.
 
 <figure>
-  <img src="/posts/2026/11/23/ratchanok-intanon/action1.jpg" alt="Ratchanok Intanon tại French Open 2013">
+  <img src="{{ site.baseurl }}/posts/2026/11/23/ratchanok-intanon/action1.jpg" alt="Ratchanok Intanon tại French Open 2013">
   <figcaption>Ratchanok Intanon tại French Open 2013 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

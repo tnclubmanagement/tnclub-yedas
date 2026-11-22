@@ -52,12 +52,12 @@ nhất: **11 danh hiệu trong một năm** — kỷ lục Guinness.
   như mọi giải lớn khác của hệ thống World Tour.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/13/kento-momota/action1.jpg" alt="Kento Momota thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/13/kento-momota/action1.jpg" alt="Kento Momota thi đấu">
   <figcaption>Kento Momota thi đấu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/13/kento-momota/action2.jpg" alt="Momota với pha rê cầu sát lưới đặc trưng">
+  <img src="{{ site.baseurl }}/posts/2026/11/13/kento-momota/action2.jpg" alt="Momota với pha rê cầu sát lưới đặc trưng">
   <figcaption>Momota với pha rê cầu sát lưới đặc trưng — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

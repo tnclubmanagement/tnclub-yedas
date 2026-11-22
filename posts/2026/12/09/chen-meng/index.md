@@ -37,7 +37,7 @@ Chen Meng sinh năm 1994 tại Thanh Đảo, Trung Quốc — quê hương của
 - Khí chất 'đại tỷ': bình tĩnh trước áp lực chung kết nội chiến Trung Quốc.
 
 <figure>
-  <img src="/posts/2026/12/09/chen-meng/action1.jpg" alt="Chen Meng thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/12/09/chen-meng/action1.jpg" alt="Chen Meng thi đấu">
   <figcaption>Chen Meng tại giải châu Á — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

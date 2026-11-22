@@ -44,7 +44,7 @@ Lee Yong-dae sinh năm 1988 tại Hwasun, Hàn Quốc, được xem là tay vợ
 - Số 1 thế giới cả đôi nam và đôi nam nữ.
 
 <figure>
-  <img src="/posts/2026/11/27/lee-yong-dae/action1.jpg" alt="Lee Yong-dae thi đấu đôi nam tại French Open 2013">
+  <img src="{{ site.baseurl }}/posts/2026/11/27/lee-yong-dae/action1.jpg" alt="Lee Yong-dae thi đấu đôi nam tại French Open 2013">
   <figcaption>Lee Yong-dae thi đấu đôi nam tại French Open 2013 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

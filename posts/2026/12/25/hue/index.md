@@ -33,7 +33,7 @@ Huế là kinh đô của 9 chúa Nguyễn (1558–1775) và 13 vị vua triều
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/25/hue/img1.jpg" alt="Đại Nội Huế">
+  <img src="{{ site.baseurl }}/posts/2026/12/25/hue/img1.jpg" alt="Đại Nội Huế">
   <figcaption>Đại Nội Huế — kinh thành của 13 vị vua triều Nguyễn (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Lăng Tự Đức thơ mộng, lăng Khải Định kiến trúc gốm sứ đ�
 Nghe ca Huế trên thuyền rồng dọc sông Hương, ngắm tháp Phước Duyên của chùa Thiên Mụ — biểu tượng lâu đời của cố đô.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/25/hue/img2.jpg" alt="Bên trong Đại Nội Huế">
+  <img src="{{ site.baseurl }}/posts/2026/12/25/hue/img2.jpg" alt="Bên trong Đại Nội Huế">
   <figcaption>Cổng cung đình bên trong Đại Nội (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Nghe ca Huế trên thuyền rồng dọc sông Hương, ngắm tháp Phước D
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/25/hue/img3.webp" alt="Cố đô Huế nhìn từ trên cao"><figcaption>Cố đô Huế nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/25/hue/img4.webp" alt="Bên trong Đại Nội"><figcaption>Bên trong Đại Nội (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/25/hue/img5.webp" alt="Đường sắt qua đèo Hải Vân"><figcaption>Đường sắt qua đèo Hải Vân (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/25/hue/img6.webp" alt="Di tích cố đô Huế"><figcaption>Di tích cố đô Huế (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/25/hue/img7.webp" alt="Cầu Hiền Lương – sông Bến Hải"><figcaption>Cầu Hiền Lương – sông Bến Hải (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/25/hue/img8.webp" alt="Đại Nội Huế"><figcaption>Đại Nội Huế (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img3.webp" alt="Cố đô Huế nhìn từ trên cao"><figcaption>Cố đô Huế nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img4.webp" alt="Bên trong Đại Nội"><figcaption>Bên trong Đại Nội (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img5.webp" alt="Đường sắt qua đèo Hải Vân"><figcaption>Đường sắt qua đèo Hải Vân (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img6.webp" alt="Di tích cố đô Huế"><figcaption>Di tích cố đô Huế (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img7.webp" alt="Cầu Hiền Lương – sông Bến Hải"><figcaption>Cầu Hiền Lương – sông Bến Hải (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/25/hue/img8.webp" alt="Đại Nội Huế"><figcaption>Đại Nội Huế (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

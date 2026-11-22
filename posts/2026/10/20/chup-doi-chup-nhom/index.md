@@ -19,11 +19,11 @@ Xếp cả nhóm đứng thành 1 hàng ngang bằng vai nhau trông khá cứng
 thẻ". Thử để 1-2 người đứng lùi lại phía sau 1 chút, hoặc người cao/thấp
 xen kẽ nhau - bố cục sẽ tự nhiên và có chiều sâu hơn nhiều.
 
-![So sánh đứng thẳng hàng ngang cứng nhắc và so le vị trí/chiều cao tự nhiên hơn](/posts/2026/10/20/chup-doi-chup-nhom/xep-dang-nhom.svg)
+![So sánh đứng thẳng hàng ngang cứng nhắc và so le vị trí/chiều cao tự nhiên hơn]({{ site.baseurl }}/posts/2026/10/20/chup-doi-chup-nhom/xep-dang-nhom.svg)
 <p class="text-muted">So le vị trí (người lùi sau, người tiến trước, cao
 thấp xen kẽ) giúp bố cục mềm mại và có chiều sâu hơn đứng thẳng hàng.</p>
 
-![So sánh nhóm đứng thẳng hàng với nhóm so le chiều cao và xen kẽ khoảng cách](/posts/2026/10/20/chup-doi-chup-nhom/so-le-xen-ke.jpg)
+![So sánh nhóm đứng thẳng hàng với nhóm so le chiều cao và xen kẽ khoảng cách]({{ site.baseurl }}/posts/2026/10/20/chup-doi-chup-nhom/so-le-xen-ke.jpg)
 <p class="text-muted">Không cần tạo dáng phức tạp: chỉ cần thay đổi nhẹ chiều
 cao, khoảng cách và hướng nhìn là nhóm đã tự nhiên hơn.</p>
 
@@ -43,7 +43,7 @@ Khi nhiều người đứng cách máy không đều nhau, điện thoại dễ
 nhầm vào người ở xa hoặc vào hậu cảnh. Luôn chạm tay vào đúng gương mặt
 người quan trọng nhất (hoặc người ở giữa khung hình) trước khi bấm chụp.
 
-![So sánh lấy nét nhầm vào hậu cảnh làm người phía trước bị mờ với chạm lấy nét vào gương mặt chủ thể](/posts/2026/10/20/chup-doi-chup-nhom/cham-lay-net-dung-nguoi.jpg)
+![So sánh lấy nét nhầm vào hậu cảnh làm người phía trước bị mờ với chạm lấy nét vào gương mặt chủ thể]({{ site.baseurl }}/posts/2026/10/20/chup-doi-chup-nhom/cham-lay-net-dung-nguoi.jpg)
 <p class="text-muted">Khi khoảng cách giữa các thành viên khác nhau, hãy chạm
 vào đúng gương mặt quan trọng nhất trước khi chụp để chủ thể chính sắc nét.</p>
 

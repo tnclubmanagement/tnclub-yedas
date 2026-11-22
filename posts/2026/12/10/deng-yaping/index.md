@@ -37,7 +37,7 @@ Deng Yaping sinh năm 1973 tại Trịnh Châu, Trung Quốc, từng bị từ c
 - Ý chí thép: từng bị nói 'không đủ thể hình' nên tập nhiều gấp đôi người khác.
 
 <figure>
-  <img src="/posts/2026/12/10/deng-yaping/action1.jpg" alt="Deng Yaping">
+  <img src="{{ site.baseurl }}/posts/2026/12/10/deng-yaping/action1.jpg" alt="Deng Yaping">
   <figcaption>Deng Yaping — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

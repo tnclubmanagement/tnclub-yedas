@@ -50,12 +50,12 @@ thống cầu lông Hàn Quốc và mở ra vương triều riêng.
 - Giữ ngôi số 1 BWF suốt thời gian dài từ 2023.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/17/an-se-young/action1.jpg" alt="An Se-young trên sân đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/17/an-se-young/action1.jpg" alt="An Se-young trên sân đấu">
   <figcaption>An Se-young trên sân đấu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/17/an-se-young/action2.jpg" alt="An Se-young tại Chinese Taipei Open 2019">
+  <img src="{{ site.baseurl }}/posts/2026/11/17/an-se-young/action2.jpg" alt="An Se-young tại Chinese Taipei Open 2019">
   <figcaption>An Se-young tại Chinese Taipei Open 2019 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

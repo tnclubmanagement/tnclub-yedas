@@ -44,7 +44,7 @@ Zheng Siwei sinh năm 1997 tại Ôn Châu, Trung Quốc. Cùng Huang Yaqiong an
 - Số 1 thế giới kỷ lục dài cùng Huang Yaqiong.
 
 <figure>
-  <img src="/posts/2026/11/28/zheng-siwei/action1.jpg" alt="Zheng Siwei tại Indonesia Open 2017">
+  <img src="{{ site.baseurl }}/posts/2026/11/28/zheng-siwei/action1.jpg" alt="Zheng Siwei tại Indonesia Open 2017">
   <figcaption>Zheng Siwei tại Indonesia Open 2017 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

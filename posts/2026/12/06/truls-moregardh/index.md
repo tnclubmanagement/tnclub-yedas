@@ -37,7 +37,7 @@ Truls Möregårdh sinh năm 2002 tại Hovmantorp, Thụy Điển, là sự nghi
 - Cá tính bùng nổ — vừa thua điểm có thể ngay lập tức đánh cú 'không tưởng'.
 
 <figure>
-  <img src="/posts/2026/12/06/truls-moregardh/action1.jpg" alt="Truls Möregårdh">
+  <img src="{{ site.baseurl }}/posts/2026/12/06/truls-moregardh/action1.jpg" alt="Truls Möregårdh">
   <figcaption>Truls Möregårdh — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

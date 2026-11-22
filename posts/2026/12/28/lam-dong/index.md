@@ -33,7 +33,7 @@ Lâm Đồng là tỉnh Tây Nguyên với thủ phủ Đà Lạt — thành ph�
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/28/lam-dong/img1.jpg" alt="Quảng trường Lâm Viên Đà Lạt">
+  <img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img1.jpg" alt="Quảng trường Lâm Viên Đà Lạt">
   <figcaption>Quảng trường Lâm Viên với công trình hoa dã quỳ và nụ atiso khổng lồ (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Datanla với máng trượt alpine coaster xuyên rừng; Pongour — "Nam thi�
 Đồi Mộng Mơ lãng mạn cổ kính; ga xe lửa cổ nhất Việt Nam; các vườn dâu, cà phê, hồng giòn trải nghiệm hái tại vườn.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/28/lam-dong/img2.jpg" alt="Toàn cảnh Đà Lạt">
+  <img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img2.jpg" alt="Toàn cảnh Đà Lạt">
   <figcaption>Toàn cảnh thành phố Đà Lạt trong sương sớm (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Datanla với máng trượt alpine coaster xuyên rừng; Pongour — "Nam thi�
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/28/lam-dong/img3.webp" alt="Cảnh quan Đà Lạt"><figcaption>Cảnh quan Đà Lạt (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/28/lam-dong/img4.webp" alt="Đà Lạt nhìn từ trên cao"><figcaption>Đà Lạt nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/28/lam-dong/img5.webp" alt="Thành phố Bảo Lộc"><figcaption>Thành phố Bảo Lộc (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/28/lam-dong/img6.webp" alt="Thác Bobla Lâm Đồng"><figcaption>Thác Bobla Lâm Đồng (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/28/lam-dong/img7.webp" alt="Hoa dã quỳ Đà Lạt"><figcaption>Hoa dã quỳ Đà Lạt (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/28/lam-dong/img8.webp" alt="Đèo Prenn"><figcaption>Đèo Prenn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img3.webp" alt="Cảnh quan Đà Lạt"><figcaption>Cảnh quan Đà Lạt (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img4.webp" alt="Đà Lạt nhìn từ trên cao"><figcaption>Đà Lạt nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img5.webp" alt="Thành phố Bảo Lộc"><figcaption>Thành phố Bảo Lộc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img6.webp" alt="Thác Bobla Lâm Đồng"><figcaption>Thác Bobla Lâm Đồng (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img7.webp" alt="Hoa dã quỳ Đà Lạt"><figcaption>Hoa dã quỳ Đà Lạt (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/28/lam-dong/img8.webp" alt="Đèo Prenn"><figcaption>Đèo Prenn (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

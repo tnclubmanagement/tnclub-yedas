@@ -37,7 +37,7 @@ Jan-Ove Waldner sinh năm 1965 tại Stockholm, Thụy Điển, được xem là
 - Chơi 'thông minh hơn khỏe hơn': thắng thế hệ trẻ Trung Quốc ở tuổi 40.
 
 <figure>
-  <img src="/posts/2026/12/04/jan-ove-waldner/action1.jpg" alt="Jan-Ove Waldner">
+  <img src="{{ site.baseurl }}/posts/2026/12/04/jan-ove-waldner/action1.jpg" alt="Jan-Ove Waldner">
   <figcaption>Jan-Ove Waldner — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

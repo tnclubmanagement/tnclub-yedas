@@ -37,7 +37,7 @@ Hugo Calderano sinh năm 1996 tại Rio de Janeiro, Brazil — đất nước c�
 - Chơi cực thể thao, tiếng hét ăn điểm rực lửa kiểu Nam Mỹ.
 
 <figure>
-  <img src="/posts/2026/12/07/hugo-calderano/action1.jpg" alt="Hugo Calderano">
+  <img src="{{ site.baseurl }}/posts/2026/12/07/hugo-calderano/action1.jpg" alt="Hugo Calderano">
   <figcaption>Hugo Calderano — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

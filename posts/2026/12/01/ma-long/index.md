@@ -37,7 +37,7 @@ Ma Long sinh năm 1988 tại An Sơn, Trung Quốc, là tay vợt thành công n
 - Điều khiển nhịp và bàn như 'nhà độc tài' — khiến đối thủ chơi theo ý mình.
 
 <figure>
-  <img src="/posts/2026/12/01/ma-long/action1.jpg" alt="Ma Long">
+  <img src="{{ site.baseurl }}/posts/2026/12/01/ma-long/action1.jpg" alt="Ma Long">
   <figcaption>Ma Long — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

@@ -37,7 +37,7 @@ Sun Yingsha sinh năm 2000 tại Thạch Gia Trang, Trung Quốc, là tay vợt 
 - Tâm lý trận lớn vững như thép dù còn rất trẻ.
 
 <figure>
-  <img src="/posts/2026/12/08/sun-yingsha/action1.jpg" alt="Sun Yingsha">
+  <img src="{{ site.baseurl }}/posts/2026/12/08/sun-yingsha/action1.jpg" alt="Sun Yingsha">
   <figcaption>Sun Yingsha — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

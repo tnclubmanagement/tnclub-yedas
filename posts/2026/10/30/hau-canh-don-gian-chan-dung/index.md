@@ -51,10 +51,10 @@ hơn, trong khi nền phức tạp kéo sự chú ý ra khỏi nhân vật.</p>
 3. Chạm lấy nét vào mắt, bật Portrait nếu máy tách chủ thể ổn và giảm sáng
    nhẹ nếu vùng da bị cháy.
 
-![So sánh chân dung với nền phức tạp và nền đơn sắc](/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg)
+![So sánh chân dung với nền phức tạp và nền đơn sắc]({{ site.baseurl }}/posts/2026/10/30/hau-canh-don-gian-chan-dung/nen-phuc-tap-vs-don-sac.jpg)
 <p class="text-muted">Tách người khỏi tường giúp ảnh có chiều sâu; người chụp nên lùi ra thay vì dí máy quá gần.</p>
 
-![So sánh bỏ qua quy trình 30 giây với ảnh chân dung áp dụng đúng cách chọn nền, khoảng cách, lấy nét và ánh sáng](/posts/2026/10/30/hau-canh-don-gian-chan-dung/quy-trinh-30-giay.jpg)
+![So sánh bỏ qua quy trình 30 giây với ảnh chân dung áp dụng đúng cách chọn nền, khoảng cách, lấy nét và ánh sáng]({{ site.baseurl }}/posts/2026/10/30/hau-canh-don-gian-chan-dung/quy-trinh-30-giay.jpg)
 <p class="text-muted">Bên trái, nhân vật bị chìm vào nền tối và ánh sáng trên mặt
 không đều. Bên phải, nền sạch hơn, chủ thể tách khỏi hậu cảnh và gương mặt
 được chiếu sáng dịu.</p>

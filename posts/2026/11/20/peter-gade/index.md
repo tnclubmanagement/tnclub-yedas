@@ -44,7 +44,7 @@ Peter Gade sinh năm 1976 tại Aalborg, Đan Mạch, là tay vợt châu Âu xu
 - Top 4 Olympic Sydney 2000; 4 lần dự Olympic.
 
 <figure>
-  <img src="/posts/2026/11/20/peter-gade/action1.jpg" alt="Peter Gade">
+  <img src="{{ site.baseurl }}/posts/2026/11/20/peter-gade/action1.jpg" alt="Peter Gade">
   <figcaption>Peter Gade — 'phù thủy' của cầu lông châu Âu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

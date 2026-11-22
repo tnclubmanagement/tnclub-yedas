@@ -33,7 +33,7 @@ Hà Giang là quê hương của hơn 20 dân tộc anh em, trong đó H'Mông c
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/22/ha-giang/img1.jpg" alt="Cột cờ Lũng Cú">
+  <img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img1.jpg" alt="Cột cờ Lũng Cú">
   <figcaption>Cột cờ Lũng Cú — điểm cực Bắc của Tổ quốc (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Một trong "tứ đại đỉnh đèo" của Việt Nam, nhìn xuống dòng s�
 Công viên địa chất toàn cầu UNESCO — ruộng đá, phố cổ Đồng Văn, làng Lô Lô Chải và Dinh Vua Mèo.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/22/ha-giang/img2.jpg" alt="Dốc Thẩm Mã">
+  <img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img2.jpg" alt="Dốc Thẩm Mã">
   <figcaption>Dốc Thẩm Mã — cung đèo chữ S huyền thoại trên quốc lộ 4C (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Công viên địa chất toàn cầu UNESCO — ruộng đá, phố cổ Đồn
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/22/ha-giang/img3.webp" alt="Sông Nho Quế xanh ngọc giữa hẻm Tu Sản"><figcaption>Sông Nho Quế xanh ngọc giữa hẻm Tu Sản (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/22/ha-giang/img4.webp" alt="Mùa hoa tam giác mạch"><figcaption>Mùa hoa tam giác mạch (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/22/ha-giang/img5.webp" alt="Cung đèo vùng cao Hà Giang"><figcaption>Cung đèo vùng cao Hà Giang (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/22/ha-giang/img6.webp" alt="Cao nguyên đá Đồng Văn"><figcaption>Cao nguyên đá Đồng Văn (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/22/ha-giang/img7.webp" alt="Cột cờ Lũng Cú"><figcaption>Cột cờ Lũng Cú (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/22/ha-giang/img8.webp" alt="Dốc Thẩm Mã uốn lượn"><figcaption>Dốc Thẩm Mã uốn lượn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img3.webp" alt="Sông Nho Quế xanh ngọc giữa hẻm Tu Sản"><figcaption>Sông Nho Quế xanh ngọc giữa hẻm Tu Sản (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img4.webp" alt="Mùa hoa tam giác mạch"><figcaption>Mùa hoa tam giác mạch (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img5.webp" alt="Cung đèo vùng cao Hà Giang"><figcaption>Cung đèo vùng cao Hà Giang (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img6.webp" alt="Cao nguyên đá Đồng Văn"><figcaption>Cao nguyên đá Đồng Văn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img7.webp" alt="Cột cờ Lũng Cú"><figcaption>Cột cờ Lũng Cú (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/22/ha-giang/img8.webp" alt="Dốc Thẩm Mã uốn lượn"><figcaption>Dốc Thẩm Mã uốn lượn (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

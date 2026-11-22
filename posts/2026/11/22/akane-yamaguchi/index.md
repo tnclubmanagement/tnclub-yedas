@@ -43,7 +43,7 @@ Akane Yamaguchi sinh năm 1997 tại tỉnh Kumamoto, Nhật Bản. Chỉ cao 1m
 - Số 1 thế giới nhiều tuần; trụ cột đội Uber Cup Nhật Bản.
 
 <figure>
-  <img src="/posts/2026/11/22/akane-yamaguchi/action1.jpg" alt="Akane Yamaguchi thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/22/akane-yamaguchi/action1.jpg" alt="Akane Yamaguchi thi đấu">
   <figcaption>Akane Yamaguchi thi đấu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

@@ -55,12 +55,12 @@ là "Super Grand Slam".
   Sudirman Cup.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/10/lin-dan/action1.jpg" alt="Lin Dan thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/10/lin-dan/action1.jpg" alt="Lin Dan thi đấu">
   <figcaption>Lin Dan thi đấu — cú đập cầu hất chéo sân trứ danh — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/10/lin-dan/action2.jpg" alt="Super Dan trên sân">
+  <img src="{{ site.baseurl }}/posts/2026/11/10/lin-dan/action2.jpg" alt="Super Dan trên sân">
   <figcaption>Super Dan trên sân — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

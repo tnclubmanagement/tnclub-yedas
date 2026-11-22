@@ -21,7 +21,7 @@ lì", trông nhỏ hơn thực tế rất nhiều. Vấn đề thường nằm �
 có 3 lớp (gần - giữa - xa) thay vì phẳng 1 lớp, tạo cảm giác chiều sâu rõ
 rệt hơn hẳn.
 
-![Sơ đồ 3 lớp chiều sâu: tiền cảnh tối gần máy, núi giữa rõ nét, núi xa mờ nhạt](/posts/2026/10/10/chup-nui/lop-canh-nui.svg)
+![Sơ đồ 3 lớp chiều sâu: tiền cảnh tối gần máy, núi giữa rõ nét, núi xa mờ nhạt]({{ site.baseurl }}/posts/2026/10/10/chup-nui/lop-canh-nui.svg)
 <p class="text-muted">Núi càng xa càng nhạt màu (hiệu ứng khí quyển) -
 tận dụng cùng với 1 vật tiền cảnh sẫm màu để tạo chiều sâu rõ rệt.</p>
 

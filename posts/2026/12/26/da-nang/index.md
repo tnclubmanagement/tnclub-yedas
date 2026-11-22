@@ -33,7 +33,7 @@ tags: [Du lịch, Việt Nam, Đà Nẵng, Giới thiệu]
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/26/da-nang/img1.jpg" alt="Cầu Rồng về đêm">
+  <img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img1.jpg" alt="Cầu Rồng về đêm">
   <figcaption>Cầu Rồng về đêm — biểu tượng của Đà Nẵng (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Khu du lịch trên đỉnh núi 1.487m với cáp treo kỷ lục, Cầu Vàng 
 Bãi biển từng được Forbes bình chọn một trong những bãi biển quyến rũ nhất hành tinh; bán đảo Sơn Trà có chùa Linh Ứng tượng Quán Âm 67m.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/26/da-nang/img2.jpg" alt="Bà Nà Hills">
+  <img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img2.jpg" alt="Bà Nà Hills">
   <figcaption>Khu du lịch Bà Nà Hills trên đỉnh núi (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Bãi biển từng được Forbes bình chọn một trong những bãi biển 
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/26/da-nang/img3.webp" alt="Cầu Rồng"><figcaption>Cầu Rồng — biểu tượng của Đà Nẵng (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/26/da-nang/img4.webp" alt="Khu du lịch Bà Nà Hills"><figcaption>Khu du lịch Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/26/da-nang/img5.webp" alt="Đà Nẵng lúc hoàng hôn"><figcaption>Đà Nẵng lúc hoàng hôn (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/26/da-nang/img6.webp" alt="Cầu Rồng mùa xuân"><figcaption>Cầu Rồng mùa xuân (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/26/da-nang/img7.jpg" alt="Biển Mỹ Khê"><figcaption>Biển Mỹ Khê (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/26/da-nang/img8.webp" alt="Cầu Vàng Bà Nà Hills"><figcaption>Cầu Vàng Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img3.webp" alt="Cầu Rồng"><figcaption>Cầu Rồng — biểu tượng của Đà Nẵng (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img4.webp" alt="Khu du lịch Bà Nà Hills"><figcaption>Khu du lịch Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img5.webp" alt="Đà Nẵng lúc hoàng hôn"><figcaption>Đà Nẵng lúc hoàng hôn (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img6.webp" alt="Cầu Rồng mùa xuân"><figcaption>Cầu Rồng mùa xuân (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img7.jpg" alt="Biển Mỹ Khê"><figcaption>Biển Mỹ Khê (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/26/da-nang/img8.webp" alt="Cầu Vàng Bà Nà Hills"><figcaption>Cầu Vàng Bà Nà Hills (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

@@ -21,7 +21,7 @@ chỉ cần biết đứng đúng chỗ.
 điện thoại CÀNG SONG SONG với mặt sàn/trần càng tốt để vòng xoáy không bị
 méo lệch 1 bên.
 
-![Sơ đồ nhìn từ trên xuống: đứng đúng tâm cầu thang xoắn ốc, các bậc tạo vòng tròn đồng tâm đối xứng](/posts/2026/10/04/chup-cau-thang-con-doc/cau-thang-xoay-tam.svg)
+![Sơ đồ nhìn từ trên xuống: đứng đúng tâm cầu thang xoắn ốc, các bậc tạo vòng tròn đồng tâm đối xứng]({{ site.baseurl }}/posts/2026/10/04/chup-cau-thang-con-doc/cau-thang-xoay-tam.svg)
 <p class="text-muted">Lệch tâm dù chỉ 1 chút cũng làm vòng xoáy mất cân
 đối ngay - luôn canh 2 đường chéo giữa khung hình trước khi chụp.</p>
 

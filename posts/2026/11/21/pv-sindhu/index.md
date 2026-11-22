@@ -43,7 +43,7 @@ Pusarla Venkata Sindhu sinh năm 1995 tại Hyderabad, Ấn Độ, con gái hai 
 - Nhiều HCB/HCĐ World Championships; vàng Commonwealth Games 2022.
 
 <figure>
-  <img src="/posts/2026/11/21/pv-sindhu/action1.jpg" alt="PV Sindhu với tấm HCB Olympic Rio 2016">
+  <img src="{{ site.baseurl }}/posts/2026/11/21/pv-sindhu/action1.jpg" alt="PV Sindhu với tấm HCB Olympic Rio 2016">
   <figcaption>PV Sindhu với tấm HCB Olympic Rio 2016 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

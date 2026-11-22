@@ -44,7 +44,7 @@ Kevin Sanjaya Sukamuljo sinh năm 1995 tại Banyuwangi, Indonesia. Cùng Marcus
 - Vàng Asian Games 2018, HCĐ thế giới 2022.
 
 <figure>
-  <img src="/posts/2026/11/26/kevin-sanjaya-sukamuljo/action1.jpg" alt="Sukamuljo đoạt All England 2017 cùng Gideon">
+  <img src="{{ site.baseurl }}/posts/2026/11/26/kevin-sanjaya-sukamuljo/action1.jpg" alt="Sukamuljo đoạt All England 2017 cùng Gideon">
   <figcaption>Sukamuljo đoạt All England 2017 cùng Gideon — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

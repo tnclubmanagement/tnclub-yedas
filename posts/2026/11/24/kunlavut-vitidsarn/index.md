@@ -44,7 +44,7 @@ Kunlavut Vitidsarn sinh năm 2001 tại Thái Lan, sản phẩm của lò đào 
 - Từng đứng số 1 thế giới BWF.
 
 <figure>
-  <img src="/posts/2026/11/24/kunlavut-vitidsarn/action1.jpg" alt="Kunlavut Vitidsarn tại Indonesia Masters 2025">
+  <img src="{{ site.baseurl }}/posts/2026/11/24/kunlavut-vitidsarn/action1.jpg" alt="Kunlavut Vitidsarn tại Indonesia Masters 2025">
   <figcaption>Kunlavut Vitidsarn tại Indonesia Masters 2025 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

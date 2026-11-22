@@ -49,12 +49,12 @@ Cô giữ ngôi số 1 thế giới tổng cộng **214 tuần** — kỷ lục 
 - Hơn 30 danh hiệu World Tour/Superseries; nhiều mùa giải thống trị.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/15/tai-tzu-ying/action1.jpg" alt="Tai Tzu-ying tại Asian Games 2018">
+  <img src="{{ site.baseurl }}/posts/2026/11/15/tai-tzu-ying/action1.jpg" alt="Tai Tzu-ying tại Asian Games 2018">
   <figcaption>Tai Tzu-ying tại Asian Games 2018 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/15/tai-tzu-ying/action2.jpg" alt="Tai Tzu-ying thi đấu Universiade Đài Bắc 2017">
+  <img src="{{ site.baseurl }}/posts/2026/11/15/tai-tzu-ying/action2.jpg" alt="Tai Tzu-ying thi đấu Universiade Đài Bắc 2017">
   <figcaption>Tai Tzu-ying thi đấu Universiade Đài Bắc 2017 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

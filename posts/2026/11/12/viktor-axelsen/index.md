@@ -52,12 +52,12 @@ trong những VĐV phương Tây hiếm hoi thống trị thời đại hiện n
   Tour.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/12/viktor-axelsen/action1.jpg" alt="Axelsen năm 16 tuổi tại Dutch Open 2010">
+  <img src="{{ site.baseurl }}/posts/2026/11/12/viktor-axelsen/action1.jpg" alt="Axelsen năm 16 tuổi tại Dutch Open 2010">
   <figcaption>Axelsen năm 16 tuổi tại Dutch Open 2010 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/12/viktor-axelsen/action2.jpg" alt="Axelsen thời thiếu niên">
+  <img src="{{ site.baseurl }}/posts/2026/11/12/viktor-axelsen/action2.jpg" alt="Axelsen thời thiếu niên">
   <figcaption>Axelsen thời thiếu niên — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

@@ -27,7 +27,7 @@ sau rất dễ bị "cháy" trắng/mất chi tiết màu. Thay vào đó, chạ
 VÙNG BẦU TRỜI SÁNG NHẤT gần mặt trời - cảnh vật phía trước sẽ tối hẳn thành
 silhouette (chỉ còn đường viền đen), tạo hiệu ứng rất ấn tượng.
 
-![So sánh chạm đo sáng vào người (trời cháy trắng) và chạm vào vùng sáng gần mặt trời (cảnh vật thành bóng đen)](/posts/2026/10/05/chup-binh-minh-hoang-hon/do-sang-hoang-hon.svg)
+![So sánh chạm đo sáng vào người (trời cháy trắng) và chạm vào vùng sáng gần mặt trời (cảnh vật thành bóng đen)]({{ site.baseurl }}/posts/2026/10/05/chup-binh-minh-hoang-hon/do-sang-hoang-hon.svg)
 <p class="text-muted">Chạm đúng vùng sáng gần mặt trời giữ được màu trời,
 đổi lại cảnh vật phía trước thành bóng đen (silhouette) - hiệu ứng mong
 muốn.</p>
@@ -39,7 +39,7 @@ Silhouette đẹp cần chủ thể có đường viền RÕ RÀNG, dễ nhận 
 lộn xộn (bụi cây rậm) vì khi thành silhouette sẽ chỉ còn 1 khối đen vô
 định hình.
 
-![So sánh chủ thể hình dáng lộn xộn (trái) và chủ thể có đường viền rõ ràng (trái) để làm silhouette](/posts/2026/10/05/chup-binh-minh-hoang-hon/silhouette-chu-the.jpg)
+![So sánh chủ thể hình dáng lộn xộn (trái) và chủ thể có đường viền rõ ràng (trái) để làm silhouette]({{ site.baseurl }}/posts/2026/10/05/chup-binh-minh-hoang-hon/silhouette-chu-the.jpg)
 <p class="text-muted">Cây khô và người đứng có đường viền rõ ràng rất hợp
 làm silhouette; bụi cây rậm (trái) sẽ chỉ thành khối đen không rõ hình.</p>
 

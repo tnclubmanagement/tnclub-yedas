@@ -31,7 +31,7 @@ athlete:
 Lee Zii Jia sinh ngày 29/3/1998 tại Alor Setar, Kedah (Malaysia). Anh được kỳ vọng là người kế thừa Lee Chong Wei và đáp lại bằng chức **vô địch All England 2021** ngay trước Axelsen ở chung kết, trước khi rời đội tuyển quốc gia năm 2022 để thi đấu độc lập dưới mái nhà "Team LZJ".
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/20/lee-zii-jia/action1.jpg" alt="Lee Zii Jia thi đấu tại Chinese Taipei Open 2018">
+  <img src="{{ site.baseurl }}/posts/2026/12/20/lee-zii-jia/action1.jpg" alt="Lee Zii Jia thi đấu tại Chinese Taipei Open 2018">
   <figcaption>Lee Zii Jia (áo đỏ) đấu Chou Tien-chen tại Chinese Taipei Open 2018 (ảnh: Wikimedia Commons)</figcaption>
 </figure>
 

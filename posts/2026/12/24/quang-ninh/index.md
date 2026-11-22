@@ -33,7 +33,7 @@ Quảng Ninh gắn với chiến thắng Bạch Đằng lừng lẫy của quân
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/24/quang-ninh/img1.jpg" alt="Làng chài trên vịnh Hạ Long">
+  <img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img1.jpg" alt="Làng chài trên vịnh Hạ Long">
   <figcaption>Làng chài nổi giữa các đảo đá vôi trên vịnh Hạ Long (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Phần vịnh phía nam ít đông hơn, thích hợp kayak, bơi lội và ng�
 Quần thể di tích thiền phái Trúc Lâm trên đỉnh núi 1.068m — chùa Hoa Yên, chùa Đồng, đường cáp treo xuyên rừng thông cổ thụ.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/24/quang-ninh/img2.jpg" alt="Vịnh Hạ Long">
+  <img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img2.jpg" alt="Vịnh Hạ Long">
   <figcaption>Du thuyền giữa các đảo đá vôi của vịnh Hạ Long (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Quần thể di tích thiền phái Trúc Lâm trên đỉnh núi 1.068m — ch�
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/24/quang-ninh/img3.webp" alt="Vịnh Hạ Long nhìn từ trên cao"><figcaption>Vịnh Hạ Long nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/24/quang-ninh/img4.webp" alt="Du thuyền tham quan vịnh"><figcaption>Du thuyền tham quan vịnh (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/24/quang-ninh/img5.webp" alt="Du thuyền giữa các đảo đá vôi"><figcaption>Du thuyền giữa các đảo đá vôi (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/24/quang-ninh/img6.webp" alt="Cao nguyên Bình Liêu"><figcaption>Cao nguyên Bình Liêu (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/24/quang-ninh/img7.webp" alt="Cảnh biển Quảng Ninh"><figcaption>Cảnh biển Quảng Ninh (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/24/quang-ninh/img8.webp" alt="Vịnh Hạ Long"><figcaption>Vịnh Hạ Long (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img3.webp" alt="Vịnh Hạ Long nhìn từ trên cao"><figcaption>Vịnh Hạ Long nhìn từ trên cao (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img4.webp" alt="Du thuyền tham quan vịnh"><figcaption>Du thuyền tham quan vịnh (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img5.webp" alt="Du thuyền giữa các đảo đá vôi"><figcaption>Du thuyền giữa các đảo đá vôi (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img6.webp" alt="Cao nguyên Bình Liêu"><figcaption>Cao nguyên Bình Liêu (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img7.webp" alt="Cảnh biển Quảng Ninh"><figcaption>Cảnh biển Quảng Ninh (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/24/quang-ninh/img8.webp" alt="Vịnh Hạ Long"><figcaption>Vịnh Hạ Long (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

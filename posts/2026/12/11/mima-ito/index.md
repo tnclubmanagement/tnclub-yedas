@@ -37,7 +37,7 @@ Mima Ito sinh năm 2000 tại Shizuoka, Nhật Bản, là tay vợt ngoài Trung
 - Chơi cực sát bàn, đánh điểm bóng lên sớm nhất nữ giới.
 
 <figure>
-  <img src="/posts/2026/12/11/mima-ito/action1.jpg" alt="Mima Ito">
+  <img src="{{ site.baseurl }}/posts/2026/12/11/mima-ito/action1.jpg" alt="Mima Ito">
   <figcaption>Mima Ito — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

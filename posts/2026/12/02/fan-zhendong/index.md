@@ -37,7 +37,7 @@ Fan Zhendong sinh năm 1997 tại Quảng Châu, Trung Quốc, lên đội tuy�
 - Lối chơi sức mạnh + chuẩn xác, tổng hợp của cả thế hệ Ma Long và Zhang Jike.
 
 <figure>
-  <img src="/posts/2026/12/02/fan-zhendong/action1.jpg" alt="Fan Zhendong">
+  <img src="{{ site.baseurl }}/posts/2026/12/02/fan-zhendong/action1.jpg" alt="Fan Zhendong">
   <figcaption>Fan Zhendong — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

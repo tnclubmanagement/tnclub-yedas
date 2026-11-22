@@ -29,7 +29,7 @@ chụp lại sau khi che thông tin, hoặc cắt phần đó trước khi chia 
 cổng lên máy bay. Để điện thoại sẵn sàng nhưng đừng vừa đi vừa nhìn màn hình ở
 khu đông người.
 
-![Sơ đồ các khu vực có thể chụp ở sân bay và các thông tin cần che trước khi chia sẻ](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/khu-vuc-san-bay.svg)
+![Sơ đồ các khu vực có thể chụp ở sân bay và các thông tin cần che trước khi chia sẻ]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/khu-vuc-san-bay.svg)
 <p class="text-muted">Ưu tiên sảnh công cộng, cửa kính và khu chờ được phép chụp;
 tránh đưa thông tin trên thẻ lên máy bay hoặc màn hình chuyến bay vào ảnh.</p>
 
@@ -42,7 +42,7 @@ thẳng chạy từ góc ảnh vào cổng máy bay, bảng thông tin hoặc nh
 Đừng để đường dẫn bị cắt ngang bởi quá nhiều vật ở tiền cảnh. Hạ máy thấp một
 chút, giữ điện thoại thẳng và chờ một người kéo vali đi vào đúng điểm cần nhấn.
 
-![So sánh nhà ga trống chỉ có đường dẫn với ảnh có người kéo vali đi qua để tạo điểm nhấn và cảm giác chuyển động](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/duong-dan-nha-ga.jpg)
+![So sánh nhà ga trống chỉ có đường dẫn với ảnh có người kéo vali đi qua để tạo điểm nhấn và cảm giác chuyển động]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/duong-dan-nha-ga.jpg)
 <p class="text-muted">Các vạch trên sàn, dãy đèn và hàng ghế dẫn mắt về phía
 xa. Một người đang kéo vali giúp khung hình có điểm nhấn và kể được câu chuyện
 đang di chuyển.</p>
@@ -57,11 +57,11 @@ Chụp máy bay qua cửa sổ thường đẹp hơn khi bầu trời có lớp 
 hôn. Chạm lấy nét vào máy bay hoặc đường chân trời, rồi giảm sáng nhẹ nếu mảng
 trời bị trắng.
 
-![Minh họa cách chụp qua cửa kính: tắt flash, che ánh sáng phía sau và nghiêng điện thoại để giảm phản chiếu](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/chup-qua-cua-kinh.svg)
+![Minh họa cách chụp qua cửa kính: tắt flash, che ánh sáng phía sau và nghiêng điện thoại để giảm phản chiếu]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/chup-qua-cua-kinh.svg)
 <p class="text-muted">Ống kính càng gần kính và nguồn sáng phía sau càng được che,
 ảnh càng ít bóng phản chiếu.</p>
 
-![So sánh khung cửa kính và đèn phản chiếu làm ảnh rối với góc đứng tránh khung để thấy rõ máy bay](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/can-khung-cua-kinh.jpg)
+![So sánh khung cửa kính và đèn phản chiếu làm ảnh rối với góc đứng tránh khung để thấy rõ máy bay]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/can-khung-cua-kinh.jpg)
 <p class="text-muted">Nếu khung cửa nằm giữa chủ thể, hãy bước sang bên hoặc
 đổi góc để đường khung không cắt vào máy bay; ảnh sẽ thoáng và có cảm giác tự
 do hơn.</p>
@@ -76,7 +76,7 @@ Nếu chụp người lạ, hãy tránh chụp cận mặt khi chưa được đ
 cùng, có thể nhờ họ kéo vali, xem bảng chuyến bay hoặc bước chậm qua khung hình;
 chụp liên tiếp 3–5 tấm để bắt khoảnh khắc tự nhiên.
 
-![So sánh đặt người chính giữa và đứng thẳng cứng với bố cục một phần ba có vali và khoảng trống phía trước](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/nguoi-va-boi-canh-san-bay.jpg)
+![So sánh đặt người chính giữa và đứng thẳng cứng với bố cục một phần ba có vali và khoảng trống phía trước]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/nguoi-va-boi-canh-san-bay.jpg)
 <p class="text-muted">Đặt người lệch một phần ba, dùng vali làm đạo cụ và chừa
 khoảng trống theo hướng di chuyển giúp ảnh có câu chuyện hơn.</p>
 
@@ -90,7 +90,7 @@ mã đặt chỗ hoặc thông tin cá nhân nếu chúng hiện rõ.
 Có thể đợi một người đứng nhỏ dưới bảng để tạo mốc tỉ lệ. Đừng che toàn bộ bảng
 bằng nhân vật; đặt người ở mép dưới hoặc một phần ba khung sẽ cân bằng hơn.
 
-![So sánh chụp cận bảng chuyến bay thiếu không gian với ảnh chụp rộng có hành khách làm mốc tỉ lệ](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/bang-chuyen-bay-boi-canh.jpg)
+![So sánh chụp cận bảng chuyến bay thiếu không gian với ảnh chụp rộng có hành khách làm mốc tỉ lệ]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/bang-chuyen-bay-boi-canh.jpg)
 <p class="text-muted">Chụp rộng hơn, để bảng nằm ở phần trên và một người nhỏ
 ở mép dưới sẽ cho thấy cả quy mô nhà ga, thay vì biến ảnh thành ảnh chụp màn
 hình.</p>
@@ -106,7 +106,7 @@ Không dùng flash để chụp qua kính hoặc trong khu chờ đông người
 bảng hiệu, cửa hàng và đèn trần thường tự nhiên hơn, đồng thời giữ được không
 khí của sân bay.
 
-![So sánh ảnh nhà ga ban đêm bị cháy cửa sổ và ảnh cân chỉnh sáng thủ công, giữ được cả người lẫn bảng chuyến bay](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/chup-dem-nha-ga.jpg)
+![So sánh ảnh nhà ga ban đêm bị cháy cửa sổ và ảnh cân chỉnh sáng thủ công, giữ được cả người lẫn bảng chuyến bay]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/chup-dem-nha-ga.jpg)
 <p class="text-muted">Kéo thanh sáng xuống nhẹ, tựa máy vào vali và chọn đúng
 chủ thể cần nét giúp ảnh đêm giữ được chi tiết thay vì cửa sổ bị cháy trắng.</p>
 
@@ -120,7 +120,7 @@ che hết cảnh mây hoặc thành phố.
 Tránh chụp khi máy bay đang cất/hạ cánh nếu phi hành đoàn yêu cầu cất thiết bị.
 An toàn và hướng dẫn trên chuyến bay luôn quan trọng hơn bức ảnh.
 
-![So sánh dùng zoom kỹ thuật số làm mất tiền cảnh với dùng camera chính và cánh máy bay làm tiền cảnh](/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/canh-may-bay-tien-canh.jpg)
+![So sánh dùng zoom kỹ thuật số làm mất tiền cảnh với dùng camera chính và cánh máy bay làm tiền cảnh]({{ site.baseurl }}/posts/2026/11/08/chup-anh-o-san-bay-quoc-te/canh-may-bay-tien-canh.jpg)
 <p class="text-muted">Camera chính giữ được độ rõ của cảnh và cánh máy bay tạo
 tiền cảnh tự nhiên. Hãy đặt cánh ở góc dưới thay vì zoom sát vào một chi tiết.</p>
 

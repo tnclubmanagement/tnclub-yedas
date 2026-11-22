@@ -21,7 +21,7 @@ hông) thường cho cảm giác xe "có khối", có chiều sâu hơn nhiều 
 thẳng góc 0 độ hoặc 90 độ - đây là góc các hãng xe hay dùng trong ảnh
 quảng cáo.
 
-![Sơ đồ nhìn từ trên xuống: vị trí đứng chụp 0°, 90°, và góc 3/4 (~45°) quanh xe](/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/goc-34-chup-xe.svg)
+![Sơ đồ nhìn từ trên xuống: vị trí đứng chụp 0°, 90°, và góc 3/4 (~45°) quanh xe]({{ site.baseurl }}/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/goc-34-chup-xe.svg)
 <p class="text-muted">Góc 3/4 (~45°) thấy được cả đầu lẫn hông xe - cho
 cảm giác "có khối" hơn hẳn 2 góc thẳng còn lại.</p>
 
@@ -31,7 +31,7 @@ Giống mẹo chụp hoa/động vật: hạ máy xuống thấp, gần ngang t�
 vì đứng chụp từ trên xuống. Góc thấp làm xe trông "hầm hố", bề thế hơn
 đáng kể.
 
-![Hậu cảnh đơn giản giúp xe đạp nổi bật, không bị rối mắt](/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/extra-xedap.jpg)
+![Hậu cảnh đơn giản giúp xe đạp nổi bật, không bị rối mắt]({{ site.baseurl }}/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/extra-xedap.jpg)
 <p class="text-muted">Với xe đạp/xe máy, hậu cảnh gọn gàng (tường
 trơn, không gian mở) để chi tiết khung xe không bị chìm vào nền.</p>
 

@@ -54,12 +54,12 @@ bảng xếp hạng BWF.
 - Nhiều danh hiệu quốc tế hệ thống Grand Prix / Challenge.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/14/nguyen-tien-minh/action1.jpg" alt="Nguyễn Tiến Minh thi đấu US Open 2011">
+  <img src="{{ site.baseurl }}/posts/2026/11/14/nguyen-tien-minh/action1.jpg" alt="Nguyễn Tiến Minh thi đấu US Open 2011">
   <figcaption>Nguyễn Tiến Minh thi đấu US Open 2011 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/14/nguyen-tien-minh/action2.jpg" alt="Tiến Minh trên bục trao giải US Open Grand Prix Gold 2014">
+  <img src="{{ site.baseurl }}/posts/2026/11/14/nguyen-tien-minh/action2.jpg" alt="Tiến Minh trên bục trao giải US Open Grand Prix Gold 2014">
   <figcaption>Tiến Minh trên bục trao giải US Open Grand Prix Gold 2014 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

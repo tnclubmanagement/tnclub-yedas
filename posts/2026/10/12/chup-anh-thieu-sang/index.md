@@ -27,7 +27,7 @@ Hãy quyết định bạn muốn chụp **cảnh tĩnh**, **người**, hay **v
 trẻ em thì cần tốc độ nhanh hơn, chấp nhận ảnh tối hơn một chút. Đừng dùng một
 thiết lập cho mọi tình huống.
 
-![Sơ đồ chọn cách chụp theo chủ thể: cảnh tĩnh dùng Night mode, người dùng ảnh sáng sẵn, vật chuyển động dùng tốc độ nhanh](/posts/2026/10/12/chup-anh-thieu-sang/chon-che-do.svg)
+![Sơ đồ chọn cách chụp theo chủ thể: cảnh tĩnh dùng Night mode, người dùng ảnh sáng sẵn, vật chuyển động dùng tốc độ nhanh]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/chon-che-do.svg)
 <p class="text-muted">Cảnh tĩnh ưu tiên thu sáng; chủ thể chuyển động ưu tiên
 tốc độ chụp để không bị nhòe.</p>
 
@@ -39,11 +39,11 @@ thân người, hoặc đặt máy lên vật cố định (ghế, lan can...) t
 chụp. Giữ nguyên tư thế thêm 1–2 giây sau khi bấm vì máy có thể vẫn đang ghi
 hình.
 
-![Sơ đồ: tì khuỷu tay vào tường, chạm vào điểm sáng để đo sáng lại](/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung.svg)
+![Sơ đồ: tì khuỷu tay vào tường, chạm vào điểm sáng để đo sáng lại]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung.svg)
 <p class="text-muted">Tì khuỷu tay vào điểm tựa cố định + chạm vào vùng sáng
 (đèn, lửa...) để máy đo sáng đúng chỗ.</p>
 
-![So sánh ảnh thành phố ban đêm bị rung ở bên trái và ảnh rõ nét khi đặt máy lên mặt phẳng ở bên phải](/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung-dung-sai.jpg)
+![So sánh ảnh thành phố ban đêm bị rung ở bên trái và ảnh rõ nét khi đặt máy lên mặt phẳng ở bên phải]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/giu-may-vung-dung-sai.jpg)
 <p class="text-muted">Khi máy rung trong lúc phơi sáng, các tòa nhà và đèn
 thành phố bị kéo thành vệt. Chỉ cần đặt máy lên mặt phẳng hoặc tì chắc là
 đường nét đã rõ hơn rất nhiều.</p>
@@ -62,7 +62,7 @@ Không phải cứ bật Night mode là tốt hơn: người đi bộ, xe chạy
 hoặc lửa trại sẽ dễ bị nhòe khi thời gian chụp kéo dài. Với các chủ thể đó,
 hãy chuyển về Photo thường, tìm nguồn sáng gần hơn và chụp liên tiếp vài tấm.
 
-![Minh hoạ Night mode ghép nhiều khung hình: cảnh tĩnh có thể gom sáng, chủ thể chuyển động có thể bị bóng ma](/posts/2026/10/12/chup-anh-thieu-sang/night-mode.svg)
+![Minh hoạ Night mode ghép nhiều khung hình: cảnh tĩnh có thể gom sáng, chủ thể chuyển động có thể bị bóng ma]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/night-mode.svg)
 <p class="text-muted">Night mode cần thời gian giữ máy. Dấu hiệu thường thấy
 của lỗi là người hoặc vật chuyển động bị nhân đôi, kéo vệt.</p>
 
@@ -77,7 +77,7 @@ Sau khi chạm, kéo biểu tượng mặt trời xuống một chút nếu đè
 tạo chiều sâu. Nếu mặt người đang quá tối, hãy đổi vị trí để họ gần nguồn
 sáng hơn thay vì tăng sáng toàn bộ khung hình.
 
-![Ba mức đo sáng trong ảnh đêm: nâng sáng toàn cảnh, đo vào đèn, và hạ sáng nhẹ để giữ chi tiết đèn](/posts/2026/10/12/chup-anh-thieu-sang/do-sang-dem.svg)
+![Ba mức đo sáng trong ảnh đêm: nâng sáng toàn cảnh, đo vào đèn, và hạ sáng nhẹ để giữ chi tiết đèn]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/do-sang-dem.svg)
 <p class="text-muted">Đo sáng vào điểm quan trọng nhất, sau đó tinh chỉnh
 thanh sáng. Một vùng đèn hơi sáng vẫn tốt hơn cả bầu trời bị cháy trắng.</p>
 
@@ -97,7 +97,7 @@ flash. Nếu buộc phải dùng flash, hãy đứng xa hơn một chút và tr�
 cảnh quá tối; flash điện thoại thường làm da bóng, nền đen và ảnh thiếu chiều
 sâu.
 
-![So sánh ảnh chân dung dùng flash trực diện ở bên trái và tận dụng ánh sáng cửa hàng ở bên phải](/posts/2026/10/12/chup-anh-thieu-sang/flash-vs-anh-sang-san.jpg)
+![So sánh ảnh chân dung dùng flash trực diện ở bên trái và tận dụng ánh sáng cửa hàng ở bên phải]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/flash-vs-anh-sang-san.jpg)
 <p class="text-muted">Flash trực diện làm da bóng, mặt phẳng và hậu cảnh tối.
 Ánh sáng từ cửa hàng ở góc chếch giữ được màu da, tạo khối trên gương mặt và
 vẫn cho thấy không khí ban đêm phía sau.</p>
@@ -109,7 +109,7 @@ Nếu điện thoại có chế độ Pro/Manual, bắt đầu với ISO thấp 
 1/4–1 giây khi máy được đặt lên mặt phẳng. Không cần nhớ con số cứng: hãy
 ưu tiên tốc độ đủ nhanh cho chủ thể, rồi mới tăng ISO nếu ảnh còn tối.
 
-![Tam giác phơi sáng đơn giản: ISO làm ảnh sáng nhưng nhiễu, tốc độ chụp làm ảnh sáng nhưng dễ nhòe, ánh sáng sẵn giúp cải thiện cả hai](/posts/2026/10/12/chup-anh-thieu-sang/tam-giac-phoi-sang.svg)
+![Tam giác phơi sáng đơn giản: ISO làm ảnh sáng nhưng nhiễu, tốc độ chụp làm ảnh sáng nhưng dễ nhòe, ánh sáng sẵn giúp cải thiện cả hai]({{ site.baseurl }}/posts/2026/10/12/chup-anh-thieu-sang/tam-giac-phoi-sang.svg)
 <p class="text-muted">Không có thiết lập nào miễn phí hoàn toàn: thiếu sáng
 luôn là bài toán cân bằng giữa độ sáng, nhiễu và độ nhòe.</p>
 

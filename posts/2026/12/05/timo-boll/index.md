@@ -37,7 +37,7 @@ Timo Boll sinh năm 1981 tại Erbach, Đức, là tay vợt châu Âu có sự 
 - Thể thao quý ông — fair-play được BWF... ITTF tôn vinh.
 
 <figure>
-  <img src="/posts/2026/12/05/timo-boll/action1.jpg" alt="Timo Boll">
+  <img src="{{ site.baseurl }}/posts/2026/12/05/timo-boll/action1.jpg" alt="Timo Boll">
   <figcaption>Timo Boll — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

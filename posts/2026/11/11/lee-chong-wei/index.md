@@ -52,12 +52,12 @@ Không có tấm vàng Olympic hay danh hiệu thế giới nào, nhưng Lee Cho
 - Cùng Malaysia đoạt HCĐ Thomas Cup 2014.
 
 <figure class="fig-left">
-  <img src="/posts/2026/11/11/lee-chong-wei/action1.jpg" alt="Lee Chong Wei tại Olympic Bắc Kinh 2008">
+  <img src="{{ site.baseurl }}/posts/2026/11/11/lee-chong-wei/action1.jpg" alt="Lee Chong Wei tại Olympic Bắc Kinh 2008">
   <figcaption>Lee Chong Wei trên bục trao huy chương Olympic Bắc Kinh 2008 — ảnh: BWF</figcaption>
 </figure>
 
 <figure class="fig-right">
-  <img src="/posts/2026/11/11/lee-chong-wei/action2.jpg" alt="Lee Chong Wei thi đấu tại French Open 2013">
+  <img src="{{ site.baseurl }}/posts/2026/11/11/lee-chong-wei/action2.jpg" alt="Lee Chong Wei thi đấu tại French Open 2013">
   <figcaption>Lee Chong Wei thi đấu tại French Open 2013 — ảnh: thethao247</figcaption>
 </figure>
 

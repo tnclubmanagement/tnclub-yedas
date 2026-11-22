@@ -44,7 +44,7 @@ Chen Long sinh năm 1989 tại Kinh Châu, Trung Quốc, kế thừa Lin Dan tr�
 - All England 2 lần; Thomas Cup, Sudirman Cup cùng Trung Quốc.
 
 <figure>
-  <img src="/posts/2026/11/19/chen-long/action1.jpg" alt="Chen Long thi đấu">
+  <img src="{{ site.baseurl }}/posts/2026/11/19/chen-long/action1.jpg" alt="Chen Long thi đấu">
   <figcaption>Chen Long thi đấu — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

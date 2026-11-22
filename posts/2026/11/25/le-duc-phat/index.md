@@ -44,7 +44,7 @@ Lê Đức Phát sinh năm 1998 tại Đồng Nai, là tay vợt nam xuất sắ
 - Dự Olympic Paris 2024 — VĐV cầu lông nam thứ hai của Việt Nam tại Olympic.
 
 <figure>
-  <img src="/posts/2026/11/25/le-duc-phat/action1.jpg" alt="Lê Đức Phát tại giải Kaohsiung Masters 2023">
+  <img src="{{ site.baseurl }}/posts/2026/11/25/le-duc-phat/action1.jpg" alt="Lê Đức Phát tại giải Kaohsiung Masters 2023">
   <figcaption>Lê Đức Phát tại giải Kaohsiung Masters 2023 — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

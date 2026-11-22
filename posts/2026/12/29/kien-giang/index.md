@@ -33,7 +33,7 @@ Kiên Giang từng thuộc lãnh thổ Hà Tiên của chúa Nguyễn — do M�
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/29/kien-giang/img1.jpg" alt="Hoàng hôn Sanato Phú Quốc">
+  <img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img1.jpg" alt="Hoàng hôn Sanato Phú Quốc">
   <figcaption>Hoàng hôn trên bãi biển Sanato — khung cảnh "sống ảo" nổi tiếng của Phú Quốc (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Thị trấn hoàng hôn kiểu Địa Trung Hải với cáp treo vượt biể
 Làng chài cổ Hàm Ninh, bãi Sao, nhà thùng nước mắm, vườn tiêu và nhà tù Phú Quốc — vòng trải nghiệm nam đảo trọn vẹn.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/29/kien-giang/img2.jpg" alt="Grand World Phú Quốc">
+  <img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img2.jpg" alt="Grand World Phú Quốc">
   <figcaption>Grand World — "thành phố không ngủ" kiểu Venice trên đảo (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Làng chài cổ Hàm Ninh, bãi Sao, nhà thùng nước mắm, vườn tiêu v
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/29/kien-giang/img3.webp" alt="Bãi Sao Phú Quốc"><figcaption>Bãi Sao Phú Quốc (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/29/kien-giang/img4.webp" alt="Vinpearl Safari"><figcaption>Vinpearl Safari (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/29/kien-giang/img5.webp" alt="Cáp treo Sun World Hòn Thơm"><figcaption>Cáp treo Sun World Hòn Thơm (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/29/kien-giang/img6.webp" alt="Bờ biển Phú Quốc"><figcaption>Bờ biển Phú Quốc (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/29/kien-giang/img7.webp" alt="Hoàng hôn Sanato"><figcaption>Hoàng hôn Sanato (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/29/kien-giang/img8.webp" alt="Grand World Phú Quốc"><figcaption>Grand World Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img3.webp" alt="Bãi Sao Phú Quốc"><figcaption>Bãi Sao Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img4.webp" alt="Vinpearl Safari"><figcaption>Vinpearl Safari (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img5.webp" alt="Cáp treo Sun World Hòn Thơm"><figcaption>Cáp treo Sun World Hòn Thơm (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img6.webp" alt="Bờ biển Phú Quốc"><figcaption>Bờ biển Phú Quốc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img7.webp" alt="Hoàng hôn Sanato"><figcaption>Hoàng hôn Sanato (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/29/kien-giang/img8.webp" alt="Grand World Phú Quốc"><figcaption>Grand World Phú Quốc (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

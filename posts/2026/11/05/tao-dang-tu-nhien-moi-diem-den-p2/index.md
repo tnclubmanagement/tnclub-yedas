@@ -14,7 +14,7 @@ tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]
 Ở phần 2, thử biến những tư thế đơn giản thành ảnh có câu chuyện hơn. Không cần
 diễn xuất cầu kỳ — chỉ cần chọn đúng góc máy, khoảng cách và một hành động nhỏ.
 
-![Tạo dáng tự nhiên trong chuyến đi](/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg)
+![Tạo dáng tự nhiên trong chuyến đi]({{ site.baseurl }}/posts/2026/11/04/tao-dang-tu-nhien-moi-diem-den/cover.jpg)
 <p class="text-muted">Phần 2 tập trung vào chiều sâu, góc máy và những chuyển động nhỏ.</p>
 
 ### 1. Để tiền cảnh che nhẹ một phần khung hình

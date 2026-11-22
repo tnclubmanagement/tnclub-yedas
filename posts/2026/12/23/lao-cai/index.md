@@ -33,7 +33,7 @@ Sa Pa từng là trạm nghỉ dưỡng của người Pháp từ đầu thế k
 ## Điểm đến nổi bật
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/23/lao-cai/img1.jpg" alt="Đỉnh Fansipan">
+  <img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img1.jpg" alt="Đỉnh Fansipan">
   <figcaption>Đỉnh Fansipan 3.143m — "nóc nhà Đông Dương" (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ Bản làng H'Mông cổ nhất Sa Pa với thác Cát Cát, nghề dệt thổ 
 Chợ phiên lớn nhất vùng cao mỗi sáng Chủ nhật — nơi hội tụ văn hóa các dân tộc; các bản Tả Van, Lao Chải cho trải nghiệm homestay bản địa.
 
 <figure class="fig-right">
-  <img src="/posts/2026/12/23/lao-cai/img2.jpg" alt="Bản Cát Cát">
+  <img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img2.jpg" alt="Bản Cát Cát">
   <figcaption>Bản Cát Cát — làng H'Mông cổ xưa giữa thung lũng Mường Hoa (ảnh: Vietravel)</figcaption>
 </figure>
 
@@ -69,12 +69,12 @@ Chợ phiên lớn nhất vùng cao mỗi sáng Chủ nhật — nơi hội tụ
 ## Thư viện ảnh
 
 <div class="photo-grid">
-  <figure><img src="/posts/2026/12/23/lao-cai/img3.webp" alt="Bản Cát Cát"><figcaption>Bản Cát Cát (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/23/lao-cai/img4.webp" alt="Thị trấn Sa Pa trong mây"><figcaption>Thị trấn Sa Pa trong mây (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/23/lao-cai/img5.webp" alt="Đỉnh Fansipan"><figcaption>Đỉnh Fansipan (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/23/lao-cai/img6.jpg" alt="Ruộng bậc thang Sa Pa"><figcaption>Ruộng bậc thang Sa Pa (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/23/lao-cai/img7.webp" alt="Hoa mận rừng Tây Bắc"><figcaption>Hoa mận rừng Tây Bắc (ảnh: Vietravel)</figcaption></figure>
-  <figure><img src="/posts/2026/12/23/lao-cai/img8.webp" alt="Khách sạn de la Coupole Sa Pa"><figcaption>Khách sạn de la Coupole Sa Pa (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img3.webp" alt="Bản Cát Cát"><figcaption>Bản Cát Cát (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img4.webp" alt="Thị trấn Sa Pa trong mây"><figcaption>Thị trấn Sa Pa trong mây (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img5.webp" alt="Đỉnh Fansipan"><figcaption>Đỉnh Fansipan (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img6.jpg" alt="Ruộng bậc thang Sa Pa"><figcaption>Ruộng bậc thang Sa Pa (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img7.webp" alt="Hoa mận rừng Tây Bắc"><figcaption>Hoa mận rừng Tây Bắc (ảnh: Vietravel)</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/posts/2026/12/23/lao-cai/img8.webp" alt="Khách sạn de la Coupole Sa Pa"><figcaption>Khách sạn de la Coupole Sa Pa (ảnh: Vietravel)</figcaption></figure>
 </div>
 
 ## Video

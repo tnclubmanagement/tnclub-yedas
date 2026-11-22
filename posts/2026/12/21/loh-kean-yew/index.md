@@ -31,7 +31,7 @@ athlete:
 Loh Kean Yew sinh ngày 26/6/1997 tại Penang (Malaysia), sang Singapore học tại trường Thể thao và nhập tịch năm 2015. Anh đi vào lịch sử khi trở thành **nhà vô địch thế giới đầu tiên của Singapore** tại giải Vô địch thế giới 2021 ở Huelva.
 
 <figure class="fig-left">
-  <img src="/posts/2026/12/21/loh-kean-yew/action1.jpg" alt="Loh Kean Yew thi đấu năm 2021">
+  <img src="{{ site.baseurl }}/posts/2026/12/21/loh-kean-yew/action1.jpg" alt="Loh Kean Yew thi đấu năm 2021">
   <figcaption>Loh Kean Yew — năm 2021 lịch sử của cầu lông Singapore (ảnh: Wikimedia Commons)</figcaption>
 </figure>
 

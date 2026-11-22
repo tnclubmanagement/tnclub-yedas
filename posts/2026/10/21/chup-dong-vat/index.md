@@ -20,7 +20,7 @@ riêng khác với chụp người/cảnh vật tĩnh.
 lớn nhìn xuống"). Quỳ/cúi xuống để ống kính ngang tầm mắt con vật - ảnh sẽ
 có cảm giác gần gũi, "nhìn vào mắt nhau" thay vì xa cách.
 
-![So sánh đứng chụp từ trên xuống và hạ ngang tầm mắt con vật](/posts/2026/10/21/chup-dong-vat/goc-thap-dong-vat.svg)
+![So sánh đứng chụp từ trên xuống và hạ ngang tầm mắt con vật]({{ site.baseurl }}/posts/2026/10/21/chup-dong-vat/goc-thap-dong-vat.svg)
 <p class="text-muted">Ngang tầm mắt (phải) tạo cảm giác gần gũi, "nhìn
 vào mắt nhau" - khác hẳn góc nhìn từ trên xuống quen thuộc mỗi ngày.</p>
 

@@ -44,7 +44,7 @@ Greysia Polii sinh năm 1987 tại Jakarta, Indonesia, là trụ cột đôi n�
 - 3 lần dự Olympic.
 
 <figure>
-  <img src="/posts/2026/11/29/greysia-polii/action1.jpg" alt="Greysia Polii thi đấu đôi nữ">
+  <img src="{{ site.baseurl }}/posts/2026/11/29/greysia-polii/action1.jpg" alt="Greysia Polii thi đấu đôi nữ">
   <figcaption>Greysia Polii thi đấu đôi nữ — ảnh: Wikimedia Commons</figcaption>
 </figure>
 

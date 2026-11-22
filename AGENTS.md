@@ -86,3 +86,9 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
 - Ảnh demo (`hero-*.jpg`, `cover-*.jpg`) lấy từ Unsplash (ảnh thật, miễn phí
   bản quyền) qua `images.unsplash.com/photo-<id>?w=1200&q=70`, không phải
   ảnh minh hoạ/placeholder giả.
+- Ảnh nội bộ trong nội dung bài (HTML và Markdown) phải dùng `{{ site.baseurl }}`
+  hoặc bộ lọc `relative_url`, không viết trực tiếp `src="/posts/..."` hay
+  `![ảnh](/posts/...)`: GitHub Pages chạy dưới `/tnclub-yedas`, local dùng
+  baseurl rỗng. Đường dẫn trong front matter giữ nguyên, template thêm baseurl.
+  Khi sửa đường dẫn ảnh, build cả `_config.yml` và `_config.yml,_config_dev.yml`,
+  kiểm tra URL ảnh đã render và file ảnh tương ứng trong thư mục build.

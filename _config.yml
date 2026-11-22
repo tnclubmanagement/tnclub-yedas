@@ -77,14 +77,14 @@ footer-hover-col: "#0071E3"
 
 # File CSS tuỳ biến thêm (card bo góc, nền tối, chữ đậm kiểu tạp chí)
 site-css:
-  - "/assets/css/custom-styles.css?v=5"
-  - "/assets/css/playlist.css?v=5"
+  - "/assets/css/custom-styles.css"
+  - "/assets/css/playlist.css"
 
 # JS tuỳ biến thêm: animation fade-in khi cuộn, hero zoom nhẹ, nút đổi theme
 site-js:
-  - "/assets/js/custom-animations.js?v=5"
-  - "/assets/js/playlist.js?v=5"
-  - "/assets/js/theme-toggle.js?v=5"
+  - "/assets/js/custom-animations.js"
+  - "/assets/js/playlist.js"
+  - "/assets/js/theme-toggle.js"
 
 ####################
 # --- Comments --- #

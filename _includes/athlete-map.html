@@ -69,6 +69,11 @@
               <button class="drop-item" type="button" data-country="Lebanon">Lebanon</button>
               <button class="drop-item" type="button" data-country="Iraq">Iraq</button>
               <button class="drop-item" type="button" data-country="Cyprus">Cyprus</button>
+              <button class="drop-item" type="button" data-country="Georgia">Georgia</button>
+              <button class="drop-item" type="button" data-country="Armenia">Armenia</button>
+              <button class="drop-item" type="button" data-country="Azerbaijan">Azerbaijan</button>
+              <button class="drop-item" type="button" data-country="Syria">Syria</button>
+              <button class="drop-item" type="button" data-country="Yemen">Yemen</button>
             </div>
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="europe">Châu Âu</button>
@@ -123,6 +128,8 @@
               <button class="drop-item" type="button" data-country="Zimbabwe">Zimbabwe</button>
               <button class="drop-item" type="button" data-country="South Africa">South Africa</button>
               <button class="drop-item" type="button" data-country="Mauritius">Mauritius</button>
+              <button class="drop-item" type="button" data-country="Libya">Libya</button>
+              <button class="drop-item" type="button" data-country="Sudan">Sudan</button>
             </div>
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
@@ -339,6 +346,7 @@ window.__athletePins = [
       'United Arab Emirates': 'mideast', 'Saudi Arabia': 'mideast', Israel: 'mideast',
       Jordan: 'mideast', Turkey: 'mideast', Qatar: 'mideast', Oman: 'mideast', Iran: 'mideast',
       Bahrain: 'mideast', Kuwait: 'mideast', Lebanon: 'mideast', Iraq: 'mideast', Cyprus: 'mideast',
+      Georgia: 'mideast', Armenia: 'mideast', Azerbaijan: 'mideast', Syria: 'mideast', Yemen: 'mideast',
       France: 'europe', Italy: 'europe', Spain: 'europe', 'United Kingdom': 'europe',
       Germany: 'europe', Netherlands: 'europe', Switzerland: 'europe', Greece: 'europe',
       Poland: 'europe', Czechia: 'europe', Hungary: 'europe', Croatia: 'europe',
@@ -352,7 +360,8 @@ window.__athletePins = [
       Morocco: 'africa', Egypt: 'africa', Tunisia: 'africa', Algeria: 'africa',
       Ethiopia: 'africa', Kenya: 'africa', Tanzania: 'africa', Uganda: 'africa',
       Rwanda: 'africa', Senegal: 'africa', Ghana: 'africa', Nigeria: 'africa',
-      Namibia: 'africa', Zimbabwe: 'africa', 'South Africa': 'africa', Mauritius: 'africa'
+      Namibia: 'africa', Zimbabwe: 'africa', 'South Africa': 'africa', Mauritius: 'africa',
+      Libya: 'africa', Sudan: 'africa'
     };
 
     var entries = window.__athletePins.map(function (d, i) {
@@ -471,6 +480,13 @@ window.__athletePins = [
       Lebanon:   [[33.0, 35.0], [34.8, 36.7]],
       Iraq:      [[29.0, 38.5], [37.5, 48.8]],
       Cyprus:    [[34.5, 32.2], [35.8, 34.7]],
+      Georgia:   [[41.0, 39.5], [43.6, 47.0]],
+      Armenia:   [[38.8, 43.4], [41.4, 46.7]],
+      Azerbaijan: [[38.4, 44.5], [42.0, 51.0]],
+      Syria:     [[32.2, 35.5], [37.4, 42.5]],
+      Yemen:     [[12.0, 42.5], [19.0, 55.0]],
+      Libya:     [[19.0, 9.0], [33.5, 25.5]],
+      Sudan:     [[8.5, 21.5], [22.5, 39.0]],
       Russia:    [[41.0, 19.0], [78.0, 180.0]],
       Denmark:   [[54.5, 8.0], [57.8, 15.5]],
       Norway:    [[57.5, 4.0], [71.5, 31.5]],

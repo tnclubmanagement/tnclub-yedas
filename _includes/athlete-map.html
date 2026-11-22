@@ -76,6 +76,25 @@
               <button class="drop-item" type="button" data-country="Colombia">Colombia</button>
             </div>
             <div class="drop-group">
+              <button class="drop-group-title" type="button" data-continent="africa">Châu Phi</button>
+              <button class="drop-item" type="button" data-country="Morocco">Morocco</button>
+              <button class="drop-item" type="button" data-country="Egypt">Egypt</button>
+              <button class="drop-item" type="button" data-country="Tunisia">Tunisia</button>
+              <button class="drop-item" type="button" data-country="Algeria">Algeria</button>
+              <button class="drop-item" type="button" data-country="Ethiopia">Ethiopia</button>
+              <button class="drop-item" type="button" data-country="Kenya">Kenya</button>
+              <button class="drop-item" type="button" data-country="Tanzania">Tanzania</button>
+              <button class="drop-item" type="button" data-country="Uganda">Uganda</button>
+              <button class="drop-item" type="button" data-country="Rwanda">Rwanda</button>
+              <button class="drop-item" type="button" data-country="Senegal">Senegal</button>
+              <button class="drop-item" type="button" data-country="Ghana">Ghana</button>
+              <button class="drop-item" type="button" data-country="Nigeria">Nigeria</button>
+              <button class="drop-item" type="button" data-country="Namibia">Namibia</button>
+              <button class="drop-item" type="button" data-country="Zimbabwe">Zimbabwe</button>
+              <button class="drop-item" type="button" data-country="South Africa">South Africa</button>
+              <button class="drop-item" type="button" data-country="Mauritius">Mauritius</button>
+            </div>
+            <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
               <button class="drop-item" type="button" data-country="Australia">Australia</button>
             </div>
@@ -276,7 +295,7 @@ window.__athletePins = [
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
     qv.querySelector('.athlete-qv-close').addEventListener('click', close);
 
-    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', oceania: 'Châu Đại Dương' };
+    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', africa: 'Châu Phi', oceania: 'Châu Đại Dương' };
     var COUNTRY_CONTINENT = {
       Vietnam: 'asia', China: 'asia', Japan: 'asia', Taiwan: 'asia',
       Thailand: 'asia', Korea: 'asia', Indonesia: 'asia', Malaysia: 'asia',
@@ -285,7 +304,11 @@ window.__athletePins = [
       Germany: 'europe', Netherlands: 'europe', Switzerland: 'europe', Greece: 'europe',
       'United States': 'americas', Canada: 'americas', Brazil: 'americas',
       Argentina: 'americas', Peru: 'americas', Chile: 'americas', Colombia: 'americas',
-      Australia: 'oceania'
+      Australia: 'oceania',
+      Morocco: 'africa', Egypt: 'africa', Tunisia: 'africa', Algeria: 'africa',
+      Ethiopia: 'africa', Kenya: 'africa', Tanzania: 'africa', Uganda: 'africa',
+      Rwanda: 'africa', Senegal: 'africa', Ghana: 'africa', Nigeria: 'africa',
+      Namibia: 'africa', Zimbabwe: 'africa', 'South Africa': 'africa', Mauritius: 'africa'
     };
 
     var entries = window.__athletePins.map(function (d, i) {
@@ -366,7 +389,23 @@ window.__athletePins = [
       Argentina: [[-55.5, -73.5], [-21.5, -53.5]],
       Peru:      [[-18.5, -81.5], [0.5, -68.5]],
       Chile:     [[-56.0, -109.5], [-17.0, -66.5]],
-      Colombia:  [[-4.5, -79.5], [12.5, -66.5]]
+      Colombia:  [[-4.5, -79.5], [12.5, -66.5]],
+      Morocco:   [[27.0, -13.5], [36.0, -0.5]],
+      Egypt:     [[22.0, 24.5], [32.0, 37.0]],
+      Tunisia:   [[30.0, 7.5], [38.0, 12.0]],
+      Algeria:   [[18.5, -9.0], [39.0, 12.0]],
+      Ethiopia:  [[3.0, 33.0], [15.0, 48.5]],
+      Kenya:     [[-5.0, 33.5], [5.5, 42.5]],
+      Tanzania:  [[-12.0, 29.0], [-0.5, 41.0]],
+      Uganda:    [[-1.5, 29.5], [4.5, 35.5]],
+      Rwanda:    [[-3.0, 28.5], [-0.5, 31.0]],
+      Senegal:   [[12.0, -18.0], [17.0, -11.0]],
+      Ghana:     [[4.5, -3.5], [11.5, 1.5]],
+      Nigeria:   [[4.0, 2.5], [14.0, 15.0]],
+      Namibia:   [[-29.5, 11.5], [-16.5, 25.5]],
+      Zimbabwe:  [[-22.5, 25.0], [-15.5, 33.5]],
+      "South Africa": [[-35.0, 16.0], [-22.0, 33.0]],
+      Mauritius: [[-20.6, 57.0], [-19.9, 58.0]]
     };
     var HOME_VIEW = { center: [20, 105], zoom: 2 };
 

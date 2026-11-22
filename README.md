@@ -71,8 +71,12 @@ place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
                                 # United Kingdom / Germany / Netherlands /
                                 # Switzerland / Greece / United States /
                                 # Canada / Brazil / Argentina / Peru / Chile /
-                                # Colombia (khớp nút lọc trên bản đồ — quốc
-                                # gia mới cần thêm nút + khung nhìn trong
+                                # Colombia / Morocco / Egypt / Tunisia /
+                                # Algeria / Ethiopia / Kenya / Tanzania /
+                                # Uganda / Rwanda / Senegal / Ghana / Nigeria /
+                                # Namibia / Zimbabwe / South Africa / Mauritius
+                                # (khớp nút lọc trên bản đồ — quốc gia mới cần
+                                # thêm nút + khung nhìn trong
                                 # _includes/athlete-map.html)
 place_region: "Đông Á"
 ```

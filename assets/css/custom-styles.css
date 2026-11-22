@@ -908,6 +908,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .post-preview {
+    padding: 0;
+  }
+}
+
 .post-preview {
   display: block;
   width: 100%;
@@ -931,7 +937,7 @@ body {
   width: 100% !important;
   max-width: 100% !important;
   height: auto !important;
-  padding: 0.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

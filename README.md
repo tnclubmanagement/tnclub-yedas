@@ -3,7 +3,8 @@
 Blog cá nhân đa chủ đề (mẹo chụp ảnh, thể thao, du lịch/trải nghiệm) dùng
 theme **[Beautiful Jekyll](https://beautifuljekyll.com)** (Jekyll), build và
 host hoàn toàn miễn phí bằng **GitHub Pages**. Không cần chạy server/backend.
-Mỗi bài viết là một file Markdown, chủ đề được phân loại bằng `tags` trong
+Mỗi bài viết là một thư mục trong `posts/YYYY/MM/DD/<slug>/` chứa file
+`index.md` kèm ảnh của bài đó, chủ đề được phân loại bằng `tags` trong
 front matter (xem tất cả ở trang `/tags`).
 
 ## 1. Đưa lên GitHub lần đầu
@@ -29,28 +30,52 @@ Sau khi push code, vào tab **Actions** của repo để xem quá trình build
 (~1-2 phút). Xong, trang sẽ có ở:
 `https://tnclubmanagement.github.io/tnclub-yedas/`
 
-## 3. Đăng mẹo mới — cách dễ nhất, không cần máy tính
+## 3. Đăng bài mới — cách dễ nhất, không cần máy tính
 
-Vào GitHub (web hoặc app điện thoại) → mở repo → vào thư mục `_posts/` →
+Vào GitHub (web hoặc app điện thoại) → mở repo → vào thư mục `posts/` →
 **Add file → Create new file**.
 
-- Tên file **phải** theo định dạng: `YYYY-MM-DD-ten-bai-viet.md`
-  (ví dụ: `2026-10-20-meo-chup-do-an.md`)
-- Nội dung file:
+- Mỗi bài là **một thư mục** theo ngày đăng: `posts/YYYY/MM/DD/<slug>/index.md`
+  (ví dụ: `posts/2027/03/01/meo-chup-do-an/index.md`). Gõ đường dẫn trên vào
+  ô tên file, GitHub tự tạo các thư mục cha.
+- Ảnh của bài (`cover.jpg`, `photo-2.jpg`...) upload vào **đúng thư mục đó**,
+  không để chung trong `assets/img/`.
+- Nội dung file `index.md`:
 
 ```markdown
 ---
-title: "Tên mẹo của bạn"
+layout: post
+date: "2027-03-01 00:00:00 +0700"
+title: "Tên bài của bạn"
 subtitle: "Một câu mô tả ngắn, tuỳ chọn"
-cover-img: /assets/img/ten-anh.jpg   # ảnh lớn ở đầu bài, tuỳ chọn
+cover-img: "/posts/2027/03/01/meo-chup-do-an/cover.jpg"
+thumbnail-img: "/posts/2027/03/01/meo-chup-do-an/cover.jpg"
 category: "Chụp ảnh"                 # chuyên mục chính: Chụp ảnh / Thể thao / Du lịch
 tags: [tag1, tag2]
 ---
 
-Nội dung mẹo viết bằng Markdown bình thường ở đây.
+Nội dung bài viết bằng Markdown bình thường ở đây.
 
 Có thể chèn **chữ đậm**, *chữ nghiêng*, ảnh, link, v.v.
 ```
+
+Bài **du lịch** khai báo thêm toạ độ để hiện chấm trên bản đồ `/map`:
+
+```yaml
+geo: [37.5796, 126.9770]        # [vĩ độ, kinh độ]
+place_name: "Seoul, Hàn Quốc"
+place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
+                                # Taiwan / Thailand / Korea / Indonesia /
+                                # Malaysia / Philippines (khớp nút lọc trên
+                                # bản đồ — quốc gia mới cần thêm nút + khung
+                                # nhìn trong _includes/athlete-map.html)
+place_region: "Đông Á"
+```
+
+Tuỳ chọn thêm: `travel_photos` (danh sách `[tên-file.jpg, "chú thích"]`) và
+`travel_videos` (danh sách `[youtube-id, "tiêu đề", "kênh"]`) — xem bài mẫu
+trong `posts/2027/01/28/cap-nhi-tan/`. Ảnh chèn trong nội dung dùng
+`{{ site.baseurl }}` hoặc `relative_url`, không viết `/posts/...` trực tiếp.
 
 Bài profile vận động viên (series "VĐV cầu lông") khai báo thêm khối
 `athlete` để hiện khung hồ sơ đầu bài + card đẹp ở trang `/series/`:
@@ -80,9 +105,11 @@ athlete:
 
 ### Thêm ảnh cho bài viết
 
-Upload ảnh vào thư mục `assets/img/` (trên GitHub: vào thư mục đó → **Add
-file → Upload files**), rồi dùng đường dẫn `/assets/img/ten-anh.jpg` trong
-`cover-img` hoặc chèn vào nội dung bài bằng Markdown: `![mô tả](/assets/img/ten-anh.jpg)`.
+Upload ảnh vào **thư mục của bài** `posts/YYYY/MM/DD/<slug>/` (trên GitHub:
+vào thư mục đó → **Add file → Upload files**), rồi dùng đường dẫn
+`/posts/YYYY/MM/DD/<slug>/ten-anh.jpg` trong `cover-img`/`thumbnail-img`/
+`travel_photos`. Ảnh chèn giữa nội dung dùng `{{ site.baseurl }}` hoặc
+`relative_url` để chạy đúng cả trên GitHub Pages (`/tnclub-yedas`).
 
 Ưu tiên ảnh đã resize gọn (không cần quá 1600px chiều ngang) để trang tải
 nhanh, nhất là khi xem trên điện thoại.
@@ -90,8 +117,8 @@ nhanh, nhất là khi xem trên điện thoại.
 ## 4. Đăng bài từ máy (nếu muốn viết bằng app soạn thảo quen thuộc)
 
 ```bash
-git add _posts/2026-10-20-meo-chup-do-an.md assets/img/ten-anh.jpg
-git commit -m "Thêm mẹo: Chụp đồ ăn ngon hơn"
+git add posts/2027/03/01/meo-chup-do-an/
+git commit -m "Thêm bài: Chụp đồ ăn ngon hơn"
 git push
 ```
 
@@ -153,8 +180,10 @@ rm tmp-512.png
 
 ```
 _config.yml       Cấu hình chung của site (tên, màu sắc, comment, v.v.)
-_posts/           Nơi chứa mẹo chụp ảnh (mỗi file .md = 1 bài)
+posts/            Nơi chứa bài viết — mỗi bài là 1 thư mục YYYY/MM/DD/<slug>/
+                  gồm index.md + ảnh của bài đó
 about-me.md       Trang giới thiệu
-assets/img/       Ảnh dùng trong bài viết / cover image / icon
+assets/img/       Ảnh dùng chung cho site (hero, icon, logo) — ảnh của bài
+                  viết để trong thư mục bài, không để đây
 .github/workflows/  Workflow build & deploy tự động lên GitHub Pages
 ```

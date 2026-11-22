@@ -66,7 +66,8 @@ geo: [37.5796, 126.9770]        # [vĩ độ, kinh độ]
 place_name: "Seoul, Hàn Quốc"
 place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
                                 # Taiwan / Thailand / Korea / Indonesia /
-                                # Malaysia / Philippines (khớp nút lọc trên
+                                # Malaysia / Philippines / Laos / Cambodia
+                                # (khớp nút lọc trên
                                 # bản đồ — quốc gia mới cần thêm nút + khung
                                 # nhìn trong _includes/athlete-map.html)
 place_region: "Đông Á"

@@ -169,7 +169,12 @@ window.__athletePins = [
       economy: {{ post.place_economy | default: "" | jsonify }},
       festival: {{ post.place_festival | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
+      {% if post["cover-img"] %}
+      {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}
+      avatar: {{ pin_base | append: 'avatar.jpg' | relative_url | jsonify }}
+      {% else %}
       avatar: {{ post["cover-img"] | relative_url | jsonify }}
+      {% endif %}
     }
     {% endif %}
   {% endfor %}

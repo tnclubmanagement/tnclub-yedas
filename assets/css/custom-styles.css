@@ -3343,6 +3343,17 @@ body:has(.home-landing) .post-container {
 }
 
 /* ---------- Bản đồ VĐV (series) ---------- */
+/* Nền pattern cho khu vực bản đồ — lưới chấm mảnh + gradient mờ dần xuống,
+   bám theo biến theme nên tự hợp cả light và dark mode */
+.athlete-map-section {
+  padding: 1.5rem 1.2rem 0;
+  margin: 0 -1.2rem 1rem;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 1px 1px, var(--hairline) 1.1px, transparent 1.2px) 0 0 / 22px 22px,
+    linear-gradient(180deg, var(--bg-light) 0%, rgba(0, 0, 0, 0) 78%);
+}
+
 .athlete-map-head {
   display: flex;
   align-items: center;
@@ -3622,6 +3633,10 @@ body:has(.home-landing) .post-container {
   right: 0;
   bottom: 0;
   z-index: 1020;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: var(--bg-white);
   display: flex;
   flex-direction: column;
   gap: 0.6rem;

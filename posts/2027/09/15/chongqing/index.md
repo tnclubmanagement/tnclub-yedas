@@ -5,7 +5,7 @@ title: "Trùng Khánh: Thành phố 8D của lẩu, cầu và nhà treo"
 subtitle: "Hongya Động lên đèn, cáp treo qua Dương Tử và thành phố xây dựng trên chính mình"
 cover-img: "/posts/2027/09/15/chongqing/cover.jpg"
 thumbnail-img: "/posts/2027/09/15/chongqing/cover.jpg"
-geo: [29.4316, 106.9123]
+geo: [29.5630, 106.5516]
 place_name: "Trùng Khánh (Chongqing)"
 place_country: "China"
 place_population: "~1,4 tỷ"

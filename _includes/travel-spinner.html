@@ -3,50 +3,51 @@
      (kind="place") do site-map.html xuất ra — cần đặt sau include đó. -->
 <link rel="stylesheet" href="{{ '/assets/css/travel-spinner.css' | relative_url }}">
 
-<section class="travel-spinner" aria-label="Quay chọn điểm đến du lịch">
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+<section class="travel-spinner" aria-label="{{ s.spinner.aria_label }}">
   <div class="ts-head">
-    <h2 class="tag-section-title">Vòng quay may mắn</h2>
-    <p class="ts-desc">Không biết đi đâu? Chọn vài gợi ý rồi để vòng quay quyết định.</p>
+    <h2 class="tag-section-title">{{ s.spinner.title }}</h2>
+    <p class="ts-desc">{{ s.spinner.desc }}</p>
   </div>
 
   <div class="ts-controls">
     <div class="ts-field">
-      <span class="ts-label">Quốc gia</span>
+      <span class="ts-label">{{ s.spinner.country }}</span>
       <select id="ts-country">
-        <option value="">Tất cả</option>
+        <option value="">{{ s.spinner.all }}</option>
       </select>
     </div>
 
     <div class="ts-field ts-field-terrains">
-      <span class="ts-label">Địa hình</span>
-      <div class="ts-terrains" id="ts-terrains" role="group" aria-label="Chọn địa hình"></div>
+      <span class="ts-label">{{ s.spinner.terrain }}</span>
+      <div class="ts-terrains" id="ts-terrains" role="group" aria-label="{{ s.spinner.terrain_aria }}"></div>
     </div>
 
     <div class="ts-field ts-field-time">
-      <span class="ts-label">Giây quay</span>
+      <span class="ts-label">{{ s.spinner.seconds }}</span>
       <input id="ts-duration" type="number" min="2" max="15" step="1" value="5" inputmode="numeric">
     </div>
 
-    <button class="ts-spin-btn" id="ts-spin" type="button">Quay!</button>
+    <button class="ts-spin-btn" id="ts-spin" type="button">{{ s.spinner.spin }}</button>
   </div>
 
-  <p class="ts-empty" id="ts-empty" hidden>Không có điểm đến nào khớp bộ lọc — thử nới điều kiện.</p>
+  <p class="ts-empty" id="ts-empty" hidden>{{ s.spinner.empty }}</p>
 
   <!-- Dialog quay trúng thưởng -->
   <div class="ts-modal" id="ts-modal" hidden>
     <div class="ts-modal-backdrop" data-close></div>
-    <div class="ts-modal-panel" role="dialog" aria-modal="true" aria-label="Vòng quay may mắn">
-      <button class="ts-modal-close" id="ts-close" type="button" aria-label="Đóng">
+    <div class="ts-modal-panel" role="dialog" aria-modal="true" aria-label="{{ s.spinner.title }}">
+      <button class="ts-modal-close" id="ts-close" type="button" aria-label="{{ s.map.close }}">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
       </button>
-      <p class="ts-modal-title">Vòng quay may mắn</p>
+      <p class="ts-modal-title">{{ s.spinner.title }}</p>
       <div class="ts-wheel" aria-hidden="true">
         <canvas id="ts-wheel-canvas" width="960" height="960"></canvas>
         <span class="ts-pointer"></span>
         <div class="ts-count" id="ts-count" hidden aria-hidden="true"></div>
       </div>
       <div class="ts-result" id="ts-result" hidden aria-live="polite"></div>
-      <button class="ts-spin-btn ts-again" id="ts-again" type="button" hidden>Quay lại!</button>
+      <button class="ts-spin-btn ts-again" id="ts-again" type="button" hidden>{{ s.spinner.spin_again }}</button>
     </div>
   </div>
 </section>

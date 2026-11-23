@@ -8,6 +8,11 @@
     var count = document.getElementById('athlete-map-count');
     if (!el || !window.L || !window.__athletePins) return;
 
+    // Chuỗi UI theo ngôn ngữ — đổ từ _data/strings.yml qua window.__mapStrings
+    // trong site-map.html. Fallback giữ nguyên tiếng Việt gốc.
+    var S = window.__mapStrings || {};
+    function tx(k, d) { return S[k] || d; }
+
     var map = L.map(el, {
       minZoom: 2, maxZoom: 10, zoomSnap: 0.5,
       worldCopyJump: true,
@@ -62,15 +67,15 @@
       close();
       detail.hidden = false;
       detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      detail.innerHTML = '<p class="athlete-detail-loading">Đang tải hồ sơ…</p>';
+      detail.innerHTML = '<p class="athlete-detail-loading">' + tx('loading_profile', 'Đang tải hồ sơ…') + '</p>';
       fetchDoc(url).then(function (doc) {
         var body = doc.querySelector('.post-body');
-        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">' + CLOSE_ICON + '</button>' +
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="' + tx('close_profile', 'Đóng hồ sơ') + '">' + CLOSE_ICON + '</button>' +
           (body ? '<div class="blog-post post-body">' + body.innerHTML + '</div>'
-                : '<p>Không đọc được nội dung bài viết.</p>');
+                : '<p>' + tx('no_content', 'Không đọc được nội dung bài viết.') + '</p>');
       }).catch(function () {
-        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">' + CLOSE_ICON + '</button>' +
-          '<p class="athlete-detail-loading">Không tải được bài viết — <a href="' + url + '">mở trang riêng</a>.</p>';
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="' + tx('close_profile', 'Đóng hồ sơ') + '">' + CLOSE_ICON + '</button>' +
+          '<p class="athlete-detail-loading"><a href="' + url + '">' + tx('load_failed', 'Không tải được bài viết — mở trang riêng.') + '</a></p>';
       });
     }
 
@@ -79,7 +84,7 @@
       close();
       modal.hidden = false;
       document.body.style.overflow = 'hidden';
-      mediaContent.innerHTML = '<p class="athlete-detail-loading">Đang tải…</p>';
+      mediaContent.innerHTML = '<p class="athlete-detail-loading">' + tx('loading', 'Đang tải…') + '</p>';
       fetchDoc(url).then(function (doc) {
         var body = doc.querySelector('.post-body'), inner = '';
         if (body) {
@@ -102,10 +107,10 @@
           }
         }
         mediaContent.innerHTML = inner ||
-          '<p class="athlete-detail-loading">' + name + ' chưa có ' +
-          (kind === 'gallery' ? 'ảnh minh họa' : 'video') + '.</p>';
+          '<p class="athlete-detail-loading">' + name + ' ' + tx('no_media', 'chưa có') + ' ' +
+          (kind === 'gallery' ? tx('media_gallery', 'ảnh minh họa') : tx('media_video', 'video')) + '.</p>';
       }).catch(function () {
-        mediaContent.innerHTML = '<p class="athlete-detail-loading">Không tải được nội dung.</p>';
+        mediaContent.innerHTML = '<p class="athlete-detail-loading">' + tx('load_failed_media', 'Không tải được nội dung.') + '</p>';
       });
     }
 
@@ -129,7 +134,7 @@
     map.on('zoomstart', close);
     qv.querySelector('.athlete-qv-close').addEventListener('click', close);
 
-    var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', africa: 'Châu Phi', oceania: 'Châu Đại Dương', mideast: 'Trung Đông' };
+    var CONTINENT_LABEL = { asia: tx('continent_asia', 'Châu Á'), europe: tx('continent_europe', 'Châu Âu'), americas: tx('continent_americas', 'Châu Mỹ'), africa: tx('continent_africa', 'Châu Phi'), oceania: tx('continent_oceania', 'Châu Đại Dương'), mideast: tx('continent_mideast', 'Trung Đông') };
     var COUNTRY_CONTINENT = {
       Vietnam: 'asia', China: 'asia', Japan: 'asia', Taiwan: 'asia',
       Thailand: 'asia', Korea: 'asia', Indonesia: 'asia', Malaysia: 'asia',
@@ -219,8 +224,8 @@
       var section = qv.querySelector('.athlete-qv-scores');
       var list = section.querySelector('.athlete-qv-score-list');
       list.replaceChildren();
-      var scores = [['Chất lượng bài viết', d.contentScore, d.contentNote]];
-      if (d.kind === 'place') scores.push(['Độ hấp dẫn điểm đến', d.destinationScore, d.destinationNote]);
+      var scores = [[tx('score_content', 'Chất lượng bài viết'), d.contentScore, d.contentNote]];
+      if (d.kind === 'place') scores.push([tx('score_destination', 'Độ hấp dẫn điểm đến'), d.destinationScore, d.destinationNote]);
       scores.forEach(function (item, index) {
         var score = readScore(item[1]);
         if (score === null && d.kind !== 'place') return;
@@ -255,9 +260,9 @@
         tooltip.className = 'athlete-qv-score-tooltip';
         tooltip.id = 'map-score-tip-' + index;
         tooltip.setAttribute('role', 'tooltip');
-        tooltip.textContent = item[0] + ': ' + (score === null ? 'Chưa đánh giá' : score + '/10') +
+        tooltip.textContent = item[0] + ': ' + (score === null ? tx('not_rated', 'Chưa đánh giá') : score + '/10') +
           (score !== null && item[2] ? '. ' + item[2] : '') +
-          (score !== null && d.ratingUpdated ? ' · Cập nhật: ' + d.ratingUpdated : '');
+          (score !== null && d.ratingUpdated ? ' · ' + tx('updated', 'Cập nhật') + ': ' + d.ratingUpdated : '');
         row.setAttribute('aria-describedby', tooltip.id);
         function showTooltip() {
           tooltip.hidden = false;
@@ -312,33 +317,33 @@
         var hasScores = readScore(d.contentScore) !== null || (isPlace && readScore(d.destinationScore) !== null);
         var hasLegacyScore = d.score !== '' && d.score != null;
         renderFacts('.athlete-qv-rating', [
-          ['Xếp hạng', d.ranking], ['Điểm hiện tại', hasScores ? '' : d.score],
-          ['Cập nhật', d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
+          [tx('f_ranking', 'Xếp hạng'), d.ranking], [tx('f_score', 'Điểm hiện tại'), hasScores ? '' : d.score],
+          [tx('updated', 'Cập nhật'), d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
         ]);
         renderFacts('.athlete-qv-grid', isPlace
-          ? [['Quốc gia', d.country], ['Vùng', d.region], ['Diện tích', d.area], ['Dân số', d.population]]
-          : [['Quốc tịch', d.country], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]]);
+          ? [[tx('f_country', 'Quốc gia'), d.country], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
+          : [[tx('f_nationality', 'Quốc tịch'), d.country], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
         renderFacts('.athlete-qv-facts', isPlace
-          ? [['Nên ghé', d.highlights], ['Thời điểm nên đi', d.bestTime]]
-          : [['Kỹ năng nổi bật', d.skills], ['Thành tích', d.achievement]]);
+          ? [[tx('f_highlights', 'Nên ghé'), d.highlights], [tx('f_best_time', 'Thời điểm nên đi'), d.bestTime]]
+          : [[tx('f_skills', 'Kỹ năng nổi bật'), d.skills], [tx('f_achievement', 'Thành tích'), d.achievement]]);
         var more = qv.querySelector('.athlete-qv-more');
         more.open = false;
         more.hidden = !renderFacts('.athlete-qv-extra', isPlace
-          ? [['Di chuyển', d.transport], ['Món nên thử', d.food],
-             ['Kinh tế', d.economy], ['Lễ hội', d.festival]]
-          : [['Nguyên quán', d.hometown], ['Ngày sinh', d.born], ['Chiều cao', d.height],
-             ['Tay thuận', d.hand], ['Ra mắt', d.debut]]);
+          ? [[tx('f_transport', 'Di chuyển'), d.transport], [tx('f_food', 'Món nên thử'), d.food],
+             [tx('f_economy', 'Kinh tế'), d.economy], [tx('f_festival', 'Lễ hội'), d.festival]]
+          : [[tx('f_hometown', 'Nguyên quán'), d.hometown], [tx('f_born', 'Ngày sinh'), d.born], [tx('f_height', 'Chiều cao'), d.height],
+             [tx('f_hand', 'Tay thuận'), d.hand], [tx('f_debut', 'Ra mắt'), d.debut]]);
         var directions = qv.querySelector('.athlete-qv-directions');
         directions.hidden = !isPlace;
         if (isPlace) directions.href = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(d.lat + ',' + d.lng);
         var google = qv.querySelector('.athlete-qv-google');
         var googleQuery = [d.name, d.country, isPlace ? '' : d.event].filter(Boolean).join(' ');
         google.href = 'https://www.google.com/search?q=' + encodeURIComponent(googleQuery);
-        google.setAttribute('aria-label', 'Tìm ' + d.name + ' trên Google (mở tab mới)');
+        google.setAttribute('aria-label', tx('google_aria', 'Tìm %1 trên Google (mở tab mới)').replace('%1', d.name));
         qv.scrollTop = 0;
         qv.querySelector('.athlete-qv-link').href = d.url;
         qv.querySelector('.athlete-qv-link').textContent = d.kind === 'place'
-          ? 'Xem bài viết' : 'Xem hồ sơ';
+          ? tx('view_post', 'Xem bài viết') : tx('view_profile', 'Xem hồ sơ');
         qv.hidden = false;
       });
       return {
@@ -580,11 +585,11 @@
       });
       if (name !== 'Thể thao' && activeSport !== 'all') {
         activeSport = 'all';
-        resetDrop(sportDrop, sportLabel, 'Thể thao', 'sport');
+        resetDrop(sportDrop, sportLabel, tx('sport', 'Thể thao'), 'sport');
       }
       if (name !== 'Du lịch' && activeCountry !== 'all' && travelDrop) {
         activeCountry = 'all';
-        resetDrop(travelDrop, travelLabel, 'Du lịch', 'country');
+        resetDrop(travelDrop, travelLabel, tx('travel', 'Du lịch'), 'country');
       }
       applyFilters(silent);
       saveFilters();
@@ -600,8 +605,8 @@
         sportDrop.querySelectorAll('.drop-item').forEach(function (b) {
           b.classList.toggle('drop-item-active', b === btn);
         });
-        sportLabel.textContent = activeSport === 'all' ? 'Thể thao'
-          : 'Thể thao: ' + cap(btn.textContent.trim());
+        sportLabel.textContent = activeSport === 'all' ? tx('sport', 'Thể thao')
+          : tx('sport', 'Thể thao') + ': ' + cap(btn.textContent.trim());
         setMainFilter('Thể thao', sportDrop.querySelector('[data-filter="Thể thao"]'));
         sportDrop.classList.remove('open');
         return;
@@ -616,7 +621,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.remove('drop-group-title-active');
         });
-        travelLabel.textContent = activeCountry === 'all' ? 'Du lịch' : 'Du lịch: ' + activeCountry;
+        travelLabel.textContent = activeCountry === 'all' ? tx('travel', 'Du lịch') : tx('travel', 'Du lịch') + ': ' + activeCountry;
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         countryDialog.close();
         return;
@@ -631,7 +636,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.toggle('drop-group-title-active', b === btn);
         });
-        travelLabel.textContent = 'Du lịch: ' + (CONTINENT_LABEL[btn.dataset.continent] || btn.dataset.continent);
+        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (CONTINENT_LABEL[btn.dataset.continent] || btn.dataset.continent);
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         countryDialog.close();
         return;
@@ -666,7 +671,7 @@
       var on = document.fullscreenElement === section || fullscreenFallback;
       section.classList.toggle('is-fullscreen', on);
       fsBtn.setAttribute('aria-pressed', String(on));
-      fsBtn.title = on ? 'Thoát toàn màn hình' : 'Fullscreen — Toàn màn hình';
+      fsBtn.title = on ? tx('exit_fullscreen', 'Thoát toàn màn hình') : tx('fullscreen', 'Fullscreen — Toàn màn hình');
       fsBtn.setAttribute('aria-label', fsBtn.title);
       document.body.style.overflow = on || section.classList.contains('is-max') ? 'hidden' : '';
       map.invalidateSize();
@@ -697,7 +702,7 @@
       section.classList.toggle('is-max', on);
       document.body.style.overflow = on || section.classList.contains('is-fullscreen') ? 'hidden' : '';
       expandBtn.textContent = on ? '↙' : '↗';
-      expandBtn.title = on ? 'Thu gọn bản đồ' : 'Expand — Mở rộng bản đồ';
+      expandBtn.title = on ? tx('collapse', 'Thu gọn bản đồ') : tx('expand', 'Expand — Mở rộng bản đồ');
       expandBtn.setAttribute('aria-label', expandBtn.title);
       expandBtn.setAttribute('aria-pressed', String(on));
       setTimeout(function () { map.invalidateSize(); }, 60);
@@ -735,14 +740,14 @@
         var sb = sportDrop.querySelector('[data-sport="' + saved.sport + '"]');
         sportDrop.querySelector('[data-sport="all"]').classList.remove('drop-item-active');
         sb.classList.add('drop-item-active');
-        sportLabel.textContent = 'Thể thao: ' + cap(sb.textContent.trim());
+        sportLabel.textContent = tx('sport', 'Thể thao') + ': ' + cap(sb.textContent.trim());
       }
       if (saved.country && travelDrop && travelDrop.querySelector('[data-country="' + saved.country + '"]')) {
         activeCountry = saved.country;
         var cb = travelDrop.querySelector('[data-country="' + saved.country + '"]');
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         cb.classList.add('drop-item-active');
-        travelLabel.textContent = 'Du lịch: ' + activeCountry;
+        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + activeCountry;
       }
       if (saved.country && travelDrop && saved.country.indexOf('continent:') === 0 &&
           travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]')) {
@@ -750,7 +755,7 @@
         var gb = travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]');
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         gb.classList.add('drop-group-title-active');
-        travelLabel.textContent = 'Du lịch: ' + (CONTINENT_LABEL[saved.country.slice(10)] || '');
+        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (CONTINENT_LABEL[saved.country.slice(10)] || '');
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
         : (f === 'Thể thao' ? sportDrop : travelDrop).querySelector(':scope > .home-tab');

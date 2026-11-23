@@ -1,13 +1,15 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign athlete_posts = site.pages | where: 'layout', 'post' %}
 {% assign map_series = "" | split: "" %}
 {% assign pin_count = 0 %}
+{% assign has_places = false %}
 {% for post in athlete_posts %}
   {% if post.athlete and post.athlete.geo %}
     {% assign pin_count = pin_count | plus: 1 %}
     {% if post.series %}{% assign map_series = map_series | push: post.series %}{% endif %}
   {% elsif post.geo %}
     {% assign pin_count = pin_count | plus: 1 %}
-    {% assign map_series = map_series | push: post.category %}
+    {% assign has_places = true %}
   {% endif %}
 {% endfor %}
 {% assign map_series = map_series | uniq | sort %}
@@ -18,56 +20,54 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-<section class="athlete-map-section" aria-label="Bản đồ vận động viên">
+<section class="athlete-map-section" aria-label="{{ s.map.aria_label }}">
   <div class="athlete-map-head">
     <div class="athlete-map-title">
-      <h2 class="tag-section-title">Bản đồ <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+      <h2 class="tag-section-title">{{ s.map.title }} <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
       <details class="map-score-help">
-        <summary aria-label="Giải thích điểm biên tập" aria-describedby="map-score-help-tooltip"><span class="fas fa-info-circle" aria-hidden="true"></span></summary>
-        <p id="map-score-help-tooltip" role="tooltip">Điểm biên tập tham khảo · Đỏ &lt;5 · Vàng 5–&lt;8 · Xanh ≥8</p>
+        <summary aria-label="{{ s.map.score_help_aria }}" aria-describedby="map-score-help-tooltip"><span class="fas fa-info-circle" aria-hidden="true"></span></summary>
+        <p id="map-score-help-tooltip" role="tooltip">{{ s.map.score_help }}</p>
       </details>
     </div>
     <div class="athlete-map-filters" id="athlete-map-filters">
-      <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="Tìm tên, địa điểm, quốc gia…" aria-label="Lọc bản đồ theo văn bản">
+      <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="{{ s.map.search_placeholder }}" aria-label="{{ s.map.search_aria }}">
       <div class="filter-drop" id="filter-drop-sport">
-        <button class="home-tab" type="button" data-filter="Thể thao"><span class="filter-drop-label">Thể thao</span> <span class="drop-caret">▾</span></button>
+        <button class="home-tab" type="button" data-filter="Thể thao"><span class="filter-drop-label">{{ s.map.sport }}</span> <span class="drop-caret">▾</span></button>
         <div class="drop-menu">
-          <button class="drop-item drop-item-active" type="button" data-sport="all">Tất cả môn</button>
+          <button class="drop-item drop-item-active" type="button" data-sport="all">{{ s.map.all_sports }}</button>
           {% for name in map_series %}
-          {% if name != "Du lịch" %}
           <button class="drop-item" type="button" data-sport="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
-          {% endif %}
           {% endfor %}
         </div>
       </div>
-      {% if map_series contains "Du lịch" %}
+      {% if has_places %}
       <div class="filter-drop" id="filter-drop-travel">
-        <button class="home-tab" type="button" data-filter="Du lịch" aria-haspopup="dialog" aria-controls="map-country-dialog"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
+        <button class="home-tab" type="button" data-filter="Du lịch" aria-haspopup="dialog" aria-controls="map-country-dialog"><span class="filter-drop-label">{{ s.map.travel }}</span> <span class="drop-caret">▾</span></button>
         <dialog class="map-country-dialog" id="map-country-dialog" aria-labelledby="map-country-title">
           <div class="map-country-head">
-            <h3 id="map-country-title">Chọn quốc gia hoặc châu lục</h3>
-            <button type="button" id="map-country-close" aria-label="Đóng bộ lọc">Đóng</button>
+            <h3 id="map-country-title">{{ s.map.country_dialog_title }}</h3>
+            <button type="button" id="map-country-close" aria-label="{{ s.map.close }}">{{ s.map.close }}</button>
           </div>
           <div class="drop-menu-countries">
-          <button class="drop-item drop-item-active" type="button" data-country="all">Tất cả quốc gia</button>
+          <button class="drop-item drop-item-active" type="button" data-country="all">{{ s.map.all_countries }}</button>
           <div class="drop-groups">
             <div class="drop-group" data-continent-group="asia">
-              <button class="drop-group-title" type="button" data-continent="asia">Châu Á</button>
+              <button class="drop-group-title" type="button" data-continent="asia">{{ s.map.continent_asia }}</button>
             </div>
             <div class="drop-group" data-continent-group="mideast">
-              <button class="drop-group-title" type="button" data-continent="mideast">Trung Đông</button>
+              <button class="drop-group-title" type="button" data-continent="mideast">{{ s.map.continent_mideast }}</button>
             </div>
             <div class="drop-group" data-continent-group="europe">
-              <button class="drop-group-title" type="button" data-continent="europe">Châu Âu</button>
+              <button class="drop-group-title" type="button" data-continent="europe">{{ s.map.continent_europe }}</button>
             </div>
             <div class="drop-group" data-continent-group="americas">
-              <button class="drop-group-title" type="button" data-continent="americas">Châu Mỹ</button>
+              <button class="drop-group-title" type="button" data-continent="americas">{{ s.map.continent_americas }}</button>
             </div>
             <div class="drop-group" data-continent-group="africa">
-              <button class="drop-group-title" type="button" data-continent="africa">Châu Phi</button>
+              <button class="drop-group-title" type="button" data-continent="africa">{{ s.map.continent_africa }}</button>
             </div>
             <div class="drop-group" data-continent-group="oceania">
-              <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
+              <button class="drop-group-title" type="button" data-continent="oceania">{{ s.map.continent_oceania }}</button>
             </div>
           </div>
           </div>
@@ -77,11 +77,11 @@
     </div>
   </div>
   <div class="athlete-map" id="athlete-map">
-    <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="Expand — Mở rộng bản đồ" title="Expand — Mở rộng bản đồ" aria-pressed="false">↗</button>
-    <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="Fullscreen — Toàn màn hình" title="Fullscreen — Toàn màn hình" aria-pressed="false">⛶</button>
-    <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="Về giữa vùng đang chọn" title="Về giữa vùng đang chọn">◎</button>
+    <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="{{ s.map.expand }}" title="{{ s.map.expand }}" aria-pressed="false">↗</button>
+    <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="{{ s.map.fullscreen }}" title="{{ s.map.fullscreen }}" aria-pressed="false">⛶</button>
+    <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="{{ s.map.recenter }}" title="{{ s.map.recenter }}">◎</button>
     <div class="athlete-quickview" id="athlete-quickview" hidden>
-      <button class="athlete-qv-close" type="button" aria-label="Đóng"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+      <button class="athlete-qv-close" type="button" aria-label="{{ s.map.close }}"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
       <div class="athlete-qv-head">
         <div>
           <h3 class="athlete-qv-name"></h3>
@@ -91,19 +91,19 @@
       </div>
       <div class="athlete-qv-body">
         <p class="athlete-qv-summary" hidden></p>
-        <section class="athlete-qv-scores" aria-label="Điểm biên tập tham khảo" hidden>
+        <section class="athlete-qv-scores" aria-label="{{ s.map.score_aria }}" hidden>
           <div class="athlete-qv-score-list"></div>
         </section>
         <dl class="athlete-qv-rating" hidden></dl>
         <dl class="athlete-qv-grid"></dl>
         <dl class="athlete-qv-facts" hidden></dl>
         <details class="athlete-qv-more" hidden>
-          <summary>Xem thêm thông tin</summary>
+          <summary>{{ s.map.more_info }}</summary>
           <dl class="athlete-qv-extra"></dl>
         </details>
         <div class="athlete-qv-actions">
-          <a class="athlete-qv-link" href="#">Xem hồ sơ</a>
-          <a class="athlete-qv-directions" href="#" target="_blank" rel="noopener noreferrer" hidden>Chỉ đường ↗</a>
+          <a class="athlete-qv-link" href="#">{{ s.map.view_profile }}</a>
+          <a class="athlete-qv-directions" href="#" target="_blank" rel="noopener noreferrer" hidden>{{ s.map.directions }}</a>
         </div>
         <div class="athlete-qv-shortcuts">
           <a class="athlete-qv-goto" href="#" data-goto="gallery"><span class="fas fa-images" aria-hidden="true"></span> Galleries</a>
@@ -118,7 +118,7 @@
   <div class="athlete-modal" id="athlete-modal" hidden>
     <div class="athlete-modal-backdrop"></div>
     <div class="athlete-modal-dialog">
-      <button class="athlete-modal-close" type="button" aria-label="Đóng"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+      <button class="athlete-modal-close" type="button" aria-label="{{ s.map.close }}"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
       <div class="athlete-media-content" id="athlete-media-content"></div>
     </div>
   </div>
@@ -198,5 +198,7 @@ window.__athletePins = [
 window.__athleteMapConfig = {
   defaultFilter: {{ include.default_filter | default: "all" | jsonify }}
 };
+window.__mapStrings = {{ s.map | jsonify }};
+window.__spinnerStrings = {{ s.spinner | jsonify }};
 </script>
 <script src="{{ '/assets/js/site-map.js' | relative_url }}"></script>

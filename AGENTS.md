@@ -113,3 +113,32 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   baseurl rỗng. Đường dẫn trong front matter giữ nguyên, template thêm baseurl.
   Khi sửa đường dẫn ảnh, build cả `_config.yml` và `_config.yml,_config_dev.yml`,
   kiểm tra URL ảnh đã render và file ảnh tương ứng trong thư mục build.
+- Đa ngôn ngữ (i18n): dùng gem `jekyll-polyglot` (vi mặc định, en ở `/en/`).
+  Cấu hình ở `_config.yml` (`languages`, `default_lang`,
+  `exclude_from_localization`). Quy ước:
+  - Trang/bài KHÔNG khai báo `lang:` = bản tiếng Việt, được Polyglot nhân bản
+    sang `/en/` (fallback — khách xem bản EN vẫn thấy nội dung tiếng Việt,
+    bài viết kèm banner "chưa có bản dịch" từ `_includes/untranslated-note.html`,
+    phát hiện qua `page.rendered_lang != site.active_lang`).
+  - Muốn dịch một trang/bài: tạo file cùng đường dẫn tương đối (vd
+    `posts/2026/11/04/foo/index.en.md` hoặc file riêng có cùng `permalink`)
+    với front matter `lang: en`.
+  - `page.url` trong cả bản EN vẫn là URL gốc (không có `/en`) — Polyglot chỉ
+    thêm prefix khi ghi file VÀ tự rewrite `href="/..."` trong HTML đầu ra
+    thành `/en/...`. Link quay về bản VI phải dùng `absolute_url` + đặt
+    `hreflang="vi"` ngay TRƯỚC `href` (lookbehind của regex plugin), xem mẫu
+    trong `_includes/lang-switcher.html`.
+  - Chuỗi UI dùng chung ở `_data/strings.yml` (key theo ngôn ngữ `vi`/`en`;
+    `nav` tra theo nhãn tiếng Việt gốc trong `navbar-links`). Trong template:
+    `{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}`
+    rồi `{{ s.ui.<key> }}`. Lưu ý Liquid KHÔNG đọc được lookup lồng nhau kiểu
+    `s.nav[link[0]]` — phải gán `link[0]` ra biến trước.
+  - Ảnh trong `posts/` dùng đường dẫn tương đối theo URL bài nên PHẢI được
+    nhân bản sang `/en/` — không thêm pattern posts vào
+    `exclude_from_localization`.
+  - `<html lang>` ở `_layouts/base.html` theo `site.active_lang`.
+  - Chuỗi UI trong JS: include xuất `window.__mapStrings` / `__spinnerStrings`
+    (jsonify từ `strings.yml` mục `map`/`spinner`), file JS đọc qua helper
+    `tx(key, fallback_vi)` — xem mẫu trong `site-map.js`/`travel-spinner.js`.
+    Chuỗi mang ý nghĩa DỮ LIỆU (`data-filter`, tên quốc gia, series, tags)
+    giữ nguyên tiếng Việt, chỉ dịch chuỗi hiển thị.

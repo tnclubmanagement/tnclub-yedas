@@ -1,1 +1,2 @@
-<p class="footer-slogan">Mẹo hay cho từng khoảnh khắc 📸</p>
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+<p class="footer-slogan">{{ s.ui.footer_slogan }}</p>

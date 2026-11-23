@@ -9,13 +9,18 @@
   });
   if (!pins.length) { root.hidden = true; return; }
 
+  // Chuỗi UI theo ngôn ngữ — đổ từ _data/strings.yml qua window.__spinnerStrings
+  var S = window.__spinnerStrings || {};
+  function tx(k, d) { return S[k] || d; }
+
   // Mỗi chip gom nhiều tag gần nghĩa trong front matter của bài du lịch
+  // (tags khớp dữ liệu tiếng Việt, label là chuỗi UI dịch được)
   var TERRAINS = [
-    { label: 'Biển đảo', tags: ['Biển đảo', 'Biển', 'Đảo', 'Lặn biển'] },
-    { label: 'Thành phố', tags: ['Thành phố'] },
-    { label: 'Núi & Cao nguyên', tags: ['Núi', 'Núi lửa', 'Cao nguyên', 'Đồi chè', 'Đồi trà', 'Trekking'] },
-    { label: 'Thiên nhiên', tags: ['Thiên nhiên', 'Safari', 'Động vật'] },
-    { label: 'Sa mạc', tags: ['Sa mạc'] }
+    { label: tx('t_beach', 'Biển đảo'), tags: ['Biển đảo', 'Biển', 'Đảo', 'Lặn biển'] },
+    { label: tx('t_city', 'Thành phố'), tags: ['Thành phố'] },
+    { label: tx('t_mountain', 'Núi & Cao nguyên'), tags: ['Núi', 'Núi lửa', 'Cao nguyên', 'Đồi chè', 'Đồi trà', 'Trekking'] },
+    { label: tx('t_nature', 'Thiên nhiên'), tags: ['Thiên nhiên', 'Safari', 'Động vật'] },
+    { label: tx('t_desert', 'Sa mạc'), tags: ['Sa mạc'] }
   ];
   var MAX_SLICES = 12;
   // Bảng màu hệ Apple — sáng vừa phải để hợp cả light/dark mode
@@ -235,7 +240,7 @@
     currentRotation += turns * 360 + delta;
 
     spinBtn.disabled = true;
-    spinBtn.textContent = 'Đang quay…';
+    spinBtn.textContent = tx('spinning', 'Đang quay…');
 
     // Đếm ngược 3-2-1 rồi mới bắt đầu xoay
     countdown(3, function () {
@@ -247,7 +252,7 @@
     setTimeout(function () {
       setTimeout(function () {
         spinBtn.disabled = false;
-        spinBtn.textContent = 'Quay!';
+        spinBtn.textContent = tx('spin', 'Quay!');
         spinning = false;
         showResult(winner);
         againBtn.hidden = false;
@@ -270,12 +275,12 @@
     h.textContent = p.name;
     var meta = document.createElement('p');
     meta.className = 'ts-result-meta';
-    var bits = [p.country, p.region, p.bestTime ? 'Nên đi: ' + p.bestTime : ''].filter(Boolean);
+    var bits = [p.country, p.region, p.bestTime ? tx('best_time', 'Nên đi') + ': ' + p.bestTime : ''].filter(Boolean);
     meta.textContent = bits.join(' · ');
     var link = document.createElement('a');
     link.className = 'ts-result-link';
     link.href = p.url;
-    link.textContent = 'Xem bài viết →';
+    link.textContent = tx('view_post', 'Xem bài viết →');
     info.appendChild(h);
     info.appendChild(meta);
     info.appendChild(link);

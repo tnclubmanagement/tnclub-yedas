@@ -158,3 +158,9 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
     `tx(key, fallback_vi)` — xem mẫu trong `site-map.js`/`travel-spinner.js`.
     Chuỗi mang ý nghĩa DỮ LIỆU (`data-filter`, tên quốc gia, series, tags)
     giữ nguyên tiếng Việt, chỉ dịch chuỗi hiển thị.
+  - Playlist VI/EN dùng `_includes/playlist-body.html`; chuỗi ở mục
+    `playlist` trong `strings.yml`. `_layouts/base.html` xuất
+    `window.__playlistStrings` trước `footer-scripts.html` để cả trang
+    playlist và nút lưu trong bài viết dùng chung bản dịch. Giữ nguyên key
+    localStorage `yedas_playlists_v1` / `yedas_playlist_v1` và tên, dữ liệu
+    playlist người dùng đã lưu khi đổi ngôn ngữ.

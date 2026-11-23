@@ -1,0 +1,159 @@
+---
+layout: page
+title: ""
+subtitle: ""
+permalink: /
+lang: en
+---
+
+<main class="home-landing">
+  <section id="home-hero" class="home-hero-clean" data-home-section="hero">
+    <div class="home-hero-copy">
+      <p class="home-eyebrow">Yedas</p>
+      <h1>Little things<br><em>worth sharing.</em></h1>
+      <p class="home-hero-lead">
+        Phone photography tips, sports stories and lessons from the road —
+        simple, practical ideas you can try today.
+      </p>
+      <a class="home-hero-button" href="{{ '/posts/' | relative_url }}">Explore the stories <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="home-hero-visual">
+      <img src="{{ '/assets/img/hero-1.jpg' | relative_url }}" alt="A memorable journey" fetchpriority="high">
+      <span class="home-hero-note">Every journey<br>has a story.</span>
+    </div>
+  </section>
+
+  <section id="home-intro" class="landing-intro" aria-labelledby="landing-intro-title" data-home-section="intro">
+    <div class="landing-intro-copy">
+      <p class="landing-intro-kicker">A little place to pause</p>
+      <h2 id="landing-intro-title">Hello there</h2>
+      <p>
+        This is where I collect tips and stories from things I have tried
+        and places I have been: better phone photos, the joy of sport and
+        travel experiences. No specialist knowledge needed — just practical
+        examples in every article.
+      </p>
+      <a class="landing-cta" href="{{ '/posts/' | relative_url }}">Browse the stories <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="landing-intro-visual">
+      <span class="landing-intro-orbit landing-intro-orbit-one" aria-hidden="true"></span>
+      <span class="landing-intro-orbit landing-intro-orbit-two" aria-hidden="true"></span>
+      <div class="landing-intro-image">
+        <img src="{{ '/assets/img/hero-2.jpg' | relative_url }}" alt="Beautiful scenery from a trip" loading="lazy">
+      </div>
+      <p class="landing-intro-note">One good tip<br><em>can change your day.</em></p>
+    </div>
+  </section>
+
+  {% assign featured_posts = site.pages | where: "layout", "post" | sort: "date" | reverse %}
+  <section id="home-featured" class="featured-stories" aria-labelledby="featured-stories-title" data-home-section="featured">
+    <div class="featured-stories-heading">
+      <div>
+        <p class="home-eyebrow">Worth a read</p>
+        <h2 id="featured-stories-title">Featured stories</h2>
+      </div>
+      {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+      <div class="featured-story-filters" role="tablist" aria-label="{{ s.filters.featured_label }}">
+        <button class="featured-filter is-active" type="button" data-featured-tag="Du lịch" role="tab" aria-selected="true">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>{{ s.filters.travel }}</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Chân dung" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>{{ s.filters.portrait }}</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Bố cục" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>{{ s.filters.composition }}</span>
+        </button>
+        <button class="featured-filter" type="button" data-featured-tag="Ánh sáng" role="tab" aria-selected="false">
+          <span class="fa fa-tag" aria-hidden="true"></span>
+          <span>{{ s.filters.lighting }}</span>
+        </button>
+      </div>
+    </div>
+    <div class="featured-story-grid">
+      {% for post in featured_posts %}
+      {% assign post_tags = post.tags | join: "," %}
+      {% assign featured_visible = false %}
+      {% if post.tags contains "Du lịch" %}{% assign featured_visible = true %}{% endif %}
+      <article class="featured-story-card" data-featured-tags="{{ post_tags }}"{% unless featured_visible %} hidden{% endunless %}>
+        <a class="featured-story-image" href="{{ post.url | relative_url }}">
+          {%- capture thumbnail -%}
+            {% if post.thumbnail-img %}
+              {{ post.thumbnail-img }}
+            {% elsif post.cover-img %}
+              {% if post.cover-img.first %}
+                {{ post.cover-img[0].first.first }}
+              {% else %}
+                {{ post.cover-img }}
+              {% endif %}
+            {% endif %}
+          {%- endcapture -%}
+          {% assign thumbnail = thumbnail | strip %}
+          {% if thumbnail != "" %}
+          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+          {% endif %}
+        </a>
+        <div class="featured-story-content">
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.content | strip_html | strip | truncatewords: 20 }}</p>
+          <a class="featured-story-more" href="{{ post.url | relative_url }}">{{ s.filters.read_more }} <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="home-info" class="home-info-stack" aria-label="About this website" data-home-section="info">
+    <article id="about" class="home-info-card home-info-card-about">
+      <div class="home-info-image">
+        <img src="{{ '/assets/img/hero-3.jpg' | relative_url }}" alt="A beautiful moment captured on a phone" loading="lazy">
+        <span class="home-info-image-label">01 / About this site</span>
+      </div>
+      <div class="home-info-content">
+        <p class="home-info-kicker">A little place to pause</p>
+        <h2>About Yedas</h2>
+        <p>
+          Yedas is where I keep practical tips and real-life experiences —
+          phone photography, sport and memorable journeys.
+        </p>
+        <p>
+          Every story is written as simply as possible, so you can take
+          your time reading and put an idea into practice straight away.
+        </p>
+        <a class="home-info-link" href="{{ '/about-me/' | relative_url }}">More about this site <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>
+
+    <article id="privacy" class="home-info-card home-info-card-privacy">
+      <div class="home-info-content">
+        <p class="home-info-kicker">Clear and straightforward</p>
+        <h2>Privacy &amp; Terms</h2>
+        <p>
+          This is a personal blog. Yedas does not sell your data or use
+          advertising tracking cookies. Playlists are stored only in
+          your own browser.
+        </p>
+        <ul class="home-info-list">
+          <li>Content shares tips and experiences and is not a substitute for professional advice.</li>
+          <li>Please credit the source when sharing content.</li>
+          <li>If you find something that needs attention, send a message so it can be reviewed.</li>
+        </ul>
+        <a class="home-info-link" href="{{ '/privacy/' | relative_url }}">Read the full policy <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="home-info-image">
+        <img src="{{ '/assets/img/cat-white.jpg' | relative_url }}" alt="A wide-eyed white cat looking up curiously" loading="lazy">
+        <span class="home-info-image-label">02 / Transparency</span>
+      </div>
+    </article>
+  </section>
+</main>
+
+<nav class="home-section-dots" aria-label="Homepage navigation">
+  <a class="home-section-dot is-active" href="#home-hero" data-home-dot="hero" aria-label="Welcome" title="Welcome" aria-current="true"></a>
+  <a class="home-section-dot" href="#home-intro" data-home-dot="intro" aria-label="Introduction" title="Introduction" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-featured" data-home-dot="featured" aria-label="Featured stories" title="Featured stories" aria-current="false"></a>
+  <a class="home-section-dot" href="#home-info" data-home-dot="info" aria-label="About this website" title="About this website" aria-current="false"></a>
+</nav>

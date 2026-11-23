@@ -1048,7 +1048,7 @@ body {
 
 /* ---------- Footer gọn gàng ---------- */
 footer {
-  padding: 2rem 0 1.25rem !important;
+  padding: 1rem 0 !important;
   background: var(--bg-light) !important;
   border-top: 1px solid var(--hairline);
 }

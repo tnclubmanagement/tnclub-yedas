@@ -6,14 +6,4 @@ cover-img: "/assets/img/hero-4.jpg"
 permalink: /playlist/
 ---
 
-<p class="playlist-intro">Lưu các bài muốn đọc lại, chia theo chuyến đi, chủ đề
-hoặc sở thích của bạn. Dữ liệu chỉ nằm trên trình duyệt này.</p>
-
-<div class="playlist-create-page">
-  <input id="playlist-name-input" type="text" placeholder="Tên playlist mới" title="Nhập tên cho playlist mới">
-  <button id="playlist-create-page-btn" type="button" title="Tạo playlist mới">Tạo playlist</button>
-</div>
-
-<div id="playlist-container">
-  <p class="playlist-empty">Đang tải danh sách...</p>
-</div>
+{% include playlist-body.html %}

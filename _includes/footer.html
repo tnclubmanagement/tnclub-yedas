@@ -3,6 +3,12 @@
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="footer-row footer-theme-switch">
+          <button type="button" class="footer-icon-link theme-toggle-btn" aria-label="{{ s.ui.toggle_theme }}" title="{{ s.ui.toggle_theme }}">
+            <span class="fa fa-moon theme-icon-dark" aria-hidden="true"></span>
+            <span class="fa fa-sun theme-icon-light" aria-hidden="true"></span>
+          </button>
+        </div>
         <div class="footer-row footer-row-top">
           <span>{{ s.ui.footer_slogan }}</span>
         </div>
@@ -14,10 +20,6 @@
             <a class="footer-icon-link" href="{{ '/privacy/' | relative_url }}" title="{{ s.ui.privacy }}" aria-label="{{ s.ui.privacy }}" data-placement="top">
               <span class="fas fa-shield-alt" aria-hidden="true"></span>
             </a>
-            <button type="button" class="footer-icon-link theme-toggle-btn" aria-label="{{ s.ui.toggle_theme }}" title="{{ s.ui.toggle_theme }}">
-              <span class="fa fa-moon theme-icon-dark" aria-hidden="true"></span>
-              <span class="fa fa-sun theme-icon-light" aria-hidden="true"></span>
-            </button>
           </nav>
           <span class="copyright">
             {{ site.author }} &nbsp;•&nbsp; {{ site.time | date: '%Y' }}

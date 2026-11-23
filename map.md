@@ -5,4 +5,4 @@ subtitle: "Thể thao, du lịch và ẩm thực — mỗi điểm đến, một
 permalink: /map/
 ---
 
-{% include athlete-map.html default_filter="all" %}
+{% include site-map.html default_filter="all" %}

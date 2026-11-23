@@ -322,6 +322,16 @@
     var sportLabel = sportDrop.querySelector('.filter-drop-label');
     var travelLabel = travelDrop ? travelDrop.querySelector('.filter-drop-label') : null;
     var activeFilter = 'all', activeSport = 'all', activeCountry = 'all';
+    var countryDialog = document.getElementById('map-country-dialog');
+    if (countryDialog) {
+      document.getElementById('map-country-close').addEventListener('click', function () { countryDialog.close(); });
+      countryDialog.addEventListener('click', function (e) {
+        if (e.target === countryDialog) {
+          var bounds = countryDialog.getBoundingClientRect();
+          if (e.clientX < bounds.left || e.clientX > bounds.right || e.clientY < bounds.top || e.clientY > bounds.bottom) countryDialog.close();
+        }
+      });
+    }
 
     // Sinh nút quốc gia trong dropdown Du lịch từ COUNTRY_CONTINENT —
     // thêm nước chỉ cần sửa 1 chỗ (và COUNTRY_BOUNDS nếu muốn auto-zoom)
@@ -464,7 +474,7 @@
         });
         travelLabel.textContent = activeCountry === 'all' ? 'Du lịch' : 'Du lịch: ' + activeCountry;
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
-        travelDrop.classList.remove('open');
+        countryDialog.close();
         return;
       }
 
@@ -479,7 +489,7 @@
         });
         travelLabel.textContent = 'Du lịch: ' + (CONTINENT_LABEL[btn.dataset.continent] || btn.dataset.continent);
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
-        travelDrop.classList.remove('open');
+        countryDialog.close();
         return;
       }
 
@@ -487,8 +497,10 @@
       var f = btn.dataset.filter;
       if (f === 'Thể thao') sportDrop.classList.toggle('open');
       else sportDrop.classList.remove('open');
-      if (f === 'Du lịch' && travelDrop) travelDrop.classList.toggle('open');
-      else if (travelDrop) travelDrop.classList.remove('open');
+      if (f === 'Du lịch' && countryDialog) {
+        countryDialog.showModal();
+        return;
+      }
       if (f === activeFilter) {
         sportDrop.classList.remove('open');
         if (travelDrop) travelDrop.classList.remove('open');
@@ -501,18 +513,52 @@
     // Phóng to trong tab trình duyệt — phủ viewport, giữ hàng filter phía trên
     var section = el.closest('.athlete-map-section');
     var fsBtn = document.getElementById('map-fs-btn');
+    var expandBtn = document.getElementById('map-expand-btn');
+    L.DomEvent.disableClickPropagation(el.querySelector('#map-fs-btn'));
+    L.DomEvent.disableClickPropagation(expandBtn);
+    L.DomEvent.disableClickPropagation(document.getElementById('map-center-btn'));
+    var fullscreenFallback = false;
+    function syncFullscreen() {
+      var on = document.fullscreenElement === section || fullscreenFallback;
+      section.classList.toggle('is-fullscreen', on);
+      fsBtn.setAttribute('aria-pressed', String(on));
+      fsBtn.title = on ? 'Thoát toàn màn hình' : 'Fullscreen — Toàn màn hình';
+      fsBtn.setAttribute('aria-label', fsBtn.title);
+      document.body.style.overflow = on || section.classList.contains('is-max') ? 'hidden' : '';
+      map.invalidateSize();
+    }
+    document.addEventListener('fullscreenchange', syncFullscreen);
+    fsBtn.addEventListener('click', function () {
+      if (document.fullscreenElement === section) {
+        document.exitFullscreen().catch(function () {});
+      } else if (fullscreenFallback) {
+        fullscreenFallback = false;
+        syncFullscreen();
+      } else if (section.requestFullscreen && document.fullscreenEnabled) {
+        section.requestFullscreen().catch(function () {
+          fullscreenFallback = true;
+          syncFullscreen();
+        });
+      } else {
+        fullscreenFallback = true;
+        syncFullscreen();
+      }
+    });
+    if (window.ResizeObserver) new ResizeObserver(function () { map.invalidateSize(); }).observe(el);
     function setMax(on) {
       if (on) {
         var nav = document.querySelector('.navbar-custom');
         section.style.setProperty('--nav-h', (nav ? nav.offsetHeight : 66) + 'px');
       }
       section.classList.toggle('is-max', on);
-      document.body.style.overflow = on ? 'hidden' : '';
-      fsBtn.textContent = on ? '✕' : '⛶';
-      fsBtn.setAttribute('aria-label', on ? 'Thu nhỏ bản đồ' : 'Phóng to bản đồ');
+      document.body.style.overflow = on || section.classList.contains('is-fullscreen') ? 'hidden' : '';
+      expandBtn.textContent = on ? '↙' : '↗';
+      expandBtn.title = on ? 'Thu gọn bản đồ' : 'Expand — Mở rộng bản đồ';
+      expandBtn.setAttribute('aria-label', expandBtn.title);
+      expandBtn.setAttribute('aria-pressed', String(on));
       setTimeout(function () { map.invalidateSize(); }, 60);
     }
-    fsBtn.addEventListener('click', function () {
+    expandBtn.addEventListener('click', function () {
       setMax(!section.classList.contains('is-max'));
     });
     document.getElementById('map-center-btn').addEventListener('click', function () {
@@ -520,7 +566,11 @@
       focusView();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && section.classList.contains('is-max')) setMax(false);
+      if (e.key !== 'Escape' || (countryDialog && countryDialog.open)) return;
+      if (fullscreenFallback) {
+        fullscreenFallback = false;
+        syncFullscreen();
+      } else if (!document.fullscreenElement && section.classList.contains('is-max')) setMax(false);
     });
 
     // Đóng dropdown khi click ra ngoài

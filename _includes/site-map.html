@@ -36,7 +36,12 @@
       {% if map_series contains "Du lịch" %}
       <div class="filter-drop" id="filter-drop-travel">
         <button class="home-tab" type="button" data-filter="Du lịch"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
-        <div class="drop-menu drop-menu-countries">
+        <dialog class="map-country-dialog" id="map-country-dialog" aria-labelledby="map-country-title">
+          <div class="map-country-head">
+            <h3 id="map-country-title">Chọn quốc gia hoặc châu lục</h3>
+            <button type="button" id="map-country-close" aria-label="Đóng bộ lọc">Đóng</button>
+          </div>
+          <div class="drop-menu-countries">
           <button class="drop-item drop-item-active" type="button" data-country="all">Tất cả quốc gia</button>
           <div class="drop-groups">
             <div class="drop-group" data-continent-group="asia">
@@ -58,13 +63,15 @@
               <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
             </div>
           </div>
-        </div>
+          </div>
+        </dialog>
       </div>
       {% endif %}
     </div>
   </div>
   <div class="athlete-map" id="athlete-map">
-    <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="Toàn màn hình" title="Toàn màn hình">⛶</button>
+    <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="Expand — Mở rộng bản đồ" title="Expand — Mở rộng bản đồ" aria-pressed="false">↗</button>
+    <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="Fullscreen — Toàn màn hình" title="Fullscreen — Toàn màn hình" aria-pressed="false">⛶</button>
     <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="Về giữa vùng đang chọn" title="Về giữa vùng đang chọn">◎</button>
     <div class="athlete-quickview" id="athlete-quickview" hidden>
       <button class="athlete-qv-close" type="button" aria-label="Đóng">&times;</button>
@@ -142,4 +149,4 @@ window.__athleteMapConfig = {
   defaultFilter: {{ include.default_filter | default: "all" | jsonify }}
 };
 </script>
-<script src="{{ '/assets/js/athlete-map.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/site-map.js' | relative_url }}"></script>

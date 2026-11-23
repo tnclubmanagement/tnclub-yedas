@@ -81,9 +81,10 @@ place_country: "Korea"          # PHẢI là 1 trong: Vietnam / China / Japan /
                                 # Romania / Bulgaria / Ukraine / Serbia /
                                 # Bahrain / Kuwait / Lebanon / Iraq / Cyprus /
                                 # Russia
-                                # (khớp nút lọc trên bản đồ — quốc gia mới cần
-                                # thêm nút + khung nhìn trong
-                                # _includes/athlete-map.html)
+                                # (khớp nút lọc trên bản đồ — quốc gia mới chỉ
+                                # cần thêm vào COUNTRY_CONTINENT trong
+                                # assets/js/site-map.js, thêm COUNTRY_BOUNDS
+                                # nếu muốn nút ◎ zoom đúng khung nước)
 place_region: "Đông Á"
 ```
 

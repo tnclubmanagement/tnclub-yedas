@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~3,7 triệu"
 place_area: "3.133 km²"
 place_region: "Indonesia"
+map_content_score: 7.4
+map_destination_score: 8.7
+map_content_note: "Sắp tuyến đền, batik và ẩm thực rõ; cần nguồn giờ vào đền, hạn ngạch và lịch biểu diễn."
+map_destination_note: "Di sản và văn hóa Java nổi bật; nắng nóng, đền ở xa và một số lượt tham quan cần đặt trước."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Yogyakarta, Di sản, Đền cổ, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

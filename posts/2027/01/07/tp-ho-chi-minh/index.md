@@ -13,6 +13,11 @@ place_area: "2.095 km²"
 place_region: "Đông Nam Bộ"
 place_economy: "Thương mại, dịch vụ, công nghiệp và du lịch"
 place_festival: "Lễ hội Áo dài, lễ hội Nghinh Ông Cần Giờ"
+map_content_score: 8.2
+map_destination_score: 8.4
+map_content_note: "Nguồn và chú thích ảnh rõ, chia cụm hợp lý; thiếu ngân sách, tuyến giao thông và giờ bảo tàng."
+map_destination_note: "Ẩm thực, lịch sử và sinh hoạt đô thị phong phú; nóng, mưa và giao thông cần khoảng đệm."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, TP.HCM, Sài Gòn, Giới thiệu]
 ---

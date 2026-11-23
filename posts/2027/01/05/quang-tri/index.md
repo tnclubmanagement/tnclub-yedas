@@ -13,6 +13,11 @@ place_area: "4.740 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Du lịch lịch sử, du lịch thiên nhiên và dịch vụ"
 place_festival: "Lễ hội Vì Hòa bình, các hoạt động tưởng niệm tháng 7"
+map_content_score: 8.1
+map_destination_score: 8.4
+map_content_note: "Nguồn, bối cảnh tưởng niệm và phân tuyến rõ; thiếu chi phí và lịch trình từng ngày cụ thể."
+map_destination_note: "Giá trị lịch sử và hướng đi hang động nổi bật; khoảng cách lớn, mưa lũ và yêu cầu thể lực khác nhau."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Quảng Trị, Phong Nha, Giới thiệu]
 ---

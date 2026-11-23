@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~480.000"
 place_area: "4.709 km²"
 place_region: "Thái Lan"
+map_content_score: 8.4
+map_destination_score: 8.7
+map_content_note: "Nguồn, tư liệu và hướng dẫn an toàn tốt; thiếu ngân sách và liên kết trực tiếp quy định vườn quốc gia."
+map_destination_note: "Vách đá, biển và rừng tạo nhiều lựa chọn; chuyến đảo phụ thuộc gió, thủy triều và giờ thuyền."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Krabi, Railay, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-thai-lan-check-in-song-ao-v15910.aspx"

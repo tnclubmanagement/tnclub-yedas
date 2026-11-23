@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~100.000"
 place_area: "479 km²"
 place_region: "Malaysia"
+map_content_score: 7.8
+map_destination_score: 8.2
+map_content_note: "Có tư liệu, cách chọn bãi và kỳ vọng thực tế; cần nguồn giá vé, miễn thuế và bảo tồn."
+map_destination_note: "Biển, rừng ngập mặn và cảnh trên cao đa dạng; cần xe riêng, biển và mây tùy mùa."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Langkawi, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/du-lich-langkawi-malaysia-v16304.aspx"

@@ -13,6 +13,11 @@ place_area: "1.526 km²"
 place_region: "Đồng bằng sông Hồng & duyên hải Bắc Bộ"
 place_economy: "Cảng biển, công nghiệp, dịch vụ và du lịch"
 place_festival: "Lễ hội Hoa Phượng Đỏ, lễ hội du lịch Cát Bà"
+map_content_score: 8.1
+map_destination_score: 8.4
+map_content_note: "Nguồn và tách chặng phố, đảo tốt; cần hướng dẫn bến, vé và phương tiện ra Cát Bà cụ thể."
+map_destination_note: "Ẩm thực phố cảng và cảnh vịnh tạo hành trình đa dạng; chuyến đảo phụ thuộc thời tiết và giờ tàu."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Hải Phòng, Cát Bà, Giới thiệu]
 ---

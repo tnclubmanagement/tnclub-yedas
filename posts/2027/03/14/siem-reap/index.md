@@ -11,6 +11,11 @@ place_country: "Cambodia"
 place_population: "~245.000"
 place_area: "tỉnh Siem Reap ~10.299 km²"
 place_region: "Tây Bắc Campuchia"
+map_content_score: 7.3
+map_destination_score: 9.0
+map_content_note: "Chia vòng tham quan và lịch trình hữu ích; giá vé và thông tin đền xa cần nguồn cập nhật."
+map_destination_note: "Di sản Angkor đặc sắc, nhiều trải nghiệm văn hóa; cần tránh nóng và giờ đông khách."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Cambodia, Siem Reap, Angkor Wat, Di sản, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

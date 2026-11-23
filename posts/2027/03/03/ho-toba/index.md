@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~15,1 triệu (Bắc Sumatra)"
 place_area: "1.130 km² (mặt hồ)"
 place_region: "Đảo Sumatra"
+map_content_score: 6.8
+map_destination_score: 8.2
+map_content_note: "Có chiều sâu văn hóa Batak; cần nguồn địa chất và làm rõ tuyến tham quan ngoài đảo Samosir."
+map_destination_note: "Hồ núi lửa và văn hóa Batak khác biệt; di chuyển dài và dịch vụ ngoài điểm chính còn hạn chế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Sumatra, Hồ Toba, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

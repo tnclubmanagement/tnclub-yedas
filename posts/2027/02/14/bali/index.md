@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~4,4 triệu"
 place_area: "5.780 km²"
 place_region: "Indonesia"
+map_content_score: 7.8
+map_destination_score: 8.8
+map_content_note: "Tư liệu và chọn khu ở tốt; cần nguồn chính thức cho nhập cảnh, lái xe và lịch Nyepi."
+map_destination_note: "Văn hóa, biển và cảnh quan đa dạng; kẹt xe, đông khách và khoảng cách giữa các khu."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bali, Biển đảo, Văn hóa, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/du-lich-bali-co-gi-choi-trai-nghiem-o-bali-mua-he-2025-v17300.aspx"

@@ -20,7 +20,13 @@
 
 <section class="athlete-map-section" aria-label="Bản đồ vận động viên">
   <div class="athlete-map-head">
-    <h2 class="tag-section-title">Bản đồ <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+    <div class="athlete-map-title">
+      <h2 class="tag-section-title">Bản đồ <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+      <details class="map-score-help">
+        <summary aria-label="Giải thích điểm biên tập" aria-describedby="map-score-help-tooltip"><span class="fas fa-info-circle" aria-hidden="true"></span></summary>
+        <p id="map-score-help-tooltip" role="tooltip">Điểm biên tập tham khảo · Đỏ &lt;5 · Vàng 5–&lt;8 · Xanh ≥8</p>
+      </details>
+    </div>
     <div class="athlete-map-filters" id="athlete-map-filters">
       <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="Tìm tên, địa điểm, quốc gia…" aria-label="Lọc bản đồ theo văn bản">
       <div class="filter-drop" id="filter-drop-sport">
@@ -85,6 +91,9 @@
       </div>
       <div class="athlete-qv-body">
         <p class="athlete-qv-summary" hidden></p>
+        <section class="athlete-qv-scores" aria-label="Điểm biên tập tham khảo" hidden>
+          <div class="athlete-qv-score-list"></div>
+        </section>
         <dl class="athlete-qv-rating" hidden></dl>
         <dl class="athlete-qv-grid"></dl>
         <dl class="athlete-qv-facts" hidden></dl>
@@ -139,6 +148,10 @@ window.__athletePins = [
       debut: {{ post.athlete.debut | default: "" | jsonify }},
       ranking: {{ post.map_ranking | default: "" | jsonify }},
       score: {{ post.map_score | default: "" | jsonify }},
+      contentScore: {{ post.map_content_score | default: "" | jsonify }},
+      destinationScore: {{ post.map_destination_score | default: "" | jsonify }},
+      contentNote: {{ post.map_content_note | default: "" | jsonify }},
+      destinationNote: {{ post.map_destination_note | default: "" | jsonify }},
       ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
       image: {{ post["cover-img"] | default: post.athlete.avatar | relative_url | jsonify }},
@@ -164,6 +177,10 @@ window.__athletePins = [
       transport: {{ post.place_transport | default: "" | jsonify }},
       ranking: {{ post.map_ranking | default: "" | jsonify }},
       score: {{ post.map_score | default: "" | jsonify }},
+      contentScore: {{ post.map_content_score | default: "" | jsonify }},
+      destinationScore: {{ post.map_destination_score | default: "" | jsonify }},
+      contentNote: {{ post.map_content_note | default: "" | jsonify }},
+      destinationNote: {{ post.map_destination_note | default: "" | jsonify }},
       ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
       image: {{ post["cover-img"] | relative_url | jsonify }},

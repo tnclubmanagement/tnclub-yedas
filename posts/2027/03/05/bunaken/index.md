@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~450.000 (Manado)"
 place_area: "890 km² (vườn quốc gia)"
 place_region: "Đảo Sulawesi"
+map_content_score: 7.0
+map_destination_score: 8.4
+map_content_note: "Nêu rõ điểm lặn và cách chọn căn cứ; cần giá tour, nguồn sinh thái và hướng dẫn an toàn chi tiết."
+map_destination_note: "Vách rạn và sinh vật biển là điểm nhấn; hấp dẫn nhất với người thích lặn, cần lưu ý dòng chảy."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bunaken, Sulawesi, Lặn biển, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

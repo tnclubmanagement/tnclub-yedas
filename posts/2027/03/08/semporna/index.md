@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~166.000"
 place_area: "1.145 km²"
 place_region: "Đảo Borneo"
+map_content_score: 7.1
+map_destination_score: 8.6
+map_content_note: "Có ảnh, video và lưu ý permit; cần nguồn cập nhật quy định lặn và an ninh biển."
+map_destination_note: "Điểm mạnh là lặn biển và đảo ngoài khơi; cần đặt trước và chọn đơn vị uy tín."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Sabah, Semporna, Sipadan, Lặn biển, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

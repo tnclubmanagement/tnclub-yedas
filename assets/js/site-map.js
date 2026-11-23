@@ -124,7 +124,6 @@
     });
     map.on('click', close);
     map.on('zoomstart', close);
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
     qv.querySelector('.athlete-qv-close').addEventListener('click', close);
 
     var CONTINENT_LABEL = { asia: 'Châu Á', europe: 'Châu Âu', americas: 'Châu Mỹ', africa: 'Châu Phi', oceania: 'Châu Đại Dương', mideast: 'Trung Đông' };
@@ -165,6 +164,29 @@
     L.DomEvent.disableClickPropagation(qv);
     L.DomEvent.disableScrollPropagation(qv);
 
+    var scoreHelp = document.querySelector('.map-score-help');
+    document.addEventListener('pointerdown', function (e) {
+      if (scoreHelp && !scoreHelp.contains(e.target)) scoreHelp.open = false;
+      var active = document.activeElement;
+      if (active && active.classList.contains('athlete-qv-score') && !active.contains(e.target)) active.blur();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape' || e.defaultPrevented) return;
+      var tips = qv.querySelectorAll('.athlete-qv-score:is(:hover, :focus) .athlete-qv-score-tooltip:not([hidden])');
+      if (tips.length) {
+        tips.forEach(function (tip) {
+          tip.hidden = true;
+          tip.parentElement.blur();
+        });
+        e.preventDefault();
+      }
+      if (scoreHelp && scoreHelp.open) {
+        scoreHelp.open = false;
+        e.preventDefault();
+      }
+      if (!e.defaultPrevented) close();
+    });
+
     function renderFacts(selector, rows) {
       var list = qv.querySelector(selector);
       list.replaceChildren();
@@ -181,6 +203,76 @@
       });
       list.hidden = !list.childElementCount;
       return list.childElementCount;
+    }
+
+    function readScore(value) {
+      if (typeof value !== 'number' && typeof value !== 'string') return null;
+      if (String(value).trim() === '') return null;
+      var score = Number(value);
+      return Number.isFinite(score) && score >= 0 && score <= 10 ? score : null;
+    }
+
+    function renderScores(d) {
+      var section = qv.querySelector('.athlete-qv-scores');
+      var list = section.querySelector('.athlete-qv-score-list');
+      list.replaceChildren();
+      var scores = [['Chất lượng bài viết', d.contentScore, d.contentNote]];
+      if (d.kind === 'place') scores.push(['Độ hấp dẫn điểm đến', d.destinationScore, d.destinationNote]);
+      scores.forEach(function (item, index) {
+        var score = readScore(item[1]);
+        if (score === null && d.kind !== 'place') return;
+        var row = document.createElement('div');
+        row.className = 'athlete-qv-score';
+        row.dataset.level = score === null ? 'empty' : score < 5 ? 'low' : score < 8 ? 'medium' : 'high';
+        var heading = document.createElement('div');
+        var label = document.createElement('span');
+        var value = document.createElement('strong');
+        label.className = index === 0 ? 'fas fa-file-alt' : 'fas fa-map-marker-alt';
+        label.setAttribute('aria-hidden', 'true');
+        value.textContent = score === null ? '—' : score + '/10';
+        row.tabIndex = 0;
+        row.setAttribute('role', 'group');
+        row.setAttribute('aria-label', item[0]);
+        row.addEventListener('click', function () { row.focus(); });
+        heading.append(label, value);
+        var track = document.createElement('div');
+        track.className = 'athlete-qv-score-track';
+        var fill = document.createElement('span');
+        fill.style.width = (score === null ? 0 : score * 10) + '%';
+        track.appendChild(fill);
+        if (score !== null) {
+          track.setAttribute('role', 'meter');
+          track.setAttribute('aria-label', item[0]);
+          track.setAttribute('aria-valuemin', '0');
+          track.setAttribute('aria-valuemax', '10');
+          track.setAttribute('aria-valuenow', String(score));
+        }
+        row.append(heading, track);
+        var tooltip = document.createElement('span');
+        tooltip.className = 'athlete-qv-score-tooltip';
+        tooltip.id = 'map-score-tip-' + index;
+        tooltip.setAttribute('role', 'tooltip');
+        tooltip.textContent = item[0] + ': ' + (score === null ? 'Chưa đánh giá' : score + '/10') +
+          (score !== null && item[2] ? '. ' + item[2] : '') +
+          (score !== null && d.ratingUpdated ? ' · Cập nhật: ' + d.ratingUpdated : '');
+        row.setAttribute('aria-describedby', tooltip.id);
+        function showTooltip() {
+          tooltip.hidden = false;
+          tooltip.style.bottom = 'auto';
+          var card = qv.getBoundingClientRect();
+          var anchor = row.getBoundingClientRect();
+          tooltip.style.maxHeight = (card.height - 12) + 'px';
+          var height = tooltip.offsetHeight;
+          var top = anchor.top - height - 6;
+          if (top < card.top + 6 && anchor.bottom + height + 6 <= card.bottom - 6) top = anchor.bottom + 6;
+          tooltip.style.top = (Math.max(card.top + 6, Math.min(top, card.bottom - height - 6)) - anchor.top) + 'px';
+        }
+        row.addEventListener('mouseenter', showTooltip);
+        row.addEventListener('focus', showTooltip);
+        row.appendChild(tooltip);
+        list.appendChild(row);
+      });
+      section.hidden = !list.childElementCount;
     }
 
     var entries = window.__athletePins.map(function (d, i) {
@@ -213,9 +305,12 @@
         var summary = qv.querySelector('.athlete-qv-summary');
         summary.textContent = (isPlace ? d.subtitle : d.summary) || '';
         summary.hidden = !summary.textContent;
+        renderScores(d);
+        var hasScores = readScore(d.contentScore) !== null || (isPlace && readScore(d.destinationScore) !== null);
+        var hasLegacyScore = d.score !== '' && d.score != null;
         renderFacts('.athlete-qv-rating', [
-          ['Xếp hạng', d.ranking], ['Điểm hiện tại', d.score],
-          ['Cập nhật', d.ranking || d.score === 0 || d.score ? d.ratingUpdated : '']
+          ['Xếp hạng', d.ranking], ['Điểm hiện tại', hasScores ? '' : d.score],
+          ['Cập nhật', d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
         ]);
         renderFacts('.athlete-qv-grid', isPlace
           ? [['Quốc gia', d.country], ['Vùng', d.region], ['Diện tích', d.area], ['Dân số', d.population]]

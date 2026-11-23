@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~500.000"
 place_area: "351 km²"
 place_region: "Đảo Borneo"
+map_content_score: 6.4
+map_destination_score: 8.5
+map_content_note: "Tư liệu phong phú; cần sửa khẳng định núi cao nhất Đông Nam Á và phần mở đầu dễ gây hiểu nhầm lịch leo."
+map_destination_note: "Kết hợp biển, núi và ẩm thực tốt; leo Kinabalu cần thời gian, thể lực và permit riêng."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Sabah, Kota Kinabalu, Borneo, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/trai-nghiem-du-lich-kota-kinabalu-v16584.aspx"

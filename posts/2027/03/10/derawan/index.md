@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~275.000 (Berau)"
 place_area: "quần đảo ~31 đảo"
 place_region: "Đảo Borneo"
+map_content_score: 6.9
+map_destination_score: 8.5
+map_content_note: "Nêu được hành trình nối đảo và giới hạn người lặn; cần nguồn bảo tồn và tình trạng mở cửa hồ sứa."
+map_destination_note: "Sinh cảnh biển và đảo san hô hấp dẫn; hành trình xa, dòng chảy và dịch vụ hạn chế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Kalimantan, Derawan, Lặn biển, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

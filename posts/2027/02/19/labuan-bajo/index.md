@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~260.000"
 place_area: "9.450 km²"
 place_region: "Indonesia"
+map_content_score: 7.3
+map_destination_score: 8.8
+map_content_note: "Phân biệt tour ngày và ngủ thuyền tốt; cần nguồn an toàn, bảo tồn và tổng phí cụ thể."
+map_destination_note: "Cảnh Padar, biển và rồng Komodo độc đáo; phụ thuộc tàu, dòng chảy và ngân sách tour."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Labuan Bajo, Komodo, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-philippines-2025-v17351.aspx"

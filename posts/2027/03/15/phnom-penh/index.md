@@ -11,6 +11,11 @@ place_country: "Cambodia"
 place_population: "~2,3 triệu"
 place_area: "~679 km²"
 place_region: "Nam Campuchia"
+map_content_score: 6.7
+map_destination_score: 7.7
+map_content_note: "Lộ trình hai ngày rõ; cần kiểm chứng phần hợp lưu sông và bổ sung nguồn thông tin di chuyển."
+map_destination_note: "Lịch sử, kiến trúc và ẩm thực đa dạng; nắng nóng và giao thông cần chuẩn bị."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Cambodia, Phnom Penh, Thủ đô, Lịch sử, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

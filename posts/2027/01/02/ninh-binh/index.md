@@ -13,6 +13,11 @@ place_area: "1.411 km²"
 place_region: "Đồng bằng sông Hồng"
 place_economy: "Du lịch di sản, dịch vụ và nông nghiệp"
 place_festival: "Lễ hội Hoa Lư, lễ hội Tràng An"
+map_content_score: 8.2
+map_destination_score: 8.8
+map_content_note: "Nguồn, lịch hai ngày và an toàn tốt; thiếu chi phí, cách tới nơi và phân biệt các tuyến vé thuyền."
+map_destination_note: "Cảnh sông núi và di sản nổi bật; đông khách, nắng và cảnh đồng lúa tùy mùa."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Ninh Bình, Tràng An, Giới thiệu]
 ---

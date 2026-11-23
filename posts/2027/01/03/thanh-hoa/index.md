@@ -13,6 +13,11 @@ place_area: "11.115 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Nông nghiệp, dịch vụ và du lịch sinh thái"
 place_festival: "Lễ hội Lam Kinh, lễ hội du lịch biển Sầm Sơn"
+map_content_score: 8.1
+map_destination_score: 8.3
+map_content_note: "Có nguồn, lựa chọn tuyến và an toàn rõ; cần hướng dẫn tới nơi, ngân sách và mốc mùa vụ."
+map_destination_note: "Pù Luông và di sản tạo bản sắc riêng; đường núi, mùa ruộng và khoảng cách cần chuẩn bị."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Thanh Hóa, Pù Luông, Giới thiệu]
 ---

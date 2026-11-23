@@ -6,7 +6,8 @@
   margin: 0 -1.2rem 1rem;
   border-radius: 24px;
   background:
-    radial-gradient(circle at 1px 1px, var(--hairline) 1.1px, transparent 1.2px) 0 0 / 22px 22px,
+    repeating-linear-gradient(45deg, transparent 0 15px, var(--hairline) 15px 16px),
+    repeating-linear-gradient(-45deg, transparent 0 15px, var(--hairline) 15px 16px),
     linear-gradient(180deg, var(--bg-light) 0%, transparent 78%);
 }
 .athlete-map-head, .athlete-map-filters { display: flex; align-items: center; flex-wrap: wrap; }
@@ -330,6 +331,30 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 :is(.athlete-qv-facts, .athlete-qv-extra) > div + div { margin-top: 0.5rem; }
 .athlete-qv-rating { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; padding: 0.6rem; margin: 0 0 0.8rem; border-radius: 10px; background: var(--bg-light); }
 .athlete-qv-rating[hidden] { display: none; }
+.athlete-qv-scores { margin-bottom: 0.7rem; }
+.athlete-qv-score-list { display: flex; gap: 0.6rem; }
+.athlete-qv-score { --score-color: var(--muted); position: relative; flex: 1; min-width: 0; display: flex; align-items: center; gap: 0.4rem; padding: 0.45rem; border-radius: 8px; background: var(--bg-light); cursor: help; }
+.athlete-qv-score:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.athlete-qv-score[data-level="low"] { --score-color: #c4343d; }
+.athlete-qv-score[data-level="medium"] { --score-color: #9a6700; }
+.athlete-qv-score[data-level="high"] { --score-color: #168047; }
+[data-theme="dark"] .athlete-qv-score[data-level="low"] { --score-color: #ff7b83; }
+[data-theme="dark"] .athlete-qv-score[data-level="medium"] { --score-color: #f0c44f; }
+[data-theme="dark"] .athlete-qv-score[data-level="high"] { --score-color: #57d68d; }
+.athlete-qv-score > div:first-child { display: flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; }
+.athlete-qv-score strong { flex-shrink: 0; color: var(--score-color); font-size: 0.75rem; white-space: nowrap; }
+.athlete-qv-score-track { flex: 1; min-width: 12px; height: 5px; border-radius: 999px; background: var(--hairline); overflow: hidden; }
+.athlete-qv-score-track > span { display: block; height: 100%; border-radius: inherit; background: var(--score-color); }
+.athlete-qv-score-tooltip { display: none; position: absolute; left: 0; bottom: calc(100% + 5px); z-index: 3; width: 240px; max-width: calc(100vw - 64px); overflow-y: auto; padding: 0.65rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.75rem; line-height: 1.5; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18); }
+.athlete-qv-score:last-child .athlete-qv-score-tooltip { left: auto; right: 0; }
+.athlete-qv-score:is(:hover, :focus) .athlete-qv-score-tooltip { display: block; }
+.athlete-qv-score .athlete-qv-score-tooltip[hidden] { display: none; }
+.athlete-map-title { display: flex; align-items: baseline; gap: 0.35rem; }
+.map-score-help { position: relative; z-index: 1050; }
+.map-score-help summary { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: var(--muted); cursor: pointer; list-style: none; }
+.map-score-help summary::-webkit-details-marker { display: none; }
+.map-score-help summary:focus-visible { outline: 2px solid var(--ink); border-radius: 8px; }
+.athlete-map-title .map-score-help p { position: absolute; top: 100%; left: -8rem; width: 230px; max-width: calc(100vw - 32px); margin: 0; padding: 0.7rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.78rem; line-height: 1.5; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
 .athlete-qv-more { margin-bottom: 0.8rem; border-top: 1px solid var(--hairline); }
 .athlete-qv-more summary { padding: 0.7rem 0; font-size: 0.82rem; font-weight: 600; cursor: pointer; }
 .athlete-qv-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
@@ -338,6 +363,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-qv-directions[hidden] { display: none; }
 .athlete-qv-close { top: 6px; right: 6px; width: 44px; height: 44px; border-radius: 50%; background: rgba(0, 0, 0, 0.5); color: #fff; }
 @media (max-width: 640px) {
+  .athlete-map-section { margin-inline: -0.5rem; padding-inline: 0.5rem; }
   .athlete-quickview { top: auto; bottom: 38px; left: 12px; right: 12px; width: auto; max-height: 65%; padding: 0; }
 }
 .athlete-qv-link { font-size: 0.85rem; font-weight: 600; color: var(--accent-blue); text-decoration: none; }

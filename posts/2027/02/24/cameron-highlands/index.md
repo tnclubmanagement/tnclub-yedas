@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~40.000"
 place_area: "712 km²"
 place_region: "Malaysia"
+map_content_score: 7.2
+map_destination_score: 7.9
+map_content_note: "Lưu ý đường đèo, tour và khu ở rõ; thiếu ngân sách và nguồn tình trạng đường rừng."
+map_destination_note: "Khí hậu, đồi chè và rừng rêu khác biệt; đường đèo, mưa và kẹt xe cuối tuần là đánh đổi."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Cameron Highlands, Cao nguyên, Đồi chè, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-malaysia.aspx"

@@ -11,6 +11,11 @@ place_country: "Philippines"
 place_population: "~940.000"
 place_area: "14.650 km²"
 place_region: "Philippines"
+map_content_score: 7.9
+map_destination_score: 9.0
+map_content_note: "So sánh tour và cách nối chuyến hữu ích; cần tách rõ thời lượng thuyền nhiều ngày với lịch sáu ngày."
+map_destination_note: "Lagoon và cảnh đá vôi đặc sắc; di chuyển dài, thời tiết và dịch vụ trên đảo cần dự phòng."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Palawan, El Nido, Coron, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-philippines.aspx"

@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~420.000"
 place_area: "576 km²"
 place_region: "Thái Lan"
+map_content_score: 8.3
+map_destination_score: 8.2
+map_content_note: "Chọn khu, phân biệt địa lý và cảnh báo biển tốt; cần ngân sách và nguồn quy định hiện hành."
+map_destination_note: "Biển, phố cổ và dịch vụ đa dạng; giao thông, đông khách và mùa gió làm trải nghiệm khác nhau."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Phuket, Biển đảo, Phố cổ, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/nhung-dia-diem-du-lich-phuket-v16516.aspx"

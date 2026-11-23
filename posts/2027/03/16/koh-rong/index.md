@@ -11,6 +11,11 @@ place_country: "Cambodia"
 place_population: "~1.100 (thường trú)"
 place_area: "~78 km²"
 place_region: "Vịnh Thái Lan"
+map_content_score: 6.8
+map_destination_score: 8.1
+map_content_note: "Có lịch trình và lưu ý đi đảo; cần nguồn cụ thể cho giá phà và thông tin các bãi."
+map_destination_note: "Biển và phù du tạo điểm nhấn; phụ thuộc thời tiết, phà và tiện nghi trên đảo."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Cambodia, Koh Rong, Biển đảo, Lặn biển, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

@@ -13,6 +13,11 @@ place_area: "1.440 km²"
 place_region: "Đồng bằng sông Cửu Long"
 place_economy: "Thương mại sông nước, nông nghiệp và du lịch"
 place_festival: "Ok Om Bok, đua ghe Ngo và các lễ hội Khmer"
+map_content_score: 8.1
+map_destination_score: 8.1
+map_content_note: "Có nguồn chính thức, phân tuyến rõ và lưu ý thuyền; cần ngân sách, bến đón và phương tiện cụ thể."
+map_destination_note: "Sông nước, vườn cây và văn hóa Khmer đa dạng; cần đi sớm và kiểm tra hoạt động chợ nổi thực tế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Cần Thơ, Miền Tây, Giới thiệu]
 ---

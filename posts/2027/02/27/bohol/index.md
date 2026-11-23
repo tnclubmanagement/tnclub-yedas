@@ -11,6 +11,11 @@ place_country: "Philippines"
 place_population: "~1,4 triệu"
 place_area: "4.821 km²"
 place_region: "Philippines"
+map_content_score: 6.9
+map_destination_score: 8.5
+map_content_note: "Kết hợp nội đảo và biển hợp lý; cần kiểm chứng mô tả tarsier và bổ sung nguồn bảo tồn."
+map_destination_note: "Đồi địa chất, văn hóa và biển tạo hành trình phong phú; nội đảo xa, cần di chuyển bằng xe."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Bohol, Chocolate Hills, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-philippines.aspx"

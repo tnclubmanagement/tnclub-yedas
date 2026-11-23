@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~2 triệu"
 place_area: "243 km²"
 place_region: "Malaysia"
+map_content_score: 7.8
+map_destination_score: 8.2
+map_content_note: "Tuyến ba ngày gọn, giao thông và văn hóa rõ; cần thêm nguồn vé, lịch tàu và ngân sách."
+map_destination_note: "Ẩm thực, kiến trúc và kết nối thuận tiện; nắng mưa và khoảng cách các hướng ngoại ô."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Kuala Lumpur, Ẩm thực, Thành phố, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/diem-du-lich-malaysia-noi-bat-v17293.aspx"

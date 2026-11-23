@@ -11,6 +11,11 @@ place_country: "Philippines"
 place_population: "~1,9 triệu"
 place_area: "42,3 km²"
 place_region: "Philippines"
+map_content_score: 7.4
+map_destination_score: 7.6
+map_content_note: "Tư liệu phong phú, vòng Intramuros rõ; cần nguồn xác nhận giờ bảo tàng và thông tin giao thông."
+map_destination_note: "Hấp dẫn ở di sản và ẩm thực; giao thông, nắng nóng và khoảng cách cần tính kỹ."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Manila, Intramuros, Thành phố, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-philippines.aspx"

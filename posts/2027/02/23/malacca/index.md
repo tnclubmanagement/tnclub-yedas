@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~1 triệu"
 place_area: "1.664 km²"
 place_region: "Malaysia"
+map_content_score: 8.0
+map_destination_score: 8.3
+map_content_note: "Ảnh nhiều, nguồn bài cụ thể và tuyến đi bộ tốt; có thể bổ sung giá vé, giờ mở cửa."
+map_destination_note: "Di sản nhỏ gọn, ẩm thực và phố sông dễ ghép chuyến; chợ cuối tuần đông, trời nóng."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Malacca, Di sản, Phố cổ, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/malacca-v18352.aspx"

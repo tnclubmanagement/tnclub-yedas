@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~10,6 triệu"
 place_area: "664 km²"
 place_region: "Đảo Java"
+map_content_score: 6.9
+map_destination_score: 7.4
+map_content_note: "Gợi ý phố cổ, ăn uống và giao thông rõ; cần nguồn cập nhật các thông tin hành chính, bảo tàng."
+map_destination_note: "Đáng ghé vì lịch sử và ẩm thực; giao thông đông và quãng di chuyển làm giảm độ thuận tiện."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Jakarta, Thành phố, Ẩm thực, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

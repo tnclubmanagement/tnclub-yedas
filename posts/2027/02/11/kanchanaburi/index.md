@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~900.000"
 place_area: "19.483 km²"
 place_region: "Thái Lan"
+map_content_score: 8.2
+map_destination_score: 8.3
+map_content_note: "Có nguồn, bối cảnh lịch sử và lưu ý an toàn; cần bổ sung ngân sách, lịch tàu cụ thể."
+map_destination_note: "Kết hợp lịch sử, sông và thác; các điểm cách xa, mùa mưa ảnh hưởng đường thác."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Kanchanaburi, Erawan, Lịch sử, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/du-lich-kanchanaburi-diem-den-noi-bat-thai-lan-mua-he-xanh-v17646.aspx"

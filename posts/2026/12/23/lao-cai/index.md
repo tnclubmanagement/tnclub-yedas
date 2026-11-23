@@ -13,6 +13,11 @@ place_population: "~790.000"
 place_economy: "Du lịch Sa Pa, thương mại cửa khẩu, khoáng sản"
 place_festival: "Chợ phiên Bắc Hà, lễ hội xuống đồng"
 place_region: "Tây Bắc"
+map_content_score: 5.9
+map_destination_score: 8.5
+map_content_note: "Có ảnh và video; thiếu lịch trình, nguồn kiểm chứng, lưu ý độ cao và thời gian nối các tuyến."
+map_destination_note: "Núi, ruộng bậc thang và văn hóa bản làng hấp dẫn; sương mưa, độ cao và đông khách theo mùa."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Lào Cai, Sa Pa, Giới thiệu]
 ---

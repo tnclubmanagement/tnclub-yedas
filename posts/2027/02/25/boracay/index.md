@@ -11,6 +11,11 @@ place_country: "Philippines"
 place_population: "~38.000"
 place_area: "10,3 km²"
 place_region: "Philippines"
+map_content_score: 7.6
+map_destination_score: 8.3
+map_content_note: "Chọn khu ở và quy trình ra đảo hữu ích; cần nguồn chính thức cập nhật các quy định và phí."
+map_destination_note: "Bãi biển, hoàng hôn và dịch vụ nghỉ dưỡng tốt; đông khách, thời tiết ảnh hưởng tàu thuyền."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Boracay, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-philippines.aspx"

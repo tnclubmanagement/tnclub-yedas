@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~2,5 triệu"
 place_area: "167 km²"
 place_region: "Đảo Java"
+map_content_score: 7.2
+map_destination_score: 8.0
+map_content_note: "Chia tuyến bắc và nam hữu ích; cần nguồn giờ mở cửa, giá vé và tình trạng núi lửa."
+map_destination_note: "Cao nguyên, hồ núi lửa và ẩm thực đa dạng; kẹt xe cuối tuần và khoảng cách giữa các điểm."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bandung, Cao nguyên, Núi lửa, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

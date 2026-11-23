@@ -13,6 +13,11 @@ place_area: "13.070 km²"
 place_region: "Tây Nguyên & duyên hải Nam Trung Bộ"
 place_economy: "Cà phê, nông nghiệp và du lịch"
 place_festival: "Lễ hội Cà phê Buôn Ma Thuột, sinh hoạt văn hóa cồng chiêng"
+map_content_score: 8.2
+map_destination_score: 8.2
+map_content_note: "Nguồn chính thức và lưu ý văn hóa, phúc lợi voi tốt; cần ngân sách và thời gian đường bộ cụ thể."
+map_destination_note: "Cà phê, văn hóa cộng đồng và thiên nhiên khác biệt; các điểm xa nhau và cần hướng dẫn địa phương."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Đắk Lắk, Buôn Ma Thuột, Giới thiệu]
 ---

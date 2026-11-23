@@ -11,6 +11,11 @@ place_country: "Laos"
 place_population: "~16.000 (quần đảo)"
 place_area: "quần đảo ~50km dọc Mekong"
 place_region: "Nam Lào"
+map_content_score: 5.5
+map_destination_score: 7.7
+map_content_note: "Có tuyến đi và lịch trình; cần xác minh lại thông tin cá heo, giá thuê xe và bổ sung nguồn."
+map_destination_note: "Hợp nghỉ chậm, đạp xe và ngắm Mekong; di chuyển nhiều chặng, tiện nghi hạn chế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Laos, Si Phan Don, Don Det, Sông nước, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

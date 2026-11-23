@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~10 triệu"
 place_area: "1.569 km²"
 place_region: "Thái Lan"
+map_content_score: 8.2
+map_destination_score: 8.7
+map_content_note: "Chia cụm hợp lý, nguồn và cảnh báo thực dụng; thiếu ngân sách và liên kết vé, lịch tàu trực tiếp."
+map_destination_note: "Ẩm thực, chùa và giao thông công cộng tạo nhiều lựa chọn; nóng, đông và kẹt xe là hạn chế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Bangkok, Chùa cổ, Ẩm thực, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/kinh-nghiem-du-lich-bangkok-cho-nguoi-moi-an-gi-di-dau-mua-gi-v17609.aspx"

@@ -68,6 +68,18 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   Mọi bài có thể thêm `map_ranking`, `map_score` (vd `"8.5/10"`),
   `map_rating_updated` (chuỗi ngày do người viết nhập). Đây là đánh giá thủ
   công, không tự tính; giá trị rỗng tự ẩn. Bài Đài Bắc có sẵn ô trống để nhập.
+- Hai điểm quickview dùng `map_content_score` (chất lượng bài viết) và
+  `map_destination_score` (độ hấp dẫn điểm đến), nhập số 0–10, không kèm `/10`.
+  `map_content_note`, `map_destination_note` ghi lý do; ngày dùng chung
+  `map_rating_updated`. Hiển thị một dòng icon + số + thanh màu: đỏ <5,
+  vàng 5–<8, xanh ≥8; lý do/ngày nằm trong tooltip, chú giải ở icon thông tin
+  cạnh tiêu đề bản đồ. Địa điểm chưa có điểm hiện dấu gạch với tooltip
+  “Chưa đánh giá”; VĐV không có điểm hấp dẫn điểm đến. Trường `map_score`
+  cũ chỉ hiển thị khi chưa có hai điểm mới.
+- Điểm các bài Đông Nam Á là đánh giá biên tập sơ bộ, không phải điểm du khách
+  hay xếp hạng chính thức. Chất lượng xét tính hữu ích, bố cục, tư liệu và
+  nguồn; điểm đến xét trải nghiệm cùng hạn chế nêu trong bài. Đây không phải
+  kết quả kiểm chứng thực địa hoặc xác minh toàn bộ thông tin hiện hành.
 - JS tuỳ biến: `assets/js/custom-animations.js` (hero ảnh ngẫu nhiên + Ken
   Burns 1 lần, fade-in khi cuộn khi tải trang — animation chạy 1 lần, không
   loop). Bản gốc "Liquid Glass" còn có khối màu nền "blob" + masonry lệch

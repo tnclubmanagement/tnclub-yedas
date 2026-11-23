@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~1,77 triệu"
 place_area: "1.049 km²"
 place_region: "Malaysia"
+map_content_score: 7.9
+map_destination_score: 8.7
+map_content_note: "Ảnh, món ăn và lịch trình phong phú; cần nguồn rõ cho nhận định Michelin và giờ tham quan."
+map_destination_note: "Ẩm thực, di sản và nghệ thuật phố nổi bật; nóng, mưa và hàng chờ ở điểm chính."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Penang, George Town, Ẩm thực, Di sản, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/du-lich-penang-v16286.aspx"

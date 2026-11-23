@@ -13,6 +13,11 @@ place_population: "~1,2 triệu"
 place_economy: "Dịch vụ – du lịch, công nghệ cao, cảng biển"
 place_festival: "Lễ hội pháo hoa quốc tế DIFF, lễ hội Quán Thế Âm"
 place_region: "Duyên hải Nam Trung Bộ"
+map_content_score: 6.1
+map_destination_score: 8.6
+map_content_note: "Tư liệu và bố cục rõ; thiếu lịch trình, nguồn kiểm chứng, chi phí và thông tin vận hành mới."
+map_destination_note: "Biển, ẩm thực và kết nối di sản thuận tiện; đông khách, nắng và mùa mưa bão."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Đà Nẵng, Giới thiệu]
 ---

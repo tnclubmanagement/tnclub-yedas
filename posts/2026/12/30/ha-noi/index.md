@@ -13,6 +13,11 @@ place_area: "3.360 km²"
 place_region: "Đồng bằng sông Hồng"
 place_economy: "Dịch vụ, thương mại, du lịch văn hóa"
 place_festival: "Lễ hội Cổ Loa, hội Gióng, Trung thu phố cổ"
+map_content_score: 8.1
+map_destination_score: 8.7
+map_content_note: "Nguồn, cấu trúc và nhịp đi rõ; cần ngân sách, giờ di tích và hướng dẫn giao thông chi tiết hơn."
+map_destination_note: "Văn hóa, ẩm thực và di sản đô thị phong phú; giao thông, thời tiết và chất lượng không khí cần lưu ý."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Hà Nội, Giới thiệu]
 ---

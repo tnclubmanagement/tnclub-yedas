@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~820.000"
 place_area: "2.557 km²"
 place_region: "Thái Lan"
+map_content_score: 8.2
+map_destination_score: 8.5
+map_content_note: "Có nhiều nguồn và chỉ dẫn tôn trọng di tích; cần thêm giá vé, tuyến tàu và phương tiện tham khảo."
+map_destination_note: "Di sản dễ ghép với Bangkok, nhiều lớp lịch sử; nắng và khoảng cách giữa các cụm đền."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Ayutthaya, Di sản, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/thanh-pho-lich-su-ayutthaya-dia-diem-du-lich-bac-nhat-o-thai-lan-v16390.aspx"

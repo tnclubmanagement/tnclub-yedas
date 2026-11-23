@@ -13,6 +13,11 @@ place_population: "~1,4 triệu"
 place_economy: "Khai thác than, du lịch biển, cảng & kinh tế Vân Đồn"
 place_festival: "Lễ hội Yên Tử, Carnaval Hạ Long"
 place_region: "Đông Bắc"
+map_content_score: 5.5
+map_destination_score: 8.8
+map_content_note: "Có tư liệu; cần sửa khái quát chiến thắng Bạch Đằng, làm rõ tuyến liên tỉnh và bổ sung nguồn, lịch trình."
+map_destination_note: "Vịnh và di sản tâm linh nổi bật; thời tiết biển, lịch tàu và đông khách ảnh hưởng chuyến đi."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Quảng Ninh, Hạ Long, Giới thiệu]
 ---

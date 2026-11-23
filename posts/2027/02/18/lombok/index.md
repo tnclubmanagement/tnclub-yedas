@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~3,4 triệu"
 place_area: "4.739 km²"
 place_region: "Indonesia"
+map_content_score: 7.4
+map_destination_score: 8.5
+map_content_note: "Chọn vùng và ngày đệm thực tế; thiếu ngân sách, nguồn lịch tàu và tình trạng đường leo."
+map_destination_note: "Biển, Gili và núi đa dạng; các vùng cách xa nhau, tàu và trekking phụ thuộc thời tiết."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Lombok, Gili, Biển đảo, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

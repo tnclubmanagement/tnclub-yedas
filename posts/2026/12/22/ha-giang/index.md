@@ -13,6 +13,11 @@ place_population: "~905.000"
 place_economy: "Du lịch, nông lâm nghiệp, khoáng sản"
 place_festival: "Lễ hội hoa tam giác mạch, chợ tình Khâu Vai"
 place_region: "Đông Bắc"
+map_content_score: 5.4
+map_destination_score: 8.9
+map_content_note: "Có tư liệu; cần cập nhật địa giới, nguồn cho các khẳng định, lịch trình và hướng dẫn an toàn đường đèo."
+map_destination_note: "Cao nguyên đá và văn hóa vùng cao đặc sắc; đường đèo, sạt lở và thời tiết đòi hỏi chuẩn bị kỹ."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Hà Giang, Giới thiệu]
 ---

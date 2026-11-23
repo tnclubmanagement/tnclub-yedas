@@ -13,6 +13,11 @@ place_population: "~1,35 triệu"
 place_economy: "Nông nghiệp công nghệ cao (hoa, cà phê), du lịch"
 place_festival: "Festival hoa Đà Lạt, lễ hội trà Đà Lạt"
 place_region: "Tây Nguyên"
+map_content_score: 5.4
+map_destination_score: 8.3
+map_content_note: "Có tư liệu đa phương tiện; thiếu lịch trình và nguồn, cần kiểm chứng cao tốc, địa giới và thông tin rượu vang."
+map_destination_note: "Khí hậu, nông trại và cảnh cao nguyên hấp dẫn; đông khách, mưa và các điểm xa nhau."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Lâm Đồng, Đà Lạt, Giới thiệu]
 ---

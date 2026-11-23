@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~590.000"
 place_area: "6.671 km²"
 place_region: "Thái Lan"
+map_content_score: 8.2
+map_destination_score: 8.4
+map_content_note: "Phân khu, chỗ ở và cách đi vừa sức rõ; còn thiếu chi phí và liên kết vé chính thức."
+map_destination_note: "Di sản, cảnh hồ và nhịp đạp xe thư thái; hành trình tới dài và nắng giữa ngày."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Sukhothai, Di sản, Xe đạp, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/song-cham-o-co-do-sukhothai-mien-bac-thai-lan-v17746.aspx"

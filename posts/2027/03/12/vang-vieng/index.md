@@ -11,6 +11,11 @@ place_country: "Laos"
 place_population: "~25.000"
 place_area: "huyện Vang Vieng ~2.200 km²"
 place_region: "Bắc Lào"
+map_content_score: 7.0
+map_destination_score: 8.3
+map_content_note: "Nhiều gợi ý hoạt động và đường đi; cần nguồn giá và hướng dẫn an toàn cụ thể hơn."
+map_destination_note: "Cảnh karst và hoạt động ngoài trời nổi bật; trải nghiệm phụ thuộc mùa và nhà tổ chức."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Laos, Vang Vieng, Sông nước, Phiêu lưu, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

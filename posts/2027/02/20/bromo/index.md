@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~1,2 triệu (vùng Probolinggo)"
 place_area: "1.696 km²"
 place_region: "Indonesia"
+map_content_score: 7.5
+map_destination_score: 8.7
+map_content_note: "Khung giờ, chỗ ở và cảnh báo núi lửa rõ; cần nguồn vé và cảnh báo hoạt động hiện hành."
+map_destination_note: "Cảnh núi lửa và bình minh đặc sắc; lạnh, bụi và thời tiết có thể che hoàn toàn tầm nhìn."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bromo, Núi lửa, Bình minh, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-philippines-2025-v17351.aspx"

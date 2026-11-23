@@ -13,6 +13,11 @@ place_population: "~1,15 triệu"
 place_economy: "Du lịch di sản, dệt may, giáo dục"
 place_festival: "Festival Huế (2 năm/lần), lễ hội áo dài"
 place_region: "Bắc Trung Bộ"
+map_content_score: 5.6
+map_destination_score: 8.7
+map_content_note: "Có ảnh và video; cần phân biệt ca Huế với nhã nhạc, bổ sung nguồn, lịch tham quan và giá vé."
+map_destination_note: "Di sản, cảnh quan và ẩm thực đặc sắc; lăng tẩm xa nhau, nắng và mùa mưa lũ."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Huế, Giới thiệu]
 ---

@@ -13,6 +13,11 @@ place_population: "~1,3 triệu"
 place_economy: "Du lịch biển, thủy sản & yến sào, cảng Cam Ranh"
 place_festival: "Lễ hội tháp Bà Po Nagar, lễ hội biển Nha Trang"
 place_region: "Duyên hải Nam Trung Bộ"
+map_content_score: 5.6
+map_destination_score: 8.3
+map_content_note: "Có ảnh, video và món ăn; cần sửa mô tả địa lý, thêm nguồn, lịch trình và hướng dẫn đi đảo."
+map_destination_note: "Biển, nghỉ dưỡng và văn hóa Chăm đa dạng; thời tiết, dịch vụ tour và bảo tồn biển cần cân nhắc."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Khánh Hòa, Nha Trang, Giới thiệu]
 ---

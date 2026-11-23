@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~1,3 triệu"
 place_area: "11.678 km²"
 place_region: "Thái Lan"
+map_content_score: 8.3
+map_destination_score: 8.2
+map_content_note: "Phân biệt công trình, nguồn và ứng xử tốt; cần chi phí di chuyển và giờ tham quan chính thức."
+map_destination_note: "Nghệ thuật, chùa và đồi trà khác biệt; các điểm xa nhau và có mùa khói bụi."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Chiang Rai, Nghệ thuật, Đồi trà, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/chua-trang-o-thai-lan-kien-truc-tam-linh-tai-chiang-rai-v17316.aspx"

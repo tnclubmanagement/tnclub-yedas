@@ -11,6 +11,11 @@ place_country: "Laos"
 place_population: "~55.000 (thành phố)"
 place_area: "tỉnh Luang Prabang ~16.875 km²"
 place_region: "Bắc Lào"
+map_content_score: 7.3
+map_destination_score: 8.8
+map_content_note: "Cân bằng văn hóa, lịch trình và ứng xử; cần nguồn cụ thể cho giá vé và lịch vận chuyển."
+map_destination_note: "Phố di sản, chùa và thác tạo hành trình đa dạng; lưu ý mùa khói và đông khách ở điểm chính."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Laos, Luang Prabang, Di sản, Văn hóa, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

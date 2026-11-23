@@ -11,6 +11,11 @@ place_country: "Philippines"
 place_population: "~3,4 triệu"
 place_area: "4.944 km²"
 place_region: "Philippines"
+map_content_score: 7.4
+map_destination_score: 8.4
+map_content_note: "Có cảnh báo an toàn và tranh luận bảo tồn; cần nguồn dịch vụ và phân biệt dữ liệu thành phố với đảo."
+map_destination_note: "Di tích, thác và sinh cảnh biển đa dạng; đi nam đảo dài, cần cân nhắc phúc lợi động vật."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Philippines, Cebu, Biển đảo, Khám phá, Chụp ảnh]
 photo_source: "https://travel.com.vn/kinh-nghiem-du-lich/du-lich-philippines.aspx"

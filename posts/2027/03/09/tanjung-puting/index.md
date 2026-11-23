@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~270.000 (Kotawaringin Barat)"
 place_area: "4.150 km² (vườn quốc gia)"
 place_region: "Đảo Borneo"
+map_content_score: 7.0
+map_destination_score: 8.5
+map_content_note: "Mô tả rõ hành trình klotok và tiện nghi; cần nguồn giá, quy định tiếp cận động vật và bảo tồn."
+map_destination_note: "Trải nghiệm sông rừng và linh trưởng khác biệt; phù hợp người chấp nhận điều kiện cơ bản."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Kalimantan, Tanjung Puting, Orangutan, Thiên nhiên]
 photo_source: "https://commons.wikimedia.org/"

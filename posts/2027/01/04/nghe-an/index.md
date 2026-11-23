@@ -13,6 +13,11 @@ place_area: "16.486 km²"
 place_region: "Bắc Trung Bộ"
 place_economy: "Dịch vụ, nông nghiệp và du lịch văn hóa – sinh thái"
 place_festival: "Lễ hội Làng Sen, lễ hội đền Cuông"
+map_content_score: 8.0
+map_destination_score: 7.9
+map_content_note: "Có nguồn chính thức, phân tuyến biển và rừng; cần chi phí, lịch đi và phương tiện cụ thể hơn."
+map_destination_note: "Di tích, biển và rừng đem lại nhiều hướng đi; thời tiết nóng và quãng đường miền Tây dài."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Nghệ An, Cửa Lò, Pù Mát, Giới thiệu]
 ---

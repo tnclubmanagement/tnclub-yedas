@@ -11,6 +11,11 @@ place_country: "Malaysia"
 place_population: "~700.000"
 place_area: "431 km²"
 place_region: "Đảo Borneo"
+map_content_score: 7.2
+map_destination_score: 8.2
+map_content_note: "Kết hợp phố cổ, ẩm thực và rừng hợp lý; thiếu chi phí và nguồn thực tế cho các tour."
+map_destination_note: "Cân bằng văn hóa Sarawak, ăn uống và thiên nhiên; mưa có thể ảnh hưởng chuyến rừng."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Sarawak, Kuching, Borneo, Phố cổ, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org/"

@@ -11,6 +11,11 @@ place_country: "Thailand"
 place_population: "~1,8 triệu"
 place_area: "20.107 km²"
 place_region: "Thái Lan"
+map_content_score: 8.1
+map_destination_score: 8.6
+map_content_note: "Nhịp đi hợp lý, chú ý không khí và phúc lợi động vật; thiếu ngân sách và nguồn vận hành cụ thể."
+map_destination_note: "Văn hóa Lanna, ẩm thực và thiên nhiên phong phú; khói bụi theo mùa cần cân nhắc kỹ."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Thái Lan, Chiang Mai, Lanna, Ẩm thực, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-chiang-mai-thai-lan-v15956.aspx"

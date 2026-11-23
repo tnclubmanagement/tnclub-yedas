@@ -13,6 +13,11 @@ place_area: "6.724 km²"
 place_region: "Đông Bắc"
 place_economy: "Du lịch thiên nhiên, nông nghiệp và nghề thủ công"
 place_festival: "Lễ hội thác Bản Giốc, lễ hội Lồng Tồng"
+map_content_score: 8.2
+map_destination_score: 8.7
+map_content_note: "Nguồn và lịch trình ban ngày hợp lý; cần thêm ngân sách, mốc đường và lựa chọn vận chuyển."
+map_destination_note: "Thác, núi đá và văn hóa bản làng nổi bật; đường miền núi dài, sương mưa ảnh hưởng hành trình."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Cao Bằng, Bản Giốc, Giới thiệu]
 ---

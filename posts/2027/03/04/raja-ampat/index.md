@@ -11,6 +11,11 @@ place_country: "Indonesia"
 place_population: "~66.000"
 place_area: "~40.000 km² (cả biển)"
 place_region: "Papua Tây"
+map_content_score: 7.2
+map_destination_score: 9.0
+map_content_note: "Nêu rõ đánh đổi chi phí và khoảng cách; cần nguồn khoa học cho số liệu san hô và mức phí hiện hành."
+map_destination_note: "Biển đảo và đa dạng sinh học nổi bật; chi phí, hành trình xa và tiện nghi cơ bản là hạn chế."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Raja Ampat, Lặn biển, Thiên nhiên, Chụp ảnh]
 photo_source: "https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-indonesia-v16926.aspx"

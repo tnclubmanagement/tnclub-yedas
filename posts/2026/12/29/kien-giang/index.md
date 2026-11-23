@@ -13,6 +13,11 @@ place_population: "~1,8 triệu"
 place_economy: "Thủy sản, nước mắm Phú Quốc, du lịch đảo, lúa gạo"
 place_festival: "Lễ hội Nghinh Ông, lễ hội Nguyễn Trung Trực"
 place_region: "Tây Nam Bộ"
+map_content_score: 5.8
+map_destination_score: 8.3
+map_content_note: "Có ảnh và video; thiếu lịch trình, nguồn kiểm chứng, thông tin di chuyển và cập nhật địa giới."
+map_destination_note: "Biển đảo, ẩm thực và nghỉ dưỡng đa dạng; phụ thuộc mùa, khoảng cách và lựa chọn khu lưu trú."
+map_rating_updated: "2026-11-23"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, Kiên Giang, Phú Quốc, Giới thiệu]
 ---

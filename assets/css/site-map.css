@@ -301,11 +301,12 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   position: absolute;
   top: 0.4rem;
   right: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   background: transparent;
   color: var(--muted);
-  font-size: 1.5rem;
-  line-height: 1;
   cursor: pointer;
   z-index: 2;
 }
@@ -414,7 +415,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   from { opacity: 0; transform: translateY(18px) scale(0.98); }
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
-.athlete-modal-close { position: sticky; float: right; margin-right: -0.5rem; font-size: 1.6rem; }
+.athlete-modal-close { position: sticky; float: right; margin-right: -0.5rem; }
 .athlete-modal-close:hover, .athlete-detail-close:hover { color: var(--ink); }
 .athlete-media-title { margin: 0 0 1rem; font-size: 1.15rem; color: var(--ink); }
 .athlete-media-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.9rem; }

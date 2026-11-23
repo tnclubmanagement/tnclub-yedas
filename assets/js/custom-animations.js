@@ -124,10 +124,13 @@
       var modeButtons = homeControls.querySelectorAll(".home-mode-btn");
       var cards = postsList.querySelectorAll(".post-preview");
       var selectedTag = "";
+      var PAGE_SIZE = 24;
+      var visibleLimit = PAGE_SIZE;
+      var moreBtn = document.getElementById("posts-load-more");
 
       function filterPosts() {
         var query = (search.value || "").trim().toLowerCase();
-        var visible = 0;
+        var matched = 0;
         cards.forEach(function (card) {
           var title = (card.dataset.postTitle || "").toLowerCase();
           var category = (card.dataset.postCategory || "").toLowerCase();
@@ -135,12 +138,19 @@
           var matches = (!query || title.indexOf(query) !== -1) &&
             (!selectedTag || category === selectedTag ||
               (!category && tags.split(",").indexOf(selectedTag) !== -1));
-          card.hidden = !matches;
-          if (matches) visible++;
+          card.hidden = !matches || matched >= visibleLimit;
+          if (matches) matched++;
         });
+        var shown = Math.min(matched, visibleLimit);
         if (totalCount) {
-          totalCount.textContent = visible + " bài viết";
+          totalCount.textContent = matched > shown ? shown + "/" + matched + " bài viết" : matched + " bài viết";
         }
+        if (moreBtn) moreBtn.hidden = matched <= shown;
+      }
+
+      function resetLimit() {
+        visibleLimit = PAGE_SIZE;
+        filterPosts();
       }
 
       function setTag(tag) {
@@ -150,7 +160,7 @@
           button.classList.toggle("is-active", active);
           button.setAttribute("aria-pressed", String(active));
         });
-        filterPosts();
+        resetLimit();
       }
 
       function setDisplayMode(mode) {
@@ -163,7 +173,13 @@
         localStorage.setItem("yedas-home-display-mode", mode);
       }
 
-      search.addEventListener("input", filterPosts);
+      search.addEventListener("input", resetLimit);
+      if (moreBtn) {
+        moreBtn.addEventListener("click", function () {
+          visibleLimit += PAGE_SIZE;
+          filterPosts();
+        });
+      }
       tabButtons.forEach(function (button) {
         button.addEventListener("click", function () { setTag(button.dataset.tag); });
       });

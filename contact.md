@@ -2,7 +2,7 @@
 layout: page
 title: Liên hệ
 subtitle: Mình luôn sẵn sàng lắng nghe
-cover-img: "/assets/img/hero-1.jpg"
+cover-img: "/assets/img/hero-banner.jpg"
 permalink: /contact/
 ---
 

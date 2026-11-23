@@ -69,7 +69,7 @@ permalink: /posts/
       {% if thumbnail != "" %}
       <div class="post-image post-image-normal">
         <a href="{{ post.url | relative_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | strip_html | escape }}">
+          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | strip_html | escape }}" loading="lazy">
         </a>
         {% if topic != "" %}<span class="post-topic post-topic-{{ topic_mod }}">{{ topic }}</span>{% endif %}
       </div>
@@ -107,3 +107,7 @@ permalink: /posts/
   </li>
   {% endfor %}
 </ul>
+
+<div class="posts-load-more-wrap">
+  <button type="button" class="posts-load-more" id="posts-load-more" hidden>Xem thêm bài viết</button>
+</div>

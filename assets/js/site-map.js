@@ -1,4 +1,7 @@
 (function () {
+  // Icon "x" của Lucide (inline SVG, không cần tải thư viện icon ngoài)
+  var CLOSE_ICON = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+
   function initMap() {
     var el = document.getElementById('athlete-map');
     var qv = document.getElementById('athlete-quickview');
@@ -62,11 +65,11 @@
       detail.innerHTML = '<p class="athlete-detail-loading">Đang tải hồ sơ…</p>';
       fetchDoc(url).then(function (doc) {
         var body = doc.querySelector('.post-body');
-        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">' + CLOSE_ICON + '</button>' +
           (body ? '<div class="blog-post post-body">' + body.innerHTML + '</div>'
                 : '<p>Không đọc được nội dung bài viết.</p>');
       }).catch(function () {
-        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">&times;</button>' +
+        detail.innerHTML = '<button class="athlete-detail-close" type="button" aria-label="Đóng hồ sơ">' + CLOSE_ICON + '</button>' +
           '<p class="athlete-detail-loading">Không tải được bài viết — <a href="' + url + '">mở trang riêng</a>.</p>';
       });
     }

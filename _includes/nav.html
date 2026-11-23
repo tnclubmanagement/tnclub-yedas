@@ -24,6 +24,13 @@
             </div>
           </li>
         {% else %}
+          {%- assign nav_url = "/" | append: link[1] | append: "/" -%}
+          {%- assign nav_active = false -%}
+          {%- if page.url == nav_url -%}
+            {%- assign nav_active = true -%}
+          {%- elsif link[1] == "posts" and page.layout == "post" -%}
+            {%- assign nav_active = true -%}
+          {%- endif -%}
           {%- capture icon -%}
             {%- case link[1] -%}
               {%- when "posts" -%}fa-file-text
@@ -35,7 +42,7 @@
             {%- endcase -%}
           {%- endcapture -%}
           <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="{{ link[1] | relative_url }}">
+            <a class="nav-link nav-link-icon{% if nav_active %} is-active{% endif %}" href="{{ link[1] | relative_url }}"{% if nav_active %} aria-current="page"{% endif %}>
               <span class="fa {{ icon | strip }}" aria-hidden="true"></span>
               <span>{{ link[0] }}</span>
             </a>

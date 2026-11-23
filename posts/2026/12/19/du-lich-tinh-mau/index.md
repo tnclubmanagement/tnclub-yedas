@@ -7,7 +7,7 @@ subtitle: "[Mô tả 1 câu — điểm nhấn đặc trưng nhất của tỉnh
 cover-img: "/posts/2026/12/19/du-lich-tinh-mau/cover.jpg"
 thumbnail-img: "/posts/2026/12/19/du-lich-tinh-mau/cover.jpg"
 category: "Du lịch"
-tags: [Du lịch, Việt Nam, [Tên tỉnh], Giới thiệu]
+tags: [Du lịch, Việt Nam, "[Tên tỉnh]", Giới thiệu]
 ---
 
 <!-- SƯỜN BÀI MẪU CHO SERIES "GIỚI THIỆU CÁC TỈNH VIỆT NAM"

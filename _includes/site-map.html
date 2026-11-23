@@ -175,6 +175,7 @@ window.__athletePins = [
       bestTime: {{ post.place_best_time | default: "" | jsonify }},
       food: {{ post.place_food | default: "" | jsonify }},
       transport: {{ post.place_transport | default: "" | jsonify }},
+      tags: {{ post.tags | jsonify }},
       ranking: {{ post.map_ranking | default: "" | jsonify }},
       score: {{ post.map_score | default: "" | jsonify }},
       contentScore: {{ post.map_content_score | default: "" | jsonify }},

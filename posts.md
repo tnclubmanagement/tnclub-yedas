@@ -96,7 +96,7 @@ permalink: /posts/
         <ul class="list-inline list-unstyled" role="list">
           {% for tag in post.tags %}
           <li class="list-inline-item">
-            <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
+            <a href="{{ '/tags' | relative_url }}?tag={{ tag | url_encode }}">{{- tag -}}</a>
           </li>
           {% endfor %}
         </ul>

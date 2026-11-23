@@ -142,6 +142,7 @@ Chưa có tag nào.
   const postsDataEl = document.getElementById('tag-posts-data');
   const postsData = postsDataEl ? JSON.parse(postsDataEl.textContent) : [];
   const topicTabs = document.querySelectorAll('.tag-topic-tab');
+  let tagParam = new URLSearchParams(location.search).get('tag');
   let topic = '';
   let page = 0;
 
@@ -205,12 +206,16 @@ Chưa có tag nào.
   function render() {
     const q = input.value.trim().toLowerCase();
     const searching = q !== '';
+    // Lọc exact-match theo ?tag= trong URL (ví dụ /tags?tag=Hy Lạp) — chỉ khi không gõ tìm kiếm
+    const tagFiltered = !!(tagParam && !searching);
 
     pills.forEach(function (pill) {
       const idx = Number(pill.dataset.tagIndex);
-      pill.hidden = searching
-        ? !pill.dataset.tag.toLowerCase().includes(q)
-        : idx < page * PAGE_SIZE || idx >= (page + 1) * PAGE_SIZE;
+      pill.hidden = tagFiltered
+        ? pill.dataset.tag !== tagParam
+        : searching
+          ? !pill.dataset.tag.toLowerCase().includes(q)
+          : idx < page * PAGE_SIZE || idx >= (page + 1) * PAGE_SIZE;
     });
 
     sectionEls.forEach(function (section) {
@@ -220,7 +225,17 @@ Chưa có tag nào.
       const moreBtn = section.querySelector('.tag-post-more');
       const inPage = idx >= page * PAGE_SIZE && idx < (page + 1) * PAGE_SIZE;
 
-      if (searching) {
+      if (tagFiltered) {
+        const isTarget = section.dataset.tag === tagParam;
+        if (isTarget) {
+          hydrate(section);
+          section.querySelectorAll('.tag-post-card').forEach(function (c) {
+            c.hidden = !cardMatchesTopic(c);
+          });
+        }
+        section.hidden = !isTarget;
+        if (moreBtn) moreBtn.hidden = true;
+      } else if (searching) {
         let hasVisible = false;
         if (tag.includes(q)) {
           hydrate(section);
@@ -270,7 +285,7 @@ Chưa có tag nào.
     });
 
     if (pager) {
-      pager.style.display = searching || totalPages <= 1 ? 'none' : '';
+      pager.style.display = searching || tagFiltered || totalPages <= 1 ? 'none' : '';
       if (pageInfo) pageInfo.textContent = 'Trang ' + (page + 1) + ' / ' + totalPages;
       if (prevBtn) prevBtn.disabled = page <= 0;
       if (nextBtn) nextBtn.disabled = page >= totalPages - 1;
@@ -332,6 +347,23 @@ Chưa có tag nào.
       render();
     });
   });
+  // Click pill: lọc exact-match + đổi URL thành ?tag= (không reload, vẫn share được)
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function (e) {
+      e.preventDefault();
+      tagParam = tagParam === pill.dataset.tag ? null : pill.dataset.tag;
+      const url = tagParam
+        ? location.pathname + '?tag=' + encodeURIComponent(tagParam)
+        : location.pathname;
+      history.pushState(null, '', url);
+      render();
+    });
+  });
+  window.addEventListener('popstate', function () {
+    tagParam = new URLSearchParams(location.search).get('tag');
+    render();
+  });
+
   input.addEventListener('input', render);
   render();
 })();

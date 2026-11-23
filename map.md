@@ -7,3 +7,5 @@ permalink: /map/
 ---
 
 {% include site-map.html default_filter="all" %}
+
+{% include travel-spinner.html %}

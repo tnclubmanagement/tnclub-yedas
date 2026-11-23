@@ -53,6 +53,13 @@
               <button class="drop-item" type="button" data-country="Laos">Laos</button>
               <button class="drop-item" type="button" data-country="Cambodia">Cambodia</button>
               <button class="drop-item" type="button" data-country="India">India</button>
+              <button class="drop-item" type="button" data-country="Pakistan">Pakistan</button>
+              <button class="drop-item" type="button" data-country="Nepal">Nepal</button>
+              <button class="drop-item" type="button" data-country="Bangladesh">Bangladesh</button>
+              <button class="drop-item" type="button" data-country="Bhutan">Bhutan</button>
+              <button class="drop-item" type="button" data-country="Sri Lanka">Sri Lanka</button>
+              <button class="drop-item" type="button" data-country="Maldives">Maldives</button>
+              <button class="drop-item" type="button" data-country="Afghanistan">Afghanistan</button>
             </div>
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="mideast">Trung Đông</button>
@@ -140,6 +147,16 @@
               <button class="drop-item" type="button" data-country="Eswatini">Eswatini</button>
               <button class="drop-item" type="button" data-country="Seychelles">Seychelles</button>
               <button class="drop-item" type="button" data-country="Cape Verde">Cape Verde</button>
+              <button class="drop-item" type="button" data-country="Mauritania">Mauritania</button>
+              <button class="drop-item" type="button" data-country="Mali">Mali</button>
+              <button class="drop-item" type="button" data-country="Ivory Coast">Ivory Coast</button>
+              <button class="drop-item" type="button" data-country="Burkina Faso">Burkina Faso</button>
+              <button class="drop-item" type="button" data-country="Guinea">Guinea</button>
+              <button class="drop-item" type="button" data-country="Togo">Togo</button>
+              <button class="drop-item" type="button" data-country="Benin">Benin</button>
+              <button class="drop-item" type="button" data-country="Niger">Niger</button>
+              <button class="drop-item" type="button" data-country="Sierra Leone">Sierra Leone</button>
+              <button class="drop-item" type="button" data-country="Liberia">Liberia</button>
             </div>
             <div class="drop-group">
               <button class="drop-group-title" type="button" data-continent="oceania">Châu Đại Dương</button>
@@ -353,6 +370,8 @@ window.__athletePins = [
       Vietnam: 'asia', China: 'asia', Japan: 'asia', Taiwan: 'asia',
       Thailand: 'asia', Korea: 'asia', Indonesia: 'asia', Malaysia: 'asia',
       Philippines: 'asia', Laos: 'asia', Cambodia: 'asia', India: 'asia',
+      Pakistan: 'asia', Nepal: 'asia', Bangladesh: 'asia', Bhutan: 'asia',
+      'Sri Lanka': 'asia', Maldives: 'asia', Afghanistan: 'asia',
       'United Arab Emirates': 'mideast', 'Saudi Arabia': 'mideast', Israel: 'mideast',
       Jordan: 'mideast', Turkey: 'mideast', Qatar: 'mideast', Oman: 'mideast', Iran: 'mideast',
       Bahrain: 'mideast', Kuwait: 'mideast', Lebanon: 'mideast', Iraq: 'mideast', Cyprus: 'mideast',
@@ -374,7 +393,10 @@ window.__athletePins = [
       Libya: 'africa', Sudan: 'africa',
       Madagascar: 'africa', Botswana: 'africa', Zambia: 'africa', Malawi: 'africa',
       Mozambique: 'africa', Angola: 'africa', Lesotho: 'africa', Eswatini: 'africa',
-      Seychelles: 'africa', 'Cape Verde': 'africa'
+      Seychelles: 'africa', 'Cape Verde': 'africa',
+      Mauritania: 'africa', Mali: 'africa', 'Ivory Coast': 'africa', 'Burkina Faso': 'africa',
+      Guinea: 'africa', Togo: 'africa', Benin: 'africa', Niger: 'africa',
+      'Sierra Leone': 'africa', Liberia: 'africa'
     };
 
     var entries = window.__athletePins.map(function (d, i) {
@@ -440,6 +462,13 @@ window.__athletePins = [
       Laos:      [[13.8, 100.0], [22.6, 107.8]],
       Cambodia:  [[10.3, 102.3], [14.7, 107.7]],
       India:     [[6.5, 68.0], [35.5, 97.5]],
+      Pakistan:  [[23.5, 60.5], [37.5, 78.0]],
+      Nepal:     [[26.3, 80.0], [30.5, 88.5]],
+      Bangladesh: [[20.5, 88.0], [26.7, 93.0]],
+      Bhutan:    [[26.7, 88.5], [28.4, 92.2]],
+      "Sri Lanka": [[5.8, 79.5], [10.0, 82.2]],
+      Maldives:  [[-1.0, 72.5], [7.5, 74.0]],
+      Afghanistan: [[29.0, 60.5], [38.5, 75.5]],
       Australia: [[-44.5, 112.0], [-10.0, 154.5]],
       France:    [[41.0, -5.5], [51.5, 10.0]],
       Italy:     [[35.5, 6.0], [47.5, 19.0]],
@@ -510,6 +539,16 @@ window.__athletePins = [
       Eswatini:  [[-27.5, 30.5], [-25.5, 32.3]],
       Seychelles: [[-10.5, 46.0], [-3.5, 57.0]],
       "Cape Verde": [[14.5, -25.5], [17.5, -22.5]],
+      Mauritania: [[14.5, -17.5], [27.5, -4.5]],
+      Mali:      [[10.0, -12.5], [25.0, 4.5]],
+      "Ivory Coast": [[4.0, -8.8], [10.8, -2.2]],
+      "Burkina Faso": [[9.3, -5.8], [15.2, 2.5]],
+      Guinea:    [[7.0, -15.5], [12.8, -7.5]],
+      Togo:      [[6.0, -0.5], [11.2, 1.9]],
+      Benin:     [[6.0, 0.5], [12.5, 4.0]],
+      Niger:     [[11.5, 0.0], [23.5, 16.0]],
+      "Sierra Leone": [[6.8, -13.4], [10.1, -10.2]],
+      Liberia:   [[4.2, -11.6], [8.6, -7.3]],
       Russia:    [[41.0, 19.0], [78.0, 180.0]],
       Denmark:   [[54.5, 8.0], [57.8, 15.5]],
       Norway:    [[57.5, 4.0], [71.5, 31.5]],

@@ -12,6 +12,7 @@
 {% endfor %}
 {% assign map_series = map_series | uniq | sort %}
 
+<link rel="stylesheet" href="{{ '/assets/css/site-map.css' | relative_url }}">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -35,7 +36,7 @@
       </div>
       {% if map_series contains "Du lịch" %}
       <div class="filter-drop" id="filter-drop-travel">
-        <button class="home-tab" type="button" data-filter="Du lịch"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
+        <button class="home-tab" type="button" data-filter="Du lịch" aria-haspopup="dialog" aria-controls="map-country-dialog"><span class="filter-drop-label">Du lịch</span> <span class="drop-caret">▾</span></button>
         <dialog class="map-country-dialog" id="map-country-dialog" aria-labelledby="map-country-title">
           <div class="map-country-head">
             <h3 id="map-country-title">Chọn quốc gia hoặc châu lục</h3>
@@ -76,17 +77,30 @@
     <div class="athlete-quickview" id="athlete-quickview" hidden>
       <button class="athlete-qv-close" type="button" aria-label="Đóng">&times;</button>
       <div class="athlete-qv-head">
-        <img class="athlete-qv-avatar" src="" alt="">
         <div>
           <h3 class="athlete-qv-name"></h3>
           <p class="athlete-qv-nick"></p>
         </div>
+        <img class="athlete-qv-avatar" src="" alt="">
       </div>
-      <dl class="athlete-qv-grid"></dl>
-      <a class="athlete-qv-link" href="#">Xem hồ sơ đầy đủ ↓</a>
-      <div class="athlete-qv-shortcuts">
-        <a class="athlete-qv-goto" href="#" data-goto="gallery">Galleries</a>
-        <a class="athlete-qv-goto" href="#" data-goto="video">Videos</a>
+      <div class="athlete-qv-body">
+        <p class="athlete-qv-summary" hidden></p>
+        <dl class="athlete-qv-rating" hidden></dl>
+        <dl class="athlete-qv-grid"></dl>
+        <dl class="athlete-qv-facts" hidden></dl>
+        <details class="athlete-qv-more" hidden>
+          <summary>Xem thêm thông tin</summary>
+          <dl class="athlete-qv-extra"></dl>
+        </details>
+        <div class="athlete-qv-actions">
+          <a class="athlete-qv-link" href="#">Xem hồ sơ</a>
+          <a class="athlete-qv-directions" href="#" target="_blank" rel="noopener noreferrer" hidden>Chỉ đường ↗</a>
+        </div>
+        <div class="athlete-qv-shortcuts">
+          <a class="athlete-qv-goto" href="#" data-goto="gallery"><span class="fas fa-images" aria-hidden="true"></span> Galleries</a>
+          <a class="athlete-qv-goto" href="#" data-goto="video"><span class="fas fa-video" aria-hidden="true"></span> Videos</a>
+          <a class="athlete-qv-google" href="#" target="_blank" rel="noopener noreferrer"><span class="fab fa-google" aria-hidden="true"></span> Google</a>
+        </div>
       </div>
     </div>
   </div>
@@ -117,7 +131,17 @@ window.__athletePins = [
       hometown: {{ post.athlete.hometown | default: "" | jsonify }},
       event: {{ post.athlete.event | default: "" | jsonify }},
       rank: {{ post.athlete.highest_rank | default: "" | jsonify }},
+      summary: {{ post.subtitle | default: "" | jsonify }},
+      skills: {{ post.athlete.skills | default: "" | jsonify }},
+      achievement: {{ post.athlete.achievement | default: "" | jsonify }},
+      height: {{ post.athlete.height | default: "" | jsonify }},
+      hand: {{ post.athlete.hand | default: "" | jsonify }},
+      debut: {{ post.athlete.debut | default: "" | jsonify }},
+      ranking: {{ post.map_ranking | default: "" | jsonify }},
+      score: {{ post.map_score | default: "" | jsonify }},
+      ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
+      image: {{ post["cover-img"] | default: post.athlete.avatar | relative_url | jsonify }},
       avatar: {{ post.athlete.avatar | relative_url | jsonify }}
     }
     {% elsif post.geo %}
@@ -134,7 +158,15 @@ window.__athletePins = [
       area: {{ post.place_area | default: "" | jsonify }},
       economy: {{ post.place_economy | default: "" | jsonify }},
       festival: {{ post.place_festival | default: "" | jsonify }},
+      highlights: {{ post.place_highlights | default: "" | jsonify }},
+      bestTime: {{ post.place_best_time | default: "" | jsonify }},
+      food: {{ post.place_food | default: "" | jsonify }},
+      transport: {{ post.place_transport | default: "" | jsonify }},
+      ranking: {{ post.map_ranking | default: "" | jsonify }},
+      score: {{ post.map_score | default: "" | jsonify }},
+      ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
+      image: {{ post["cover-img"] | relative_url | jsonify }},
       {% if post["cover-img"] and post["cover-img"] contains 'cover.' %}
       {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}
       avatar: {{ pin_base | append: 'avatar.jpg' | relative_url | jsonify }}

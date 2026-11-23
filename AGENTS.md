@@ -59,6 +59,15 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   - `_layouts/base.html` override lại front matter của theme để bỏ 2 dòng
     tải Google Fonts (Lora, Open Sans) — không cần nữa vì dùng font hệ
     thống, đỡ tải thêm request.
+- CSS bản đồ tách riêng trong `assets/css/site-map.css`, chỉ tải qua
+  `_includes/site-map.html` khi trang có map. Style bài viết như `.photo-grid`
+  và `.athlete-card-skills` vẫn ở `custom-styles.css`.
+- Quickview map: front matter tuỳ chọn `place_highlights` (tối đa 3 mục),
+  `place_best_time`, `place_food`, `place_transport`; phần VĐV dùng
+  `athlete.skills`, `athlete.achievement`, `height`, `hand`, `debut`.
+  Mọi bài có thể thêm `map_ranking`, `map_score` (vd `"8.5/10"`),
+  `map_rating_updated` (chuỗi ngày do người viết nhập). Đây là đánh giá thủ
+  công, không tự tính; giá trị rỗng tự ẩn. Bài Đài Bắc có sẵn ô trống để nhập.
 - JS tuỳ biến: `assets/js/custom-animations.js` (hero ảnh ngẫu nhiên + Ken
   Burns 1 lần, fade-in khi cuộn khi tải trang — animation chạy 1 lần, không
   loop). Bản gốc "Liquid Glass" còn có khối màu nền "blob" + masonry lệch

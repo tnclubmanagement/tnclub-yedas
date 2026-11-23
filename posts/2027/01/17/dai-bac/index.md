@@ -11,6 +11,11 @@ place_country: "Taiwan"
 place_population: "~2,5 triệu"
 place_area: "272 km²"
 place_region: "Đài Loan"
+place_highlights: ["Taipei 101", "Bảo tàng Cung điện Quốc gia", "Chợ đêm Sĩ Lâm"]
+place_transport: "Đi MRT; chọn nơi nghỉ gần tuyến tàu phù hợp với lịch trình."
+map_ranking: ""
+map_score: ""
+map_rating_updated: ""
 category: "Du lịch"
 tags: [Du lịch, Đài Loan, Đài Bắc, Đô thị, Chụp ảnh]
 ---

@@ -29,14 +29,20 @@
 
     function closeDetail() { detail.hidden = true; }
     function closeModal() {
+      if (modal.hidden) return;
       modal.hidden = true;
       mediaContent.innerHTML = ''; // dừng video đang phát
-      document.body.style.overflow = '';
+      document.body.style.overflow = section && (section.classList.contains('is-max') || section.classList.contains('is-fullscreen')) ? 'hidden' : '';
     }
 
     modal.querySelector('.athlete-modal-backdrop').addEventListener('click', closeModal);
     modal.querySelector('.athlete-modal-close').addEventListener('click', closeModal);
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !modal.hidden) {
+        e.preventDefault();
+        closeModal();
+      }
+    });
 
     // Fetch + parse bài viết, cache lại Document
     function fetchDoc(url) {
@@ -156,6 +162,27 @@
     };
     var COUNTRY_LABEL = { 'United Arab Emirates': 'UAE' };
 
+    L.DomEvent.disableClickPropagation(qv);
+    L.DomEvent.disableScrollPropagation(qv);
+
+    function renderFacts(selector, rows) {
+      var list = qv.querySelector(selector);
+      list.replaceChildren();
+      rows.forEach(function (row) {
+        var value = Array.isArray(row[1]) ? row[1].filter(Boolean).slice(0, 3).join(' · ') : row[1];
+        if (value === '' || value == null) return;
+        var group = document.createElement('div');
+        var label = document.createElement('dt');
+        var text = document.createElement('dd');
+        label.textContent = row[0];
+        text.textContent = value;
+        group.append(label, text);
+        list.appendChild(group);
+      });
+      list.hidden = !list.childElementCount;
+      return list.childElementCount;
+    }
+
     var entries = window.__athletePins.map(function (d, i) {
       var icon = L.divIcon({
         className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
@@ -176,25 +203,44 @@
         { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
       );
       m.on('click', function () {
-        qv.querySelector('.athlete-qv-avatar').src = d.avatar;
+        qv.querySelector('.athlete-qv-avatar').src = d.image || d.avatar;
         qv.querySelector('.athlete-qv-avatar').alt = d.name;
         qv.querySelector('.athlete-qv-name').textContent = d.name;
-        qv.querySelector('.athlete-qv-nick').textContent = d.kind === 'place'
-          ? (d.subtitle || '')
-          : (d.nick ? '“' + d.nick + '”' : '');
-        var rows = d.kind === 'place'
-          ? [['Vùng', d.region], ['Dân số', d.population], ['Diện tích', d.area],
-             ['Kinh tế', d.economy], ['Lễ hội', d.festival],
-             ['Điểm nhấn', d.subtitle]]
-          : [['Quốc tịch', d.country], ['Nguyên quán', d.hometown],
-             ['Ngày sinh', d.born], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]];
-        rows = rows.filter(function (r) { return r[1]; });
-        qv.querySelector('.athlete-qv-grid').innerHTML = rows.map(function (r) {
-          return '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
-        }).join('');
+        var isPlace = d.kind === 'place';
+        var nick = qv.querySelector('.athlete-qv-nick');
+        nick.textContent = !isPlace && d.nick ? '“' + d.nick + '”' : '';
+        nick.hidden = !nick.textContent;
+        var summary = qv.querySelector('.athlete-qv-summary');
+        summary.textContent = (isPlace ? d.subtitle : d.summary) || '';
+        summary.hidden = !summary.textContent;
+        renderFacts('.athlete-qv-rating', [
+          ['Xếp hạng', d.ranking], ['Điểm hiện tại', d.score],
+          ['Cập nhật', d.ranking || d.score === 0 || d.score ? d.ratingUpdated : '']
+        ]);
+        renderFacts('.athlete-qv-grid', isPlace
+          ? [['Quốc gia', d.country], ['Vùng', d.region], ['Diện tích', d.area], ['Dân số', d.population]]
+          : [['Quốc tịch', d.country], ['Nội dung', d.event], ['Hạng cao nhất', d.rank]]);
+        renderFacts('.athlete-qv-facts', isPlace
+          ? [['Nên ghé', d.highlights], ['Thời điểm nên đi', d.bestTime]]
+          : [['Kỹ năng nổi bật', d.skills], ['Thành tích', d.achievement]]);
+        var more = qv.querySelector('.athlete-qv-more');
+        more.open = false;
+        more.hidden = !renderFacts('.athlete-qv-extra', isPlace
+          ? [['Di chuyển', d.transport], ['Món nên thử', d.food],
+             ['Kinh tế', d.economy], ['Lễ hội', d.festival]]
+          : [['Nguyên quán', d.hometown], ['Ngày sinh', d.born], ['Chiều cao', d.height],
+             ['Tay thuận', d.hand], ['Ra mắt', d.debut]]);
+        var directions = qv.querySelector('.athlete-qv-directions');
+        directions.hidden = !isPlace;
+        if (isPlace) directions.href = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(d.lat + ',' + d.lng);
+        var google = qv.querySelector('.athlete-qv-google');
+        var googleQuery = [d.name, d.country, isPlace ? '' : d.event].filter(Boolean).join(' ');
+        google.href = 'https://www.google.com/search?q=' + encodeURIComponent(googleQuery);
+        google.setAttribute('aria-label', 'Tìm ' + d.name + ' trên Google (mở tab mới)');
+        qv.scrollTop = 0;
         qv.querySelector('.athlete-qv-link').href = d.url;
         qv.querySelector('.athlete-qv-link').textContent = d.kind === 'place'
-          ? 'Xem bài viết đầy đủ ↓' : 'Xem hồ sơ đầy đủ ↓';
+          ? 'Xem bài viết' : 'Xem hồ sơ';
         qv.hidden = false;
       });
       return {
@@ -566,7 +612,7 @@
       focusView();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key !== 'Escape' || (countryDialog && countryDialog.open)) return;
+      if (e.key !== 'Escape' || e.defaultPrevented || (countryDialog && countryDialog.open)) return;
       if (fullscreenFallback) {
         fullscreenFallback = false;
         syncFullscreen();

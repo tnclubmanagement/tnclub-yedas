@@ -1,0 +1,11 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+<p class="playlist-intro">{{ s.playlist.intro }}</p>
+
+<div class="playlist-create-page">
+  <input id="playlist-name-input" type="text" placeholder="{{ s.playlist.name_placeholder }}" title="{{ s.playlist.name_title }}" aria-label="{{ s.playlist.name_title }}">
+  <button id="playlist-create-page-btn" type="button" title="{{ s.playlist.create_title }}">{{ s.playlist.create }}</button>
+</div>
+
+<div id="playlist-container">
+  <p class="playlist-empty">{{ s.playlist.loading }}</p>
+</div>

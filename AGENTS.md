@@ -59,9 +59,25 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   - `_layouts/base.html` override lại front matter của theme để bỏ 2 dòng
     tải Google Fonts (Lora, Open Sans) — không cần nữa vì dùng font hệ
     thống, đỡ tải thêm request.
+- CSS trang chủ tách riêng trong `assets/css/home.css` (hero, intro,
+  bài tiêu biểu, info cards, dots và responsive), chỉ tải qua
+  `_includes/head.html` khi `page.url` là `/` hoặc `/index.html`, cả VI/EN.
+  Các class `home-*` của bộ lọc/danh sách bài vẫn dùng chung ở
+  `custom-styles.css` vì trang `/posts/` cũng sử dụng.
+- Các khối CSS lớn tải có điều kiện qua `_includes/head.html`:
+  - `assets/css/header.css`: ảnh bìa/header và banner controls, khi có
+    `page.cover-img` hoặc `page.banner-nav`.
+  - `assets/css/post.css`: chế độ rút gọn, gallery/lightbox, before/after,
+    typography, ảnh, video và `.photo-grid`, khi `page.layout == 'post'`.
+  - `assets/css/tags-series.css`: toolbar, tag cloud, danh sách/grid và
+    dark-mode tag, khi `page.url` là `/tags/` hoặc `/series/`.
+  - `.tag-section-title` và `.tag-pill-count` vẫn ở CSS chung vì bản đồ
+    cũng dùng; không chuyển chúng sang CSS chỉ tải ở tags/series.
 - CSS bản đồ tách riêng trong `assets/css/site-map.css`, chỉ tải qua
-  `_includes/site-map.html` khi trang có map. Style bài viết như `.photo-grid`
-  và `.athlete-card-skills` vẫn ở `custom-styles.css`.
+  `_includes/site-map.html` khi trang có map. CSS hồ sơ VĐV (`.athlete-card-*`,
+  `.athlete-index-*`, kỹ năng, responsive và animation) ở
+  `assets/css/athlete-card.css`, chỉ tải qua `_includes/head.html` khi
+  `page.athlete` có giá trị hoặc `page.url == '/series/'`.
 - Quickview map: front matter tuỳ chọn `place_highlights` (tối đa 3 mục),
   `place_best_time`, `place_food`, `place_transport`; phần VĐV dùng
   `athlete.skills`, `athlete.achievement`, `height`, `hand`, `debut`.
@@ -98,7 +114,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   trước.
 - Dark mode: `data-theme` trên `<html>` (light/dark). `_includes/theme-init.html`
   đặt sớm trong `<head>` (localStorage `yedas-theme`, fallback
-  `prefers-color-scheme`); nút toggle ở `_includes/nav.html` xử lý bởi
+  `prefers-color-scheme`); nút toggle ở `_includes/footer.html` xử lý bởi
   `assets/js/theme-toggle.js`. Trong `custom-styles.css`, mọi màu theo theme
   đều đi qua biến (`--ink`/`--muted`/`--bg-white` = nền trang, `--surface` =
   nền card, `--bg-light` = panel/footer, `--hairline`, `--nav-bg`) — khi thêm
@@ -113,3 +129,51 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   baseurl rỗng. Đường dẫn trong front matter giữ nguyên, template thêm baseurl.
   Khi sửa đường dẫn ảnh, build cả `_config.yml` và `_config.yml,_config_dev.yml`,
   kiểm tra URL ảnh đã render và file ảnh tương ứng trong thư mục build.
+- Đa ngôn ngữ (i18n): dùng gem `jekyll-polyglot` (vi mặc định, en ở `/en/`).
+  Cấu hình ở `_config.yml` (`languages`, `default_lang`,
+  `exclude_from_localization`). Quy ước:
+  - Trang/bài KHÔNG khai báo `lang:` = bản tiếng Việt, được Polyglot nhân bản
+    sang `/en/` (fallback — khách xem bản EN vẫn thấy nội dung tiếng Việt,
+    bài viết kèm banner "chưa có bản dịch" từ `_includes/untranslated-note.html`,
+    phát hiện qua `page.rendered_lang != site.active_lang`).
+  - Muốn dịch một trang/bài: tạo file cùng đường dẫn tương đối (vd
+    `posts/2026/11/04/foo/index.en.md` hoặc file riêng có cùng `permalink`)
+    với front matter `lang: en`.
+  - `page.url` trong cả bản EN vẫn là URL gốc (không có `/en`) — Polyglot chỉ
+    thêm prefix khi ghi file VÀ tự rewrite `href="/..."` trong HTML đầu ra
+    thành `/en/...`. Link quay về bản VI phải dùng `absolute_url` + đặt
+    `hreflang="vi"` ngay TRƯỚC `href` (lookbehind của regex plugin), xem mẫu
+    trong `_includes/lang-switcher.html`.
+  - Chuỗi UI dùng chung ở `_data/strings.yml` (key theo ngôn ngữ `vi`/`en`;
+    `nav` tra theo nhãn tiếng Việt gốc trong `navbar-links`). Trong template:
+    `{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}`
+    rồi `{{ s.ui.<key> }}`. Lưu ý Liquid KHÔNG đọc được lookup lồng nhau kiểu
+    `s.nav[link[0]]` — phải gán `link[0]` ra biến trước.
+  - Ảnh trong `posts/` dùng đường dẫn tương đối theo URL bài nên PHẢI được
+    nhân bản sang `/en/` — không thêm pattern posts vào
+    `exclude_from_localization`.
+  - `<html lang>` ở `_layouts/base.html` theo `site.active_lang`.
+  - Chuỗi UI trong JS: include xuất `window.__mapStrings` / `__spinnerStrings`
+    (jsonify từ `strings.yml` mục `map`/`spinner`), file JS đọc qua helper
+    `tx(key, fallback_vi)` — xem mẫu trong `site-map.js`/`travel-spinner.js`.
+    Chuỗi mang ý nghĩa DỮ LIỆU (`data-filter`, tên quốc gia, series, tags)
+    giữ nguyên tiếng Việt, chỉ dịch chuỗi hiển thị.
+  - Search: `_plugins/search_index.rb` tạo `/search-index.json` và
+    `/en/search-index.json` một lần mỗi ngôn ngữ, chỉ index tiêu đề/tags
+    như search cũ, không index toàn văn. Cache fingerprint metadata từng
+    entry ở `.jekyll-cache/yedas-search/<lang>.json` (đã được gitignore),
+    tự bỏ entry bài xóa và tự rebuild khi cache hỏng/đổi code index/baseurl.
+    `--disable-disk-cache` bỏ qua cache này. `_includes/search.html` giữ ID
+    overlay của theme; `assets/js/search.js` tải JSON khi mở search, dùng
+    hash nội dung trong URL để tránh index cũ, hỗ trợ tiếng Việt không dấu.
+    Không đưa lại vòng lặp `site.html_pages` vào include search: từng khiến
+    phần này chiếm phần lớn thời gian render. CI lưu/khôi phục cache search.
+    Kiểm tra bằng `bundle exec ruby _tests/search_index_test.rb` và
+    `node --test _tests/search_test.js`; profile bằng lệnh build thêm
+    `--profile` (dùng destination ngoài repo để tránh đụng server watch).
+  - Playlist VI/EN dùng `_includes/playlist-body.html`; chuỗi ở mục
+    `playlist` trong `strings.yml`. `_layouts/base.html` xuất
+    `window.__playlistStrings` trước `footer-scripts.html` để cả trang
+    playlist và nút lưu trong bài viết dùng chung bản dịch. Giữ nguyên key
+    localStorage `yedas_playlists_v1` / `yedas_playlist_v1` và tên, dữ liệu
+    playlist người dùng đã lưu khi đổi ngôn ngữ.

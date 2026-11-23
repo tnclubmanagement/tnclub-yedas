@@ -1,0 +1,124 @@
+/* ---------- Hero / header lớn (ảnh nền giữ nguyên) ---------- */
+.header-section.has-img .big-img {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Lớp phủ tối dần phía dưới để chữ trắng luôn đọc rõ trên mọi ảnh nền,
+   giống cách Apple luôn đảm bảo độ tương phản chữ/ảnh. */
+.header-section.has-img .big-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.45) 100%);
+  pointer-events: none;
+}
+
+.header-section.has-img .big-img.intro-header {
+  opacity: 0;
+  transform: scale(1.08);
+  transition: opacity 0.6s ease-out, transform 6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.header-section.has-img .big-img.intro-header.kenburns-settle {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.header-section.has-img .page-heading h1,
+.header-section.has-img .post-heading h1 {
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 3.25rem;
+  letter-spacing: -0.02em;
+}
+
+.header-section.has-img .page-subheading,
+.header-section.has-img .post-subheading {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.92) !important;
+  font-family: var(--font-subtitle);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 640px) {
+  .header-section.has-img .page-heading h1,
+  .header-section.has-img .post-heading h1 {
+    font-size: 2.1rem;
+  }
+  .header-section.has-img .page-subheading,
+  .header-section.has-img .post-subheading {
+    font-size: 1.1rem;
+  }
+}
+
+.header-section.compact-banner .big-img.intro-header,
+.header-section.compact-banner .big-img.intro-header.kenburns-settle {
+  height: 460px;
+  opacity: 1;
+  transform: none;
+  transition: none;
+  resize: none;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--bg-light);
+}
+
+.compact-banner .big-img > .container-md {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compact-banner .big-img .page-heading {
+  display: block;
+  padding: 24px 12px 64px;
+}
+
+.compact-banner .big-img .page-heading hr { display: none; }
+.header-section.compact-banner .page-heading h1 { font-size: clamp(1.8rem, 4vw, 2.7rem); }
+.header-section.compact-banner .page-subheading { font-size: clamp(1rem, 2vw, 1.2rem); line-height: 1.5; }
+.header-section.compact-banner .intro-header.no-img { display: none; }
+
+.banner-controls {
+  position: absolute;
+  z-index: 2;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 6px;
+  border-radius: 28px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.banner-controls button {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.banner-controls button:focus-visible { outline: 2px solid #fff; outline-offset: 1px; }
+.banner-arrow { font-size: 30px; line-height: 1; }
+.banner-dot::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+}
+.banner-dot[aria-pressed="true"]::after { background: #fff; transform: scale(1.3); }

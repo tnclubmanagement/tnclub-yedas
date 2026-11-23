@@ -1,4 +1,5 @@
 {% if page.series %}
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign series_posts = site.pages | where: "layout", "post" | where: "series", page.series | sort: "date" %}
 {% if series_posts.size > 1 %}
 {% for sp in series_posts %}
@@ -9,13 +10,13 @@
     {% unless forloop.last %}{% assign series_next = series_posts[forloop.index] %}{% endunless %}
   {% endif %}
 {% endfor %}
-<nav class="series-nav" aria-label="Các bài cùng series {{ page.series }}">
+<nav class="series-nav" aria-label="{{ s.series.nav_aria | replace: '%1', page.series }}">
   <div class="series-nav-head">
     <p class="series-nav-title">
       <span class="fa fa-list-ul" aria-hidden="true"></span>
-      Series: {{ page.series }}
+      {{ s.series.name_fmt | replace: '%1', page.series }}
     </p>
-    <span class="series-nav-progress">Phần {{ series_index }} / {{ series_posts.size }}</span>
+    <span class="series-nav-progress">{{ s.series.part_of | replace: '%1', series_index | replace: '%2', series_posts.size }}</span>
   </div>
   <ol class="series-nav-list">
     {% for sp in series_posts %}

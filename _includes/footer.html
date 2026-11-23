@@ -1,16 +1,23 @@
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 <footer>
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="footer-row footer-theme-switch">
+          <button type="button" class="footer-icon-link theme-toggle-btn" aria-label="{{ s.ui.toggle_theme }}" title="{{ s.ui.toggle_theme }}">
+            <span class="fa fa-moon theme-icon-dark" aria-hidden="true"></span>
+            <span class="fa fa-sun theme-icon-light" aria-hidden="true"></span>
+          </button>
+        </div>
         <div class="footer-row footer-row-top">
-          <span>Mẹo hay cho từng khoảnh khắc 📸</span>
+          <span>{{ s.ui.footer_slogan }}</span>
         </div>
         <div class="footer-row footer-row-bottom">
-          <nav class="footer-compact-links" aria-label="Liên kết footer">
-            <a class="footer-icon-link" href="{{ '/contact/' | relative_url }}" title="Liên hệ" aria-label="Liên hệ" data-placement="top">
+          <nav class="footer-compact-links" aria-label="{{ s.ui.footer_links }}">
+            <a class="footer-icon-link" href="{{ '/contact/' | relative_url }}" title="{{ s.ui.contact }}" aria-label="{{ s.ui.contact }}" data-placement="top">
               <span class="fas fa-envelope" aria-hidden="true"></span>
             </a>
-            <a class="footer-icon-link" href="{{ '/privacy/' | relative_url }}" title="Chính sách & điều khoản" aria-label="Chính sách & điều khoản" data-placement="top">
+            <a class="footer-icon-link" href="{{ '/privacy/' | relative_url }}" title="{{ s.ui.privacy }}" aria-label="{{ s.ui.privacy }}" data-placement="top">
               <span class="fas fa-shield-alt" aria-hidden="true"></span>
             </a>
           </nav>

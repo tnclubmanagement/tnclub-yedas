@@ -1,0 +1,751 @@
+.landing-intro {
+  padding: 3.5rem 1.5rem 1.5rem;
+  margin: 0 auto 1rem;
+  max-width: 720px;
+  text-align: center;
+}
+
+.landing-intro h2 {
+  margin-top: 0;
+  font-size: 2.25rem;
+}
+
+.landing-intro p {
+  color: var(--muted);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin: 1rem 0 1.75rem;
+}
+
+.landing-cta {
+  display: inline-block;
+  font-family: var(--font-subtitle);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #ffffff !important;
+  background: var(--accent-blue);
+  border-radius: 999px;
+  padding: 0.65rem 1.75rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.landing-cta:hover {
+  background: var(--accent-blue-hover);
+  transform: translateY(-1px);
+  color: #ffffff !important;
+}
+
+/* ======================================================================
+   HOMEPAGE MỚI — landing page nhiều section (hero / intro / featured /
+   info cards / dots nav), làm lại theo cấu trúc của project
+   inspiring-stories nhưng vẫn giữ phong cách Apple: nền sạch, viền
+   hairline, accent xanh, không gradient hồng/vàng.
+   ====================================================================== */
+
+/* Trang chủ dùng layout page → nội dung nằm trong .post-container; cho
+   landing rộng hơn một chút so với bài viết và bỏ padding trên để hero
+   tự kiểm soát khoảng trống. */
+body:has(.home-landing) .post-container {
+  max-width: 1120px;
+  padding-top: 0;
+}
+
+.home-landing {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* ---------- Section 1: Hero ---------- */
+.home-hero-clean {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 6rem);
+  min-height: 520px;
+  padding: 3rem 0 4rem;
+}
+
+.home-hero-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.home-eyebrow,
+.home-info-kicker,
+.landing-intro-kicker {
+  margin: 0 0 1rem;
+  color: var(--accent-blue);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.home-hero-clean h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 0.98;
+}
+
+.home-hero-clean h1 em {
+  color: var(--accent-blue);
+  font-style: normal;
+}
+
+.home-hero-lead {
+  max-width: 27rem;
+  margin: 1.7rem 0 2rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.home-hero-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  background: var(--accent-blue);
+  color: #fff !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.home-hero-button:hover {
+  background: var(--accent-blue-hover);
+  color: #fff !important;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.home-hero-visual {
+  position: relative;
+  min-height: 440px;
+  isolation: isolate;
+}
+
+.home-hero-visual::before {
+  position: absolute;
+  top: 8%;
+  right: 4%;
+  width: 80%;
+  height: 80%;
+  border-radius: 44% 56% 52% 48%;
+  background: var(--bg-light);
+  content: "";
+  transform: rotate(-8deg);
+  z-index: -1;
+}
+
+.home-hero-visual img {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 92%;
+  height: 88%;
+  border-radius: 48% 18% 48% 22%;
+  object-fit: cover;
+  box-shadow: 1.25rem 1.25rem 0 rgba(0, 113, 227, 0.12);
+  transform: rotate(2deg);
+}
+
+.home-hero-note {
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.15;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Section 2: Intro ---------- */
+/* max-width: none để ghi đè rule .landing-intro cũ (720px, căn giữa) ở đầu
+   file — section này phải rộng bằng các section khác của landing. */
+.landing-intro {
+  max-width: none;
+  text-align: left;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.85fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  position: relative;
+  min-height: 390px;
+  margin: 0 auto 5rem;
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid var(--hairline);
+  border-radius: 2rem;
+  background: var(--bg-light);
+  overflow: hidden;
+}
+
+.landing-intro-copy {
+  position: relative;
+  z-index: 2;
+  max-width: 35rem;
+}
+
+.landing-intro h2 {
+  margin: 0 0 1rem;
+  color: var(--ink);
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 0.98;
+}
+
+.landing-intro p {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  line-height: 1.75;
+}
+
+.landing-intro-visual {
+  position: relative;
+  min-height: 295px;
+  isolation: isolate;
+}
+
+.landing-intro-image {
+  position: absolute;
+  inset: 1rem 1.5rem 1rem 0;
+  overflow: hidden;
+  border-radius: 44% 56% 38% 62% / 54% 42% 58% 46%;
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.18);
+  transform: rotate(5deg);
+  transition: transform 650ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 650ms ease;
+  z-index: 1;
+}
+
+.landing-intro-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  transition: transform 900ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.landing-intro:hover .landing-intro-image {
+  box-shadow: 0 2rem 3.5rem rgba(0, 0, 0, 0.24);
+  transform: rotate(0deg) translateY(-0.4rem) scale(1.02);
+}
+
+.landing-intro:hover .landing-intro-image img {
+  transform: scale(1.08);
+}
+
+.landing-intro-orbit {
+  position: absolute;
+  display: block;
+  border: 1px solid rgba(0, 113, 227, 0.4);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.landing-intro-orbit-one {
+  top: 0;
+  right: 0;
+  width: 8rem;
+  height: 8rem;
+}
+
+.landing-intro-orbit-two {
+  right: 2rem;
+  bottom: 0;
+  width: 4rem;
+  height: 4rem;
+  border-color: rgba(0, 113, 227, 0.25);
+}
+
+.landing-intro-note {
+  position: absolute;
+  right: -0.25rem;
+  bottom: 1rem;
+  z-index: 2;
+  margin: 0 !important;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  color: var(--ink) !important;
+  background: var(--surface);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+  font-size: 1rem;
+  line-height: 1.1 !important;
+  transform: rotate(-4deg);
+  transition: transform 350ms ease;
+}
+
+.landing-intro:hover .landing-intro-note {
+  transform: rotate(2deg) translateY(-0.25rem);
+}
+
+/* ---------- Section 3: Bài viết tiêu biểu ---------- */
+.featured-stories {
+  margin: 0 auto 5rem;
+}
+
+.featured-stories-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.featured-stories-heading h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  letter-spacing: -0.04em;
+}
+
+.featured-story-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+}
+
+.featured-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.55rem 0.8rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.featured-filter.is-active,
+.featured-filter:hover {
+  background: var(--accent-blue);
+  color: #fff;
+}
+
+.featured-filter.is-active:focus {
+  outline: 2px dotted var(--accent-blue);
+  outline-offset: 2px;
+}
+
+.featured-story-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.featured-story-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  border-radius: 1rem;
+  background: var(--surface);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.featured-story-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.featured-story-card[hidden] {
+  display: none;
+}
+
+.featured-story-image {
+  display: block;
+  aspect-ratio: 1.45 / 1;
+  overflow: hidden;
+  background: var(--bg-light);
+}
+
+.featured-story-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.featured-story-card:hover .featured-story-image img {
+  transform: scale(1.05);
+}
+
+.featured-story-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.featured-story-content time {
+  color: var(--accent-blue);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.featured-story-content h3 {
+  display: -webkit-box;
+  min-height: 2.4em;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  font-size: 1.05rem;
+  line-height: 1.15;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+
+.featured-story-content h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.featured-story-content p {
+  display: -webkit-box;
+  min-height: 4.6em;
+  margin: 0 0 0.9rem;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+}
+
+.featured-story-more {
+  margin-top: auto;
+  color: var(--accent-blue);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+/* ---------- Section 4: Info cards ---------- */
+.home-info-stack {
+  display: grid;
+  gap: 2rem;
+  margin: 0 auto 5rem;
+}
+
+.home-info-card {
+  display: grid;
+  grid-template-areas: "image content";
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  padding: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid var(--hairline);
+  border-radius: 1.5rem;
+  background: var(--bg-light);
+}
+
+.home-info-card-privacy {
+  grid-template-areas: "content image";
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.home-info-image {
+  grid-area: image;
+  position: relative;
+  min-height: 280px;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.16);
+  transform: rotate(-2deg);
+  transition: transform 650ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 650ms ease;
+}
+
+/* Ảnh card Chính sách thấp hơn — chỉ là minh họa phụ, không nên to
+   bằng card Giới thiệu. Giữ nguyên chiều rộng, giảm chiều cao. */
+.home-info-card-privacy .home-info-image {
+  height: 420px;
+  min-height: 0;
+}
+
+.home-info-card-privacy .home-info-image img {
+  min-height: 90px;
+}
+
+.home-info-card:hover .home-info-image {
+  box-shadow: 0 1.75rem 3.25rem rgba(0, 0, 0, 0.23);
+  transform: rotate(0deg) translateY(-0.35rem) scale(1.02);
+}
+
+.home-info-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 45%, rgba(20, 24, 40, 0.62));
+  transition: opacity 1400ms ease;
+}
+
+/* Vệt sáng lướt qua khi hover — 2 band sáng cách nhau trong cùng 1
+   gradient nên trông như 2 đợt shine nối tiếp, chạy chậm (~2.4s). */
+.home-info-image::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  z-index: 1;
+  background: linear-gradient(
+    105deg,
+    transparent 38%,
+    rgba(255, 255, 255, 0.28) 45%,
+    transparent 52%,
+    transparent 58%,
+    rgba(255, 255, 255, 0.18) 66%,
+    transparent 74%
+  );
+  transform: translateX(-130%);
+  pointer-events: none;
+}
+
+.home-info-card:hover .home-info-image::before {
+  transform: translateX(130%);
+  transition: transform 2400ms cubic-bezier(0.25, 0.4, 0.25, 1);
+}
+
+.home-info-card:hover .home-info-image::after {
+  opacity: 0.25;
+}
+
+.home-info-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  transition: transform 3800ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.home-info-card-about .home-info-image {
+  align-self: center;
+  height: 320px;
+  min-height: 0;
+}
+
+.home-info-card-about .home-info-image img {
+  min-height: 0;
+}
+
+.home-info-card:hover .home-info-image img {
+  transform: scale(1.16) translate(-3%, -2%);
+}
+
+.home-info-image-label {
+  position: absolute;
+  right: 6.25rem;
+  bottom: 1.1rem;
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  color: var(--ink) !important;
+  background: var(--surface);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1) 250ms;
+}
+
+.home-info-card:hover .home-info-image-label {
+  transform: translateY(-0.35rem);
+}
+
+.home-info-content {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  min-width: 0;
+}
+
+.home-info-content h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+.home-info-content p {
+  max-width: 34rem;
+  margin: 0 0 1rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.home-info-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  margin-top: 0.75rem;
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.home-info-link:hover {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+.home-info-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  color: var(--muted);
+  line-height: 1.55;
+  list-style: none;
+}
+
+.home-info-list li {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.home-info-list li::before {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--accent-blue);
+  content: "";
+}
+
+/* ---------- Dots điều hướng section (bên phải màn hình) ---------- */
+.home-section-dots {
+  position: fixed;
+  top: 50%;
+  right: 1.25rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  transform: translateY(-50%);
+}
+
+.home-section-dot {
+  display: block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 1px solid var(--hairline);
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 0.15rem 0.45rem rgba(0, 0, 0, 0.14);
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.home-section-dot:hover,
+.home-section-dot.is-active {
+  border-color: var(--accent-blue);
+  background: var(--accent-blue);
+  transform: scale(1.35);
+}
+
+.home-section-dot:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .featured-stories-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .featured-story-filters {
+    justify-content: flex-start;
+  }
+
+  .featured-story-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .home-hero-clean {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    padding: 2rem 0 3rem;
+  }
+
+  .home-hero-clean h1 {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
+
+  .home-hero-visual {
+    min-height: 300px;
+  }
+
+  .landing-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    min-height: 0;
+    padding: 1.5rem;
+  }
+
+  .landing-intro-visual {
+    min-height: 250px;
+  }
+
+  .home-info-card,
+  .home-info-card-privacy {
+    grid-template-areas:
+      "image"
+      "content";
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .home-info-card-privacy .home-info-image {
+    order: -1;
+  }
+
+  .home-info-image,
+  .home-info-image img {
+    min-height: 240px;
+  }
+
+  .home-info-card-about .home-info-image {
+    height: 300px;
+  }
+
+  .home-info-content {
+    padding: 1.25rem;
+  }
+
+  .home-section-dots {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .featured-story-grid {
+    grid-template-columns: 1fr;
+  }
+}

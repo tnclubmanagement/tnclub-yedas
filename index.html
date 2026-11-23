@@ -49,22 +49,23 @@ subtitle: ""
         <p class="home-eyebrow">Đọc chọn lọc</p>
         <h2 id="featured-stories-title">Bài viết tiêu biểu</h2>
       </div>
-      <div class="featured-story-filters" role="tablist" aria-label="Lọc bài viết tiêu biểu">
+      {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+      <div class="featured-story-filters" role="tablist" aria-label="{{ s.filters.featured_label }}">
         <button class="featured-filter is-active" type="button" data-featured-tag="Du lịch" role="tab" aria-selected="true">
           <span class="fa fa-tag" aria-hidden="true"></span>
-          <span>Du lịch</span>
+          <span>{{ s.filters.travel }}</span>
         </button>
         <button class="featured-filter" type="button" data-featured-tag="Chân dung" role="tab" aria-selected="false">
           <span class="fa fa-tag" aria-hidden="true"></span>
-          <span>Chân dung</span>
+          <span>{{ s.filters.portrait }}</span>
         </button>
         <button class="featured-filter" type="button" data-featured-tag="Bố cục" role="tab" aria-selected="false">
           <span class="fa fa-tag" aria-hidden="true"></span>
-          <span>Bố cục</span>
+          <span>{{ s.filters.composition }}</span>
         </button>
         <button class="featured-filter" type="button" data-featured-tag="Ánh sáng" role="tab" aria-selected="false">
           <span class="fa fa-tag" aria-hidden="true"></span>
-          <span>Ánh sáng</span>
+          <span>{{ s.filters.lighting }}</span>
         </button>
       </div>
     </div>
@@ -95,7 +96,7 @@ subtitle: ""
           <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.date_format }}</time>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p>{{ post.content | strip_html | strip | truncatewords: 20 }}</p>
-          <a class="featured-story-more" href="{{ post.url | relative_url }}">Đọc tiếp <span aria-hidden="true">→</span></a>
+          <a class="featured-story-more" href="{{ post.url | relative_url }}">{{ s.filters.read_more }} <span aria-hidden="true">→</span></a>
         </div>
       </article>
       {% endfor %}

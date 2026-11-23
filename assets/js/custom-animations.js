@@ -143,7 +143,8 @@
         });
         var shown = Math.min(matched, visibleLimit);
         if (totalCount) {
-          totalCount.textContent = matched > shown ? shown + "/" + matched + " bài viết" : matched + " bài viết";
+          var unit = totalCount.dataset.unit || "bài viết";
+          totalCount.textContent = matched > shown ? shown + "/" + matched + " " + unit : matched + " " + unit;
         }
         if (moreBtn) moreBtn.hidden = matched <= shown;
       }

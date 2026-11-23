@@ -192,6 +192,27 @@ cp tmp-512.png icon-512.png
 rm tmp-512.png
 ```
 
+## 8. Đa ngôn ngữ (tiếng Anh)
+
+Trang đã có sẵn khung đa ngôn ngữ bằng plugin `jekyll-polyglot`: tiếng Việt
+là bản gốc, bản tiếng Anh nằm ở `/en/` (có nút VI/EN trên menu). Bài nào
+chưa dịch vẫn hiện bản tiếng Việt kèm dòng ghi chú nhỏ — không cần làm gì
+thêm nếu chưa muốn dịch.
+
+Khi muốn dịch một bài/trang sang tiếng Anh:
+
+- Tạo file `.md` mới ở cùng thư mục, tên tuỳ ý (vd `index.en.md` hoặc
+  `about-me.en.md`), với front matter `lang: en` và `permalink` GIỐNG HỆT
+  trang gốc (đây là cách plugin ghép cặp bản dịch — thiếu permalink giống
+  thì bản en sẽ lọt sang đường dẫn khác).
+  - Trang đã có `permalink:` sẵn (vd `about-me.md` có `/about-me/`): chép
+    y nguyên dòng đó.
+  - Bài viết không khai báo permalink: dùng đường dẫn thư mục bài, vd
+    `permalink: /posts/2026/11/04/ten-bai/`.
+- Dịch `title`, `subtitle` và nội dung. Ảnh dùng chung với bản gốc, không
+  cần copy (bản en nằm cùng URL thư mục nên đường dẫn tương đối vẫn đúng).
+- Chữ trong menu/footer/slogan dịch ở `_data/strings.yml` (mục `en`).
+
 ## Cấu trúc project
 
 ```

@@ -1,13 +1,14 @@
 {% if page.series %}
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign series_posts = site.pages | where: "layout", "post" | where: "series", page.series | sort: "date" %}
 {% if series_posts.size > 1 %}
 {% for sp in series_posts %}
   {% if sp.url == page.url %}{% assign series_index = forloop.index %}{% endif %}
 {% endfor %}
 <p class="series-badge">
-  <a class="series-badge-link" href="{{ '/series/' | relative_url }}#{{ page.series | slugify }}" title="Xem toàn bộ series {{ page.series }}">
+  <a class="series-badge-link" href="{{ '/series/' | relative_url }}#{{ page.series | slugify }}" title="{{ s.series.view_all | replace: '%1', page.series }}">
     <span class="fa fa-list-ul" aria-hidden="true"></span>
-    Series {{ page.series }} · Phần {{ series_index }}/{{ series_posts.size }}
+    {{ s.series.badge_fmt | replace: '%1', page.series | replace: '%2', series_index | replace: '%3', series_posts.size }}
   </a>
 </p>
 {% endif %}

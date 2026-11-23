@@ -108,7 +108,7 @@ self.addEventListener('fetch', event => {
 
   // Luôn thử lấy CSS/JS mới khi online để thay đổi giao diện local hiện ngay.
   // Nếu mất mạng thì vẫn dùng bản đã cache.
-  const isAsset = requestUrl.pathname.includes('/assets/');
+  const isAsset = requestUrl.pathname.includes('/assets/') || requestUrl.pathname.endsWith('/search-index.json');
   if (isAsset) {
     event.respondWith(
       fetch(event.request)

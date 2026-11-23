@@ -163,6 +163,13 @@ vi:
     badge_fmt: "Series %1 · Phần %2/%3"
     view_all: "Xem toàn bộ series %1"
     nav_aria: "Các bài cùng series %1"
+  search:
+    placeholder: "Tìm bài viết hoặc chủ đề..."
+    close: "Đóng tìm kiếm"
+    results: "Kết quả tìm kiếm"
+    loading: "Đang tải dữ liệu tìm kiếm..."
+    empty: "Không tìm thấy kết quả phù hợp."
+    error: "Chưa tải được dữ liệu. Thử nhập lại để kết nối lại."
   post_view:
     aria_label: "Chế độ xem bài viết"
     label: "Chế độ xem"
@@ -359,6 +366,13 @@ en:
     badge_fmt: "%1 series · Part %2/%3"
     view_all: "View the full %1 series"
     nav_aria: "Posts in the %1 series"
+  search:
+    placeholder: "Search posts or topics..."
+    close: "Close search"
+    results: "Search results"
+    loading: "Loading search index..."
+    empty: "No matching results."
+    error: "Could not load search data. Type again to retry."
   post_view:
     aria_label: "Post display mode"
     label: "Display mode"

@@ -1153,6 +1153,123 @@ footer .copyright {
 }
 
 /* ======================================================================
+   SEARCH OVERLAY — theme chỉ style input + text trắng trơn cho kết quả.
+   Bo lại thành danh sách card gọn gàng kiểu Apple: căn trái, từng dòng
+   có nền kính mờ, bo góc, hover sáng lên. Overlay luôn nền tối
+   (rgba(0,0,0,.9) của theme) nên màu cứng, không theo biến theme.
+   ====================================================================== */
+#search-results-container {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+#search-results-container li {
+  margin-bottom: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.9rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+#search-results-container li:only-child:not(:has(a)),
+#search-results-container li:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+#search-results-container li:only-child:not(:has(a)) {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0.8rem 1.1rem;
+}
+
+#search-results-container a {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 0.7rem 1rem;
+}
+
+#search-results-container a:hover {
+  text-decoration: none;
+}
+
+#search-results-container .search-num {
+  flex: none;
+  width: 1.4rem;
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+#search-results-container .search-avatar {
+  flex: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 0.7rem;
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#search-results-container .search-avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#search-results-container .search-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+#search-results-container .search-item-title {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+#search-results-container .search-item-meta {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.3;
+}
+
+/* Nút đóng overlay: theme đặt ở right:25% khiến nó dính mép ô input và
+   trông như trùng với nút clear mặc định của input[type=search]. Đẩy
+   lên góc phải màn hình thành nút tròn kính mờ, tách biệt khỏi input. */
+#nav-search-exit {
+  top: 1.25rem;
+  right: 1.5rem;
+  margin-right: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+#nav-search-exit:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+/* ======================================================================
    OVERRIDES CHO THEME TỐI — chỉ những chỗ dùng màu cứng không đi qua biến
    hoặc màu do theme Bootstrap/Beautiful Jekyll tô sẵn.
    ====================================================================== */

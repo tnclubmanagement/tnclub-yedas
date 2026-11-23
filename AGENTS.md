@@ -158,6 +158,19 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
     `tx(key, fallback_vi)` — xem mẫu trong `site-map.js`/`travel-spinner.js`.
     Chuỗi mang ý nghĩa DỮ LIỆU (`data-filter`, tên quốc gia, series, tags)
     giữ nguyên tiếng Việt, chỉ dịch chuỗi hiển thị.
+  - Search: `_plugins/search_index.rb` tạo `/search-index.json` và
+    `/en/search-index.json` một lần mỗi ngôn ngữ, chỉ index tiêu đề/tags
+    như search cũ, không index toàn văn. Cache fingerprint metadata từng
+    entry ở `.jekyll-cache/yedas-search/<lang>.json` (đã được gitignore),
+    tự bỏ entry bài xóa và tự rebuild khi cache hỏng/đổi code index/baseurl.
+    `--disable-disk-cache` bỏ qua cache này. `_includes/search.html` giữ ID
+    overlay của theme; `assets/js/search.js` tải JSON khi mở search, dùng
+    hash nội dung trong URL để tránh index cũ, hỗ trợ tiếng Việt không dấu.
+    Không đưa lại vòng lặp `site.html_pages` vào include search: từng khiến
+    phần này chiếm phần lớn thời gian render. CI lưu/khôi phục cache search.
+    Kiểm tra bằng `bundle exec ruby _tests/search_index_test.rb` và
+    `node --test _tests/search_test.js`; profile bằng lệnh build thêm
+    `--profile` (dùng destination ngoài repo để tránh đụng server watch).
   - Playlist VI/EN dùng `_includes/playlist-body.html`; chuỗi ở mục
     `playlist` trong `strings.yml`. `_layouts/base.html` xuất
     `window.__playlistStrings` trước `footer-scripts.html` để cả trang

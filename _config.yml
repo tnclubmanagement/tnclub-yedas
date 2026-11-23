@@ -127,7 +127,6 @@ exclude_from_localization:
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -157,6 +156,5 @@ exclude:
   - README.md
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-polyglot

@@ -893,6 +893,14 @@ body {
   text-underline-offset: 6px;
 }
 
+/* Mục con đang xem trong dropdown nav */
+.navbar-custom .dropdown-item.is-active,
+.navbar-custom .dropdown-item.is-active:hover {
+  color: var(--ink) !important;
+  font-weight: 600;
+  background: var(--bg-light) !important;
+}
+
 /* Bỏ icon trang trí trước mỗi link nav - giữ chữ gọn, đúng tinh thần
    tối giản (Apple chỉ dùng chữ thường, không icon trong nav chính). */
 .nav-link-home .fa,
@@ -967,8 +975,17 @@ body {
   }
 }
 
+.navbar-custom .nav-item.dropdown .dropdown-menu {
+  min-width: 11rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
-  padding-left: 2.5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1.25rem;
+  white-space: nowrap;
+  text-align: left;
 }
 
 /* ---------- Danh sách bài viết: lưới đều, thẻ phẳng tối giản (không

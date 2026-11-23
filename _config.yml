@@ -19,10 +19,11 @@ baseurl: "/tnclub-yedas"
 navbar-links:
   Giới thiệu: "about-me"
   Bài viết: "posts"
-  Thẻ: "tags"
-  Series: "series"
-  Bản đồ: "map"
-  Playlist: "playlist"
+  Khám phá:
+    - Thẻ: "tags"
+    - Series: "series"
+    - Bản đồ: "map"
+    - Playlist: "playlist"
 
 ################
 # --- Logo --- #

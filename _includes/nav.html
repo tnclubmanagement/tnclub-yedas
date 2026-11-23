@@ -13,12 +13,22 @@
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
+          {%- assign dropdown_active = false -%}
+          {%- for childlink in link[1] -%}
+            {%- for linkparts in childlink -%}
+              {%- assign child_url = "/" | append: linkparts[1] | append: "/" -%}
+              {%- if page.url == child_url -%}
+                {%- assign dropdown_active = true -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endfor -%}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
+            <a class="nav-link dropdown-toggle{% if dropdown_active %} is-active{% endif %}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
-                  <a class="dropdown-item" href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+                  {%- assign child_url = "/" | append: linkparts[1] | append: "/" -%}
+                  <a class="dropdown-item{% if page.url == child_url %} is-active{% endif %}" href="{{ linkparts[1] | relative_url }}"{% if page.url == child_url %} aria-current="page"{% endif %}>{{ linkparts[0] }}</a>
                 {%- endfor -%}
               {%- endfor %}
             </div>

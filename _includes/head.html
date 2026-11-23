@@ -66,6 +66,26 @@
     {% endfor %}
   {% endif %}
 
+  {% if page.cover-img or page.banner-nav %}
+    <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+
+  {% if page.layout == 'post' %}
+    <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+
+  {% if page.url == '/tags/' or page.url == '/series/' %}
+    <link rel="stylesheet" href="{{ '/assets/css/tags-series.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+
+  {% if page.url == '/' or page.url == '/index.html' %}
+    <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+
+  {% if page.athlete or page.url == '/series/' %}
+    <link rel="stylesheet" href="{{ '/assets/css/athlete-card.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% endif %}
+
   {% if page.ext-css %}
     {% for css in page.ext-css %}
       {% include ext-css.html css=css %}

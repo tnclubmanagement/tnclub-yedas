@@ -11,6 +11,6 @@ prefix /en vào URL hiện tại. Lưu ý:
 {%- assign vi_url = page.url | absolute_url -%}
 {%- assign en_url = site.baseurl | append: '/en' | append: page.url -%}
 <li class="nav-item lang-switcher" role="group" aria-label="{{ site.data.strings[cur].ui.lang_switch_label }}">
-  <a class="nav-link lang-link{% if cur == 'vi' %} is-active{% endif %}" hreflang="vi" href="{{ vi_url }}"{% if cur == 'vi' %} aria-current="true"{% endif %}>VI</a>
-  <a class="nav-link lang-link{% if cur == 'en' %} is-active{% endif %}" href="{{ en_url }}" hreflang="en"{% if cur == 'en' %} aria-current="true"{% endif %}>EN</a>
+  <a class="nav-link lang-link{% if cur == 'vi' %} is-active{% endif %}" hreflang="vi" href="{{ vi_url }}" lang="vi" aria-label="Tiếng Việt" title="Tiếng Việt"{% if cur == 'vi' %} aria-current="true"{% endif %}><span class="lang-flag" aria-hidden="true">🇻🇳</span><span>VI</span></a>
+  <a class="nav-link lang-link{% if cur == 'en' %} is-active{% endif %}" href="{{ en_url }}" hreflang="en" lang="en" aria-label="English" title="English"{% if cur == 'en' %} aria-current="true"{% endif %}><span class="lang-flag" aria-hidden="true">🇬🇧</span><span>EN</span></a>
 </li>

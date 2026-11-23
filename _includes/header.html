@@ -7,7 +7,8 @@
 {% for sp in series_posts %}
   {% if sp.url == page.url %}{% assign series_index = forloop.index %}{% endif %}
 {% endfor %}
-{% capture series_label %}Series: {{ page.series }} — Phần {{ series_index }}/{{ series_posts.size }}{% endcapture %}
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+{% capture series_label %}{{ s.series.label_fmt | replace: '%1', page.series | replace: '%2', series_index | replace: '%3', series_posts.size }}{% endcapture %}
 {% endif %}
 
 {% if page.cover-img or page.title %}

@@ -1,0 +1,370 @@
+{% assign all_posts = site.pages | where: 'layout', 'post' | sort: 'date' | reverse %}
+{% assign all_tags = "" | split: "" %}
+{% for post in all_posts %}
+  {% for tag in post.tags %}
+    {% assign all_tags = all_tags | push: tag %}
+  {% endfor %}
+{% endfor %}
+{% assign sorted_tags = all_tags | uniq | sort %}
+{% assign tag_entries = "" | split: "" %}
+{% for tag in sorted_tags %}
+  {% assign count = 0 %}
+  {% for post in all_posts %}
+    {% if post.tags contains tag %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  {% assign padded = "000" | append: count | slice: -3, 3 %}
+  {% assign entry = padded | append: "|" | append: tag %}
+  {% assign tag_entries = tag_entries | push: entry %}
+{% endfor %}
+{% assign tag_entries = tag_entries | sort | reverse %}
+{% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+
+{% if sorted_tags.size == 0 %}
+{{ s.tags.empty }}
+{% else %}
+
+<div class="tags-toolbar">
+  <div class="tags-search">
+    <input type="text" id="tag-search" placeholder="{{ s.tags.search_placeholder }}" autocomplete="off" title="{{ s.tags.search_placeholder }}">
+  </div>
+
+  <div class="home-tabs" role="group" aria-label="{{ s.filters.tabs_label }}">
+    <button type="button" class="home-tab tag-topic-tab is-active" data-topic="" aria-pressed="true" data-tip="{{ s.tags.tip_all }}">{{ s.filters.all }}</button>
+    <button type="button" class="home-tab tag-topic-tab" data-topic="Chụp ảnh" aria-pressed="false" data-tip="{{ s.tags.tip_photo }}">{{ s.filters.photo }}</button>
+    <button type="button" class="home-tab tag-topic-tab" data-topic="Thể thao" aria-pressed="false" data-tip="{{ s.tags.tip_sport }}">{{ s.filters.sport }}</button>
+    <button type="button" class="home-tab tag-topic-tab" data-topic="Du lịch" aria-pressed="false" data-tip="{{ s.tags.tip_travel }}">{{ s.filters.travel }}</button>
+  </div>
+
+  <div class="tags-sort">
+    <span class="sr-only">{{ s.tags.sort_label }}</span>
+    <select id="tags-sort" title="{{ s.tags.sort_label }}">
+      <option value="count-desc">{{ s.tags.sort_count_desc }}</option>
+      <option value="name">{{ s.tags.sort_name }}</option>
+      <option value="count-asc">{{ s.tags.sort_count_asc }}</option>
+    </select>
+  </div>
+
+  {% include view-toggle.html %}
+</div>
+
+<div class="tags-cloud" id="tags-cloud">
+  {% for entry in tag_entries %}
+    {% assign parts = entry | split: "|" %}
+    {% assign tag = parts[1] %}
+    {% assign count = parts[0] | plus: 0 %}
+    {% assign tag_slug = tag | slugify %}
+    <a href="#{{ tag_slug }}" class="tag-pill"{% if forloop.index > 20 %} hidden{% endif %} data-tag="{{ tag }}" data-count="{{ count }}" data-tag-index="{{ forloop.index0 }}">
+      {{ tag }}<span class="tag-pill-count">{{ count }}</span>
+    </a>
+  {% endfor %}
+</div>
+{% if sorted_tags.size > 20 %}
+<div class="tags-pager" id="tags-pager">
+  <button type="button" class="tags-pager-btn" id="tags-prev" aria-label="{{ s.tags.prev_aria }}">{{ s.tags.prev }}</button>
+  <span class="tags-page-info" id="tags-page-info" aria-live="polite"></span>
+  <button type="button" class="tags-pager-btn" id="tags-next" aria-label="{{ s.tags.next_aria }}">{{ s.tags.next }}</button>
+</div>
+{% endif %}
+
+<div class="tags-sections" id="tags-sections">
+  {% for entry in tag_entries %}
+    {% assign parts = entry | split: "|" %}
+    {% assign tag = parts[1] %}
+    {% assign tag_slug = tag | slugify %}
+    <section class="tag-section" id="{{ tag_slug }}" data-tag="{{ tag }}" data-tag-index="{{ forloop.index0 }}" data-post-refs="{% for post in all_posts %}{% if post.tags contains tag %}{{ forloop.index0 }},{% endif %}{% endfor %}"{% if forloop.index > 20 %} hidden{% endif %}>
+      <h2 class="tag-section-title">{{ tag }}</h2>
+      <div class="tag-posts">
+        {%- assign card_i = 0 -%}
+        {%- for post in all_posts -%}
+          {%- if post.tags contains tag -%}
+            {%- if card_i < 6 %}
+            {% assign thumb = post.thumbnail-img | default: post.cover-img %}
+            <a class="tag-post-card" href="{{ post.url | relative_url }}" data-card-index="{{ card_i }}" data-post-tags="{{ post.tags | join: ',' | escape }}" data-post-category="{{ post.category | escape }}">
+              {% if thumb %}
+                <div class="tag-post-thumb">
+                  <img src="{{ thumb | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+                </div>
+              {% endif %}
+              <div class="tag-post-info">
+                <h3>{{ post.title }}</h3>
+                <time>{{ post.date | date: site.date_format }}</time>
+              </div>
+            </a>
+            {%- endif -%}
+            {%- assign card_i = card_i | plus: 1 -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      {% if card_i > 6 %}
+      <button type="button" class="tag-post-more">{{ s.tags.more_fmt | replace: '%1', card_i | minus: 6 }}</button>
+      {% endif %}
+    </section>
+  {% endfor %}
+</div>
+
+<!-- Dữ liệu bài viết dùng chung: mỗi bài chỉ lưu 1 lần, các section ngoài
+     trang đầu hydrate card bằng JS từ data-post-refs thay vì lặp lại markup. -->
+<script type="application/json" id="tag-posts-data">
+[
+{%- for post in all_posts %}
+{%- assign thumb = post.thumbnail-img | default: post.cover-img -%}
+{"t":{{ post.title | jsonify }},"u":{{ post.url | relative_url | jsonify }}{% if thumb %},"th":{{ thumb | relative_url | jsonify }}{% endif %},"d":{{ post.date | date: site.date_format | jsonify }}{% if post.category %},"c":{{ post.category | jsonify }}{% endif %},"g":{{ post.tags | jsonify }}}{% unless forloop.last %},{% endunless %}
+{% endfor -%}
+]
+</script>
+
+<script>window.__tagsStrings = {{ s.tags | jsonify }};</script>
+<script>
+(function () {
+  const S = window.__tagsStrings || {};
+  function fmt(key, fallback, a, b) {
+    return (S[key] || fallback).replace('%1', a).replace('%2', b);
+  }
+  const input = document.getElementById('tag-search');
+  const cloud = document.getElementById('tags-cloud');
+  const sections = document.getElementById('tags-sections');
+  if (!input || !cloud || !sections) return;
+
+  const pills = cloud.querySelectorAll('.tag-pill');
+  const sectionEls = sections.querySelectorAll('.tag-section');
+  const pager = document.getElementById('tags-pager');
+  const pageInfo = document.getElementById('tags-page-info');
+  const prevBtn = document.getElementById('tags-prev');
+  const nextBtn = document.getElementById('tags-next');
+  const PAGE_SIZE = 20;
+  const INITIAL_CARDS = 6;
+  const CARDS_STEP = 12;
+  const totalPages = Math.max(1, Math.ceil(pills.length / PAGE_SIZE));
+  const postsDataEl = document.getElementById('tag-posts-data');
+  const postsData = postsDataEl ? JSON.parse(postsDataEl.textContent) : [];
+  const topicTabs = document.querySelectorAll('.tag-topic-tab');
+  let tagParam = new URLSearchParams(location.search).get('tag');
+  let topic = '';
+  let page = 0;
+
+  function cardMatchesTopic(c) {
+    if (!topic) return true;
+    if ((c.dataset.postCategory || '') === topic) return true;
+    return (c.dataset.postTags || '').split(',').indexOf(topic) !== -1;
+  }
+
+  function postMatchesTopic(p) {
+    if (!topic) return true;
+    if (p.c === topic) return true;
+    return (p.g || []).indexOf(topic) !== -1;
+  }
+
+  function postRefs(section) {
+    return (section.dataset.postRefs || '').split(',').filter(function (r) { return r !== ''; }).map(Number);
+  }
+
+  function hydrate(section) {
+    if (!section.dataset.postRefs || section.dataset.hydrated === '1') return;
+    section.dataset.hydrated = '1';
+    const box = section.querySelector('.tag-posts');
+    const frag = document.createDocumentFragment();
+    const existing = box.querySelectorAll('.tag-post-card').length;
+    postRefs(section).forEach(function (ri, i) {
+      if (i < existing) return; // card đầu đã render sẵn trong HTML
+      const p = postsData[ri];
+      if (!p) return;
+      const a = document.createElement('a');
+      a.className = 'tag-post-card';
+      a.href = p.u;
+      a.dataset.cardIndex = i;
+      a.dataset.postTags = (p.g || []).join(',');
+      a.dataset.postCategory = p.c || '';
+      if (i >= INITIAL_CARDS) a.hidden = true;
+      if (p.th) {
+        const thumb = document.createElement('div');
+        thumb.className = 'tag-post-thumb';
+        const img = document.createElement('img');
+        img.src = p.th;
+        img.alt = p.t;
+        img.loading = 'lazy';
+        thumb.appendChild(img);
+        a.appendChild(thumb);
+      }
+      const info = document.createElement('div');
+      info.className = 'tag-post-info';
+      const h3 = document.createElement('h3');
+      h3.textContent = p.t;
+      const time = document.createElement('time');
+      time.textContent = p.d;
+      info.appendChild(h3);
+      info.appendChild(time);
+      a.appendChild(info);
+      frag.appendChild(a);
+    });
+    box.appendChild(frag);
+  }
+
+  function render() {
+    const q = input.value.trim().toLowerCase();
+    const searching = q !== '';
+    // Lọc exact-match theo ?tag= trong URL (ví dụ /tags?tag=Hy Lạp) — chỉ khi không gõ tìm kiếm
+    const tagFiltered = !!(tagParam && !searching);
+
+    pills.forEach(function (pill) {
+      const idx = Number(pill.dataset.tagIndex);
+      pill.hidden = tagFiltered
+        ? pill.dataset.tag !== tagParam
+        : searching
+          ? !pill.dataset.tag.toLowerCase().includes(q)
+          : idx < page * PAGE_SIZE || idx >= (page + 1) * PAGE_SIZE;
+    });
+
+    sectionEls.forEach(function (section) {
+      const idx = Number(section.dataset.tagIndex);
+      const tag = section.dataset.tag.toLowerCase();
+      const cards = section.querySelectorAll('.tag-post-card');
+      const moreBtn = section.querySelector('.tag-post-more');
+      const inPage = idx >= page * PAGE_SIZE && idx < (page + 1) * PAGE_SIZE;
+
+      if (tagFiltered) {
+        const isTarget = section.dataset.tag === tagParam;
+        if (isTarget) {
+          hydrate(section);
+          section.querySelectorAll('.tag-post-card').forEach(function (c) {
+            c.hidden = !cardMatchesTopic(c);
+          });
+        }
+        section.hidden = !isTarget;
+        if (moreBtn) moreBtn.hidden = true;
+      } else if (searching) {
+        let hasVisible = false;
+        if (tag.includes(q)) {
+          hydrate(section);
+          section.querySelectorAll('.tag-post-card').forEach(function (c) {
+            const ok = cardMatchesTopic(c);
+            c.hidden = !ok;
+            if (ok) hasVisible = true;
+          });
+        } else {
+          if (section.dataset.hydrated !== '1' && section.dataset.postRefs) {
+            // Chưa hydrate: kiểm tra nhanh tiêu đề trong JSON trước khi tạo DOM.
+            const refs = postRefs(section);
+            for (let i = 0; i < refs.length; i++) {
+              const p = postsData[refs[i]];
+              if (p && p.t.toLowerCase().includes(q) && postMatchesTopic(p)) { hasVisible = true; break; }
+            }
+          }
+          if (hasVisible || section.dataset.hydrated === '1' || !section.dataset.postRefs) {
+            hydrate(section);
+            hasVisible = false;
+            section.querySelectorAll('.tag-post-card').forEach(function (c) {
+              const match = (c.textContent || '').toLowerCase().includes(q) && cardMatchesTopic(c);
+              c.hidden = !match;
+              if (match) hasVisible = true;
+            });
+          }
+        }
+        section.hidden = !hasVisible;
+        if (moreBtn) moreBtn.hidden = true;
+      } else {
+        if (inPage) hydrate(section);
+        const shown = Number(section.dataset.shownCards || INITIAL_CARDS);
+        const cardEls = section.querySelectorAll('.tag-post-card');
+        let hasVisible = false;
+        cardEls.forEach(function (c) {
+          const ok = Number(c.dataset.cardIndex) < shown && cardMatchesTopic(c);
+          c.hidden = !ok;
+          if (ok) hasVisible = true;
+        });
+        section.hidden = !inPage || !hasVisible;
+        if (moreBtn) {
+          const remaining = cardEls.length - shown;
+          moreBtn.hidden = !inPage || remaining <= 0;
+          moreBtn.textContent = fmt('more_fmt', 'Xem thêm %1 bài viết', remaining);
+        }
+      }
+    });
+
+    if (pager) {
+      pager.style.display = searching || tagFiltered || totalPages <= 1 ? 'none' : '';
+      if (pageInfo) pageInfo.textContent = fmt('page_fmt', 'Trang %1 / %2', page + 1, totalPages);
+      if (prevBtn) prevBtn.disabled = page <= 0;
+      if (nextBtn) nextBtn.disabled = page >= totalPages - 1;
+    }
+  }
+
+  sectionEls.forEach(function (section) {
+    const btn = section.querySelector('.tag-post-more');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      section.dataset.shownCards = Number(section.dataset.shownCards || INITIAL_CARDS) + CARDS_STEP;
+      render();
+    });
+  });
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function () {
+      if (page > 0) { page--; render(); cloud.scrollIntoView({ block: 'start' }); }
+    });
+  }
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function () {
+      if (page < totalPages - 1) { page++; render(); cloud.scrollIntoView({ block: 'start' }); }
+    });
+  }
+  const sortSel = document.getElementById('tags-sort');
+  if (sortSel) {
+    sortSel.addEventListener('change', function () {
+      const mode = sortSel.value;
+      const pillArr = Array.prototype.slice.call(pills);
+      const sectionArr = Array.prototype.slice.call(sectionEls);
+      const cmp = function (a, b) {
+        const ca = Number(a.dataset.count), cb = Number(b.dataset.count);
+        if (mode === 'count-asc') return ca - cb || a.dataset.tag.localeCompare(b.dataset.tag, 'vi');
+        if (mode === 'name') return a.dataset.tag.localeCompare(b.dataset.tag, 'vi');
+        return cb - ca || a.dataset.tag.localeCompare(b.dataset.tag, 'vi');
+      };
+      // Sắp xếp section theo cùng thứ tự: gán key count từ pill sang section.
+      const countByTag = {};
+      pillArr.forEach(function (p) { countByTag[p.dataset.tag] = p.dataset.count; });
+      pillArr.sort(cmp);
+      sectionArr.forEach(function (s) { s.dataset.count = countByTag[s.dataset.tag] || 0; });
+      sectionArr.sort(cmp);
+      pillArr.forEach(function (p, i) { p.dataset.tagIndex = i; cloud.appendChild(p); });
+      sectionArr.forEach(function (s, i) { s.dataset.tagIndex = i; sections.appendChild(s); });
+      page = 0;
+      render();
+    });
+  }
+
+  topicTabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      topic = btn.dataset.topic;
+      topicTabs.forEach(function (b) {
+        const active = b === btn;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+      render();
+    });
+  });
+  // Click pill: lọc exact-match + đổi URL thành ?tag= (không reload, vẫn share được)
+  pills.forEach(function (pill) {
+    pill.addEventListener('click', function (e) {
+      e.preventDefault();
+      tagParam = tagParam === pill.dataset.tag ? null : pill.dataset.tag;
+      const url = tagParam
+        ? location.pathname + '?tag=' + encodeURIComponent(tagParam)
+        : location.pathname;
+      history.pushState(null, '', url);
+      render();
+    });
+  });
+  window.addEventListener('popstate', function () {
+    tagParam = new URLSearchParams(location.search).get('tag');
+    render();
+  });
+
+  input.addEventListener('input', render);
+  render();
+})();
+</script>
+
+{% endif %}

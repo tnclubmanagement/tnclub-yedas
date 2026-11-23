@@ -59,9 +59,25 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   - `_layouts/base.html` override lại front matter của theme để bỏ 2 dòng
     tải Google Fonts (Lora, Open Sans) — không cần nữa vì dùng font hệ
     thống, đỡ tải thêm request.
+- CSS trang chủ tách riêng trong `assets/css/home.css` (hero, intro,
+  bài tiêu biểu, info cards, dots và responsive), chỉ tải qua
+  `_includes/head.html` khi `page.url` là `/` hoặc `/index.html`, cả VI/EN.
+  Các class `home-*` của bộ lọc/danh sách bài vẫn dùng chung ở
+  `custom-styles.css` vì trang `/posts/` cũng sử dụng.
+- Các khối CSS lớn tải có điều kiện qua `_includes/head.html`:
+  - `assets/css/header.css`: ảnh bìa/header và banner controls, khi có
+    `page.cover-img` hoặc `page.banner-nav`.
+  - `assets/css/post.css`: chế độ rút gọn, gallery/lightbox, before/after,
+    typography, ảnh, video và `.photo-grid`, khi `page.layout == 'post'`.
+  - `assets/css/tags-series.css`: toolbar, tag cloud, danh sách/grid và
+    dark-mode tag, khi `page.url` là `/tags/` hoặc `/series/`.
+  - `.tag-section-title` và `.tag-pill-count` vẫn ở CSS chung vì bản đồ
+    cũng dùng; không chuyển chúng sang CSS chỉ tải ở tags/series.
 - CSS bản đồ tách riêng trong `assets/css/site-map.css`, chỉ tải qua
-  `_includes/site-map.html` khi trang có map. Style bài viết như `.photo-grid`
-  và `.athlete-card-skills` vẫn ở `custom-styles.css`.
+  `_includes/site-map.html` khi trang có map. CSS hồ sơ VĐV (`.athlete-card-*`,
+  `.athlete-index-*`, kỹ năng, responsive và animation) ở
+  `assets/css/athlete-card.css`, chỉ tải qua `_includes/head.html` khi
+  `page.athlete` có giá trị hoặc `page.url == '/series/'`.
 - Quickview map: front matter tuỳ chọn `place_highlights` (tối đa 3 mục),
   `place_best_time`, `place_food`, `place_transport`; phần VĐV dùng
   `athlete.skills`, `athlete.achievement`, `height`, `hand`, `debut`.
@@ -98,7 +114,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   trước.
 - Dark mode: `data-theme` trên `<html>` (light/dark). `_includes/theme-init.html`
   đặt sớm trong `<head>` (localStorage `yedas-theme`, fallback
-  `prefers-color-scheme`); nút toggle ở `_includes/nav.html` xử lý bởi
+  `prefers-color-scheme`); nút toggle ở `_includes/footer.html` xử lý bởi
   `assets/js/theme-toggle.js`. Trong `custom-styles.css`, mọi màu theo theme
   đều đi qua biến (`--ink`/`--muted`/`--bg-white` = nền trang, `--surface` =
   nền card, `--bg-light` = panel/footer, `--hairline`, `--nav-bg`) — khi thêm

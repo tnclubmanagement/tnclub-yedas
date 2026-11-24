@@ -140,18 +140,33 @@ module Yedas
         tags = Array(data['tags']).map(&:to_s)
         country = data['place_country'].to_s
         country = nil if country.empty?
+        # Ảnh thật sự nhúng trong nội dung (markdown ![...] + <img) —
+        # file nằm trong folder chưa chắc đã được đưa vào bài.
+        # Quy ước repo: photo-grid loop qua photo_titles "a|b|c" → mỗi mục 1 ảnh.
+        content = doc.content.to_s
+        inline_count = content.scan(/!\[[^\]]*\]|<img\b/i).size
+        if content =~ /photo_titles\s*=\s*"([^"]*)"/
+          # loop photo-grid: <img> trong body chỉ là template → trừ template,
+          # cộng số title thật
+          inline_count += Regexp.last_match(1).split('|').size - 1
+        end
+        # Quy ước travel_photos: front matter list [file, caption] render qua
+        # travel-media.html — mỗi phần tử là 1 ảnh nhúng trong bài.
+        inline_count += Array(data['travel_photos']).size
         img_count = img_counts["posts/#{post}"]
         base = {
           'post' => post, 'postDir' => post, 'title' => title,
           'tags' => tags, 'country' => country, 'status' => 'open',
-          'imgCount' => img_count
+          'imgCount' => inline_count, 'filesCount' => img_count
         }
-        # Xuất mọi bài Du lịch kèm số ảnh — extension tự sắp xếp/lọc,
-        # "thiếu ảnh" do người dùng quyết chứ tool không đoán ngưỡng.
-        needs << base.merge('id' => "#{post}#cover", 'kind' => 'cover',
-                            'suggestedQuery' => title) if thumbnail_of(data).to_s.empty?
-        needs << base.merge('id' => "#{post}#inline", 'kind' => 'inline',
-                            'suggestedQuery' => ([title] + tags).join(' '))
+        if thumbnail_of(data).to_s.empty?
+          needs << base.merge('id' => "#{post}#cover", 'kind' => 'cover',
+                              'suggestedQuery' => title)
+        end
+        if inline_count < 3 # bài có <3 ảnh nhúng = đang thiếu
+          needs << base.merge('id' => "#{post}#inline", 'kind' => 'inline',
+                              'suggestedQuery' => ([title] + tags).join(' '))
+        end
       end
       needs
     end

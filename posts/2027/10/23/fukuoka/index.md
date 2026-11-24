@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Fukuoka, Hakata, Ramen, Ẩm thực, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Dãy quán yatai bên sông Nakasu — đặc sản ẩm thực đường phố của Fukuoka (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Phố Nakasu soi bóng đèn neon xuống sông về đêm (Ảnh: Wikimedia Commons)"]
 ---
 
 **Fukuoka** (trung tâm tên **Hakata**) — thành phố lớn nhất đảo Kyushu — là một trong những nơi "đáng ăn" nhất Nhật Bản: quê hương ramen tonkotsu nổi tiếng thế giới, và một trong số ít thành phố còn giữ văn hóa **yatai** — sạp ăn đường phố ngồi vai kề vai.

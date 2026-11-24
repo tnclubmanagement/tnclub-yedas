@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Okinawa, Biển, Lặn, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Bể cá voi đuôi gai khổng lồ Kuroshio ở thủy cung Churaumi (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Vịnh Kabira xanh ngọc ở Ishigaki — 'Okinawa blue' nổi tiếng (Ảnh: Wikimedia Commons)"]
 ---
 
 **Okinawa** — quần đảo Ryukyu cực nam — từng là vương quốc độc lập với văn hóa, ngôn ngữ riêng trước khi nhập Nhật. Nơi đây có biển "Okinawa blue" trong veo, san hô nhiệt đới, và là một trong những **vùng xanh (Blue Zone)** người dân trường thọ nhất thế giới.

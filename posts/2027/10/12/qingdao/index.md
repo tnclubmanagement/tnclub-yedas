@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Thanh Đảo, Qingdao, Bia, Biển, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Bờ biển Thanh Đảo với mái đỏ khu phố Đức cũ và cầu Sạn Kiều (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Mái ngói đỏ khu phố Đức cũ của Thanh Đảo nhìn từ trên cao (Ảnh: Wikimedia Commons)"]
 ---
 
 **Thanh Đảo** (Qingdao) — cảng biển bên Hoàng Hải — mang dấu ấn kỳ thuê địa của Đức (1898–1914): mái ngói đỏ, nhà thờ, và nhà máy bia **Tsingtao** nổi tiếng thế giới. Thành phố hiếm hoi của Trung Quốc có kiến trúc châu Âu nguyên vẹn xen bãi biển và núi đá granit.

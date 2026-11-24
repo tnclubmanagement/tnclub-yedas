@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Đại Lý, Dali, Vân Nam, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Hồ Nhị Hải và dãy Thương Sơn nhìn từ cổ trấn Đại Lý (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Tam Tháp Sùng Thánh Tự nghìn năm dưới chân dãy Thương Sơn (Ảnh: Wikimedia Commons)"]
 ---
 
 **Đại Lý** (Dali) — cố đô vương quốc Nam Chiếu và Đại Lý suốt thời Đường–Tống — nằm kẹt giữa dãy **Thương Sơn** 4.000m và hồ **Nhị Hải** hình tai người, là điểm dừng kinh điển trên trục Côn Minh – Lệ Giang. Nơi đây cũng là quê hương người Bạch (Bai) và từng là thánh địa "hippie" của backpacker Trung Quốc những năm 90.

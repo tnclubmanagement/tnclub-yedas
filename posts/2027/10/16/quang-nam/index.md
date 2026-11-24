@@ -17,7 +17,7 @@ category: "Du lịch"
 tags: [Du lịch, Việt Nam, Quảng Nam, Hội An, Mỹ Sơn, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Phố cổ Hội An lên đèn lồng hai bên sông Hoài (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Gian hàng đèn lồng đủ sắc màu trong phố cổ Hội An (Ảnh: Wikimedia Commons)"]
 ---
 
 **Quảng Nam** có hai di sản thế giới UNESCO nằm cạnh nhau: **phố cổ Hội An** — thương cảng Faifo xưa đông tàu Nhật Trung Âu, và **thánh địa Mỹ Sơn** — trung tâm đền tháp Chăm Pa hơn nghìn năm trong thung lũng rừng.

@@ -17,7 +17,7 @@ category: "Du lịch"
 tags: [Du lịch, Việt Nam, Côn Đảo, Biển, Lịch sử, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Bãi Đầm Trầu trên đảo Côn Sơn — quần đảo Côn Đảo nhìn từ trên cao (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Bãi biển hoang sơ ven rừng quốc gia trên đảo Côn Sơn (Ảnh: Wikimedia Commons)"]
 ---
 
 **Côn Đảo** — quần đảo 16 đảo ngoài khơi Bà Rịa – Vũng Tàu — vừa là "địa ngục trần gian" thời Pháp – Mỹ với hệ thống nhà tù giam hàng chục nghìn chiến sĩ cách mạng, vừa là **vườn quốc gia biển** có san hô, rùa biển và những bãi tắm hoang sơ bậc nhất Việt Nam.

@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Nam Kinh, Nanjing, Lịch sử, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Đường cây ngô đồng dẫn lên lăng Tôn Trung Sơn ở Nam Kinh (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Sông Tần Hoài đoạn Phu Tử Miếu — phố cổ lên đèn lồng của Nam Kinh (Ảnh: Wikimedia Commons)"]
 ---
 
 **Nam Kinh** (Nanjing — "kinh đô phương Nam") là cố đô của sáu triều đại và kinh đô đầu tiên của nhà Minh trước khi dời về Bắc Kinh, sau đó là thủ đô Trung Hoa Dân Quốc. Thành phố chứa một trong những **bức tường thành cổ dài nhất còn sót lại trên thế giới** — hơn 25km tường thời Minh bao quanh.

@@ -15,7 +15,7 @@ category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Hạ Môn, Xiamen, Cổ Lãng Tự, Biển, Chụp ảnh]
 photo_source: "https://commons.wikimedia.org"
 travel_photos:
-  - [cover.jpg, "Cổ Lãng Tự — đảo không xe máy với biệt thự phương Tây đầu thế kỷ 20 (Ảnh: Wikimedia Commons)"]
+  - [cover.jpg, "Cổ Lãng Tự và đường chân trời Hạ Môn lúc hoàng hôn (Ảnh: Wikimedia Commons)"]
 ---
 
 **Hạ Môn** (Xiamen) — thành phố cảng trên đảo nhìn sang Kim Môn (Đài Loan) — là một trong những nơi đáng sống nhất Trung Quốc: biển sạch, nhà thuộc địa, nhịp sống chậm. Di sản trung tâm của thành phố là đảo nhỏ **Cổ Lãng Tự** (Gulangyu) — UNESCO, nơi xe cộ bị cấm hoàn toàn.

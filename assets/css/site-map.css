@@ -67,7 +67,7 @@
 .drop-item, .drop-group-title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
   width: 100%;
   min-height: 44px;
@@ -85,7 +85,13 @@
 .drop-item:hover, .drop-group-title:hover,
 .drop-item-active, .drop-group-title-active { background: var(--bg-light); }
 .drop-item-active { font-weight: 700; }
-.drop-item-active::after, .drop-group-title-active::after { content: "✓"; color: #f5a623; }
+.drop-item-active::after, .drop-group-title-active::after { content: "✓"; color: #f5a623; margin-left: auto; }
+.drop-item .fi, .athlete-qv-grid dd .fi {
+  flex: none;
+  margin-right: 0.55em;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px var(--hairline);
+}
 /* Dropdown quốc gia: nhóm theo châu lục, nhiều cột */
 .map-country-dialog {
   width: min(960px, calc(100vw - 24px));
@@ -317,6 +323,24 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   padding: 2.8rem 1rem 0.8rem;
   background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.8));
 }
+.athlete-qv-avatar-wrap { position: relative; display: block; }
+.athlete-qv-weather {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.athlete-qv-weather:hover { background: rgba(0, 0, 0, 0.75); color: #fff; }
+a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
 .athlete-qv-head .athlete-qv-name { margin: 0; font-size: 1.1rem; color: #fff; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
 .athlete-qv-head .athlete-qv-nick { margin: 0.1rem 0 0; font-size: 0.8rem; color: #fff; }
 .athlete-qv-body { padding: 0.8rem 1rem; }

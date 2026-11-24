@@ -177,3 +177,12 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
     playlist và nút lưu trong bài viết dùng chung bản dịch. Giữ nguyên key
     localStorage `yedas_playlists_v1` / `yedas_playlist_v1` và tên, dữ liệu
     playlist người dùng đã lưu khi đổi ngôn ngữ.
+
+## Kiểm tra ảnh và bài du lịch
+
+- `bundle exec ruby _tests/site_map_images_test.rb`: kiểm tra avatar bản đồ,
+  fallback sang thumbnail/cover khi thiếu avatar và đường dẫn VI/EN/baseurl.
+- `bundle exec ruby _tests/travel_batch_test.rb`: kiểm tra các bài có `photo_id`,
+  nguồn/bản quyền trong `_data/travel_2027_credits.json`, ảnh JPEG local và
+  avatar nhỏ hơn 100 KB. Bài dùng `_includes/travel-cover-reference.html` để
+  hiển thị ảnh, credit và nguồn; khi thêm bài nhớ tạo cả `cover.jpg`, `avatar.jpg`.

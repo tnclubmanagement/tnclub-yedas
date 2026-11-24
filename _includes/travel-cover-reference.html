@@ -1,0 +1,13 @@
+{% assign reference = site.data.travel_2027_credits[page.photo_id] %}
+{% if reference %}
+<figure>
+  <img src="{{ page.cover-img | relative_url }}" alt="{{ reference.alt | escape }}" loading="lazy">
+  <figcaption>{{ reference.author | escape }} — <a href="{{ reference.photo | escape }}" target="_blank" rel="noopener">Wikimedia Commons</a>, <a href="{{ reference.license_url | escape }}" target="_blank" rel="noopener">{{ reference.license | escape }}</a>. Ảnh được thu nhỏ/nén cho web.</figcaption>
+</figure>
+<h3>Nguồn tham khảo</h3>
+<ul>
+  <li><a href="{{ reference.source | escape }}" target="_blank" rel="noopener">Wikipedia — {{ reference.title | escape }}</a>: địa lý và bối cảnh điểm đến.</li>
+  {% if page.travel_source %}<li><a href="{{ page.travel_source | escape }}" target="_blank" rel="noopener">{{ page.travel_source_name | default: 'Cổng thông tin du lịch chính thức' | escape }}</a>: thông tin tham quan và gợi ý trải nghiệm.</li>{% endif %}
+</ul>
+<p><em>Lịch trình trong bài là gợi ý biên tập, không phải trải nghiệm thực địa. Kiểm tra lại thị thực, thời tiết, giờ mở cửa, vé và lịch phương tiện với đơn vị chính thức trước khi đặt dịch vụ.</em></p>
+{% endif %}

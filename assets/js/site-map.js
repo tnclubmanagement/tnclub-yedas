@@ -168,6 +168,38 @@
       'Sierra Leone': 'africa', Liberia: 'africa'
     };
     var COUNTRY_LABEL = { 'United Arab Emirates': 'UAE' };
+    var COUNTRY_CODE = {
+      Vietnam: 'vn', China: 'cn', Japan: 'jp', Taiwan: 'tw',
+      Thailand: 'th', Korea: 'kr', Indonesia: 'id', Malaysia: 'my',
+      Philippines: 'ph', Laos: 'la', Cambodia: 'kh', India: 'in',
+      Pakistan: 'pk', Nepal: 'np', Bangladesh: 'bd', Bhutan: 'bt',
+      'Sri Lanka': 'lk', Maldives: 'mv', Afghanistan: 'af',
+      'United Arab Emirates': 'ae', 'Saudi Arabia': 'sa', Israel: 'il',
+      Jordan: 'jo', Turkey: 'tr', Qatar: 'qa', Oman: 'om', Iran: 'ir',
+      Bahrain: 'bh', Kuwait: 'kw', Lebanon: 'lb', Iraq: 'iq', Cyprus: 'cy',
+      Georgia: 'ge', Armenia: 'am', Azerbaijan: 'az', Syria: 'sy', Yemen: 'ye',
+      France: 'fr', Italy: 'it', Spain: 'es', 'United Kingdom': 'gb',
+      Germany: 'de', Netherlands: 'nl', Switzerland: 'ch', Greece: 'gr',
+      Poland: 'pl', Czechia: 'cz', Hungary: 'hu', Croatia: 'hr',
+      Romania: 'ro', Bulgaria: 'bg', Ukraine: 'ua', Serbia: 'rs',
+      Russia: 'ru',
+      Denmark: 'dk', Norway: 'no', Sweden: 'se', Finland: 'fi',
+      Iceland: 'is',
+      'United States': 'us', Canada: 'ca', Brazil: 'br',
+      Argentina: 'ar', Peru: 'pe', Chile: 'cl', Colombia: 'co',
+      Australia: 'au', 'New Zealand': 'nz',
+      Morocco: 'ma', Egypt: 'eg', Tunisia: 'tn', Algeria: 'dz',
+      Ethiopia: 'et', Kenya: 'ke', Tanzania: 'tz', Uganda: 'ug',
+      Rwanda: 'rw', Senegal: 'sn', Ghana: 'gh', Nigeria: 'ng',
+      Namibia: 'na', Zimbabwe: 'zw', 'South Africa': 'za', Mauritius: 'mu',
+      Libya: 'ly', Sudan: 'sd',
+      Madagascar: 'mg', Botswana: 'bw', Zambia: 'zm', Malawi: 'mw',
+      Mozambique: 'mz', Angola: 'ao', Lesotho: 'ls', Eswatini: 'sz',
+      Seychelles: 'sc', 'Cape Verde': 'cv',
+      Mauritania: 'mr', Mali: 'ml', 'Ivory Coast': 'ci', 'Burkina Faso': 'bf',
+      Guinea: 'gn', Togo: 'tg', Benin: 'bj', Niger: 'ne',
+      'Sierra Leone': 'sl', Liberia: 'lr'
+    };
 
     L.DomEvent.disableClickPropagation(qv);
     L.DomEvent.disableScrollPropagation(qv);
@@ -205,12 +237,80 @@
         var label = document.createElement('dt');
         var text = document.createElement('dd');
         label.textContent = row[0];
-        text.textContent = value;
+        if (row[2]) {
+          var flag = document.createElement('span');
+          flag.className = 'fi fi-' + row[2];
+          flag.setAttribute('aria-hidden', 'true');
+          text.appendChild(flag);
+        }
+        text.appendChild(document.createTextNode(value));
         group.append(label, text);
         list.appendChild(group);
       });
       list.hidden = !list.childElementCount;
       return list.childElementCount;
+    }
+
+    // Thời tiết hiện tại qua Open-Meteo (miễn phí, không cần API key).
+    // Cache localStorage TTL 6 giờ theo tọa độ làm tròn để giảm số lần gọi;
+    // chỉ áp dụng kết quả mới nhất.
+    var WX_LS = 'yedas-map-weather-v1';
+    var WX_TTL = 6 * 60 * 60 * 1000;
+    var weatherInflight = {};
+    var weatherSeq = 0;
+    function wxStore() {
+      try { return JSON.parse(localStorage.getItem(WX_LS)) || {}; }
+      catch (e) { return {}; }
+    }
+    function wxGet(key) {
+      var entry = wxStore()[key];
+      return entry && (Date.now() - entry.t < WX_TTL) ? entry.v : null;
+    }
+    function wxSet(key, value) {
+      try {
+        var store = wxStore();
+        store[key] = { t: Date.now(), v: value };
+        localStorage.setItem(WX_LS, JSON.stringify(store));
+      } catch (e) {}
+    }
+    function wxDesc(code) {
+      if (code === 0) return tx('wx_clear', 'Trời quang');
+      if (code <= 2) return tx('wx_partly', 'Ít mây');
+      if (code === 3) return tx('wx_cloudy', 'Nhiều mây');
+      if (code === 45 || code === 48) return tx('wx_fog', 'Sương mù');
+      if (code >= 51 && code <= 57) return tx('wx_drizzle', 'Mưa phùn');
+      if ((code >= 71 && code <= 77) || code === 85 || code === 86) return tx('wx_snow', 'Tuyết');
+      if (code >= 95) return tx('wx_storm', 'Giông bão');
+      if ((code >= 61 && code <= 67) || (code >= 80 && code <= 82)) return tx('wx_rain', 'Mưa');
+      return '';
+    }
+    function loadWeather(d) {
+      var key = d.lat.toFixed(2) + ',' + d.lng.toFixed(2);
+      var seq = ++weatherSeq;
+      var apply = function (text) {
+        if (seq !== weatherSeq || !text) return;
+        var badge = qv.querySelector('.athlete-qv-weather');
+        badge.textContent = text;
+        badge.hidden = false;
+      };
+      var cached = wxGet(key);
+      if (cached) { apply(cached); return; }
+      if (!weatherInflight[key]) {
+        weatherInflight[key] = fetch('https://api.open-meteo.com/v1/forecast?latitude=' + d.lat +
+              '&longitude=' + d.lng + '&current=temperature_2m,weather_code,wind_speed_10m')
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            var c = j.current;
+            if (!c) return '';
+            var text = [Math.round(c.temperature_2m) + '°C', wxDesc(c.weather_code),
+              Math.round(c.wind_speed_10m) + ' km/h'].filter(Boolean).join(' · ');
+            wxSet(key, text);
+            return text;
+          })
+          .catch(function () { return ''; })
+          .then(function (text) { delete weatherInflight[key]; return text; });
+      }
+      weatherInflight[key].then(apply);
     }
 
     function readScore(value) {
@@ -321,8 +421,8 @@
           [tx('updated', 'Cập nhật'), d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
         ]);
         renderFacts('.athlete-qv-grid', isPlace
-          ? [[tx('f_country', 'Quốc gia'), d.country], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
-          : [[tx('f_nationality', 'Quốc tịch'), d.country], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
+          ? [[tx('f_country', 'Quốc gia'), d.country, COUNTRY_CODE[d.country]], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
+          : [[tx('f_nationality', 'Quốc tịch'), d.country, COUNTRY_CODE[d.country]], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
         renderFacts('.athlete-qv-facts', isPlace
           ? [[tx('f_highlights', 'Nên ghé'), d.highlights], [tx('f_best_time', 'Thời điểm nên đi'), d.bestTime]]
           : [[tx('f_skills', 'Kỹ năng nổi bật'), d.skills], [tx('f_achievement', 'Thành tích'), d.achievement]]);
@@ -344,6 +444,11 @@
         qv.querySelector('.athlete-qv-link').href = d.url;
         qv.querySelector('.athlete-qv-link').textContent = d.kind === 'place'
           ? tx('view_post', 'Xem bài viết') : tx('view_profile', 'Xem hồ sơ');
+        var wdl = qv.querySelector('.athlete-qv-weather');
+        wdl.hidden = true;
+        wdl.textContent = '';
+        wdl.href = 'https://www.windy.com/' + d.lat.toFixed(3) + '/' + d.lng.toFixed(3);
+        if (isPlace) loadWeather(d); else weatherSeq++;
         qv.hidden = false;
       });
       return {
@@ -492,7 +597,13 @@
         b.className = 'drop-item';
         b.type = 'button';
         b.dataset.country = country;
-        b.textContent = COUNTRY_LABEL[country] || country;
+        if (COUNTRY_CODE[country]) {
+          var fl = document.createElement('span');
+          fl.className = 'fi fi-' + COUNTRY_CODE[country];
+          fl.setAttribute('aria-hidden', 'true');
+          b.appendChild(fl);
+        }
+        b.appendChild(document.createTextNode(COUNTRY_LABEL[country] || country));
         group.appendChild(b);
       });
     }

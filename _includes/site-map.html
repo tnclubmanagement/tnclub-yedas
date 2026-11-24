@@ -1,5 +1,6 @@
 {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign athlete_posts = site.pages | where: 'layout', 'post' %}
+{% assign map_static_paths = site.static_files | map: 'path' %}
 {% assign map_series = "" | split: "" %}
 {% assign pin_count = 0 %}
 {% assign has_places = false %}
@@ -15,6 +16,7 @@
 {% assign map_series = map_series | uniq | sort %}
 
 <link rel="stylesheet" href="{{ '/assets/css/site-map.css' | relative_url }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -87,7 +89,11 @@
           <h3 class="athlete-qv-name"></h3>
           <p class="athlete-qv-nick"></p>
         </div>
-        <img class="athlete-qv-avatar" src="" alt="">
+        <span class="athlete-qv-avatar-wrap">
+          <img class="athlete-qv-avatar" src="" alt="">
+          <a class="athlete-qv-weather" href="https://www.windy.com/" target="_blank"
+             rel="noopener noreferrer" hidden title="{{ s.map.f_weather }} — Windy.com" aria-label="{{ s.map.f_weather }} — Windy.com"></a>
+        </span>
       </div>
       <div class="athlete-qv-body">
         <p class="athlete-qv-summary" hidden></p>
@@ -185,12 +191,13 @@ window.__athletePins = [
       ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
       image: {{ post["cover-img"] | relative_url | jsonify }},
+      {% assign place_avatar = post["thumbnail-img"] | default: post["cover-img"] %}
       {% if post["cover-img"] and post["cover-img"] contains 'cover.' %}
-      {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}
-      avatar: {{ pin_base | append: 'avatar.jpg' | relative_url | jsonify }}
-      {% else %}
-      avatar: {{ post["cover-img"] | relative_url | jsonify }}
+        {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}
+        {% assign pin_avatar = pin_base | append: 'avatar.jpg' %}
+        {% if map_static_paths contains pin_avatar %}{% assign place_avatar = pin_avatar %}{% endif %}
       {% endif %}
+      avatar: {{ place_avatar | relative_url | jsonify }}
     }
     {% endif %}
   {% endfor %}

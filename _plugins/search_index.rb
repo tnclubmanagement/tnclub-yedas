@@ -195,10 +195,13 @@ module Yedas
 
       # photo-*-needs.json: danh sách bài kèm số ảnh cho photo-tool
       # extension — build sẵn để extension khỏi phải quét thư mục.
-      {
+      matchers = {
         'photo-tourism-needs.json' => ->(d) { d['category'].to_s =~ /du lịch/i },
         'photo-athlete-needs.json' => ->(d) { !d['athlete'].nil? },
-      }.each do |fname, match|
+        'photo-photography-needs.json' => ->(d) { d['category'].to_s =~ /chụp ảnh/i },
+      }
+      matchers['photo-other-needs.json'] = ->(d) { matchers.none? { |_, m| m.call(d) } }
+      matchers.each do |fname, match|
         needs_page = Jekyll::PageWithoutAFile.new(site, site.source, '', fname)
         needs_page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
         needs_page.content = JSON.generate(photo_needs(site, documents, &match))

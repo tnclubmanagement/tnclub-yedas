@@ -8,7 +8,7 @@ module Yedas
   class SearchIndex
     VERSION = 1
     IMPLEMENTATION = Digest::SHA256.file(__FILE__).hexdigest
-    FIELDS = %w[title category url date image].freeze
+    FIELDS = %w[title category url date image country].freeze
 
     attr_reader :hits, :rebuilt
 
@@ -41,7 +41,8 @@ module Yedas
           'category' => Array(data['tags']).map(&:to_s).join(', '),
           'url' => "#{@baseurl}#{@lang == @default_lang ? '' : "/#{@lang}"}#{document.url}",
           'date' => date.to_s,
-          'image' => image_url(thumbnail_of(data))
+          'image' => image_url(thumbnail_of(data)),
+          'country' => data['place_country'].to_s
         }
         fingerprint = Digest::SHA256.hexdigest(JSON.generate([VERSION, IMPLEMENTATION, @lang, fields]))
         key = document.path.to_s
@@ -112,6 +113,60 @@ module Yedas
     safe true
     priority :lowest
 
+    IMG_EXT = /\.(jpe?g|png|webp|gif)\z/i
+
+    # Bài viết ở repo này là pages trong posts/YYYY/MM/DD/slug/ (không phải
+    # _posts collection). Ảnh của bài nằm ngay trong folder đó hoặc sâu hơn.
+    def photo_needs(site, documents)
+      # Đếm ảnh thẳng từ đĩa — ảnh trong posts/ không nằm trong
+      # site.static_files (được polyglot xử lý riêng).
+      img_counts = Hash.new do |hash, key|
+        hash[key] = Dir.glob(File.join(site.source, key, '**', '*.{jpg,jpeg,png,webp,gif}')).size
+      end
+
+      needs = []
+      seen = {}
+      documents.each do |doc|
+        post = doc.url[%r{\A/posts/(.+)/\z}, 1]
+        next unless post
+        next if seen[post]
+        seen[post] = true
+
+        data = doc.data
+        next if data['draft'] == true || data['published'] == false
+        next unless data['category'].to_s =~ /du lịch/i # hiện chỉ cần mục Du lịch
+        title = data['title'].to_s
+        next if title.strip.empty?
+        tags = Array(data['tags']).map(&:to_s)
+        country = data['place_country'].to_s
+        country = nil if country.empty?
+        img_count = img_counts["posts/#{post}"]
+        base = {
+          'post' => post, 'postDir' => post, 'title' => title,
+          'tags' => tags, 'country' => country, 'status' => 'open',
+          'imgCount' => img_count
+        }
+        # Xuất mọi bài Du lịch kèm số ảnh — extension tự sắp xếp/lọc,
+        # "thiếu ảnh" do người dùng quyết chứ tool không đoán ngưỡng.
+        needs << base.merge('id' => "#{post}#cover", 'kind' => 'cover',
+                            'suggestedQuery' => title) if thumbnail_of(data).to_s.empty?
+        needs << base.merge('id' => "#{post}#inline", 'kind' => 'inline',
+                            'suggestedQuery' => ([title] + tags).join(' '))
+      end
+      needs
+    end
+
+    def thumbnail_of(data)
+      thumb = data['thumbnail-img'].to_s
+      return thumb unless thumb.empty?
+      cover = data['cover-img']
+      case cover
+      when Array then cover.first.is_a?(Hash) ? cover.first.keys.first.to_s : cover.first.to_s
+      when Hash then cover.keys.first.to_s
+      else cover.to_s
+      end
+    end
+
     def generate(site)
       return unless site.config['post_search']
       documents = (site.pages.select { |page| page.html? } + site.posts.docs).sort_by { |document| document.url }
@@ -121,6 +176,15 @@ module Yedas
       page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
       page.content = content
       site.pages << page
+
+      # photo-tourism-needs.json: danh sách bài Du lịch kèm số ảnh cho
+      # photo-tool extension — build sẵn để extension khỏi phải quét thư mục.
+      needs = photo_needs(site, documents)
+      needs_page = Jekyll::PageWithoutAFile.new(site, site.source, '', 'photo-tourism-needs.json')
+      needs_page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
+      needs_page.content = JSON.generate(needs)
+      site.pages << needs_page
+
       site.config['search_index_digest'] = Digest::SHA256.hexdigest(content)[0, 16]
       Jekyll.logger.info 'Search index:', "#{site.config['active_lang']}: #{index.hits} cached, #{index.rebuilt} rebuilt"
     end

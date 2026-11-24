@@ -134,11 +134,12 @@ module Yedas
 
         data = doc.data
         next if data['draft'] == true || data['published'] == false
-        next unless data['category'].to_s =~ /du lịch/i # hiện chỉ cần mục Du lịch
+        next unless yield data # caller chọn nhóm bài (Du lịch / VĐV / ...)
         title = data['title'].to_s
         next if title.strip.empty?
         tags = Array(data['tags']).map(&:to_s)
         country = data['place_country'].to_s
+        country = data.dig('athlete', 'country').to_s if country.empty?
         country = nil if country.empty?
         # Ảnh thật sự nhúng trong nội dung (markdown ![...] + <img) —
         # file nằm trong folder chưa chắc đã được đưa vào bài.
@@ -192,13 +193,17 @@ module Yedas
       page.content = content
       site.pages << page
 
-      # photo-tourism-needs.json: danh sách bài Du lịch kèm số ảnh cho
-      # photo-tool extension — build sẵn để extension khỏi phải quét thư mục.
-      needs = photo_needs(site, documents)
-      needs_page = Jekyll::PageWithoutAFile.new(site, site.source, '', 'photo-tourism-needs.json')
-      needs_page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
-      needs_page.content = JSON.generate(needs)
-      site.pages << needs_page
+      # photo-*-needs.json: danh sách bài kèm số ảnh cho photo-tool
+      # extension — build sẵn để extension khỏi phải quét thư mục.
+      {
+        'photo-tourism-needs.json' => ->(d) { d['category'].to_s =~ /du lịch/i },
+        'photo-athlete-needs.json' => ->(d) { !d['athlete'].nil? },
+      }.each do |fname, match|
+        needs_page = Jekyll::PageWithoutAFile.new(site, site.source, '', fname)
+        needs_page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
+        needs_page.content = JSON.generate(photo_needs(site, documents, &match))
+        site.pages << needs_page
+      end
 
       site.config['search_index_digest'] = Digest::SHA256.hexdigest(content)[0, 16]
       Jekyll.logger.info 'Search index:', "#{site.config['active_lang']}: #{index.hits} cached, #{index.rebuilt} rebuilt"

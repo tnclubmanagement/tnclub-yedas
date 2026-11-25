@@ -872,6 +872,57 @@
         : (f === 'Thể thao' ? sportDrop : travelDrop).querySelector(':scope > .home-tab');
       setMainFilter(f, initBtn, true); // silent: không bay zoom lúc mới load
     } catch (e) {}
+
+    // Lần đầu vào map (chưa lưu filter): đoán quốc gia theo IP (ipwho.is,
+    // cache 24h) và tự lọc "Du lịch" tới nước đó nếu trên bản đồ có điểm.
+    // Không áp dụng nếu người dùng đã từng chọn filter, hoặc nước detect
+    // được không có pin — khi đó giữ nguyên chế độ "Tất cả".
+    if (activeFilter === 'all' && travelDrop) {
+      var placeCountries = {};
+      entries.forEach(function (en) {
+        if (en.kind === 'place' && en.country) placeCountries[en.country] = 1;
+      });
+      var isoToName = {};
+      Object.keys(COUNTRY_CODE).forEach(function (name) {
+        isoToName[COUNTRY_CODE[name]] = name;
+      });
+
+      var GEO_KEY = 'yedas-geo-cc';
+      var GEO_TTL = 24 * 60 * 60 * 1000;
+      function applyGeo(cc) {
+        var name = cc && isoToName[String(cc).toLowerCase()];
+        if (!name || !placeCountries[name]) return;
+        var btn = travelDrop.querySelector('[data-country="' + name + '"]');
+        if (!btn) return;
+        activeCountry = name;
+        travelDrop.querySelectorAll('.drop-item').forEach(function (b) {
+          b.classList.toggle('drop-item-active', b === btn);
+        });
+        travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
+          b.classList.remove('drop-group-title-active');
+        });
+        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + name;
+        setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
+      }
+
+      try {
+        var gc = JSON.parse(localStorage.getItem(GEO_KEY));
+        if (gc && Date.now() - gc.t < GEO_TTL) {
+          applyGeo(gc.cc);
+        } else {
+          fetch('https://ipwho.is/')
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+              var cc = d && d.success ? d.country_code : null;
+              try {
+                localStorage.setItem(GEO_KEY, JSON.stringify({ cc: cc, t: Date.now() }));
+              } catch (e) {}
+              applyGeo(cc);
+            })
+            .catch(function () {});
+        }
+      } catch (e) {}
+    }
   }
 
   if (window.L) initMap();

@@ -42,21 +42,32 @@ lang: en
     <p class="coffee-desc">If the articles helped you, you can treat me to a
     coffee via MoMo (Vietnam's e-wallet) — every cup keeps the writing going.</p>
   </div>
-  <div class="coffee-body">
-    <figure class="coffee-qr-box">
-      <img class="coffee-qr" src="{{ '/assets/img/momo-qr.png' | relative_url }}"
-           alt="Yedas MoMo receive-money QR code" loading="lazy" onerror="this.closest('.coffee-qr-box').style.display='none'">
-      <figcaption>Scan with the MoMo app</figcaption>
-    </figure>
-    <div class="coffee-links">
-      <p class="coffee-or"><span>or pick an amount</span></p>
-      <div class="coffee-amounts">
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/APdRlm0OKrkzaGy" target="_blank" rel="noopener">10.000₫</a>
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/MYer2rv8qKJweOB" target="_blank" rel="noopener">20.000₫</a>
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/l9avQyzlw6OMeG1" target="_blank" rel="noopener">50.000₫</a>
+  <div class="geo-block geo-vn geo-show">
+    <div class="coffee-body">
+      <figure class="coffee-qr-box">
+        <img class="coffee-qr" src="{{ '/assets/img/momo-qr.png' | relative_url }}"
+             alt="Yedas MoMo receive-money QR code" loading="lazy" onerror="this.closest('.coffee-qr-box').style.display='none'">
+        <figcaption>Scan with the MoMo app</figcaption>
+      </figure>
+      <div class="coffee-links">
+        <p class="coffee-or"><span>or pick an amount</span></p>
+        <div class="coffee-amounts">
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/APdRlm0OKrkzaGy" target="_blank" rel="noopener">10.000₫</a>
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/MYer2rv8qKJweOB" target="_blank" rel="noopener">20.000₫</a>
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/l9avQyzlw6OMeG1" target="_blank" rel="noopener">50.000₫</a>
+        </div>
+        <p class="coffee-note">Each link opens the MoMo transfer page with the
+        amount and message pre-filled — you can still change it before confirming.</p>
       </div>
-      <p class="coffee-note">Each link opens the MoMo transfer page with the
-      amount and message pre-filled — you can still change it before confirming.</p>
+    </div>
+  </div>
+  <div class="geo-block geo-intl">
+    <div class="coffee-intl">
+      <p>Visiting from outside Vietnam? MoMo only supports Vietnamese
+      e-wallets — international options (PayPal/Buy Me a Coffee) are being
+      set up. Meanwhile you can reach me at
+      <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>.</p>
     </div>
   </div>
 </div>
+<script src="{{ '/assets/js/geo-pay.js' | relative_url }}" defer></script>

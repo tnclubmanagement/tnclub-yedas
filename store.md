@@ -2,7 +2,7 @@
 layout: page
 title: Cửa hàng
 subtitle: Preset chỉnh ảnh và ebook — mua một lần, dùng mãi mãi
-cover-img: "/assets/img/hero-banner.jpg"
+cover-img: "/assets/img/store-cover.jpg"
 permalink: /store/
 ---
 
@@ -10,38 +10,55 @@ permalink: /store/
   <p class="contact-kicker">CỬA HÀNG YEDAS</p>
   <h2>Sản phẩm số từ những bài viết bạn đã đọc</h2>
   <p>Mỗi preset và ebook đều được làm ra từ kinh nghiệm thật trong các
-  bài mẹo chụp ảnh và du lịch trên trang này. Mua một lần, tải về dùng mãi.</p>
+  bài mẹo chụp ảnh và du lịch trên trang này. Cửa hàng đang trong giai đoạn
+  hoàn thiện — chưa có sản phẩm nào mở bán.</p>
 </div>
 
 <div class="store-products">
   <article class="store-product">
-    <span class="store-badge">Có sẵn</span>
-    <h3>Preset Yedas — Tone du lịch (6 preset)</h3>
-    <p>Bộ preset Lightroom Mobile định dạng <code>.dng</code>, gồm 6 tone
-    dùng trong các bài chụp ảnh điện thoại: nắng vàng, biển xanh, phố đêm,
-    ẩm thực, chân dung và tone phim. Kèm hướng dẫn cài đặt và khi nào nên
-    dùng từng tone.</p>
-    <p class="store-price">99.000đ</p>
-    <!-- TODO: điền link Google Form nhận đơn thật -->
-    <a class="store-cta" href="https://forms.gle/DIEN-LINK-FORM" target="_blank" rel="noopener">Đặt mua preset</a>
+    <div class="store-cover store-cover-preset" aria-hidden="true">
+      <span class="fa fa-magic"></span>
+    </div>
+    <div class="store-product-body">
+      <span class="store-badge store-badge-soon">Sắp ra mắt</span>
+      <h3>Preset Yedas — Tone du lịch</h3>
+      <p>Bộ preset Lightroom Mobile định dạng <code>.dng</code>, gồm 6 tone
+      dùng trong các bài chụp ảnh điện thoại:</p>
+      <ul class="store-features">
+        <li>Nắng vàng, biển xanh, phố đêm</li>
+        <li>Ẩm thực, chân dung, tone phim</li>
+        <li>Kèm hướng dẫn cài đặt và khi nào nên dùng từng tone</li>
+      </ul>
+      <p class="store-price">Chưa định giá</p>
+      <a class="store-cta store-cta-notify"
+         href="mailto:tnclubmanagement@gmail.com?subject=B%C3%A1o%20t%C3%B4i%20khi%20preset%20m%E1%BB%9F%20b%C3%A1n">Báo tôi khi mở bán</a>
+    </div>
   </article>
 
-  <article class="store-product store-product-soon">
-    <span class="store-badge store-badge-soon">Sắp ra mắt</span>
-    <h3>Sổ tay du lịch tự túc (ebook PDF)</h3>
-    <p>Gom từ loạt bài du lịch trên trang: cách lên lịch trình, chọn mùa,
-    mua vé, tránh bẫy và đọc bản đồ giao thông — kèm checklist in được.
-    Đang hoàn thiện nội dung.</p>
-    <p class="store-price">—</p>
-    <span class="store-cta store-cta-disabled">Chưa mở bán</span>
+  <article class="store-product">
+    <div class="store-cover store-cover-ebook" aria-hidden="true">
+      <span class="fa fa-book-open"></span>
+    </div>
+    <div class="store-product-body">
+      <span class="store-badge store-badge-soon">Sắp ra mắt</span>
+      <h3>Sổ tay du lịch tự túc (ebook PDF)</h3>
+      <p>Gom từ loạt bài du lịch trên trang, đang hoàn thiện nội dung:</p>
+      <ul class="store-features">
+        <li>Lên lịch trình, chọn mùa, săn vé</li>
+        <li>Tránh bẫy du lịch thường gặp</li>
+        <li>Đọc bản đồ giao thông + checklist in được</li>
+      </ul>
+      <p class="store-price">Chưa định giá</p>
+      <a class="store-cta store-cta-notify"
+         href="mailto:tnclubmanagement@gmail.com?subject=B%C3%A1o%20t%C3%B4i%20khi%20ebook%20m%E1%BB%9F%20b%C3%A1n">Báo tôi khi mở bán</a>
+    </div>
   </article>
 </div>
 
-<div class="contact-note">
-  <strong>Cách mua và nhận file.</strong>
-  <p>1. Bấm "Đặt mua" và điền form (email + nội dung chuyển khoản).
-  2. Chuyển khoản theo thông tin trong form — hỗ trợ VietQR/MoMo.
-  3. File được gửi vào email trong vòng 24 giờ sau khi xác nhận.</p>
-  <p>Thanh toán thủ công nên đôi khi mình trả file hơi chậm — cảm ơn bạn
-  đã kiên nhẫn và ủng hộ trang.</p>
+<div class="store-note">
+  <span class="store-note-icon fa fa-clock-o" aria-hidden="true"></span>
+  <h3>Chưa mở bán</h3>
+  <p>Cả hai sản phẩm đang được hoàn thiện. Bấm "Báo tôi khi mở bán" để gửi
+  email — mình sẽ nhắn cho bạn ngay khi có hàng. Thanh toán dự kiến qua
+  VietQR/MoMo, file giao qua email.</p>
 </div>

@@ -111,13 +111,29 @@
 .map-country-head h3 { margin: 0; font-size: 1.1rem; }
 .map-country-head button {
   flex: none;
-  min-height: 44px;
-  padding: 0.5rem 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
   border: 1px solid var(--hairline);
-  border-radius: 10px;
+  border-radius: 50%;
   background: var(--bg-light);
-  color: var(--ink);
+  color: var(--muted);
   cursor: pointer;
+}
+.map-country-head button:hover { color: var(--ink); }
+
+/* Item quốc gia trong dialog: gọn hơn — cờ sát chữ, hàng thấp hơn */
+.drop-menu-countries .drop-item {
+  gap: 0.5rem;
+  min-height: 34px;
+  padding: 0.35rem 0.6rem;
+}
+.drop-menu-countries .drop-item .fi {
+  margin-right: 0;
+  font-size: 1rem;
 }
 .drop-menu-countries .drop-groups {
   display: grid;

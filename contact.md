@@ -41,21 +41,32 @@ permalink: /contact/
     <p class="coffee-desc">Nếu các bài viết giúp ích cho bạn, mời mình ly cà phê
     qua MoMo — mỗi ly là một động lực để viết tiếp.</p>
   </div>
-  <div class="coffee-body">
-    <figure class="coffee-qr-box">
-      <img class="coffee-qr" src="{{ '/assets/img/momo-qr.png' | relative_url }}"
-           alt="Mã QR MoMo nhận tiền của Yedas" loading="lazy" onerror="this.closest('.coffee-qr-box').style.display='none'">
-      <figcaption>Quét bằng app MoMo</figcaption>
-    </figure>
-    <div class="coffee-links">
-      <p class="coffee-or"><span>hoặc chọn nhanh mệnh giá</span></p>
-      <div class="coffee-amounts">
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/APdRlm0OKrkzaGy" target="_blank" rel="noopener">10.000đ</a>
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/MYer2rv8qKJweOB" target="_blank" rel="noopener">20.000đ</a>
-        <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/l9avQyzlw6OMeG1" target="_blank" rel="noopener">50.000đ</a>
+  <div class="geo-block geo-vn geo-show">
+    <div class="coffee-body">
+      <figure class="coffee-qr-box">
+        <img class="coffee-qr" src="{{ '/assets/img/momo-qr.png' | relative_url }}"
+             alt="Mã QR MoMo nhận tiền của Yedas" loading="lazy" onerror="this.closest('.coffee-qr-box').style.display='none'">
+        <figcaption>Quét bằng app MoMo</figcaption>
+      </figure>
+      <div class="coffee-links">
+        <p class="coffee-or"><span>hoặc chọn nhanh mệnh giá</span></p>
+        <div class="coffee-amounts">
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/APdRlm0OKrkzaGy" target="_blank" rel="noopener">10.000đ</a>
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/MYer2rv8qKJweOB" target="_blank" rel="noopener">20.000đ</a>
+          <a class="coffee-amount" href="https://me.momo.vn/BGIDuqUPiPu8T7uAsOiO/l9avQyzlw6OMeG1" target="_blank" rel="noopener">50.000đ</a>
+        </div>
+        <p class="coffee-note">Link mở trang MoMo nhận tiền với số tiền và lời
+        nhắn đã điền sẵn — bạn vẫn có thể đổi lại trước khi xác nhận.</p>
       </div>
-      <p class="coffee-note">Link mở trang MoMo nhận tiền với số tiền và lời
-      nhắn đã điền sẵn — bạn vẫn có thể đổi lại trước khi xác nhận.</p>
+    </div>
+  </div>
+  <div class="geo-block geo-intl">
+    <div class="coffee-intl">
+      <p>Bạn đang truy cập từ nước ngoài? MoMo chỉ hỗ trợ ví điện tử Việt
+      Nam — kênh ủng hộ quốc tế (PayPal/Buy Me a Coffee) đang được thiết
+      lập. Bạn có thể nhắn cho mình trước qua
+      <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>.</p>
     </div>
   </div>
 </div>
+<script src="{{ '/assets/js/geo-pay.js' | relative_url }}" defer></script>

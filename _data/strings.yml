@@ -11,6 +11,7 @@ vi:
     Series: "Series"
     Bản đồ: "Bản đồ"
     Playlist: "Playlist"
+    Liên hệ: "Liên hệ"
   ui:
     open_menu: "Mở menu"
     toggle_theme: "Đổi giao diện sáng/tối"
@@ -223,6 +224,7 @@ en:
     Series: "Series"
     Bản đồ: "Map"
     Playlist: "Playlist"
+    Liên hệ: "Contact"
   ui:
     open_menu: "Open menu"
     toggle_theme: "Toggle light/dark theme"

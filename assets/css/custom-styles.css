@@ -594,6 +594,143 @@ body {
   margin: 0.35rem 0 0;
 }
 
+/* ---------- Buy me a coffee (MoMo) ---------- */
+.coffee-card {
+  max-width: 760px;
+  margin: 2rem auto 0;
+  padding: 2rem;
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.coffee-head {
+  text-align: center;
+}
+
+.coffee-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #fdeef6;
+  font-size: 1.4rem;
+}
+
+.coffee-head h2 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.5rem, 3.5vw, 2rem);
+}
+
+.coffee-desc {
+  max-width: 520px;
+  margin: 0 auto;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.coffee-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1.8rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.coffee-qr-box {
+  margin: 0;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.coffee-qr {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.coffee-qr-box figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.coffee-or {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.coffee-or::before,
+.coffee-or::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--hairline);
+}
+
+.coffee-amounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.coffee-amount {
+  flex: 1 1 0;
+  min-width: 110px;
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  color: #fff;
+  background: #a50064; /* hồng MoMo */
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.coffee-amount:hover {
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(165, 0, 100, 0.3);
+  text-decoration: none;
+}
+
+.coffee-note {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.83rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 640px) {
+  .coffee-body {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+
+  .coffee-links {
+    width: 100%;
+  }
+}
+
 .policy-intro {
   margin-bottom: 2.5rem;
 }

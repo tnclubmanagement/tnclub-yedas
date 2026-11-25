@@ -7,7 +7,7 @@ cover-img: "/posts/2027/10/26/hong-kong/cover.jpg"
 thumbnail-img: "/posts/2027/10/26/hong-kong/cover.jpg"
 geo: [22.3193, 114.1694]
 place_name: "Hong Kong"
-place_country: "Hong Kong"
+place_country: "China"
 place_population: "~7,5 triệu"
 place_area: "1.114 km²"
 place_region: "Đặc khu hành chính Trung Quốc, cửa sông Châu Giang"

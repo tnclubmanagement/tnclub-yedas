@@ -9,28 +9,19 @@ permalink: /contact/
 <div class="contact-intro">
   <p class="contact-kicker">KẾT NỐI VỚI YEDAS</p>
   <h2>Có câu hỏi hoặc một câu chuyện muốn chia sẻ?</h2>
-  <p>Gửi cho mình một mẹo hay, góp ý về bài viết hoặc câu hỏi về chuyến đi.
-  Mỗi phản hồi đều giúp trang này thực tế và hữu ích hơn.</p>
+  <p>Góp ý bài viết, chia sẻ ảnh hay một chuyến đi đáng nhớ — cứ gửi email
+  cho mình, mỗi phản hồi đều giúp trang này thực tế và hữu ích hơn.</p>
 </div>
 
-<div class="contact-options">
-  <article class="contact-option">
-    <span class="contact-option-icon fa fa-comment" aria-hidden="true"></span>
-    <h3>Góp ý nội dung</h3>
-    <p>Gửi tên bài viết và điều bạn muốn bổ sung hoặc chỉnh sửa.</p>
-  </article>
-  <article class="contact-option">
-    <span class="contact-option-icon fa fa-camera" aria-hidden="true"></span>
-    <h3>Chia sẻ ảnh</h3>
-    <p>Gửi ảnh kèm một câu chuyện ngắn để cùng làm bài viết sinh động hơn.</p>
-  </article>
-</div>
+<div class="contact-grid">
 
-<div class="contact-note">
-  <strong>Liên hệ qua email:</strong>
-  <p>Gửi thư cho mình tại
-  <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>
-  — mình sẽ phản hồi sớm nhất có thể.</p>
+<div class="contact-card">
+  <span class="contact-card-icon fa fa-envelope" aria-hidden="true"></span>
+  <p class="contact-kicker">LIÊN HỆ</p>
+  <h3>Viết cho mình</h3>
+  <a class="contact-card-mail" href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>
+  <p class="contact-card-hint">Khi góp ý bài viết, nhớ ghi tên bài giúp mình
+  nhé — mình sẽ phản hồi sớm nhất có thể.</p>
 </div>
 
 <div class="coffee-card">
@@ -68,5 +59,7 @@ permalink: /contact/
       <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>.</p>
     </div>
   </div>
+</div>
+
 </div>
 <script src="{{ '/assets/js/geo-pay.js' | relative_url }}" defer></script>

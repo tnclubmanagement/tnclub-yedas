@@ -10,28 +10,19 @@ lang: en
 <div class="contact-intro">
   <p class="contact-kicker">GET IN TOUCH WITH YEDAS</p>
   <h2>Have a question or a story to share?</h2>
-  <p>Send me a useful tip, feedback on an article or a question about a trip.
-  Every suggestion helps make this site more practical and useful.</p>
+  <p>Feedback on an article, a photo with a story or a question about a trip —
+  just send me an email. Every suggestion helps make this site better.</p>
 </div>
 
-<div class="contact-options">
-  <article class="contact-option">
-    <span class="contact-option-icon fa fa-comment" aria-hidden="true"></span>
-    <h3>Suggest an update</h3>
-    <p>Include the article title and let me know what you would like to add or correct.</p>
-  </article>
-  <article class="contact-option">
-    <span class="contact-option-icon fa fa-camera" aria-hidden="true"></span>
-    <h3>Share a photo</h3>
-    <p>Send a photo and a short story to help bring an article to life.</p>
-  </article>
-</div>
+<div class="contact-grid">
 
-<div class="contact-note">
-  <strong>Contact by email:</strong>
-  <p>Write to me at
-  <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>
-  — I'll get back to you as soon as I can.</p>
+<div class="contact-card">
+  <span class="contact-card-icon fa fa-envelope" aria-hidden="true"></span>
+  <p class="contact-kicker">CONTACT</p>
+  <h3>Write to me</h3>
+  <a class="contact-card-mail" href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>
+  <p class="contact-card-hint">When suggesting an update, include the article
+  title — I'll get back to you as soon as I can.</p>
 </div>
 
 <div class="coffee-card">
@@ -69,5 +60,7 @@ lang: en
       <a href="mailto:tnclubmanagement@gmail.com">tnclubmanagement@gmail.com</a>.</p>
     </div>
   </div>
+</div>
+
 </div>
 <script src="{{ '/assets/js/geo-pay.js' | relative_url }}" defer></script>

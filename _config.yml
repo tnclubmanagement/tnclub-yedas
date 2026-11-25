@@ -159,3 +159,4 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-polyglot
+  - jekyll-minifier

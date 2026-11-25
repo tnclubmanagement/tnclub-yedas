@@ -11,6 +11,7 @@ vi:
     Series: "Series"
     Bản đồ: "Bản đồ"
     Playlist: "Playlist"
+    Cửa hàng: "Cửa hàng"
     Liên hệ: "Liên hệ"
   ui:
     open_menu: "Mở menu"
@@ -224,6 +225,7 @@ en:
     Series: "Series"
     Bản đồ: "Map"
     Playlist: "Playlist"
+    Cửa hàng: "Store"
     Liên hệ: "Contact"
   ui:
     open_menu: "Open menu"

@@ -142,13 +142,21 @@
   <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
   {% endif %}
 
+  <link rel="alternate" hreflang="vi" href="{{ page.url | absolute_url | strip_index }}">
+  <link rel="alternate" hreflang="en" href="{{ page.url | prepend: '/en' | absolute_url | strip_index }}">
+  <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url | strip_index }}">
+
+  <meta property="og:locale" content="{% if site.active_lang == 'en' %}en_US{% else %}vi_VN{% endif %}">
+
   {% if img != "" and img != site.avatar %}
   <meta name="twitter:card" content="summary_large_image">
   {% else %}
   <meta name="twitter:card" content="summary">
   {% endif %}
+  {% if site.social-network-links.twitter %}
   <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
   <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
+  {% endif %}
 
   <meta property="twitter:title" content="{{ title }}">
   <meta property="twitter:description" content="{{ description }}">
@@ -168,5 +176,24 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }},
+    "description": {{ site['rss-description'] | jsonify }},
+    "inLanguage": ["vi", "en"],
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ site.author | default: site.title | jsonify }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ '/assets/img/icons/icon-512.png' | absolute_url | jsonify }}
+      }
+    }
+  }
+  </script>
 
 </head>

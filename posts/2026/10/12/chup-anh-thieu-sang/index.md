@@ -8,8 +8,6 @@ cover-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 thumbnail-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Ánh sáng, Ban đêm, Điện thoại]
-after-content:
-  - store-cta.html
 ---
 
 Chụp thiếu sáng là lúc camera điện thoại phải làm việc khó nhất: ánh sáng ít,

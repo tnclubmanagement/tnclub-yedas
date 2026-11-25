@@ -19,7 +19,6 @@ baseurl: "/tnclub-yedas"
 navbar-links:
   Giới thiệu: "about-me"
   Bài viết: "posts"
-  Cửa hàng: "store"
   Khám phá:
     - Thẻ: "tags"
     - Series: "series"

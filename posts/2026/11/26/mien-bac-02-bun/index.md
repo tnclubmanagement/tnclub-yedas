@@ -1,0 +1,66 @@
+---
+layout: post
+date: "2026-11-26 11:02:00 +0700"
+title: "[02 · Ăn ngon miền Bắc] : Bún chả, bún thang và bún ốc Hà Nội"
+subtitle: "Một món chấm, một bát thanh, một bát chua — đừng gọi chỉ vì cùng tên bún"
+cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+category: "Ăn Ngon"
+tags: [Ăn Ngon, Miền Bắc, Hà Nội, Bún]
+series: "Ăn ngon miền Bắc"
+series_order: 2
+series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
+place_name: "Hà Nội"
+place_country: "Việt Nam"
+geo: [21.0285, 105.8542]
+---
+
+Cùng một sợi bún trắng nhưng cách ăn có thể đổi hoàn toàn. Bún chả là bữa có thịt nướng và nước chấm; bún thang dựa vào nước dùng cùng nguyên liệu thái nhỏ; bún ốc lại có vị chua và độ giòn của ốc.
+
+Chọn theo thứ đang muốn ăn sẽ dễ hơn chạy theo tên quán. Nếu chỉ có một bữa trưa ở Hà Nội, một món ăn thong thả thường đáng nhớ hơn ba bát ăn vội.
+
+## Bún chả: gắp từng ít vào bát chấm
+
+<div class="coffee-media-row coffee-media-row-left" markdown="1">
+<div class="coffee-media-text" markdown="1">
+
+Chả miếng và chả viên nướng đi cùng bún, rau sống, nước mắm pha và đồ chua. Bát nước có thịt không phải bát canh để chan ngập mọi thứ ngay từ đầu: có thể gắp một ít bún, rau và thịt vào cùng một miếng ăn.
+
+Nếm nước chấm trước khi thêm tỏi ớt. Nem rán thường là phần gọi thêm; hỏi rõ suất đã gồm gì để không vô tình gọi quá no. Người không ăn thịt lợn cần chọn món khác, không chỉ bỏ vài miếng thịt khỏi nước chấm đã ngâm chả.
+
+</div>
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-bac-02-bun/bun-cha.jpg' | relative_url }}" alt="Mẹt bún chả có thịt nướng, bún và rau" loading="lazy">
+  <figcaption>Bún chả với các phần ăn kèm bày riêng. Ảnh: <a href="https://www.pexels.com/photo/bun-cha-served-on-a-winnowing-basket-3858270/" target="_blank" rel="noopener">Markus Winkler / Pexels</a>.</figcaption>
+</figure>
+</div>
+
+## Bún thang: nhìn phần thái nhỏ, nếm phần nước trong
+
+<div class="coffee-media-row" markdown="1">
+<div class="coffee-media-text" markdown="1">
+
+Bún thang thường có thịt gà xé, giò lụa và trứng tráng thái sợi trên nền nước dùng trong. Các thành phần nhỏ khiến mỗi đũa có nhiều kết cấu hơn vẻ ngoài nhẹ nhàng của bát bún.
+
+Mắm tôm có thể được dùng để tăng mùi, tùy hàng và tùy người ăn. Hỏi trước nếu không dùng được; món nhìn thanh không đồng nghĩa chay hoặc không có hải sản. Với người dị ứng trứng, cần báo từ lúc gọi thay vì chỉ gạt lớp trứng trên mặt.
+
+</div>
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-bac-02-bun/hang-bun.jpg' | relative_url }}" alt="Hàng bún chả bên phố Hà Nội" loading="lazy">
+  <figcaption>Bối cảnh hàng bún chả Hà Nội; không phải ảnh bún thang. Ảnh: <a href="https://www.pexels.com/photo/vietnamese-street-food-vendor-in-hanoi-38003956/" target="_blank" rel="noopener">Valeria Drozdova / Pexels</a>.</figcaption>
+</figure>
+</div>
+
+## Bún ốc: hỏi loại ốc và độ chua
+
+Bún ốc nóng thường gặp với cà chua, vị chua và rau thơm; bún ốc nguội là một trải nghiệm khác, không phải bát bún nóng để quên. Hãy hỏi quán đang bán kiểu nào, ốc to hay nhỏ, có thêm thịt bò hoặc giò không.
+
+Chỉ chọn ốc được nấu chín kỹ, ăn khi món còn ở điều kiện phục vụ phù hợp. Nếu dị ứng nhuyễn thể, bỏ ốc ra khỏi bát không làm nước dùng trở thành an toàn. Muốn so ba món, chia chúng ra ba bữa sẽ cảm nhận rõ hơn và đỡ phí thức ăn.
+
+### Nguồn tham khảo
+
+- [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): bún chả, bún thang và thành phần thường gặp.
+- [Vietnam Tourism — Cuisine: A gateway to Hanoi’s culture](https://vietnam.travel/things-to-do/cuisine-gateway-hanoi%E2%80%99s-culture/): nhịp ăn đường phố Hà Nội.
+- Ảnh Pexels; credit và link gốc dưới từng ảnh, ảnh bối cảnh được ghi rõ.
+
+[Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

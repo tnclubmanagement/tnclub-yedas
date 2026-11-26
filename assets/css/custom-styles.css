@@ -2179,3 +2179,18 @@ footer .copyright {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06);
   cursor: zoom-in;
 }
+
+/* Chip tên món cà phê nhấn inline trong bài */
+.menu-tag {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  margin: 0 0.1em;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--bg-light);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  white-space: nowrap;
+}

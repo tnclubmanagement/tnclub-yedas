@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:05:00 +0700"
 title: "[05 · Hiểu menu cà phê] : Latte, cappuccino và macchiato"
 subtitle: "Cùng espresso và sữa, khác lượng sữa, bọt và cách phục vụ"
-cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
+cover-img: "/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg"
+thumbnail-img: "/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
@@ -24,7 +24,9 @@ Công thức thay đổi theo vùng và thương hiệu; không nên xem sơ đ�
 | **Cappuccino** | Espresso, sữa đánh nóng, bọt thường dày/xốp hơn latte | Cảm giác bọt rõ, cà phê vẫn hiện diện |
 | **Flat white** | Espresso, sữa có bọt rất mịn; thường ít bọt hơn cappuccino | Sữa mượt nhưng cà phê rõ hơn latte ở nhiều quán |
 
-Latte nguyên bản không nhất thiết có syrup, nhưng sữa vẫn có đường tự nhiên. Cappuccino có thể được rắc cacao, không phải nơi nào cũng vậy. Flat white không tự động nhiều caffeine hơn latte: cần hỏi số shot và kích cỡ.
+### Một số lưu ý:
+
+**Latte nguyên bản** không nhất thiết có syrup, nhưng sữa vẫn có đường tự nhiên. Cappuccino có thể được rắc cacao, không phải nơi nào cũng vậy. Flat white không tự động nhiều caffeine hơn latte: cần hỏi số shot và kích cỡ.
 
 **Bản lạnh:** iced latte thường dùng sữa lạnh với espresso và đá. Cappuccino đá có thể rất khác kiểu nóng cổ điển, nên hỏi nếu bạn mong một lớp bọt cụ thể.
 

@@ -5,7 +5,7 @@ subtitle: "7 bài ngắn để biết trong ly có gì và chọn đúng khẩu 
 cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 ---
 
-Có lần bạn gọi latte nhưng thấy nhiều sữa quá, gọi macchiato lại nhận một ly khác hẳn tưởng tượng? Series này giúp bạn hiểu **thành phần, cách pha và hương vị thường gặp**, không cần thuộc công thức hay biết vận hành máy pha.
+Có lần bạn gọi <span class="menu-tag">latte</span> nhưng thấy nhiều sữa quá, gọi <span class="menu-tag">macchiato</span> lại nhận một ly khác hẳn tưởng tượng? Series này giúp bạn hiểu **thành phần, cách pha và hương vị thường gặp**, không cần thuộc công thức hay biết vận hành máy pha.
 
 Không cần đọc theo thứ tự. Chọn nhóm món đang có trên menu rồi mở bài tương ứng. Đây là hướng dẫn nhận diện món, không phải đánh giá quán; công thức, số shot và độ ngọt có thể khác giữa các nơi.
 
@@ -45,7 +45,7 @@ Không cần đọc theo thứ tự. Chọn nhóm món đang có trên menu rồ
     </div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/ca-phe-05-ca-phe-sua/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/ca-phe-05-ca-phe-sua/latte-cappuccino.jpg' | relative_url }}" alt="Tách cappuccino với latte art" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg' | relative_url }}" alt="Ba ly cà phê sữa nhiều lớp" loading="lazy">
     <div class="menu-series-card-body">
       <span class="menu-series-num">Bài 05</span>
       <h3 class="menu-series-title">Latte, cappuccino và macchiato</h3>
@@ -74,7 +74,7 @@ Không cần đọc theo thứ tự. Chọn nhóm món đang có trên menu rồ
 
 - **Nhẹ vị không đồng nghĩa ít caffeine.** Hỏi số shot hoặc lựa chọn decaf nếu đó mới là điều bạn cần.
 - **Không thêm đường chưa chắc không ngọt.** Sữa đặc, syrup, sauce và kem có thể đã được pha ngọt sẵn.
-- **Đọc đủ tên món.** Espresso macchiato khác caramel macchiato; cà phê cốt dừa khác cà phê nước dừa.
+- **Đọc đủ tên món.** <span class="menu-tag">espresso macchiato</span> khác <span class="menu-tag">caramel macchiato</span>; <span class="menu-tag">cà phê cốt dừa</span> khác <span class="menu-tag">cà phê nước dừa</span>.
 
 Câu hỏi hữu ích nhất thường là: **“Món này có gì, mấy shot, ngọt từ đâu và giảm được phần nào?”**
 
@@ -85,9 +85,9 @@ Câu hỏi hữu ích nhất thường là: **“Món này có gì, mấy shot, 
 
 ## Sau khi hiểu menu, vẫn quay về cà phê Việt
 
-Đọc hết bảy bài thì thấy menu nước ngoài phức tạp chủ yếu ở tên gọi: ristretto, lungo, cortado, flat white thực ra chỉ khác nhau ở nước, sữa và bọt. Còn nhóm mocha, caramel macchiato hay đá xay phủ kem thì gần với món tráng miệng hơn cà phê — ngon để thử, chứ không phải thứ uống mỗi sáng.
+Đọc hết bảy bài thì thấy menu nước ngoài phức tạp chủ yếu ở tên gọi: <span class="menu-tag">ristretto</span> <span class="menu-tag">lungo</span> <span class="menu-tag">cortado</span> <span class="menu-tag">flat white</span> thực ra chỉ khác nhau ở nước, sữa và bọt. Còn nhóm <span class="menu-tag">mocha</span> <span class="menu-tag">caramel macchiato</span> hay đá xay phủ kem thì gần với món tráng miệng hơn cà phê — ngon để thử, chứ không phải thứ uống mỗi sáng.
 
-Cà phê Việt hợp hơn vì thực tiễn: một cái phin, một nắm bột, nước nóng là xong. Thêm sữa đặc là sữa đá, nhiều sữa hơn là bạc xỉu — gọi một tiếng là biết mình nhận về gì, không cần hỏi mấy shot hay giảm syrup. Hiểu menu để không bỡ ngỡ khi vào quán lạ, chứ ly uống hằng ngày vẫn là sữa đá.
+Cà phê Việt hợp hơn vì thực tiễn: một cái phin, một nắm bột, nước nóng là xong. Thêm sữa đặc là <span class="menu-tag">sữa đá</span>, nhiều sữa hơn là <span class="menu-tag">bạc xỉu</span> — gọi một tiếng là biết mình nhận về gì, không cần hỏi mấy shot hay giảm syrup. Hiểu menu để không bỡ ngỡ khi vào quán lạ, chứ ly uống hằng ngày vẫn là sữa đá.
 
 <figure>
   <img src="{{ '/posts/2026/11/26/ca-phe-02-ca-phe-viet/phin-sua-dac.jpg' | relative_url }}" alt="Phin cà phê nhỏ giọt xuống ly sữa đặc" width="800" height="1200" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 320px; margin: 0 auto;">

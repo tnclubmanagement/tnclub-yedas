@@ -84,7 +84,23 @@ Món kiểu Nhật **purin** lại gần với flan hơn: trứng-sữa đông c
 </figure>
 </div>
 
-Nhớ gọn: **trứng đông là flan, gelatin đông là panna cotta, tinh bột đông là pudding** — còn ngọt thì hỏi xem nó nằm ở nền hay ở sốt.
+## Crème brûlée và các họ hàng của custard
+
+<div class="coffee-media-row" markdown="1">
+<div class="coffee-media-text" markdown="1">
+
+**Crème brûlée** là anh em gần của flan: custard kem-trứng nướng cách thủy, nhưng nhiều kem hơn sữa và **không úp ra khuôn** — điểm nhận diện là lớp đường trên mặt được đốt thành vỏ caramel giòn, gõ thìa nghe “tách”. Ngược chiều với flan: flan ngọt từ caramel chảy xuống, brûlée giòn từ đường đốt phía trên.
+
+Cùng họ custard-trứng còn có **mousse** (kem đánh + trứng, xốp khí, không đông cứng) và **rice pudding / kheer** (gạo nấu chín nhừ trong sữa — “chè sữa” của Âu và Ấn Độ, gần với chè nếp hơn là flan).
+
+</div>
+<figure>
+  <img src="{{ '/posts/2026/11/26/trang-mieng-02-flan-panna-cotta/flan.jpg' | relative_url }}" alt="Bánh flan caramel — họ custard trứng-sữa" width="800" height="1200" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
+  <figcaption>Custard trứng-sữa: cùng nền với crème brûlée, chỉ khác lớp mặt và tỷ lệ kem. Ảnh: <a href="https://www.pexels.com/photo/spanish-flan-dessert-18089587/" target="_blank" rel="noopener">Pexels</a>.</figcaption>
+</figure>
+</div>
+
+Nhớ gọn: **trứng đông là flan (và brûlée), gelatin đông là panna cotta, tinh bột đông là pudding** — còn ngọt thì hỏi xem nó nằm ở nền, ở sốt hay ở lớp mặt đốt.
 
 ### Nguồn tham khảo
 

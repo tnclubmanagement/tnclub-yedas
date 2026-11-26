@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-11-26 10:04:00 +0700"
-title: "[04 · Món tráng miệng từ sữa] : Kem: tươi, ý, chống què và chuối"
+title: "[04 · Món tráng miệng từ sữa] : Kem: tươi, ý, ốc quế và chuối"
 subtitle: "Kem tươi, gelato, kem ốc quế và kem chuối — cùng sữa đông lạnh, khác độ béo và kết cấu"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
@@ -50,12 +50,12 @@ Ngược lại, **sorbet** thường bán cạnh gelato nhưng **không có sữ
 </figure>
 </div>
 
-## Kem chống què / kem ốc quế: kem mềm nhiều khí
+## Kem ốc quế: kem mềm nhiều khí
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-**Kem chống què** (kem ốc quế mềm) là kem tươi mềm ép từ máy trực tiếp vào bánh ốc quế — nhiều khí hơn kem viên nên nhẹ, tan rất nhanh và không giữ được lâu. Hàng rong Việt thường dùng nền sữa đặc-kem đơn giản, vị ngọt sữa quen thuộc.
+**Kem ốc quế** là kem tươi mềm ép từ máy trực tiếp vào bánh ốc quế — nhiều khí hơn kem viên nên nhẹ, tan rất nhanh và không giữ được lâu. Hàng rong Việt thường dùng nền sữa đặc-kem đơn giản, vị ngọt sữa quen thuộc.
 
 Điểm hay nhầm: kem ốc quế mềm nhìn “to” nhưng nhẹ vì phần lớn thể tích là khí — khác với viên kem tươi chắc nặng cùng kích thước.
 
@@ -63,7 +63,7 @@ Ngược lại, **sorbet** thường bán cạnh gelato nhưng **không có sữ
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/trang-mieng-04-kem/kem-chong-que.jpg' | relative_url }}" alt="Kem mềm trong ốc quế cầm trên tay" width="800" height="533" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
+  <img src="{{ '/posts/2026/11/26/trang-mieng-04-kem/kem-oc-que.jpg' | relative_url }}" alt="Kem mềm trong ốc quế cầm trên tay" width="800" height="533" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
   <figcaption>Kem ốc quế mềm: nhiều khí, tan nhanh — ăn ngay là chính. Ảnh: <a href="https://www.pexels.com/photo/soft-serve-ice-cream-cone-on-milan-street-37280764/" target="_blank" rel="noopener">Paolo Bici / Pexels</a>.</figcaption>
 </figure>
 </div>
@@ -83,6 +83,24 @@ Hai nhóm kem này thường rẻ và ngọt đậm từ sữa đặc/cốt dừ
 <figure>
   <img src="{{ '/posts/2026/11/26/trang-mieng-04-kem/kem-chuoi.jpg' | relative_url }}" alt="Kem chuối split với kem tươi và trái cây" width="800" height="533" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
   <figcaption>Kem với chuối (trong ảnh là banana split): cặp chuối-kem-cốt dừa quen thuộc trong kem chuối Việt. Ảnh: <a href="https://www.pexels.com/photo/sprinkles-and-fruit-on-ice-cream-16560511/" target="_blank" rel="noopener">David Disponett / Pexels</a>.</figcaption>
+</figure>
+</div>
+
+## Kulfi, sundae và các biến thể khác
+
+<div class="coffee-media-row" markdown="1">
+<div class="coffee-media-text" markdown="1">
+
+**Kulfi** là kem Ấn Độ: sữa cô đặc trên lửa nhỏ rồi đông khuôn **không quậy khí** — nên cực đặc, tan chậm, vị sữa cô rất đậm. Nguyên lý ngược với soft serve: khí càng ít, kem càng “thịt”.
+
+**Sundae** là kem viên + sốt + kem đánh + topping — về nền vẫn là kem tươi, độ ngọt nằm ở phần phủ. **Affogato** chỉ là một viên kem dội espresso nóng — ranh giới giữa tráng miệng và cà phê (gặp lại ở series “Hiểu menu cà phê”).
+
+**Bánh sữa chiên** là món ngoài lề: nhân sữa-kem đông như flan, bọc vỏ chiên giòn — sữa nằm trong ruột chứ không đông lạnh.
+
+</div>
+<figure>
+  <img src="{{ '/posts/2026/11/26/trang-mieng-04-kem/kem-chuoi.jpg' | relative_url }}" alt="Sundae kem với chuối và kem đánh" width="800" height="533" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
+  <figcaption>Sundae/banana split: kem viên là nền, độ ngọt tập trung ở sốt và topping. Ảnh: <a href="https://www.pexels.com/photo/sprinkles-and-fruit-on-ice-cream-16560511/" target="_blank" rel="noopener">David Disponett / Pexels</a>.</figcaption>
 </figure>
 </div>
 

@@ -84,7 +84,23 @@ Ngược lại, nếu muốn món sữa nhẹ sau bữa nặng, flan hay panna c
 </figure>
 </div>
 
-Nhớ gọn: **phô mai kem làm ruột bánh** — cheesecake chua béo, tiramisu đắng cà phê-béo mascarpone, flan dừa ngọt sữa đặc-cốt dừa.
+## Tres leches và bánh sữa ngâm
+
+<div class="coffee-media-row coffee-media-row-left" markdown="1">
+<div class="coffee-media-text" markdown="1">
+
+**Tres leches cake** là kinh điển Mỹ Latin: bánh bông xốp ngâm trong hỗn hợp “3 loại sữa” — sữa tươi, sữa đặc và sữa cô — phủ kem đánh. Ruột bánh thấm sữa nên ướt mềm, ngọt đậm từ sữa đặc, nặng phần sữa hơn phần bánh.
+
+Đây là cách thứ ba đưa sữa vào bánh: không nhào vào bột như flan dừa, không làm ruột phô mai như cheesecake — mà **ngâm sau khi nướng**. Cùng ý tưởng có các bánh “milk cake” và tàu hủ-mochi ngâm sữa trộn bột ở châu Á.
+
+</div>
+<figure>
+  <img src="{{ '/posts/2026/11/26/trang-mieng-05-banh-ngot/cheesecake.jpg' | relative_url }}" alt="Miếng bánh sữa-phô mai, minh họa nhóm bánh ngâm sữa" width="800" height="1200" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
+  <figcaption>Nhóm bánh-sữa: tres leches ngâm 3 loại sữa sau nướng, cheesecake trộn phô mai vào ruột. Ảnh: <a href="https://www.pexels.com/photo/a-slice-of-cheesecake-on-a-plate-13020799/" target="_blank" rel="noopener">Amine / Pexels</a>.</figcaption>
+</figure>
+</div>
+
+Nhớ gọn: **phô mai kem làm ruột bánh, sữa ngâm làm ruột mềm** — cheesecake chua béo, tiramisu đắng cà phê-mascarpone, flan dừa ngọt sữa đặc-cốt, tres leches ngọt sữa ba lớp.
 
 ### Nguồn tham khảo
 

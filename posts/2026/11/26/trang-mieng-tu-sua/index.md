@@ -40,7 +40,7 @@ Không cần đọc theo thứ tự. Chọn nhóm món đang có trên menu rồ
     <img src="{{ '/posts/2026/11/26/trang-mieng-04-kem/kem-tuoi.jpg' | relative_url }}" alt="Các viên kem nhiều màu trong tô" loading="lazy">
     <div class="menu-series-card-body">
       <span class="menu-series-num">Bài 04</span>
-      <h3 class="menu-series-title">Kem: tươi, ý, chống què và chuối</h3>
+      <h3 class="menu-series-title">Kem: tươi, ý, ốc quế và chuối</h3>
       <p class="menu-series-desc">Kem tươi, gelato, kem tươi công nghiệp và kem chuối kiểu Việt.</p>
     </div>
   </a>
@@ -79,7 +79,7 @@ Câu hỏi hữu ích nhất thường là: **“Món này làm từ sữa gì, 
 
 Đọc hết sáu bài sẽ thấy phần lớn món tráng miệng chỉ xoay quanh vài ý tưởng: <span class="menu-tag">sữa đông</span> thành flan và panna cotta, <span class="menu-tag">sữa lên men</span> thành sữa chua và yogurt, <span class="menu-tag">sữa đông lạnh</span> thành kem, <span class="menu-tag">sữa nướng</span> thành cheesecake và flan dừa. Các món châu Á như <span class="menu-tag">chè</span> <span class="menu-tag">tào phớ</span> <span class="menu-tag">thạch dừa</span> thì dùng sữa và nước cốt làm nước dùng, chấm, hoặc trộn.
 
-Hiểu nền sữa giúp đoán được vị trước khi gọi: món nào béo, món nào chua, món nào ngọt sẵn. Còn lại là khẩu vị — thích mềm tan thì panna cotta, thích dai nhẹ thì thạch, thích lạnh sảng thì kem chống què.
+Hiểu nền sữa giúp đoán được vị trước khi gọi: món nào béo, món nào chua, món nào ngọt sẵn. Còn lại là khẩu vị — thích mềm tan thì panna cotta, thích dai nhẹ thì thạch, thích lạnh sảng thì kem ốc quế.
 
 <figure>
   <img src="{{ '/posts/2026/11/26/trang-mieng-02-flan-panna-cotta/panna-cotta.jpg' | relative_url }}" alt="Panna cotta trắng với quả mâm xôi đen" width="800" height="1000" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 320px; margin: 0 auto;">

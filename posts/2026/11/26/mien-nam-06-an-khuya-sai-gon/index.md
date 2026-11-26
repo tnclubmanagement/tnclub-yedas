@@ -98,8 +98,29 @@ Với món nướng, gọi một đĩa nhỏ rồi xem có cần thêm. Chọn t
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/banh-mi.jpg' | relative_url }}" alt="Bánh mì kẹp nhân bày trên thớt gỗ, có lớp giấy gói quanh bánh" loading="lazy">
-  <figcaption>Bánh mì kẹp nhân trên thớt gỗ, ảnh món ăn; không dùng để xác nhận địa chỉ hoặc giờ bán. Ảnh: <a href="https://www.pexels.com/photo/delicious-healthy-sandwiches-17748171/" target="_blank" rel="noopener">Phương Khánh / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/bm-tong-hop.jpg' | relative_url }}" alt="Bốn kiểu bánh mì Việt: thập cẩm, bì heo, xíu mại và nhân thịt sốt" loading="lazy">
+  <figcaption>Các kiểu bánh mì Việt quen thuộc, gồm nhân thập cẩm, bì và xíu mại. Ảnh: <a href="https://chus.vn/banh-mi-viet-nam-ngon-tru-danh-ban-nen-thu-it-nhat-mot-lan/" target="_blank" rel="noopener">CHUS</a>; thu nhỏ còn rộng 800 px.</figcaption>
+</figure>
+</div>
+
+Bánh mì Việt có nhiều nhân hơn một cái tên chung. Dưới đây là các kiểu thường gặp; nhân và giá theo từng tiệm nên hỏi trước khi gọi.
+
+<div class="photo-grid">
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/bm-thit-nuong.jpg' | relative_url }}" alt="Bánh mì thịt nướng với cà chua, hành và sốt chấm bên cạnh" loading="lazy">
+  <figcaption>Bánh mì thịt nướng. Ảnh: <a href="https://chus.vn/banh-mi-viet-nam-ngon-tru-danh-ban-nen-thu-it-nhat-mot-lan/" target="_blank" rel="noopener">CHUS</a>.</figcaption>
+</figure>
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/bm-heo-quay.jpg' | relative_url }}" alt="Bánh mì heo quay da giòn kẹp rau mùi, cà chua và sốt" loading="lazy">
+  <figcaption>Bánh mì heo quay. Ảnh: <a href="https://chus.vn/banh-mi-viet-nam-ngon-tru-danh-ban-nen-thu-it-nhat-mot-lan/" target="_blank" rel="noopener">CHUS</a>.</figcaption>
+</figure>
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/bm-cha-ca.jpg' | relative_url }}" alt="Bánh mì chả cá chiên với rau thơm và nước sốt" loading="lazy">
+  <figcaption>Bánh mì chả cá, món quen thuộc hơn ở miền Trung và miền Nam. Ảnh: <a href="https://chus.vn/banh-mi-viet-nam-ngon-tru-danh-ban-nen-thu-it-nhat-mot-lan/" target="_blank" rel="noopener">CHUS</a>.</figcaption>
+</figure>
+<figure>
+  <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/bm-pate-hai-phong.jpg' | relative_url }}" alt="Bánh mì pate Hải Phòng ổ nhỏ, chấm hoặc phết pate dày" loading="lazy">
+  <figcaption>Bánh mì pate Hải Phòng, kiểu ổ nhỏ khác với bánh mì kẹp Sài Gòn. Ảnh: <a href="https://chus.vn/banh-mi-viet-nam-ngon-tru-danh-ban-nen-thu-it-nhat-mot-lan/" target="_blank" rel="noopener">CHUS</a>.</figcaption>
 </figure>
 </div>
 
@@ -115,6 +136,6 @@ Nếu có uống rượu bia, không tự lái. Một bữa nhỏ và đường 
 - [Vietnam Tourism — The perfect weekend in HCMC](https://vietnam.travel/things-to-do/ho-chi-minh-city-itinerary/): món ốc trong bối cảnh ẩm thực thành phố, không dùng như xác nhận chỗ ngồi của từng quán.
 - [Vietnam Tourism — Ho Chi Minh City Cuisine](https://vietnam.travel/things-to-do/ho-chi-minh-city-cuisine-street-eats-fine-dining/): bánh mì, ốc và cách chế biến.
 - Ảnh bìa mâm hải sản nền đỏ: do người biên tập cung cấp; chưa có thông tin tác giả hoặc liên kết nguồn gốc. Thu nhỏ còn rộng 800 px, giữ tỷ lệ, không cắt thêm.
-- Ảnh mâm hải sản: Klook, theo nguồn được cung cấp. Ảnh tôm sú nướng muối ớt: website Nhà hàng Đại Việt. Các ảnh còn lại: Pexels; tác giả và trang gốc dưới hình. Ảnh trong thân bài rộng tối đa 800 px, không phóng lớn.
+- Ảnh mâm hải sản: Klook, theo nguồn được cung cấp. Ảnh tôm sú nướng muối ớt: website Nhà hàng Đại Việt. Ảnh bánh mì: CHUS; nguồn cùng link gốc dưới hình. Các ảnh còn lại: Pexels; tác giả và trang gốc dưới hình. Ảnh trong thân bài rộng tối đa 800 px, không phóng lớn.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

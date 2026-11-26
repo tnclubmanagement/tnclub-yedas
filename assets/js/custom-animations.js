@@ -54,10 +54,10 @@
         lightbox.setAttribute("role", "dialog");
         lightbox.setAttribute("aria-modal", "true");
         lightbox.innerHTML =
-          '<button type="button" class="gallery-lightbox-prev" aria-label="Ảnh trước" title="Ảnh trước">&#10094;</button>' +
-          '<button type="button" class="gallery-lightbox-close" aria-label="Đóng" title="Đóng">&times;</button>' +
+          '<button type="button" class="gallery-lightbox-prev" aria-label="Ảnh trước" title="Ảnh trước"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>' +
+          '<button type="button" class="gallery-lightbox-close" aria-label="Đóng" title="Đóng"><i class="fas fa-times" aria-hidden="true"></i></button>' +
           '<img alt="">' +
-          '<button type="button" class="gallery-lightbox-next" aria-label="Ảnh tiếp theo" title="Ảnh tiếp theo">&#10095;</button>';
+          '<button type="button" class="gallery-lightbox-next" aria-label="Ảnh tiếp theo" title="Ảnh tiếp theo"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>';
 
         var lightboxImage = lightbox.querySelector("img");
         var previousButton = lightbox.querySelector(".gallery-lightbox-prev");
@@ -84,9 +84,9 @@
 
         lightbox.addEventListener("click", function (event) {
           if (event.target === lightbox) closeLightbox();
-          if (event.target === previousButton) showImage(index - 1);
-          if (event.target === nextButton) showImage(index + 1);
-          if (event.target === lightbox.querySelector(".gallery-lightbox-close")) closeLightbox();
+          if (event.target.closest(".gallery-lightbox-prev")) showImage(index - 1);
+          if (event.target.closest(".gallery-lightbox-next")) showImage(index + 1);
+          if (event.target.closest(".gallery-lightbox-close")) closeLightbox();
         });
         document.body.appendChild(lightbox);
         showImage(index);
@@ -108,9 +108,9 @@
 
     // Ảnh rời trong nội dung bài: gom thành 1 nhóm để lướt qua lại được.
     var contentImages = Array.prototype.slice.call(
-      document.querySelectorAll(".post-body img")
+      document.querySelectorAll(".post-body img, .post-container img")
     ).filter(function (image) {
-      return !image.closest(".post-gallery") && !image.closest(".athlete-card");
+      return !image.closest(".post-gallery") && !image.closest(".athlete-card") && !image.closest("a");
     });
     if (contentImages.length) attachLightbox(contentImages);
 
@@ -119,11 +119,40 @@
     var postsList = document.querySelector(".posts-list");
     if (homeControls && postsList) {
       var search = document.getElementById("home-post-search");
-      var tabButtons = document.querySelectorAll(".home-tab");
+      var tabButtons = document.querySelectorAll(".home-tab[data-tag]");
       var totalCount = document.getElementById("home-post-total");
       var modeButtons = homeControls.querySelectorAll(".home-mode-btn");
       var cards = postsList.querySelectorAll(".post-preview");
       var selectedTag = "";
+      var displayMode = "grid";
+      var restoringUrl = false;
+
+      function updatePostsUrl(replace) {
+        if (restoringUrl) return;
+        var url = new URL(window.location.href);
+        if (selectedTag) url.searchParams.set("category", selectedTag);
+        else url.searchParams.delete("category");
+        url.searchParams.set("view", displayMode);
+        if (search.value.trim()) url.searchParams.set("q", search.value);
+        else url.searchParams.delete("q");
+        if (url.href !== window.location.href) {
+          window.history[replace ? "replaceState" : "pushState"](null, "", url.href);
+        }
+      }
+
+      function restorePostsUrl() {
+        restoringUrl = true;
+        var params = new URL(window.location.href).searchParams;
+        var category = (params.get("category") || "").toLowerCase();
+        var validCategory = Array.from(tabButtons).some(function (button) {
+          return button.dataset.tag === category;
+        });
+        search.value = params.get("q") || "";
+        setTag(validCategory ? category : "");
+        var mode = params.get("view") || localStorage.getItem("yedas-home-display-mode");
+        setDisplayMode(mode === "list" ? "list" : "grid");
+        restoringUrl = false;
+      }
       var PAGE_SIZE = 24;
       var visibleLimit = PAGE_SIZE;
       var moreBtn = document.getElementById("posts-load-more");
@@ -147,6 +176,18 @@
           totalCount.textContent = matched > shown ? shown + "/" + matched + " " + unit : matched + " " + unit;
         }
         if (moreBtn) moreBtn.hidden = matched <= shown;
+        var empty = document.getElementById("posts-empty");
+        if (empty) {
+          empty.hidden = matched !== 0;
+          if (!matched) {
+            var topic = Array.from(document.querySelectorAll(".posts-empty-topic")).find(function (item) {
+              return item.dataset.tag === selectedTag;
+            });
+            document.getElementById("posts-empty-icon").className = "fas fa-" + (query ? "search" : (topic ? topic.dataset.icon : "book-open"));
+            document.getElementById("posts-empty-title").textContent = query ? empty.dataset.searchTitle : (topic ? topic.dataset.title : empty.dataset.title);
+            document.getElementById("posts-empty-description").textContent = query ? empty.dataset.searchDescription : (topic ? topic.dataset.description : empty.dataset.description);
+          }
+        }
       }
 
       function resetLimit() {
@@ -162,9 +203,19 @@
           button.setAttribute("aria-pressed", String(active));
         });
         resetLimit();
+        updatePostsUrl(false);
+      }
+
+      var emptyReset = document.getElementById("posts-empty-reset");
+      if (emptyReset) {
+        emptyReset.addEventListener("click", function () {
+          search.value = "";
+          setTag("");
+        });
       }
 
       function setDisplayMode(mode) {
+        displayMode = mode;
         postsList.classList.toggle("posts-list-mode-list", mode === "list");
         modeButtons.forEach(function (button) {
           var active = button.dataset.mode === mode;
@@ -172,9 +223,13 @@
           button.setAttribute("aria-pressed", String(active));
         });
         localStorage.setItem("yedas-home-display-mode", mode);
+        updatePostsUrl(false);
       }
 
-      search.addEventListener("input", resetLimit);
+      search.addEventListener("input", function () {
+        resetLimit();
+        updatePostsUrl(true);
+      });
       if (moreBtn) {
         moreBtn.addEventListener("click", function () {
           visibleLimit += PAGE_SIZE;
@@ -187,8 +242,9 @@
       modeButtons.forEach(function (button) {
         button.addEventListener("click", function () { setDisplayMode(button.dataset.mode); });
       });
-      setDisplayMode(localStorage.getItem("yedas-home-display-mode") || "grid");
-      filterPosts();
+      window.addEventListener("popstate", restorePostsUrl);
+      restorePostsUrl();
+      updatePostsUrl(true);
     }
 
     // Hiện tiêu đề và mô tả ngắn đè lên ảnh khi rê chuột.

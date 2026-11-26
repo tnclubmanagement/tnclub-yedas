@@ -20,6 +20,10 @@
     {% assign series_posts = all_posts | where: "series", name %}
     <section class="tag-section" id="{{ name | slugify }}">
       <h2 class="tag-section-title">{{ name }} <span class="tag-pill-count">{{ series_posts.size }}</span></h2>
+      {% assign series_overview = series_posts.first.series_url %}
+      {% if series_overview %}
+      <p><a href="{{ series_overview | relative_url }}">{{ s.series.view_all | replace: '%1', name }}</a></p>
+      {% endif %}
       <div class="tag-posts">
         {% for post in series_posts %}
           {% if post.athlete %}

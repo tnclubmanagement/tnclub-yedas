@@ -73,4 +73,21 @@ Dir.mktmpdir('yedas-search-test') do |directory|
   _, result = build(site, [home])
   assert(result.first['title'] == 'Yedas', 'Homepage must be searchable by site title')
 end
+Dir.mktmpdir('yedas-search-groups-test') do |directory|
+  site = Jekyll::Site.new(Jekyll.configuration({
+    'source' => directory, 'destination' => File.join(directory, '_site'),
+    'post_search' => true, 'disable_disk_cache' => true, 'quiet' => true
+  }))
+  categories = ['Uống Ngon', 'Du lịch', 'Chụp ảnh', nil]
+  categories.each_with_index do |category, i|
+    page = Jekyll::PageWithoutAFile.new(site, directory, "posts/test-#{i}", 'index.html')
+    page.data.merge!('title' => "Test #{i}", 'category' => category)
+    page.content = ''
+    site.pages << page
+  end
+  Yedas::SearchIndexGenerator.new.generate(site)
+  other = site.pages.find { |page| page.name == 'photo-other-needs.json' }
+  posts = JSON.parse(other.content).map { |entry| entry['post'] }.uniq.sort
+  assert(posts == ['test-0', 'test-3'], 'Other group must include new/missing categories without recursion or known categories')
+end
 puts 'Search index tests passed: cache reuse, metadata changes, deletion/rename, corrupt cache, VI/EN, base URL and opt-outs'

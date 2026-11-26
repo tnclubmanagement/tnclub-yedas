@@ -21,6 +21,9 @@
     <button type="button" class="home-tab" data-tag="chụp ảnh" aria-pressed="false" data-tip="{{ s.filters.tip_photo }}">{{ s.filters.photo }}</button>
     <button type="button" class="home-tab" data-tag="thể thao" aria-pressed="false" data-tip="{{ s.filters.tip_sport }}">{{ s.filters.sport }}</button>
     <button type="button" class="home-tab" data-tag="du lịch" aria-pressed="false" data-tip="{{ s.filters.tip_travel }}">{{ s.filters.travel }}</button>
+    <button type="button" class="home-tab" data-tag="ăn ngon" aria-pressed="false">{{ s.filters.food }}</button>
+    <button type="button" class="home-tab" data-tag="uống ngon" aria-pressed="false">{{ s.filters.drinks }}</button>
+    <button type="button" class="home-tab" data-tag="tráng miệng" aria-pressed="false">{{ s.filters.desserts }}</button>
   </div>
   <span class="home-total" id="home-post-total" data-tip="{{ s.filters.total_tip }}" data-unit="{{ s.filters.posts_unit }}" aria-live="polite"></span>
 </div>
@@ -100,6 +103,21 @@
   </li>
   {% endfor %}
 </ul>
+
+<section id="posts-empty" class="posts-empty" role="status" hidden data-title="{{ s.filters.empty_title | escape }}" data-description="{{ s.filters.empty_description | escape }}" data-search-title="{{ s.filters.no_results | escape }}" data-search-description="{{ s.filters.search_again | escape }}">
+  <span class="posts-empty-art" aria-hidden="true"><span id="posts-empty-icon" class="fas fa-book-open"></span></span>
+  <h2 id="posts-empty-title"></h2>
+  <p id="posts-empty-description"></p>
+  <button type="button" id="posts-empty-reset" class="home-tab">{{ s.filters.reset }}</button>
+</section>
+{% assign empty_topics = "ăn ngon|uống ngon|tráng miệng" | split: "|" %}
+{% assign empty_keys = "food|drinks|desserts" | split: "|" %}
+{% assign empty_icons = "utensils|mug-hot|birthday-cake" | split: "|" %}
+{% for topic in empty_topics %}
+  {% assign key = empty_keys[forloop.index0] %}
+  {% assign description_key = key | append: "_intro" %}
+  <template class="posts-empty-topic" data-icon="{{ empty_icons[forloop.index0] }}" data-tag="{{ topic }}" data-title="{{ s.filters[key] | escape }}" data-description="{{ s.filters[description_key] | escape }}"></template>
+{% endfor %}
 
 <div class="posts-load-more-wrap">
   <button type="button" class="posts-load-more" id="posts-load-more" hidden>{{ s.filters.load_more }}</button>

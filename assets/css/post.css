@@ -334,75 +334,9 @@
   line-height: 1.4;
 }
 
-.gallery-lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 1200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.86);
-  cursor: zoom-out;
-}
-
-.gallery-lightbox img {
-  max-width: min(92vw, 900px);
-  max-height: 90vh;
-  object-fit: contain;
-  border-radius: 10px;
-}
-
-.gallery-lightbox button {
-  position: absolute;
-  border: 0;
-  background: transparent;
-  color: #fff;
-  font-size: 2.5rem;
-  line-height: 1;
-  cursor: pointer;
-}
-
-.gallery-lightbox-close {
-  top: 1rem;
-  right: 1.5rem;
-}
-
-.gallery-lightbox-prev,
-.gallery-lightbox-next {
-  top: 50%;
-  padding: 1rem;
-  transform: translateY(-50%);
-}
-
-.gallery-lightbox-prev {
-  left: 1rem;
-}
-
-.gallery-lightbox-next {
-  right: 1rem;
-}
-
-.gallery-lightbox button:hover,
-.gallery-lightbox button:focus-visible {
-  color: #b9d7ff;
-}
-
 @media (max-width: 700px) {
   .post-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .gallery-lightbox {
-    padding: 1rem 3.5rem;
-  }
-
-  .gallery-lightbox-prev {
-    left: 0.25rem;
-  }
-
-  .gallery-lightbox-next {
-    right: 0.25rem;
   }
 }
 
@@ -578,6 +512,40 @@
   margin: 1.5rem auto 1.8rem;
 }
 
+.coffee-media-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 240px);
+  grid-template-areas: "text image";
+  align-items: start;
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.coffee-media-text {
+  grid-area: text;
+  min-width: 0;
+}
+
+.blog-post.post-body .coffee-media-row > figure {
+  grid-area: image;
+  width: 100%;
+  margin: 0;
+}
+
+.coffee-media-row-left {
+  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
+  grid-template-areas: "image text";
+}
+
+@media (max-width: 640px) {
+  .coffee-media-row,
+  .coffee-media-row-left {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "text" "image";
+    gap: 0.75rem;
+  }
+}
+
 /* Ảnh nổi trái/phải cho chữ chảy quanh: <figure class="fig-left|fig-right"> */
 .blog-post.post-body figure.fig-left,
 .blog-post.post-body figure.fig-right {
@@ -638,7 +606,8 @@
 .blog-post.post-body figcaption {
   margin-top: 0.6rem;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  font-style: italic;
   color: var(--muted);
 }
 

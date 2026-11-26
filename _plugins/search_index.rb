@@ -200,7 +200,8 @@ module Yedas
         'photo-athlete-needs.json' => ->(d) { !d['athlete'].nil? },
         'photo-photography-needs.json' => ->(d) { d['category'].to_s =~ /chụp ảnh/i },
       }
-      matchers['photo-other-needs.json'] = ->(d) { matchers.none? { |_, m| m.call(d) } }
+      primary_matchers = matchers.values
+      matchers['photo-other-needs.json'] = ->(d) { primary_matchers.none? { |m| m.call(d) } }
       matchers.each do |fname, match|
         needs_page = Jekyll::PageWithoutAFile.new(site, site.source, '', fname)
         needs_page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)

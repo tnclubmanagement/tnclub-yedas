@@ -6,7 +6,7 @@
   {% if sp.url == page.url %}{% assign series_index = forloop.index %}{% endif %}
 {% endfor %}
 <p class="series-badge">
-  <a class="series-badge-link" href="{{ '/series/' | relative_url }}#{{ page.series | slugify }}" title="{{ s.series.view_all | replace: '%1', page.series }}">
+  <a class="series-badge-link" href="{% if page.series_url %}{{ page.series_url | relative_url }}{% else %}{{ '/series/' | relative_url }}#{{ page.series | slugify }}{% endif %}" title="{{ s.series.view_all | replace: '%1', page.series }}">
     <span class="fa fa-list-ul" aria-hidden="true"></span>
     {{ s.series.badge_fmt | replace: '%1', page.series | replace: '%2', series_index | replace: '%3', series_posts.size }}
   </a>

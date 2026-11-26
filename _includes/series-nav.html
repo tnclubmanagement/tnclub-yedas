@@ -21,7 +21,6 @@
   <ol class="series-nav-list">
     {% for sp in series_posts %}
     <li class="series-nav-item{% if sp.url == page.url %} is-current{% endif %}">
-      <span class="series-nav-num">{{ forloop.index }}.</span>
       {% if sp.url == page.url %}
         <span class="series-nav-current" aria-current="true">{{ sp.title }}</span>
       {% else %}

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:03:00 +0700"
 title: "[03 · Ăn ngon miền Nam] : Bánh xèo, bánh khọt và rau cuốn ở Vũng Tàu"
 subtitle: "Một bánh lớn chia miếng, nhiều bánh nhỏ đổ khuôn — cùng cần ăn khi vừa ra"
-cover-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Vũng Tàu, Bánh xèo, Bánh khọt]
 series: "Ăn ngon miền Nam"
@@ -13,6 +13,11 @@ series_url: "/posts/2026/11/26/an-ngon-mien-nam/"
 place_name: "Vũng Tàu"
 place_country: "Việt Nam"
 geo: [10.3460, 107.0843]
+place_region: "Miền Nam"
+place_food: "Bánh khọt tôm, bánh xèo, rau cuốn"
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: mô tả bánh xèo và bánh khọt còn ngắn; ảnh từ nhiều nguồn, chưa có khảo sát quán tại Vũng Tàu."
+map_rating_updated: "2026-11-27"
 ---
 
 Bánh xèo và bánh khọt đều là bánh mặn, ăn với rau và nước chấm, không phải nhóm bánh ngọt tráng miệng. Trong chuyến ghé Vũng Tàu, có thể dành một bữa cho bánh khọt rồi thử bánh xèo ở bữa khác để so kết cấu.
@@ -30,8 +35,8 @@ Lấy một chiếc cùng ít rau, chấm nhẹ trước khi thêm nước. Nế
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-khot.jpg' | relative_url }}" alt="Đĩa bánh nhỏ đổ khuôn với phần mặt và đồ ăn kèm" loading="lazy">
-  <figcaption>Bánh được nguồn ảnh ghi là bánh khọt, chụp tại Bình Thuận: minh họa biến thể, không phải ảnh bánh khọt Vũng Tàu. Ảnh: <a href="https://www.pexels.com/photo/vietnamese-street-food-banh-kh-t-delicacy-in-binh-thu-n-31563450/" target="_blank" rel="noopener">Theodore Nguyen / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-khot.jpg' | relative_url }}" alt="Đĩa bánh khọt tôm rắc hành, ăn cùng rau xanh, đồ chua và nước chấm" loading="lazy">
+  <figcaption>Bánh khọt tôm với rau và đồ chua, ảnh minh họa món ăn. Nguồn: <a href="https://motorvina.com/uploads/all/sXqp3kWbrT73rdloAHy80T3WiNSe0GECYzoSsxgi.jpg" target="_blank" rel="noopener">Motorvina</a>; giữ kích thước 800 × 533 px, không phóng lớn; không dùng ảnh để xác nhận địa điểm chụp.</figcaption>
 </figure>
 </div>
 
@@ -46,8 +51,8 @@ Không phải bánh vàng nào cũng có cùng công thức bột. Hỏi nếu c
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg' | relative_url }}" alt="Bánh xèo vàng gập đôi với rau và bát nước chấm" loading="lazy">
-  <figcaption>Bánh xèo chụp tại Thành phố Hồ Chí Minh, ảnh minh họa cách ăn với rau; không phải quán Vũng Tàu được giới thiệu. Ảnh: <a href="https://www.pexels.com/photo/vietnamese-banh-xeo-with-fresh-herbs-39030442/" target="_blank" rel="noopener">bynamnamnam / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg' | relative_url }}" alt="Ảnh ghép bốn phần bánh xèo vàng với nhân tôm, giá, rau và nước chấm ăn kèm" loading="lazy">
+  <figcaption>Các cách trình bày bánh xèo với rau và nước chấm — ảnh ghép minh họa, không xác nhận địa điểm chụp. Nguồn: <a href="https://www.vietnambuyingagent.com/wp-content/uploads/2024/03/Banh-Xeo.png" target="_blank" rel="noopener">Vietnam Buying Agent</a>; chuyển sang JPEG, giữ kích thước 800 × 600 px, không phóng lớn.</figcaption>
 </figure>
 </div>
 
@@ -61,6 +66,7 @@ Bánh chiên nguội sẽ đổi kết cấu. Đi nhóm nhỏ thì gọi ít, ă
 
 - [Vietnam Tourism — Ho Chi Minh City, Must-try Flavours](https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/): bánh khọt Vũng Tàu và bánh xèo hải sản vùng Bà Rịa–Vũng Tàu.
 - [Vietnam Tourism — Ultimate guide to eating like a local in Vung Tau](https://vietnam.travel/things-to-do/ultimate-guide-eating-local-vung-tau/): bối cảnh ẩm thực Vũng Tàu.
-- Ảnh Pexels tải bản rộng tối đa 800 px; nơi chụp, tác giả và link gốc dưới hình.
+- Ảnh bìa bánh xèo: [MIA.vn](https://mia.vn/media/uploads/blog-du-lich/thuong-thuc-banh-xeo-ba-ba-thom-ngon-nuc-tieng-giua-long-pho-nui-1659464387.jpg), theo nguồn được cung cấp; ảnh minh họa, không dùng để xác nhận quán ở Vũng Tàu. Thu nhỏ còn rộng 800 px, giữ tỷ lệ gốc, không cắt thêm.
+- Ảnh trong thân bài theo nguồn được cung cấp: bánh xèo từ Vietnam Buying Agent; bánh khọt từ Motorvina. Link gốc và chú thích dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

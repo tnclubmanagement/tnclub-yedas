@@ -190,6 +190,6 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
 ## Bài ẩm thực
 
 - Ưu tiên ảnh cận cảnh món ăn và chỗ ngồi trong nhà, bàn ghế đàng hoàng; không dùng ảnh vỉa hè/hàng rong hoặc gợi ý ngồi ăn vỉa hè.
-- Mỗi bài con có ít nhất hai ảnh trong thân bài, không tính ảnh bìa/thumbnail. Không gắn tên món cho ảnh món khác; thiếu ảnh đúng món thì báo rõ.
+- Mỗi bài con có ít nhất hai ảnh trong thân bài, không tính ảnh bìa/thumbnail. Bài tổng hợp ốc và hải sản cần bộ 10 ảnh món ăn khác nhau. Không gắn tên món cho ảnh món khác; thiếu ảnh đúng món thì báo rõ.
 - Có thể dùng Wikimedia Commons/Flickr với giấy phép tái sử dụng rõ ràng khi Pexels thiếu ảnh; ghi tác giả, link gốc, giấy phép và thay đổi ảnh.
 - Các series Ăn ngon miền Bắc/Trung/Nam chỉ giữ món mặn; chè, bánh ngọt thuộc mục Tráng miệng, cà phê thuộc series riêng.

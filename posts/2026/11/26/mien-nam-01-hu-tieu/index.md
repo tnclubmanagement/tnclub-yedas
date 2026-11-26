@@ -13,6 +13,11 @@ series_url: "/posts/2026/11/26/an-ngon-mien-nam/"
 place_name: "Sài Gòn"
 place_country: "Việt Nam"
 geo: [10.7769, 106.7009]
+place_region: "Miền Nam"
+place_food: "Hủ tiếu Nam Vang, hủ tiếu mực, hủ tiếu sườn, hủ tiếu khô"
+map_content_score: 4
+map_content_note: "Điểm biên tập sơ bộ: đã phân biệt các kiểu hủ tiếu nhưng còn thiếu đối chiếu chuyên sâu và trải nghiệm quán."
+map_rating_updated: "2026-11-27"
 ---
 
 Đi ăn hủ tiếu ở Sài Gòn, nên chọn hai thứ riêng: **nhân gì** và **ăn khô hay nước**. Nam Vang, mực, sườn nói nhiều về phần nhân; khô và nước nói về cách hoàn thiện tô sợi. Không phải những lựa chọn loại trừ nhau.
@@ -31,7 +36,7 @@ Hỏi suất cơ bản gồm gì, có bỏ gan lòng được không và rau gi�
 </div>
 <figure>
   <img src="{{ '/posts/2026/11/26/mien-nam-01-hu-tieu/nam-vang.jpg' | relative_url }}" alt="Tô hủ tiếu Nam Vang chụp cận cảnh với phần nhân và rau" loading="lazy">
-  <figcaption>Hủ tiếu Nam Vang. Ảnh: <a href="https://commons.wikimedia.org/wiki/File:Hu_Tieu_Nam_Vang.jpg" target="_blank" rel="noopener">Dianne Flor Reyno / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>; thu nhỏ còn 800 px, không cắt ảnh.</figcaption>
+  <figcaption>Hủ tiếu Nam Vang — ảnh cận cảnh tô sợi và phần nhân. Nguồn: <a href="https://imperialpdx.com/wp-content/uploads/2025/10/hu-tieu-nam-vang-phnom-penh-noodle-soup-closeup.jpg" target="_blank" rel="noopener">ImperialPDX</a>; giữ nguyên ảnh 768 px, không phóng lớn.</figcaption>
 </figure>
 </div>
 
@@ -74,6 +79,6 @@ Với bữa ăn thoải mái, chọn quán trong nhà, xem menu rồi gọi rõ 
 - [Vietnam Tourism — Ho Chi Minh City Cuisine](https://vietnam.travel/things-to-do/ho-chi-minh-city-cuisine-street-eats-fine-dining/): phần nhân và bản khô/nước.
 - [VnExpress — Hủ tiếu mực đổi vị cho người mê món sợi ở Sài Gòn](https://vnexpress.net/hu-tieu-muc-doi-vi-cho-nguoi-me-mon-soi-o-sai-gon-3695525.html): mực, thịt viên, trứng cút và nước lèo. Không dùng giá bán cũ trong nguồn làm giá hiện hành.
 - [VnExpress — Hủ tiếu ngon trên phố Sài Gòn](https://vnexpress.net/hu-tieu-ngon-tren-pho-sai-gon-2866176.html): hủ tiếu sườn non và Nam Vang.
-- Hai ảnh trong thân bài từ Wikimedia Commons, tác giả, giấy phép và thay đổi kích thước ghi dưới từng hình.
+- Ảnh Nam Vang: ImperialPDX, theo nguồn ảnh được cung cấp; ảnh hủ tiếu khô: Kham Tran / Wikimedia Commons, CC BY-SA 3.0. Link gốc và thông tin kích thước dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

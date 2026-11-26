@@ -17,15 +17,15 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 01</span><h3 class="menu-series-title"><span class="menu-tag">Hủ tiếu Nam Vang</span>, <span class="menu-tag">mực</span>, <span class="menu-tag">sườn</span> và <span class="menu-tag">khô</span></h3><p class="menu-series-desc">Chọn nhân trước, rồi quyết định tô nước thanh hay phần khô trộn sốt.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-02-com-tam/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-02-com-tam/thit-nuong.jpg' | relative_url }}" alt="Đĩa thịt nướng minh họa đồ mặn ăn kèm, không phải suất cơm tấm hoàn chỉnh" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg' | relative_url }}" alt="Cơm tấm với sườn nướng, bì, chả trứng và trứng ốp la" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span class="menu-tag">Cơm tấm</span>: sườn, bì, chả</h3><p class="menu-series-desc">Đọc tên suất để không gọi nhiều đồ kèm hơn mình muốn.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg' | relative_url }}" alt="Bánh xèo với rau và nước chấm, ảnh minh họa chụp tại Thành phố Hồ Chí Minh" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg' | relative_url }}" alt="Bánh xèo vàng với tôm, giá và rau ăn kèm" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span class="menu-tag">Bánh xèo</span>, <span class="menu-tag">bánh khọt</span> và rau cuốn</h3><p class="menu-series-desc">Vũng Tàu: bánh lớn chia miếng và bánh nhỏ đổ khuôn.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/noi-lau.jpg' | relative_url }}" alt="Bàn nguyên liệu lẩu Việt, ảnh minh họa cách ăn chung" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg' | relative_url }}" alt="Lẩu mắm với cá, tôm, bún và mâm rau nhúng" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 04</span><h3 class="menu-series-title"><span class="menu-tag">Lẩu mắm</span> và món cá Châu Đốc</h3><p class="menu-series-desc">Nước mắm cá đậm, nhiều rau, thêm bún và món kho vừa đủ.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-05-goi-cuon-bi-cuon/' | relative_url }}">
@@ -33,7 +33,7 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span class="menu-tag">Gỏi cuốn</span> và <span class="menu-tag">bì cuốn</span></h3><p class="menu-series-desc">Món cuốn không chiên ở Sài Gòn: khác nhân, khác nước chấm.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/oc.jpg' | relative_url }}" alt="Đĩa ốc chế biến với ngô và gia vị chụp cận cảnh" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/banner.jpg' | relative_url }}" alt="Mâm hải sản gồm cua, tôm, nghêu, ốc và hàu bày trên nền đỏ" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title">Ăn khuya: <span class="menu-tag">ốc</span>, <span class="menu-tag">bánh mì</span>, <span class="menu-tag">món nướng</span></h3><p class="menu-series-desc">Chọn quán trong nhà thuận đường về và một bữa vừa đủ.</p></div>
   </a>
 </div>
@@ -43,8 +43,8 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
 “Suất này gồm gì, sốt để riêng được không?” giúp gọi gọn hơn. Nhiều món có lạc, tôm, trứng hoặc mắm cá trong phần nền; bỏ nguyên liệu trên mặt chưa chắc đã đáp ứng được yêu cầu kiêng hay dị ứng.
 
 <figure>
-  <img src="{{ '/posts/2026/11/26/an-ngon-mien-nam/banner.jpg' | relative_url }}" alt="Gỏi cuốn tôm bày trên đĩa trắng với chén nước chấm riêng" loading="lazy">
-  <figcaption>Gỏi cuốn chụp cận cảnh, không phải ảnh một quán cụ thể trong hành trình. Ảnh: <a href="https://www.pexels.com/photo/fresh-spring-rolls-on-white-ceramic-plate-11843919/" target="_blank" rel="noopener">Sophal R / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/an-ngon-mien-nam/banner.jpg' | relative_url }}" alt="Bàn nhiều món Việt chụp từ trên cao với các tô món sợi, gỏi cuốn, rau và nước chấm" loading="lazy">
+  <figcaption>Bàn món Việt — ảnh minh họa chung cho series. Nguồn ảnh: <a href="https://rs-menus-api.roocdn.com/images/f15a880c-0984-46cd-b2f9-138afa4f54dc/image.jpeg?width=1200&amp;height=630&amp;fit=crop" target="_blank" rel="noopener">rooCDN</a>; thu nhỏ còn 800 × 420 px, giữ tỷ lệ ảnh được cung cấp.</figcaption>
 </figure>
 
 ## Không gộp cả miền Nam vào một ngày

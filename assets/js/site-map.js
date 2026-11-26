@@ -393,7 +393,7 @@
       });
       var m = L.marker([d.lat, d.lng], { icon: icon, riseOnHover: true }).addTo(map);
       var tipHtml = d.kind === 'place'
-        ? '<strong>' + d.name + '</strong>' +
+        ? '<strong>' + (d.topic === 'food' && d.title ? d.title : d.name) + '</strong>' +
           (d.region ? '<br><small>' + d.region + '</small>' : '')
         : '<strong>' + d.name + '</strong>' +
           (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
@@ -405,7 +405,7 @@
       m.on('click', function () {
         qv.querySelector('.athlete-qv-avatar').src = d.image || d.avatar;
         qv.querySelector('.athlete-qv-avatar').alt = d.name;
-        qv.querySelector('.athlete-qv-name').textContent = d.name;
+        qv.querySelector('.athlete-qv-name').textContent = d.topic === 'food' && d.title ? d.title : d.name;
         var isPlace = d.kind === 'place';
         var nick = qv.querySelector('.athlete-qv-nick');
         nick.textContent = !isPlace && d.nick ? '“' + d.nick + '”' : '';
@@ -452,8 +452,8 @@
         qv.hidden = false;
       });
       return {
-        marker: m, kind: d.kind, series: d.series, country: d.country || '',
-        searchText: normalizeText([d.name, d.nick, d.series, d.country, d.hometown,
+        marker: m, kind: d.kind, topic: d.topic, url: d.url, region: d.region || '', series: d.series, country: d.country || '',
+        searchText: normalizeText([d.name, d.title, d.nick, d.series, d.country, d.hometown,
           d.event, d.subtitle, d.region, d.economy, d.festival,
           CONTINENT_LABEL[COUNTRY_CONTINENT[d.country]] || ''].join(' '))
       };
@@ -575,7 +575,56 @@
     var travelDrop = document.getElementById('filter-drop-travel');
     var sportLabel = sportDrop.querySelector('.filter-drop-label');
     var travelLabel = travelDrop ? travelDrop.querySelector('.filter-drop-label') : null;
+    var foodDrop = document.getElementById('filter-drop-food');
+    var foodLabel = foodDrop ? foodDrop.querySelector('.filter-drop-label') : null;
     var activeFilter = 'all', activeSport = 'all', activeCountry = 'all';
+    var activeFoodCountry = 'all', activeFoodRegion = 'all';
+    var foodDialog = document.getElementById('map-food-dialog');
+    if (foodDialog) {
+      var foodCountries = Object.create(null);
+      entries.forEach(function (en) {
+        if (en.topic !== 'food') return;
+        var regions = foodCountries[en.country] || (foodCountries[en.country] = []);
+        if (en.region && regions.indexOf(en.region) === -1) regions.push(en.region);
+      });
+      Object.keys(foodCountries).sort().forEach(function (country) {
+        var group = document.createElement('div');
+        group.className = 'drop-group';
+        var countryButton = document.createElement('button');
+        countryButton.type = 'button';
+        countryButton.className = 'drop-group-title';
+        countryButton.dataset.foodCountry = country;
+        countryButton.textContent = country;
+        group.appendChild(countryButton);
+        foodCountries[country].sort().forEach(function (region) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'drop-item';
+          b.dataset.foodRegion = region;
+          b.dataset.foodCountryName = country;
+          b.textContent = region;
+          group.appendChild(b);
+        });
+        document.getElementById('map-food-groups').appendChild(group);
+      });
+      document.getElementById('map-food-close').addEventListener('click', function () { foodDialog.close(); });
+      foodDialog.addEventListener('click', function (e) {
+        if (e.target !== foodDialog) return;
+        var bounds = foodDialog.getBoundingClientRect();
+        if (e.clientX < bounds.left || e.clientX > bounds.right || e.clientY < bounds.top || e.clientY > bounds.bottom) foodDialog.close();
+      });
+    }
+    function syncFoodFilter() {
+      if (!foodDrop) return;
+      foodDrop.querySelectorAll('[data-food-country]').forEach(function (b) {
+        b.classList.toggle('drop-item-active', b.dataset.foodCountry === activeFoodCountry && activeFoodRegion === 'all');
+      });
+      foodDrop.querySelectorAll('[data-food-region]').forEach(function (b) {
+        b.classList.toggle('drop-item-active', b.dataset.foodCountryName === activeFoodCountry && b.dataset.foodRegion === activeFoodRegion);
+      });
+      foodLabel.textContent = tx('food', 'Ẩm thực') + (activeFoodCountry === 'all' ? '' : ': ' + activeFoodCountry) +
+        (activeFoodRegion === 'all' ? '' : ' · ' + activeFoodRegion);
+    }
     var countryDialog = document.getElementById('map-country-dialog');
     if (countryDialog) {
       document.getElementById('map-country-close').addEventListener('click', function () { countryDialog.close(); });
@@ -614,7 +663,8 @@
     function saveFilters() {
       try {
         localStorage.setItem(LS_KEY, JSON.stringify({
-          f: activeFilter, sport: activeSport, country: activeCountry
+          f: activeFilter, sport: activeSport, country: activeCountry,
+          food: { country: activeFoodCountry, region: activeFoodRegion }
         }));
       } catch (e) {}
     }
@@ -635,8 +685,11 @@
         if (activeFilter === 'all') on = true;
         else if (activeFilter === 'Thể thao')
           on = en.kind === 'athlete' && (activeSport === 'all' || en.series === activeSport);
+        else if (activeFilter === 'Ẩm thực')
+          on = en.topic === 'food' && (activeFoodCountry === 'all' || en.country === activeFoodCountry) &&
+            (activeFoodRegion === 'all' || en.region === activeFoodRegion);
         else if (activeFilter === 'Du lịch')
-          on = en.kind === 'place' &&
+          on = en.kind === 'place' && en.topic !== 'food' &&
             (activeCountry === 'all' ||
              (activeCountry.indexOf('continent:') === 0
                ? COUNTRY_CONTINENT[en.country] === activeCountry.slice(10)
@@ -702,6 +755,11 @@
         activeCountry = 'all';
         resetDrop(travelDrop, travelLabel, tx('travel', 'Du lịch'), 'country');
       }
+      if (name !== 'Ẩm thực' && foodDrop) {
+        activeFoodCountry = 'all';
+        activeFoodRegion = 'all';
+        syncFoodFilter();
+      }
       applyFilters(silent);
       saveFilters();
     }
@@ -709,6 +767,14 @@
     filterBar.addEventListener('click', function (e) {
       var btn = e.target.closest('button');
       if (!btn) return;
+      if (btn.dataset.foodCountry !== undefined || btn.dataset.foodRegion !== undefined) {
+        activeFoodCountry = btn.dataset.foodCountry || btn.dataset.foodCountryName;
+        activeFoodRegion = btn.dataset.foodRegion || 'all';
+        syncFoodFilter();
+        setMainFilter('Ẩm thực', foodDrop.querySelector('[data-filter="Ẩm thực"]'));
+        foodDialog.close();
+        return;
+      }
 
       // Chọn môn trong dropdown Thể thao → tự bật filter Thể thao
       if (btn.dataset.sport) {
@@ -755,6 +821,11 @@
 
       if (!btn.dataset.filter) return;
       var f = btn.dataset.filter;
+      if (f === 'Ẩm thực' && foodDialog) {
+        sportDrop.classList.remove('open');
+        foodDialog.showModal();
+        return;
+      }
       if (f === 'Thể thao') sportDrop.classList.toggle('open');
       else sportDrop.classList.remove('open');
       if (f === 'Du lịch' && countryDialog) {
@@ -826,7 +897,7 @@
       focusView();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key !== 'Escape' || e.defaultPrevented || (countryDialog && countryDialog.open)) return;
+      if (e.key !== 'Escape' || e.defaultPrevented || (countryDialog && countryDialog.open) || (foodDialog && foodDialog.open)) return;
       if (fullscreenFallback) {
         fullscreenFallback = false;
         syncFullscreen();
@@ -838,14 +909,20 @@
       if (!e.target.closest('.filter-drop')) {
         sportDrop.classList.remove('open');
         if (travelDrop) travelDrop.classList.remove('open');
+        if (foodDrop) foodDrop.classList.remove('open');
       }
     });
 
     // Khôi phục filter lần trước (localStorage), fallback về default
     try {
       var saved = JSON.parse(localStorage.getItem(LS_KEY) || 'null') || {};
-      var f = ['all', 'Thể thao', 'Du lịch'].indexOf(saved.f) >= 0 ? saved.f : DEFAULT_FILTER;
-      if (f === 'Du lịch' && !travelDrop) f = 'all';
+      var f = ['all', 'Thể thao', 'Du lịch', 'Ẩm thực'].indexOf(saved.f) >= 0 ? saved.f : DEFAULT_FILTER;
+      if ((f === 'Du lịch' && !travelDrop) || (f === 'Ẩm thực' && !foodDrop)) f = 'all';
+      if (saved.food && foodDialog && Object.prototype.hasOwnProperty.call(foodCountries, saved.food.country)) {
+        activeFoodCountry = saved.food.country;
+        activeFoodRegion = foodCountries[activeFoodCountry].indexOf(saved.food.region) >= 0 ? saved.food.region : 'all';
+        syncFoodFilter();
+      }
       if (saved.sport && sportDrop.querySelector('[data-sport="' + saved.sport + '"]')) {
         activeSport = saved.sport;
         var sb = sportDrop.querySelector('[data-sport="' + saved.sport + '"]');
@@ -869,7 +946,7 @@
         travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (CONTINENT_LABEL[saved.country.slice(10)] || '');
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
-        : (f === 'Thể thao' ? sportDrop : travelDrop).querySelector(':scope > .home-tab');
+        : (f === 'Thể thao' ? sportDrop : f === 'Ẩm thực' ? foodDrop : travelDrop).querySelector(':scope > .home-tab');
       setMainFilter(f, initBtn, true); // silent: không bay zoom lúc mới load
     } catch (e) {}
 
@@ -880,7 +957,7 @@
     if (activeFilter === 'all' && travelDrop) {
       var placeCountries = {};
       entries.forEach(function (en) {
-        if (en.kind === 'place' && en.country) placeCountries[en.country] = 1;
+        if (en.kind === 'place' && en.topic !== 'food' && en.country) placeCountries[en.country] = 1;
       });
       var isoToName = {};
       Object.keys(COUNTRY_CODE).forEach(function (name) {

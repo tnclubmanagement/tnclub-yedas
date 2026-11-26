@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:04:00 +0700"
 title: "[04 · Ăn ngon miền Nam] : Lẩu mắm và món cá Châu Đốc"
 subtitle: "Một nồi dùng chung, nhiều rau và phần mắm nằm trong nước lẩu"
-cover-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Châu Đốc, An Giang, Lẩu mắm]
 series: "Ăn ngon miền Nam"
@@ -13,6 +13,11 @@ series_url: "/posts/2026/11/26/an-ngon-mien-nam/"
 place_name: "Châu Đốc"
 place_country: "Việt Nam"
 geo: [10.7067, 105.1170]
+place_region: "Miền Nam"
+place_food: "Lẩu mắm, cá kho tộ, bún cá Châu Đốc"
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: nội dung lẩu mắm và rau nhúng còn khái quát, chưa làm rõ các biến thể địa phương."
+map_rating_updated: "2026-11-27"
 ---
 
 Châu Đốc gắn với cá sông và mắm, nên bữa ăn ở đây đáng dành thời gian ngồi cùng một nồi lẩu hoặc đĩa cá kho. Đừng coi mùi mắm là thứ chỉ có trong chén nước chấm đặt bên cạnh.
@@ -30,8 +35,8 @@ Mắm cá được nấu làm nền nước lẩu, kết hợp sả và gia vị
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/noi-lau.jpg' | relative_url }}" alt="Bàn lẩu Việt với nhiều loại thịt và rau bày quanh" loading="lazy">
-  <figcaption>Bàn lẩu Việt minh họa cách ăn chung, không phải nồi lẩu mắm Châu Đốc được xác nhận. Ảnh: <a href="https://www.pexels.com/photo/authentic-vietnamese-hot-pot-dish-with-assorted-meats-30882912/" target="_blank" rel="noopener">Đậu Photograph / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg' | relative_url }}" alt="Nồi lẩu mắm cùng cá, tôm, thịt, bún và mâm rau nhúng" loading="lazy">
+  <figcaption>Lẩu mắm và các phần ăn kèm. Nguồn: <a href="https://vgmo.com.vn/wp-content/uploads/2025/08/1-3.png" target="_blank" rel="noopener">VGMO</a>; chuyển sang JPEG và thu nhỏ còn rộng 800 px, không cắt ảnh.</figcaption>
 </figure>
 </div>
 
@@ -62,6 +67,6 @@ Hỏi loại cá, phần xương và độ cay trước khi gọi cho trẻ nh�
 - [Vietnam Tourism — An Giang, Must-try Flavours](https://vietnam.travel/place-to-go/mekong-delta/an-giang/): lẩu mắm và bún cá Châu Đốc.
 - [Vietnam Tourism — The colourful charms of Chau Doc](https://vietnam.travel/things-to-do/colourful-charms-chau-doc/): cá kho tộ, bún cá và nguyên liệu địa phương.
 - [Vietnam Tourism Information — Lau mam](https://www.vietnamtourism.org.vn/vietnam-cuisine/food-culture/lau-mam-salted-fish-hotpot.html): mắm, rau nhúng và bún.
-- Ảnh minh họa từ Pexels, tác giả/link gốc dưới hình; không phải ảnh lẩu mắm đã kiểm chứng.
+- Ảnh lẩu mắm: VGMO, theo nguồn ảnh được cung cấp. Ảnh nguyên liệu lẩu minh họa: Đậu Photograph / Pexels. Link gốc và chú thích dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:02:00 +0700"
 title: "[02 · Ăn ngon miền Nam] : Cơm tấm sườn, bì, chả ở Sài Gòn"
 subtitle: "Một đĩa cơm không nhất thiết phải gọi đủ mọi món trong tủ"
-cover-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-nam/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Sài Gòn, Cơm tấm]
 series: "Ăn ngon miền Nam"
@@ -13,6 +13,11 @@ series_url: "/posts/2026/11/26/an-ngon-mien-nam/"
 place_name: "Sài Gòn"
 place_country: "Việt Nam"
 geo: [10.7769, 106.7009]
+place_region: "Miền Nam"
+place_food: "Cơm tấm sườn nướng, bì, chả trứng"
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: mới giới thiệu sườn, bì, chả ở mức cơ bản; hướng dẫn khẩu vị và so sánh suất ăn còn hạn chế."
+map_rating_updated: "2026-11-27"
 ---
 
 Cơm tấm có thể là bữa sáng, trưa hoặc tối, không chỉ một đĩa cơm sườn ăn khi đã quá đói. Hạt gạo tấm và đồ mặn ăn kèm làm nên món; không cần phủ kín mặt đĩa mới thành một bữa đủ.
@@ -30,8 +35,8 @@ Nếm cơm với một miếng thịt trước khi chan nước mắm. Thịt đ
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-nam-02-com-tam/thit-nuong.jpg' | relative_url }}" alt="Thịt nướng trên đĩa với phần gia vị trên mặt" loading="lazy">
-  <figcaption>Thịt nướng chụp tại Thủ Đức: minh họa đồ mặn, không phải suất cơm tấm sườn hoàn chỉnh. Ảnh: <a href="https://www.pexels.com/photo/cooked-meat-on-white-ceramic-plate-8892348/" target="_blank" rel="noopener">Pew Nguyen / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg' | relative_url }}" alt="Đĩa cơm tấm với sườn nướng, bì, chả trứng, trứng ốp la và đồ ăn kèm" loading="lazy">
+  <figcaption>Cơm tấm sườn, bì, chả và trứng. Nguồn: <a href="https://saigonprincehotel.com/Upload/Article/bd16de6d-07c1-44ee-b54a-fb383b9a685c/comtam.jpeg" target="_blank" rel="noopener">Saigon Prince Hotel</a>; giữ nguyên ảnh 700 × 500 px, không phóng lớn.</figcaption>
 </figure>
 </div>
 
@@ -61,6 +66,6 @@ Canh và phần thêm tùy quán, không mặc định đều miễn phí. Hỏi
 
 - [Vietnam Tourism — Ho Chi Minh City Cuisine](https://vietnam.travel/things-to-do/ho-chi-minh-city-cuisine-street-eats-fine-dining/): cơm tấm, sườn nướng và đồ ăn kèm.
 - [Vietnam Tourism — 21 must-try Vietnamese dishes](https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes/): cơm tấm và cách hoàn thiện đĩa cơm.
-- Ảnh Pexels, tác giả và trang gốc dưới từng hình; ảnh không phải suất cơm tấm hoàn chỉnh đã được chú thích.
+- Ảnh cơm tấm: Saigon Prince Hotel, theo nguồn ảnh được cung cấp. Ảnh mâm món Việt: Quang Nguyen Vinh / Pexels, chỉ minh họa món ăn kèm. Link gốc dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

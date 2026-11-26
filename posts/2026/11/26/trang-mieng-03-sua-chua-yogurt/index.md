@@ -5,8 +5,8 @@ title: "[03 · Món tráng miệng từ sữa] : Sữa chua và yogurt"
 subtitle: "Yaourt, sữa chua dẻo, sữa chua nếp cẩm và đá xay — một nền chua, nhiều kết cấu"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-category: "Ăn Ngon"
-tags: [Ăn Ngon, Tráng miệng, Sữa chua]
+category: "Tráng miệng"
+tags: [Ăn Ngon, Sữa chua]
 series: "Món tráng miệng từ sữa"
 series_order: 3
 series_url: "/posts/2026/11/26/trang-mieng-tu-sua/"

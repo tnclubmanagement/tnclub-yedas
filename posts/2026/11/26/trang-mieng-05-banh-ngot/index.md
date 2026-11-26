@@ -5,8 +5,8 @@ title: "[05 · Món tráng miệng từ sữa] : Bánh ngọt nướng từ sữ
 subtitle: "Cheesecake, tiramisu và bánh flan dừa — khi sữa, phô mai và kem đi vào lò nướng"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-category: "Ăn Ngon"
-tags: [Ăn Ngon, Tráng miệng, Bánh ngọt]
+category: "Tráng miệng"
+tags: [Ăn Ngon, Bánh ngọt]
 series: "Món tráng miệng từ sữa"
 series_order: 5
 series_url: "/posts/2026/11/26/trang-mieng-tu-sua/"

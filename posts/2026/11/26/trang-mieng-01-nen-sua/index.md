@@ -5,8 +5,8 @@ title: "[01 · Món tráng miệng từ sữa] : Nền sữa: tươi, đặc, ke
 subtitle: "Mỗi loại sữa cho một kết cấu và độ ngọt khác — hiểu nền là đoán được nửa món"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-category: "Ăn Ngon"
-tags: [Ăn Ngon, Tráng miệng, Sữa]
+category: "Tráng miệng"
+tags: [Ăn Ngon, Sữa]
 series: "Món tráng miệng từ sữa"
 series_order: 1
 series_url: "/posts/2026/11/26/trang-mieng-tu-sua/"

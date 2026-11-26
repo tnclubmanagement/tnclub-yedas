@@ -5,8 +5,8 @@ title: "[02 · Món tráng miệng từ sữa] : Flan, panna cotta và pudding"
 subtitle: "Ba món mềm đông hay bị gọi nhầm — khác nhau ở chất làm đông, trứng và lớp sốt"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-category: "Ăn Ngon"
-tags: [Ăn Ngon, Tráng miệng, Flan, Panna cotta]
+category: "Tráng miệng"
+tags: [Ăn Ngon, Flan, Panna cotta]
 series: "Món tráng miệng từ sữa"
 series_order: 2
 series_url: "/posts/2026/11/26/trang-mieng-tu-sua/"

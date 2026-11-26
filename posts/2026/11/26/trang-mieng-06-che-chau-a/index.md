@@ -5,8 +5,8 @@ title: "[06 · Món tráng miệng từ sữa] : Chè và món ngọt châu Á t
 subtitle: "Chè thưng, tào phớ sữa và thạch dừa — sữa và cốt dừa trong món ngọt quen thuộc"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-category: "Ăn Ngon"
-tags: [Ăn Ngon, Tráng miệng, Chè]
+category: "Tráng miệng"
+tags: [Ăn Ngon, Chè]
 series: "Món tráng miệng từ sữa"
 series_order: 6
 series_url: "/posts/2026/11/26/trang-mieng-tu-sua/"

@@ -198,27 +198,27 @@
 
 .post-gallery.gallery-mode-stack figure:first-child {
   transform: translate(-50%, -50%) translateX(-42%) rotate(-10deg);
-  z-index: 1;
+  z-index: var(--z-layer-1);
 }
 
 .post-gallery.gallery-mode-stack figure:nth-child(2) {
   transform: translate(-50%, -50%) translateX(-20%) rotate(6deg);
-  z-index: 2;
+  z-index: var(--z-layer-2);
 }
 
 .post-gallery.gallery-mode-stack figure:nth-child(3) {
   transform: translate(-50%, -50%) rotate(-2deg);
-  z-index: 3;
+  z-index: var(--z-layer-3);
 }
 
 .post-gallery.gallery-mode-stack figure:nth-child(4) {
   transform: translate(-50%, -50%) translateX(20%) rotate(8deg);
-  z-index: 2;
+  z-index: var(--z-layer-2);
 }
 
 .post-gallery.gallery-mode-stack figure:nth-child(n+5) {
   transform: translate(-50%, -50%) translateX(40%) rotate(-7deg);
-  z-index: 1;
+  z-index: var(--z-layer-1);
 }
 
 .post-gallery.gallery-mode-stack figcaption {
@@ -268,7 +268,7 @@
 .post-gallery.gallery-mode-compare figure:nth-child(2)::before {
   display: block;
   position: absolute;
-  z-index: 1;
+  z-index: var(--z-layer-1);
   top: 0.65rem;
   left: 0.65rem;
   padding: 0.25rem 0.55rem;

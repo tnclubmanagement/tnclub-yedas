@@ -3,6 +3,21 @@
    trí (không kính mờ/blob màu như bản cũ). */
 
 :root {
+  --z-behind: -1;
+  --z-base: 0;
+  --z-layer-1: 1;
+  --z-layer-2: 2;
+  --z-layer-3: 3;
+  --z-section-nav: 10;
+  --z-navbar: 50;
+  --z-map-dropdown: 700;
+  --z-map-controls: 800;
+  --z-overlay: 1000;
+  --z-map-expanded: 1020;
+  --z-map-help: 1050;
+  --z-fullscreen: 1100;
+  --z-modal: 1200;
+
   color-scheme: light;
   --ink: #1d1d1f;
   --muted: #6e6e73;
@@ -217,7 +232,7 @@ body {
   font-weight: 400;
   white-space: nowrap;
   pointer-events: none;
-  z-index: 50;
+  z-index: var(--z-navbar);
 }
 
 .home-display-mode {
@@ -2128,7 +2143,7 @@ footer .copyright {
 .gallery-lightbox {
   position: fixed;
   inset: 0;
-  z-index: 1200;
+  z-index: var(--z-modal);
   display: flex;
   align-items: center;
   justify-content: center;

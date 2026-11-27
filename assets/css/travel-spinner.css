@@ -106,7 +106,7 @@
 .ts-modal {
   position: fixed;
   inset: 0;
-  z-index: 1000;
+  z-index: var(--z-overlay);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,7 +205,7 @@
   border-right: 14px solid transparent;
   border-top: 26px solid var(--accent-blue);
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.3));
-  z-index: 2;
+  z-index: var(--z-layer-2);
   pointer-events: none;
 }
 
@@ -216,7 +216,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 3;
+  z-index: var(--z-layer-3);
   pointer-events: none;
 }
 

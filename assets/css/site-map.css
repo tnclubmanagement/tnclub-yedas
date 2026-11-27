@@ -32,7 +32,7 @@
   position: absolute;
   top: calc(100% + 8px);
   left: 0;
-  z-index: 700;
+  z-index: var(--z-map-dropdown);
   display: none;
   flex-direction: column;
   gap: 2px;
@@ -164,7 +164,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   background: var(--bg-light);
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.1);
   margin-bottom: 2.5rem;
-  z-index: 0;
+  z-index: var(--z-base);
 }
 .athlete-map .leaflet-container { font: inherit; border-radius: inherit; }
 /* Nút toàn màn hình — góc trái dưới, tránh quick view (phải trên) và attribution (phải dưới) */
@@ -172,7 +172,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   position: absolute;
   left: 12px;
   bottom: 44px;
-  z-index: 800;
+  z-index: var(--z-map-controls);
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -192,7 +192,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-map-section:is(.is-max, .is-fullscreen) {
   position: fixed;
   inset: var(--nav-h, 66px) 0 0;
-  z-index: 1020;
+  z-index: var(--z-map-expanded);
   margin: 0;
   border-radius: 0;
   background: var(--bg-white);
@@ -202,7 +202,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   padding: 1rem 1.5rem;
   overflow-y: auto;
 }
-.athlete-map-section.is-fullscreen { top: 0; z-index: 1100; height: 100dvh; }
+.athlete-map-section.is-fullscreen { top: 0; z-index: var(--z-fullscreen); height: 100dvh; }
 .athlete-map-section:is(.is-max, .is-fullscreen) .athlete-map-head { flex: none; }
 .athlete-map-section:is(.is-max, .is-fullscreen) .athlete-map {
   flex: 1;
@@ -249,7 +249,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-pin img {
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: var(--z-layer-2);
   display: block;
   width: 100% !important;
   height: 100% !important;
@@ -298,7 +298,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   position: absolute;
   top: 0.8rem;
   right: 0.8rem;
-  z-index: 1000;
+  z-index: var(--z-overlay);
   width: min(340px, calc(100% - 1.6rem));
   overscroll-behavior: contain;
   overflow-wrap: anywhere;
@@ -326,7 +326,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  z-index: 2;
+  z-index: var(--z-layer-2);
 }
 .athlete-qv-head { position: relative; }
 .athlete-qv-head .athlete-qv-avatar { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0; border: 0; border-radius: 0; object-fit: cover; object-position: center; }
@@ -382,12 +382,12 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
 .athlete-qv-score strong { flex-shrink: 0; color: var(--score-color); font-size: 0.75rem; white-space: nowrap; }
 .athlete-qv-score-track { flex: 1; min-width: 12px; height: 5px; border-radius: 999px; background: var(--hairline); overflow: hidden; }
 .athlete-qv-score-track > span { display: block; height: 100%; border-radius: inherit; background: var(--score-color); }
-.athlete-qv-score-tooltip { display: none; position: absolute; left: 0; bottom: calc(100% + 5px); z-index: 3; width: 240px; max-width: calc(100vw - 64px); overflow-y: auto; padding: 0.65rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.75rem; line-height: 1.5; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18); }
+.athlete-qv-score-tooltip { display: none; position: absolute; left: 0; bottom: calc(100% + 5px); z-index: var(--z-layer-3); width: 240px; max-width: calc(100vw - 64px); overflow-y: auto; padding: 0.65rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.75rem; line-height: 1.5; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18); }
 .athlete-qv-score:last-child .athlete-qv-score-tooltip { left: auto; right: 0; }
 .athlete-qv-score:is(:hover, :focus) .athlete-qv-score-tooltip { display: block; }
 .athlete-qv-score .athlete-qv-score-tooltip[hidden] { display: none; }
 .athlete-map-title { display: flex; align-items: baseline; gap: 0.35rem; }
-.map-score-help { position: relative; z-index: 1050; }
+.map-score-help { position: relative; z-index: var(--z-map-help); }
 .map-score-help summary { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: var(--muted); cursor: pointer; list-style: none; }
 .map-score-help summary::-webkit-details-marker { display: none; }
 .map-score-help summary:focus-visible { outline: 2px solid var(--ink); border-radius: 8px; }
@@ -428,7 +428,7 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
   animation: athlete-qv-in 0.25s ease;
 }
 /* ---------- Modal Galleries / Videos ---------- */
-.athlete-modal { position: fixed; inset: 0; z-index: 1200; }
+.athlete-modal { position: fixed; inset: 0; z-index: var(--z-modal); }
 .athlete-modal-backdrop {
   position: absolute;
   inset: 0;
@@ -486,7 +486,7 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
   position: absolute;
   top: -6px;
   right: -9px;
-  z-index: 3;
+  z-index: var(--z-layer-3);
   min-width: 20px;
   height: 20px;
   padding: 0 5px;

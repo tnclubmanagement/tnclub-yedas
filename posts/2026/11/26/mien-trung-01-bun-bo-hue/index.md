@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:01:00 +0700"
 title: "[01 · Ăn ngon miền Trung] : Bún bò Huế, gọi theo phần thịt và độ cay"
 subtitle: "Thơm sả, đậm mắm ruốc và không chỉ có thịt bò"
-cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/cover.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/cover.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Bún bò]
 series: "Ăn ngon miền Trung"
@@ -61,6 +61,7 @@ Không lấy mức cay của một hàng làm kết luận rằng mọi món Hu�
 
 - [Vietnam Tourism — Hue’s Best to Eat, From the Palace to the Street](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): bún bò, giò heo và nguyên liệu nước dùng.
 - [Vietnam Tourism — Hue](https://vietnam.travel/place-to-go/north-central-coast/hue/): mùi sả, mắm ruốc trong bún bò.
+- Ảnh bìa: tô bún bò Huế — [Alpha / Wikimedia Commons, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_hu%C3%AA_-_Dakao_Hoang.jpg).
 - Ảnh Pexels tải bản rộng tối đa 800 px; tác giả và trang gốc dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

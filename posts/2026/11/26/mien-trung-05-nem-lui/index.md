@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:05:00 +0700"
 title: "[05 · Ăn ngon miền Trung] : Nem lụi và bánh khoái Huế"
 subtitle: "Cuốn ít nhân, thêm rau vừa tay và để nước chấm làm phần việc còn lại"
-cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-05-nem-lui/cover.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-trung-05-nem-lui/cover.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Nem lụi, Bánh khoái]
 series: "Ăn ngon miền Trung"
@@ -61,6 +61,7 @@ Có thể để nem làm món chính và gọi một bánh chia nhau. Đủ rau 
 
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): nem lụi, bánh khoái, nguyên liệu và cách cuốn.
 - [Vietnam Tourism Information — Hue’s Delicacies](https://www.vietnamtourism.org.vn/attractions/hues-delicacies.html): nem lụi với bánh tráng, rau và nước chấm.
+- Ảnh bìa: bánh khoái Huế — [Charles Haynes / Wikimedia Commons, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:Banh_Khoai_(4265580561).jpg).
 - Ảnh bối cảnh Pexels có tác giả và link gốc dưới hình; chưa có ảnh đúng hai món trong bài.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

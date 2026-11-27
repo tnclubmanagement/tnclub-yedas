@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:02:00 +0700"
 title: "[02 · Ăn ngon miền Trung] : Mì Quảng và cao lầu ở Hội An"
 subtitle: "Ít nước không có nghĩa giống nhau: nhìn sợi, nhân và phần giòn"
-cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cover.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cover.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Hội An, Mì Quảng, Cao lầu]
 series: "Ăn ngon miền Trung"
@@ -62,6 +62,7 @@ Nếu đi hai người, hỏi quán có thể chia phần hay gọi một bát m
 - [Vietnam Tourism — Explore the food of Hoi An](https://vietnam.travel/things-to-do/explore-food-hoi-an/): cao lầu và ẩm thực Hội An.
 - [Vietnam Tourism — 4 must-try dishes from Quang Nam](https://vietnam.travel/things-to-do/4-must-try-dishes-quang-nam/): mì Quảng, cao lầu và sợi mì.
 - [Vietnam Tourism — A foodie guide to Vietnam’s noodles](https://vietnam.travel/things-to-do/noodles-of-vietnam/): cách ăn hai nhóm món ít nước.
+- Ảnh bìa: mì Quảng — [Gary Stevens / Wikimedia Commons, CC BY 2.0](https://commons.wikimedia.org/wiki/File:Mi_Quang_at_Ngoc_Mai_(with_noodles_uncovered).jpg).
 - Ảnh bối cảnh Pexels, credit dưới từng hình; bài chưa có ảnh cận cảnh đúng hai món.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

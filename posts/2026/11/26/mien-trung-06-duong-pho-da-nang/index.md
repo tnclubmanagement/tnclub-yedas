@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:06:00 +0700"
 title: "[06 · Ăn ngon miền Trung] : Bánh tráng cuốn và một vòng ăn Đà Nẵng"
 subtitle: "Thịt heo, rau, mắm nêm rồi chọn thêm một món ở chợ — không cần chạy hết phố"
-cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/cover.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/cover.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Đà Nẵng, Bánh tráng cuốn, Ẩm thực đường phố]
 series: "Ăn ngon miền Trung"
@@ -61,6 +61,7 @@ Chợ đêm có thể thay đổi hoạt động theo thời điểm. Kiểm tra
 
 - [Vietnam Tourism — A foodie’s guide to Da Nang](https://vietnam.travel/things-to-do/foodie-guide-da-nang/): mì Quảng, bánh xèo và món ăn địa phương.
 - [Vietnam Tourism — Da Nang: Eat, Play, Relax](https://vietnam.travel/things-to-do/da-nang-eat-play-relax-your-ultimate-coastal-escape/): chợ Cồn, chợ Hàn, bánh tráng cuốn thịt heo và mắm nêm.
+- Ảnh bìa: mì Quảng 1A Đà Nẵng — [Jpatokal / Wikimedia Commons, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Mi_Quang_1A_Danang.jpg).
 - Ảnh Pexels ở Đà Nẵng, tải bản rộng tối đa 800 px; credit dưới hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

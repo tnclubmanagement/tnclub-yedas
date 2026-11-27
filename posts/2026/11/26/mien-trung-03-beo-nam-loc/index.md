@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:03:00 +0700"
 title: "[03 · Ăn ngon miền Trung] : Bánh bèo, nậm, lọc ở Huế"
 subtitle: "Ba kiểu bánh nhỏ: mềm trong chén, mỏng trong lá, dai trong lớp bột trong"
-cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-03-beo-nam-loc/cover.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-trung-03-beo-nam-loc/cover.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Bánh bèo, Bánh nậm, Bánh lọc]
 series: "Ăn ngon miền Trung"
@@ -61,6 +61,7 @@ Với bữa tại chỗ, chọn đĩa hỗn hợp nhỏ rồi gọi thêm loại
 
 - [Hue News — Duc Buu banh beo, banh nam, and banh loc craft village](https://news.huengaynay.vn/photos/duc-buu-banh-beo-banh-nam-and-banh-loc-craft-village-126441.html): bột gạo, bột năng, nhân tôm thịt và gói lá.
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): bánh nậm và món ăn Huế.
+- Ảnh bìa: mâm bánh bèo, bột lọc — [Thang Nguyen / Wikimedia Commons, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:B%C3%A1nh_b%C3%A8o,_b%E1%BB%99t_l%E1%BB%8Dc,_nem_chua.jpg).
 - Ảnh Pexels có tác giả/link gốc dưới hình; ảnh bánh bán tại Phan Thiết được ghi rõ để không nhầm với bánh gói lá Huế.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

@@ -215,6 +215,11 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   nguồn/bản quyền trong `_data/travel_2027_credits.json`, ảnh JPEG local và
   avatar nhỏ hơn 100 KB. Bài dùng `_includes/travel-cover-reference.html` để
   hiển thị ảnh, credit và nguồn; khi thêm bài nhớ tạo cả `cover.jpg`, `avatar.jpg`.
+- `bundle exec ruby _tests/post_frontmatter_test.rb`: validate front matter của
+  mọi `posts/**/index.md` theo JSON Schema `_tests/post.schema.json` (validator
+  tự viết, subset draft-07, không cần gem). Có rule riêng ngoài schema: bài có
+  `geo` phải có `place_region` hoặc tag miền. Khi thêm field front matter mới,
+  khai báo trong schema thay vì chỉ dùng tuỳ ý — CI chạy test này.
 
 ## Bài ẩm thực
 

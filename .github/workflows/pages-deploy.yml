@@ -45,6 +45,9 @@ jobs:
           bundle exec ruby _tests/search_index_test.rb
           node --test _tests/search_test.js
 
+      - name: Validate post front matter
+        run: bundle exec ruby _tests/post_frontmatter_test.rb
+
       - name: Restore search index cache
         uses: actions/cache@v5
         with:

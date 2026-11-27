@@ -72,6 +72,7 @@
     <button type="button" class="banner-arrow" data-banner-step="1" aria-label="Ảnh tiếp theo">&#8250;</button>
   </div>
   {% endif %}
+  {% if include.type == "post" %}{% include untranslated-note.html %}{% endif %}
   <span class='img-desc'></span>
 </div>
 {% endif %}

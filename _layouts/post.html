@@ -7,7 +7,19 @@ layout: base
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
     <div class="{% if page.full-width %} col {% else %} post-container {% endif %}">
 
-      {% include untranslated-note.html %}
+      {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
+      <nav class="post-breadcrumb" aria-label="{{ s.ui.breadcrumb }}">
+        <ol role="list">
+          <li><a href="{{ '/' | relative_url }}">{{ s.ui.home }}</a></li>
+          <li><a href="{{ '/posts/' | relative_url }}">{{ s.nav['Bài viết'] }}</a></li>
+          {% if page.series %}
+          <li><a href="{% if page.series_url %}{{ page.series_url | relative_url }}{% else %}{{ '/series/' | relative_url }}#{{ page.series | slugify }}{% endif %}">{{ page.series | escape }}</a></li>
+          {% endif %}
+          <li aria-current="page">{{ page.title | strip_html | escape }}</li>
+        </ol>
+      </nav>
+
+      {% unless page.banner-img %}{% include untranslated-note.html %}{% endunless %}
 
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
@@ -41,9 +53,9 @@ layout: base
       {% endif %}
 
       <div class="post-reading-area">
-        {% include series-badge.html %}
         {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
         <div class="post-view-toggle" role="group" aria-label="{{ s.post_view.aria_label }}">
+          {% include series-badge.html %}
           <span class="post-view-toggle-label">{{ s.post_view.label }}</span>
           <button type="button" class="post-view-toggle-btn" aria-pressed="false" title="{{ s.post_view.toggle_title }}">
             <span class="post-view-toggle-show">{{ s.post_view.compact }}</span>

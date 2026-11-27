@@ -14,6 +14,8 @@ vi:
     Cửa hàng: "Cửa hàng"
     Liên hệ: "Liên hệ"
   ui:
+    home: "Trang chủ"
+    breadcrumb: "Đường dẫn điều hướng"
     open_menu: "Mở menu"
     toggle_theme: "Đổi giao diện sáng/tối"
     search: "Tìm kiếm bài viết"
@@ -250,6 +252,8 @@ en:
     Cửa hàng: "Store"
     Liên hệ: "Contact"
   ui:
+    home: "Home"
+    breadcrumb: "Breadcrumb"
     open_menu: "Open menu"
     toggle_theme: "Toggle light/dark theme"
     search: "Search posts"

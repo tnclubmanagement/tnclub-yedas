@@ -2139,6 +2139,23 @@ footer .copyright {
   border: 1px solid var(--hairline);
 }
 
+/* Đè lên ảnh banner khi note nằm trong .big-img (bài có banner-img). */
+.big-img .untranslated-note {
+  position: absolute;
+  z-index: var(--z-layer-2);
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: calc(100% - 24px);
+  margin: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(0, 0, 0, 0.55);
+  border-color: transparent;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
 /* Lightbox ảnh dùng chung cho mọi trang (post.css chỉ load ở layout post) */
 .gallery-lightbox {
   position: fixed;

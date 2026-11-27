@@ -8,6 +8,14 @@ css = File.read(File.expand_path('../assets/css/post.css', __dir__))
 html = <<~HTML
   <!doctype html>
   <html><head><meta charset="utf-8"><style>#{css}</style></head><body>
+    <nav class="post-breadcrumb" id="breadcrumb" aria-label="Breadcrumb">
+      <ol role="list">
+        <li><a href="/">Trang chủ</a></li>
+        <li><a href="/posts/">Bài viết</a></li>
+        <li><a href="/series/">Ăn ngon miền Bắc</a></li>
+        <li aria-current="page">Một tiêu đề bài viết rất dài để kiểm tra breadcrumb xuống dòng trên điện thoại</li>
+      </ol>
+    </nav>
     <div class="post-meta" id="meta">Metadata</div>
     <article class="blog-post post-body">
       <p id="intro">Introduction</p>
@@ -55,6 +63,12 @@ html = <<~HTML
         expect('gallery-image', true);
       });
       checkFull();
+      expect('breadcrumb', true);
+      document.body.classList.add('post-compact-view');
+      expect('breadcrumb', true);
+      var breadcrumb = document.getElementById('breadcrumb');
+      if (breadcrumb.scrollWidth > breadcrumb.clientWidth) failures.push('Breadcrumb overflows viewport');
+      if (getComputedStyle(breadcrumb.querySelector('ol')).flexWrap !== 'wrap') failures.push('Breadcrumb does not wrap');
       var result = document.createElement('pre');
       result.id = 'result';
       result.textContent = JSON.stringify(failures);

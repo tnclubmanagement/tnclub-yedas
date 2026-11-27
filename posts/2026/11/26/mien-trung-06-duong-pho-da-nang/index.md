@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:06:00 +0700"
 title: "[06 · Ăn ngon miền Trung] : Bánh tráng cuốn và một vòng ăn Đà Nẵng"
 subtitle: "Thịt heo, rau, mắm nêm rồi chọn thêm một món ở chợ — không cần chạy hết phố"
-cover-img: "/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/cover.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/cover.jpg"
+cover-img: "https://kenh14cdn.com/203336854389633024/2024/12/26/anhthucpham-1735196054300-17351960563471505426060.jpg"
+thumbnail-img: "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/89/db/22/getlstd-property-photo.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Đà Nẵng, Bánh tráng cuốn, Ẩm thực đường phố]
 series: "Ăn ngon miền Trung"
@@ -33,8 +33,8 @@ Mắm nêm có mùi đậm và có thể đã pha tỏi, ớt, dứa hoặc đư
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/bua-an.jpg' | relative_url }}" alt="Thực khách chụp bữa ăn tại một quán ngoài trời ở Đà Nẵng" loading="lazy">
-  <figcaption>Bữa ăn ở Đà Nẵng — ảnh bối cảnh, không phải ảnh bánh tráng cuốn thịt heo đã xác nhận. Ảnh: <a href="https://www.pexels.com/photo/woman-photographing-vietnamese-meal-at-outdoor-cafe-37578545/" target="_blank" rel="noopener">nhavantuonglai / Pexels</a>.</figcaption>
+  <img src="https://th.bing.com/th/id/R.6d8d0370cd5a3e868cd64a6f4cff3f4a?rik=ADp3W5cNSg7IjA&amp;riu=http%3a%2f%2fhongphatfood.com.vn%2fwp-content%2fuploads%2f2025%2f06%2fbanh-trang-cuon-thit-heo-Da-Nang-tai-nha.png&amp;ehk=0MrDIb8pg8cbhGMoNKkaTkX8ONrvilwat5hEIqSDq1c%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" alt="Bánh tráng cuốn thịt heo Đà Nẵng" loading="lazy">
+  <figcaption>Bánh tráng cuốn thịt heo Đà Nẵng. Ảnh: <a href="http://hongphatfood.com.vn/wp-content/uploads/2025/06/banh-trang-cuon-thit-heo-Da-Nang-tai-nha.png" target="_blank" rel="noopener">Hồng Phát Food</a> (qua Bing).</figcaption>
 </figure>
 </div>
 
@@ -49,8 +49,8 @@ Chọn quầy có giá rõ, đồ che đậy gọn và chế biến phù hợp. 
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/xe-banh-mi.jpg' | relative_url }}" alt="Xe bán bánh mì có bảng hiệu nhiều màu trên phố Đà Nẵng" loading="lazy">
-  <figcaption>Xe bánh mì tại Đà Nẵng, ảnh đời sống đường phố; không khẳng định xe ở chợ Cồn hay chợ Hàn. Ảnh: <a href="https://www.pexels.com/photo/colorful-banh-mi-cart-in-da-nang-vietnam-38172100/" target="_blank" rel="noopener">Dale Mohagan / Pexels</a>.</figcaption>
+  <img src="https://tinviettravel.com/uploads/cam-nang-du-lich/2025_07/cho-con-cho-han-cover.png" alt="Chợ Cồn và chợ Hàn tại Đà Nẵng" loading="lazy">
+  <figcaption>Chợ Cồn và chợ Hàn tại Đà Nẵng. Ảnh: <a href="https://tinviettravel.com/uploads/cam-nang-du-lich/2025_07/cho-con-cho-han-cover.png" target="_blank" rel="noopener">Tín Việt Travel</a>.</figcaption>
 </figure>
 </div>
 
@@ -64,7 +64,8 @@ Chợ đêm có thể thay đổi hoạt động theo thời điểm. Kiểm tra
 
 - [Vietnam Tourism — A foodie’s guide to Da Nang](https://vietnam.travel/things-to-do/foodie-guide-da-nang/): mì Quảng, bánh xèo và món ăn địa phương.
 - [Vietnam Tourism — Da Nang: Eat, Play, Relax](https://vietnam.travel/things-to-do/da-nang-eat-play-relax-your-ultimate-coastal-escape/): chợ Cồn, chợ Hàn, bánh tráng cuốn thịt heo và mắm nêm.
-- Ảnh bìa: mì Quảng 1A Đà Nẵng — [Jpatokal / Wikimedia Commons, CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Mi_Quang_1A_Danang.jpg).
-- Ảnh Pexels ở Đà Nẵng, tải bản rộng tối đa 800 px; credit dưới hình.
+- Ảnh banner: [Kênh 14](https://kenh14cdn.com/203336854389633024/2024/12/26/anhthucpham-1735196054300-17351960563471505426060.jpg).
+- Ảnh thumbnail: [Tripadvisor](https://media-cdn.tripadvisor.com/media/photo-m/1280/19/89/db/22/getlstd-property-photo.jpg).
+- Ảnh trong bài: Hồng Phát Food (qua Bing) và Tín Việt Travel; nguồn được ghi dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

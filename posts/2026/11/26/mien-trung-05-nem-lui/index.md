@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:05:00 +0700"
 title: "[05 · Ăn ngon miền Trung] : Nem lụi và bánh khoái Huế"
 subtitle: "Cuốn ít nhân, thêm rau vừa tay và để nước chấm làm phần việc còn lại"
-cover-img: "https://peacetour.com.vn/Upload/Article/08870a51-261a-45a3-9c9f-9df567128090/am-thuc-tphcm-mon-an-mien-trung.jpeg"
-thumbnail-img: "https://peacetour.com.vn/Upload/Article/08870a51-261a-45a3-9c9f-9df567128090/am-thuc-tphcm-mon-an-mien-trung.jpeg"
+cover-img: "https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg"
+thumbnail-img: "https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Nem lụi, Bánh khoái]
 series: "Ăn ngon miền Trung"
@@ -64,7 +64,7 @@ Có thể để nem làm món chính và gọi một bánh chia nhau. Đủ rau 
 
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): nem lụi, bánh khoái, nguyên liệu và cách cuốn.
 - [Vietnam Tourism Information — Hue’s Delicacies](https://www.vietnamtourism.org.vn/attractions/hues-delicacies.html): nem lụi với bánh tráng, rau và nước chấm.
-- Ảnh bìa: [Peace Tour](https://peacetour.com.vn/Upload/Article/08870a51-261a-45a3-9c9f-9df567128090/am-thuc-tphcm-mon-an-mien-trung.jpeg).
+- Ảnh bìa: [Vietnam Shore Excursions](https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg).
 - Ảnh bối cảnh Pexels có tác giả và link gốc dưới hình; chưa có ảnh đúng hai món trong bài.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

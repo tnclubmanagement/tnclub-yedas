@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:06:00 +0700"
 title: "[06 · Ăn ngon miền Nam] : Ăn khuya Sài Gòn với ốc, bánh mì và món nướng"
 subtitle: "Chọn quán trong nhà, gọi một bữa vừa đủ và giữ đường về đơn giản"
-cover-img: "/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/mam-hai-san.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/mam-hai-san.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Sài Gòn, Ăn khuya]
 series: "Ăn ngon miền Nam"

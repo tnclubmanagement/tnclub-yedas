@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:03:00 +0700"
 title: "[03 · Ăn ngon miền Nam] : Bánh xèo, bánh khọt và rau cuốn ở Vũng Tàu"
 subtitle: "Một bánh lớn chia miếng, nhiều bánh nhỏ đổ khuôn — cùng cần ăn khi vừa ra"
-cover-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/vung-tau-banner.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Vũng Tàu, Bánh xèo, Bánh khọt]
 series: "Ăn ngon miền Nam"
@@ -66,7 +66,7 @@ Bánh chiên nguội sẽ đổi kết cấu. Đi nhóm nhỏ thì gọi ít, ă
 
 - [Vietnam Tourism — Ho Chi Minh City, Must-try Flavours](https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/): bánh khọt Vũng Tàu và bánh xèo hải sản vùng Bà Rịa–Vũng Tàu.
 - [Vietnam Tourism — Ultimate guide to eating like a local in Vung Tau](https://vietnam.travel/things-to-do/ultimate-guide-eating-local-vung-tau/): bối cảnh ẩm thực Vũng Tàu.
-- Ảnh bìa bánh xèo: [MIA.vn](https://mia.vn/media/uploads/blog-du-lich/thuong-thuc-banh-xeo-ba-ba-thom-ngon-nuc-tieng-giua-long-pho-nui-1659464387.jpg), theo nguồn được cung cấp; ảnh minh họa, không dùng để xác nhận quán ở Vũng Tàu. Thu nhỏ còn rộng 800 px, giữ tỷ lệ gốc, không cắt thêm.
+- Ảnh banner Vũng Tàu: ảnh do người dùng cung cấp.
 - Ảnh trong thân bài theo nguồn được cung cấp: bánh xèo từ Vietnam Buying Agent; bánh khọt từ Motorvina. Link gốc và chú thích dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Nam]({{ page.series_url | relative_url }})

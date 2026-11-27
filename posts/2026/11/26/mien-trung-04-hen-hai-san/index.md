@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:04:00 +0700"
 title: "[04 · Ăn ngon miền Trung] : Cơm hến và bữa hải sản xứ Huế"
 subtitle: "Một bát trộn nhỏ trong phố khác với một bữa ăn hướng ra vùng đầm biển"
-cover-img: "/posts/2026/11/26/mien-trung-04-hen-hai-san/cover.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-trung-04-hen-hai-san/cover.jpg"
+cover-img: "https://thanhphohue.com/wp-content/uploads/2022/09/com_hen_hue_01.jpg"
+thumbnail-img: "https://thanhphohue.com/wp-content/uploads/2022/09/com_hen_hue_01.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Cơm hến, Hải sản]
 series: "Ăn ngon miền Trung"
@@ -65,7 +65,7 @@ Chọn món nấu chín kỹ, không mặc định đồ vừa bắt lên có th
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): cơm hến và nguyên liệu ăn kèm.
 - [Vietnam Tourism — 3 days in Hue for culture seekers](https://vietnam.travel/things-to-do/hue-itinerary/): Cồn Hến, cơm hến, bún hến.
 - [Vietnam Tourism — Hue](https://vietnam.travel/place-to-go/north-central-coast/hue/): bối cảnh điểm đến.
-- Ảnh bìa: hến trộn — [Lucas Jans / Wikimedia Commons, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:H%E1%BA%BFn_tr%E1%BB%99n.jpg).
+- Ảnh bìa: cơm hến — [thanhphohue.com](https://thanhphohue.com/wp-content/uploads/2022/09/com_hen_hue_01.jpg).
 - Ảnh Pexels chỉ minh họa đời sống ăn uống Huế, credit dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

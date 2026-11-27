@@ -21,7 +21,7 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span>Cơm tấm</span>: sườn, bì, chả</h3><p class="menu-series-desc">Đọc tên suất để không gọi nhiều đồ kèm hơn mình muốn.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banner.jpg' | relative_url }}" alt="Bánh xèo vàng với tôm, giá và rau ăn kèm" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg' | relative_url }}" alt="Bánh xèo vàng với tôm, giá và rau ăn kèm" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span>Bánh xèo</span>, <span>bánh khọt</span> và rau cuốn</h3><p class="menu-series-desc">Vũng Tàu: bánh lớn chia miếng và bánh nhỏ đổ khuôn.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-04-lau-mam/' | relative_url }}">
@@ -33,7 +33,7 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span>Gỏi cuốn</span> và <span>bì cuốn</span></h3><p class="menu-series-desc">Món cuốn không chiên ở Sài Gòn: khác nhân, khác nước chấm.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/banner.jpg' | relative_url }}" alt="Mâm hải sản gồm cua, tôm, nghêu, ốc và hàu bày trên nền đỏ" loading="lazy">
+    <img src="{{ '/posts/2026/11/26/mien-nam-06-an-khuya-sai-gon/mam-hai-san.jpg' | relative_url }}" alt="Mâm hải sản gồm cua, tôm, nghêu, ốc và hàu bày trên nền đỏ" loading="lazy">
     <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title">Ăn khuya: <span>ốc</span>, <span>bánh mì</span>, <span>món nướng</span></h3><p class="menu-series-desc">Chọn quán trong nhà thuận đường về và một bữa vừa đủ.</p></div>
   </a>
 </div>

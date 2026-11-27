@@ -387,27 +387,7 @@
       section.hidden = !list.childElementCount;
     }
 
-    var entries = window.__athletePins.map(function (d, i) {
-      d.country = normalizeCountry(d.country);
-      var icon = L.divIcon({
-        className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
-        html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + Math.min(i * 20, 1200) + 'ms">' +
-              (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '') +
-              '<span class="athlete-pin-shadow"></span></span>',
-        iconSize: [44, 54], iconAnchor: [22, 52]
-      });
-      var m = L.marker([d.lat, d.lng], { icon: icon, riseOnHover: true }).addTo(map);
-      var tipHtml = d.kind === 'place'
-        ? '<strong>' + (d.topic === 'food' && d.title ? d.title : d.name) + '</strong>' +
-          (d.region ? '<br><small>' + d.region + '</small>' : '')
-        : '<strong>' + d.name + '</strong>' +
-          (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
-          '<br><small>' + (d.born ? d.born.split('/').pop() : '') +
-          (d.hometown ? ' · ' + d.hometown : '') + '</small>';
-      m.bindTooltip(tipHtml,
-        { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
-      );
-      m.on('click', function () {
+    function openQuickview(d) {
         qv.querySelector('.athlete-qv-avatar').src = d.image || d.avatar;
         qv.querySelector('.athlete-qv-avatar').alt = d.name;
         qv.querySelector('.athlete-qv-name').textContent = d.topic === 'food' && d.title ? d.title : d.name;
@@ -455,13 +435,95 @@
         wdl.href = 'https://www.windy.com/' + d.lat.toFixed(3) + '/' + d.lng.toFixed(3);
         if (isPlace) loadWeather(d); else weatherSeq++;
         qv.hidden = false;
+    }
+
+    var entries = window.__athletePins.map(function (d, i) {
+      d.country = normalizeCountry(d.country);
+      var icon = L.divIcon({
+        className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
+        html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + Math.min(i * 20, 1200) + 'ms">' +
+              (d.avatar ? '<img src="' + d.avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '') +
+              '<span class="athlete-pin-shadow"></span></span>',
+        iconSize: [44, 54], iconAnchor: [22, 52]
       });
+      var m = L.marker([d.lat, d.lng], { icon: icon, riseOnHover: true });
+      var tipHtml = d.kind === 'place'
+        ? '<strong>' + (d.topic === 'food' && d.title ? d.title : d.name) + '</strong>' +
+          (d.region ? '<br><small>' + d.region + '</small>' : '')
+        : '<strong>' + d.name + '</strong>' +
+          (d.nick ? '<br><em>“' + d.nick + '”</em>' : '') +
+          '<br><small>' + (d.born ? d.born.split('/').pop() : '') +
+          (d.hometown ? ' · ' + d.hometown : '') + '</small>';
+      m.bindTooltip(tipHtml,
+        { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' }
+      );
+      m.on('click', function () { openQuickview(d); });
       return {
-        marker: m, kind: d.kind, topic: d.topic, url: d.url, region: d.region || '', series: d.series, country: d.country || '',
+        marker: m, d: d, kind: d.kind, topic: d.topic, url: d.url, region: d.region || '', series: d.series, country: d.country || '',
         searchText: normalizeText([d.name, d.title, d.nick, d.series, d.country, COUNTRY_LABEL[d.country], d.hometown,
           d.event, d.subtitle, d.region, d.economy, d.festival,
           CONTINENT_LABEL[COUNTRY_CONTINENT[d.country]] || ''].join(' '))
       };
+    });
+
+    // Gom các bài trùng tọa độ thành 1 ghim có số lượng — bấm vào hiện
+    // danh sách để chọn bài, thay vì xếp chồng nhiều pin khó bấm.
+    var clusters = [];
+    var clusterGroups = Object.create(null);
+    entries.forEach(function (en) {
+      var ll = en.marker.getLatLng();
+      var key = ll.lat.toFixed(5) + ',' + ll.lng.toFixed(5);
+      (clusterGroups[key] = clusterGroups[key] || []).push(en);
+    });
+    Object.keys(clusterGroups).forEach(function (key) {
+      var members = clusterGroups[key];
+      if (members.length < 2) return;
+      var isPlace = members[0].kind === 'place';
+      var avatar = members.map(function (en) { return en.d.avatar; }).filter(Boolean)[0] || '';
+      var cm = L.marker(members[0].marker.getLatLng(), {
+        icon: L.divIcon({
+          className: 'athlete-pin-wrap' + (isPlace ? ' place-pin-wrap' : '') + ' map-cluster-wrap',
+          html: '<span class="athlete-pin' + (isPlace ? ' place-pin' : '') + ' map-cluster">' +
+                (avatar ? '<img src="' + avatar + '" alt="" draggable="false" decoding="async" loading="lazy">' : '') +
+                '<b class="map-cluster-count"></b>' +
+                '<span class="athlete-pin-shadow"></span></span>',
+          iconSize: [44, 54], iconAnchor: [22, 52]
+        }),
+        riseOnHover: true
+      });
+      cm.bindTooltip('', { direction: 'top', offset: [0, -24], className: 'athlete-pin-tip' });
+      cm.bindPopup('', { className: 'map-cluster-popup', maxWidth: 280, offset: [0, -14] });
+      var cl = { marker: cm, members: members, visList: [] };
+      cm.on('click', function () {
+        if (cl.visList.length === 1) { map.closePopup(); openQuickview(cl.visList[0].d); return; }
+        if (!cl.visList.length) return;
+        var html = '<div class="map-cluster-list">' + cl.visList.map(function (en, idx) {
+          var d = en.d;
+          var label = d.kind === 'place' ? (d.topic === 'food' && d.title ? d.title : d.name) : d.name;
+          var sub = d.kind === 'place'
+            ? [COUNTRY_LABEL[d.country] || d.country, d.region].filter(Boolean).join(' · ')
+            : [d.event || d.series, COUNTRY_LABEL[d.country] || d.country].filter(Boolean).join(' · ');
+          return '<button type="button" class="map-cluster-item" data-idx="' + idx + '">' +
+            (d.avatar ? '<img src="' + d.avatar + '" alt="" loading="lazy">' : '<span class="map-cluster-noimg"></span>') +
+            '<span class="map-cluster-text"><strong>' + label + '</strong>' +
+            (sub ? '<small>' + sub + '</small>' : '') + '</span></button>';
+        }).join('') + '</div>';
+        cm.getPopup().setContent(html);
+      });
+      cm.on('popupopen', function () {
+        var node = cm.getPopup().getElement();
+        if (!node || node._wired) return;
+        node._wired = true;
+        node.addEventListener('click', function (e) {
+          var btn = e.target.closest('[data-idx]');
+          if (!btn) return;
+          map.closePopup();
+          var en = cl.visList[+btn.dataset.idx];
+          if (en) openQuickview(en.d);
+        });
+      });
+      members.forEach(function (en) { en.cluster = cl; });
+      clusters.push(cl);
     });
 
     // Khung nhìn theo quốc gia — dùng khi chọn trong dropdown Du lịch
@@ -632,8 +694,7 @@
       foodDrop.querySelectorAll('[data-food-region]').forEach(function (b) {
         b.classList.toggle('drop-item-active', b.dataset.foodCountryName === activeFoodCountry && b.dataset.foodRegion === activeFoodRegion);
       });
-      foodLabel.textContent = tx('food', 'Ẩm thực') + (activeFoodCountry === 'all' ? '' : ': ' + (COUNTRY_LABEL[activeFoodCountry] || activeFoodCountry)) +
-        (activeFoodRegion === 'all' ? '' : ' · ' + activeFoodRegion);
+      foodLabel.textContent = tx('food', 'Ẩm thực');
     }
     var countryDialog = document.getElementById('map-country-dialog');
     if (countryDialog) {
@@ -678,7 +739,69 @@
         }));
       } catch (e) {}
     }
-    function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+    // Hàng chip dưới filter bar: hiện lựa chọn phụ đang áp dụng + số điểm.
+    // Nút × trên chip gỡ lựa chọn đó mà không cần mở lại dropdown.
+    var chipsRow = document.getElementById('map-filter-chips');
+    function renderChips(shown) {
+      if (!chipsRow) return;
+      chipsRow.replaceChildren();
+      var chips = [];
+      if (activeFilter === 'Thể thao' && activeSport !== 'all') {
+        var sb = sportDrop.querySelector('[data-sport="' + activeSport + '"]');
+        chips.push(['sport', tx('sport', 'Thể thao') + ': ' + (sb ? sb.textContent.trim() : activeSport)]);
+      }
+      if (activeFilter === 'Du lịch' && activeCountry !== 'all') {
+        var clabel = activeCountry.indexOf('continent:') === 0
+          ? (CONTINENT_LABEL[activeCountry.slice(10)] || activeCountry)
+          : (COUNTRY_LABEL[activeCountry] || activeCountry);
+        chips.push(['country', tx('travel', 'Du lịch') + ': ' + clabel]);
+      }
+      if (activeFilter === 'Ẩm thực' && activeFoodCountry !== 'all') {
+        chips.push(['food', tx('food', 'Ẩm thực') + ': ' + (COUNTRY_LABEL[activeFoodCountry] || activeFoodCountry) +
+          (activeFoodRegion === 'all' ? '' : ' · ' + activeFoodRegion)]);
+      }
+      chips.forEach(function (chip) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'map-chip';
+        b.dataset.clear = chip[0];
+        b.setAttribute('aria-label', tx('clear_filter', 'Bỏ lọc %1').replace('%1', chip[1]));
+        var text = document.createElement('span');
+        text.textContent = chip[1];
+        var x = document.createElement('b');
+        x.setAttribute('aria-hidden', 'true');
+        x.textContent = '×';
+        b.append(text, x);
+        chipsRow.appendChild(b);
+      });
+      if (chips.length || typeof shown === 'number') {
+        var status = document.createElement('span');
+        status.className = 'map-filter-status';
+        status.textContent = tx('showing', 'Đang hiện %1 điểm').replace('%1', shown);
+        chipsRow.appendChild(status);
+      }
+      chipsRow.hidden = !chipsRow.childElementCount;
+    }
+    if (chipsRow) {
+      chipsRow.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-clear]');
+        if (!btn) return;
+        var what = btn.dataset.clear;
+        if (what === 'sport') {
+          activeSport = 'all';
+          resetDrop(sportDrop, sportLabel, tx('sport', 'Thể thao'), 'sport');
+        } else if (what === 'country' && travelDrop) {
+          activeCountry = 'all';
+          resetDrop(travelDrop, travelLabel, tx('travel', 'Du lịch'), 'country');
+        } else if (what === 'food' && foodDrop) {
+          activeFoodCountry = 'all';
+          activeFoodRegion = 'all';
+          syncFoodFilter();
+        } else return;
+        applyFilters(true);
+        saveFilters();
+      });
+    }
 
     function normalizeText(value) {
       return value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd');
@@ -706,6 +829,11 @@
                : en.country === activeCountry));
         else on = false;
         on = on && terms.every(function (term) { return en.searchText.indexOf(term) !== -1; });
+        en._vis = on;
+        if (en.cluster) {
+          if (on) shown++;
+          return;
+        }
         if (on) {
           en.marker.addTo(map);
           var pinEl = en.marker.getElement() &&
@@ -715,7 +843,26 @@
         }
         else map.removeLayer(en.marker);
       });
+      clusters.forEach(function (cl) {
+        cl.visList = cl.members.filter(function (en) { return en._vis; });
+        map.removeLayer(cl.marker);
+        cl.members.forEach(function (en) { map.removeLayer(en.marker); });
+        if (!cl.visList.length) return;
+        if (cl.visList.length === 1) {
+          cl.visList[0].marker.addTo(map);
+          return;
+        }
+        cl.marker.addTo(map);
+        var cmEl = cl.marker.getElement();
+        if (cmEl) {
+          cmEl.querySelector('.map-cluster-count').textContent = cl.visList.length;
+          var pinEl = cmEl.querySelector('.athlete-pin');
+          if (pinEl) pinEl.style.animationDelay = Math.min(shown * 20, 1200) + 'ms';
+        }
+        cl.marker.setTooltipContent('<strong>' + tx('cluster_tip', '%1 điểm tại đây — bấm để chọn bài').replace('%1', cl.visList.length) + '</strong>');
+      });
       if (count) count.textContent = shown;
+      renderChips(shown);
       close();
 
       // Tự zoom theo filter: quốc gia cụ thể → khung nước đó;
@@ -734,7 +881,7 @@
       } else {
         var bounds = [];
         entries.forEach(function (en) {
-          if (map.hasLayer(en.marker)) bounds.push(en.marker.getLatLng());
+          if (en._vis !== false) bounds.push(en.marker.getLatLng());
         });
         if (bounds.length) {
           map.flyToBounds(L.latLngBounds(bounds), { padding: [50, 50], duration: 1.2, maxZoom: 7 });
@@ -792,8 +939,7 @@
         sportDrop.querySelectorAll('.drop-item').forEach(function (b) {
           b.classList.toggle('drop-item-active', b === btn);
         });
-        sportLabel.textContent = activeSport === 'all' ? tx('sport', 'Thể thao')
-          : tx('sport', 'Thể thao') + ': ' + cap(btn.textContent.trim());
+        sportLabel.textContent = tx('sport', 'Thể thao');
         setMainFilter('Thể thao', sportDrop.querySelector('[data-filter="Thể thao"]'));
         sportDrop.classList.remove('open');
         return;
@@ -808,7 +954,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.remove('drop-group-title-active');
         });
-        travelLabel.textContent = activeCountry === 'all' ? tx('travel', 'Du lịch') : tx('travel', 'Du lịch') + ': ' + (COUNTRY_LABEL[activeCountry] || activeCountry);
+        travelLabel.textContent = tx('travel', 'Du lịch');
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         countryDialog.close();
         return;
@@ -823,7 +969,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.toggle('drop-group-title-active', b === btn);
         });
-        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (CONTINENT_LABEL[btn.dataset.continent] || btn.dataset.continent);
+        travelLabel.textContent = tx('travel', 'Du lịch');
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         countryDialog.close();
         return;
@@ -845,7 +991,7 @@
       if (f === activeFilter) {
         sportDrop.classList.remove('open');
         if (travelDrop) travelDrop.classList.remove('open');
-        setMainFilter('all', null);
+        setMainFilter('all', filterBar.querySelector('[data-filter="all"]'));
       } else {
         setMainFilter(f, btn);
       }
@@ -940,14 +1086,14 @@
         var sb = sportDrop.querySelector('[data-sport="' + saved.sport + '"]');
         sportDrop.querySelector('[data-sport="all"]').classList.remove('drop-item-active');
         sb.classList.add('drop-item-active');
-        sportLabel.textContent = tx('sport', 'Thể thao') + ': ' + cap(sb.textContent.trim());
+        sportLabel.textContent = tx('sport', 'Thể thao');
       }
       if (saved.country && travelDrop && travelDrop.querySelector('[data-country="' + saved.country + '"]')) {
         activeCountry = saved.country;
         var cb = travelDrop.querySelector('[data-country="' + saved.country + '"]');
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         cb.classList.add('drop-item-active');
-        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (COUNTRY_LABEL[activeCountry] || activeCountry);
+        travelLabel.textContent = tx('travel', 'Du lịch');
       }
       if (saved.country && travelDrop && saved.country.indexOf('continent:') === 0 &&
           travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]')) {
@@ -955,7 +1101,7 @@
         var gb = travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]');
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         gb.classList.add('drop-group-title-active');
-        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (CONTINENT_LABEL[saved.country.slice(10)] || '');
+        travelLabel.textContent = tx('travel', 'Du lịch');
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
         : (f === 'Thể thao' ? sportDrop : f === 'Ẩm thực' ? foodDrop : travelDrop).querySelector(':scope > .home-tab');
@@ -990,7 +1136,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.remove('drop-group-title-active');
         });
-        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + name;
+        travelLabel.textContent = tx('travel', 'Du lịch');
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
       }
 

@@ -40,30 +40,6 @@
     </div>
     <div class="athlete-map-filters" id="athlete-map-filters">
       <input class="athlete-map-search" id="athlete-map-search" type="search" placeholder="{{ s.map.search_placeholder }}" aria-label="{{ s.map.search_aria }}">
-      {% if map_food_posts.size > 0 %}
-      <div class="filter-drop" id="filter-drop-food">
-        <button class="home-tab" type="button" data-filter="Ẩm thực" aria-haspopup="dialog" aria-controls="map-food-dialog"><span class="filter-drop-label">{{ s.map.food }}</span> <span class="drop-caret">▾</span></button>
-        <dialog class="map-country-dialog" id="map-food-dialog" aria-labelledby="map-food-title">
-          <div class="map-country-head">
-            <h3 id="map-food-title">{{ s.map.food_dialog_title }}</h3>
-            <button type="button" id="map-food-close" aria-label="{{ s.map.close }}">×</button>
-          </div>
-          <div class="drop-menu-countries">
-            <button class="drop-item drop-item-active" type="button" data-food-country="all">{{ s.map.all_countries }}</button>
-            <div class="drop-groups" id="map-food-groups"></div>
-          </div>
-        </dialog>
-      </div>
-      {% endif %}
-      <div class="filter-drop" id="filter-drop-sport">
-        <button class="home-tab" type="button" data-filter="Thể thao"><span class="filter-drop-label">{{ s.map.sport }}</span> <span class="drop-caret">▾</span></button>
-        <div class="drop-menu">
-          <button class="drop-item drop-item-active" type="button" data-sport="all">{{ s.map.all_sports }}</button>
-          {% for name in map_series %}
-          <button class="drop-item" type="button" data-sport="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
-          {% endfor %}
-        </div>
-      </div>
       {% if has_places %}
       <div class="filter-drop" id="filter-drop-travel">
         <button class="home-tab" type="button" data-filter="Du lịch" aria-haspopup="dialog" aria-controls="map-country-dialog"><span class="filter-drop-label">{{ s.map.travel }}</span> <span class="drop-caret">▾</span></button>
@@ -98,8 +74,33 @@
         </dialog>
       </div>
       {% endif %}
+      <div class="filter-drop" id="filter-drop-sport">
+        <button class="home-tab" type="button" data-filter="Thể thao"><span class="filter-drop-label">{{ s.map.sport }}</span> <span class="drop-caret">▾</span></button>
+        <div class="drop-menu">
+          <button class="drop-item drop-item-active" type="button" data-sport="all">{{ s.map.all_sports }}</button>
+          {% for name in map_series %}
+          <button class="drop-item" type="button" data-sport="{{ name | escape }}">{{ name | replace: "VĐV ", "" }}</button>
+          {% endfor %}
+        </div>
+      </div>
+      {% if map_food_posts.size > 0 %}
+      <div class="filter-drop" id="filter-drop-food">
+        <button class="home-tab" type="button" data-filter="Ẩm thực" aria-haspopup="dialog" aria-controls="map-food-dialog"><span class="filter-drop-label">{{ s.map.food }}</span> <span class="drop-caret">▾</span></button>
+        <dialog class="map-country-dialog" id="map-food-dialog" aria-labelledby="map-food-title">
+          <div class="map-country-head">
+            <h3 id="map-food-title">{{ s.map.food_dialog_title }}</h3>
+            <button type="button" id="map-food-close" aria-label="{{ s.map.close }}">×</button>
+          </div>
+          <div class="drop-menu-countries">
+            <button class="drop-item drop-item-active" type="button" data-food-country="all">{{ s.map.all_countries }}</button>
+            <div class="drop-groups" id="map-food-groups"></div>
+          </div>
+        </dialog>
+      </div>
+      {% endif %}
     </div>
   </div>
+  <div class="map-filter-chips" id="map-filter-chips"></div>
   <div class="athlete-map" id="athlete-map">
     <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="{{ s.map.expand }}" title="{{ s.map.expand }}" aria-pressed="false">↗</button>
     <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="{{ s.map.fullscreen }}" title="{{ s.map.fullscreen }}" aria-pressed="false">⛶</button>

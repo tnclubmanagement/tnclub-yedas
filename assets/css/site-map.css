@@ -481,3 +481,98 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
   .athlete-map-filters .home-tab { max-width: calc(100vw - 48px); white-space: normal; overflow-wrap: anywhere; }
   .map-country-dialog { padding: 0.75rem; }
 }
+/* ---------- Ghim nhóm: nhiều bài cùng tọa độ ---------- */
+.map-cluster-count {
+  position: absolute;
+  top: -6px;
+  right: -9px;
+  z-index: 3;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--accent-blue);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+.place-pin-wrap .map-cluster-count { background: #f5a623; }
+
+/* Popup danh sách bài của ghim nhóm */
+.map-cluster-popup .leaflet-popup-content-wrapper {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.22);
+}
+.map-cluster-popup .leaflet-popup-content { margin: 0.45rem; line-height: 1.3; }
+.map-cluster-popup .leaflet-popup-tip { background: var(--surface); border: 1px solid var(--hairline); }
+.map-cluster-popup .leaflet-popup-close-button { color: var(--muted); }
+.map-cluster-list { display: flex; flex-direction: column; gap: 2px; max-height: 240px; overflow-y: auto; }
+.map-cluster-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.map-cluster-item:hover { background: var(--bg-light); }
+.map-cluster-item img, .map-cluster-noimg {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--bg-light);
+}
+.map-cluster-text { display: flex; flex-direction: column; min-width: 0; }
+.map-cluster-text strong { font-size: 0.85rem; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.map-cluster-text small { font-size: 0.72rem; color: var(--muted); }
+
+/* ---------- Hàng chip lựa chọn đang áp dụng ---------- */
+.map-filter-chips {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.35rem 0 0.9rem;
+}
+.map-filter-chips[hidden] { display: none; }
+.map-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 30px;
+  padding: 0.15rem 0.35rem 0.15rem 0.7rem;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.map-chip b {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg-light);
+  color: var(--muted);
+  font-weight: 600;
+}
+.map-chip:hover b { background: var(--hairline); color: var(--ink); }
+.map-filter-status { font-size: 0.78rem; color: var(--muted); }
+@media (max-width: 640px) {
+  .map-cluster-count { top: -5px; right: -7px; min-width: 17px; height: 17px; line-height: 17px; font-size: 0.62rem; }
+}

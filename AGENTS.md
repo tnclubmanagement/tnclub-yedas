@@ -189,6 +189,8 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
 
 ## Kiểm tra ảnh và bài du lịch
 
+- `ruby _tests/post_compact_test.rb`: kiểm tra CSS chế độ “Ảnh + tiêu đề mẹo” bằng Chrome headless ở desktop/mobile, gồm bố cục ảnh–chữ ẩm thực, heading, figure, grid, gallery và chuyển về đầy đủ. Mặc định dùng Google Chrome trên macOS; đặt `CHROME_BIN` khi dùng đường dẫn khác.
+
 - `bundle exec ruby _tests/site_map_images_test.rb`: kiểm tra avatar bản đồ,
   fallback sang thumbnail/cover khi thiếu avatar và đường dẫn VI/EN/baseurl.
 - `bundle exec ruby _tests/travel_batch_test.rb`: kiểm tra các bài có `photo_id`,

@@ -60,10 +60,18 @@
 /* Chế độ rút gọn vẫn giữ toàn bộ ảnh trong bài; chỉ ẩn chữ hướng dẫn. */
 .post-compact-view .post-body > p:has(> img),
 .post-compact-view .post-body > img,
-.post-compact-view .post-body > h3 {
+.post-compact-view .post-body > :is(h2, h3, h4, h5, h6),
+.post-compact-view .post-body > figure,
+.post-compact-view .post-body > .coffee-media-row {
   display: block;
 }
 
+.post-compact-view .coffee-media-text,
+.post-compact-view .post-body figcaption {
+  display: none;
+}
+
+.post-compact-view .post-body > .photo-grid,
 .post-compact-view .post-body > .post-gallery {
   display: grid;
 }

@@ -110,7 +110,8 @@
     var contentImages = Array.prototype.slice.call(
       document.querySelectorAll(".post-body img, .post-container img")
     ).filter(function (image) {
-      return !image.closest(".post-gallery") && !image.closest(".athlete-card") && !image.closest("a");
+      return !image.closest(".post-gallery") && !image.closest(".athlete-card") &&
+        !image.closest(".athlete-map-section") && !image.closest("a");
     });
     if (contentImages.length) attachLightbox(contentImages);
 

@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-05 00:00:00 +0700"
 title: "Urumqi: bắt đầu Tân Cương từ khu chợ đến hồ Thiên Trì"
 subtitle: "Một hành trình ngắn ở Tây Bắc Trung Quốc, không gom cả Tân Cương vào vài ngày"
+banner-img: "/posts/2027/02/05/urumqi/cover.jpg"
 cover-img: "/posts/2027/02/05/urumqi/cover.jpg"
-thumbnail-img: "/posts/2027/02/05/urumqi/cover.jpg"
 geo: [43.8256, 87.6168]
 place_name: "Urumqi"
 place_country: "China"

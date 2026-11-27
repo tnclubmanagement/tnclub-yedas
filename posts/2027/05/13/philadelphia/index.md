@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/13 00:00:00 +0700"
 title: "Philadelphia: Nơi nước Mỹ chào đời"
 subtitle: "Chuông Tự do, Independence Hall và thành phố của tình huynh đệ"
+banner-img: "/posts/2027/05/13/philadelphia/cover.png"
 cover-img: "/posts/2027/05/13/philadelphia/cover.png"
-thumbnail-img: "/posts/2027/05/13/philadelphia/cover.png"
 geo: [39.9526, -75.1652]
 place_name: "Philadelphia, PA"
 place_country: "United States"

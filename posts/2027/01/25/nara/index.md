@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-25 00:00:00 +0700"
 title: "Nara: gặp hươu, rồi ở lại nhìn chùa và khu vườn"
 subtitle: "Một ngày từ Kansai không chỉ có ảnh cho hươu ăn ở công viên"
+banner-img: "/posts/2027/01/25/nara/cover.jpg"
 cover-img: "/posts/2027/01/25/nara/cover.jpg"
-thumbnail-img: "/posts/2027/01/25/nara/cover.jpg"
 geo: [34.6851, 135.8430]
 place_name: "Nara"
 place_country: "Japan"

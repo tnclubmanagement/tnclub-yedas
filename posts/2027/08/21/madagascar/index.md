@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/21 00:00:00 +0700"
 title: "Madagascar: Hòn đảo tiến hóa riêng của Trái Đất"
 subtitle: "Đại lộ baobab huyền thoại, vượn cáo nhảy múa và rừng đá tsingy sắc như dao"
+banner-img: "/posts/2027/08/21/madagascar/cover.jpg"
 cover-img: "/posts/2027/08/21/madagascar/cover.jpg"
-thumbnail-img: "/posts/2027/08/21/madagascar/cover.jpg"
 geo: [-20.2508, 44.4183]
 place_name: "Avenue of the Baobabs"
 place_country: "Madagascar"

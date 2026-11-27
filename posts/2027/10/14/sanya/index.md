@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/14 00:00:00 +0700"
 title: "Tam Á: Nhiệt đới biển xanh ở cực nam Trung Quốc"
 subtitle: "Vịnh Á Long, đảo Ngô Chi Châu và mùa đông ấm của đảo Hải Nam"
+banner-img: "/posts/2027/10/14/sanya/cover.jpg"
 cover-img: "/posts/2027/10/14/sanya/cover.jpg"
-thumbnail-img: "/posts/2027/10/14/sanya/cover.jpg"
 geo: [18.2528, 109.5119]
 place_name: "Tam Á (Sanya), đảo Hải Nam"
 place_country: "China"

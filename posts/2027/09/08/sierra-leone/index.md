@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/08 00:00:00 +0700"
 title: "Sierra Leone: Những bãi biển đẹp nhất Tây Phi chưa ai biết"
 subtitle: "Bán đảo Freetown với bãi River No.2 và Tokeh, Banana Island và câu chuyện vượt lên quá khứ"
+banner-img: "/posts/2027/09/08/sierra-leone/cover.jpg"
 cover-img: "/posts/2027/09/08/sierra-leone/cover.jpg"
-thumbnail-img: "/posts/2027/09/08/sierra-leone/cover.jpg"
 geo: [8.4844, -13.2344]
 place_name: "Freetown"
 place_country: "Sierra Leone"

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:02:00 +0700"
 title: "[02 · Ăn ngon miền Trung] : Mì Quảng và cao lầu ở Hội An"
 subtitle: "Ít nước không có nghĩa giống nhau: nhìn sợi, nhân và phần giòn"
-cover-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg"
-thumbnail-img: "https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg"
+banner-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg"
+cover-img: "https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Hội An, Mì Quảng, Cao lầu]
 series: "Ăn ngon miền Trung"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-14 00:00:00 +0700"
 title: "Juliane Schenk: một vị trí của cầu lông Đức giữa nhóm đầu thế giới"
 subtitle: "Huy chương thế giới 2011 và hành trình lên số 2 đơn nữ của tay vợt Krefeld"
+banner-img: "/posts/2027/11/14-juliane-schenk/avatar.jpg"
 cover-img: "/posts/2027/11/14-juliane-schenk/avatar.jpg"
-thumbnail-img: "/posts/2027/11/14-juliane-schenk/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Đức, Juliane Schenk, Đơn nữ]

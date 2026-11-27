@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-04 00:00:00 +0700"
 title: "Jan-Ove Waldner: 'Mozart của bóng bàn' — huyền thoại châu Âu"
 subtitle: "Người phương Tây duy nhất vô địch đơn Olympic và thách thức 5 thế hệ Trung Quốc"
+banner-img: "/posts/2026/12/04/jan-ove-waldner/avatar.jpg"
 cover-img: "/posts/2026/12/04/jan-ove-waldner/avatar.jpg"
-thumbnail-img: "/posts/2026/12/04/jan-ove-waldner/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Jan-Ove Waldner, Thụy Điển]

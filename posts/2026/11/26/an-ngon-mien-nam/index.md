@@ -2,7 +2,7 @@
 layout: page
 title: "Ăn ngon miền Nam"
 subtitle: "6 bài món mặn: từ hủ tiếu Sài Gòn đến bánh khọt Vũng Tàu và lẩu mắm Châu Đốc"
-cover-img: "https://monngonmoingay.com/wp-content/uploads/2025/05/mon-ngon-mien-nam-1-1280x765.jpg"
+banner-img: "https://monngonmoingay.com/wp-content/uploads/2025/05/mon-ngon-mien-nam-1-1280x765.jpg"
 ---
 
 Mùi sườn nướng của <span>cơm tấm</span>, tô <span>hủ tiếu</span> nóng hay nồi <span>lẩu mắm</span> nhiều rau kể những câu chuyện khác nhau về bữa ăn miền Nam. Series chọn Sài Gòn, Vũng Tàu và Châu Đốc làm ba điểm dừng, không coi cả vùng có cùng một khẩu vị.

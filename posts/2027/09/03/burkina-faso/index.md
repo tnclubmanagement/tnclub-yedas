@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/03 00:00:00 +0700"
 title: "Burkina Faso: Đỉnh Sindou và đất nước của 'những người đàn ông chính trực'"
 subtitle: "Rừng đá nhọn Sindou, vườn quốc gia Nazinga và tinh thần hiếu khách vùng Sahel"
+banner-img: "/posts/2027/09/03/burkina-faso/cover.jpg"
 cover-img: "/posts/2027/09/03/burkina-faso/cover.jpg"
-thumbnail-img: "/posts/2027/09/03/burkina-faso/cover.jpg"
 geo: [10.3147, -5.1697]
 place_name: "Pics de Sindou"
 place_country: "Burkina Faso"

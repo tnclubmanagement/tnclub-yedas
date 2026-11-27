@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/06 00:00:00 +0700"
 title: "Thung lũng Sacred Valley: Trái tim của đế chế Inca"
 subtitle: "Pisac, Ollantaytambo, ruộng muối Maras và vòng tròn Moray"
+banner-img: "/posts/2027/06/06/sacred-valley/cover.png"
 cover-img: "/posts/2027/06/06/sacred-valley/cover.png"
-thumbnail-img: "/posts/2027/06/06/sacred-valley/cover.png"
 geo: [-13.3333, -72.0833]
 place_name: "Sacred Valley, Cusco"
 place_country: "Peru"

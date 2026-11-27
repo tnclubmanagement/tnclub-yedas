@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-26 00:00:00 +0700"
 title: "Melbourne: thủ phủ cà phê, nghệ thuật đường phố và tram cổ"
 subtitle: "Laneways đầy graffiti, Federation Square, Great Ocean Road và những quán cafe tốt nhất thế giới"
+banner-img: "/posts/2027/03/26/melbourne/cover.png"
 cover-img: "/posts/2027/03/26/melbourne/cover.png"
-thumbnail-img: "/posts/2027/03/26/melbourne/cover.png"
 geo: [-37.8136, 144.9631]
 place_name: "Melbourne, Victoria"
 place_country: "Australia"

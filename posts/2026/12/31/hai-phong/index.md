@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-31 00:00:00 +0700"
 title: "Hải Phòng: từ bát bánh đa cua đến vịnh Lan Hạ"
 subtitle: "Một hành trình nối phố cảng, Cát Bà và những bữa ăn đậm vị biển"
+banner-img: "/posts/2026/12/31/hai-phong/cover.jpg"
 cover-img: "/posts/2026/12/31/hai-phong/cover.jpg"
-thumbnail-img: "/posts/2026/12/31/hai-phong/cover.jpg"
 geo: [20.8449, 106.6881]
 place_name: "Hải Phòng"
 place_country: "Vietnam"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/11 00:00:00 +0700"
 title: "Cửu Trại Câu: Thung lũng nước ngũ sắc không thật như nước mơ"
 subtitle: "Những hồ nước xanh pha lê, thác Trai Châu và thung lũng đẹp nhất Tứ Xuyên"
+banner-img: "/posts/2027/09/11/jiuzhaigou/cover.jpg"
 cover-img: "/posts/2027/09/11/jiuzhaigou/cover.jpg"
-thumbnail-img: "/posts/2027/09/11/jiuzhaigou/cover.jpg"
 geo: [33.2597, 103.9145]
 place_name: "Cửu Trại Câu (Jiuzhaigou)"
 place_country: "China"

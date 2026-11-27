@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/30 00:00:00 +0700"
 title: "Rotterdam: Kiến trúc tương lai của Hà Lan"
 subtitle: "Nhà khối lập phương, chợ Markthal và cảng lớn nhất châu Âu"
+banner-img: "/posts/2027/04/30/rotterdam/cover.png"
 cover-img: "/posts/2027/04/30/rotterdam/cover.png"
-thumbnail-img: "/posts/2027/04/30/rotterdam/cover.png"
 geo: [51.9244, 4.4777]
 place_name: "Rotterdam, Zuid-Holland"
 place_country: "Netherlands"

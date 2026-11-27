@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-31 00:00:00 +0700"
 title: "Bukittinggi: đồng hồ Jam Gadang và cảnh cao nguyên Minangkabau"
 subtitle: "Một điểm dừng Tây Sumatra cho văn hóa, chợ và những khoảng nhìn ra thung lũng"
+banner-img: "/posts/2028/01/31-bukittinggi/cover.jpg"
 cover-img: "/posts/2028/01/31-bukittinggi/cover.jpg"
-thumbnail-img: "/posts/2028/01/31-bukittinggi/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Bukittinggi, Sumatra, Văn hóa]
 geo: [-0.305, 100.369]

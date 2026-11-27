@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/28 00:00:00 +0700"
 title: "Lebanon: Beirut — Paris của Trung Đông một thời vang bóng"
 subtitle: "Baalbek La Mã hùng vĩ nhất, hang Jeita, Byblos 7.000 năm và ẩm thực đỉnh cao vùng"
+banner-img: "/posts/2027/07/28/lebanon/cover.jpg"
 cover-img: "/posts/2027/07/28/lebanon/cover.jpg"
-thumbnail-img: "/posts/2027/07/28/lebanon/cover.jpg"
 geo: [33.8938, 35.5018]
 place_name: "Beirut"
 place_country: "Lebanon"

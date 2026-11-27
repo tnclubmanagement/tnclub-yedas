@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-09 00:00:00 +0700"
 title: "Hàn Quốc: đi chậm giữa cung điện và những con phố Seoul"
 subtitle: "Một hành trình đầu tiên với mái ngói cổ, đường lên Namsan và những bữa ăn nóng"
+banner-img: "/posts/2027/01/09/han-quoc/cover.jpg"
 cover-img: "/posts/2027/01/09/han-quoc/cover.jpg"
-thumbnail-img: "/posts/2027/01/09/han-quoc/cover.jpg"
 geo: [37.5796, 126.9770]
 place_name: "Seoul, Hàn Quốc"
 place_country: "Korea"

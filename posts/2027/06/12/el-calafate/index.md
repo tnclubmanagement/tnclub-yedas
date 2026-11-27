@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/12 00:00:00 +0700"
 title: "El Calafate và Perito Moreno: Sông băng sống của Patagonia"
 subtitle: "Khối băng 60m nứt vỡ trước mắt — một trong những sông băng còn đang tiến"
+banner-img: "/posts/2027/06/12/el-calafate/cover.png"
 cover-img: "/posts/2027/06/12/el-calafate/cover.png"
-thumbnail-img: "/posts/2027/06/12/el-calafate/cover.png"
 geo: [-50.3408, -72.2768]
 place_name: "El Calafate, Santa Cruz"
 place_country: "Argentina"

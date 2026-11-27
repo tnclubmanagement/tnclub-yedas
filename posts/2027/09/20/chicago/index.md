@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/20 00:00:00 +0700"
 title: "Chicago: Thành phố của những nhà chọc trời đầu tiên"
 subtitle: "Sông xanh ngày St. Patrick, kiến trúc bên hồ Michigan và deep-dish pizza gây tranh cãi"
+banner-img: "/posts/2027/09/20/chicago/cover.jpg"
 cover-img: "/posts/2027/09/20/chicago/cover.jpg"
-thumbnail-img: "/posts/2027/09/20/chicago/cover.jpg"
 geo: [41.8781, -87.6298]
 place_name: "Chicago, IL"
 place_country: "United States"

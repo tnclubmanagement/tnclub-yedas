@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-07 00:00:00 +0700"
 title: "Troy và Çanakkale: chín lớp thành phố chồng lên nhau dưới một đồi đất"
 subtitle: "Đi tìm thành Troy của Homer, bảo tàng khảo cổ và eo biển Dardanelles"
+banner-img: "/posts/2028/03/07-troy-canakkale/cover.jpg"
 cover-img: "/posts/2028/03/07-troy-canakkale/cover.jpg"
-thumbnail-img: "/posts/2028/03/07-troy-canakkale/cover.jpg"
 geo: [39.9575, 26.2389]
 place_name: "Troy (Truva) / Çanakkale"
 place_country: "Thổ Nhĩ Kỳ"

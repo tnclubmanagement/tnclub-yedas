@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-25 00:00:00 +0700"
 title: "Huế: cố đô ngàn năm thơ mộng"
 subtitle: "Kinh thành triều Nguyễn, dòng sông Hương và chốn an nhiên bậc nhất Việt Nam"
+banner-img: "/posts/2026/12/25/hue/cover.jpg"
 cover-img: "/posts/2026/12/25/hue/cover.jpg"
-thumbnail-img: "/posts/2026/12/25/hue/cover.jpg"
 geo: [16.46, 107.59]
 place_name: "Huế"
 place_country: "Vietnam"

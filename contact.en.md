@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 subtitle: Always happy to hear from you
-cover-img: "/assets/img/hero-banner.jpg"
+banner-img: "/assets/img/hero-banner.jpg"
 permalink: /contact/
 lang: en
 ---

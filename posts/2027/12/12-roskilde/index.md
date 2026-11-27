@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-12 00:00:00 +0700"
 title: "Roskilde: từ nhà thờ hoàng gia xuống bến thuyền Viking"
 subtitle: "Một chuyến đi khỏi Copenhagen có hai chủ đề rõ ràng và đủ chỗ để đi bộ"
+banner-img: "/posts/2027/12/12-roskilde/cover.jpg"
 cover-img: "/posts/2027/12/12-roskilde/cover.jpg"
-thumbnail-img: "/posts/2027/12/12-roskilde/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Roskilde, Bắc Âu, Di sản]
 geo: [55.642, 12.081]

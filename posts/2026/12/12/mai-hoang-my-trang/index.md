@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-12 00:00:00 +0700"
 title: "Mai Hoàng Mỹ Trang: 'nữ hoàng' bóng bàn Việt Nam"
 subtitle: "Nhà vô địch quốc gia nhiều nhất và gương mặt SEA Games của đơn nữ Việt Nam"
+banner-img: "/posts/2026/12/12/mai-hoang-my-trang/avatar.jpg"
 cover-img: "/posts/2026/12/12/mai-hoang-my-trang/avatar.jpg"
-thumbnail-img: "/posts/2026/12/12/mai-hoang-my-trang/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Mai Hoàng Mỹ Trang, Việt Nam]

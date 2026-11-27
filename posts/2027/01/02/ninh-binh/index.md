@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-02 00:00:00 +0700"
 title: "Ninh Bình: đi thuyền giữa núi đá và ký ức Hoa Lư"
 subtitle: "Tràng An, Tam Cốc và những con đường làng hợp cho một chuyến đi chậm"
+banner-img: "/posts/2027/01/02/ninh-binh/cover.jpg"
 cover-img: "/posts/2027/01/02/ninh-binh/cover.jpg"
-thumbnail-img: "/posts/2027/01/02/ninh-binh/cover.jpg"
 geo: [20.2510, 105.9180]
 place_name: "Ninh Bình"
 place_country: "Vietnam"

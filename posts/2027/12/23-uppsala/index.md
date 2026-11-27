@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-23 00:00:00 +0700"
 title: "Uppsala: nhà thờ, đại học và một vòng bên sông Fyris"
 subtitle: "Một thành phố gần Stockholm nhưng đáng có câu chuyện riêng"
+banner-img: "/posts/2027/12/23-uppsala/cover.jpg"
 cover-img: "/posts/2027/12/23-uppsala/cover.jpg"
-thumbnail-img: "/posts/2027/12/23-uppsala/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Uppsala, Bắc Âu, Lịch sử]
 geo: [59.859, 17.639]

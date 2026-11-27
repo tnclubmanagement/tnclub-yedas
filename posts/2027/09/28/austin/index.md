@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/28 00:00:00 +0700"
 title: "Austin: Keep Austin Weird — nhạc sống mỗi đêm và BBQ Texas đỉnh cao"
 subtitle: "Thủ phủ nhạc sống của thế giới, Franklin Barbecue xếp hàng và dơi bay lúc hoàng hôn"
+banner-img: "/posts/2027/09/28/austin/cover.jpg"
 cover-img: "/posts/2027/09/28/austin/cover.jpg"
-thumbnail-img: "/posts/2027/09/28/austin/cover.jpg"
 geo: [30.2672, -97.7431]
 place_name: "Austin, TX"
 place_country: "United States"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-14 00:00:00 +0700"
 title: "Bornholm: một hòn đảo Baltic nên được chia thành những ngày nhỏ"
 subtitle: "Tàn tích Hammershus, làng ven biển và câu chuyện cá hun khói của Đan Mạch"
+banner-img: "/posts/2027/12/14-bornholm/cover.jpg"
 cover-img: "/posts/2027/12/14-bornholm/cover.jpg"
-thumbnail-img: "/posts/2027/12/14-bornholm/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Bornholm, Bắc Âu, Đảo, Biển]
 geo: [55.16, 14.92]

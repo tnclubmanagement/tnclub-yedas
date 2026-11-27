@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/24 00:00:00 +0700"
 title: "Malawi: Trái tim ấm áp của châu Phi bên hồ nước ngọc lớn nhất"
 subtitle: "Lake Malawi trong như biển, cá cichlid nghìn màu và đất nước được gọi là 'trái tim ấm'"
+banner-img: "/posts/2027/08/24/malawi/cover.jpg"
 cover-img: "/posts/2027/08/24/malawi/cover.jpg"
-thumbnail-img: "/posts/2027/08/24/malawi/cover.jpg"
 geo: [-14.0333, 34.8500]
 place_name: "Cape Maclear"
 place_country: "Malawi"

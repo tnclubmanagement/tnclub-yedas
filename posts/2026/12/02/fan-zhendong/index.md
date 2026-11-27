@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-02 00:00:00 +0700"
 title: "Fan Zhendong: vàng Olympic Paris 2024 và người kế thừa Ma Long"
 subtitle: "Từ thần đồng 16 tuổi thành chủ nhân Grand Slam"
+banner-img: "/posts/2026/12/02/fan-zhendong/avatar.jpg"
 cover-img: "/posts/2026/12/02/fan-zhendong/avatar.jpg"
-thumbnail-img: "/posts/2026/12/02/fan-zhendong/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Fan Zhendong, Trung Quốc]

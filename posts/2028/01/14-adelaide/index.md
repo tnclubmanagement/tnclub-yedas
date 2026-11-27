@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-14 00:00:00 +0700"
 title: "Adelaide: một ngày từ chợ trung tâm tới khu vườn và bãi biển"
 subtitle: "Thành phố South Australia cho một nhịp nghỉ giữa các hành trình dài"
+banner-img: "/posts/2028/01/14-adelaide/cover.jpg"
 cover-img: "/posts/2028/01/14-adelaide/cover.jpg"
-thumbnail-img: "/posts/2028/01/14-adelaide/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Adelaide, South Australia, Thành phố]
 geo: [-34.929, 138.601]

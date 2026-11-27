@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/03 00:00:00 +0700"
 title: "Senegal: Cửa ngờ Tây Phi của văn hóa và đảo Gorée"
 subtitle: "Đảo lịch sử nô lệ, Dakar nhộn nhịp, hồ hồng Retba và sinh thái Casamance"
+banner-img: "/posts/2027/07/03/senegal/cover.jpg"
 cover-img: "/posts/2027/07/03/senegal/cover.jpg"
-thumbnail-img: "/posts/2027/07/03/senegal/cover.jpg"
 geo: [14.7167, -17.4677]
 place_name: "Dakar"
 place_country: "Senegal"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/30 00:00:00 +0700"
 title: "Cyprus: Đảo Aphrodite — biển xanh giữa Âu-Á-Phi"
 subtitle: "Paphos quê hương thần Vệ nữ, Ayia Napa biển xanh, Troodos làng đá và Nicosia chia đôi cuối cùng"
+banner-img: "/posts/2027/07/30/cyprus/cover.jpg"
 cover-img: "/posts/2027/07/30/cyprus/cover.jpg"
-thumbnail-img: "/posts/2027/07/30/cyprus/cover.jpg"
 geo: [34.7720, 32.4297]
 place_name: "Paphos"
 place_country: "Cyprus"

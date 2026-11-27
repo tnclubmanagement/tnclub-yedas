@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/29 00:00:00 +0700"
 title: "Ninh Thuận: Vùng nắng gió của tháp Chăm, nho và biển Vĩnh Hy"
 subtitle: "Hang Rái, đồng cát Nam Cương, tháp Po Klong Garai và vịnh nước trong nhất miền Trung"
+banner-img: "/posts/2027/10/29/ninh-thuan/cover.jpg"
 cover-img: "/posts/2027/10/29/ninh-thuan/cover.jpg"
-thumbnail-img: "/posts/2027/10/29/ninh-thuan/cover.jpg"
 geo: [11.5644, 108.9886]
 place_name: "Ninh Thuận (Phan Rang)"
 place_country: "Vietnam"

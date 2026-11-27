@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-26 00:00:00 +0700"
 title: "Semarang: phố cảng nhiều lớp văn hóa ở bờ bắc Java"
 subtitle: "Kota Lama, Lawang Sewu và một bữa lumpia giữa các chặng đi bộ"
+banner-img: "/posts/2028/01/26-semarang/cover.jpg"
 cover-img: "/posts/2028/01/26-semarang/cover.jpg"
-thumbnail-img: "/posts/2028/01/26-semarang/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Semarang, Java, Kiến trúc]
 geo: [-6.967, 110.417]

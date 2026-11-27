@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/22 00:00:00 +0700"
 title: "New Orleans: Thành phố không giống nơi nào trên nước Mỹ"
 subtitle: "Jazz ở Frenchmen, beignet phủ đường và linh hồn Creole-French duy nhất nước Mỹ"
+banner-img: "/posts/2027/09/22/new-orleans/cover.jpg"
 cover-img: "/posts/2027/09/22/new-orleans/cover.jpg"
-thumbnail-img: "/posts/2027/09/22/new-orleans/cover.jpg"
 geo: [29.9511, -90.0715]
 place_name: "New Orleans, LA"
 place_country: "United States"

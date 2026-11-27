@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/10 00:00:00 +0700"
 title: "Thụy Điển: Stockholm — thành phố trên 14 hòn đảo"
 subtitle: "Gamla Stan cổ kính, quần đảo 30.000 hòn đảo và nghệ thuật tàu điện ngầm"
+banner-img: "/posts/2027/08/10/sweden/cover.jpg"
 cover-img: "/posts/2027/08/10/sweden/cover.jpg"
-thumbnail-img: "/posts/2027/08/10/sweden/cover.jpg"
 geo: [59.3293, 18.0686]
 place_name: "Stockholm"
 place_country: "Sweden"

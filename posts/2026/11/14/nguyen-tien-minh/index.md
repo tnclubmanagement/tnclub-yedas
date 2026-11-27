@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-14 00:00:00 +0700"
 title: "Nguyễn Tiến Minh: tay vợt số 1 lịch sử cầu lông Việt Nam"
 subtitle: "Top 5 thế giới, HCĐ thế giới 2013 và hai thập kỷ gánh cầu lông nước nhà"
+banner-img: "/posts/2026/11/14/nguyen-tien-minh/avatar.jpg"
 cover-img: "/posts/2026/11/14/nguyen-tien-minh/avatar.jpg"
-thumbnail-img: "/posts/2026/11/14/nguyen-tien-minh/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Nguyễn Tiến Minh, Việt Nam]

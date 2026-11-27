@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-27 00:00:00 +0700"
 title: "Bohol: hàng nghìn đồi sô cô la và con vật có đôi mắt lớn nhất thế giới"
 subtitle: "Chocolate Hills, tarsier, sông Loboc và biển Panglao — hòn đảo đủ cho cả phiêu lưu lẫn sống chậm"
+banner-img: "/posts/2027/02/27/bohol/cover.jpg"
 cover-img: "/posts/2027/02/27/bohol/cover.jpg"
-thumbnail-img: "/posts/2027/02/27/bohol/cover.jpg"
 geo: [9.8330, 124.1646]
 place_name: "Bohol"
 place_country: "Philippines"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-18 00:00:00 +0700"
 title: "Agra và Taj Mahal: viên ngọc cẩm thạch của đế quốc Mughal"
 subtitle: "Bình minh trên Taj Mahal, Pháo đài Agra sa thạch đỏ và thành phố bỏ hoang Fatehpur Sikri"
+banner-img: "/posts/2027/03/18/agra/cover.jpg"
 cover-img: "/posts/2027/03/18/agra/cover.jpg"
-thumbnail-img: "/posts/2027/03/18/agra/cover.jpg"
 geo: [27.1767, 78.0081]
 place_name: "Agra, Uttar Pradesh"
 place_country: "India"

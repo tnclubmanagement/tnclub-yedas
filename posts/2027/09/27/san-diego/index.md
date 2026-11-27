@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/27 00:00:00 +0700"
 title: "San Diego: Thành phố của thời tiết hoàn hảo và bãi biển quanh năm"
 subtitle: "Balboa Park, hải cẩu La Jolla, biên giới Mexico ngay cạnh và bia craft đỉnh nhất nước"
+banner-img: "/posts/2027/09/27/san-diego/cover.jpg"
 cover-img: "/posts/2027/09/27/san-diego/cover.jpg"
-thumbnail-img: "/posts/2027/09/27/san-diego/cover.jpg"
 geo: [32.7157, -117.1611]
 place_name: "San Diego, CA"
 place_country: "United States"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/11 00:00:00 +0700"
 title: "Bờ biển Amalfi: Những thị trấn bám vách đá đẹp nhất Ý"
 subtitle: "Positano, Amalfi, Ravello trên cung đường ven biển huyền thoại của Campania"
+banner-img: "/posts/2027/04/11/amalfi/cover.png"
 cover-img: "/posts/2027/04/11/amalfi/cover.png"
-thumbnail-img: "/posts/2027/04/11/amalfi/cover.png"
 geo: [40.6281, 14.4850]
 place_name: "Amalfi Coast, Campania"
 place_country: "Italy"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-28 00:00:00 +0700"
 title: "Malang: phố cao nguyên, những khu nhà màu và một bữa bakso"
 subtitle: "Đừng để thành phố Đông Java chỉ còn là điểm đón xe đi Bromo"
+banner-img: "/posts/2028/01/28-malang/cover.jpg"
 cover-img: "/posts/2028/01/28-malang/cover.jpg"
-thumbnail-img: "/posts/2028/01/28-malang/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Malang, Đông Java, Thành phố]
 geo: [-7.983, 112.633]

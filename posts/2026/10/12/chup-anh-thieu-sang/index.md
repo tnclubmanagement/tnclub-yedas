@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-12 00:00:00 +0700"
 title: "Chụp ảnh thiếu sáng/ban đêm bằng điện thoại sao cho đỡ nhoè?"
 subtitle: "Hiểu ánh sáng, chọn đúng camera và giữ máy đủ vững"
+banner-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 cover-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
-thumbnail-img: "/posts/2026/10/12/chup-anh-thieu-sang/cover-1.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Ánh sáng, Ban đêm, Điện thoại]
 after-content:

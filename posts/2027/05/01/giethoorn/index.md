@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/01 00:00:00 +0700"
 title: "Giethoorn: 'Venice của Hà Lan' không có đường xe"
 subtitle: "Làng kênh mái tranh chỉ đi lại bằng thuyền và đi bộ qua cầu gỗ"
+banner-img: "/posts/2027/05/01/giethoorn/cover.png"
 cover-img: "/posts/2027/05/01/giethoorn/cover.png"
-thumbnail-img: "/posts/2027/05/01/giethoorn/cover.png"
 geo: [52.7402, 6.0778]
 place_name: "Giethoorn, Overijssel"
 place_country: "Netherlands"

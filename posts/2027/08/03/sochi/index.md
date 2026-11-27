@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/03 00:00:00 +0700"
 title: "Nga: Sochi — nghỉ dưỡng biển Đen và núi tuyết Caucasus"
 subtitle: "Krasnaya Polyana trượt tuyết, công viên Olympic và bờ biển cận nhiệt đới"
+banner-img: "/posts/2027/08/03/sochi/cover.jpg"
 cover-img: "/posts/2027/08/03/sochi/cover.jpg"
-thumbnail-img: "/posts/2027/08/03/sochi/cover.jpg"
 geo: [43.5855, 39.7231]
 place_name: "Sochi"
 place_country: "Russia"

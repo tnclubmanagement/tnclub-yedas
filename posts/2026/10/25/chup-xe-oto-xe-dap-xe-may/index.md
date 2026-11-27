@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-25 00:00:00 +0700"
 title: "Chụp xe hơi, xe đạp, xe máy \"có hồn\" hơn là đứng yên chụp thẳng"
 subtitle: "Mẹo chọn góc 3/4, hậu cảnh, và chụp panning tạo chuyển động"
+banner-img: "/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/cover-oto.jpg"
 cover-img: "/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/cover-oto.jpg"
-thumbnail-img: "/posts/2026/10/25/chup-xe-oto-xe-dap-xe-may/cover-oto.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Phương tiện, Bố cục]
 ---

@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-02 00:00:00 +0700"
 title: "Chae Yu-jung: nhà vô địch thế giới đôi nam nữ của Hàn Quốc"
 subtitle: "Bản lĩnh đánh bại cặp 'bất khả chiến bại' Trung Quốc trong chung kết Worlds 2023"
+banner-img: "/posts/2027/11/02/chae-yu-jung/avatar.jpg"
 cover-img: "/posts/2027/11/02/chae-yu-jung/avatar.jpg"
-thumbnail-img: "/posts/2027/11/02/chae-yu-jung/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Chae Yu-jung, Hàn Quốc, Đánh đôi]

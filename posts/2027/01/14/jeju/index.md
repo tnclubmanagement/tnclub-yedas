@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-14 00:00:00 +0700"
 title: "Jeju: nhìn dấu núi lửa trên những cung đường ra biển"
 subtitle: "Seongsan Ilchulbong, Jusangjeolli và cách khám phá đảo mà không dành cả ngày trên xe"
+banner-img: "/posts/2027/01/14/jeju/cover.jpg"
 cover-img: "/posts/2027/01/14/jeju/cover.jpg"
-thumbnail-img: "/posts/2027/01/14/jeju/cover.jpg"
 geo: [33.4581, 126.9425]
 place_name: "Jeju"
 place_country: "Korea"

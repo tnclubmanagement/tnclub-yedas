@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-11 00:00:00 +0700"
 title: "Aalborg: từ bờ Limfjord tới những câu chuyện thiết kế"
 subtitle: "Một đô thị Jutland đáng ghé vì quá trình thay đổi, không chỉ vì mặt tiền cổ"
+banner-img: "/posts/2027/12/11-aalborg/cover.jpg"
 cover-img: "/posts/2027/12/11-aalborg/cover.jpg"
-thumbnail-img: "/posts/2027/12/11-aalborg/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Aalborg, Bắc Âu, Kiến trúc]
 geo: [57.049, 9.922]

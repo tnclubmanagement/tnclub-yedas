@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/18 00:00:00 +0700"
 title: "Yemen: Socotra — hòn đảo ngoài hành tinh thật sự có"
 subtitle: "Rừng cây máu rồng kỳ dị, thành phố Manhattan của sa mạc và cà phê Mokha huyền thoại"
+banner-img: "/posts/2027/08/18/yemen/cover.jpg"
 cover-img: "/posts/2027/08/18/yemen/cover.jpg"
-thumbnail-img: "/posts/2027/08/18/yemen/cover.jpg"
 geo: [12.4634, 53.8237]
 place_name: "Socotra"
 place_country: "Yemen"

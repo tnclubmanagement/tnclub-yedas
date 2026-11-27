@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/21 00:00:00 +0700"
 title: "Medellín: Thành phố mùa xuân vĩnh cửu"
 subtitle: "Comuna 13 tái sinh, cáp treo trên đồi, plaza Botero và câu chuyện chuyển mình"
+banner-img: "/posts/2027/06/21/medellin/cover.png"
 cover-img: "/posts/2027/06/21/medellin/cover.png"
-thumbnail-img: "/posts/2027/06/21/medellin/cover.png"
 geo: [6.2442, -75.5812]
 place_name: "Medellín, Antioquia"
 place_country: "Colombia"

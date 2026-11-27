@@ -2,7 +2,7 @@
 layout: page
 title: "Ăn ngon miền Bắc"
 subtitle: "6 bài để chọn món, hiểu cách ăn và đi chậm qua những hàng quà miền Bắc"
-cover-img: "https://tinviettravel.com/uploads/cam-nang-du-lich/2026_03/food-tour-ha-noi.jpg"
+banner-img: "https://tinviettravel.com/uploads/cam-nang-du-lich/2026_03/food-tour-ha-noi.jpg"
 ---
 
 Một bát <span>phở</span> buổi sáng, suất <span>bún chả</span> buổi trưa, rồi bữa <span>chả cá</span> ngồi lại buổi tối: ăn ngon không nhất thiết phải chạy qua thật nhiều quán. Series này bắt đầu ở Hà Nội, dành một chặng riêng cho Hải Phòng, để nhận diện món trước khi chọn chỗ ngồi.

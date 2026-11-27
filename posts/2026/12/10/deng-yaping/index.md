@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-10 00:00:00 +0700"
 title: "Deng Yaping: nữ hoàng 1m49 thống trị thập niên 90"
 subtitle: "4 HCV Olympic — từ cô gái bị từ chối vì quá thấp thành huyền thoại"
+banner-img: "/posts/2026/12/10/deng-yaping/avatar.jpg"
 cover-img: "/posts/2026/12/10/deng-yaping/avatar.jpg"
-thumbnail-img: "/posts/2026/12/10/deng-yaping/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Deng Yaping, Trung Quốc]

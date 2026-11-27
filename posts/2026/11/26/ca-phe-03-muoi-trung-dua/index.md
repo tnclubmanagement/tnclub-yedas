@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:03:00 +0700"
 title: "[03 · Hiểu menu cà phê] : Muối, trứng, dừa và sữa chua"
 subtitle: "Những món cà phê béo ngọt kiểu Việt: hiểu lớp kem và nguyên liệu đi kèm"
+banner-img: "/posts/2026/11/26/ca-phe-03-muoi-trung-dua/banner.jpg"
 cover-img: "/posts/2026/11/26/ca-phe-03-muoi-trung-dua/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/ca-phe-03-muoi-trung-dua/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-04 00:00:00 +0700"
 title: "Mysuru: cung điện, chợ và nhịp sống ngoài những buổi thắp sáng"
 subtitle: "Thành phố Karnataka nên được ghé vì nhiều điều hơn một tấm ảnh ban đêm"
+banner-img: "/posts/2028/02/04-mysuru/cover.jpg"
 cover-img: "/posts/2028/02/04-mysuru/cover.jpg"
-thumbnail-img: "/posts/2028/02/04-mysuru/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Mysuru, Mysore, Karnataka]
 geo: [12.296, 76.639]

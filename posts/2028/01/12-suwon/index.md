@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-12 00:00:00 +0700"
 title: "Suwon: đi một đoạn tường Hwaseong thay vì cố hoàn thành cả vòng"
 subtitle: "Di sản, khu phố và chợ địa phương trong một chuyến rời Seoul"
+banner-img: "/posts/2028/01/12-suwon/cover.jpg"
 cover-img: "/posts/2028/01/12-suwon/cover.jpg"
-thumbnail-img: "/posts/2028/01/12-suwon/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Suwon, Hwaseong, Di sản]
 geo: [37.264, 127.028]

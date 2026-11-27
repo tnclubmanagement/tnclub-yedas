@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/17 00:00:00 +0700"
 title: "London: Thủ đô hai bờ Thames, từ Westminster đến Shoreditch"
 subtitle: "Big Ben, Tower Bridge, bảo tàng miễn phí và những khu phố đa sắc"
+banner-img: "/posts/2027/04/17/london/cover.png"
 cover-img: "/posts/2027/04/17/london/cover.png"
-thumbnail-img: "/posts/2027/04/17/london/cover.png"
 geo: [51.5074, -0.1278]
 place_name: "London, England"
 place_country: "United Kingdom"

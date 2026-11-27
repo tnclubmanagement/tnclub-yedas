@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/09 00:00:00 +0700"
 title: "Mauritius: Đảo ngọc Ấn Độ Dương"
 subtitle: "Bãi biển thiên đường, đất bảy màu Chamarel và 'thác nước dưới biển' Le Morne"
+banner-img: "/posts/2027/07/09/mauritius/cover.jpg"
 cover-img: "/posts/2027/07/09/mauritius/cover.jpg"
-thumbnail-img: "/posts/2027/07/09/mauritius/cover.jpg"
 geo: [-20.3484, 57.5522]
 place_name: "Port Louis"
 place_country: "Mauritius"

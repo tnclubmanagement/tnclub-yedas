@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/02 00:00:00 +0700"
 title: "Paris: Kinh đô ánh sáng, bảo tàng và những buổi chiều bên sông Seine"
 subtitle: "Eiffel, Louvre, Montmartre và nghệ thuật sống chậm bên những quán cà phê vỉa hè"
+banner-img: "/posts/2027/04/02/paris/cover.png"
 cover-img: "/posts/2027/04/02/paris/cover.png"
-thumbnail-img: "/posts/2027/04/02/paris/cover.png"
 geo: [48.8566, 2.3522]
 place_name: "Paris, Île-de-France"
 place_country: "France"

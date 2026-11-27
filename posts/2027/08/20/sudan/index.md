@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/20 00:00:00 +0700"
 title: "Sudan: Đất nước có nhiều kim tự tháp hơn cả Ai Cập"
 subtitle: "Meroë giữa hoang nguyên, sông Nile huyền thoại và lòng hiếu khách người Sudan"
+banner-img: "/posts/2027/08/20/sudan/cover.jpg"
 cover-img: "/posts/2027/08/20/sudan/cover.jpg"
-thumbnail-img: "/posts/2027/08/20/sudan/cover.jpg"
 geo: [16.9370, 33.7490]
 place_name: "Meroë / Khartoum"
 place_country: "Sudan"

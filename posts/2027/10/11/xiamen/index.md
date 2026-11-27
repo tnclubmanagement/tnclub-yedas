@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/11 00:00:00 +0700"
 title: "Hạ Môn: Đảo Cổ Lãng Tự không xe cộ và phố biển Phúc Kiến"
 subtitle: "Biệt thự thuộc địa, cà phê nhìn eo biển và điểm xuất phát đến thổ lâu"
+banner-img: "/posts/2027/10/11/xiamen/cover.jpg"
 cover-img: "/posts/2027/10/11/xiamen/cover.jpg"
-thumbnail-img: "/posts/2027/10/11/xiamen/cover.jpg"
 geo: [24.4485, 118.0674]
 place_name: "Hạ Môn (Xiamen)"
 place_country: "China"

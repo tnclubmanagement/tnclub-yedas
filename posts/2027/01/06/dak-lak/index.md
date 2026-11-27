@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-06 00:00:00 +0700"
 title: "Đắk Lắk: một buổi cà phê, một chiều bên hồ Lắk"
 subtitle: "Buôn Ma Thuột, văn hóa nhà dài và cách khám phá cao nguyên có trách nhiệm"
+banner-img: "/posts/2027/01/06/dak-lak/cover.jpg"
 cover-img: "/posts/2027/01/06/dak-lak/cover.jpg"
-thumbnail-img: "/posts/2027/01/06/dak-lak/cover.jpg"
 geo: [12.6667, 108.0500]
 place_name: "Đắk Lắk"
 place_country: "Vietnam"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-01 00:00:00 +0700"
 title: "Trương Gia Giới: giữa rừng cột đá, để dành một ngày cho mây"
 subtitle: "Phân biệt Vũ Lăng Nguyên, Thiên Môn Sơn và Đại Hiệp Cốc trước khi lên lịch ở Hồ Nam"
+banner-img: "/posts/2027/02/01/truong-gia-gioi/cover.jpg"
 cover-img: "/posts/2027/02/01/truong-gia-gioi/cover.jpg"
-thumbnail-img: "/posts/2027/02/01/truong-gia-gioi/cover.jpg"
 geo: [29.1171, 110.4792]
 place_name: "Trương Gia Giới"
 place_country: "China"

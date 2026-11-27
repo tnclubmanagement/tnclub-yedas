@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/26 00:00:00 +0700"
 title: "Bahrain: Đảo quốc ngọc trai giữa vịnh Ba Tư"
 subtitle: "Pháo đài Bahrain UNESCO, đền Al Fateh, chợ Bab Al Bahrain và đường đua F1"
+banner-img: "/posts/2027/07/26/bahrain/cover.jpg"
 cover-img: "/posts/2027/07/26/bahrain/cover.jpg"
-thumbnail-img: "/posts/2027/07/26/bahrain/cover.jpg"
 geo: [26.2285, 50.5860]
 place_name: "Manama"
 place_country: "Bahrain"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-10-30 00:00:00 +0700"
 title: "Yuta Watanabe: 'phù thủy' tay trái 1m66 của đôi nam nữ Nhật"
 subtitle: "Hai HCĐ Olympic liên tiếp cùng Arisa Higashino — cặp 'WataHiga' được yêu mến nhất Nhật Bản"
+banner-img: "/posts/2027/10/30/yuta-watanabe/avatar.jpg"
 cover-img: "/posts/2027/10/30/yuta-watanabe/avatar.jpg"
-thumbnail-img: "/posts/2027/10/30/yuta-watanabe/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Yuta Watanabe, Nhật Bản, Đánh đôi]

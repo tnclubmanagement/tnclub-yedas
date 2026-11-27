@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/26 00:00:00 +0700"
 title: "Angola: Thác Kalandula và vùng đất vừa mở cửa với thế giới"
 subtitle: "Thác lớn thứ hai châu Phi ít ai biết, hoang mạc Namib cực nam và Luanda bên biển"
+banner-img: "/posts/2027/08/26/angola/cover.jpg"
 cover-img: "/posts/2027/08/26/angola/cover.jpg"
-thumbnail-img: "/posts/2027/08/26/angola/cover.jpg"
 geo: [-9.0781, 16.0736]
 place_name: "Kalandula Falls / Luanda"
 place_country: "Angola"

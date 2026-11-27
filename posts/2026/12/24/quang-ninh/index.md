@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-24 00:00:00 +0700"
 title: "Quảng Ninh: vịnh di sản thế giới Hạ Long"
 subtitle: "Kỳ quan thiên nhiên thế giới và vùng đất Phật giáo Yên Tử"
+banner-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
 cover-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
-thumbnail-img: "/posts/2026/12/24/quang-ninh/cover.jpg"
 geo: [20.95, 107.07]
 place_name: "Quảng Ninh"
 place_country: "Vietnam"

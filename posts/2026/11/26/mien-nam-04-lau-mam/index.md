@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:04:00 +0700"
 title: "[04 · Ăn ngon miền Nam] : Lẩu mắm và món cá Châu Đốc"
 subtitle: "Một nồi dùng chung, nhiều rau và phần mắm nằm trong nước lẩu"
+banner-img: "/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg"
 cover-img: "/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-04-lau-mam/lau-mam.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Châu Đốc, An Giang, Lẩu mắm]
 series: "Ăn ngon miền Nam"

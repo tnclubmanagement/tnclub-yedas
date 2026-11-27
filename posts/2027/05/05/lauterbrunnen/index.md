@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/05 00:00:00 +0700"
 title: "Lauterbrunnen: Thung lũng của 72 thác nước"
 subtitle: "Staubbach rơi từ vách 300m, các làng Wengen-Mürren và chân dãy Jungfrau"
+banner-img: "/posts/2027/05/05/lauterbrunnen/cover.png"
 cover-img: "/posts/2027/05/05/lauterbrunnen/cover.png"
-thumbnail-img: "/posts/2027/05/05/lauterbrunnen/cover.png"
 geo: [46.5936, 7.9082]
 place_name: "Lauterbrunnen, Bern"
 place_country: "Switzerland"

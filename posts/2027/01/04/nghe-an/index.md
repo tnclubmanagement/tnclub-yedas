@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-04 00:00:00 +0700"
 title: "Nghệ An: về làng Sen, ra Cửa Lò, lên miền Pù Mát"
 subtitle: "Lịch sử, biển và rừng trong những hành trình không nên đi quá vội"
+banner-img: "/posts/2027/01/04/nghe-an/cover.jpg"
 cover-img: "/posts/2027/01/04/nghe-an/cover.jpg"
-thumbnail-img: "/posts/2027/01/04/nghe-an/cover.jpg"
 geo: [18.6796, 105.6813]
 place_name: "Nghệ An"
 place_country: "Vietnam"

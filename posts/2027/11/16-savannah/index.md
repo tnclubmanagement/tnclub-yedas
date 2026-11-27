@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-16 00:00:00 +0700"
 title: "Savannah: đi qua những quảng trường dưới bóng sồi"
 subtitle: "Phố ven sông, công viên Forsyth và một cách nhìn chậm về miền Nam nước Mỹ"
+banner-img: "/posts/2027/11/16-savannah/cover.jpg"
 cover-img: "/posts/2027/11/16-savannah/cover.jpg"
-thumbnail-img: "/posts/2027/11/16-savannah/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Savannah, Georgia, Lịch sử, Chụp ảnh]
 geo: [32.081, -81.091]

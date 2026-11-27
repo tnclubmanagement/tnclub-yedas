@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/16 00:00:00 +0700"
 title: "Azerbaijan: Baku — nơi lửa ngàn năm gặp tương lai"
 subtitle: "Flame Towers rực sáng bên Biển Caspian, thành cổ Icherisheher và núi lửa bùn"
+banner-img: "/posts/2027/08/16/azerbaijan/cover.jpg"
 cover-img: "/posts/2027/08/16/azerbaijan/cover.jpg"
-thumbnail-img: "/posts/2027/08/16/azerbaijan/cover.jpg"
 geo: [40.4093, 49.8671]
 place_name: "Baku"
 place_country: "Azerbaijan"

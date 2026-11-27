@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-03 00:00:00 +0700"
 title: "Takayama: một buổi sáng qua phố gỗ và chợ vùng Hida"
 subtitle: "Đi chậm trong thành phố miền núi Gifu, thay vì chỉ ghé trên đường tới làng cổ"
+banner-img: "/posts/2027/12/03-takayama/cover.jpg"
 cover-img: "/posts/2027/12/03-takayama/cover.jpg"
-thumbnail-img: "/posts/2027/12/03-takayama/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Takayama, Gifu, Phố cổ, Chụp ảnh]
 geo: [36.146, 137.252]

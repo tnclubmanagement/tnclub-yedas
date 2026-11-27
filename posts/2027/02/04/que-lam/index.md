@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-04 00:00:00 +0700"
 title: "Quế Lâm: theo sông Ly Giang xuống những cánh đồng Dương Sóc"
 subtitle: "Ba ngày ở Quảng Tây, nhìn núi đá vôi từ mặt nước và dành một đêm ngoài thành phố"
+banner-img: "/posts/2027/02/04/que-lam/cover.jpg"
 cover-img: "/posts/2027/02/04/que-lam/cover.jpg"
-thumbnail-img: "/posts/2027/02/04/que-lam/cover.jpg"
 geo: [25.2742, 110.2902]
 place_name: "Quế Lâm"
 place_country: "China"

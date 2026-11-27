@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-08 00:00:00 +0700"
 title: "Semporna: thị trấn cảng bình thường mở ra một trong những vùng biển lặn đẹp nhất thế giới"
 subtitle: "Sipadan, Mabul, Kapalai và người Bajau biển — phía đông Sabah dành cho người nghiêm túc với đại dương"
+banner-img: "/posts/2027/03/08/semporna/cover.jpg"
 cover-img: "/posts/2027/03/08/semporna/cover.jpg"
-thumbnail-img: "/posts/2027/03/08/semporna/cover.jpg"
 geo: [4.4818, 118.6112]
 place_name: "Semporna, Sabah"
 place_country: "Malaysia"

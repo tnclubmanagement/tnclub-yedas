@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/16 00:00:00 +0700"
 title: "Quảng Nam: Hội An lồng đèn và thánh địa Mỹ Sơn ngàn năm"
 subtitle: "Phố cổ di sản, đêm rằm hoa đăng, Cù Lao Chàm và cao lầu"
+banner-img: "/posts/2027/10/16/quang-nam/cover.jpg"
 cover-img: "/posts/2027/10/16/quang-nam/cover.jpg"
-thumbnail-img: "/posts/2027/10/16/quang-nam/cover.jpg"
 geo: [15.8801, 108.3380]
 place_name: "Quảng Nam"
 place_country: "Vietnam"

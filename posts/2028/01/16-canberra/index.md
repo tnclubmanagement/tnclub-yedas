@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-16 00:00:00 +0700"
 title: "Canberra: dành một ngày cho bảo tàng và khoảng rộng bên hồ"
 subtitle: "Thủ đô Australia đáng được xem bằng từng chủ đề, không chỉ vài tòa nhà chính quyền"
+banner-img: "/posts/2028/01/16-canberra/cover.jpg"
 cover-img: "/posts/2028/01/16-canberra/cover.jpg"
-thumbnail-img: "/posts/2028/01/16-canberra/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Canberra, Bảo tàng, Kiến trúc]
 geo: [-35.281, 149.13]

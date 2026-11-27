@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-16 00:00:00 +0700"
 title: "Incheon: đừng chỉ nhớ tên thành phố trên vé máy bay"
 subtitle: "Một tuyến phố cảng, bát mì tương đen và không gian hiện đại bên kênh Songdo"
+banner-img: "/posts/2027/01/16/incheon/cover.jpg"
 cover-img: "/posts/2027/01/16/incheon/cover.jpg"
-thumbnail-img: "/posts/2027/01/16/incheon/cover.jpg"
 geo: [37.4763, 126.6172]
 place_name: "Incheon"
 place_country: "Korea"

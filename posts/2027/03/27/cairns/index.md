@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-27 00:00:00 +0700"
 title: "Cairns và Great Barrier Reef: rạn san hô lớn nhất hành tinh"
 subtitle: "Lặn giữa rạn san hô 2.300km, rừng nhiệt đới Daintree và đường sắt ngược núi Kuranda"
+banner-img: "/posts/2027/03/27/cairns/cover.png"
 cover-img: "/posts/2027/03/27/cairns/cover.png"
-thumbnail-img: "/posts/2027/03/27/cairns/cover.png"
 geo: [-16.9203, 145.7710]
 place_name: "Cairns, Queensland"
 place_country: "Australia"

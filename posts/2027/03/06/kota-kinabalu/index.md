@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-06 00:00:00 +0700"
 title: "Kota Kinabalu: nơi núi cao nhất Đông Nam Á nhìn xuống biển"
 subtitle: "Sabah phía tây Borneo — đảo Tunku Abdul Rahman cách bờ 15 phút, Kundasang trong mây và chợ hải sản ven biển"
+banner-img: "/posts/2027/03/06/kota-kinabalu/cover.jpeg"
 cover-img: "/posts/2027/03/06/kota-kinabalu/cover.jpeg"
-thumbnail-img: "/posts/2027/03/06/kota-kinabalu/cover.jpeg"
 geo: [5.9804, 116.0735]
 place_name: "Kota Kinabalu, Sabah"
 place_country: "Malaysia"

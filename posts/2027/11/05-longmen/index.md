@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-05 00:00:00 +0700"
 title: "Long Môn – Lạc Dương: một buổi bên dòng Y và những pho tượng đá"
 subtitle: "Nhìn nghệ thuật Bắc Ngụy, thời Đường và dành thời gian cho một cố đô ngoài mùa hoa"
+banner-img: "/posts/2027/11/05-longmen/cover.jpg"
 cover-img: "/posts/2027/11/05-longmen/cover.jpg"
-thumbnail-img: "/posts/2027/11/05-longmen/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Lạc Dương, Long Môn, Hà Nam, Di sản]
 geo: [34.555, 112.469]

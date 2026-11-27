@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-29 00:00:00 +0700"
 title: "Greysia Polii: nữ hoàng đôi cầu lông Indonesia"
 subtitle: "Vàng Olympic Tokyo ở tuổi 33 sau gần 20 năm cống hiến"
+banner-img: "/posts/2026/11/29/greysia-polii/avatar.jpg"
 cover-img: "/posts/2026/11/29/greysia-polii/avatar.jpg"
-thumbnail-img: "/posts/2026/11/29/greysia-polii/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Greysia Polii, Indonesia, Đôi nữ]

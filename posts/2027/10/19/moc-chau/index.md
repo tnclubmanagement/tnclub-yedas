@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/19 00:00:00 +0700"
 title: "Mộc Châu: Cao nguyên trà xanh và rừng mận hoa trắng"
 subtitle: "Đồi chè trái tim, thác Dải Yếm, cầu kính Bạch Long và mùa hoa cải"
+banner-img: "/posts/2027/10/19/moc-chau/cover.jpg"
 cover-img: "/posts/2027/10/19/moc-chau/cover.jpg"
-thumbnail-img: "/posts/2027/10/19/moc-chau/cover.jpg"
 geo: [20.8452, 104.7197]
 place_name: "Mộc Châu, Sơn La"
 place_country: "Vietnam"

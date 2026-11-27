@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/23 00:00:00 +0700"
 title: "Vancouver: thành phố giữa biển và núi"
 subtitle: "Stanley Park, Granville Island, Capilano và cửa ngờ Whistler-Rockies"
+banner-img: "/posts/2027/05/23/vancouver/cover.jpg"
 cover-img: "/posts/2027/05/23/vancouver/cover.jpg"
-thumbnail-img: "/posts/2027/05/23/vancouver/cover.jpg"
 geo: [49.2827, -123.1207]
 place_name: "Vancouver, British Columbia"
 place_country: "Canada"

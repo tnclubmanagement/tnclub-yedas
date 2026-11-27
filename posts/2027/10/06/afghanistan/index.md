@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/06 00:00:00 +0700"
 title: "Afghanistan: Band-e Amir — hồ ngọc lam giữa đất nước khắc nghiệt"
 subtitle: "Vườn quốc gia đầu tiên của Afghanistan, Kabul và Bamiyan nơi tượng Phật từng đứng"
+banner-img: "/posts/2027/10/06/afghanistan/cover.jpg"
 cover-img: "/posts/2027/10/06/afghanistan/cover.jpg"
-thumbnail-img: "/posts/2027/10/06/afghanistan/cover.jpg"
 geo: [34.8070, 67.2167]
 place_name: "Band-e Amir / Kabul"
 place_country: "Afghanistan"

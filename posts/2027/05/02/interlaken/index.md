@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/02 00:00:00 +0700"
 title: "Interlaken: Cửa ngờ thể thao mạo hiểm giữa hai hồ"
 subtitle: "Paragliding trên dãy Alps, hồ Thun-Brienz và điểm khởi đầu lên Jungfrau"
+banner-img: "/posts/2027/05/02/interlaken/cover.png"
 cover-img: "/posts/2027/05/02/interlaken/cover.png"
-thumbnail-img: "/posts/2027/05/02/interlaken/cover.png"
 geo: [46.6863, 7.8632]
 place_name: "Interlaken, Bern"
 place_country: "Switzerland"

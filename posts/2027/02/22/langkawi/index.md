@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-22 00:00:00 +0700"
 title: "Langkawi: cây cầu treo giữa rừng và đảo miễn thuế 99 hòn đảo"
 subtitle: "Cáp treo lên Gunung Mat Cincang, rừng ngập mặn Kilim và những buổi tối không lo hóa đơn"
+banner-img: "/posts/2027/02/22/langkawi/cover.png"
 cover-img: "/posts/2027/02/22/langkawi/cover.png"
-thumbnail-img: "/posts/2027/02/22/langkawi/cover.png"
 geo: [6.2910, 99.7220]
 place_name: "Pantai Cenang, Langkawi"
 place_country: "Malaysia"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-10 00:00:00 +0700"
 title: "Đài Loan: từ nhịp phố Đài Bắc đến đèn lồng Cửu Phần"
 subtitle: "Đi tàu, ăn chợ đêm và chừa một ngày cho những con dốc ngoài thành phố"
+banner-img: "/posts/2027/01/10/dai-loan/cover.jpg"
 cover-img: "/posts/2027/01/10/dai-loan/cover.jpg"
-thumbnail-img: "/posts/2027/01/10/dai-loan/cover.jpg"
 geo: [25.0330, 121.5654]
 place_name: "Đài Bắc, Đài Loan"
 place_country: "Taiwan"

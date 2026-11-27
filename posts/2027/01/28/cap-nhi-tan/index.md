@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-28 00:00:00 +0700"
 title: "Cáp Nhĩ Tân: phố gạch, mái vòm và một buổi tối giữa thành băng"
 subtitle: "Đến Hắc Long Giang để hiểu mùa đông Đông Bắc, không chỉ để chụp một lâu đài sáng đèn"
+banner-img: "/posts/2027/01/28/cap-nhi-tan/cover.jpg"
 cover-img: "/posts/2027/01/28/cap-nhi-tan/cover.jpg"
-thumbnail-img: "/posts/2027/01/28/cap-nhi-tan/cover.jpg"
 geo: [45.8038, 126.5349]
 place_name: "Cáp Nhĩ Tân"
 place_country: "China"

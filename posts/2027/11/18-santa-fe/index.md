@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-18 00:00:00 +0700"
 title: "Santa Fe: màu đất, phòng tranh và một bữa ăn với chile"
 subtitle: "Thủ phủ New Mexico dành cho người muốn nhìn kiến trúc cùng nhiều lớp văn hóa"
+banner-img: "/posts/2027/11/18-santa-fe/cover.jpg"
 cover-img: "/posts/2027/11/18-santa-fe/cover.jpg"
-thumbnail-img: "/posts/2027/11/18-santa-fe/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Santa Fe, New Mexico, Nghệ thuật, Chụp ảnh]
 geo: [35.687, -105.938]

@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-01 00:00:00 +0700"
 title: "Jakarta: thủ đô khổng lồ mà người ta vội bỏ qua quá nhanh"
 subtitle: "Kota Tua thời Batavia, Monas, nhà thờ Hồi giáo lớn nhất Đông Nam Á và phố ẩm thực suốt đêm"
+banner-img: "/posts/2027/03/01/jakarta/cover.png"
 cover-img: "/posts/2027/03/01/jakarta/cover.png"
-thumbnail-img: "/posts/2027/03/01/jakarta/cover.png"
 geo: [-6.2088, 106.8456]
 place_name: "Jakarta"
 place_country: "Indonesia"

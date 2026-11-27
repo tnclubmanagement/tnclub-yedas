@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-07 00:00:00 +0700"
 title: "Tuyền Châu: đi qua một thương cảng bằng những ngôi đền"
 subtitle: "Tháp đá, thánh đường và phố ăn sáng trong thành phố biển Phúc Kiến"
+banner-img: "/posts/2027/11/07-quanzhou/cover.jpg"
 cover-img: "/posts/2027/11/07-quanzhou/cover.jpg"
-thumbnail-img: "/posts/2027/11/07-quanzhou/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Tuyền Châu, Phúc Kiến, Di sản, Ẩm thực]
 geo: [24.914, 118.586]

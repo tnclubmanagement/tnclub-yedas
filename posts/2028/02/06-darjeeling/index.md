@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-06 00:00:00 +0700"
 title: "Darjeeling: trà, đường sắt nhỏ và những ngọn núi có thể ở sau mây"
 subtitle: "Một chuyến cao nguyên cần kỳ vọng vừa phải với thời tiết và thời gian đường bộ"
+banner-img: "/posts/2028/02/06-darjeeling/cover.jpg"
 cover-img: "/posts/2028/02/06-darjeeling/cover.jpg"
-thumbnail-img: "/posts/2028/02/06-darjeeling/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Darjeeling, Trà, Đường sắt]
 geo: [27.041, 88.263]

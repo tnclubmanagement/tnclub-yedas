@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-15 00:00:00 +0700"
 title: "Phnom Penh: thủ đô bên bốn con sông và những góc khuất của lịch sử"
 subtitle: "Hoàng cung và Chùa Bạc, dinh thự Pháp, ký ức Khmer Đỏ và những buổi chiều bên bờ Sisowath"
+banner-img: "/posts/2027/03/15/phnom-penh/cover.jpg"
 cover-img: "/posts/2027/03/15/phnom-penh/cover.jpg"
-thumbnail-img: "/posts/2027/03/15/phnom-penh/cover.jpg"
 geo: [11.5564, 104.9282]
 place_name: "Phnom Penh"
 place_country: "Cambodia"

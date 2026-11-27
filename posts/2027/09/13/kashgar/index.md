@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/13 00:00:00 +0700"
 title: "Kashgar: Đầu tây Con đường Tơ lụa, nơi Trung Á bắt đầu"
 subtitle: "Thành cổ Uyghur, chợ chủ nhật ngàn năm và đường lên Pamir 'nóc nhà thế giới'"
+banner-img: "/posts/2027/09/13/kashgar/cover.jpg"
 cover-img: "/posts/2027/09/13/kashgar/cover.jpg"
-thumbnail-img: "/posts/2027/09/13/kashgar/cover.jpg"
 geo: [39.4677, 75.9938]
 place_name: "Kashgar (Khach Nhĩ)"
 place_country: "China"

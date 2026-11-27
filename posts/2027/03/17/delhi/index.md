@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-17 00:00:00 +0700"
 title: "New Delhi: thủ đô ngàn năm tầng lớp lịch sử của Ấn Độ"
 subtitle: "Cổng Ấn Độ, Qutub Minar, Pháo đài Đỏ và những con hẻm hỗn loạn quyến rũ của Old Delhi"
+banner-img: "/posts/2027/03/17/delhi/cover.png"
 cover-img: "/posts/2027/03/17/delhi/cover.png"
-thumbnail-img: "/posts/2027/03/17/delhi/cover.png"
 geo: [28.6139, 77.2090]
 place_name: "New Delhi"
 place_country: "India"

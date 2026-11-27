@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-08 00:00:00 +0700"
 title: "Taiping: một vòng hồ dưới những tán cây rộng"
 subtitle: "Thành phố Perak dành cho nhịp nghỉ, lịch sử và khoảng xanh"
+banner-img: "/posts/2028/02/08-taiping/cover.jpg"
 cover-img: "/posts/2028/02/08-taiping/cover.jpg"
-thumbnail-img: "/posts/2028/02/08-taiping/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Taiping, Perak, Thiên nhiên]
 geo: [4.85, 100.733]

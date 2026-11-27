@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-31 00:00:00 +0700"
 title: "Inari: tìm hiểu văn hóa Sámi bên một hồ nước phương Bắc"
 subtitle: "Một hành trình Lapland cần nhiều hơn lời hứa về cực quang"
+banner-img: "/posts/2027/12/31-inari/cover.jpg"
 cover-img: "/posts/2027/12/31-inari/cover.jpg"
-thumbnail-img: "/posts/2027/12/31-inari/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Inari, Lapland, Văn hóa]
 geo: [68.906, 27.028]

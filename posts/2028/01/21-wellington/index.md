@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-21 00:00:00 +0700"
 title: "Wellington: một ngày bảo tàng, cáp kéo và gió bên cảng"
 subtitle: "Thủ đô New Zealand nhỏ vừa để đi bộ nhưng không nên chỉ làm chặng nối phà"
+banner-img: "/posts/2028/01/21-wellington/cover.jpg"
 cover-img: "/posts/2028/01/21-wellington/cover.jpg"
-thumbnail-img: "/posts/2028/01/21-wellington/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Wellington, Đảo Bắc, Văn hóa]
 geo: [-41.287, 174.776]

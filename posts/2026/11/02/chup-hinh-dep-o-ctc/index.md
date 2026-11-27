@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-02 00:00:00 +0700"
 title: "Chụp hình đẹp ở CTC (Cửu Trại Câu): mẹo không thể bỏ qua"
 subtitle: "Tận dụng hồ nước xanh, lá thu và phản chiếu"
+banner-img: "/posts/2026/11/02/chup-hinh-dep-o-ctc/cover.jpg"
 cover-img: "/posts/2026/11/02/chup-hinh-dep-o-ctc/cover.jpg"
-thumbnail-img: "/posts/2026/11/02/chup-hinh-dep-o-ctc/cover.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Du lịch, Cửu Trại Câu, Bố cục, Hướng dẫn]
 ---

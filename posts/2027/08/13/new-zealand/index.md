@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/13 00:00:00 +0700"
 title: "New Zealand: Aotearoa — đất của những đám mây trắng dài"
 subtitle: "Milford Sound hùng vĩ, xứ Hobbit, hang đom đóm và hai đảo hai thế giới"
+banner-img: "/posts/2027/08/13/new-zealand/cover.jpg"
 cover-img: "/posts/2027/08/13/new-zealand/cover.jpg"
-thumbnail-img: "/posts/2027/08/13/new-zealand/cover.jpg"
 geo: [-44.6714, 167.9256]
 place_name: "Milford Sound"
 place_country: "New Zealand"

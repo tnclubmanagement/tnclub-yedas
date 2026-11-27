@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:02:00 +0700"
 title: "[02 · Ăn ngon miền Bắc] : Bún chả, bún thang và bún ốc Hà Nội"
 subtitle: "Một món chấm, một bát thanh, một bát chua — đừng gọi chỉ vì cùng tên bún"
-cover-img: "/posts/2026/11/26/mien-bac-02-bun/bun-cha.jpg"
-thumbnail-img: "https://www.seriouseats.com/thmb/J0g7JWjk9r6CHESo1CIrD1BfGd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VyTran-BunChaHanoi-19-f623913c6ef34a9185bcd6e5680c545f.jpg"
+banner-img: "/posts/2026/11/26/mien-bac-02-bun/bun-cha.jpg"
+cover-img: "https://www.seriouseats.com/thmb/J0g7JWjk9r6CHESo1CIrD1BfGd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VyTran-BunChaHanoi-19-f623913c6ef34a9185bcd6e5680c545f.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Bún]
 series: "Ăn ngon miền Bắc"

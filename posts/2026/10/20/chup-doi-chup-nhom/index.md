@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-20 00:00:00 +0700"
 title: "Chụp đôi, chụp nhóm 3 người sao cho không ai bị \"khuất\""
 subtitle: "Mẹo xếp dáng đứng + lấy nét đúng người"
+banner-img: "/posts/2026/10/20/chup-doi-chup-nhom/cover-nhom.jpg"
 cover-img: "/posts/2026/10/20/chup-doi-chup-nhom/cover-nhom.jpg"
-thumbnail-img: "/posts/2026/10/20/chup-doi-chup-nhom/cover-nhom.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Chân dung, Nhóm, Bố cục]
 ---

@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-11 00:00:00 +0700"
 title: "Kanchanaburi: một ngày đọc lịch sử, một ngày theo nước thác Erawan"
 subtitle: "Rời Bangkok về miền Tây Thái Lan, giữa cầu sông Kwai, ký ức chiến tranh và rừng xanh"
+banner-img: "/posts/2027/02/11/kanchanaburi/cover.jpg"
 cover-img: "/posts/2027/02/11/kanchanaburi/cover.jpg"
-thumbnail-img: "/posts/2027/02/11/kanchanaburi/cover.jpg"
 geo: [14.0228, 99.5328]
 place_name: "Kanchanaburi"
 place_country: "Thailand"

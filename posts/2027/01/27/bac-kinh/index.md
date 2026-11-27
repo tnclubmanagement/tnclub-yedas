@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-27 00:00:00 +0700"
 title: "Bắc Kinh: từ sân Cố Cung đến đường thành trên núi"
 subtitle: "Bốn ngày ở Hoa Bắc, dành thời gian cho kiến trúc hoàng gia, phố nhỏ và một bữa vịt quay"
+banner-img: "/posts/2027/01/27/bac-kinh/cover.jpg"
 cover-img: "/posts/2027/01/27/bac-kinh/cover.jpg"
-thumbnail-img: "/posts/2027/01/27/bac-kinh/cover.jpg"
 geo: [39.9042, 116.4074]
 place_name: "Bắc Kinh"
 place_country: "China"

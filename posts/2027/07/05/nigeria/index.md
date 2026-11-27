@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/05 00:00:00 +0700"
 title: "Nigeria: Gã khổng lồ của châu Phi"
 subtitle: "Lagos năng động, Nollywood, Afrobeats và những kỳ quan thiên nhiên ít khám phá"
+banner-img: "/posts/2027/07/05/nigeria/cover.jpg"
 cover-img: "/posts/2027/07/05/nigeria/cover.jpg"
-thumbnail-img: "/posts/2027/07/05/nigeria/cover.jpg"
 geo: [6.5244, 3.3792]
 place_name: "Lagos"
 place_country: "Nigeria"

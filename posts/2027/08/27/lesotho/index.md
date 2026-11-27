@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/27 00:00:00 +0700"
 title: "Lesotho: Vương quốc trên trời giữa lòng Nam Phi"
 subtitle: "Toàn bộ lãnh thổ trên 1.400m, thác Maletsunyane và đèo Sani huyền thoại"
+banner-img: "/posts/2027/08/27/lesotho/cover.jpg"
 cover-img: "/posts/2027/08/27/lesotho/cover.jpg"
-thumbnail-img: "/posts/2027/08/27/lesotho/cover.jpg"
 geo: [-29.8689, 28.0519]
 place_name: "Semonkong"
 place_country: "Lesotho"

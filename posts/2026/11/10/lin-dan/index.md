@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-10 00:00:00 +0700"
 title: "Lin Dan: 'Super Dan' — tay vợt vĩ đại nhất lịch sử cầu lông"
 subtitle: "2 vàng Olympic, 5 lần vô địch thế giới và sự nghiệp không ai sánh kịp"
+banner-img: "/posts/2026/11/10/lin-dan/avatar.jpg"
 cover-img: "/posts/2026/11/10/lin-dan/avatar.jpg"
-thumbnail-img: "/posts/2026/11/10/lin-dan/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Lin Dan, Trung Quốc]

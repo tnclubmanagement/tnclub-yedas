@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-24 00:00:00 +0700"
 title: "St. John’s: phố nhà màu giữa gió Newfoundland"
 subtitle: "Lên Signal Hill, xuống cảng và để thời tiết quyết định một phần hành trình"
+banner-img: "/posts/2027/11/24-st-johns/cover.jpg"
 cover-img: "/posts/2027/11/24-st-johns/cover.jpg"
-thumbnail-img: "/posts/2027/11/24-st-johns/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Newfoundland, St. John’s, Biển, Chụp ảnh]
 geo: [47.561, -52.713]

@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-30 00:00:00 +0700"
 title: "Savonlinna: tòa thành giữa nước và những ngày chậm ở vùng Saimaa"
 subtitle: "Một chuyến hồ của Phần Lan không nhất thiết phải trùng mùa opera"
+banner-img: "/posts/2027/12/30-savonlinna/cover.jpg"
 cover-img: "/posts/2027/12/30-savonlinna/cover.jpg"
-thumbnail-img: "/posts/2027/12/30-savonlinna/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Savonlinna, Saimaa, Bắc Âu]
 geo: [61.869, 28.879]

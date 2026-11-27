@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/10 00:00:00 +0700"
 title: "Mendoza: Kinh đô rượu vang dưới chân dãy Andes"
 subtitle: "Malbec quê hương, hàng trăm bodega và cửa ngờ đỉnh Aconcagua"
+banner-img: "/posts/2027/06/10/mendoza/cover.png"
 cover-img: "/posts/2027/06/10/mendoza/cover.png"
-thumbnail-img: "/posts/2027/06/10/mendoza/cover.png"
 geo: [-32.8895, -68.8458]
 place_name: "Mendoza"
 place_country: "Argentina"

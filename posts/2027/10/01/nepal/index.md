@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/01 00:00:00 +0700"
 title: "Nepal: Vương quốc của Everest và những nụ cười Sherpa"
 subtitle: "Namche Bazaar trên đường đến Everest, Kathmandu thiêng thành và thung lũng Pokhara"
+banner-img: "/posts/2027/10/01/nepal/cover.jpg"
 cover-img: "/posts/2027/10/01/nepal/cover.jpg"
-thumbnail-img: "/posts/2027/10/01/nepal/cover.jpg"
 geo: [27.8069, 86.7140]
 place_name: "Namche Bazaar / Kathmandu"
 place_country: "Nepal"

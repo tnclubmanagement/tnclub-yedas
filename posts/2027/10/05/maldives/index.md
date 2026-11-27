@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/05 00:00:00 +0700"
 title: "Maldives: Nước trong như pha lê giữa Ấn Độ Dương"
 subtitle: "Đảo san hô san bằng, biển huỳnh quang và thiên đường lặn với manta-ray"
+banner-img: "/posts/2027/10/05/maldives/cover.jpg"
 cover-img: "/posts/2027/10/05/maldives/cover.jpg"
-thumbnail-img: "/posts/2027/10/05/maldives/cover.jpg"
 geo: [3.2028, 73.2207]
 place_name: "Malé / các đảo san hô"
 place_country: "Maldives"

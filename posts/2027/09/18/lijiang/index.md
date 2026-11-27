@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/18 00:00:00 +0700"
 title: "Lệ Giang: Thành cổ Naxi dưới chân núi tuyết Ngọc Long"
 subtitle: "Ngõ đá quanh co, nhạc cổ Naxi ngàn năm và dãy Ngọc Long phủ tuyết"
+banner-img: "/posts/2027/09/18/lijiang/cover.jpg"
 cover-img: "/posts/2027/09/18/lijiang/cover.jpg"
-thumbnail-img: "/posts/2027/09/18/lijiang/cover.jpg"
 geo: [26.8721, 100.2296]
 place_name: "Lệ Giang (Lijiang)"
 place_country: "China"

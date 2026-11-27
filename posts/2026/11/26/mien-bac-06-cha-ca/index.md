@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:06:00 +0700"
 title: "[06 · Ăn ngon miền Bắc] : Chả cá Hà Nội và một bữa ăn ngồi lại"
 subtitle: "Cá nóng, thì là, hành và bún — tự ghép từng miếng thay vì trộn cả bàn"
+banner-img: "/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg"
 cover-img: "/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Chả cá]
 series: "Ăn ngon miền Bắc"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-20 00:00:00 +0700"
 title: "Auckland: giữa hai nhịp phố cảng và những ngọn đồi núi lửa"
 subtitle: "Một điểm bắt đầu New Zealand đáng có thời gian trước khi lái xe đi tiếp"
+banner-img: "/posts/2028/01/20-auckland/cover.jpg"
 cover-img: "/posts/2028/01/20-auckland/cover.jpg"
-thumbnail-img: "/posts/2028/01/20-auckland/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Auckland, Đảo Bắc, Thành phố]
 geo: [-36.849, 174.763]

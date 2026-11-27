@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/26 00:00:00 +0700"
 title: "Hong Kong: thành phố của vịnh, đỉnh núi và tiệm trà 70 năm"
 subtitle: "Peak Tram, đảo Lantau, chợ đêm Temple Street và dimsum từ sáng tới khuya"
+banner-img: "/posts/2027/10/26/hong-kong/cover.jpg"
 cover-img: "/posts/2027/10/26/hong-kong/cover.jpg"
-thumbnail-img: "/posts/2027/10/26/hong-kong/cover.jpg"
 geo: [22.3193, 114.1694]
 place_name: "Hong Kong"
 place_country: "China"

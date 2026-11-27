@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-17 00:00:00 +0700"
 title: "Đài Bắc: ngắm thành phố từ Taipei 101, tìm nhịp sống dưới phố"
 subtitle: "Một chuyến ngắn có bảo tàng, tàu điện và những bữa ăn nhỏ ở chợ đêm"
+banner-img: "/posts/2027/01/17/dai-bac/cover.jpg"
 cover-img: "/posts/2027/01/17/dai-bac/cover.jpg"
-thumbnail-img: "/posts/2027/01/17/dai-bac/cover.jpg"
 geo: [25.0330, 121.5654]
 place_name: "Đài Bắc"
 place_country: "Taiwan"

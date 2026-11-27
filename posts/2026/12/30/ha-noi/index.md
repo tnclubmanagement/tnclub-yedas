@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-30 00:00:00 +0700"
 title: "Hà Nội: đi chậm giữa phố cổ và những mặt hồ"
 subtitle: "Hồ Gươm, Văn Miếu và một ngày khám phá thủ đô bằng những bước chân"
+banner-img: "/posts/2026/12/30/ha-noi/cover.jpg"
 cover-img: "/posts/2026/12/30/ha-noi/cover.jpg"
-thumbnail-img: "/posts/2026/12/30/ha-noi/cover.jpg"
 geo: [21.0288, 105.8525]
 place_name: "Hà Nội"
 place_country: "Vietnam"

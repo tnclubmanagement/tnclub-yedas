@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/31 00:00:00 +0700"
 title: "Nga: Moscow — thủ đô quyền lực và choáng ngợp"
 subtitle: "Quảng trường Đỏ, Kremlin, nhà thờ St. Basil và hệ thống metro như cung điện ngầm"
+banner-img: "/posts/2027/07/31/moscow/cover.jpg"
 cover-img: "/posts/2027/07/31/moscow/cover.jpg"
-thumbnail-img: "/posts/2027/07/31/moscow/cover.jpg"
 geo: [55.7558, 37.6173]
 place_name: "Moscow"
 place_country: "Russia"

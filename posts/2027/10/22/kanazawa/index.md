@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/22 00:00:00 +0700"
 title: "Kanazawa: Tiểu Edo bên biển Nhật Bản và vườn Kenroku-en"
 subtitle: "Một trong tam đại danh viên, phố geisha Higashi Chaya và bảo tàng 21st Century"
+banner-img: "/posts/2027/10/22/kanazawa/cover.jpg"
 cover-img: "/posts/2027/10/22/kanazawa/cover.jpg"
-thumbnail-img: "/posts/2027/10/22/kanazawa/cover.jpg"
 geo: [36.5613, 136.6562]
 place_name: "Kanazawa"
 place_country: "Japan"

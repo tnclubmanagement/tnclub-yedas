@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-13 00:00:00 +0700"
 title: "Gail Emms: từ tấm bạc Athens đến ngôi vô địch thế giới"
 subtitle: "Tay vợt Anh và Nathan Robertson, hai năm giữa tiếc nuối và danh hiệu Madrid"
+banner-img: "/posts/2027/11/13-gail-emms/avatar.jpg"
 cover-img: "/posts/2027/11/13-gail-emms/avatar.jpg"
-thumbnail-img: "/posts/2027/11/13-gail-emms/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Anh, Gail Emms, Đánh đôi]

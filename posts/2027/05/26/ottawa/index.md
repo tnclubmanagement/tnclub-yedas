@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/26 00:00:00 +0700"
 title: "Ottawa: thủ đô Canada bên Đồi Quốc hội"
 subtitle: "Parliament Hill, kênh Rideau UNESCO, các bảo tàng quốc gia và lễ hội hoa tulip"
+banner-img: "/posts/2027/05/26/ottawa/cover.jpg"
 cover-img: "/posts/2027/05/26/ottawa/cover.jpg"
-thumbnail-img: "/posts/2027/05/26/ottawa/cover.jpg"
 geo: [45.4215, -75.6972]
 place_name: "Ottawa, Ontario"
 place_country: "Canada"

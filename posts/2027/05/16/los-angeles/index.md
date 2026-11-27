@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/16 00:00:00 +0700"
 title: "Los Angeles: Hollywood, bãi biển và thành phố trải dài"
 subtitle: "Đại lộ Danh vọng, Santa Monica, studio tour và Griffith Observatory"
+banner-img: "/posts/2027/05/16/los-angeles/cover.png"
 cover-img: "/posts/2027/05/16/los-angeles/cover.png"
-thumbnail-img: "/posts/2027/05/16/los-angeles/cover.png"
 geo: [34.0522, -118.2437]
 place_name: "Los Angeles, CA"
 place_country: "United States"

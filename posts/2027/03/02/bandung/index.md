@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-02 00:00:00 +0700"
 title: "Bandung: 'Paris của Java' giữa những chiếc miệng núi lửa"
 subtitle: "Kawah Putih trắng xanh, Tangkuban Perahu, đồi chè Ciwidey và factory outlet giá rẻ"
+banner-img: "/posts/2027/03/02/bandung/cover.png"
 cover-img: "/posts/2027/03/02/bandung/cover.png"
-thumbnail-img: "/posts/2027/03/02/bandung/cover.png"
 geo: [-6.9175, 107.6191]
 place_name: "Bandung"
 place_country: "Indonesia"

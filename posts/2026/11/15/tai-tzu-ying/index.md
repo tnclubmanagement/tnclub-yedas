@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-15 00:00:00 +0700"
 title: "Tai Tzu-ying: 'nữ hoàng nghệ thuật' của làng cầu lông"
 subtitle: "Những cú đánh không ai đoán được và kỷ lục tuần số 1 của đơn nữ"
+banner-img: "/posts/2026/11/15/tai-tzu-ying/avatar.jpg"
 cover-img: "/posts/2026/11/15/tai-tzu-ying/avatar.jpg"
-thumbnail-img: "/posts/2026/11/15/tai-tzu-ying/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Tai Tzu-ying, Đài Loan]

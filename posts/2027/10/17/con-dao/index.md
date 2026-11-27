@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/17 00:00:00 +0700"
 title: "Côn Đảo: Quần đảo lịch sử và biển xanh nguyên sơ"
 subtitle: "Nghĩa trang Hàng Dương, nhà tù Côn Đảo, bãi Đầm Trầu và rùa biển đẻ trứng"
+banner-img: "/posts/2027/10/17/con-dao/cover.jpg"
 cover-img: "/posts/2027/10/17/con-dao/cover.jpg"
-thumbnail-img: "/posts/2027/10/17/con-dao/cover.jpg"
 geo: [8.6833, 106.6086]
 place_name: "Côn Đảo"
 place_country: "Vietnam"

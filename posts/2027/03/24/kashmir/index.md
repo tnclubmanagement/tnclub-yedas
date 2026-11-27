@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-24 00:00:00 +0700"
 title: "Kashmir: thiên đường trên mặt đất của những thung lũng và hồ"
 subtitle: "Thuyền nhà trên hồ Dal, vườn Mughal Srinagar và đồng cỏ tuyết Gulmarg"
+banner-img: "/posts/2027/03/24/kashmir/cover.jpg"
 cover-img: "/posts/2027/03/24/kashmir/cover.jpg"
-thumbnail-img: "/posts/2027/03/24/kashmir/cover.jpg"
 geo: [34.0837, 74.7973]
 place_name: "Srinagar, Kashmir"
 place_country: "India"

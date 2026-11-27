@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/13 00:00:00 +0700"
 title: "Jordan: Petra — kỳ quan thế giới chạc khắc trong đá"
 subtitle: "Petra đỏ hồng, sa mạc Wadi Rum như trên sao Hỏa và nổi trên Biển Chết"
+banner-img: "/posts/2027/07/13/jordan/cover.jpg"
 cover-img: "/posts/2027/07/13/jordan/cover.jpg"
-thumbnail-img: "/posts/2027/07/13/jordan/cover.jpg"
 geo: [30.3285, 35.4444]
 place_name: "Petra"
 place_country: "Jordan"

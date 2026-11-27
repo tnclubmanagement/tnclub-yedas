@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/07 00:00:00 +0700"
 title: "Niger: Agadez — tháp minaret đất nung giữa sa mạc Aïr"
 subtitle: "Thành phố caravane Tuareg ngàn năm, sông Niger bí ẩn và vùng đất ít khách nhất Tây Phi"
+banner-img: "/posts/2027/09/07/niger/cover.jpg"
 cover-img: "/posts/2027/09/07/niger/cover.jpg"
-thumbnail-img: "/posts/2027/09/07/niger/cover.jpg"
 geo: [16.9740, 7.9865]
 place_name: "Agadez"
 place_country: "Niger"

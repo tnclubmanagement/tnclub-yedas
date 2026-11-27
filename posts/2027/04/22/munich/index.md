@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/22 00:00:00 +0700"
 title: "Munich: Bia vườn, Marienplatz và thủ phủ Bavaria"
 subtitle: "Oktoberfest, vườn Anh và cửa ngờ lên dãy Alps-đến lâu đài cổ tích"
+banner-img: "/posts/2027/04/22/munich/cover.png"
 cover-img: "/posts/2027/04/22/munich/cover.png"
-thumbnail-img: "/posts/2027/04/22/munich/cover.png"
 geo: [48.1351, 11.5820]
 place_name: "Munich, Bavaria"
 place_country: "Germany"

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-12 00:00:00 +0700"
 title: "Viktor Axelsen: 'gã khổng lồ' Đan Mạch 2 lần vô địch Olympic"
 subtitle: "Từ cậu bé học tiếng Trung tới niềm tự hào cầu lông châu Âu"
+banner-img: "/posts/2026/11/12/viktor-axelsen/avatar.jpg"
 cover-img: "/posts/2026/11/12/viktor-axelsen/avatar.jpg"
-thumbnail-img: "/posts/2026/11/12/viktor-axelsen/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Viktor Axelsen, Đan Mạch]

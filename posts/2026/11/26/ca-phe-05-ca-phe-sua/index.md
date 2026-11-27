@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:05:00 +0700"
 title: "[05 · Hiểu menu cà phê] : Latte, cappuccino và macchiato"
 subtitle: "Cùng espresso và sữa, khác lượng sữa, bọt và cách phục vụ"
+banner-img: "/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg"
 cover-img: "/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/ca-phe-05-ca-phe-sua/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

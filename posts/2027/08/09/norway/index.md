@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/09 00:00:00 +0700"
 title: "Na Uy: Xứ sở fjord — nơi thiên nhiên viết nên sử thi"
 subtitle: "Geirangerfjord huyền thoại, Trolltunga lơ lửng trên vách đá và ánh nắng nửa đêm"
+banner-img: "/posts/2027/08/09/norway/cover.jpg"
 cover-img: "/posts/2027/08/09/norway/cover.jpg"
-thumbnail-img: "/posts/2027/08/09/norway/cover.jpg"
 geo: [62.1049, 7.0742]
 place_name: "Geirangerfjord"
 place_country: "Norway"

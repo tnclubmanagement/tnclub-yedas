@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-02 00:00:00 +0700"
 title: "Akureyri: một khoảng nghỉ bên Eyjafjörður của miền bắc Iceland"
 subtitle: "Phố nhỏ, vườn và cảnh núi thay cho một ngày chỉ lái xe qua"
+banner-img: "/posts/2028/01/02-akureyri/cover.jpg"
 cover-img: "/posts/2028/01/02-akureyri/cover.jpg"
-thumbnail-img: "/posts/2028/01/02-akureyri/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Akureyri, Bắc Âu, Thiên nhiên]
 geo: [65.683, -18.11]

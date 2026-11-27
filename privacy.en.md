@@ -2,7 +2,7 @@
 layout: page
 title: Privacy & Terms
 subtitle: Clear and straightforward
-cover-img: "/assets/img/hero-2.jpg"
+banner-img: "/assets/img/hero-2.jpg"
 permalink: /privacy/
 lang: en
 ---

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:04:00 +0700"
 title: "[04 · Ăn ngon miền Bắc] : Bánh đa cua và quà vặt Hải Phòng"
 subtitle: "Dành riêng một chặng cho đất cảng thay vì ghép vào bữa ăn Hà Nội"
-cover-img: "/posts/2026/11/26/mien-bac-04-hai-phong/banh-da-cua-banner.jpg"
-thumbnail-img: "https://chaca.com.vn/wp-content/uploads/2020/12/cach-nau-banh-da-cua-hai-phong.jpg"
+banner-img: "/posts/2026/11/26/mien-bac-04-hai-phong/banh-da-cua-banner.jpg"
+cover-img: "https://chaca.com.vn/wp-content/uploads/2020/12/cach-nau-banh-da-cua-hai-phong.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hải Phòng, Bánh đa cua]
 series: "Ăn ngon miền Bắc"

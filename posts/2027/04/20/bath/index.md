@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/20 00:00:00 +0700"
 title: "Bath: Thành phố La Mã và đá mật ong của Jane Austen"
 subtitle: "Roman Baths nguyên vẹn, Royal Crescent và kiến trúc Georgian đẹp nhất Anh"
+banner-img: "/posts/2027/04/20/bath/cover.png"
 cover-img: "/posts/2027/04/20/bath/cover.png"
-thumbnail-img: "/posts/2027/04/20/bath/cover.png"
 geo: [51.3810, -2.3590]
 place_name: "Bath, Somerset, England"
 place_country: "United Kingdom"

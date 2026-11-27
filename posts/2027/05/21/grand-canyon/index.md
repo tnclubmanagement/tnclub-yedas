@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/21 00:00:00 +0700"
 title: "Grand Canyon: Hẻm núi vĩ đại nhất Trái Đất"
 subtitle: "Vách đá 1,6km sâu, 446km dài — kỳ quan tự nhiên đẹp nhất bờ Tây nước Mỹ"
+banner-img: "/posts/2027/05/21/grand-canyon/cover.png"
 cover-img: "/posts/2027/05/21/grand-canyon/cover.png"
-thumbnail-img: "/posts/2027/05/21/grand-canyon/cover.png"
 geo: [36.0544, -112.1401]
 place_name: "Grand Canyon, Arizona"
 place_country: "United States"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/06 00:00:00 +0700"
 title: "Lucerne: Cầu gỗ Chapel, hồ và núi Pilatus"
 subtitle: "Thành phố tranh vẽ trên hồ Lucerne với hai ngọn núi huyền thoại hai bên"
+banner-img: "/posts/2027/05/06/lucerne/cover.png"
 cover-img: "/posts/2027/05/06/lucerne/cover.png"
-thumbnail-img: "/posts/2027/05/06/lucerne/cover.png"
 geo: [47.0502, 8.3093]
 place_name: "Lucerne"
 place_country: "Switzerland"

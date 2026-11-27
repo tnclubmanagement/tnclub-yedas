@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-18 00:00:00 +0700"
 title: "Broome: cát rộng, lịch sử ngọc trai và những giờ đi theo thủy triều"
 subtitle: "Miền tây bắc Australia cần kế hoạch riêng, không phải chặng ghé nhanh từ Perth"
+banner-img: "/posts/2028/01/18-broome/cover.jpg"
 cover-img: "/posts/2028/01/18-broome/cover.jpg"
-thumbnail-img: "/posts/2028/01/18-broome/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Broome, Western Australia, Biển]
 geo: [-17.961, 122.236]

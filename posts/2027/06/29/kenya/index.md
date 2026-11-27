@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/29 00:00:00 +0700"
 title: "Kenya: Safari quê nhà và di cư vĩ đại"
 subtitle: "Maasai Mara, đàn voi dưới Kilimanjaro, hồ Nakuru hồng hạc và bờ biển Swahili"
+banner-img: "/posts/2027/06/29/kenya/cover.jpg"
 cover-img: "/posts/2027/06/29/kenya/cover.jpg"
-thumbnail-img: "/posts/2027/06/29/kenya/cover.jpg"
 geo: [-1.2921, 36.8219]
 place_name: "Nairobi"
 place_country: "Kenya"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/08 00:00:00 +0700"
 title: "Lima: Thủ đô ẩm thực của Nam Mỹ"
 subtitle: "Ceviche đẳng cấp thế giới, Miraflores trên vách biển và trung tâm thuộc địa"
+banner-img: "/posts/2027/06/08/lima/cover.png"
 cover-img: "/posts/2027/06/08/lima/cover.png"
-thumbnail-img: "/posts/2027/06/08/lima/cover.png"
 geo: [-12.0464, -77.0428]
 place_name: "Lima"
 place_country: "Peru"

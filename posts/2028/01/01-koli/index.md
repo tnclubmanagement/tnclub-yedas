@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-01 00:00:00 +0700"
 title: "Koli: nhìn hồ Pielinen từ một sườn đồi có nhiều mùa"
 subtitle: "Cảnh quan Phần Lan đáng ở lại lâu hơn thời gian chụp một bức toàn cảnh"
+banner-img: "/posts/2028/01/01-koli/cover.jpg"
 cover-img: "/posts/2028/01/01-koli/cover.jpg"
-thumbnail-img: "/posts/2028/01/01-koli/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Koli, Bắc Karelia, Thiên nhiên]
 geo: [63.096, 29.797]

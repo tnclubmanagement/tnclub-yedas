@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/19 00:00:00 +0700"
 title: "Yellowstone: Vườn quốc gia đầu tiên của thế giới"
 subtitle: "Mạch nước phun, hồ nước nóng màu cầu vồng và động vật hoang dã trên cao nguyên núi lửa"
+banner-img: "/posts/2027/05/19/yellowstone/cover.png"
 cover-img: "/posts/2027/05/19/yellowstone/cover.png"
-thumbnail-img: "/posts/2027/05/19/yellowstone/cover.png"
 geo: [44.4280, -110.5885]
 place_name: "Yellowstone National Park, WY"
 place_country: "United States"

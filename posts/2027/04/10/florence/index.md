@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/10 00:00:00 +0700"
 title: "Florence: Cái nôi của Phục hưng"
 subtitle: "Duomo Brunelleschi, David của Michelangelo, bảo tàng Uffizi và những ngọn đồi Tuscany bao quanh"
+banner-img: "/posts/2027/04/10/florence/cover.png"
 cover-img: "/posts/2027/04/10/florence/cover.png"
-thumbnail-img: "/posts/2027/04/10/florence/cover.png"
 geo: [43.7696, 11.2558]
 place_name: "Florence, Tuscany"
 place_country: "Italy"

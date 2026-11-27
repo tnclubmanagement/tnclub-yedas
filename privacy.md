@@ -2,7 +2,7 @@
 layout: page
 title: Chính sách & Điều khoản
 subtitle: Minh bạch và đơn giản
-cover-img: "/assets/img/hero-2.jpg"
+banner-img: "/assets/img/hero-2.jpg"
 permalink: /privacy/
 ---
 

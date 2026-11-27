@@ -38,13 +38,13 @@
     <article>
 
       {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
+        {% if post.cover-img %}
+          {{ post.cover-img }}
+        {% elsif post.banner-img %}
+          {% if post.banner-img.first %}
+            {{ post.banner-img[0].first.first }}
           {% else %}
-            {{ post.cover-img }}
+            {{ post.banner-img }}
           {% endif %}
         {% else %}
         {% endif %}

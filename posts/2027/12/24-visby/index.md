@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-24 00:00:00 +0700"
 title: "Visby: đi trong tường thành, rồi dành chỗ cho Gotland ngoài phố cổ"
 subtitle: "Một đô thị trung cổ đang sống trên hòn đảo Baltic của Thụy Điển"
+banner-img: "/posts/2027/12/24-visby/cover.jpg"
 cover-img: "/posts/2027/12/24-visby/cover.jpg"
-thumbnail-img: "/posts/2027/12/24-visby/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Visby, Gotland, Di sản]
 geo: [57.635, 18.294]

@@ -3,8 +3,8 @@ layout: post
 date: "2027-10-31 00:00:00 +0700"
 title: "Arisa Higashino: nửa còn lại của 'WataHiga'"
 subtitle: "Bức tường lưới của đôi nam nữ Nhật — 2 HCĐ Olympic cùng Yuta Watanabe"
+banner-img: "/posts/2027/10/31/arisa-higashino/avatar.jpg"
 cover-img: "/posts/2027/10/31/arisa-higashino/avatar.jpg"
-thumbnail-img: "/posts/2027/10/31/arisa-higashino/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Arisa Higashino, Nhật Bản, Đánh đôi]

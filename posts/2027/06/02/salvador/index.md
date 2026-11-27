@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/02 00:00:00 +0700"
 title: "Salvador: Kinh đô Afro-Brazil đầy màu sắc"
 subtitle: "Pelourinho UNESCO, capoeira, acarajé và vùng đất của nhạc Bahia"
+banner-img: "/posts/2027/06/02/salvador/cover.png"
 cover-img: "/posts/2027/06/02/salvador/cover.png"
-thumbnail-img: "/posts/2027/06/02/salvador/cover.png"
 geo: [-12.9777, -38.5016]
 place_name: "Salvador, Bahia"
 place_country: "Brazil"

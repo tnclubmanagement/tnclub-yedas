@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:06:00 +0700"
 title: "[06 · Hiểu menu cà phê] : Cà phê lọc, cold brew và nitro"
 subtitle: "Phân biệt cách pha với cách uống lạnh, đừng đoán caffeine qua màu sắc"
+banner-img: "/posts/2026/11/26/ca-phe-06-cold-brew/banner.jpg"
 cover-img: "/posts/2026/11/26/ca-phe-06-cold-brew/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/ca-phe-06-cold-brew/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

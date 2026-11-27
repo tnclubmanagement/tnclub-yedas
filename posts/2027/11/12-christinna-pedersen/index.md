@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-12 00:00:00 +0700"
 title: "Christinna Pedersen: hai nội dung, hai tấm huy chương Olympic"
 subtitle: "Từ đôi nam nữ London đến đôi nữ Rio và chiếc cúp All England 2018"
+banner-img: "/posts/2027/11/12-christinna-pedersen/avatar.jpg"
 cover-img: "/posts/2027/11/12-christinna-pedersen/avatar.jpg"
-thumbnail-img: "/posts/2027/11/12-christinna-pedersen/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Đan Mạch, Christinna Pedersen, Đánh đôi]

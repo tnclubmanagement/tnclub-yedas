@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/15 00:00:00 +0700"
 title: "Armenia: Đất nước Kitô giáo đầu tiên giữa núi non Caucasus"
 subtitle: "Khor Virap dưới chân núi Ararat thiêng, tu viện trong hẻm và hồ Sevan ngọc lam"
+banner-img: "/posts/2027/08/15/armenia/cover.jpg"
 cover-img: "/posts/2027/08/15/armenia/cover.jpg"
-thumbnail-img: "/posts/2027/08/15/armenia/cover.jpg"
 geo: [39.8780, 44.5760]
 place_name: "Khor Virap / Yerevan"
 place_country: "Armenia"

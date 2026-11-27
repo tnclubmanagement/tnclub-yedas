@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/04 00:00:00 +0700"
 title: "Montreux và hồ Léman: Riviera Thụy Sĩ"
 subtitle: "Lâu đài Chillon trên hồ, di sản Freddie Mercury và tàu ngắm cảnh dọc vườn nho Lavaux"
+banner-img: "/posts/2027/05/04/montreux/cover.png"
 cover-img: "/posts/2027/05/04/montreux/cover.png"
-thumbnail-img: "/posts/2027/05/04/montreux/cover.png"
 geo: [46.4312, 6.9107]
 place_name: "Montreux, Vaud"
 place_country: "Switzerland"

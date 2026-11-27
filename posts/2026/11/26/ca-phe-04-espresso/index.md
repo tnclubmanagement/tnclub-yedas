@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:04:00 +0700"
 title: "[04 · Hiểu menu cà phê] : Espresso, Americano và cà phê đen"
 subtitle: "Ly nhỏ cô đọng hay ly đen để nhâm nhi? Phân biệt cách chiết xuất với việc thêm nước"
+banner-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

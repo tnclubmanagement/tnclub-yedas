@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/22 00:00:00 +0700"
 title: "Tayrona: Rừng nhiệt đới gặp biển Caribe"
 subtitle: "Vườn quốc gia bãi biển đẹp nhất Colombia dưới chân Sierra Nevada"
+banner-img: "/posts/2027/06/22/tayrona/cover.png"
 cover-img: "/posts/2027/06/22/tayrona/cover.png"
-thumbnail-img: "/posts/2027/06/22/tayrona/cover.png"
 geo: [11.2860, -73.9555]
 place_name: "Parque Tayrona, Magdalena"
 place_country: "Colombia"

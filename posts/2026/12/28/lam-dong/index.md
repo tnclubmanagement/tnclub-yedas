@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-28 00:00:00 +0700"
 title: "Lâm Đồng: Đà Lạt — thành phố ngàn hoa trên cao nguyên"
 subtitle: "Thủ phủ hoa, cà phê và nông nghiệp công nghệ cao của Tây Nguyên"
+banner-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 cover-img: "/posts/2026/12/28/lam-dong/cover.jpg"
-thumbnail-img: "/posts/2026/12/28/lam-dong/cover.jpg"
 geo: [11.94, 108.44]
 place_name: "Lâm Đồng"
 place_country: "Vietnam"

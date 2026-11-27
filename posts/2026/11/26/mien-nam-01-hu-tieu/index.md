@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:01:00 +0700"
 title: "[01 · Ăn ngon miền Nam] : Hủ tiếu Nam Vang, mực, sườn và khô"
 subtitle: "Chọn nhân và cách ăn: tô nước thanh hay phần khô trộn sốt, trong một quán ngồi thoải mái"
+banner-img: "/posts/2026/11/26/mien-nam-01-hu-tieu/nam-vang.jpg"
 cover-img: "/posts/2026/11/26/mien-nam-01-hu-tieu/nam-vang.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-01-hu-tieu/nam-vang.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Sài Gòn, Hủ tiếu]
 series: "Ăn ngon miền Nam"

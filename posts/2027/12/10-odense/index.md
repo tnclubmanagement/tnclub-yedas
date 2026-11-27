@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-10 00:00:00 +0700"
 title: "Odense: đọc Andersen giữa một thành phố đang sống"
 subtitle: "Bảo tàng, phố nhỏ và những khoảng xanh trên đảo Funen"
+banner-img: "/posts/2027/12/10-odense/cover.jpg"
 cover-img: "/posts/2027/12/10-odense/cover.jpg"
-thumbnail-img: "/posts/2027/12/10-odense/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Odense, Bắc Âu, Văn học]
 geo: [55.403, 10.402]

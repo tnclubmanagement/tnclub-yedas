@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-17 00:00:00 +0700"
 title: "An Se-young: thần đồng Hàn Quốc và vương triều mới của đơn nữ"
 subtitle: "Vô địch thế giới năm 21 tuổi, vàng Olympic Paris và thống trị thời đại mới"
+banner-img: "/posts/2026/11/17/an-se-young/avatar.jpg"
 cover-img: "/posts/2026/11/17/an-se-young/avatar.jpg"
-thumbnail-img: "/posts/2026/11/17/an-se-young/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, An Se-young, Hàn Quốc]

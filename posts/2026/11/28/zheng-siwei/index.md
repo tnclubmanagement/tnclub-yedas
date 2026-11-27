@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-28 00:00:00 +0700"
 title: "Zheng Siwei: trái tim của cặp đôi nam nữ vĩ đại nhất"
 subtitle: "Cùng Huang Yaqiong xây 'vương triều IELTS' thống trị đôi nam nữ"
+banner-img: "/posts/2026/11/28/zheng-siwei/avatar.jpg"
 cover-img: "/posts/2026/11/28/zheng-siwei/avatar.jpg"
-thumbnail-img: "/posts/2026/11/28/zheng-siwei/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Zheng Siwei, Trung Quốc, Đôi nam nữ]

@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/14 00:00:00 +0700"
 title: "Lhasa: Thành phố mặt trời trên nóc nhà thế giới"
 subtitle: "Cung điện Potala huyền thoại, hành hương vòng Barkhor và tu viện tranh luận Sera"
+banner-img: "/posts/2027/09/14/lhasa/cover.jpg"
 cover-img: "/posts/2027/09/14/lhasa/cover.jpg"
-thumbnail-img: "/posts/2027/09/14/lhasa/cover.jpg"
 geo: [29.6500, 91.1400]
 place_name: "Lhasa, Tây Tạng"
 place_country: "China"

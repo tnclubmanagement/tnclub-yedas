@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/21 00:00:00 +0700"
 title: "Croatia: Dubrovnik — thành cổ ngọc quý biển Adriatic"
 subtitle: "Tường thành Đỏ King's Landing, đảo Lokrum, thác Krka và cung điện Diocletian ở Split"
+banner-img: "/posts/2027/07/21/croatia/cover.jpg"
 cover-img: "/posts/2027/07/21/croatia/cover.jpg"
-thumbnail-img: "/posts/2027/07/21/croatia/cover.jpg"
 geo: [42.6507, 18.0944]
 place_name: "Dubrovnik"
 place_country: "Croatia"

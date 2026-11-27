@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-22 00:00:00 +0700"
 title: "Tokyo: đi từ Asakusa yên buổi sáng đến Shibuya đông buổi tối"
 subtitle: "Chia thủ đô theo từng khu để còn thời gian cho một khu vườn và một bữa ăn không vội"
+banner-img: "/posts/2027/01/22/tokyo/cover.jpg"
 cover-img: "/posts/2027/01/22/tokyo/cover.jpg"
-thumbnail-img: "/posts/2027/01/22/tokyo/cover.jpg"
 geo: [35.7148, 139.7967]
 place_name: "Tokyo"
 place_country: "Japan"

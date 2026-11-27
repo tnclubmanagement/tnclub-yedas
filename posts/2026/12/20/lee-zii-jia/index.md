@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-20 00:00:00 +0700"
 title: "Lee Zii Jia: 'người kế thừa' của cầu lông Malaysia"
 subtitle: "Vô địch All England 2021 và cú smash cú ngược huyền thoại — gánh cả niềm hy vọng Malaysia hậu Lee Chong Wei"
+banner-img: "/posts/2026/12/20/lee-zii-jia/avatar.jpg"
 cover-img: "/posts/2026/12/20/lee-zii-jia/avatar.jpg"
-thumbnail-img: "/posts/2026/12/20/lee-zii-jia/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Lee Zii Jia, Malaysia]

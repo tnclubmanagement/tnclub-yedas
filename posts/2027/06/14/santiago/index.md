@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/14 00:00:00 +0700"
 title: "Santiago: Thủ đô Chile giữa dãy Andes"
 subtitle: "Cerro San Cristóbal, Lastarria, Sky Costanera và cửa ngờ vang-Valparaíso"
+banner-img: "/posts/2027/06/14/santiago/cover.png"
 cover-img: "/posts/2027/06/14/santiago/cover.png"
-thumbnail-img: "/posts/2027/06/14/santiago/cover.png"
 geo: [-33.4489, -70.6693]
 place_name: "Santiago"
 place_country: "Chile"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-26 00:00:00 +0700"
 title: "Hokkaido: bắt đầu ở Sapporo, đừng cố ôm cả đảo trong vài ngày"
 subtitle: "Một hành trình mùa đông vừa sức với Odori, bữa ramen nóng và khoảng nghỉ giữa những buổi đi tuyết"
+banner-img: "/posts/2027/01/26/hokkaido/cover.jpg"
 cover-img: "/posts/2027/01/26/hokkaido/cover.jpg"
-thumbnail-img: "/posts/2027/01/26/hokkaido/cover.jpg"
 geo: [43.0618, 141.3545]
 place_name: "Hokkaido"
 place_country: "Japan"

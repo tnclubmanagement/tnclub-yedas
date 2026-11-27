@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/27 00:00:00 +0700"
 title: "Amsterdam: Kênh đào, xe đạp và những bảo tàng bậc thầy"
 subtitle: "Rijksmuseum, Van Gogh, nhà Anne Frank và hệ thống kênh UNESCO"
+banner-img: "/posts/2027/04/27/amsterdam/cover.png"
 cover-img: "/posts/2027/04/27/amsterdam/cover.png"
-thumbnail-img: "/posts/2027/04/27/amsterdam/cover.png"
 geo: [52.3676, 4.9041]
 place_name: "Amsterdam, Noord-Holland"
 place_country: "Netherlands"

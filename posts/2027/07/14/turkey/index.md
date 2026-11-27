@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/14 00:00:00 +0700"
 title: "Turkey: Istanbul và Cappadocia — hai châu một nước"
 subtitle: "Hagia Sophia, chợ Grand Bazaar, khinh khí cầu Cappadocia và nhà tắm Thổ hammam"
+banner-img: "/posts/2027/07/14/turkey/cover.jpg"
 cover-img: "/posts/2027/07/14/turkey/cover.jpg"
-thumbnail-img: "/posts/2027/07/14/turkey/cover.jpg"
 geo: [38.6431, 34.8289]
 place_name: "Cappadocia"
 place_country: "Turkey"

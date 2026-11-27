@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-16 00:00:00 +0700"
 title: "Carolina Marín: nữ hoàng cầu lông châu Âu với trái tim chiến binh"
 subtitle: "Vàng Olympic, 3 lần vô địch thế giới và những lần trở lại sau gối rách"
+banner-img: "/posts/2026/11/16/carolina-marin/avatar.jpg"
 cover-img: "/posts/2026/11/16/carolina-marin/avatar.jpg"
-thumbnail-img: "/posts/2026/11/16/carolina-marin/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Carolina Marín, Tây Ban Nha]

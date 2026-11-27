@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/24 00:00:00 +0700"
 title: "Morocco: Vương quốc ngàn màu sắc nơi cửa Sahara"
 subtitle: "Medina Marrakech, thành phố xanh Chefchaouen, Fes cổ kính và đêm trăng sa mạc"
+banner-img: "/posts/2027/06/24/morocco/cover.jpg"
 cover-img: "/posts/2027/06/24/morocco/cover.jpg"
-thumbnail-img: "/posts/2027/06/24/morocco/cover.jpg"
 geo: [31.6295, -7.9811]
 place_name: "Marrakech"
 place_country: "Morocco"

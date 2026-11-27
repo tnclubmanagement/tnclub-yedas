@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/10 00:00:00 +0700"
 title: "UAE: Dubai và Abu Dhabi — xa hoa giữa sa mạc"
 subtitle: "Burj Khalifa, sa mạc đỏ, đại thánh đường Sheikh Zayed và những hòn đảo nhân tạo"
+banner-img: "/posts/2027/07/10/uae/cover.jpg"
 cover-img: "/posts/2027/07/10/uae/cover.jpg"
-thumbnail-img: "/posts/2027/07/10/uae/cover.jpg"
 geo: [25.2048, 55.2708]
 place_name: "Dubai"
 place_country: "United Arab Emirates"

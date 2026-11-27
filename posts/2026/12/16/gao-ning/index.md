@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-16 00:00:00 +0700"
 title: "Gao Ning: 'sếu đầu đàn' của bóng bàn nam Singapore"
 subtitle: "Top 10 thế giới và loạt HCV khu vực — trụ cột đội tuyển nam Singapore một thập kỷ"
+banner-img: "/posts/2026/12/16/gao-ning/avatar.jpg"
 cover-img: "/posts/2026/12/16/gao-ning/avatar.jpg"
-thumbnail-img: "/posts/2026/12/16/gao-ning/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Gao Ning, Singapore]

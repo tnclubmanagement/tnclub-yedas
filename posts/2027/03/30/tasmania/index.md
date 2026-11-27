@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-30 00:00:00 +0700"
 title: "Tasmania: vườn địa đàng hoang sơ nơi hạ giới"
 subtitle: "Hobart cổ kính, Cradle Mountain trong sương, Wineglass Bay và quỷ Tasmania thật sự"
+banner-img: "/posts/2027/03/30/tasmania/cover.png"
 cover-img: "/posts/2027/03/30/tasmania/cover.png"
-thumbnail-img: "/posts/2027/03/30/tasmania/cover.png"
 geo: [-42.8821, 147.3272]
 place_name: "Hobart, Tasmania"
 place_country: "Australia"

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:02:00 +0700"
 title: "[02 · Hiểu menu cà phê] : Đen, sữa và bạc xỉu"
 subtitle: "Ba lựa chọn quen thuộc, khác nhau chủ yếu ở sữa và độ ngọt"
+banner-img: "/posts/2026/11/26/ca-phe-02-ca-phe-viet/banner.jpg"
 cover-img: "/posts/2026/11/26/ca-phe-02-ca-phe-viet/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/ca-phe-02-ca-phe-viet/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

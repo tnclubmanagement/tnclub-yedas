@@ -2,7 +2,7 @@
 layout: page
 title: "Hiểu menu cà phê"
 subtitle: "7 bài ngắn để biết trong ly có gì và chọn đúng khẩu vị khi ra quán"
-cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
+banner-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 ---
 
 Có lần bạn gọi <span class="menu-tag">latte</span> nhưng thấy nhiều sữa quá, gọi <span class="menu-tag">macchiato</span> lại nhận một ly khác hẳn tưởng tượng? Series này giúp bạn hiểu **thành phần, cách pha và hương vị thường gặp**, không cần thuộc công thức hay biết vận hành máy pha.

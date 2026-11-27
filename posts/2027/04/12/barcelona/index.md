@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/12 00:00:00 +0700"
 title: "Barcelona: Thành phố của Gaudí, biển và tapas"
 subtitle: "Sagrada Família, Park Güell, phố Gothic và cuộc sống Catalan sôi động"
+banner-img: "/posts/2027/04/12/barcelona/cover.png"
 cover-img: "/posts/2027/04/12/barcelona/cover.png"
-thumbnail-img: "/posts/2027/04/12/barcelona/cover.png"
 geo: [41.3874, 2.1686]
 place_name: "Barcelona, Catalonia"
 place_country: "Spain"

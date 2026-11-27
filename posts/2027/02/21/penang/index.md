@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-21 00:00:00 +0700"
 title: "Penang: phố cổ George Town và thủ đô ăn vặt của Malaysia"
 subtitle: "Tranh tường, nhà Peranakan, chùa Kek Lok Si và những gánh hàng khiến người ta quay lại chỉ vì đói"
+banner-img: "/posts/2027/02/21/penang/cover.png"
 cover-img: "/posts/2027/02/21/penang/cover.png"
-thumbnail-img: "/posts/2027/02/21/penang/cover.png"
 geo: [5.4141, 100.3288]
 place_name: "George Town, Penang"
 place_country: "Malaysia"

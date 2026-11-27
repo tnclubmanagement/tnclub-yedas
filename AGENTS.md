@@ -26,7 +26,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
       điện thoại.
 - [ ] **Meta cơ bản cho SEO/chia sẻ** — `<title>`, meta description, Open
       Graph (og:title/description/image) — theme Beautiful Jekyll đã tự làm
-      phần này dựa trên `title`/`subtitle`/`cover-img` của từng trang.
+      phần này dựa trên `title`/`subtitle`/`banner-img` của từng trang.
 - [ ] **Ảnh có kích thước hợp lý** — không nhúng ảnh gốc quá nặng; ưu tiên
       ảnh đã resize (vd `?w=1200` khi lấy từ Unsplash) để tải nhanh.
 - [ ] **Trạng thái rỗng/demo hợp lý** — nếu site chưa có nội dung thật, luôn
@@ -70,7 +70,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   `yedas-home-display-mode`, tham số URL `view` được ưu tiên hơn lựa chọn lưu.
 - Các khối CSS lớn tải có điều kiện qua `_includes/head.html`:
   - `assets/css/header.css`: ảnh bìa/header và banner controls, khi có
-    `page.cover-img` hoặc `page.banner-nav`.
+    `page.banner-img` hoặc `page.banner-nav`.
   - `assets/css/post.css`: chế độ rút gọn, gallery/lightbox, before/after,
     typography, ảnh, video và `.photo-grid`, khi `page.layout == 'post'`.
   - `assets/css/tags-series.css`: toolbar, tag cloud, danh sách/grid và
@@ -201,7 +201,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
 
 ## Bài ẩm thực
 
-- Quy ước người dùng: **banner** là ảnh lớn đầu bài (`cover-img` trong theme); **cover** là ảnh đại diện (`thumbnail-img`) và ảnh card ở trang tổng hợp. Hai ảnh thường KHÁC NHAU. Yêu cầu đổi cover chỉ sửa thumbnail/card, KHÔNG ghi đè banner; yêu cầu đổi banner chỉ sửa `cover-img`. Ảnh nội dung là loại riêng, không tự đồng bộ với hai loại trên.
+- Quy ước người dùng: **banner** là ảnh lớn đầu bài (`banner-img` trong theme); **cover** là ảnh đại diện (`cover-img`) và ảnh card ở trang tổng hợp. Hai ảnh thường KHÁC NHAU. Yêu cầu đổi cover chỉ sửa `cover-img` và card gán ảnh riêng, KHÔNG ghi đè banner; yêu cầu đổi banner chỉ sửa `banner-img`. Ảnh nội dung là loại riêng, không tự đồng bộ với hai loại trên.
 
 - Ưu tiên ảnh cận cảnh món ăn và chỗ ngồi trong nhà, bàn ghế đàng hoàng; không dùng ảnh vỉa hè/hàng rong hoặc gợi ý ngồi ăn vỉa hè.
 - Mỗi bài con có ít nhất hai ảnh trong thân bài, không tính ảnh bìa/thumbnail. Bài tổng hợp ốc và hải sản cần bộ 10 ảnh món ăn khác nhau. Không gắn tên món cho ảnh món khác; thiếu ảnh đúng món thì báo rõ.

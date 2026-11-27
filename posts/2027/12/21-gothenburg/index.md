@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-21 00:00:00 +0700"
 title: "Gothenburg: đi tram, ăn hải sản và để dành một buổi cho đảo"
 subtitle: "Nhịp sống bờ tây Thụy Điển bắt đầu từ những quãng đi bộ bình thường"
+banner-img: "/posts/2027/12/21-gothenburg/cover.jpg"
 cover-img: "/posts/2027/12/21-gothenburg/cover.jpg"
-thumbnail-img: "/posts/2027/12/21-gothenburg/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Gothenburg, Bắc Âu, Biển]
 geo: [57.708, 11.975]

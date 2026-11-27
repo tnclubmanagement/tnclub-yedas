@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:05:00 +0700"
 title: "[05 · Ăn ngon miền Bắc] : Xôi mặn và bữa no phố cổ Hà Nội"
 subtitle: "Xôi xéo, xôi ngô hay xôi thịt — chọn nền nếp và đồ kèm vừa bụng"
-cover-img: "/posts/2026/12/30/ha-noi/cover.jpg"
-thumbnail-img: "https://tse2.mm.bing.net/th/id/OIP.hmCI_KthT4FyeMR8UySzBwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+banner-img: "/posts/2026/12/30/ha-noi/cover.jpg"
+cover-img: "https://tse2.mm.bing.net/th/id/OIP.hmCI_KthT4FyeMR8UySzBwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Xôi]
 series: "Ăn ngon miền Bắc"

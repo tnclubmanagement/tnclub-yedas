@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-19 00:00:00 +0700"
 title: "Jaipur: thành phố hồng của các vương vãi Rajput"
 subtitle: "Cung điện Gió, Pháo đài Amber, đài thiên văn Jantar Mantar và những khu chợ đá quý sầm uất"
+banner-img: "/posts/2027/03/19/jaipur/cover.png"
 cover-img: "/posts/2027/03/19/jaipur/cover.png"
-thumbnail-img: "/posts/2027/03/19/jaipur/cover.png"
 geo: [26.9124, 75.7873]
 place_name: "Jaipur, Rajasthan"
 place_country: "India"

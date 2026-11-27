@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-05 00:00:00 +0700"
 title: "Hampi: đọc dấu vết Vijayanagara giữa đá, đền và sông"
 subtitle: "Một quần thể di sản rộng cần được chia theo khu và giờ tránh nóng"
+banner-img: "/posts/2028/02/05-hampi/cover.jpg"
 cover-img: "/posts/2028/02/05-hampi/cover.jpg"
-thumbnail-img: "/posts/2028/02/05-hampi/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Hampi, Karnataka, Di sản]
 geo: [15.335, 76.46]

@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/28 00:00:00 +0700"
 title: "Quảng Ngãi: Đảo Lý Sơn và vùng đất lịch sử miền Trung"
 subtitle: "Cổng Tò Vò, núi lửa trên biển, tỏi trứ danh và chứng tích Sơn Mỹ"
+banner-img: "/posts/2027/10/28/quang-ngai/cover.jpg"
 cover-img: "/posts/2027/10/28/quang-ngai/cover.jpg"
-thumbnail-img: "/posts/2027/10/28/quang-ngai/cover.jpg"
 geo: [15.1214, 108.8044]
 place_name: "Quảng Ngãi"
 place_country: "Vietnam"

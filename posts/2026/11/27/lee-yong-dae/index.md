@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-27 00:00:00 +0700"
 title: "Lee Yong-dae: huyền thoại đánh đôi Hàn Quốc"
 subtitle: "Vàng Olympic năm 20 tuổi, gần 100 danh hiệu ở cả đôi nam lẫn đôi nam nữ"
+banner-img: "/posts/2026/11/27/lee-yong-dae/avatar.jpg"
 cover-img: "/posts/2026/11/27/lee-yong-dae/avatar.jpg"
-thumbnail-img: "/posts/2026/11/27/lee-yong-dae/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Lee Yong-dae, Hàn Quốc, Đánh đôi]

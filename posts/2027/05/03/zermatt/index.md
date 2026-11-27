@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/03 00:00:00 +0700"
 title: "Zermatt và Matterhorn: Ngọn núi đẹp nhất Alps"
 subtitle: "Làng không xe hơi dưới chân đỉnh chóp nổi tiếng thế giới, tàu Gornergrat và trekking Five Lakes"
+banner-img: "/posts/2027/05/03/zermatt/cover.png"
 cover-img: "/posts/2027/05/03/zermatt/cover.png"
-thumbnail-img: "/posts/2027/05/03/zermatt/cover.png"
 geo: [46.0207, 7.7491]
 place_name: "Zermatt, Valais"
 place_country: "Switzerland"

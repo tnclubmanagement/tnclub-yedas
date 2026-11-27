@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-15 00:00:00 +0700"
 title: "Brisbane: đi theo dòng sông giữa một thành phố cận nhiệt đới"
 subtitle: "South Bank, phà và những khoảng xanh cần có chỗ nghỉ tránh nắng"
+banner-img: "/posts/2028/01/15-brisbane/cover.jpg"
 cover-img: "/posts/2028/01/15-brisbane/cover.jpg"
-thumbnail-img: "/posts/2028/01/15-brisbane/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Brisbane, Queensland, Thành phố]
 geo: [-27.47, 153.026]

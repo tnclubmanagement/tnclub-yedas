@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-24 00:00:00 +0700"
 title: "Kunlavut Vitidsarn: nhà vô địch thế giới 2023 của Thái Lan"
 subtitle: "Từ vô địch trẻ 3 lần liên tiếp tới HCB Olympic Paris 2024"
+banner-img: "/posts/2026/11/24/kunlavut-vitidsarn/avatar.jpg"
 cover-img: "/posts/2026/11/24/kunlavut-vitidsarn/avatar.jpg"
-thumbnail-img: "/posts/2026/11/24/kunlavut-vitidsarn/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Kunlavut Vitidsarn, Thái Lan]

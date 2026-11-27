@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-03 00:00:00 +0700"
 title: "Húsavík: ra biển xem cá voi với một kỳ vọng vừa đủ"
 subtitle: "Thị trấn cảng miền bắc Iceland còn có những giờ đáng nhớ trên bờ"
+banner-img: "/posts/2028/01/03-husavik/cover.jpg"
 cover-img: "/posts/2028/01/03-husavik/cover.jpg"
-thumbnail-img: "/posts/2028/01/03-husavik/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Húsavík, Cá voi, Biển]
 geo: [66.044, -17.339]

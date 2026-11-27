@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/16 00:00:00 +0700"
 title: "Oman: Muscat — Trung Đông nguyên bản và hiền hòa"
 subtitle: "Đại thánh đường Sultan Qaboos, hẻm núi wadi xanh ngọc và thành Nizwa thời cổ"
+banner-img: "/posts/2027/07/16/oman/cover.jpg"
 cover-img: "/posts/2027/07/16/oman/cover.jpg"
-thumbnail-img: "/posts/2027/07/16/oman/cover.jpg"
 geo: [23.5880, 58.3829]
 place_name: "Muscat"
 place_country: "Oman"

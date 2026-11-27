@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-23 00:00:00 +0700"
 title: "Lào Cai: Sa Pa và nóc nhà Đông Dương"
 subtitle: "Fansipan, ruộng bậc thang và thị trấn trong mây"
+banner-img: "/posts/2026/12/23/lao-cai/cover.jpg"
 cover-img: "/posts/2026/12/23/lao-cai/cover.jpg"
-thumbnail-img: "/posts/2026/12/23/lao-cai/cover.jpg"
 geo: [22.34, 103.84]
 place_name: "Lào Cai"
 place_country: "Vietnam"

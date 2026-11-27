@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-25 00:00:00 +0700"
 title: "Boracay: bốn kilomet cát trắng và bài học phục hồi của một hòn đảo"
 subtitle: "White Beach chia ba khu, thuyền paraw lúc hoàng hôn và quy tắc sạch mới sau đợt đóng đảo 2018"
+banner-img: "/posts/2027/02/25/boracay/cover.jpg"
 cover-img: "/posts/2027/02/25/boracay/cover.jpg"
-thumbnail-img: "/posts/2027/02/25/boracay/cover.jpg"
 geo: [11.9674, 121.9248]
 place_name: "Boracay"
 place_country: "Philippines"

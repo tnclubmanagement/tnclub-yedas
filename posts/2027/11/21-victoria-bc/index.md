@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-21 00:00:00 +0700"
 title: "Victoria: một vòng cảng nhỏ trên đảo Vancouver"
 subtitle: "Tòa nhà nghị viện, phố đi bộ và nhịp chậm ở thủ phủ British Columbia"
+banner-img: "/posts/2027/11/21-victoria-bc/cover.jpg"
 cover-img: "/posts/2027/11/21-victoria-bc/cover.jpg"
-thumbnail-img: "/posts/2027/11/21-victoria-bc/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Victoria, British Columbia, Biển, Chụp ảnh]
 geo: [48.429, -123.365]

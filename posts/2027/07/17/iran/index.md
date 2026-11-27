@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/17 00:00:00 +0700"
 title: "Iran: Isfahan — nửa thế giới trong một thành phố"
 subtitle: "Quảng trường Naqsh-e Jahan, thánh đường gốm lam, Shiraz thơ mộng và Persepolis cổ đại"
+banner-img: "/posts/2027/07/17/iran/cover.jpg"
 cover-img: "/posts/2027/07/17/iran/cover.jpg"
-thumbnail-img: "/posts/2027/07/17/iran/cover.jpg"
 geo: [32.6546, 51.6680]
 place_name: "Isfahan"
 place_country: "Iran"

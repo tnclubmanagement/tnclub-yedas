@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-09 00:00:00 +0700"
 title: "Chiang Rai: nhìn kỹ Chùa Trắng, chậm lại giữa những đồi trà"
 subtitle: "Hai ngày miền Bắc Thái Lan, từ nghệ thuật đương đại đến cảnh quan vùng biên"
+banner-img: "/posts/2027/02/09/chiang-rai/cover.jpg"
 cover-img: "/posts/2027/02/09/chiang-rai/cover.jpg"
-thumbnail-img: "/posts/2027/02/09/chiang-rai/cover.jpg"
 geo: [19.9105, 99.8406]
 place_name: "Chiang Rai"
 place_country: "Thailand"

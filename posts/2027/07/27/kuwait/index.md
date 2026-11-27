@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/27 00:00:00 +0700"
 title: "Kuwait: Tháp ba lọ nước và quốc gia ít khách du lịch nhất Vịnh"
 subtitle: "Kuwait Towers biểu tượng, chợ Mubarakiya trăm năm và đảo Failaka di tích Hy Lạp"
+banner-img: "/posts/2027/07/27/kuwait/cover.jpg"
 cover-img: "/posts/2027/07/27/kuwait/cover.jpg"
-thumbnail-img: "/posts/2027/07/27/kuwait/cover.jpg"
 geo: [29.3759, 47.9774]
 place_name: "Kuwait City"
 place_country: "Kuwait"

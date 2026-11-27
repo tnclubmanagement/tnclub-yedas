@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/24 00:00:00 +0700"
 title: "Montreal: Châu Âu giữa Bắc Mỹ"
 subtitle: "Phố cổ, nhà thờ Notre-Dame, núi Royal và thành phố lễ hội nói tiếng Pháp"
+banner-img: "/posts/2027/05/24/montreal/cover.jpg"
 cover-img: "/posts/2027/05/24/montreal/cover.jpg"
-thumbnail-img: "/posts/2027/05/24/montreal/cover.jpg"
 geo: [45.5019, -73.5674]
 place_name: "Montreal, Quebec"
 place_country: "Canada"

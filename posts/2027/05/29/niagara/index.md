@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/29 00:00:00 +0700"
 title: "Thác Niagara: kỳ quan nước giữa hai quốc gia"
 subtitle: "Thuyền xuyên sương, Horseshoe Falls, Journey Behind the Falls và Niagara-on-the-Lake"
+banner-img: "/posts/2027/05/29/niagara/cover.jpg"
 cover-img: "/posts/2027/05/29/niagara/cover.jpg"
-thumbnail-img: "/posts/2027/05/29/niagara/cover.jpg"
 geo: [43.0962, -79.0377]
 place_name: "Niagara Falls, Ontario"
 place_country: "Canada"

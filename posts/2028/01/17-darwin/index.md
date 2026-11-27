@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-17 00:00:00 +0700"
 title: "Darwin: nhịp nhiệt đới ở cửa ngõ Top End"
 subtitle: "Bờ nước, chợ theo mùa và những nguyên tắc an toàn không được bỏ qua"
+banner-img: "/posts/2028/01/17-darwin/cover.jpg"
 cover-img: "/posts/2028/01/17-darwin/cover.jpg"
-thumbnail-img: "/posts/2028/01/17-darwin/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Darwin, Northern Territory, Nhiệt đới]
 geo: [-12.464, 130.846]

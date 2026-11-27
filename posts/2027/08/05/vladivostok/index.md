@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/05 00:00:00 +0700"
 title: "Nga: Vladivostok — ga cuối Trans-Siberian bên Thái Bình Dương"
 subtitle: "Cầu Russky vĩ đại, ngọn hải đăng Tokarevsky và hải sản cua vua giá tốt"
+banner-img: "/posts/2027/08/05/vladivostok/cover.jpg"
 cover-img: "/posts/2027/08/05/vladivostok/cover.jpg"
-thumbnail-img: "/posts/2027/08/05/vladivostok/cover.jpg"
 geo: [43.1155, 131.8855]
 place_name: "Vladivostok"
 place_country: "Russia"

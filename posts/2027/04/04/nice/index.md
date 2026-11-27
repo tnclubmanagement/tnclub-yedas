@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/04 00:00:00 +0700"
 title: "Nice và French Riviera: Màu xanh của Địa Trung Hải"
 subtitle: "Promenade des Anglais, phố cổ Vieux Nice, và cửa ngờ đi Monaco-Cannes-Èze"
+banner-img: "/posts/2027/04/04/nice/cover.png"
 cover-img: "/posts/2027/04/04/nice/cover.png"
-thumbnail-img: "/posts/2027/04/04/nice/cover.png"
 geo: [43.7102, 7.2620]
 place_name: "Nice, Provence-Alpes-Côte d'Azur"
 place_country: "France"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/15 00:00:00 +0700"
 title: "Las Vegas: Thành phố giải trí giữa sa mạc"
 subtitle: "The Strip, show đỉnh cao, và cửa ngờ Grand Canyon-Hoover Dam"
+banner-img: "/posts/2027/05/15/las-vegas/cover.png"
 cover-img: "/posts/2027/05/15/las-vegas/cover.png"
-thumbnail-img: "/posts/2027/05/15/las-vegas/cover.png"
 geo: [36.1699, -115.1398]
 place_name: "Las Vegas, NV"
 place_country: "United States"

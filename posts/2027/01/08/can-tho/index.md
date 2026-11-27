@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-08 00:00:00 +0700"
 title: "Cần Thơ: dậy sớm đi chợ nổi, ở lại nghe nhịp miền sông nước"
 subtitle: "Cái Răng, bến Ninh Kiều và những chặng nối vào vườn cây, văn hóa Khmer"
+banner-img: "/posts/2027/01/08/can-tho/cover.jpg"
 cover-img: "/posts/2027/01/08/can-tho/cover.jpg"
-thumbnail-img: "/posts/2027/01/08/can-tho/cover.jpg"
 geo: [10.0070, 105.7460]
 place_name: "Cần Thơ"
 place_country: "Vietnam"

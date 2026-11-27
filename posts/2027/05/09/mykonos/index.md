@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/09 00:00:00 +0700"
 title: "Mykonos: Đảo tiệc tùng và những bãi biển quyến rũ"
 subtitle: "Cối xay gió, Little Venice, beach club danh tiếng và chuyến đi đảo thánh Delos"
+banner-img: "/posts/2027/05/09/mykonos/cover.png"
 cover-img: "/posts/2027/05/09/mykonos/cover.png"
-thumbnail-img: "/posts/2027/05/09/mykonos/cover.png"
 geo: [37.4467, 25.3289]
 place_name: "Mykonos, Cyclades"
 place_country: "Greece"

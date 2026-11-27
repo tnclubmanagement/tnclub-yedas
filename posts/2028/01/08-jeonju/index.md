@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-08 00:00:00 +0700"
 title: "Jeonju: một đêm giữa mái hanok và những bữa ăn vùng Jeolla"
 subtitle: "Đi bộ chậm để phố truyền thống không chỉ còn là phông thuê hanbok"
+banner-img: "/posts/2028/01/08-jeonju/cover.jpg"
 cover-img: "/posts/2028/01/08-jeonju/cover.jpg"
-thumbnail-img: "/posts/2028/01/08-jeonju/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Jeonju, Hanok, Ẩm thực]
 geo: [35.824, 127.148]

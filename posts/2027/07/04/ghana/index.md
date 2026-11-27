@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/04 00:00:00 +0700"
 title: "Ghana: Cổng vào Tây Phi thân thiện"
 subtitle: "Lâu đài nô lệ Cape Coast, chợ Accra nhộn nhịp và cầu treo rừng Kakum"
+banner-img: "/posts/2027/07/04/ghana/cover.jpg"
 cover-img: "/posts/2027/07/04/ghana/cover.jpg"
-thumbnail-img: "/posts/2027/07/04/ghana/cover.jpg"
 geo: [5.6037, -0.1870]
 place_name: "Accra"
 place_country: "Ghana"

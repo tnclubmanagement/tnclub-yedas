@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/18 00:00:00 +0700"
 title: "Phú Yên: Xứ nẫu đá đĩa, mũi điện đón bình minh đầu tiên"
 subtitle: "Gành Đá Dĩa, Mũi Điện – Đại Lãnh, bãi Xép và hải sản dân dã"
+banner-img: "/posts/2027/10/18/phu-yen/cover.jpg"
 cover-img: "/posts/2027/10/18/phu-yen/cover.jpg"
-thumbnail-img: "/posts/2027/10/18/phu-yen/cover.jpg"
 geo: [13.0880, 109.3110]
 place_name: "Phú Yên"
 place_country: "Vietnam"

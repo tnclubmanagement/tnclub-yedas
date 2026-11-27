@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/15 00:00:00 +0700"
 title: "Seville: Thủ phủ Flamenco của Andalusia"
 subtitle: "Alcázar, nhà thờ lớn nhất thế giới, Plaza de España và vùng đất của điệu nhảy"
+banner-img: "/posts/2027/04/15/seville/cover.png"
 cover-img: "/posts/2027/04/15/seville/cover.png"
-thumbnail-img: "/posts/2027/04/15/seville/cover.png"
 geo: [37.3891, -5.9845]
 place_name: "Seville, Andalusia"
 place_country: "Spain"

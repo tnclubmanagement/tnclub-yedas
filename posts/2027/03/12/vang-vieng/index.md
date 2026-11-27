@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-12 00:00:00 +0700"
 title: "Vang Vieng: thung lũng đá vôi trên sông Nam Song"
 subtitle: "Chèo kayak giữa rặng karst, ngâm mình ở Blue Lagoon và ngắm khinh khí cầu lúc bình minh"
+banner-img: "/posts/2027/03/12/vang-vieng/cover.jpg"
 cover-img: "/posts/2027/03/12/vang-vieng/cover.jpg"
-thumbnail-img: "/posts/2027/03/12/vang-vieng/cover.jpg"
 geo: [18.9286, 102.4470]
 place_name: "Vang Vieng"
 place_country: "Laos"

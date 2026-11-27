@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/22 00:00:00 +0700"
 title: "Toronto: tháp CN, chợ Kensington và những khu phố đa văn hóa"
 subtitle: "Bốn ngày ở thành phố lớn nhất Canada — đừng chỉ vòng quanh khu trung tâm"
+banner-img: "/posts/2027/05/22/toronto/cover.jpg"
 cover-img: "/posts/2027/05/22/toronto/cover.jpg"
-thumbnail-img: "/posts/2027/05/22/toronto/cover.jpg"
 geo: [43.6532, -79.3832]
 place_name: "Toronto, Ontario"
 place_country: "Canada"

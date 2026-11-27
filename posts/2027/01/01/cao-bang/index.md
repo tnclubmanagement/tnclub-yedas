@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-01 00:00:00 +0700"
 title: "Cao Bằng: theo dòng Quây Sơn đến thác Bản Giốc"
 subtitle: "Núi đá vôi, làng đá Khuổi Ky và những bữa sáng vùng biên"
+banner-img: "/posts/2027/01/01/cao-bang/cover.jpg"
 cover-img: "/posts/2027/01/01/cao-bang/cover.jpg"
-thumbnail-img: "/posts/2027/01/01/cao-bang/cover.jpg"
 geo: [22.8539, 106.7222]
 place_name: "Cao Bằng"
 place_country: "Vietnam"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-19 00:00:00 +0700"
 title: "Labuan Bajo: chuyến thuyền vào vương quốc rồng Komodo"
 subtitle: "Đồi Padar ba vịnh, bãi cát hồng và loài bò sát lớn nhất còn lại trên Trái đất"
+banner-img: "/posts/2027/02/19/labuan-bajo/cover.png"
 cover-img: "/posts/2027/02/19/labuan-bajo/cover.png"
-thumbnail-img: "/posts/2027/02/19/labuan-bajo/cover.png"
 geo: [-8.4964, 119.8877]
 place_name: "Labuan Bajo, Flores"
 place_country: "Indonesia"

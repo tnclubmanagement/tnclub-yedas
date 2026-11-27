@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-21 00:00:00 +0700"
 title: "Loh Kean Yew: nhà vô địch thế giới đầu tiên của Singapore"
 subtitle: "HCV thế giới 2021 — 'ngọn lửa tốc độ' đưa cầu lông Singapore lên đỉnh thế giới"
+banner-img: "/posts/2026/12/21/loh-kean-yew/avatar.jpg"
 cover-img: "/posts/2026/12/21/loh-kean-yew/avatar.jpg"
-thumbnail-img: "/posts/2026/12/21/loh-kean-yew/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Loh Kean Yew, Singapore]

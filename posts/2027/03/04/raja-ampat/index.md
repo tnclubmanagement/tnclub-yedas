@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-04 00:00:00 +0700"
 title: "Raja Ampat: trái tim của Tam giác San hô, nơi biển đậm đặc sự sống nhất hành tinh"
 subtitle: "75% loài san hô thế giới, đảo karst nhô khỏi mặt nước và cái giá của một hành trình xa xôi"
+banner-img: "/posts/2027/03/04/raja-ampat/cover.png"
 cover-img: "/posts/2027/03/04/raja-ampat/cover.png"
-thumbnail-img: "/posts/2027/03/04/raja-ampat/cover.png"
 geo: [-0.2340, 130.5070]
 place_name: "Raja Ampat, Papua Tây"
 place_country: "Indonesia"

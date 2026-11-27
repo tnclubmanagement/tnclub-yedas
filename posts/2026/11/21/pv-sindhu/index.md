@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-21 00:00:00 +0700"
 title: "PV Sindhu: nữ hoàng cầu lông Ấn Độ với 2 huy chương Olympic"
 subtitle: "HCĐ Rio, HCB Tokyo và chức vô địch thế giới đầu tiên cho Ấn Độ"
+banner-img: "/posts/2026/11/21/pv-sindhu/avatar.jpg"
 cover-img: "/posts/2026/11/21/pv-sindhu/avatar.jpg"
-thumbnail-img: "/posts/2026/11/21/pv-sindhu/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, PV Sindhu, Ấn Độ]

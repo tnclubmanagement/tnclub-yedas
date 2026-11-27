@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-07 00:00:00 +0700"
 title: "Hakone: tắm suối nóng, nhìn hồ Ashi và bớt kỳ vọng vào một khung Fuji"
 subtitle: "Chọn vài trải nghiệm vừa sức thay vì bắt buộc hoàn thành một vòng phương tiện"
+banner-img: "/posts/2027/12/07-hakone/cover.jpg"
 cover-img: "/posts/2027/12/07-hakone/cover.jpg"
-thumbnail-img: "/posts/2027/12/07-hakone/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Hakone, Onsen, Hồ, Thiên nhiên]
 geo: [35.232, 139.107]

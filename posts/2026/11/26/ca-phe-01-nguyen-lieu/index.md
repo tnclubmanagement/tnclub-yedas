@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:01:00 +0700"
 title: "[01 · Hiểu menu cà phê] : Hiểu hạt, sữa và nguyên liệu"
 subtitle: "Shot, syrup, sữa đặc hay sữa tươi: vài từ khóa giúp bạn hình dung ly nước trước khi gọi"
+banner-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê, Nguyên liệu]
 series: "Hiểu menu cà phê"

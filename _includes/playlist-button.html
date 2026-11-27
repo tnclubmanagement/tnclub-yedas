@@ -2,5 +2,5 @@
      data-url="{{ page.url | relative_url }}"
      data-title="{{ page.title | escape }}"
      data-tags="{{ page.tags | join: ',' | escape }}"
-     data-thumb="{{ page.thumbnail-img | default: page.cover-img | relative_url }}">
+     data-thumb="{{ page.cover-img | default: page.banner-img | relative_url }}">
 </div>

@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/14 00:00:00 +0700"
 title: "Georgia: Tbilisi nồng nhiệt và những đỉnh Caucasus hùng vĩ"
 subtitle: "Phố cổ ban công gỗ, quê hương của rượu vang 8.000 năm và bánh khachapuri gây nghiện"
+banner-img: "/posts/2027/08/14/georgia/cover.jpg"
 cover-img: "/posts/2027/08/14/georgia/cover.jpg"
-thumbnail-img: "/posts/2027/08/14/georgia/cover.jpg"
 geo: [41.7151, 44.8271]
 place_name: "Tbilisi"
 place_country: "Georgia"

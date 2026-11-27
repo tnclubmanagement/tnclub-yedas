@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/29 00:00:00 +0700"
 title: "Iraq: Babylon và Erbil — cái nôi văn minh trên đất lưỡng hà"
 subtitle: "Cổng Ishtar, thành Erbil 6.000 năm, đầm lầy ma'dan và Baghdad nghìn lẻ một đêm"
+banner-img: "/posts/2027/07/29/iraq/cover.jpg"
 cover-img: "/posts/2027/07/29/iraq/cover.jpg"
-thumbnail-img: "/posts/2027/07/29/iraq/cover.jpg"
 geo: [36.1911, 44.0092]
 place_name: "Erbil"
 place_country: "Iraq"

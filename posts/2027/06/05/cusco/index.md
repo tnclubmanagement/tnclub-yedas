@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/05 00:00:00 +0700"
 title: "Cusco: Cố đô Inca giữa dãy Andes"
 subtitle: "Plaza de Armas, Qorikancha, Sacsayhuamán và cửa ngờ Machu Picchu"
+banner-img: "/posts/2027/06/05/cusco/cover.png"
 cover-img: "/posts/2027/06/05/cusco/cover.png"
-thumbnail-img: "/posts/2027/06/05/cusco/cover.png"
 geo: [-13.5320, -71.9675]
 place_name: "Cusco"
 place_country: "Peru"

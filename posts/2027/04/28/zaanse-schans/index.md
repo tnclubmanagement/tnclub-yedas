@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/28 00:00:00 +0700"
 title: "Zaanse Schans: Làng cối xay gió chỉ 20 phút từ Amsterdam"
 subtitle: "Cối xay gió còn hoạt động, làng nhà xanh Zaans và giày gỗ Hà Lan"
+banner-img: "/posts/2027/04/28/zaanse-schans/cover.png"
 cover-img: "/posts/2027/04/28/zaanse-schans/cover.png"
-thumbnail-img: "/posts/2027/04/28/zaanse-schans/cover.png"
 geo: [52.4739, 4.8210]
 place_name: "Zaandam, Noord-Holland"
 place_country: "Netherlands"

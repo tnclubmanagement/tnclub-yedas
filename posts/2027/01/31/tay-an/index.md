@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-31 00:00:00 +0700"
 title: "Tây An: nghe chuyện Trường An từ tường thành đến tượng đất nung"
 subtitle: "Ba ngày ở Thiểm Tây, dành thời gian cho Binh Mã Dũng và những bát mì bản rộng"
+banner-img: "/posts/2027/01/31/tay-an/cover.jpg"
 cover-img: "/posts/2027/01/31/tay-an/cover.jpg"
-thumbnail-img: "/posts/2027/01/31/tay-an/cover.jpg"
 geo: [34.3416, 108.9398]
 place_name: "Tây An"
 place_country: "China"

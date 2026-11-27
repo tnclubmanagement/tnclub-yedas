@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/05 00:00:00 +0700"
 title: "Togo: Koutammakou — đất của những 'lâu đài đất' Batammariba"
 subtitle: "Làng Tata Somba di sản UNESCO, Lomé ven biển và đất nước dài hẹp đầy vùng miền"
+banner-img: "/posts/2027/09/05/togo/cover.jpg"
 cover-img: "/posts/2027/09/05/togo/cover.jpg"
-thumbnail-img: "/posts/2027/09/05/togo/cover.jpg"
 geo: [10.3147, 0.9937]
 place_name: "Koutammakou"
 place_country: "Togo"

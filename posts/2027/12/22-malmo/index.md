@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-22 00:00:00 +0700"
 title: "Malmö: từ quảng trường cũ ra khu cảng nhìn về Øresund"
 subtitle: "Một ngày ở miền nam Thụy Điển với kiến trúc, bờ nước và nhiều hương vị"
+banner-img: "/posts/2027/12/22-malmo/cover.jpg"
 cover-img: "/posts/2027/12/22-malmo/cover.jpg"
-thumbnail-img: "/posts/2027/12/22-malmo/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Malmö, Bắc Âu, Kiến trúc]
 geo: [55.605, 13.004]

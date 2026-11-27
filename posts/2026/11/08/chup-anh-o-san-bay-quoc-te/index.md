@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-08 00:00:00 +0700"
 title: "Chụp hình ở sân bay quốc tế: 7 mẹo có ảnh đẹp mà vẫn đúng lúc"
 subtitle: "Tận dụng cửa kính, bảng chuyến bay và đường dẫn — không lỡ chuyến, không lộ thông tin"
+banner-img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=75"
 cover-img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=75"
-thumbnail-img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=75"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Du lịch, Sân bay, Bố cục, Chụp người]
 ---

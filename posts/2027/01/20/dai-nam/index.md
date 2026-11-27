@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-20 00:00:00 +0700"
 title: "Đài Nam: đọc lớp thời gian trên tường gạch và trong bát mì"
 subtitle: "An Bình, Xích Khảm và những buổi đi bộ không cần tìm quá nhiều điểm check-in"
+banner-img: "/posts/2027/01/20/dai-nam/cover.jpg"
 cover-img: "/posts/2027/01/20/dai-nam/cover.jpg"
-thumbnail-img: "/posts/2027/01/20/dai-nam/cover.jpg"
 geo: [23.0015, 120.1608]
 place_name: "Đài Nam"
 place_country: "Taiwan"

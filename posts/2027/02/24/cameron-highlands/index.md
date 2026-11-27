@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-24 00:00:00 +0700"
 title: "Cameron Highlands: đồi chè, rừng rêu và không khí lạnh giữa nhiệt đới"
 subtitle: "Cao nguyên 1.500m của Malaysia — nơi để uống trà nóng, hái dâu và đi bộ trong sương"
+banner-img: "/posts/2027/02/24/cameron-highlands/cover.jpg"
 cover-img: "/posts/2027/02/24/cameron-highlands/cover.jpg"
-thumbnail-img: "/posts/2027/02/24/cameron-highlands/cover.jpg"
 geo: [4.4704, 101.3803]
 place_name: "Tanah Rata, Cameron Highlands"
 place_country: "Malaysia"

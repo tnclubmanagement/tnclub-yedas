@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/24 00:00:00 +0700"
 title: "Nikko: Đền Toshogu nguy nga giữa rừng tuyết tùng nghìn năm"
 subtitle: "Tam viên hầu ngộ, cầu Shinkyo, hồ Chuzenji và thác Kegon"
+banner-img: "/posts/2027/10/24/nikko/cover.jpg"
 cover-img: "/posts/2027/10/24/nikko/cover.jpg"
-thumbnail-img: "/posts/2027/10/24/nikko/cover.jpg"
 geo: [36.7199, 139.6982]
 place_name: "Nikko"
 place_country: "Japan"

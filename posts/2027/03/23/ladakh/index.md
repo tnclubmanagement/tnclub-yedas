@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-23 00:00:00 +0700"
 title: "Ladakh: tiểu Tây Tạng giữa dãy Himalaya và Karakoram"
 subtitle: "Hồ Pangong xanh biếc, đèo Khardung La 5.359m và những tu viện cheo leo trên vách đá"
+banner-img: "/posts/2027/03/23/ladakh/cover.jpg"
 cover-img: "/posts/2027/03/23/ladakh/cover.jpg"
-thumbnail-img: "/posts/2027/03/23/ladakh/cover.jpg"
 geo: [34.1526, 77.5771]
 place_name: "Leh, Ladakh"
 place_country: "India"

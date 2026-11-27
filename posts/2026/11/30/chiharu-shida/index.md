@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-30 00:00:00 +0700"
 title: "Chiharu Shida: 'nụ cười' của đôi nữ Nhật Bản"
 subtitle: "HCĐ Olympic Paris 2024 cùng Nami Matsuyama — cặp 'ShidaMatsu' thuộc top thế giới"
+banner-img: "/posts/2026/11/30/chiharu-shida/avatar.jpg"
 cover-img: "/posts/2026/11/30/chiharu-shida/avatar.jpg"
-thumbnail-img: "/posts/2026/11/30/chiharu-shida/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Chiharu Shida, Nhật Bản]

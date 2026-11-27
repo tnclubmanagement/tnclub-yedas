@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-06 00:00:00 +0700"
 title: "Kumamoto: nhìn một tòa thành cùng câu chuyện phục hồi"
 subtitle: "Thành cổ, vườn Suizenji và một ngày vừa sức ở Kyushu"
+banner-img: "/posts/2027/12/06-kumamoto/cover.jpg"
 cover-img: "/posts/2027/12/06-kumamoto/cover.jpg"
-thumbnail-img: "/posts/2027/12/06-kumamoto/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Kumamoto, Kyushu, Thành cổ, Vườn]
 geo: [32.804, 130.708]

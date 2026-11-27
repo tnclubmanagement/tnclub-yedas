@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/11 00:00:00 +0700"
 title: "Salta và Quebrada de Humahuaca: Tây Bắc Argentina đầy màu sắc"
 subtitle: "Đồi bảy màu Purmamarca, thành phố cổ Salta và vùng cao nguyên Altiplano"
+banner-img: "/posts/2027/06/11/salta-purmamarca/cover.png"
 cover-img: "/posts/2027/06/11/salta-purmamarca/cover.png"
-thumbnail-img: "/posts/2027/06/11/salta-purmamarca/cover.png"
 geo: [-24.7859, -65.4117]
 place_name: "Salta"
 place_country: "Argentina"

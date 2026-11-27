@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/16 00:00:00 +0700"
 title: "Valencia: Quê hương paella và thành phố của tương lai"
 subtitle: "City of Arts and Sciences, phố cổ El Carmen và công viên 9km trong lòng sông cũ"
+banner-img: "/posts/2027/04/16/valencia/cover.png"
 cover-img: "/posts/2027/04/16/valencia/cover.png"
-thumbnail-img: "/posts/2027/04/16/valencia/cover.png"
 geo: [39.4699, -0.3763]
 place_name: "Valencia"
 place_country: "Spain"

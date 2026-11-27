@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/30 00:00:00 +0700"
 title: "Tanzania: Serengeti, Kilimanjaro và Zanzibar"
 subtitle: "Đại di cư vô tận, miệng núi lửa Ngorongoro và đỉnh cao nhất châu Phi"
+banner-img: "/posts/2027/06/30/tanzania/cover.jpg"
 cover-img: "/posts/2027/06/30/tanzania/cover.jpg"
-thumbnail-img: "/posts/2027/06/30/tanzania/cover.jpg"
 geo: [-6.3690, 34.8888]
 place_name: "Dodoma / Arusha"
 place_country: "Tanzania"

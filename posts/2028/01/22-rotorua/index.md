@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-22 00:00:00 +0700"
 title: "Rotorua: nhìn địa nhiệt và lắng nghe câu chuyện Māori"
 subtitle: "Một điểm đến Đảo Bắc không nên bị thu gọn thành mùi lưu huỳnh và màn biểu diễn"
+banner-img: "/posts/2028/01/22-rotorua/cover.jpg"
 cover-img: "/posts/2028/01/22-rotorua/cover.jpg"
-thumbnail-img: "/posts/2028/01/22-rotorua/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Rotorua, Địa nhiệt, Văn hóa]
 geo: [-38.137, 176.25]

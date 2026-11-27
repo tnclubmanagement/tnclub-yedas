@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-28 00:00:00 +0700"
 title: "Uluru: khối đá đỏ linh thiêng giữa sa mạc trung tâm nước Úc"
 subtitle: "Hoàng hôn đổi màu trên Ayers Rock, vòng đi bộ chân núi và những câu chuyện Tjukurpa của người Anangu"
+banner-img: "/posts/2027/03/28/uluru/cover.png"
 cover-img: "/posts/2027/03/28/uluru/cover.png"
-thumbnail-img: "/posts/2027/03/28/uluru/cover.png"
 geo: [-25.3444, 131.0369]
 place_name: "Uluru, Northern Territory"
 place_country: "Australia"

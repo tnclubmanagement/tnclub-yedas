@@ -63,9 +63,9 @@ module Yedas
     private
 
     def thumbnail_of(data)
-      thumb = data['thumbnail-img'].to_s
+      thumb = data['cover-img'].to_s
       return thumb unless thumb.empty?
-      cover = data['cover-img']
+      cover = data['banner-img']
       case cover
       when Array then cover.first.is_a?(Hash) ? cover.first.keys.first.to_s : cover.first.to_s
       when Hash then cover.keys.first.to_s
@@ -173,9 +173,9 @@ module Yedas
     end
 
     def thumbnail_of(data)
-      thumb = data['thumbnail-img'].to_s
+      thumb = data['cover-img'].to_s
       return thumb unless thumb.empty?
-      cover = data['cover-img']
+      cover = data['banner-img']
       case cover
       when Array then cover.first.is_a?(Hash) ? cover.first.keys.first.to_s : cover.first.to_s
       when Hash then cover.keys.first.to_s

@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/11 00:00:00 +0700"
 title: "Phần Lan: Xứ sở của ngàn hồ, sauna và ông già Noel"
 subtitle: "Helsinki trầm lặng bên biển, Lapland trắng cực quang và văn hóa tắm hơi quốc dân"
+banner-img: "/posts/2027/08/11/finland/cover.jpg"
 cover-img: "/posts/2027/08/11/finland/cover.jpg"
-thumbnail-img: "/posts/2027/08/11/finland/cover.jpg"
 geo: [66.5039, 25.7294]
 place_name: "Lapland / Rovaniemi"
 place_country: "Finland"

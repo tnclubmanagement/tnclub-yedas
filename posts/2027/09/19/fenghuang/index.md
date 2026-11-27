@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/19 00:00:00 +0700"
 title: "Phượng Hoàng Cổ Trấn: Thị trấn treo trên sông Đà Giang"
 subtitle: "Nhà gỗ sàn sàn 400 năm, cầu Hồng Kiều và một trong những thị trấn đẹp nhất Trung Quốc"
+banner-img: "/posts/2027/09/19/fenghuang/cover.jpg"
 cover-img: "/posts/2027/09/19/fenghuang/cover.jpg"
-thumbnail-img: "/posts/2027/09/19/fenghuang/cover.jpg"
 geo: [27.9486, 109.5991]
 place_name: "Phượng Hoàng Cổ Trấn"
 place_country: "China"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-25 00:00:00 +0700"
 title: "Dunedin: phố kiến trúc cũ và một ngày quan sát thiên nhiên có khoảng cách"
 subtitle: "Bán đảo Otago cần thời gian và sự yên tĩnh, không chỉ một ống kính dài"
+banner-img: "/posts/2028/01/25-dunedin/cover.jpg"
 cover-img: "/posts/2028/01/25-dunedin/cover.jpg"
-thumbnail-img: "/posts/2028/01/25-dunedin/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Dunedin, Otago, Động vật]
 geo: [-45.874, 170.503]

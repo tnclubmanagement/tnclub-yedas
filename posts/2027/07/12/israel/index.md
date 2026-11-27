@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/12 00:00:00 +0700"
 title: "Israel: Jerusalem — thành phố 3.000 năm của ba tôn giáo"
 subtitle: "Núi Đền, Tường Khóc, con đường Via Dolorosa và Tel Aviv hiện đại bên Địa Trung Hải"
+banner-img: "/posts/2027/07/12/israel/cover.jpg"
 cover-img: "/posts/2027/07/12/israel/cover.jpg"
-thumbnail-img: "/posts/2027/07/12/israel/cover.jpg"
 geo: [31.7683, 35.2137]
 place_name: "Jerusalem"
 place_country: "Israel"

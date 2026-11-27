@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-13 00:00:00 +0700"
 title: "Si Phan Don: bốn nghìn hòn đảo nơi Mekong chậm lại"
 subtitle: "Đạp xe quanh Don Det - Don Khon, săn hoàng hôn trên sông và tìm cá heo Irrawaddy quý hiếm"
+banner-img: "/posts/2027/03/13/si-phan-don/cover.jpg"
 cover-img: "/posts/2027/03/13/si-phan-don/cover.jpg"
-thumbnail-img: "/posts/2027/03/13/si-phan-don/cover.jpg"
 geo: [13.9540, 105.9150]
 place_name: "Si Phan Don, Champasak"
 place_country: "Laos"

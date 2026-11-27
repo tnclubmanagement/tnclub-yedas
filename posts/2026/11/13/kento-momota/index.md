@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-13 00:00:00 +0700"
 title: "Kento Momota: thiên tài bi kịch và kỷ lục 11 danh hiệu một mùa"
 subtitle: "Từ scandal sòng bạc, tai nạn giao thông tới ngôi số 1 thế giới"
+banner-img: "/posts/2026/11/13/kento-momota/avatar.jpg"
 cover-img: "/posts/2026/11/13/kento-momota/avatar.jpg"
-thumbnail-img: "/posts/2026/11/13/kento-momota/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Kento Momota, Nhật Bản]

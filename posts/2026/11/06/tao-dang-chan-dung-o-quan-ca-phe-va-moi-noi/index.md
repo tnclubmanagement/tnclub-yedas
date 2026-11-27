@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-06 00:00:00 +0700"
 title: "Tạo dáng chân dung ở quán cà phê và mọi nơi"
 subtitle: "Những cách tạo dáng tự nhiên khi ngồi uống cà phê, đi dạo hoặc khám phá một địa điểm mới"
+banner-img: "/assets/img/hero-2.jpg"
 cover-img: "/assets/img/hero-2.jpg"
-thumbnail-img: "/assets/img/hero-2.jpg"
 series: "Tạo dáng tự nhiên"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Tạo dáng, Chân dung, Du lịch, Hướng dẫn]

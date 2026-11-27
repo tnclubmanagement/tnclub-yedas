@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/30 00:00:00 +0700"
 title: "Pakistan: Thung lũng Hunza và những đỉnh núi đẹp nhất hành tinh"
 subtitle: "Baltit Fort dưới Rakaposhi, đường Karakoram huyền thoại và lòng hiếu khách bất ngờ"
+banner-img: "/posts/2027/09/30/pakistan/cover.jpg"
 cover-img: "/posts/2027/09/30/pakistan/cover.jpg"
-thumbnail-img: "/posts/2027/09/30/pakistan/cover.jpg"
 geo: [36.3167, 74.6500]
 place_name: "Hunza Valley"
 place_country: "Pakistan"

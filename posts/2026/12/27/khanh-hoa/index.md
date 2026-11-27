@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-27 00:00:00 +0700"
 title: "Khánh Hòa: Nha Trang và vịnh biển đẹp nhất thế giới"
 subtitle: "Vịnh Nha Trang, đảo Hòn Mun và di tích Chăm ngàn năm"
+banner-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
 cover-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
-thumbnail-img: "/posts/2026/12/27/khanh-hoa/cover.jpg"
 geo: [12.24, 109.19]
 place_name: "Khánh Hòa"
 place_country: "Vietnam"

@@ -4,8 +4,8 @@ layout: post
 date: "2026-12-19 00:00:00 +0700"
 title: "[TÊN TỈNH]: [tagline ngắn gọn về tỉnh]"
 subtitle: "[Mô tả 1 câu — điểm nhấn đặc trưng nhất của tỉnh]"
+banner-img: "/posts/2026/12/19/du-lich-tinh-mau/cover.jpg"
 cover-img: "/posts/2026/12/19/du-lich-tinh-mau/cover.jpg"
-thumbnail-img: "/posts/2026/12/19/du-lich-tinh-mau/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Việt Nam, "[Tên tỉnh]", Giới thiệu]
 ---

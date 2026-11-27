@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/25 00:00:00 +0700"
 title: "Thành phố Quebec: Châu Âu thế kỷ 17 còn nguyên ở Bắc Mỹ"
 subtitle: "Phố cổ UNESCO, lâu đài Frontenac, Plains of Abraham và thác Montmorency"
+banner-img: "/posts/2027/05/25/quebec-city/cover.jpg"
 cover-img: "/posts/2027/05/25/quebec-city/cover.jpg"
-thumbnail-img: "/posts/2027/05/25/quebec-city/cover.jpg"
 geo: [46.8139, -71.2080]
 place_name: "Quebec City, Quebec"
 place_country: "Canada"

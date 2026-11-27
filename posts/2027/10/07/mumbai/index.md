@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/07 00:00:00 +0700"
 title: "Mumbai: Bollywood, Gateway of India và thành phố không ngủ của Ấn Độ"
 subtitle: "Cổng Ấn Độ bên biển Arab, khu slum-thành-phố Dharavi và dabbawala huyền thoại"
+banner-img: "/posts/2027/10/07/mumbai/cover.jpg"
 cover-img: "/posts/2027/10/07/mumbai/cover.jpg"
-thumbnail-img: "/posts/2027/10/07/mumbai/cover.jpg"
 geo: [18.9220, 72.8347]
 place_name: "Mumbai, Maharashtra"
 place_country: "India"

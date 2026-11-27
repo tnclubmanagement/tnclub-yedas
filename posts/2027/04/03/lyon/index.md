@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/03 00:00:00 +0700"
 title: "Lyon: Kinh đô ẩm thực Pháp giữa hai con sông"
 subtitle: "Phố cổ Renaissance, traboules bí ẩn, bouchon truyền thống và lễ hội ánh sáng tháng 12"
+banner-img: "/posts/2027/04/03/lyon/cover.png"
 cover-img: "/posts/2027/04/03/lyon/cover.png"
-thumbnail-img: "/posts/2027/04/03/lyon/cover.png"
 geo: [45.7640, 4.8357]
 place_name: "Lyon, Auvergne-Rhône-Alpes"
 place_country: "France"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-09 00:00:00 +0700"
 title: "Andong: ghé Hahoe để nhìn một ngôi làng vẫn có người sống"
 subtitle: "Nhà truyền thống, mặt nạ và bữa ăn địa phương cần được đặt trong đúng bối cảnh"
+banner-img: "/posts/2028/01/09-andong/cover.jpg"
 cover-img: "/posts/2028/01/09-andong/cover.jpg"
-thumbnail-img: "/posts/2028/01/09-andong/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Andong, Hahoe, Di sản]
 geo: [36.569, 128.729]

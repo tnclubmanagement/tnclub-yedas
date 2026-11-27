@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-15 00:00:00 +0700"
 title: "Kuala Lumpur: tháp đôi, động Batu và một mâm cơm nhiều nền văn hóa"
 subtitle: "Thủ đô Malaysia gần và dễ đi: hiện đại ở KLCC, di sản ở phố cũ, và phố ẩm thực mở đến khuya"
+banner-img: "/posts/2027/02/15/kuala-lumpur/cover.png"
 cover-img: "/posts/2027/02/15/kuala-lumpur/cover.png"
-thumbnail-img: "/posts/2027/02/15/kuala-lumpur/cover.png"
 geo: [3.1390, 101.6869]
 place_name: "Kuala Lumpur"
 place_country: "Malaysia"

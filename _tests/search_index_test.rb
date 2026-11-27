@@ -27,6 +27,19 @@ Dir.mktmpdir('yedas-search-test') do |directory|
     Document.new('unpublished.md', '/unpublished/', { 'title' => 'Unpublished', 'published' => false }),
     Document.new('feed.xml', '/feed.xml', { 'title' => 'Feed' })
   ]
+  [Yedas::SearchIndex.new(site), Yedas::SearchIndexGenerator.new].each do |reader|
+    fixtures = [
+      [{ 'banner-img' => '/banner.jpg', 'cover-img' => '/cover.jpg' }, '/cover.jpg'],
+      [{ 'banner-img' => '/banner.jpg' }, '/banner.jpg'],
+      [{ 'cover-img' => '/cover.jpg' }, '/cover.jpg'],
+      [{ 'banner-img' => [{ '/slide.jpg' => 'Caption' }] }, '/slide.jpg'],
+      [{ 'banner-img' => ['/slide.jpg'] }, '/slide.jpg'],
+      [{}, '']
+    ]
+    fixtures.each do |data, expected|
+      assert(reader.send(:thumbnail_of, data) == expected, 'Image fields must prefer cover and fall back to banner without swapping them')
+    end
+  end
   cold, result = build(site, documents)
   assert(cold.hits == 0 && cold.rebuilt == 2, 'Cold cache must build eligible entries only')
   assert(result.first['title'] == 'Ảnh đẹp & vui', 'Titles must be plain text')

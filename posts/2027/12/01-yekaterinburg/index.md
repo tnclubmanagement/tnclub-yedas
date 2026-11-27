@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-01 00:00:00 +0700"
 title: "Yekaterinburg: đi bên sông Iset để nhìn một đô thị vùng Ural"
 subtitle: "Kiến trúc, không gian công nghiệp và những lớp ký ức không nên kể vội"
+banner-img: "/posts/2027/12/01-yekaterinburg/cover.jpg"
 cover-img: "/posts/2027/12/01-yekaterinburg/cover.jpg"
-thumbnail-img: "/posts/2027/12/01-yekaterinburg/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Yekaterinburg, Ural, Kiến trúc, Lịch sử]
 geo: [56.839, 60.606]

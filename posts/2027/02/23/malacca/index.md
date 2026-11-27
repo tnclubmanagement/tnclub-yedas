@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-23 00:00:00 +0700"
 title: "Malacca: thành phố di sản nhỏ mà đọc như một cuốn sách lịch sử"
 subtitle: "Quảng trường Đỏ, sông Malacca buổi tối và chợ Jonker — cách KL chỉ hai giờ xe"
+banner-img: "/posts/2027/02/23/malacca/cover.jpg"
 cover-img: "/posts/2027/02/23/malacca/cover.jpg"
-thumbnail-img: "/posts/2027/02/23/malacca/cover.jpg"
 geo: [2.1896, 102.2501]
 place_name: "Malacca (Melaka)"
 place_country: "Malaysia"

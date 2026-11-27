@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-02 00:00:00 +0700"
 title: "Altai của Nga: một hành trình núi cần nhiều thời gian hơn trên bản đồ"
 subtitle: "Chuysky Trakt, thung lũng và hồ không nên bị gộp thành một chuyến chạy điểm"
+banner-img: "/posts/2027/12/02-altai-russia/cover.jpg"
 cover-img: "/posts/2027/12/02-altai-russia/cover.jpg"
-thumbnail-img: "/posts/2027/12/02-altai-russia/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Altai, Siberia, Núi, Thiên nhiên]
 geo: [50.3, 86.8]

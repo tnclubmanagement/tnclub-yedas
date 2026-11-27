@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-20 00:00:00 +0700"
 title: "Acadia: đá granit, rừng và một buổi sáng nhìn Đại Tây Dương"
 subtitle: "Khám phá bờ biển Maine bằng những cung đường vừa sức và khoảng nghỉ ở Bar Harbor"
+banner-img: "/posts/2027/11/20-acadia/cover.jpg"
 cover-img: "/posts/2027/11/20-acadia/cover.jpg"
-thumbnail-img: "/posts/2027/11/20-acadia/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Acadia, Maine, Vườn quốc gia, Biển]
 geo: [44.35, -68.217]

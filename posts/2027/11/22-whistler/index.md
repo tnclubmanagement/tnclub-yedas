@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-22 00:00:00 +0700"
 title: "Whistler: lên núi, xuống làng và chọn đúng mùa cho chuyến đi"
 subtitle: "Không chỉ có trượt tuyết ở khu nghỉ dưỡng phía bắc Vancouver"
+banner-img: "/posts/2027/11/22-whistler/cover.jpg"
 cover-img: "/posts/2027/11/22-whistler/cover.jpg"
-thumbnail-img: "/posts/2027/11/22-whistler/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Whistler, British Columbia, Núi, Thiên nhiên]
 geo: [50.116, -122.957]

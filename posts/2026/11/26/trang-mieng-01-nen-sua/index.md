@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 10:01:00 +0700"
 title: "[01 · Món tráng miệng từ sữa] : Nền sữa: tươi, đặc, kem và sữa chua"
 subtitle: "Mỗi loại sữa cho một kết cấu và độ ngọt khác — hiểu nền là đoán được nửa món"
+banner-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 category: "Tráng miệng"
 tags: [Ăn Ngon, Sữa]
 series: "Món tráng miệng từ sữa"

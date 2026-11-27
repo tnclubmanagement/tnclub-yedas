@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-29 00:00:00 +0700"
 title: "Kiên Giang: Phú Quốc — đảo ngọc của vịnh Thái Lan"
 subtitle: "Bãi Sao, hoàng hôn Sanato và thủ phủ nước mắm của cả nước"
+banner-img: "/posts/2026/12/29/kien-giang/cover.jpg"
 cover-img: "/posts/2026/12/29/kien-giang/cover.jpg"
-thumbnail-img: "/posts/2026/12/29/kien-giang/cover.jpg"
 geo: [10.29, 103.98]
 place_name: "Kiên Giang"
 place_country: "Vietnam"

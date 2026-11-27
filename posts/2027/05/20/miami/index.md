@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/20 00:00:00 +0700"
 title: "Miami: South Beach, Art Deco và sắc Latin của Florida"
 subtitle: "South Beach cát trắng, quận Art Deco, Little Havana và Everglades cá sấu"
+banner-img: "/posts/2027/05/20/miami/cover.png"
 cover-img: "/posts/2027/05/20/miami/cover.png"
-thumbnail-img: "/posts/2027/05/20/miami/cover.png"
 geo: [25.7617, -80.1918]
 place_name: "Miami, FL"
 place_country: "United States"

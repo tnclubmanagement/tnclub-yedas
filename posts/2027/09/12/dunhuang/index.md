@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/12 00:00:00 +0700"
 title: "Đôn Hoàng: Trăng Lưỡi Liều và Con đường Tơ lụa ngàn năm"
 subtitle: "Ốc đảo Nguyệt Nha Tuyền giữa cồn cát hát, hang Mạc Cao kho báu Phật giáo"
+banner-img: "/posts/2027/09/12/dunhuang/cover.jpg"
 cover-img: "/posts/2027/09/12/dunhuang/cover.jpg"
-thumbnail-img: "/posts/2027/09/12/dunhuang/cover.jpg"
 geo: [40.1421, 94.6616]
 place_name: "Đôn Hoàng (Dunhuang)"
 place_country: "China"

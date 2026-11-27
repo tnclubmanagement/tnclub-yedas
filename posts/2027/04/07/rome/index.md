@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/07 00:00:00 +0700"
 title: "Rome: Thành phố vĩnh cửu, hai nghìn năm lịch sử dưới chân bạn"
 subtitle: "Colosseum, Vatican, đài phun nước Trevi và những quảng trường không bao giờ ngủ"
+banner-img: "/posts/2027/04/07/rome/cover.png"
 cover-img: "/posts/2027/04/07/rome/cover.png"
-thumbnail-img: "/posts/2027/04/07/rome/cover.png"
 geo: [41.9028, 12.4964]
 place_name: "Rome, Lazio"
 place_country: "Italy"

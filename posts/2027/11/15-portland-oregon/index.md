@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-15 00:00:00 +0700"
 title: "Portland, Oregon: một ngày giữa vườn Nhật, sách và xe đồ ăn"
 subtitle: "Một thành phố Tây Bắc nước Mỹ hợp với những khoảng dừng hơn là lịch chạy điểm"
+banner-img: "/posts/2027/11/15-portland-oregon/cover.jpg"
 cover-img: "/posts/2027/11/15-portland-oregon/cover.jpg"
-thumbnail-img: "/posts/2027/11/15-portland-oregon/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Portland, Oregon, Thành phố, Chụp ảnh]
 geo: [45.52, -122.676]

@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-04 00:00:00 +0700"
 title: "Ephesus: đi bộ trên đá cẩm thạch của một siêu đô thị La Mã"
 subtitle: "Thư viện Celsus, kịch trường 25.000 chỗ và cách vào cổng nào cho đỡ leo"
+banner-img: "/posts/2028/03/04-ephesus/cover.jpg"
 cover-img: "/posts/2028/03/04-ephesus/cover.jpg"
-thumbnail-img: "/posts/2028/03/04-ephesus/cover.jpg"
 geo: [37.9395, 27.3415]
 place_name: "Ephesus (Efes)"
 place_country: "Thổ Nhĩ Kỳ"

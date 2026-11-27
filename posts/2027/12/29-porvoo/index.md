@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-29 00:00:00 +0700"
 title: "Porvoo: nhà kho đỏ, phố dốc và một ngày rời Helsinki"
 subtitle: "Thị trấn ven sông hợp với những khoảng nghỉ hơn là lịch trình dày đặc"
+banner-img: "/posts/2027/12/29-porvoo/cover.jpg"
 cover-img: "/posts/2027/12/29-porvoo/cover.jpg"
-thumbnail-img: "/posts/2027/12/29-porvoo/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Porvoo, Bắc Âu, Phố cổ]
 geo: [60.393, 25.665]

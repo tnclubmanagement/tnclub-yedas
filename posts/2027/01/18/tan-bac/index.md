@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-18 00:00:00 +0700"
 title: "Tân Bắc: đèn lồng Cửu Phần và một ngày giữa núi biển"
 subtitle: "Chọn phố cổ, thác Thập Phần hay Dã Liễu thay vì cố đi hết trong một vòng xe"
+banner-img: "/posts/2027/01/18/tan-bac/cover.jpg"
 cover-img: "/posts/2027/01/18/tan-bac/cover.jpg"
-thumbnail-img: "/posts/2027/01/18/tan-bac/cover.jpg"
 geo: [25.1092, 121.8450]
 place_name: "Tân Bắc"
 place_country: "Taiwan"

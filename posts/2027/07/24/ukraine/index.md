@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/24 00:00:00 +0700"
 title: "Ukraine: Lviv và Kyiv — hai linh hồn một đất nước"
 subtitle: "Cà phê Lviv kiểu Áo, nhà thờ Sophia mái vàng, Lavra hang động và Chernobyl huyền thoại"
+banner-img: "/posts/2027/07/24/ukraine/cover.jpg"
 cover-img: "/posts/2027/07/24/ukraine/cover.jpg"
-thumbnail-img: "/posts/2027/07/24/ukraine/cover.jpg"
 geo: [49.8397, 24.0297]
 place_name: "Lviv"
 place_country: "Ukraine"

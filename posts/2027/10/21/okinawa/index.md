@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/21 00:00:00 +0700"
 title: "Okinawa: Nhật Bản nhiệt đới của san hô và đảo xa"
 subtitle: "Thủy cung Churaumi, lâu đài Shuri và những hòn đảo ngọc lục"
+banner-img: "/posts/2027/10/21/okinawa/cover.jpg"
 cover-img: "/posts/2027/10/21/okinawa/cover.jpg"
-thumbnail-img: "/posts/2027/10/21/okinawa/cover.jpg"
 geo: [26.2124, 127.6809]
 place_name: "Okinawa (Naha)"
 place_country: "Japan"

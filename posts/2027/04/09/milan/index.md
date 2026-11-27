@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/09 00:00:00 +0700"
 title: "Milan: Thời trang, thiết kế và nhà thờ Duomo lấp lánh"
 subtitle: "Duomo di Milano, Galleria Vittorio Emanuele II và bức Bữa tối cuối cùng của Leonardo"
+banner-img: "/posts/2027/04/09/milan/cover.png"
 cover-img: "/posts/2027/04/09/milan/cover.png"
-thumbnail-img: "/posts/2027/04/09/milan/cover.png"
 geo: [45.4642, 9.1900]
 place_name: "Milan, Lombardy"
 place_country: "Italy"

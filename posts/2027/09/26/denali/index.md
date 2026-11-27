@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/26 00:00:00 +0700"
 title: "Alaska & Denali: Đỉnh núi cao nhất Bắc Mỹ và vùng hoang cuối cùng"
 subtitle: "Denali 6.190m, đường ray kính qua hoang dã và mùa hè ngày không kết thúc"
+banner-img: "/posts/2027/09/26/denali/cover.jpg"
 cover-img: "/posts/2027/09/26/denali/cover.jpg"
-thumbnail-img: "/posts/2027/09/26/denali/cover.jpg"
 geo: [63.1148, -151.1926]
 place_name: "Denali National Park, Alaska"
 place_country: "United States"

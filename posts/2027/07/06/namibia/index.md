@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/06 00:00:00 +0700"
 title: "Namibia: Đồi cát đỏ, sa mạc cổ nhất và safari Etosha"
 subtitle: "Sossusvlei thiên đường nhiếp ảnh, Skeleton Coast và Etosha — safari xung quanh hố muối"
+banner-img: "/posts/2027/07/06/namibia/cover.jpg"
 cover-img: "/posts/2027/07/06/namibia/cover.jpg"
-thumbnail-img: "/posts/2027/07/06/namibia/cover.jpg"
 geo: [-22.5609, 17.0658]
 place_name: "Windhoek"
 place_country: "Namibia"

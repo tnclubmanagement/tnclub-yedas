@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/25 00:00:00 +0700"
 title: "Thâm Quyến: Thành phố công nghệ trẻ nhất Trung Quốc"
 subtitle: "Từ làng chài thành đô thị 17 triệu dân — thiên đường linh kiện, công viên và nhà ga lớn nhất châu Á"
+banner-img: "/posts/2027/10/25/shenzhen/cover.jpg"
 cover-img: "/posts/2027/10/25/shenzhen/cover.jpg"
-thumbnail-img: "/posts/2027/10/25/shenzhen/cover.jpg"
 geo: [22.5431, 114.0579]
 place_name: "Thâm Quyến (Shenzhen)"
 place_country: "China"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-12 00:00:00 +0700"
 title: "Seoul: một ngày ngắm mái ngói, một tối nhìn phố lên đèn"
 subtitle: "Gyeongbokgung, Bukchon, Namsan và cách chia thủ đô thành những buổi đi bộ vừa sức"
+banner-img: "/posts/2027/01/12/seoul/cover.jpg"
 cover-img: "/posts/2027/01/12/seoul/cover.jpg"
-thumbnail-img: "/posts/2027/01/12/seoul/cover.jpg"
 geo: [37.5796, 126.9770]
 place_name: "Seoul"
 place_country: "Korea"

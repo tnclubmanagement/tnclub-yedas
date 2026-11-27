@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-18 00:00:00 +0700"
 title: "Wong Xin Ru: thế hệ 'thuần Singapore' kế tục huyền thoại"
 subtitle: "Niềm hy vọng nội sinh của bóng bàn Singapore sau kỷ nguyên nhập tịch"
+banner-img: "/posts/2026/12/18/wong-xin-ru/avatar.jpg"
 cover-img: "/posts/2026/12/18/wong-xin-ru/avatar.jpg"
-thumbnail-img: "/posts/2026/12/18/wong-xin-ru/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Wong Xin Ru, Singapore]

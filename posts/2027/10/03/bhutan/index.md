@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/03 00:00:00 +0700"
 title: "Bhutan: Vương quốc hạnh phúc trên đỉnh Himalaya"
 subtitle: "Tu viện Hang Hổ cheo vách, dzong huyền thoại và nước duy nhất đo hạnh phúc"
+banner-img: "/posts/2027/10/03/bhutan/cover.jpg"
 cover-img: "/posts/2027/10/03/bhutan/cover.jpg"
-thumbnail-img: "/posts/2027/10/03/bhutan/cover.jpg"
 geo: [27.4728, 89.6393]
 place_name: "Paro / Thimphu"
 place_country: "Bhutan"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/02 00:00:00 +0700"
 title: "Nga: Kazan — thủ đô Tatar nơi thánh đường gặp nhà thờ"
 subtitle: "Kremlin Kazan UNESCO, thánh đường Kul Sharif và phố Bauman sôi động"
+banner-img: "/posts/2027/08/02/kazan/cover.jpg"
 cover-img: "/posts/2027/08/02/kazan/cover.jpg"
-thumbnail-img: "/posts/2027/08/02/kazan/cover.jpg"
 geo: [55.7887, 49.1221]
 place_name: "Kazan"
 place_country: "Russia"

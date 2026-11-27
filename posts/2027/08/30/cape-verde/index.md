@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/30 00:00:00 +0700"
 title: "Cape Verde: Quần đảo núi lửa của nhạc morna và gió mùa"
 subtitle: "Núi lửa Fogo nấu rượu trong miệng núi, Santo Antão trek trong mây và bãi biển Sal"
+banner-img: "/posts/2027/08/30/cape-verde/cover.jpg"
 cover-img: "/posts/2027/08/30/cape-verde/cover.jpg"
-thumbnail-img: "/posts/2027/08/30/cape-verde/cover.jpg"
 geo: [14.9500, -24.3500]
 place_name: "Fogo / São Vicente"
 place_country: "Cape Verde"

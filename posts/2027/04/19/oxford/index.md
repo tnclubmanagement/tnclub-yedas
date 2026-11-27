@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/19 00:00:00 +0700"
 title: "Oxford: Thành phố những tháp mộng mơ"
 subtitle: "Trường đại học lâu đời nhất nước Anh, Christ Church và bối cảnh Harry Potter"
+banner-img: "/posts/2027/04/19/oxford/cover.png"
 cover-img: "/posts/2027/04/19/oxford/cover.png"
-thumbnail-img: "/posts/2027/04/19/oxford/cover.png"
 geo: [51.7520, -1.2577]
 place_name: "Oxford, England"
 place_country: "United Kingdom"

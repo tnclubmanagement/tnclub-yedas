@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-19 00:00:00 +0700"
 title: "Stavanger: phố nhà trắng và một ngày tìm hiểu thành phố dầu khí"
 subtitle: "Đừng để chuyến đi chỉ còn là điểm xuất phát tới Preikestolen"
+banner-img: "/posts/2027/12/19-stavanger/cover.jpg"
 cover-img: "/posts/2027/12/19-stavanger/cover.jpg"
-thumbnail-img: "/posts/2027/12/19-stavanger/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Stavanger, Bắc Âu, Kiến trúc]
 geo: [58.97, 5.733]

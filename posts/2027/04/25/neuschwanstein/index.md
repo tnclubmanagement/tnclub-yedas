@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/25 00:00:00 +0700"
 title: "Neuschwanstein: Lâu đài cổ tích truyền cảm hứng cho Disney"
 subtitle: "Dinh thự của 'vị vua điên' Ludwig II trên vách núi Bavaria"
+banner-img: "/posts/2027/04/25/neuschwanstein/cover.png"
 cover-img: "/posts/2027/04/25/neuschwanstein/cover.png"
-thumbnail-img: "/posts/2027/04/25/neuschwanstein/cover.png"
 geo: [47.5576, 10.7498]
 place_name: "Schwangau, Bavaria"
 place_country: "Germany"

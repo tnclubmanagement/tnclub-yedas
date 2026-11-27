@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/11 00:00:00 +0700"
 title: "Saudi Arabia: AlUla và Riyadh — thánh địa sa mạc mới mở cửa"
 subtitle: "Di sản Hegra ngàn năm của người Nabataean, thung lũng cọ AlUla và thủ đô Riyadh hiện đại"
+banner-img: "/posts/2027/07/11/saudi-arabia/cover.jpg"
 cover-img: "/posts/2027/07/11/saudi-arabia/cover.jpg"
-thumbnail-img: "/posts/2027/07/11/saudi-arabia/cover.jpg"
 geo: [24.7136, 46.6753]
 place_name: "Riyadh"
 place_country: "Saudi Arabia"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/01 00:00:00 +0700"
 title: "Mali: Đại giáo đường bùn Djenné và huyền thoại Timbuktu"
 subtitle: "Công trình đất nung lớn nhất thế giới, vùng Dogon trên vách đá và đế chế vàng Mansa Musa"
+banner-img: "/posts/2027/09/01/mali/cover.jpg"
 cover-img: "/posts/2027/09/01/mali/cover.jpg"
-thumbnail-img: "/posts/2027/09/01/mali/cover.jpg"
 geo: [13.9054, -4.5550]
 place_name: "Djenné"
 place_country: "Mali"

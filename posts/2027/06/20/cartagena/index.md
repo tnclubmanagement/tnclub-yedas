@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/20 00:00:00 +0700"
 title: "Cartagena: Thành phố cổ đẹp nhất Caribe"
 subtitle: "Ciudad Amurallada UNESCO, Getsemaní sôi động và đảo Rosario"
+banner-img: "/posts/2027/06/20/cartagena/cover.png"
 cover-img: "/posts/2027/06/20/cartagena/cover.png"
-thumbnail-img: "/posts/2027/06/20/cartagena/cover.png"
 geo: [10.3910, -75.5364]
 place_name: "Cartagena de Indias"
 place_country: "Colombia"

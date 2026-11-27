@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/12 00:00:00 +0700"
 title: "New York: Thành phố không bao giờ ngủ"
 subtitle: "Manhattan skyline, Central Park, Times Square và năm quận đa dạng"
+banner-img: "/posts/2027/05/12/new-york/cover.png"
 cover-img: "/posts/2027/05/12/new-york/cover.png"
-thumbnail-img: "/posts/2027/05/12/new-york/cover.png"
 geo: [40.7128, -74.0060]
 place_name: "New York City, NY"
 place_country: "United States"

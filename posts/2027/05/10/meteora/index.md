@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/10 00:00:00 +0700"
 title: "Meteora: Tu viện trên những cột đá khổng lồ"
 subtitle: "Sáu tu viện treo trên đỉnh đá kỳ dị — di sản UNESCO đẹp nhất đất liền Hy Lạp"
+banner-img: "/posts/2027/05/10/meteora/cover.png"
 cover-img: "/posts/2027/05/10/meteora/cover.png"
-thumbnail-img: "/posts/2027/05/10/meteora/cover.png"
 geo: [39.7217, 21.6306]
 place_name: "Kalabaka, Thessaly"
 place_country: "Greece"

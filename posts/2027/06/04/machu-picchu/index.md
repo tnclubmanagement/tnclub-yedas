@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/04 00:00:00 +0700"
 title: "Machu Picchu: Thành phố Inca trên mây"
 subtitle: "Kỳ quan thế giới mới giữa đỉnh Andes — cách lên, vé và mẹo ít đông"
+banner-img: "/posts/2027/06/04/machu-picchu/cover.png"
 cover-img: "/posts/2027/06/04/machu-picchu/cover.png"
-thumbnail-img: "/posts/2027/06/04/machu-picchu/cover.png"
 geo: [-13.1631, -72.5450]
 place_name: "Machu Picchu, Cusco"
 place_country: "Peru"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/07 00:00:00 +0700"
 title: "Zimbabwe: Thác Victoria và những thành phố đá cổ"
 subtitle: "Mosi-oa-Tunya — 'khói thành sấm' — vườn Hwange safari và di tích Great Zimbabwe"
+banner-img: "/posts/2027/07/07/zimbabwe/cover.jpg"
 cover-img: "/posts/2027/07/07/zimbabwe/cover.jpg"
-thumbnail-img: "/posts/2027/07/07/zimbabwe/cover.jpg"
 geo: [-17.9319, 25.8301]
 place_name: "Victoria Falls"
 place_country: "Zimbabwe"

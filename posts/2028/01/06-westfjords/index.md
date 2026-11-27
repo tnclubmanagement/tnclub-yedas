@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-06 00:00:00 +0700"
 title: "Westfjords: những đường vòng đáng đi khi bạn có đủ thời gian"
 subtitle: "Một miền Iceland không nằm gọn trong lịch chạy Ring Road"
+banner-img: "/posts/2028/01/06-westfjords/cover.jpg"
 cover-img: "/posts/2028/01/06-westfjords/cover.jpg"
-thumbnail-img: "/posts/2028/01/06-westfjords/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Westfjords, Fjord, Thiên nhiên]
 geo: [65.75, -22.0]

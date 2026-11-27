@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-25 00:00:00 +0700"
 title: "Gros Morne: đọc câu chuyện của đá ở miền tây Newfoundland"
 subtitle: "Tablelands, Western Brook Pond và một chuyến thiên nhiên không nên chạy vội"
+banner-img: "/posts/2027/11/25-gros-morne/cover.jpg"
 cover-img: "/posts/2027/11/25-gros-morne/cover.jpg"
-thumbnail-img: "/posts/2027/11/25-gros-morne/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Newfoundland, Gros Morne, Di sản, Thiên nhiên]
 geo: [49.684, -57.752]

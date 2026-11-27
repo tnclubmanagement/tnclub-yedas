@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:06:00 +0700"
 title: "[06 · Ăn ngon miền Trung] : Bánh tráng cuốn và một vòng ăn Đà Nẵng"
 subtitle: "Thịt heo, rau, mắm nêm rồi chọn thêm một món ở chợ — không cần chạy hết phố"
-cover-img: "https://kenh14cdn.com/203336854389633024/2024/12/26/anhthucpham-1735196054300-17351960563471505426060.jpg"
-thumbnail-img: "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/89/db/22/getlstd-property-photo.jpg"
+banner-img: "https://kenh14cdn.com/203336854389633024/2024/12/26/anhthucpham-1735196054300-17351960563471505426060.jpg"
+cover-img: "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/89/db/22/getlstd-property-photo.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Đà Nẵng, Bánh tráng cuốn, Ẩm thực đường phố]
 series: "Ăn ngon miền Trung"

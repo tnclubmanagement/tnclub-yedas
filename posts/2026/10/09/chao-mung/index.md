@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-09 00:00:00 +0700"
 title: "Chào mừng đến với Yedas"
 subtitle: "Nơi lưu lại mẹo chụp ảnh, thể thao và những chuyến đi"
+banner-img: "/assets/img/hero-2.jpg"
 cover-img: "/assets/img/hero-2.jpg"
-thumbnail-img: "/assets/img/hero-2.jpg"
 category: "Chụp ảnh"
 tags: [Giới thiệu]
 ---
@@ -18,9 +18,9 @@ tags: [Giới thiệu]
 (xem hướng dẫn chi tiết trong `README.md` — có cả cách đăng thẳng từ điện
 thoại qua GitHub, không cần máy tính).
 
-Muốn bài viết có ảnh lớn ở đầu (kiểu tạp chí), thêm dòng `cover-img` vào
+Muốn bài viết có ảnh lớn ở đầu (kiểu tạp chí), thêm dòng `banner-img` vào
 phần đầu bài (front matter), ví dụ:
 
 ```yaml
-cover-img: /assets/img/ten-anh.jpg
+banner-img: /assets/img/ten-anh.jpg
 ```

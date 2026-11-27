@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-01 00:00:00 +0700"
 title: "Istanbul: bán đảo lịch sử trước, bờ Á sau, đừng cố gom cả thành phố"
 subtitle: "Sultanahmet, chợ Grand Bazaar và chuyến phà Bosphorus trong bốn ngày đầu"
+banner-img: "/posts/2028/03/01-istanbul/cover.jpg"
 cover-img: "/posts/2028/03/01-istanbul/cover.jpg"
-thumbnail-img: "/posts/2028/03/01-istanbul/cover.jpg"
 geo: [41.0082, 28.9784]
 place_name: "Istanbul"
 place_country: "Thổ Nhĩ Kỳ"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/26 00:00:00 +0700"
 title: "Tunisia: Địa Trung Hải Bắc Phi, Carthage và Sidi Bou Said"
 subtitle: "Thành phố trắng-xanh trên vách, tàn tích Carthage-La Mã và bờ biển êm dịu"
+banner-img: "/posts/2027/06/26/tunisia/cover.jpg"
 cover-img: "/posts/2027/06/26/tunisia/cover.jpg"
-thumbnail-img: "/posts/2027/06/26/tunisia/cover.jpg"
 geo: [36.8065, 10.1815]
 place_name: "Tunis"
 place_country: "Tunisia"

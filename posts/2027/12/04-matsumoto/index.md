@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-04 00:00:00 +0700"
 title: "Matsumoto: thành đen bên hào nước và một ngày dưới chân núi"
 subtitle: "Thành phố Nagano đáng có khoảng nghỉ riêng trong hành trình miền trung Nhật Bản"
+banner-img: "/posts/2027/12/04-matsumoto/cover.jpg"
 cover-img: "/posts/2027/12/04-matsumoto/cover.jpg"
-thumbnail-img: "/posts/2027/12/04-matsumoto/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Matsumoto, Nagano, Thành cổ, Chụp ảnh]
 geo: [36.239, 137.972]

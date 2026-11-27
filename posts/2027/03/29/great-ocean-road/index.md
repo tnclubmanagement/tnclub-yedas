@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-29 00:00:00 +0700"
 title: "Great Ocean Road: cung đường ven biển đẹp nhất nước Úc"
 subtitle: "Twelve Apostles sừng sững giữa sóng Nam Đại dương, rừng Otway và những thị trấn biển du lịch"
+banner-img: "/posts/2027/03/29/great-ocean-road/cover.png"
 cover-img: "/posts/2027/03/29/great-ocean-road/cover.png"
-thumbnail-img: "/posts/2027/03/29/great-ocean-road/cover.png"
 geo: [-38.6650, 143.1040]
 place_name: "Twelve Apostles, Victoria"
 place_country: "Australia"

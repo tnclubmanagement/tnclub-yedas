@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/29 00:00:00 +0700"
 title: "Keukenhof: Vườn hoa tulip đẹp nhất thế giới"
 subtitle: "7 triệu củ hoa nở trong 8 tuần mỗi năm — chỉ mở giữa tháng 3 đến giữa tháng 5"
+banner-img: "/posts/2027/04/29/keukenhof/cover.png"
 cover-img: "/posts/2027/04/29/keukenhof/cover.png"
-thumbnail-img: "/posts/2027/04/29/keukenhof/cover.png"
 geo: [52.2697, 4.5464]
 place_name: "Lisse, Zuid-Holland"
 place_country: "Netherlands"

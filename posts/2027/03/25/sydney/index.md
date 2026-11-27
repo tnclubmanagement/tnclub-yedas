@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-25 00:00:00 +0700"
 title: "Sydney: nhà hát con sò, cầu cảng và những bãi biển huyền thoại"
 subtitle: "Từ Circular Quay ra Manly bằng phà, đi bộ Bondi-Coogee và ngắm Blue Mountains mù sương"
+banner-img: "/posts/2027/03/25/sydney/cover.jpg"
 cover-img: "/posts/2027/03/25/sydney/cover.jpg"
-thumbnail-img: "/posts/2027/03/25/sydney/cover.jpg"
 geo: [-33.8688, 151.2093]
 place_name: "Sydney, New South Wales"
 place_country: "Australia"

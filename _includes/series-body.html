@@ -45,7 +45,7 @@
             <span class="athlete-index-part">{{ s.series.part | replace: '%1', forloop.index }}</span>
           </a>
           {% else %}
-          {% assign thumb = post.thumbnail-img | default: post.cover-img %}
+          {% assign thumb = post.cover-img | default: post.banner-img %}
           <a class="tag-post-card" href="{{ post.url | relative_url }}">
             {% if thumb %}
               <div class="tag-post-thumb">

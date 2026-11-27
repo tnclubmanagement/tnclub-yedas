@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-29 00:00:00 +0700"
 title: "Yaroslavl: một vòng đi bộ nơi Volga gặp Kotorosl"
 subtitle: "Không gian ven sông giúp đọc rõ hơn những mái vòm và phố lịch sử"
+banner-img: "/posts/2027/11/29-yaroslavl/cover.jpg"
 cover-img: "/posts/2027/11/29-yaroslavl/cover.jpg"
-thumbnail-img: "/posts/2027/11/29-yaroslavl/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Yaroslavl, Volga, Di sản, Lịch sử]
 geo: [57.626, 39.884]

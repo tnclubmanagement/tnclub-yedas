@@ -1,7 +1,7 @@
 {% assign reference = site.data.travel_2027_credits[page.photo_id] %}
 {% if reference %}
 <figure>
-  <img src="{{ page.cover-img | relative_url }}" alt="{{ reference.alt | escape }}" loading="lazy">
+  <img src="{{ page.banner-img | relative_url }}" alt="{{ reference.alt | escape }}" loading="lazy">
   <figcaption>{{ reference.author | escape }} — <a href="{{ reference.photo | escape }}" target="_blank" rel="noopener">Wikimedia Commons</a>, <a href="{{ reference.license_url | escape }}" target="_blank" rel="noopener">{{ reference.license | escape }}</a>. Ảnh được thu nhỏ/nén cho web.</figcaption>
 </figure>
 <h3>Nguồn tham khảo</h3>

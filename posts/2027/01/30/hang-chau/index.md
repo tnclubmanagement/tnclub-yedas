@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-30 00:00:00 +0700"
 title: "Hàng Châu: một vòng Tây Hồ, một chiều lên đồi trà"
 subtitle: "Đi chậm ở Chiết Giang, giữa mặt nước, mái chùa và những hàng trà Long Tỉnh"
+banner-img: "/posts/2027/01/30/hang-chau/cover.jpg"
 cover-img: "/posts/2027/01/30/hang-chau/cover.jpg"
-thumbnail-img: "/posts/2027/01/30/hang-chau/cover.jpg"
 geo: [30.2741, 120.1551]
 place_name: "Hàng Châu"
 place_country: "China"

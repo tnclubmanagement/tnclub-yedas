@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:03:00 +0700"
 title: "[03 · Ăn ngon miền Trung] : Bánh bèo, nậm, lọc ở Huế"
 subtitle: "Ba kiểu bánh nhỏ: mềm trong chén, mỏng trong lá, dai trong lớp bột trong"
+banner-img: "https://seniworld.com/wp-content/uploads/2026/01/Banh-Beo-Steamed-Rice-Cake.jpg"
 cover-img: "https://seniworld.com/wp-content/uploads/2026/01/Banh-Beo-Steamed-Rice-Cake.jpg"
-thumbnail-img: "https://seniworld.com/wp-content/uploads/2026/01/Banh-Beo-Steamed-Rice-Cake.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Bánh bèo, Bánh nậm, Bánh lọc]
 series: "Ăn ngon miền Trung"

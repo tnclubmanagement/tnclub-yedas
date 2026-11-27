@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/16 00:00:00 +0700"
 title: "Tô Châu: Vườn cổ điển và Venice của Trung Hoa"
 subtitle: "Chính cái thiên đường trên trần thế — vườn Zhuozheng, phố Pingjiang và thị trấn nước"
+banner-img: "/posts/2027/09/16/suzhou/cover.jpg"
 cover-img: "/posts/2027/09/16/suzhou/cover.jpg"
-thumbnail-img: "/posts/2027/09/16/suzhou/cover.jpg"
 geo: [31.2989, 120.5853]
 place_name: "Tô Châu (Suzhou)"
 place_country: "China"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/09 00:00:00 +0700"
 title: "Amritsar: Đền Vàng và nhà bếp từ thiện lớn nhất thế giới"
 subtitle: "Golden Temple sáng trên hồ, langar 100.000 suất mỗi ngày và nghi lễ biên giới Wagah"
+banner-img: "/posts/2027/10/09/amritsar/cover.jpg"
 cover-img: "/posts/2027/10/09/amritsar/cover.jpg"
-thumbnail-img: "/posts/2027/10/09/amritsar/cover.jpg"
 geo: [31.6340, 74.8723]
 place_name: "Amritsar, Punjab"
 place_country: "India"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-11 00:00:00 +0700"
 title: "Perhentian: hai đảo chính và một chuyến biển cần xem đúng mùa"
 subtitle: "Chọn nơi ngủ, tàu và hoạt động dưới nước như một kế hoạch thống nhất"
+banner-img: "/posts/2028/02/11-perhentian/cover.jpg"
 cover-img: "/posts/2028/02/11-perhentian/cover.jpg"
-thumbnail-img: "/posts/2028/02/11-perhentian/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Perhentian, Đảo, Biển]
 geo: [5.91, 102.74]

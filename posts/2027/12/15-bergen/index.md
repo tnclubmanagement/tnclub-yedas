@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-15 00:00:00 +0700"
 title: "Bergen: mái gỗ Bryggen và một ngày biết chấp nhận mưa"
 subtitle: "Thành phố cửa ngõ miền fjord vẫn đáng đi ngay khi trời không xanh"
+banner-img: "/posts/2027/12/15-bergen/cover.jpg"
 cover-img: "/posts/2027/12/15-bergen/cover.jpg"
-thumbnail-img: "/posts/2027/12/15-bergen/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Bergen, Bắc Âu, Di sản]
 geo: [60.392, 5.324]

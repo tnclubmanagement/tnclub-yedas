@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/17 00:00:00 +0700"
 title: "Syria: Nôi của những nền văn minh — Aleppo, Palmyra và Damascus"
 subtitle: "Thành phố cổ liên tục nhất thế giới, cái nôi chữ viết và câu chuyện của sự tái sinh"
+banner-img: "/posts/2027/08/17/syria/cover.jpg"
 cover-img: "/posts/2027/08/17/syria/cover.jpg"
-thumbnail-img: "/posts/2027/08/17/syria/cover.jpg"
 geo: [33.5138, 36.2765]
 place_name: "Damascus"
 place_country: "Syria"

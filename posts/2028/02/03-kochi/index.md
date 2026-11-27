@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-03 00:00:00 +0700"
 title: "Kochi: lưới cá, phố cảng và những lớp giao thương của Kerala"
 subtitle: "Fort Kochi và Mattancherry đáng được đi bằng từng câu chuyện nhỏ"
+banner-img: "/posts/2028/02/03-kochi/cover.jpg"
 cover-img: "/posts/2028/02/03-kochi/cover.jpg"
-thumbnail-img: "/posts/2028/02/03-kochi/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Kochi, Kerala, Biển, Văn hóa]
 geo: [9.932, 76.267]

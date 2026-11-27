@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/06 00:00:00 +0700"
 title: "Mont-Saint-Michel: Tu viện nổi giữa thủy triều"
 subtitle: "Đảo đá huyền thoại ở Normandy, một trong những kỳ quan được ghé thăm nhiều nhất nước Pháp"
+banner-img: "/posts/2027/04/06/mont-saint-michel/cover.png"
 cover-img: "/posts/2027/04/06/mont-saint-michel/cover.png"
-thumbnail-img: "/posts/2027/04/06/mont-saint-michel/cover.png"
 geo: [48.6360, -1.5115]
 place_name: "Mont-Saint-Michel, Normandy"
 place_country: "France"

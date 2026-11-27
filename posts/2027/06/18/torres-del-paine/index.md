@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/18 00:00:00 +0700"
 title: "Torres del Paine: Đỉnh trekking của Patagonia"
 subtitle: "Ba tháp granite, hồ ngọc, sông băng Grey và cung W nổi tiếng thế giới"
+banner-img: "/posts/2027/06/18/torres-del-paine/cover.png"
 cover-img: "/posts/2027/06/18/torres-del-paine/cover.png"
-thumbnail-img: "/posts/2027/06/18/torres-del-paine/cover.png"
 geo: [-51.2538, -72.3453]
 place_name: "Torres del Paine, Magallanes"
 place_country: "Chile"

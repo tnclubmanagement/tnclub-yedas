@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/04 00:00:00 +0700"
 title: "Nga: Hồ Baikal — nước mắt xanh của Siberia"
 subtitle: "Đảo Olkhon, làng Listvyanka, đường sắt vòng Baikal và nước hồ sâu nhất thế giới"
+banner-img: "/posts/2027/08/04/baikal/cover.jpg"
 cover-img: "/posts/2027/08/04/baikal/cover.jpg"
-thumbnail-img: "/posts/2027/08/04/baikal/cover.jpg"
 geo: [51.8469, 104.8660]
 place_name: "Listvyanka"
 place_country: "Russia"

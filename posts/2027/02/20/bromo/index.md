@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-20 00:00:00 +0700"
 title: "Bromo: đứng giữa miệng núi lửa lúc trời chưa sáng"
 subtitle: "Một buổi sáng ở cao nguyên Tengger — biển cát, sương mù và khói núi lửa đang thở"
+banner-img: "/posts/2027/02/20/bromo/cover.png"
 cover-img: "/posts/2027/02/20/bromo/cover.png"
-thumbnail-img: "/posts/2027/02/20/bromo/cover.png"
 geo: [-7.9425, 112.9530]
 place_name: "Cemoro Lawang, Bromo"
 place_country: "Indonesia"

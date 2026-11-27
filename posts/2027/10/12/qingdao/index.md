@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/12 00:00:00 +0700"
 title: "Thanh Đảo: Thành phố biển của bia, phố Đức và núi Lao Sơn"
 subtitle: "Bia Tsingtao tại nhà máy 1903, cầu Sạn Kiều và bãi tắm quanh năm mát mẻ"
+banner-img: "/posts/2027/10/12/qingdao/cover.jpg"
 cover-img: "/posts/2027/10/12/qingdao/cover.jpg"
-thumbnail-img: "/posts/2027/10/12/qingdao/cover.jpg"
 geo: [36.0671, 120.3826]
 place_name: "Thanh Đảo (Qingdao)"
 place_country: "China"

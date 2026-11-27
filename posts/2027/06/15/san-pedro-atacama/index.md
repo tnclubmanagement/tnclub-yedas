@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/15 00:00:00 +0700"
 title: "San Pedro de Atacama: Sa mạc khô nhất hành tinh"
 subtitle: "Thung lũng Mặt Trăng, geyser El Tatio, đầm muối và bầu trời sao đẹp nhất thế giới"
+banner-img: "/posts/2027/06/15/san-pedro-atacama/cover.png"
 cover-img: "/posts/2027/06/15/san-pedro-atacama/cover.png"
-thumbnail-img: "/posts/2027/06/15/san-pedro-atacama/cover.png"
 geo: [-22.9087, -68.1997]
 place_name: "San Pedro de Atacama"
 place_country: "Chile"

@@ -11,11 +11,11 @@
 {% capture series_label %}{{ s.series.label_fmt | replace: '%1', page.series | replace: '%2', series_index | replace: '%3', series_posts.size }}{% endcapture %}
 {% endif %}
 
-{% if page.cover-img or page.title %}
+{% if page.banner-img or page.title %}
 
-{% if page.cover-img %}
-  <div id="{% if page.banner-nav %}banner-images{% else %}header-big-imgs{% endif %}" data-num-img={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
-    {% for bigimg in page.cover-img %}
+{% if page.banner-img %}
+  <div id="{% if page.banner-nav %}banner-images{% else %}header-big-imgs{% endif %}" data-num-img={% if page.banner-img.first %}{{ page.banner-img.size }}{% else %}1{% endif %}
+    {% for bigimg in page.banner-img %}
     {% assign imgnum = forloop.index %}
     {% for imginfo in bigimg %}
       {% if imginfo[0] %}
@@ -29,8 +29,8 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.cover-img %}has-img{% endif %}{% if page.banner-nav %} compact-banner{% endif %}">
-{% if page.cover-img %}
+<header class="header-section {% if page.banner-img %}has-img{% endif %}{% if page.banner-nav %} compact-banner{% endif %}">
+{% if page.banner-img %}
 <div class="big-img intro-header">
   <div class="container-md">
     <div class="row">
@@ -66,7 +66,7 @@
   {% if page.banner-nav %}
   <div class="banner-controls" role="group" aria-label="Chọn ảnh banner">
     <button type="button" class="banner-arrow" data-banner-step="-1" aria-label="Ảnh trước">&#8249;</button>
-    {% for image in page.cover-img %}
+    {% for image in page.banner-img %}
     <button type="button" class="banner-dot" data-banner-index="{{ forloop.index0 }}" aria-label="Ảnh {{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"></button>
     {% endfor %}
     <button type="button" class="banner-arrow" data-banner-step="1" aria-label="Ảnh tiếp theo">&#8250;</button>

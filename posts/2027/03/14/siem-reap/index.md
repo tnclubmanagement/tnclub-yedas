@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-14 00:00:00 +0700"
 title: "Siem Reap: thành phố cửa ngõ vào đế chế Angkor"
 subtitle: "Bình minh Angkor Wat, mặt cười Bayon, rễ cổ thụ ôm Ta Prohm và những ngôi đền xa hơn đám đông"
+banner-img: "/posts/2027/03/14/siem-reap/cover.jpg"
 cover-img: "/posts/2027/03/14/siem-reap/cover.jpg"
-thumbnail-img: "/posts/2027/03/14/siem-reap/cover.jpg"
 geo: [13.3671, 103.8448]
 place_name: "Siem Reap"
 place_country: "Cambodia"

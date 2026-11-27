@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/01 00:00:00 +0700"
 title: "Rừng Amazon: Lá phổi của hành tinh từ Manaus"
 subtitle: "Sông Negro gặp sông Solimões, rừng ngập nước và động vật hoang dã thật sự"
+banner-img: "/posts/2027/06/01/amazon/cover.png"
 cover-img: "/posts/2027/06/01/amazon/cover.png"
-thumbnail-img: "/posts/2027/06/01/amazon/cover.png"
 geo: [-3.1190, -60.0217]
 place_name: "Manaus, Amazonas"
 place_country: "Brazil"

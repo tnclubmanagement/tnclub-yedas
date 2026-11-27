@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/14 00:00:00 +0700"
 title: "Washington DC: National Mall và các bảo tàng miễn phí"
 subtitle: "Nhà Trắng, Đồi Capitol và 17 bảo tàng Smithsonian không thu phí"
+banner-img: "/posts/2027/05/14/washington-dc/cover.png"
 cover-img: "/posts/2027/05/14/washington-dc/cover.png"
-thumbnail-img: "/posts/2027/05/14/washington-dc/cover.png"
 geo: [38.9072, -77.0369]
 place_name: "Washington, D.C."
 place_country: "United States"

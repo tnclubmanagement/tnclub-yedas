@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/11 00:00:00 +0700"
 title: "Crete: Hòn đảo lớn nhất Hy Lạp có tất cả"
 subtitle: "Knossos của văn minh Minoan, hẻm Samaria và những bãi biển hồng ngọc hàng đầu thế giới"
+banner-img: "/posts/2027/05/11/crete/cover.png"
 cover-img: "/posts/2027/05/11/crete/cover.png"
-thumbnail-img: "/posts/2027/05/11/crete/cover.png"
 geo: [35.2401, 24.8093]
 place_name: "Crete"
 place_country: "Greece"

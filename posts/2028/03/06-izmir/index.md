@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-06 00:00:00 +0700"
 title: "İzmir và bờ Aegean: Kordon ngắm hoàng hôn, Çeşme biển xanh, Alaçatı nhà đá"
 subtitle: "Thành phố sống thật của Thổ Nhĩ Kỳ và cửa ngõ tới Ephesus lẫn bán đảo nghỉ dưỡng"
+banner-img: "/posts/2028/03/06-izmir/cover.jpg"
 cover-img: "/posts/2028/03/06-izmir/cover.jpg"
-thumbnail-img: "/posts/2028/03/06-izmir/cover.jpg"
 geo: [38.4192, 27.1287]
 place_name: "İzmir"
 place_country: "Thổ Nhĩ Kỳ"

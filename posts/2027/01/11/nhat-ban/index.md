@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-11 00:00:00 +0700"
 title: "Nhật Bản: chọn một vùng, đi sâu hơn một chuyến check-in"
 subtitle: "Tokyo hay Kyoto – Osaka: cách chọn hành trình đầu tiên vừa sức và có thời gian ngắm nhìn"
+banner-img: "/posts/2027/01/11/nhat-ban/cover.jpg"
 cover-img: "/posts/2027/01/11/nhat-ban/cover.jpg"
-thumbnail-img: "/posts/2027/01/11/nhat-ban/cover.jpg"
 geo: [35.7148, 139.7967]
 place_name: "Tokyo, Nhật Bản"
 place_country: "Japan"

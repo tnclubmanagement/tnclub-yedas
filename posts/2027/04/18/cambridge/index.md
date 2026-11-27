@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/18 00:00:00 +0700"
 title: "Cambridge: Trường đại học 800 năm và chèo thuyền trên sông Cam"
 subtitle: "Punting dưới các trường cổ, King's College Chapel và thành phố đạp xe"
+banner-img: "/posts/2027/04/18/cambridge/cover.png"
 cover-img: "/posts/2027/04/18/cambridge/cover.png"
-thumbnail-img: "/posts/2027/04/18/cambridge/cover.png"
 geo: [52.2053, 0.1218]
 place_name: "Cambridge, England"
 place_country: "United Kingdom"

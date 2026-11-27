@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/29 00:00:00 +0700"
 title: "Seychelles: Thiên đường đá granit giữa Ấn Độ Dương"
 subtitle: "Anse Source d'Argent — bãi biển được chụp nhiều nhất thế giới, rùa khổng lồ và rừng coco de mer"
+banner-img: "/posts/2027/08/29/seychelles/cover.jpg"
 cover-img: "/posts/2027/08/29/seychelles/cover.jpg"
-thumbnail-img: "/posts/2027/08/29/seychelles/cover.jpg"
 geo: [-4.3636, 55.8286]
 place_name: "La Digue"
 place_country: "Seychelles"

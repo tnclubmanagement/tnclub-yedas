@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-12 00:00:00 +0700"
 title: "Mulu: hang động, rừng mưa và một hành trình phải đặt đúng cấp độ"
 subtitle: "Di sản Sarawak không chỉ có một lối đi trong hang dành cho mọi người"
+banner-img: "/posts/2028/02/12-mulu/cover.jpg"
 cover-img: "/posts/2028/02/12-mulu/cover.jpg"
-thumbnail-img: "/posts/2028/02/12-mulu/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Mulu, Sarawak, Di sản, Hang động]
 geo: [4.05, 114.817]

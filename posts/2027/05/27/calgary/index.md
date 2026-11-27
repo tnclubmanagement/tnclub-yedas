@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/27 00:00:00 +0700"
 title: "Calgary: cửa ngờ Rockies và thành phố cao bồi"
 subtitle: "Calgary Stampede, tháp Calgary, Heritage Park và điểm khởi đầu đi Banff"
+banner-img: "/posts/2027/05/27/calgary/cover.jpg"
 cover-img: "/posts/2027/05/27/calgary/cover.jpg"
-thumbnail-img: "/posts/2027/05/27/calgary/cover.jpg"
 geo: [51.0447, -114.0719]
 place_name: "Calgary, Alberta"
 place_country: "Canada"

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-22 00:00:00 +0700"
 title: "Akane Yamaguchi: 'cỗ máy chạy không ngừng' của Nhật Bản"
 subtitle: "2 lần vô địch thế giới với sải chân nhanh nhất đơn nữ"
+banner-img: "/posts/2026/11/22/akane-yamaguchi/avatar.jpg"
 cover-img: "/posts/2026/11/22/akane-yamaguchi/avatar.jpg"
-thumbnail-img: "/posts/2026/11/22/akane-yamaguchi/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Akane Yamaguchi, Nhật Bản]

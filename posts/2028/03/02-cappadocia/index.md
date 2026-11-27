@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-02 00:00:00 +0700"
 title: "Cappadocia: khinh khí cầu chỉ là một buổi sáng, thung lũng mới là phần còn lại"
 subtitle: "Göreme, thành phố ngầm và cách chọn chỗ ở hang động cho đúng"
+banner-img: "/posts/2028/03/02-cappadocia/cover.jpg"
 cover-img: "/posts/2028/03/02-cappadocia/cover.jpg"
-thumbnail-img: "/posts/2028/03/02-cappadocia/cover.jpg"
 geo: [38.6431, 34.8289]
 place_name: "Cappadocia (Göreme)"
 place_country: "Thổ Nhĩ Kỳ"

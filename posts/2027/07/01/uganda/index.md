@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/01 00:00:00 +0700"
 title: "Uganda: Ngọn nguồn sông Nile và quê hương khỉ đột"
 subtitle: "Bwindi trekking gorilla núi, Queen Elizabeth và thác Murchison mạnh nhất Nile"
+banner-img: "/posts/2027/07/01/uganda/cover.jpg"
 cover-img: "/posts/2027/07/01/uganda/cover.jpg"
-thumbnail-img: "/posts/2027/07/01/uganda/cover.jpg"
 geo: [0.3476, 32.5825]
 place_name: "Kampala"
 place_country: "Uganda"

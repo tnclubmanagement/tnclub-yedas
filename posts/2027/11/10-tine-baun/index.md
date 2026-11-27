@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-10 00:00:00 +0700"
 title: "Tine Baun: lời chia tay bằng chiếc cúp All England thứ ba"
 subtitle: "Tháng 3/2013, tay vợt Đan Mạch kết thúc sự nghiệp với một chiến thắng đáng nhớ"
+banner-img: "/posts/2027/11/10-tine-baun/avatar.jpg"
 cover-img: "/posts/2027/11/10-tine-baun/avatar.jpg"
-thumbnail-img: "/posts/2027/11/10-tine-baun/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Đan Mạch, Tine Baun, Đơn nữ]

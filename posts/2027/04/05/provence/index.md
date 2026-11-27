@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/05 00:00:00 +0700"
 title: "Provence: Cánh đồng lavender và những ngôi làng trên đồi"
 subtitle: "Valensole, Gordes, Roussillon và mùa tím tháng 6-7 của miền Nam nước Pháp"
+banner-img: "/posts/2027/04/05/provence/cover.png"
 cover-img: "/posts/2027/04/05/provence/cover.png"
-thumbnail-img: "/posts/2027/04/05/provence/cover.png"
 geo: [43.8333, 5.2833]
 place_name: "Provence, Luberon"
 place_country: "France"

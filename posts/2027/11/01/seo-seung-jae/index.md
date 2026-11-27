@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-01 00:00:00 +0700"
 title: "Seo Seung-jae: tay vợt hai vàng trong một kỳ thế giới"
 subtitle: "Vô địch cả đôi nam lẫn đôi nam nữ tại Worlds 2023 — kỳ tích chưa ai lặp lại 24 năm"
+banner-img: "/posts/2027/11/01/seo-seung-jae/avatar.jpg"
 cover-img: "/posts/2027/11/01/seo-seung-jae/avatar.jpg"
-thumbnail-img: "/posts/2027/11/01/seo-seung-jae/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Seo Seung-jae, Hàn Quốc, Đánh đôi]

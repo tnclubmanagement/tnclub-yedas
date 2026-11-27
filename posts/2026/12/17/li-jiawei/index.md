@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-17 00:00:00 +0700"
 title: "Li Jiawei: người mở đường cho kỳ tích Olympic của Singapore"
 subtitle: "Hạng 4 Athens 2004 và HCĐ đồng đội Bắc Kinh 2008 — thế hệ vàng đầu tiên"
+banner-img: "/posts/2026/12/17/li-jiawei/avatar.jpg"
 cover-img: "/posts/2026/12/17/li-jiawei/avatar.jpg"
-thumbnail-img: "/posts/2026/12/17/li-jiawei/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Li Jiawei, Singapore]

@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/19 00:00:00 +0700"
 title: "Libya: Những thành phố La Mã đẹp nhất ngoài nước Ý"
 subtitle: "Leptis Magna hoành tráng, Sabratha bên biển xanh và ốc đảo Ghadames giữa Sahara"
+banner-img: "/posts/2027/08/19/libya/cover.jpg"
 cover-img: "/posts/2027/08/19/libya/cover.jpg"
-thumbnail-img: "/posts/2027/08/19/libya/cover.jpg"
 geo: [32.6381, 14.2906]
 place_name: "Leptis Magna / Tripoli"
 place_country: "Libya"

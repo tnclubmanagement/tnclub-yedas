@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/25 00:00:00 +0700"
 title: "Serbia: Belgrade — thủ đô không ngủ bên ngã ba sông"
 subtitle: "Pháo đài Kalemegdan, khu Skadarlija bohemian và nightlife trên tàu splav"
+banner-img: "/posts/2027/07/25/serbia/cover.jpg"
 cover-img: "/posts/2027/07/25/serbia/cover.jpg"
-thumbnail-img: "/posts/2027/07/25/serbia/cover.jpg"
 geo: [44.7866, 20.4489]
 place_name: "Belgrade"
 place_country: "Serbia"

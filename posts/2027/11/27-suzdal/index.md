@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-27 00:00:00 +0700"
 title: "Suzdal: mái vòm bên sông Kamenka và nhịp chậm của Vành đai Vàng"
 subtitle: "Một thị trấn để đi bộ và nhìn công trình tôn giáo trong bối cảnh đời sống"
+banner-img: "/posts/2027/11/27-suzdal/cover.jpg"
 cover-img: "/posts/2027/11/27-suzdal/cover.jpg"
-thumbnail-img: "/posts/2027/11/27-suzdal/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Suzdal, Vành đai Vàng, Kiến trúc, Lịch sử]
 geo: [56.421, 40.449]

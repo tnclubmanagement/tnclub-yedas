@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-23 00:00:00 +0700"
 title: "Kyoto: bớt một ngôi chùa để nhìn kỹ một khu vườn"
 subtitle: "Kiyomizu-dera, Kinkaku-ji, Nijo và cách chia cố đô theo từng hướng"
+banner-img: "/posts/2027/01/23/kyoto/cover.jpg"
 cover-img: "/posts/2027/01/23/kyoto/cover.jpg"
-thumbnail-img: "/posts/2027/01/23/kyoto/cover.jpg"
 geo: [34.9949, 135.7850]
 place_name: "Kyoto"
 place_country: "Japan"

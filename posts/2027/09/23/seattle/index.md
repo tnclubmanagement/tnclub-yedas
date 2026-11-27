@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/23 00:00:00 +0700"
 title: "Seattle: Cà phê, mưa và những đỉnh núi tuyết quanh vịnh"
 subtitle: "Space Needle, Starbucks đầu tiên, chợ Pike Place và cửa ngõ đến Olympic-Rainier"
+banner-img: "/posts/2027/09/23/seattle/cover.jpg"
 cover-img: "/posts/2027/09/23/seattle/cover.jpg"
-thumbnail-img: "/posts/2027/09/23/seattle/cover.jpg"
 geo: [47.6062, -122.3321]
 place_name: "Seattle, WA"
 place_country: "United States"

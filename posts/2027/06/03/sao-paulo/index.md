@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/03 00:00:00 +0700"
 title: "São Paulo: Thành phố lớn nhất châu Mỹ và kinh đô ẩm thực"
 subtitle: "Avenida Paulista, Ibirapuera, Mercado Municipal và thiên đường ăn uống đa văn hóa"
+banner-img: "/posts/2027/06/03/sao-paulo/cover.png"
 cover-img: "/posts/2027/06/03/sao-paulo/cover.png"
-thumbnail-img: "/posts/2027/06/03/sao-paulo/cover.png"
 geo: [-23.5505, -46.6333]
 place_name: "São Paulo"
 place_country: "Brazil"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/18 00:00:00 +0700"
 title: "Hawaii: Quần đảo núi lửa giữa Thái Bình Dương"
 subtitle: "Waikiki, đường Hana, núi lửa và văn hóa Polynesia đích thực"
+banner-img: "/posts/2027/05/18/hawaii/cover.png"
 cover-img: "/posts/2027/05/18/hawaii/cover.png"
-thumbnail-img: "/posts/2027/05/18/hawaii/cover.png"
 geo: [21.3069, -157.8583]
 place_name: "Honolulu, Oahu, Hawaii"
 place_country: "United States"

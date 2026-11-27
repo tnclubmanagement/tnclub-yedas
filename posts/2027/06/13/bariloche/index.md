@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/13 00:00:00 +0700"
 title: "Bariloche: Alps của Nam Mỹ bên hồ Nahuel Huapi"
 subtitle: "Sô-cô-la, hồ núi, Circuito Chico và trung tâm Patagonia Argentina"
+banner-img: "/posts/2027/06/13/bariloche/cover.png"
 cover-img: "/posts/2027/06/13/bariloche/cover.png"
-thumbnail-img: "/posts/2027/06/13/bariloche/cover.png"
 geo: [-41.1335, -71.3103]
 place_name: "Bariloche, Río Negro"
 place_country: "Argentina"

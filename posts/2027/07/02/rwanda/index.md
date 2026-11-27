@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/02 00:00:00 +0700"
 title: "Rwanda: Đất nước ngàn đồi tái sinh"
 subtitle: "Gorilla Volcanoes, rừng Nyungwe và thủ đô Kigali sạch đẹp bậc nhất châu Phi"
+banner-img: "/posts/2027/07/02/rwanda/cover.jpg"
 cover-img: "/posts/2027/07/02/rwanda/cover.jpg"
-thumbnail-img: "/posts/2027/07/02/rwanda/cover.jpg"
 geo: [-1.9403, 29.8739]
 place_name: "Kigali"
 place_country: "Rwanda"

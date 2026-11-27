@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-17 00:00:00 +0700"
 title: "Charleston: mái hiên, phố màu và gió ở cửa vịnh"
 subtitle: "Đi bộ qua khu lịch sử South Carolina mà không chỉ dừng ở những mặt tiền đẹp"
+banner-img: "/posts/2027/11/17-charleston/cover.jpg"
 cover-img: "/posts/2027/11/17-charleston/cover.jpg"
-thumbnail-img: "/posts/2027/11/17-charleston/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Charleston, South Carolina, Kiến trúc, Chụp ảnh]
 geo: [32.783, -79.932]

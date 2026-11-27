@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-05 00:00:00 +0700"
 title: "Quảng Trị: từ đôi bờ Hiền Lương đến miền hang động Phong Nha"
 subtitle: "Một hành trình về ký ức, hòa bình và thiên nhiên Bắc Trung Bộ"
+banner-img: "/posts/2027/01/05/quang-tri/cover.jpg"
 cover-img: "/posts/2027/01/05/quang-tri/cover.jpg"
-thumbnail-img: "/posts/2027/01/05/quang-tri/cover.jpg"
 geo: [17.0026, 107.0520]
 place_name: "Quảng Trị"
 place_country: "Vietnam"

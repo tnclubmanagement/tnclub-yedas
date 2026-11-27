@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/25 00:00:00 +0700"
 title: "Mozambique: 2.500 km bờ biển hoang đẹp nhất Đông Phi"
 subtitle: "Quần đảo Bazaruto xanh ngọc, Ilha de Moçambique cổ kính và nước biển ấm của dòng hải lưu"
+banner-img: "/posts/2027/08/25/mozambique/cover.jpg"
 cover-img: "/posts/2027/08/25/mozambique/cover.jpg"
-thumbnail-img: "/posts/2027/08/25/mozambique/cover.jpg"
 geo: [-15.0342, 40.7358]
 place_name: "Ilha de Moçambique"
 place_country: "Mozambique"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-03 00:00:00 +0700"
 title: "Côn Minh: từ cột đá Thạch Lâm về một chiều bên Điền Trì"
 subtitle: "Ba ngày làm quen Vân Nam qua hồ nước, chùa cổ và nhịp phố của thành phố cao nguyên"
+banner-img: "/posts/2027/02/03/con-minh/cover.jpg"
 cover-img: "/posts/2027/02/03/con-minh/cover.jpg"
-thumbnail-img: "/posts/2027/02/03/con-minh/cover.jpg"
 geo: [25.0389, 102.7183]
 place_name: "Côn Minh"
 place_country: "China"

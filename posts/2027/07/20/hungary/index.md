@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/20 00:00:00 +0700"
 title: "Hungary: Budapest — viên ngọc sông Danube"
 subtitle: "Nhà Quốc hội, pháo đài Ngư ông, nhà tắm nhiệt Széchenyi và pháo đài Buda về đêm"
+banner-img: "/posts/2027/07/20/hungary/cover.jpg"
 cover-img: "/posts/2027/07/20/hungary/cover.jpg"
-thumbnail-img: "/posts/2027/07/20/hungary/cover.jpg"
 geo: [47.4979, 19.0402]
 place_name: "Budapest"
 place_country: "Hungary"

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:03:00 +0700"
 title: "[03 · Ăn ngon miền Nam] : Bánh xèo, bánh khọt và rau cuốn ở Vũng Tàu"
 subtitle: "Một bánh lớn chia miếng, nhiều bánh nhỏ đổ khuôn — cùng cần ăn khi vừa ra"
-cover-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/vung-tau-banner.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg"
+banner-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/vung-tau-banner.jpg"
+cover-img: "/posts/2026/11/26/mien-nam-03-banh-xeo-banh-khot/banh-xeo.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Vũng Tàu, Bánh xèo, Bánh khọt]
 series: "Ăn ngon miền Nam"

@@ -2,7 +2,7 @@
 layout: page
 title: Cửa hàng
 subtitle: Preset chỉnh ảnh và ebook — mua một lần, dùng mãi mãi
-cover-img: "/assets/img/store-cover.jpg"
+banner-img: "/assets/img/store-cover.jpg"
 permalink: /store/
 ---
 

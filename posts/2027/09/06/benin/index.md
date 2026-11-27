@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/06 00:00:00 +0700"
 title: "Benin: Ganvié — Venice châu Phi và cái nôi của đạo Vodun"
 subtitle: "Làng cọc trên hồ Nokoué, cửa ngõ nô lệ Ouidah và vương quốc Dahomey huyền thoại"
+banner-img: "/posts/2027/09/06/benin/cover.jpg"
 cover-img: "/posts/2027/09/06/benin/cover.jpg"
-thumbnail-img: "/posts/2027/09/06/benin/cover.jpg"
 geo: [6.4686, 2.4258]
 place_name: "Ganvié / Cotonou"
 place_country: "Benin"

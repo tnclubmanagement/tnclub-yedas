@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:01:00 +0700"
 title: "[01 · Ăn ngon miền Bắc] : Phở bò, phở gà và cách gọi ở Hà Nội"
 subtitle: "Chọn phần thịt trước, nếm nước dùng sau, rồi mới quyết định thêm gì"
-cover-img: "https://cdn.tuoitre.vn/471584752817336320/2024/8/16/kv-revised-107-1723767064945925136241.jpg"
-thumbnail-img: "https://dienmaynguyenkhoi.vn/wp-content/uploads/2023/02/an-pho-tai-nam-khi-nong-1.jpg"
+banner-img: "https://cdn.tuoitre.vn/471584752817336320/2024/8/16/kv-revised-107-1723767064945925136241.jpg"
+cover-img: "https://dienmaynguyenkhoi.vn/wp-content/uploads/2023/02/an-pho-tai-nam-khi-nong-1.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Phở]
 series: "Ăn ngon miền Bắc"

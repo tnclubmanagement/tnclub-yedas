@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-13 00:00:00 +0700"
 title: "Feng Tianwei: niềm tự hào nhập tịch của bóng bàn Singapore"
 subtitle: "Ba huy chương Olympic và từng là số 2 thế giới — trụ cột đưa Singapore lên bản đồ bóng bàn"
+banner-img: "/posts/2026/12/13/feng-tianwei/avatar.jpg"
 cover-img: "/posts/2026/12/13/feng-tianwei/avatar.jpg"
-thumbnail-img: "/posts/2026/12/13/feng-tianwei/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Feng Tianwei, Singapore]

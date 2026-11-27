@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/23 00:00:00 +0700"
 title: "Zambia: Victoria Falls phía bản địa và quê hương của walking safari"
 subtitle: "Mosi-oa-Tunya — 'khói gầm thần', Devil's Pool trên mép thác và South Luangua hoang dã"
+banner-img: "/posts/2027/08/23/zambia/cover.jpg"
 cover-img: "/posts/2027/08/23/zambia/cover.jpg"
-thumbnail-img: "/posts/2027/08/23/zambia/cover.jpg"
 geo: [-17.9243, 25.8567]
 place_name: "Victoria Falls / Livingstone"
 place_country: "Zambia"

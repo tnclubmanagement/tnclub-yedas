@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/04 00:00:00 +0700"
 title: "Guinea: Fouta Djallon — tháp nước của Tây Phi"
 subtitle: "Cao nguyên núi non nguồn gốc sông Niger, thác Kambadaga và đất của người Fulani"
+banner-img: "/posts/2027/09/04/guinea/cover.jpg"
 cover-img: "/posts/2027/09/04/guinea/cover.jpg"
-thumbnail-img: "/posts/2027/09/04/guinea/cover.jpg"
 geo: [10.8000, -12.2833]
 place_name: "Fouta Djallon / Dalaba"
 place_country: "Guinea"

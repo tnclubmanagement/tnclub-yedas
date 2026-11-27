@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-11 00:00:00 +0700"
 title: "Luang Prabang: cố đô bên sông Mekong của lễ khất thực và chùa vàng"
 subtitle: "Nơi sư tăng đi khất thực lúc rạng đông, thác Kuang Si xanh ngọc và những buổi chiều chậm bên hai con sông"
+banner-img: "/posts/2027/03/11/luang-prabang/cover.jpg"
 cover-img: "/posts/2027/03/11/luang-prabang/cover.jpg"
-thumbnail-img: "/posts/2027/03/11/luang-prabang/cover.jpg"
 geo: [19.8856, 102.1350]
 place_name: "Luang Prabang"
 place_country: "Laos"

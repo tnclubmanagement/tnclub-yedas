@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:05:00 +0700"
 title: "[05 · Ăn ngon miền Trung] : Nem lụi và bánh khoái Huế"
 subtitle: "Cuốn ít nhân, thêm rau vừa tay và để nước chấm làm phần việc còn lại"
+banner-img: "https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg"
 cover-img: "https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg"
-thumbnail-img: "https://vietnam-shoreexcursions.com/wp-content/uploads/nem-nuong-nha-trang-1.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Nem lụi, Bánh khoái]
 series: "Ăn ngon miền Trung"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-01 00:00:00 +0700"
 title: "Udaipur: cung điện, mặt hồ và những buổi không cần chạy theo hoàng hôn"
 subtitle: "Một thành phố Rajasthan hợp để nhìn từ nhiều khoảng cách"
+banner-img: "/posts/2028/02/01-udaipur/cover.jpg"
 cover-img: "/posts/2028/02/01-udaipur/cover.jpg"
-thumbnail-img: "/posts/2028/02/01-udaipur/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Udaipur, Rajasthan, Kiến trúc]
 geo: [24.585, 73.713]

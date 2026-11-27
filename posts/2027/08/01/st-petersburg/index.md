@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/01 00:00:00 +0700"
 title: "Nga: St. Petersburg — Venice của phương Bắc"
 subtitle: "Hermitage, nhà thờ Savior on Spilled Blood, Peterhof và đêm trắng huyền thoại"
+banner-img: "/posts/2027/08/01/st-petersburg/cover.jpg"
 cover-img: "/posts/2027/08/01/st-petersburg/cover.jpg"
-thumbnail-img: "/posts/2027/08/01/st-petersburg/cover.jpg"
 geo: [59.9343, 30.3351]
 place_name: "St. Petersburg"
 place_country: "Russia"

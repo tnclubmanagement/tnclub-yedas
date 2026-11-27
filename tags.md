@@ -2,7 +2,7 @@
 layout: page
 title: Lưu trữ theo thẻ
 subtitle: Tất cả bài viết, nhóm theo thẻ
-cover-img: "/assets/img/hero-2.jpg"
+banner-img: "/assets/img/hero-2.jpg"
 permalink: /tags/
 ---
 

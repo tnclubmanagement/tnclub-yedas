@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-11 00:00:00 +0700"
 title: "Sokcho: giữa chợ cá, bờ biển và một ngày dành riêng cho Seoraksan"
 subtitle: "Đừng ghép núi và phố thành một lịch trình phải chạy liên tục"
+banner-img: "/posts/2028/01/11-sokcho/cover.jpg"
 cover-img: "/posts/2028/01/11-sokcho/cover.jpg"
-thumbnail-img: "/posts/2028/01/11-sokcho/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Sokcho, Seoraksan, Thiên nhiên]
 geo: [38.207, 128.591]

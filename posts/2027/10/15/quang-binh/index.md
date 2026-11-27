@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/15 00:00:00 +0700"
 title: "Quảng Bình: Vương quốc hang động Phong Nha – Kẻ Bàng"
 subtitle: "Động Phong Nha, Thiên Đường và vùng karst già nhất châu Á"
+banner-img: "/posts/2027/10/15/quang-binh/cover.jpg"
 cover-img: "/posts/2027/10/15/quang-binh/cover.jpg"
-thumbnail-img: "/posts/2027/10/15/quang-binh/cover.jpg"
 geo: [17.5871, 106.2851]
 place_name: "Quảng Bình"
 place_country: "Vietnam"

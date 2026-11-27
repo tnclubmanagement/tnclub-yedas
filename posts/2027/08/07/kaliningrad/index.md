@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/07 00:00:00 +0700"
 title: "Nga: Kaliningrad — mảnh đất Phổ giữa lòng châu Âu"
 subtitle: "Nhà thờ Königsberg của Kant, đảo Kneiphof và cồn cát Curonian Spit UNESCO"
+banner-img: "/posts/2027/08/07/kaliningrad/cover.jpg"
 cover-img: "/posts/2027/08/07/kaliningrad/cover.jpg"
-thumbnail-img: "/posts/2027/08/07/kaliningrad/cover.jpg"
 geo: [54.7104, 20.4522]
 place_name: "Kaliningrad"
 place_country: "Russia"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-02 00:00:00 +0700"
 title: "Jodhpur: thành Mehrangarh và những sắc xanh không phủ kín cả thành phố"
 subtitle: "Đi từ góc nhìn rộng xuống khu phố đang sống của Rajasthan"
+banner-img: "/posts/2028/02/02-jodhpur/cover.jpg"
 cover-img: "/posts/2028/02/02-jodhpur/cover.jpg"
-thumbnail-img: "/posts/2028/02/02-jodhpur/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Ấn Độ, Jodhpur, Rajasthan, Thành cổ]
 geo: [26.239, 73.024]

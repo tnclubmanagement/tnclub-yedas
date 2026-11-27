@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/29 00:00:00 +0700"
 title: "Niagara Falls: Bức tường nước hùng vĩ trên biên giới Mỹ-Canada"
 subtitle: "Maid of the Mist đi vào lòng thác, Cave of the Winds và hai mặt của một kỳ quan"
+banner-img: "/posts/2027/09/29/niagara-falls/cover.jpg"
 cover-img: "/posts/2027/09/29/niagara-falls/cover.jpg"
-thumbnail-img: "/posts/2027/09/29/niagara-falls/cover.jpg"
 geo: [43.0962, -79.0377]
 place_name: "Niagara Falls, NY/ON"
 place_country: "United States"

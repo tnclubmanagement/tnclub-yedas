@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-17 00:00:00 +0700"
 title: "Trondheim: qua cầu gỗ để nhìn nhịp sống bên sông Nidelva"
 subtitle: "Nidaros, Bakklandet và một thành phố Na Uy không chỉ dành cho ảnh mặt tiền"
+banner-img: "/posts/2027/12/17-trondheim/cover.jpg"
 cover-img: "/posts/2027/12/17-trondheim/cover.jpg"
-thumbnail-img: "/posts/2027/12/17-trondheim/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Trondheim, Bắc Âu, Lịch sử]
 geo: [63.431, 10.395]

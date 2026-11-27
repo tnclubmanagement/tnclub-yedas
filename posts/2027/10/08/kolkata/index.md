@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/08 00:00:00 +0700"
 title: "Kolkata: Thành phố của trà, trầm tư và những cuốn sách"
 subtitle: "Victoria Memorial trắng, cầu Howrah huyền thoại và thủ phủ văn hóa của Ấn Độ"
+banner-img: "/posts/2027/10/08/kolkata/cover.jpg"
 cover-img: "/posts/2027/10/08/kolkata/cover.jpg"
-thumbnail-img: "/posts/2027/10/08/kolkata/cover.jpg"
 geo: [22.5726, 88.3639]
 place_name: "Kolkata, West Bengal"
 place_country: "India"

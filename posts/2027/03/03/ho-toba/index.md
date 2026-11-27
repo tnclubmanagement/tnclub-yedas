@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-03 00:00:00 +0700"
 title: "Hồ Toba: miệng hồ của một siêu núi lửa và quê hương người Batak"
 subtitle: "Hồ nước ngọt lớn nhất Đông Nam Á với đảo Samosir giữa lòng — nơi Indonesia yên bình nhất"
+banner-img: "/posts/2027/03/03/ho-toba/cover.png"
 cover-img: "/posts/2027/03/03/ho-toba/cover.png"
-thumbnail-img: "/posts/2027/03/03/ho-toba/cover.png"
 geo: [2.6345, 98.7939]
 place_name: "Hồ Toba, Sumatra"
 place_country: "Indonesia"

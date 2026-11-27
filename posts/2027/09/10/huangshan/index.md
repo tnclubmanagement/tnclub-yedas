@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/10 00:00:00 +0700"
 title: "Hoàng Sơn: Ngọn núi đẹp nhất Trung Quốc giữa biển mây"
 subtitle: "Thông nghênh khách nghìn năm, thang đá trên vách và vùng làng Huizhou cổ kính"
+banner-img: "/posts/2027/09/10/huangshan/cover.jpg"
 cover-img: "/posts/2027/09/10/huangshan/cover.jpg"
-thumbnail-img: "/posts/2027/09/10/huangshan/cover.jpg"
 geo: [30.1319, 118.1663]
 place_name: "Hoàng Sơn (Huangshan)"
 place_country: "China"

@@ -2,7 +2,7 @@
 layout: page
 title: Good ideas start with simple things
 subtitle: Photography, sport and memorable journeys
-cover-img: "/assets/img/hero-3.jpg"
+banner-img: "/assets/img/hero-3.jpg"
 permalink: /about-me/
 lang: en
 ---

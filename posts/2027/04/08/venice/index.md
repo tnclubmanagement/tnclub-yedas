@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/08 00:00:00 +0700"
 title: "Venice: Thành phố trên mặt nước không nơi nào giống"
 subtitle: "Gondola trên Grand Canal, Piazza San Marco và những hẻm nhỏ không cần bản đồ"
+banner-img: "/posts/2027/04/08/venice/cover.png"
 cover-img: "/posts/2027/04/08/venice/cover.png"
-thumbnail-img: "/posts/2027/04/08/venice/cover.png"
 geo: [45.4408, 12.3155]
 place_name: "Venice, Veneto"
 place_country: "Italy"

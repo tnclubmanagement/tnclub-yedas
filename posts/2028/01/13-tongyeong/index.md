@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-13 00:00:00 +0700"
 title: "Tongyeong: phố dốc, bến cảng và những hòn đảo cần một ngày riêng"
 subtitle: "Một thành phố biển phía nam Hàn Quốc để nhìn từ cả gần lẫn xa"
+banner-img: "/posts/2028/01/13-tongyeong/cover.jpg"
 cover-img: "/posts/2028/01/13-tongyeong/cover.jpg"
-thumbnail-img: "/posts/2028/01/13-tongyeong/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Tongyeong, Biển, Đảo]
 geo: [34.855, 128.433]

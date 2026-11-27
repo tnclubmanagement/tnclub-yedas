@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/10 00:00:00 +0700"
 title: "Đại Lý: Cổ trấn bên hồ Nhị Hải dưới chân Thương Sơn"
 subtitle: "Tam Tháp Sùng Thánh, đạp xe quanh hồ và nhịp sống chậm của người Bạch"
+banner-img: "/posts/2027/10/10/dali/cover.jpg"
 cover-img: "/posts/2027/10/10/dali/cover.jpg"
-thumbnail-img: "/posts/2027/10/10/dali/cover.jpg"
 geo: [25.6914, 100.1623]
 place_name: "Đại Lý (Dali)"
 place_country: "China"

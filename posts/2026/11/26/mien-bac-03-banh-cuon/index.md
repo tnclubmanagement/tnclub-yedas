@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:03:00 +0700"
 title: "[03 · Ăn ngon miền Bắc] : Bánh cuốn và bữa sáng Hà Nội"
 subtitle: "Một đĩa bánh nóng, nước chấm riêng và nhịp phố vừa thức"
-cover-img: "https://img5.thuthuatphanmem.vn/uploads/2021/12/06/anh-toan-canh-ha-noi-ve-dem_013054022.jpg"
-thumbnail-img: "https://tse1.mm.bing.net/th/id/OIP.jLzn7ogmsmQsWxbdKILouwHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+banner-img: "https://img5.thuthuatphanmem.vn/uploads/2021/12/06/anh-toan-canh-ha-noi-ve-dem_013054022.jpg"
+cover-img: "https://tse1.mm.bing.net/th/id/OIP.jLzn7ogmsmQsWxbdKILouwHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Bánh cuốn]
 series: "Ăn ngon miền Bắc"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-21 00:00:00 +0700"
 title: "Cao Hùng: từ sân chùa rộng đến những nhà kho nghệ thuật"
 subtitle: "Phật Quang Sơn, Đầm Liên Trì, Pier-2 và một buổi chiều ở thành phố cảng"
+banner-img: "/posts/2027/01/21/cao-hung/cover.jpg"
 cover-img: "/posts/2027/01/21/cao-hung/cover.jpg"
-thumbnail-img: "/posts/2027/01/21/cao-hung/cover.jpg"
 geo: [22.6813, 120.2927]
 place_name: "Cao Hùng"
 place_country: "Taiwan"

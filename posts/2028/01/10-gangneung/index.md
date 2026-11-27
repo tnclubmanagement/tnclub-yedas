@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-10 00:00:00 +0700"
 title: "Gangneung: một ngày bên biển với cà phê và câu chuyện văn hóa"
 subtitle: "Bờ đông Hàn Quốc không chỉ có những quán nhìn ra nước"
+banner-img: "/posts/2028/01/10-gangneung/cover.jpg"
 cover-img: "/posts/2028/01/10-gangneung/cover.jpg"
-thumbnail-img: "/posts/2028/01/10-gangneung/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Hàn Quốc, Gangneung, Biển, Cà phê]
 geo: [37.752, 128.876]

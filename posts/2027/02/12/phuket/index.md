@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-12 00:00:00 +0700"
 title: "Phuket: một ngày ở phố cổ, một ngày để biển quyết định"
 subtitle: "Đi đảo Andaman không chỉ có Patong: còn mái nhà Sino-Portuguese, chùa Chalong và những chuyến vịnh riêng"
+banner-img: "/posts/2027/02/12/phuket/cover.jpg"
 cover-img: "/posts/2027/02/12/phuket/cover.jpg"
-thumbnail-img: "/posts/2027/02/12/phuket/cover.jpg"
 geo: [7.8804, 98.3923]
 place_name: "Phuket"
 place_country: "Thailand"

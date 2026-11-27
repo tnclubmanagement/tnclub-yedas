@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-18 00:00:00 +0700"
 title: "Lombok: hòn đảo bên cạnh Bali mà chậm hơn một nhịp"
 subtitle: "Bãi cát trắng phía nam, ba đảo Gili không xe máy và chân núi lửa Rinjani"
+banner-img: "/posts/2027/02/18/lombok/cover.png"
 cover-img: "/posts/2027/02/18/lombok/cover.png"
-thumbnail-img: "/posts/2027/02/18/lombok/cover.png"
 geo: [-8.8934, 116.2834]
 place_name: "Kuta, Lombok"
 place_country: "Indonesia"

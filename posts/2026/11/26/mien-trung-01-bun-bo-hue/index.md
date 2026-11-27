@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:01:00 +0700"
 title: "[01 · Ăn ngon miền Trung] : Bún bò Huế, gọi theo phần thịt và độ cay"
 subtitle: "Thơm sả, đậm mắm ruốc và không chỉ có thịt bò"
-cover-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/banner-dai-noi.jpg"
-thumbnail-img: "https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg"
+banner-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/banner-dai-noi.jpg"
+cover-img: "https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Bún bò]
 series: "Ăn ngon miền Trung"

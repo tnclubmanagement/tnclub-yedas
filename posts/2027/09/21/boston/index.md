@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/21 00:00:00 +0700"
 title: "Boston: Nôi của cách mạng Mỹ giữa những ngôi trường danh tiếng"
 subtitle: "Freedom Trail đá đỏ, Harvard-MIT và những tán lá đỏ mùa thu đẹp nhất nước Mỹ"
+banner-img: "/posts/2027/09/21/boston/cover.jpg"
 cover-img: "/posts/2027/09/21/boston/cover.jpg"
-thumbnail-img: "/posts/2027/09/21/boston/cover.jpg"
 geo: [42.3601, -71.0589]
 place_name: "Boston, MA"
 place_country: "United States"

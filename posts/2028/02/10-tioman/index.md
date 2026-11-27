@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-10 00:00:00 +0700"
 title: "Tioman: chọn đúng làng và bến tàu trước khi chọn bãi biển"
 subtitle: "Một hòn đảo Malaysia có nhiều nhịp nghỉ khác nhau theo vị trí lưu trú"
+banner-img: "/posts/2028/02/10-tioman/cover.jpg"
 cover-img: "/posts/2028/02/10-tioman/cover.jpg"
-thumbnail-img: "/posts/2028/02/10-tioman/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Tioman, Đảo, Biển]
 geo: [2.79, 104.17]

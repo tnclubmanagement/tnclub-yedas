@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-19 00:00:00 +0700"
 title: "Zion: đi dưới vách đá đỏ, không nhất thiết phải chinh phục đỉnh cao"
 subtitle: "Một chuyến vườn quốc gia Utah lấy điều kiện thực tế làm trung tâm lịch trình"
+banner-img: "/posts/2027/11/19-zion/cover.jpg"
 cover-img: "/posts/2027/11/19-zion/cover.jpg"
-thumbnail-img: "/posts/2027/11/19-zion/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Mỹ, Zion, Utah, Vườn quốc gia, Đi bộ]
 geo: [37.298, -113.026]

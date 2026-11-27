@@ -2,7 +2,7 @@
 layout: page
 title: "Ăn ngon miền Trung"
 subtitle: "6 bài đi từ Huế qua Hội An đến Đà Nẵng, chọn món theo kết cấu và cách ăn"
-cover-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg"
+banner-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg"
 ---
 
 Miền Trung không chỉ có món cay. Một chén <span>bánh bèo</span>, tô <span>mì Quảng</span> ít nước hay cuốn <span>nem lụi</span> nhiều rau tạo ra những bữa ăn rất khác nhau. Series này chọn ba điểm dừng Huế, Hội An và Đà Nẵng, không cố đại diện toàn bộ dải đất miền Trung.

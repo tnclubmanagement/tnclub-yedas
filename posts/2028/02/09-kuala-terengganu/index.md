@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-09 00:00:00 +0700"
 title: "Kuala Terengganu: bờ sông, nghề thủ công và nhịp sống duyên hải Malay"
 subtitle: "Một thành phố bờ đông đáng ở lại trước chuyến ra đảo"
+banner-img: "/posts/2028/02/09-kuala-terengganu/cover.jpg"
 cover-img: "/posts/2028/02/09-kuala-terengganu/cover.jpg"
-thumbnail-img: "/posts/2028/02/09-kuala-terengganu/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Kuala Terengganu, Văn hóa, Biển]
 geo: [5.33, 103.14]

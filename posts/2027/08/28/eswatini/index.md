@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/28 00:00:00 +0700"
 title: "Eswatini: Vương quốc nhỏ cuối cùng của châu Phi"
 subtitle: "Quốc gia quân chủ chuyên chế cuối cùng, lễ hội lau rậy Umhlanga và safari nhỏ gọn ấm cúng"
+banner-img: "/posts/2027/08/28/eswatini/cover.jpg"
 cover-img: "/posts/2027/08/28/eswatini/cover.jpg"
-thumbnail-img: "/posts/2027/08/28/eswatini/cover.jpg"
 geo: [-26.4833, 31.2000]
 place_name: "Ezulwini Valley / Mlilwane"
 place_country: "Eswatini"

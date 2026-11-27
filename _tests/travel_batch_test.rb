@@ -16,7 +16,7 @@ articles = Dir.glob(File.join(root, 'posts/**/index.md')).filter_map do |file|
   %w[source photo license_url].each do |key|
     raise "Invalid #{key}: #{file}" unless record[key].match?(%r{\Ahttps?://})
   end
-  %w[cover-img thumbnail-img].each do |key|
+  %w[banner-img cover-img].each do |key|
     image = File.join(root, data.fetch(key).delete_prefix('/'))
     raise "Missing or invalid #{key}: #{file}" unless File.file?(image) && File.binread(image, 2) == "\xFF\xD8".b
     raise "Image outside article folder: #{file}" unless File.dirname(image) == File.dirname(file)

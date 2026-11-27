@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-18 00:00:00 +0700"
 title: "Taufik Hidayat: 'ông hoàng backhand' và vàng Olympic Athens 2004"
 subtitle: "Tay vợt Indonesia có cú backhand đẹp và chết người nhất lịch sử cầu lông"
+banner-img: "/posts/2026/11/18/taufik-hidayat/avatar.jpg"
 cover-img: "/posts/2026/11/18/taufik-hidayat/avatar.jpg"
-thumbnail-img: "/posts/2026/11/18/taufik-hidayat/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Taufik Hidayat, Indonesia]

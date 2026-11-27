@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-16 00:00:00 +0700"
 title: "Palawan: lagoon giữa núi đá vôi và những chuyến thuyền đáng chờ"
 subtitle: "El Nido và Coron — hai đầu của hành trình biển đảo được gọi là đẹp nhất Philippines"
+banner-img: "/posts/2027/02/16/palawan/philippines-12158.jpg"
 cover-img: "/posts/2027/02/16/palawan/philippines-12158.jpg"
-thumbnail-img: "/posts/2027/02/16/palawan/philippines-12158.jpg"
 geo: [11.1780, 119.3940]
 place_name: "El Nido, Palawan"
 place_country: "Philippines"

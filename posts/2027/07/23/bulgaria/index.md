@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/23 00:00:00 +0700"
 title: "Bulgaria: Sofia và tu viện Rila — Đông Âu giá rẻ mà đẹp bất ngờ"
 subtitle: "Nhà thờ Alexander Nevsky mái vàng, tu viện Rila UNESCO và thành cổ Plovdiv 8.000 năm"
+banner-img: "/posts/2027/07/23/bulgaria/cover.jpg"
 cover-img: "/posts/2027/07/23/bulgaria/cover.jpg"
-thumbnail-img: "/posts/2027/07/23/bulgaria/cover.jpg"
 geo: [42.6977, 23.3219]
 place_name: "Sofia"
 place_country: "Bulgaria"

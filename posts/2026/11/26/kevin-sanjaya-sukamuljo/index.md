@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 00:00:00 +0700"
 title: "Kevin Sanjaya Sukamuljo: 'Minions' và nghệ thuật đánh đôi"
 subtitle: "Tay vợt đôi nam có pha xử lý lưới đẹp nhất thế giới"
+banner-img: "/posts/2026/11/26/kevin-sanjaya-sukamuljo/avatar.jpg"
 cover-img: "/posts/2026/11/26/kevin-sanjaya-sukamuljo/avatar.jpg"
-thumbnail-img: "/posts/2026/11/26/kevin-sanjaya-sukamuljo/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Kevin Sanjaya Sukamuljo, Indonesia, Đôi nam]

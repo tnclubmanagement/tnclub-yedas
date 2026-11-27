@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/09 00:00:00 +0700"
 title: "Liberia: Nước cộng hòa châu Phi đầu tiên giữa rừng mưa cổ xưa"
 subtitle: "Monrovia và dấu ấn người Mỹ trở về, rừng Sapo với hà mã lùn và bờ biển hoang Robertsport"
+banner-img: "/posts/2027/09/09/liberia/cover.jpg"
 cover-img: "/posts/2027/09/09/liberia/cover.jpg"
-thumbnail-img: "/posts/2027/09/09/liberia/cover.jpg"
 geo: [6.3156, -10.8074]
 place_name: "Monrovia"
 place_country: "Liberia"

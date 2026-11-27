@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/06 00:00:00 +0700"
 title: "Nga: Murmansk và Teriberka — săn cực quang rẻ nhất thế giới"
 subtitle: "Aurora trên biển Bắc Băng Dương, tàu phá băng nguyên tử Lenin và làng Teriberka hoang"
+banner-img: "/posts/2027/08/06/murmansk/cover.jpg"
 cover-img: "/posts/2027/08/06/murmansk/cover.jpg"
-thumbnail-img: "/posts/2027/08/06/murmansk/cover.jpg"
 geo: [68.9585, 33.0827]
 place_name: "Murmansk"
 place_country: "Russia"

@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-08 00:00:00 +0700"
 title: "Thừa Đức: bước ra khỏi Bắc Kinh để đi giữa hồ và cung điện"
 subtitle: "Sơn trang nghỉ hè nhà Thanh và những ngôi chùa với nhiều ngôn ngữ kiến trúc"
+banner-img: "/posts/2027/11/08-chengde/cover.jpg"
 cover-img: "/posts/2027/11/08-chengde/cover.jpg"
-thumbnail-img: "/posts/2027/11/08-chengde/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Thừa Đức, Hà Bắc, Kiến trúc, Di sản]
 geo: [40.987, 117.938]

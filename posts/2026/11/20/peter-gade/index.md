@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-20 00:00:00 +0700"
 title: "Peter Gade: 'phù thủy' của cầu lông châu Âu"
 subtitle: "Tay vợt phương Tây đầu tiên thách thức thế độc tôn châu Á"
+banner-img: "/posts/2026/11/20/peter-gade/avatar.jpg"
 cover-img: "/posts/2026/11/20/peter-gade/avatar.jpg"
-thumbnail-img: "/posts/2026/11/20/peter-gade/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Peter Gade, Đan Mạch]

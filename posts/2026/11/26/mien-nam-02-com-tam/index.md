@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 13:02:00 +0700"
 title: "[02 · Ăn ngon miền Nam] : Cơm tấm sườn, bì, chả ở Sài Gòn"
 subtitle: "Một đĩa cơm không nhất thiết phải gọi đủ mọi món trong tủ"
+banner-img: "/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg"
 cover-img: "/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-nam-02-com-tam/com-tam.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Nam, Sài Gòn, Cơm tấm]
 series: "Ăn ngon miền Nam"

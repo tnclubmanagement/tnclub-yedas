@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-15 00:00:00 +0700"
 title: "Suthasini Sawettabut: 'nữ hoàng' bóng bàn Đông Nam Á"
 subtitle: "Số 1 khu vực nhiều năm liền — gương mặt đưa bóng bàn Thái Lan ra thế giới"
+banner-img: "/posts/2026/12/15/suthasini-sawettabut/avatar.jpg"
 cover-img: "/posts/2026/12/15/suthasini-sawettabut/avatar.jpg"
-thumbnail-img: "/posts/2026/12/15/suthasini-sawettabut/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Suthasini Sawettabut, Thái Lan]

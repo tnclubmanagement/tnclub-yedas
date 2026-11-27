@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/16 00:00:00 +0700"
 title: "Đảo Phục Sinh: Những Moai giữa Thái Bình Dương"
 subtitle: "Rapa Nui — hòn đảo xa xôi nhất có người ở, bí ẩn của những bức tượng khổng lồ"
+banner-img: "/posts/2027/06/16/easter-island/cover.png"
 cover-img: "/posts/2027/06/16/easter-island/cover.png"
-thumbnail-img: "/posts/2027/06/16/easter-island/cover.png"
 geo: [-27.1127, -109.3497]
 place_name: "Isla de Pascua (Rapa Nui)"
 place_country: "Chile"

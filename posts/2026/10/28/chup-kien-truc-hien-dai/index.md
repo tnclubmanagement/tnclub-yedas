@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-28 00:00:00 +0700"
 title: "Chụp công trình kiến trúc hiện đại: toà nhà, cây cầu, phố xá"
 subtitle: "Tận dụng đường nét thẳng, kính, và góc nhìn để ảnh \"chất\" hơn"
+banner-img: "/posts/2026/10/28/chup-kien-truc-hien-dai/cover-kientruc-hiendai.jpg"
 cover-img: "/posts/2026/10/28/chup-kien-truc-hien-dai/cover-kientruc-hiendai.jpg"
-thumbnail-img: "/posts/2026/10/28/chup-kien-truc-hien-dai/cover-kientruc-hiendai.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Kiến trúc, Bố cục]
 ---

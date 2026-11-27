@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-29 00:00:00 +0700"
 title: "Thượng Hải: nhìn hai bờ Hoàng Phố, đi sâu vào một con phố"
 subtitle: "Bến Thượng Hải, Dự Viên và những buổi đi bộ giữa thành phố Hoa Đông"
+banner-img: "/posts/2027/01/29/thuong-hai/cover.jpg"
 cover-img: "/posts/2027/01/29/thuong-hai/cover.jpg"
-thumbnail-img: "/posts/2027/01/29/thuong-hai/cover.jpg"
 geo: [31.2304, 121.4737]
 place_name: "Thượng Hải"
 place_country: "China"

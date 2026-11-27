@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-16 00:00:00 +0700"
 title: "Ålesund: đọc một thành phố Art Nouveau từ những con phố ven nước"
 subtitle: "Kiến trúc sau trận cháy, góc nhìn Aksla và khoảng nghỉ bên cảng"
+banner-img: "/posts/2027/12/16-alesund/cover.jpg"
 cover-img: "/posts/2027/12/16-alesund/cover.jpg"
-thumbnail-img: "/posts/2027/12/16-alesund/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Ålesund, Bắc Âu, Kiến trúc]
 geo: [62.472, 6.149]

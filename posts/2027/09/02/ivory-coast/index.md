@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/02 00:00:00 +0700"
 title: "Bờ Biển Ngà: Vương cung thánh đường lớn nhất thế giới giữa đồng lạc"
 subtitle: "Yamoussoukro và Basilica khổng lồ, Grand-Bassam thuộc địa và Abidjan 'Manhattan Tây Phi'"
+banner-img: "/posts/2027/09/02/ivory-coast/cover.jpg"
 cover-img: "/posts/2027/09/02/ivory-coast/cover.jpg"
-thumbnail-img: "/posts/2027/09/02/ivory-coast/cover.jpg"
 geo: [6.8276, -5.2893]
 place_name: "Yamoussoukro"
 place_country: "Ivory Coast"

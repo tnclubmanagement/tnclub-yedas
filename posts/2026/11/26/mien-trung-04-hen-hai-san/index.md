@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:04:00 +0700"
 title: "[04 · Ăn ngon miền Trung] : Cơm hến và bữa hải sản xứ Huế"
 subtitle: "Một bát trộn nhỏ trong phố khác với một bữa ăn hướng ra vùng đầm biển"
-cover-img: "/posts/2026/11/26/mien-trung-04-hen-hai-san/com-hen-banner.jpg"
-thumbnail-img: "https://thanhphohue.com/wp-content/uploads/2022/09/com_hen_hue_01.jpg"
+banner-img: "/posts/2026/11/26/mien-trung-04-hen-hai-san/com-hen-banner.jpg"
+cover-img: "https://thanhphohue.com/wp-content/uploads/2022/09/com_hen_hue_01.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Cơm hến, Hải sản]
 series: "Ăn ngon miền Trung"

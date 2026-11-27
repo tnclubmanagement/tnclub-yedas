@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/15 00:00:00 +0700"
 title: "Trùng Khánh: Thành phố 8D của lẩu, cầu và nhà treo"
 subtitle: "Hongya Động lên đèn, cáp treo qua Dương Tử và thành phố xây dựng trên chính mình"
+banner-img: "/posts/2027/09/15/chongqing/cover.jpg"
 cover-img: "/posts/2027/09/15/chongqing/cover.jpg"
-thumbnail-img: "/posts/2027/09/15/chongqing/cover.jpg"
 geo: [29.5630, 106.5516]
 place_name: "Trùng Khánh (Chongqing)"
 place_country: "China"

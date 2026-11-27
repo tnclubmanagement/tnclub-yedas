@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-05 00:00:00 +0700"
 title: "Bunaken: bức tường san hô thẳng đứng ngoài khơi Manado"
 subtitle: "Công viên biển 890km² ở Sulawesi với vách rạn rơi xuống vực 1.500m — lặn ống thở cũng đã đủ choáng"
+banner-img: "/posts/2027/03/05/bunaken/cover.png"
 cover-img: "/posts/2027/03/05/bunaken/cover.png"
-thumbnail-img: "/posts/2027/03/05/bunaken/cover.png"
 geo: [1.6240, 124.7500]
 place_name: "Bunaken – Manado, Sulawesi"
 place_country: "Indonesia"

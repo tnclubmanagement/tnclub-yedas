@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/20 00:00:00 +0700"
 title: "Hiroshima: Thành phố hòa bình và đảo Miyajima phù du"
 subtitle: "Atomic Bomb Dome, vườn Shukkei-en và torii nổi trên biển Itsukushima"
+banner-img: "/posts/2027/10/20/hiroshima/cover.jpg"
 cover-img: "/posts/2027/10/20/hiroshima/cover.jpg"
-thumbnail-img: "/posts/2027/10/20/hiroshima/cover.jpg"
 geo: [34.3955, 132.4536]
 place_name: "Hiroshima"
 place_country: "Japan"

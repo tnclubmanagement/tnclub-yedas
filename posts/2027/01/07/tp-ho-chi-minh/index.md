@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-07 00:00:00 +0700"
 title: "TP.HCM: đọc thành phố qua kiến trúc và những bữa ăn"
 subtitle: "Từ Dinh Độc Lập, Bưu điện đến Chợ Lớn và nhịp sống bên đường"
+banner-img: "/posts/2027/01/07/tp-ho-chi-minh/cover.jpg"
 cover-img: "/posts/2027/01/07/tp-ho-chi-minh/cover.jpg"
-thumbnail-img: "/posts/2027/01/07/tp-ho-chi-minh/cover.jpg"
 geo: [10.7769, 106.6953]
 place_name: "Thành phố Hồ Chí Minh"
 place_country: "Vietnam"

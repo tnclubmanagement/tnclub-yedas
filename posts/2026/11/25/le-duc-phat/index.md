@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-25 00:00:00 +0700"
 title: "Lê Đức Phát: đương kim số 1 cầu lông Việt Nam"
 subtitle: "Nối gót Tiến Minh đưa cầu lông Việt ra đấu trường thế giới"
+banner-img: "/posts/2026/11/25/le-duc-phat/avatar.jpg"
 cover-img: "/posts/2026/11/25/le-duc-phat/avatar.jpg"
-thumbnail-img: "/posts/2026/11/25/le-duc-phat/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Lê Đức Phát, Việt Nam]

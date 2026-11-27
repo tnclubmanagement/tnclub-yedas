@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-01 00:00:00 +0700"
 title: "Ma Long: 'Captain Long' — tay vợt vĩ đại nhất lịch sử bóng bàn"
 subtitle: "2 vàng đơn Olympic, Grand Slam kép và kỷ nguyên bất khả xâm phạm"
+banner-img: "/posts/2026/12/01/ma-long/avatar.jpg"
 cover-img: "/posts/2026/12/01/ma-long/avatar.jpg"
-thumbnail-img: "/posts/2026/12/01/ma-long/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Ma Long, Trung Quốc]

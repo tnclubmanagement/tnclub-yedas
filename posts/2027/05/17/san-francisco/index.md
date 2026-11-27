@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/17 00:00:00 +0700"
 title: "San Francisco: Cầu Golden Gate và những ngọn đồi"
 subtitle: "Cable car, Alcatraz, phố Trung Hoa và sương mù Karl"
+banner-img: "/posts/2027/05/17/san-francisco/cover.png"
 cover-img: "/posts/2027/05/17/san-francisco/cover.png"
-thumbnail-img: "/posts/2027/05/17/san-francisco/cover.png"
 geo: [37.7749, -122.4194]
 place_name: "San Francisco, CA"
 place_country: "United States"

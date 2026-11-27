@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/27 00:00:00 +0700"
 title: "Quy Nhơn: Thành phố biển xứ Bình Định của tháp Chăm và hải sản"
 subtitle: "Eo Gió, Kỳ Co, Ghềnh Ráng mộ Du Tần và bún chả cá ngàn năm"
+banner-img: "/posts/2027/10/27/quy-nhon/cover.jpg"
 cover-img: "/posts/2027/10/27/quy-nhon/cover.jpg"
-thumbnail-img: "/posts/2027/10/27/quy-nhon/cover.jpg"
 geo: [13.7730, 109.2233]
 place_name: "Quy Nhơn, Bình Định"
 place_country: "Vietnam"

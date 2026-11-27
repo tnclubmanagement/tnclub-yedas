@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/04 00:00:00 +0700"
 title: "Sri Lanka: Hòn ngọc của Ấn Độ Dương trong một quần đảo nhỏ"
 subtitle: "Sigiriya tảng đá trời, tàu xanh qua đồi trà, lướt sóng và safari trong một tuần"
+banner-img: "/posts/2027/10/04/sri-lanka/cover.jpg"
 cover-img: "/posts/2027/10/04/sri-lanka/cover.jpg"
-thumbnail-img: "/posts/2027/10/04/sri-lanka/cover.jpg"
 geo: [7.9570, 80.7603]
 place_name: "Sigiriya / Kandy"
 place_country: "Sri Lanka"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/28 00:00:00 +0700"
 title: "Ethiopia: Cái nôi của nhân loại và nhà thờ đá Lalibela"
 subtitle: "11 nhà thờ đục nguyên khối, cà phê quê hương và nền văn minh chưa từng bị thuộc địa"
+banner-img: "/posts/2027/06/28/ethiopia/cover.jpg"
 cover-img: "/posts/2027/06/28/ethiopia/cover.jpg"
-thumbnail-img: "/posts/2027/06/28/ethiopia/cover.jpg"
 geo: [9.0300, 38.7400]
 place_name: "Addis Ababa"
 place_country: "Ethiopia"

@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-23 00:00:00 +0700"
 title: "Taupō: mặt hồ rộng và sức nước ở Huka Falls"
 subtitle: "Một điểm nghỉ Đảo Bắc hợp để chọn ít hoạt động rồi dành thời gian ở lại"
+banner-img: "/posts/2028/01/23-taupo/cover.jpg"
 cover-img: "/posts/2028/01/23-taupo/cover.jpg"
-thumbnail-img: "/posts/2028/01/23-taupo/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Taupō, Hồ, Thiên nhiên]
 geo: [-38.686, 176.07]

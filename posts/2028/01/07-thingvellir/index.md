@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-07 00:00:00 +0700"
 title: "Þingvellir: đọc lịch sử nghị hội giữa một cảnh quan địa chất"
 subtitle: "Một điểm Golden Circle đáng có thời gian hơn một lần xuống xe"
+banner-img: "/posts/2028/01/07-thingvellir/cover.jpg"
 cover-img: "/posts/2028/01/07-thingvellir/cover.jpg"
-thumbnail-img: "/posts/2028/01/07-thingvellir/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Þingvellir, Di sản, Địa chất]
 geo: [64.255, -21.13]

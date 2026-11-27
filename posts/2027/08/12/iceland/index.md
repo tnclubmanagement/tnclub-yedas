@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/12 00:00:00 +0700"
 title: "Iceland: Đảo lửa và băng — phong cảnh ngoài hành tinh"
 subtitle: "Golden Circle, bãi biển đen Reynisfjara, hồ băng Jökulsárlón và suối nước nóng tự nhiên"
+banner-img: "/posts/2027/08/12/iceland/cover.jpg"
 cover-img: "/posts/2027/08/12/iceland/cover.jpg"
-thumbnail-img: "/posts/2027/08/12/iceland/cover.jpg"
 geo: [64.9631, -19.0208]
 place_name: "Reykjavik / South Coast"
 place_country: "Iceland"

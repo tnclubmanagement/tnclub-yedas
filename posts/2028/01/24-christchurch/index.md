@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-24 00:00:00 +0700"
 title: "Christchurch: vườn, sông Avon và câu chuyện một thành phố tái thiết"
 subtitle: "Điểm đến Đảo Nam không chỉ là nơi nhận xe trước chuyến đi núi"
+banner-img: "/posts/2028/01/24-christchurch/cover.jpg"
 cover-img: "/posts/2028/01/24-christchurch/cover.jpg"
-thumbnail-img: "/posts/2028/01/24-christchurch/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, New Zealand, Christchurch, Đảo Nam, Thành phố]
 geo: [-43.532, 172.636]

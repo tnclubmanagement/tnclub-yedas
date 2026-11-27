@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-09 00:00:00 +0700"
 title: "Chen Meng: 2 lần liên tiếp vô địch đơn nữ Olympic"
 subtitle: "Từ 'học trò sau cánh gà' của các ma vương thành người giữ ngai vàng"
+banner-img: "/posts/2026/12/09/chen-meng/avatar.jpg"
 cover-img: "/posts/2026/12/09/chen-meng/avatar.jpg"
-thumbnail-img: "/posts/2026/12/09/chen-meng/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Chen Meng, Trung Quốc]

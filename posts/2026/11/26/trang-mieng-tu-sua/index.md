@@ -2,7 +2,7 @@
 layout: page
 title: "Món tráng miệng từ sữa"
 subtitle: "6 bài ngắn để hiểu các nhóm món ngọt làm từ sữa và chọn đúng món khi gọi"
-cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
+banner-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
 ---
 
 Flan, panna cotta, sữa chua, kem, chè — nhìn menu tráng miệng đôi khi khó hơn menu món chính. Series này giúp bạn hiểu **mỗi nhóm món làm từ loại sữa nào, kết cấu ra sao và vị thường thế nào**, không cần biết nấu.

@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-31 00:00:00 +0700"
 title: "Perth: thành phố nắng nhất nước Úc bên bờ Ấn Độ Dương"
 subtitle: "Quokka tự sướng trên đảo Rottnest, Kings Park ngắm hoàng hôn và sa mạc đá Pinnacles"
+banner-img: "/posts/2027/03/31/perth/cover.jpg"
 cover-img: "/posts/2027/03/31/perth/cover.jpg"
-thumbnail-img: "/posts/2027/03/31/perth/cover.jpg"
 geo: [-31.9505, 115.8605]
 place_name: "Perth, Western Australia"
 place_country: "Australia"

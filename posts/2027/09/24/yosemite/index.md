@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/24 00:00:00 +0700"
 title: "Yosemite: Thung lũng granit làm John Muir muốn làm vườn quốc gia"
 subtitle: "El Capitan vách thẳng, Half Dome huyền thoại và Tunnel View lúc mở cửa"
+banner-img: "/posts/2027/09/24/yosemite/cover.jpg"
 cover-img: "/posts/2027/09/24/yosemite/cover.jpg"
-thumbnail-img: "/posts/2027/09/24/yosemite/cover.jpg"
 geo: [37.8651, -119.5383]
 place_name: "Yosemite National Park, CA"
 place_country: "United States"

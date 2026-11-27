@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/22 00:00:00 +0700"
 title: "Botswana: Safari đỉnh cao giữa châu Âu giá châu Âu"
 subtitle: "Okavango — đồng bằng sông huyền thoại, Chobe biển voi và sa mạc Kalahari"
+banner-img: "/posts/2027/08/22/botswana/cover.jpg"
 cover-img: "/posts/2027/08/22/botswana/cover.jpg"
-thumbnail-img: "/posts/2027/08/22/botswana/cover.jpg"
 geo: [-19.2833, 23.0000]
 place_name: "Okavango Delta"
 place_country: "Botswana"

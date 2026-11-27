@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-06 00:00:00 +0700"
 title: "Truls Möregårdh: 'kẻ nổi loạn' đưa Thụy Điển trở lại chung kết Olympic"
 subtitle: "HCB Paris 2024 với cây vợt lục giác và lối chơi không theo sách giáo khoa"
+banner-img: "/posts/2026/12/06/truls-moregardh/avatar.jpg"
 cover-img: "/posts/2026/12/06/truls-moregardh/avatar.jpg"
-thumbnail-img: "/posts/2026/12/06/truls-moregardh/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Truls Möregårdh, Thụy Điển]

@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-06 00:00:00 +0700"
 title: "Vũ Di Sơn: theo khúc nước uốn giữa núi đá và đồi trà"
 subtitle: "Đi bộ, ngắm Cửu Khúc Khê và thử hiểu một chén nham trà Phúc Kiến"
+banner-img: "/posts/2027/11/06-wuyishan/cover.jpg"
 cover-img: "/posts/2027/11/06-wuyishan/cover.jpg"
-thumbnail-img: "/posts/2027/11/06-wuyishan/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Vũ Di Sơn, Phúc Kiến, Trà, Thiên nhiên]
 geo: [27.65, 117.967]

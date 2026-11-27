@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-10 00:00:00 +0700"
 title: "Chụp núi sao cho ra được sự hùng vĩ, không bị \"phẳng lì\""
 subtitle: "Mẹo thêm tiền cảnh để ảnh có chiều sâu"
+banner-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 cover-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
-thumbnail-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Thiên nhiên, Bố cục, Núi]
 ---

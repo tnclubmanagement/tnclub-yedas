@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-04 00:00:00 +0700"
 title: "Đại Đồng: gặp những gương mặt Phật trong đá Vân Cương"
 subtitle: "Một chuyến đi Sơn Tây dành cho điêu khắc, kiến trúc và khoảng lặng trước di sản"
+banner-img: "/posts/2027/11/04-datong/cover.jpg"
 cover-img: "/posts/2027/11/04-datong/cover.jpg"
-thumbnail-img: "/posts/2027/11/04-datong/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Đại Đồng, Sơn Tây, Vân Cương, Di sản]
 geo: [40.09, 113.296]

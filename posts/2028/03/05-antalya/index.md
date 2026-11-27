@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-05 00:00:00 +0700"
 title: "Antalya: phố cổ trên vách đá, thác đổ xuống biển và thành cổ quanh vòng"
 subtitle: "Kaleiçi, Konyaaltı, Düden và Perge trong hành trình bờ Địa Trung Hải Thổ Nhĩ Kỳ"
+banner-img: "/posts/2028/03/05-antalya/cover.jpg"
 cover-img: "/posts/2028/03/05-antalya/cover.jpg"
-thumbnail-img: "/posts/2028/03/05-antalya/cover.jpg"
 geo: [36.8841, 30.7056]
 place_name: "Antalya"
 place_country: "Thổ Nhĩ Kỳ"

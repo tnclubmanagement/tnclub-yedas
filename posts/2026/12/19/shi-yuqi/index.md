@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-19 00:00:00 +0700"
 title: "Shi Yuqi: 'Thạch công tử' trở lại ngôi vương"
 subtitle: "Vô địch thế giới 2025 và số 1 thế giới — cây đơn nam số 1 Trung Quốc hậu kỷ nguyên Lin Dan"
+banner-img: "/posts/2026/12/19/shi-yuqi/avatar.jpg"
 cover-img: "/posts/2026/12/19/shi-yuqi/avatar.jpg"
-thumbnail-img: "/posts/2026/12/19/shi-yuqi/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Shi Yuqi, Trung Quốc]

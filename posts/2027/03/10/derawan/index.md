@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-10 00:00:00 +0700"
 title: "Derawan: quần đảo phía đông Kalimantan có hồ sứa không chích"
 subtitle: "Kakaban, Sangalaki, Maratua — lặn với manta, rùa xanh và bơi giữa hàng nghìn con sứa vô hại"
+banner-img: "/posts/2027/03/10/derawan/cover.jpg"
 cover-img: "/posts/2027/03/10/derawan/cover.jpg"
-thumbnail-img: "/posts/2027/03/10/derawan/cover.jpg"
 geo: [2.2890, 118.2410]
 place_name: "Quần đảo Derawan, Kalimantan"
 place_country: "Indonesia"

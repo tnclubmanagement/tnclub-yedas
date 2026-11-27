@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/30 00:00:00 +0700"
 title: "Rio de Janeiro: Thành phố kỳ diệu giữa núi và biển"
 subtitle: "Christ the Redeemer, Sugarloaf, Copacabana-Ipanema và nhịp sống carioca"
+banner-img: "/posts/2027/05/30/rio-de-janeiro/cover.png"
 cover-img: "/posts/2027/05/30/rio-de-janeiro/cover.png"
-thumbnail-img: "/posts/2027/05/30/rio-de-janeiro/cover.png"
 geo: [-22.9068, -43.1729]
 place_name: "Rio de Janeiro"
 place_country: "Brazil"

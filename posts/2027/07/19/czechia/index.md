@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/19 00:00:00 +0700"
 title: "Czechia: Prague — thành phố trăm tháp cổ tích"
 subtitle: "Cầu Charles, lâu đài Prague, đồng hồ thiên văn và bia ngon nhất thế giới"
+banner-img: "/posts/2027/07/19/czechia/cover.jpg"
 cover-img: "/posts/2027/07/19/czechia/cover.jpg"
-thumbnail-img: "/posts/2027/07/19/czechia/cover.jpg"
 geo: [50.0755, 14.4378]
 place_name: "Praha"
 place_country: "Czechia"

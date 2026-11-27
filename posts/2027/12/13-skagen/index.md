@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-13 00:00:00 +0700"
 title: "Skagen: ánh sáng, cát và nơi hai vùng biển gặp nhau"
 subtitle: "Đầu bắc Jutland không chỉ có một bức ảnh đứng giữa sóng"
+banner-img: "/posts/2027/12/13-skagen/cover.jpg"
 cover-img: "/posts/2027/12/13-skagen/cover.jpg"
-thumbnail-img: "/posts/2027/12/13-skagen/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Skagen, Bắc Âu, Biển, Nghệ thuật]
 geo: [57.721, 10.584]

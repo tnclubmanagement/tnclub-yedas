@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-08 00:00:00 +0700"
 title: "Safranbolu: thị trấn Ottoman ngủ quên trong thung lũng nghệ tây"
 subtitle: "Nhà gỗ ba tầng, chợ hành trình và vị saffron trong từng viên lokum"
+banner-img: "/posts/2028/03/08-safranbolu/cover.jpg"
 cover-img: "/posts/2028/03/08-safranbolu/cover.jpg"
-thumbnail-img: "/posts/2028/03/08-safranbolu/cover.jpg"
 geo: [41.2499, 32.6832]
 place_name: "Safranbolu"
 place_country: "Thổ Nhĩ Kỳ"

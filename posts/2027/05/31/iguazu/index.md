@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/31 00:00:00 +0700"
 title: "Thác Iguazu: Kỳ quan nước lớn nhất hành tinh"
 subtitle: "275 thác trong rừng nhiệt đới giữa biên giới Brazil-Argentina"
+banner-img: "/posts/2027/05/31/iguazu/cover.png"
 cover-img: "/posts/2027/05/31/iguazu/cover.png"
-thumbnail-img: "/posts/2027/05/31/iguazu/cover.png"
 geo: [-25.6953, -54.4367]
 place_name: "Foz do Iguaçu, Paraná"
 place_country: "Brazil"

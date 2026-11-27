@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-06 00:00:00 +0700"
 title: "Bangkok: theo sông Chao Phraya qua chùa cổ và phố lên đèn"
 subtitle: "Ba ngày ở thủ đô Thái Lan, chia tuyến ven sông, khu mua sắm và bữa tối Yaowarat"
+banner-img: "/posts/2027/02/06/bangkok/cover.jpg"
 cover-img: "/posts/2027/02/06/bangkok/cover.jpg"
-thumbnail-img: "/posts/2027/02/06/bangkok/cover.jpg"
 geo: [13.7563, 100.5018]
 place_name: "Bangkok"
 place_country: "Thailand"

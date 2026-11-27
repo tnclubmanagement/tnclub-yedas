@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/23 00:00:00 +0700"
 title: "Berlin: Thủ đô của lịch sử thế kỷ 20 và sự sáng tạo"
 subtitle: "Bức tường, Đảo Bảo tàng, cổng Brandenburg và nightlife không giờ đóng cửa"
+banner-img: "/posts/2027/04/23/berlin/cover.png"
 cover-img: "/posts/2027/04/23/berlin/cover.png"
-thumbnail-img: "/posts/2027/04/23/berlin/cover.png"
 geo: [52.5200, 13.4050]
 place_name: "Berlin"
 place_country: "Germany"

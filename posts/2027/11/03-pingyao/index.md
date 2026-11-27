@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-03 00:00:00 +0700"
 title: "Bình Dao: đi bộ qua phố ngân phiếu và sân nhà Sơn Tây"
 subtitle: "Một thành cổ để hiểu chuyện buôn bán, nhà ở và nhịp sống sau bức tường thành"
+banner-img: "/posts/2027/11/03-pingyao/cover.jpg"
 cover-img: "/posts/2027/11/03-pingyao/cover.jpg"
-thumbnail-img: "/posts/2027/11/03-pingyao/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Trung Quốc, Bình Dao, Sơn Tây, Di sản, Chụp ảnh]
 geo: [37.202, 112.176]

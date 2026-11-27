@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-05 00:00:00 +0700"
 title: "Snæfellsnes: một bán đảo không nên bị gom thành một bức Kirkjufell"
 subtitle: "Bờ đá, làng biển và cảnh núi của miền tây Iceland cần thời gian riêng"
+banner-img: "/posts/2028/01/05-snaefellsnes/cover.jpg"
 cover-img: "/posts/2028/01/05-snaefellsnes/cover.jpg"
-thumbnail-img: "/posts/2028/01/05-snaefellsnes/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Snæfellsnes, Núi, Biển]
 geo: [64.85, -23.0]

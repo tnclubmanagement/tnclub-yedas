@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-04 00:00:00 +0700"
 title: "Seyðisfjörður: một thị trấn nghệ thuật nằm cuối đường xuống fjord"
 subtitle: "Phố màu, núi và nhịp chậm ở miền đông Iceland"
+banner-img: "/posts/2028/01/04-seydisfjordur/cover.jpg"
 cover-img: "/posts/2028/01/04-seydisfjordur/cover.jpg"
-thumbnail-img: "/posts/2028/01/04-seydisfjordur/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Iceland, Seyðisfjörður, Fjord, Nghệ thuật]
 geo: [65.26, -14.009]

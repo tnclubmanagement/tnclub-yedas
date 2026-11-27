@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-28 00:00:00 +0700"
 title: "Veliky Novgorod: hai bờ Volkhov và một lớp lịch sử rất khác"
 subtitle: "Kremlin, nhà thờ Saint Sophia và những khoảng đi bộ bên sông"
+banner-img: "/posts/2027/11/28-veliky-novgorod/cover.jpg"
 cover-img: "/posts/2027/11/28-veliky-novgorod/cover.jpg"
-thumbnail-img: "/posts/2027/11/28-veliky-novgorod/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Veliky Novgorod, Lịch sử, Kiến trúc]
 geo: [58.521, 31.275]

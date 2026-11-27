@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-10 00:00:00 +0700"
 title: "Sukhothai: đạp xe qua bóng tháp, ngồi lại bên hồ sen"
 subtitle: "Hai ngày ở cố đô phía bắc miền Trung Thái Lan, dành buổi mát cho những di tích nằm giữa cây xanh"
+banner-img: "/posts/2027/02/10/sukhothai/cover.jpg"
 cover-img: "/posts/2027/02/10/sukhothai/cover.jpg"
-thumbnail-img: "/posts/2027/02/10/sukhothai/cover.jpg"
 geo: [17.0056, 99.8264]
 place_name: "Sukhothai"
 place_country: "Thailand"

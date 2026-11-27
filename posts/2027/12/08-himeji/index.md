@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-08 00:00:00 +0700"
 title: "Himeji: thành trắng, vườn nhỏ và một ngày không cần vội lên tàu"
 subtitle: "Đi từ quảng trường tới thành Hạc Trắng, rồi dành thời gian cho khoảng xanh bên cạnh"
+banner-img: "/posts/2027/12/08-himeji/cover.jpg"
 cover-img: "/posts/2027/12/08-himeji/cover.jpg"
-thumbnail-img: "/posts/2027/12/08-himeji/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Himeji, Kansai, Di sản, Thành cổ]
 geo: [34.839, 134.694]

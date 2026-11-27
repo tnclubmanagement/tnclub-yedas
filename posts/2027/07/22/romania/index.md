@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/22 00:00:00 +0700"
 title: "Romania: Transylvania — xứ lâu đài và rừng mây Carpathian"
 subtitle: "Lâu đài Bran huyền thoại Dracula, thị trấn Sighișoara màu kẹo và Bucharest lớn nhất vùng"
+banner-img: "/posts/2027/07/22/romania/cover.jpg"
 cover-img: "/posts/2027/07/22/romania/cover.jpg"
-thumbnail-img: "/posts/2027/07/22/romania/cover.jpg"
 geo: [45.5149, 25.3672]
 place_name: "Bran"
 place_country: "Romania"

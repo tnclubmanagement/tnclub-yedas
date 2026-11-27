@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-17 00:00:00 +0700"
 title: "Yogyakarta: hai ngôi đền nghìn năm và linh hồn Java"
 subtitle: "Borobudur lúc rạng đông, Prambanan buổi chiều và phố Malioboro khi đèn lên"
+banner-img: "/posts/2027/02/17/yogyakarta/cover.png"
 cover-img: "/posts/2027/02/17/yogyakarta/cover.png"
-thumbnail-img: "/posts/2027/02/17/yogyakarta/cover.png"
 geo: [-7.7956, 110.3695]
 place_name: "Yogyakarta"
 place_country: "Indonesia"

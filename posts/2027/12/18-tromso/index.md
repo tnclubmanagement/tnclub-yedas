@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-18 00:00:00 +0700"
 title: "Tromsø: một chuyến Bắc Cực không nên chỉ đặt cược vào cực quang"
 subtitle: "Thành phố, cảnh núi và việc chọn đúng mùa cho điều muốn trải nghiệm"
+banner-img: "/posts/2027/12/18-tromso/cover.jpg"
 cover-img: "/posts/2027/12/18-tromso/cover.jpg"
-thumbnail-img: "/posts/2027/12/18-tromso/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Tromsø, Bắc Cực, Thiên nhiên]
 geo: [69.649, 18.956]

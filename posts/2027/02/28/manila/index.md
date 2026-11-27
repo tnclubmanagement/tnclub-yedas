@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-28 00:00:00 +0700"
 title: "Manila: thành cổ Intramuros và siêu đô thị không bao giờ ngủ"
 subtitle: "Đừng chỉ quá cảnh — Intramuros, Rizal Park, sunset bay và ẩm thực đáng cho thủ đô ít nhất một ngày"
+banner-img: "/posts/2027/02/28/manila/cover.jpg"
 cover-img: "/posts/2027/02/28/manila/cover.jpg"
-thumbnail-img: "/posts/2027/02/28/manila/cover.jpg"
 geo: [14.5995, 120.9842]
 place_name: "Manila"
 place_country: "Philippines"

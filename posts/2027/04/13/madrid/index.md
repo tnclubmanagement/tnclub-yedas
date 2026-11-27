@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/13 00:00:00 +0700"
 title: "Madrid: Thủ đô nghệ thuật và nhịp sống không ngủ"
 subtitle: "Prado, Cung điện Hoàng gia, Retiro và văn hóa tapas đến nửa đêm"
+banner-img: "/posts/2027/04/13/madrid/cover.png"
 cover-img: "/posts/2027/04/13/madrid/cover.png"
-thumbnail-img: "/posts/2027/04/13/madrid/cover.png"
 geo: [40.4168, -3.7038]
 place_name: "Madrid"
 place_country: "Spain"

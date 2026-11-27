@@ -3,8 +3,8 @@ layout: post
 date: "2028-02-07 00:00:00 +0700"
 title: "Ipoh: phố cũ, cà phê trắng và những ngọn núi đá quanh thành phố"
 subtitle: "Một điểm dừng Perak nên được chia thành phố đi bộ và chặng ngoài trung tâm"
+banner-img: "/posts/2028/02/07-ipoh/cover.jpg"
 cover-img: "/posts/2028/02/07-ipoh/cover.jpg"
-thumbnail-img: "/posts/2028/02/07-ipoh/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Malaysia, Ipoh, Perak, Ẩm thực]
 geo: [4.597, 101.09]

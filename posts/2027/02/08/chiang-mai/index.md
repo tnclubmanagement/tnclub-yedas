@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-08 00:00:00 +0700"
 title: "Chiang Mai: bước qua thành cổ, lên Doi Suthep rồi trở về ăn khao soi"
 subtitle: "Ba ngày ở miền Bắc Thái Lan, cân bằng chùa Lanna, chợ và một khoảng nghỉ giữa phố"
+banner-img: "/posts/2027/02/08/chiang-mai/cover.jpg"
 cover-img: "/posts/2027/02/08/chiang-mai/cover.jpg"
-thumbnail-img: "/posts/2027/02/08/chiang-mai/cover.jpg"
 geo: [18.7883, 98.9853]
 place_name: "Chiang Mai"
 place_country: "Thailand"

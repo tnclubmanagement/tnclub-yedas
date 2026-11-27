@@ -9,14 +9,14 @@ end
 
 source = File.read(File.expand_path('../_includes/site-map.html', __dir__))
 fixtures = [
-  { 'layout' => 'post', 'geo' => [1, 2], 'cover-img' => '/posts/small/cover.jpg' },
-  { 'layout' => 'post', 'geo' => [1, 2], 'cover-img' => '/posts/cover-only/cover.jpg' },
-  { 'layout' => 'post', 'geo' => [1, 2], 'cover-img' => '/posts/thumbnail/cover.jpg', 'thumbnail-img' => '/posts/thumbnail/thumb.jpg' },
-  { 'layout' => 'post', 'geo' => [1, 2], 'cover-img' => 'https://images.example.test/cover.jpg' },
+  { 'layout' => 'post', 'geo' => [1, 2], 'banner-img' => '/posts/small/cover.jpg' },
+  { 'layout' => 'post', 'geo' => [1, 2], 'banner-img' => '/posts/cover-only/cover.jpg' },
+  { 'layout' => 'post', 'geo' => [1, 2], 'banner-img' => '/posts/thumbnail/cover.jpg', 'cover-img' => '/posts/thumbnail/thumb.jpg' },
+  { 'layout' => 'post', 'geo' => [1, 2], 'banner-img' => 'https://images.example.test/cover.jpg' },
   { 'layout' => 'post', 'athlete' => { 'geo' => [1, 2], 'avatar' => '/posts/athlete/avatar.jpg' } },
-  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Ăn Ngon', 'tags' => ['Miền Bắc'], 'url' => '/food/', 'title' => 'Cơm tấm', 'cover-img' => '/food.jpg', 'map_content_score' => 3 },
-  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Uống Ngon', 'tags' => ['miền trung'], 'url' => '/drinks/', 'cover-img' => '/drinks.jpg' },
-  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Tráng miệng', 'tags' => ['Miền Nam'], 'url' => '/desserts/', 'cover-img' => '/desserts.jpg' }
+  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Ăn Ngon', 'tags' => ['Miền Bắc'], 'url' => '/food/', 'title' => 'Cơm tấm', 'banner-img' => '/food.jpg', 'map_content_score' => 3 },
+  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Uống Ngon', 'tags' => ['miền trung'], 'url' => '/drinks/', 'banner-img' => '/drinks.jpg' },
+  { 'layout' => 'post', 'geo' => [1, 2], 'category' => 'Tráng miệng', 'tags' => ['Miền Nam'], 'url' => '/desserts/', 'banner-img' => '/desserts.jpg' }
 ]
 expected = ['/posts/small/avatar.jpg', '/posts/cover-only/cover.jpg', '/posts/thumbnail/thumb.jpg', 'https://images.example.test/cover.jpg', '/posts/athlete/avatar.jpg', '/food.jpg', '/drinks.jpg', '/desserts.jpg']
 
@@ -33,7 +33,7 @@ expected = ['/posts/small/avatar.jpg', '/posts/cover-only/cover.jpg', '/posts/th
   wanted = expected.map { |path| path.start_with?('https://', 'http://') ? path : "#{baseurl}#{path}" }
   raise "Wrong map avatars for #{baseurl.inspect}: #{avatars.inspect}" unless avatars == wanted
   images = output.scan(/image:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
-  wanted_images = fixtures.map { |post| post['thumbnail-img'] || post['cover-img'] || post.dig('athlete', 'avatar') }.map { |path| path.start_with?('https://', 'http://') ? path : "#{baseurl}#{path}" }
+  wanted_images = fixtures.map { |post| post['cover-img'] || post['banner-img'] || post.dig('athlete', 'avatar') }.map { |path| path.start_with?('https://', 'http://') ? path : "#{baseurl}#{path}" }
   raise "Quickview must prefer cover/thumbnail over banner for #{baseurl.inspect}: #{images.inspect}" unless images == wanted_images
   raise 'Missing food filter' unless output.include?('data-filter="Ẩm thực"')
   raise 'Wrong food classification' unless output.scan(/topic:\s*"food"/).size == 3 && output.scan(/topic:\s*"travel"/).size == 4

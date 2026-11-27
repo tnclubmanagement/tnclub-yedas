@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-26 00:00:00 +0700"
 title: "Đà Nẵng: thành phố đáng sống bên sông Hàn"
 subtitle: "Cầu Rồng phun lửa, bãi biển đẹp nhất Việt Nam và Bà Nà Hills trên mây"
+banner-img: "/posts/2026/12/26/da-nang/cover.jpg"
 cover-img: "/posts/2026/12/26/da-nang/cover.jpg"
-thumbnail-img: "/posts/2026/12/26/da-nang/cover.jpg"
 geo: [16.05, 108.21]
 place_name: "Đà Nẵng"
 place_country: "Vietnam"

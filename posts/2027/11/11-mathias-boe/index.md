@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-11 00:00:00 +0700"
 title: "Mathias Boe: trí thông minh trong một cặp đôi bền bỉ"
 subtitle: "Tay trái Đan Mạch, Carsten Mogensen và những trận thắng không chỉ dựa vào sức mạnh"
+banner-img: "/posts/2027/11/11-mathias-boe/avatar.jpg"
 cover-img: "/posts/2027/11/11-mathias-boe/avatar.jpg"
-thumbnail-img: "/posts/2027/11/11-mathias-boe/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Đan Mạch, Mathias Boe, Đánh đôi]

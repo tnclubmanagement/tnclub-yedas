@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-27 00:00:00 +0700"
 title: "Solo – Surakarta: tìm hiểu văn hóa Java qua cung điện, batik và chợ"
 subtitle: "Một thành phố có hai tên quen dùng nhưng cần một nhịp đi đủ chậm"
+banner-img: "/posts/2028/01/27-solo-surakarta/cover.jpg"
 cover-img: "/posts/2028/01/27-solo-surakarta/cover.jpg"
-thumbnail-img: "/posts/2028/01/27-solo-surakarta/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Solo, Surakarta, Java, Văn hóa]
 geo: [-7.567, 110.817]

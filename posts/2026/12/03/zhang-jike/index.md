@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-03 00:00:00 +0700"
 title: "Zhang Jike: 'kẻ ngủ gật' đoạt Grand Slam nhanh nhất lịch sử"
 subtitle: "445 ngày chinh phục Olympic, thế giới và World Cup"
+banner-img: "/posts/2026/12/03/zhang-jike/avatar.jpg"
 cover-img: "/posts/2026/12/03/zhang-jike/avatar.jpg"
-thumbnail-img: "/posts/2026/12/03/zhang-jike/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Zhang Jike, Trung Quốc]

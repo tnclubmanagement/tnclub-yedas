@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-05 00:00:00 +0700"
 title: "Timo Boll: tượng đài 25 năm của bóng bàn châu Âu"
 subtitle: "7 lần dự Olympic, 8 lần vô địch châu Âu và nụ cười quý ông"
+banner-img: "/posts/2026/12/05/timo-boll/avatar.jpg"
 cover-img: "/posts/2026/12/05/timo-boll/avatar.jpg"
-thumbnail-img: "/posts/2026/12/05/timo-boll/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Timo Boll, Đức]

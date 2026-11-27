@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 08:07:00 +0700"
 title: "[07 · Hiểu menu cà phê] : Chocolate, trái cây, kem và đá xay"
 subtitle: "Chọn món biến tấu theo độ ngọt, béo và cảm giác thanh mát, thay vì chỉ nhìn ảnh"
+banner-img: "/posts/2026/11/26/ca-phe-07-bien-tau/banner.jpg"
 cover-img: "/posts/2026/11/26/ca-phe-07-bien-tau/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/ca-phe-07-bien-tau/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"

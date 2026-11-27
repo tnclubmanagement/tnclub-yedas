@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-07 00:00:00 +0700"
 title: "Kuching: 'thành phố Mèo' bên sông Sarawak, cửa ngõ vào rừng Borneo"
 subtitle: "Phố cổ thời White Rajah, laksa Sarawak, nhà dài người Iban và rừng quốc gia Bako cách 40 phút"
+banner-img: "/posts/2027/03/07/kuching/cover.jpg"
 cover-img: "/posts/2027/03/07/kuching/cover.jpg"
-thumbnail-img: "/posts/2027/03/07/kuching/cover.jpg"
 geo: [1.5533, 110.3592]
 place_name: "Kuching, Sarawak"
 place_country: "Malaysia"

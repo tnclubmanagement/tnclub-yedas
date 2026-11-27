@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-25 00:00:00 +0700"
 title: "Kiruna: nhìn một thành phố Bắc Cực đang thay đổi"
 subtitle: "Mỏ, văn hóa Sámi và thiên nhiên cần được đặt trong đúng mùa"
+banner-img: "/posts/2027/12/25-kiruna/cover.jpg"
 cover-img: "/posts/2027/12/25-kiruna/cover.jpg"
-thumbnail-img: "/posts/2027/12/25-kiruna/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Kiruna, Bắc Cực, Văn hóa]
 geo: [67.855, 20.225]

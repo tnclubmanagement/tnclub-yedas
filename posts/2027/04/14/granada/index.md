@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/14 00:00:00 +0700"
 title: "Granada: Alhambra và nốt trầm cuối của Moors"
 subtitle: "Cung điện Hồi giáo đẹp nhất Tây Âu dưới chân Sierra Nevada, tapas miễn phí kèm đồ uống"
+banner-img: "/posts/2027/04/14/granada/cover.png"
 cover-img: "/posts/2027/04/14/granada/cover.png"
-thumbnail-img: "/posts/2027/04/14/granada/cover.png"
 geo: [37.1773, -3.5986]
 place_name: "Granada, Andalusia"
 place_country: "Spain"

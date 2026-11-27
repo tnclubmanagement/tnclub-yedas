@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-20 00:00:00 +0700"
 title: "Varanasi: thành phố thiêng cổ xưa bên dòng sông Hằng"
 subtitle: "Thuyền bình minh trên sông Ganges, lễ Ganga Aarti và những con hẻm 3.000 năm tuổi"
+banner-img: "/posts/2027/03/20/varanasi/cover.png"
 cover-img: "/posts/2027/03/20/varanasi/cover.png"
-thumbnail-img: "/posts/2027/03/20/varanasi/cover.png"
 geo: [25.3176, 82.9739]
 place_name: "Varanasi, Uttar Pradesh"
 place_country: "India"

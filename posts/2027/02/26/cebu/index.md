@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-26 00:00:00 +0700"
 title: "Cebu: cá mập voi, thác xanh ngọc và tảng lịch sử đầu tiên của Philippines"
 subtitle: "Từ thánh giá Magellan trong thành phố đến canyoneering ở Kawasan — đảo có tất cả"
+banner-img: "/posts/2027/02/26/cebu/cover.jpg"
 cover-img: "/posts/2027/02/26/cebu/cover.jpg"
-thumbnail-img: "/posts/2027/02/26/cebu/cover.jpg"
 geo: [10.3157, 123.8854]
 place_name: "Cebu City"
 place_country: "Philippines"

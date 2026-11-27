@@ -3,8 +3,8 @@ layout: post
 date: "2027-04-01 00:00:00 +0700"
 title: "Gold Coast: 57km bãi biển lướt sóng và công viên giải trí"
 subtitle: "Surfers Paradise, công viên chủ đề lớn nhất Úc và hinterland rừng nhiệt đới phía sau bờ biển"
+banner-img: "/posts/2027/04/01/gold-coast/cover.png"
 cover-img: "/posts/2027/04/01/gold-coast/cover.png"
-thumbnail-img: "/posts/2027/04/01/gold-coast/cover.png"
 geo: [-28.0167, 153.4000]
 place_name: "Gold Coast, Queensland"
 place_country: "Australia"

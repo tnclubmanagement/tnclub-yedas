@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-30 00:00:00 +0700"
 title: "Nizhny Novgorod: đứng trên cao nhìn Oka gặp Volga"
 subtitle: "Kremlin, bậc thang Chkalov và những khoảng nhìn rộng bên sông"
+banner-img: "/posts/2027/11/30-nizhny-novgorod/cover.jpg"
 cover-img: "/posts/2027/11/30-nizhny-novgorod/cover.jpg"
-thumbnail-img: "/posts/2027/11/30-nizhny-novgorod/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nga, Nizhny Novgorod, Volga, Kiến trúc]
 geo: [56.326, 44.006]

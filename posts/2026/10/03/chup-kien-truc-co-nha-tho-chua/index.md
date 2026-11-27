@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-03 00:00:00 +0700"
 title: "Chụp kiến trúc cổ: nhà thờ, chùa sao cho toát lên vẻ trang nghiêm"
 subtitle: "Dùng khung cửa/mái vòm làm \"khung\" cho bức ảnh"
+banner-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
 cover-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
-thumbnail-img: "/posts/2026/10/03/chup-kien-truc-co-nha-tho-chua/cover-nhatho.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Kiến trúc, Bố cục, Nhà thờ - chùa]
 ---

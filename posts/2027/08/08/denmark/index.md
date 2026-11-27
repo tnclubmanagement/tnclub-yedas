@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/08 00:00:00 +0700"
 title: "Đan Mạch: Copenhagen và triết lý hygge của đất nước hạnh phúc"
 subtitle: "Nyhavn rực màu, xe đạp nhiều hơn xe hơi, và những buổi tối thắp nến bên cửa sổ"
+banner-img: "/posts/2027/08/08/denmark/cover.jpg"
 cover-img: "/posts/2027/08/08/denmark/cover.jpg"
-thumbnail-img: "/posts/2027/08/08/denmark/cover.jpg"
 geo: [55.6761, 12.5683]
 place_name: "Copenhagen"
 place_country: "Denmark"

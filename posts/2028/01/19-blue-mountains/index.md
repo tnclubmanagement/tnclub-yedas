@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-19 00:00:00 +0700"
 title: "Blue Mountains: thung lũng xanh không chỉ có một góc Three Sisters"
 subtitle: "Chuyến đi khỏi Sydney nên bắt đầu từ đường mòn vừa sức và thông báo thời tiết"
+banner-img: "/posts/2028/01/19-blue-mountains/cover.jpg"
 cover-img: "/posts/2028/01/19-blue-mountains/cover.jpg"
-thumbnail-img: "/posts/2028/01/19-blue-mountains/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Australia, Blue Mountains, New South Wales, Đi bộ]
 geo: [-33.72, 150.31]

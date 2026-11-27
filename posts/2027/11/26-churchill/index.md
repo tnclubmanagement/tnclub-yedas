@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-26 00:00:00 +0700"
 title: "Churchill: đến Hudson Bay với sự tôn trọng dành cho gấu Bắc Cực"
 subtitle: "Một chuyến đi cần kế hoạch theo mùa, người dẫn đường và kỳ vọng thực tế"
+banner-img: "/posts/2027/11/26-churchill/cover.jpg"
 cover-img: "/posts/2027/11/26-churchill/cover.jpg"
-thumbnail-img: "/posts/2027/11/26-churchill/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Churchill, Manitoba, Động vật, Thiên nhiên]
 geo: [58.768, -94.165]

@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/07 00:00:00 +0700"
 title: "Athens: Cái nôi của dân chủ và Acropolis"
 subtitle: "Parthenon trên đồi, bảo tàng Acropolis, Plaka và đời sống Athens hiện đại"
+banner-img: "/posts/2027/05/07/athens/cover.png"
 cover-img: "/posts/2027/05/07/athens/cover.png"
-thumbnail-img: "/posts/2027/05/07/athens/cover.png"
 geo: [37.9838, 23.7275]
 place_name: "Athens"
 place_country: "Greece"

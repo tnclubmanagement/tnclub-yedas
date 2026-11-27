@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-30 00:00:00 +0700"
 title: "Belitung: đá granit bên biển và những ngày đảo không cần chạy gấp"
 subtitle: "Chọn vài bãi, một chuyến thuyền và thời gian cho nhịp sống địa phương"
+banner-img: "/posts/2028/01/30-belitung/cover.jpg"
 cover-img: "/posts/2028/01/30-belitung/cover.jpg"
-thumbnail-img: "/posts/2028/01/30-belitung/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Belitung, Đảo, Biển]
 geo: [-2.833, 107.917]

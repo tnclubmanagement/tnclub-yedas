@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-11 00:00:00 +0700"
 title: "Lee Chong Wei: tượng đài vô địch không cần vàng Olympic"
 subtitle: "349 tuần số 1 thế giới và khát khao Olympic suốt 3 kỳ chung kết"
+banner-img: "/posts/2026/11/11/lee-chong-wei/avatar.jpg"
 cover-img: "/posts/2026/11/11/lee-chong-wei/avatar.jpg"
-thumbnail-img: "/posts/2026/11/11/lee-chong-wei/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Lee Chong Wei, Malaysia]

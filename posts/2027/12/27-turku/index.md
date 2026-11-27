@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-27 00:00:00 +0700"
 title: "Turku: đi theo sông Aura để nhìn một Phần Lan ven biển"
 subtitle: "Thành cổ, nhà thờ và khoảng nghỉ trước chuyến ra quần đảo"
+banner-img: "/posts/2027/12/27-turku/cover.jpg"
 cover-img: "/posts/2027/12/27-turku/cover.jpg"
-thumbnail-img: "/posts/2027/12/27-turku/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Turku, Bắc Âu, Lịch sử]
 geo: [60.452, 22.267]

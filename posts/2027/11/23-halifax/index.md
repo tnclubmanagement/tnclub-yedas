@@ -3,8 +3,8 @@ layout: post
 date: "2027-11-23 00:00:00 +0700"
 title: "Halifax: theo lối đi gỗ bên cảng Đại Tây Dương"
 subtitle: "Hai ngày ở Nova Scotia với lịch sử hàng hải, thành lũy và một bữa hải sản"
+banner-img: "/posts/2027/11/23-halifax/cover.jpg"
 cover-img: "/posts/2027/11/23-halifax/cover.jpg"
-thumbnail-img: "/posts/2027/11/23-halifax/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Canada, Halifax, Nova Scotia, Biển, Lịch sử]
 geo: [44.648, -63.575]

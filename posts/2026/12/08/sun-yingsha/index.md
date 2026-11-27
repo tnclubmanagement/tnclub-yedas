@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-08 00:00:00 +0700"
 title: "Sun Yingsha: 'tiểu ma vương' thống trị đơn nữ thế hệ mới"
 subtitle: "Số 1 thế giới và cặp vàng đôi nam nữ Olympic Paris 2024"
+banner-img: "/posts/2026/12/08/sun-yingsha/avatar.jpg"
 cover-img: "/posts/2026/12/08/sun-yingsha/avatar.jpg"
-thumbnail-img: "/posts/2026/12/08/sun-yingsha/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Sun Yingsha, Trung Quốc]

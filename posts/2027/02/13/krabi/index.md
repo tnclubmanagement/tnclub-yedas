@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-13 00:00:00 +0700"
 title: "Krabi: dưới vách đá Railay, trên chuyến thuyền từ Ao Nang"
 subtitle: "Bốn ngày bên Andaman, chọn ít đảo hơn để có thêm thời gian cho bờ biển và rừng ngập mặn"
+banner-img: "/posts/2027/02/13/krabi/cover.jpg"
 cover-img: "/posts/2027/02/13/krabi/cover.jpg"
-thumbnail-img: "/posts/2027/02/13/krabi/cover.jpg"
 geo: [8.0863, 98.9063]
 place_name: "Krabi"
 place_country: "Thailand"

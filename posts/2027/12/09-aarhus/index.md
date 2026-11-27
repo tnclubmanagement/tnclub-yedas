@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-09 00:00:00 +0700"
 title: "Aarhus: từ bảo tàng sắc màu ra bến cảng mới"
 subtitle: "Một thành phố Đan Mạch cho người thích ghép nghệ thuật, phố cũ và thiết kế"
+banner-img: "/posts/2027/12/09-aarhus/cover.jpg"
 cover-img: "/posts/2027/12/09-aarhus/cover.jpg"
-thumbnail-img: "/posts/2027/12/09-aarhus/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Đan Mạch, Aarhus, Bắc Âu, Nghệ thuật]
 geo: [56.163, 10.204]

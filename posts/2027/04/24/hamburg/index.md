@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/24 00:00:00 +0700"
 title: "Hamburg: Thành phố cảng lớn và nhạc hội trên sông Elbe"
 subtitle: "Speicherstadt nhà gạch đỏ, Elbphilharmonie và khu đèn đỏ Reeperbahn"
+banner-img: "/posts/2027/04/24/hamburg/cover.png"
 cover-img: "/posts/2027/04/24/hamburg/cover.png"
-thumbnail-img: "/posts/2027/04/24/hamburg/cover.png"
 geo: [53.5511, 9.9937]
 place_name: "Hamburg"
 place_country: "Germany"

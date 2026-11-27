@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-16 00:00:00 +0700"
 title: "Koh Rong: đảo Campuchia của bãi cát trắng và phù du phát sáng"
 subtitle: "Từ Sihanoukville ra đảo — lặn, bơi phù du đêm và những bãi vắng như Robinson"
+banner-img: "/posts/2027/03/16/koh-rong/cover.jpg"
 cover-img: "/posts/2027/03/16/koh-rong/cover.jpg"
-thumbnail-img: "/posts/2027/03/16/koh-rong/cover.jpg"
 geo: [10.7320, 103.2400]
 place_name: "Koh Rong, Sihanoukville"
 place_country: "Cambodia"

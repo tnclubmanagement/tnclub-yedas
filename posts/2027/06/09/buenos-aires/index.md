@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/09 00:00:00 +0700"
 title: "Buenos Aires: Paris của Nam Mỹ"
 subtitle: "La Boca màu sắc, tango, San Telmo cổ kính và thịt bò nướng huyền thoại"
+banner-img: "/posts/2027/06/09/buenos-aires/cover.png"
 cover-img: "/posts/2027/06/09/buenos-aires/cover.png"
-thumbnail-img: "/posts/2027/06/09/buenos-aires/cover.png"
 geo: [-34.6037, -58.3816]
 place_name: "Buenos Aires"
 place_country: "Argentina"

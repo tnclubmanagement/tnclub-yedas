@@ -4,8 +4,8 @@ layout: post
 date: "2026-10-05 00:00:00 +0700"
 title: "Chụp bình minh, hoàng hôn \"ăn tiền\" bằng điện thoại"
 subtitle: "Canh đúng giờ vàng + mẹo chụp silhouette (ngược sáng)"
+banner-img: "/posts/2026/10/05/chup-binh-minh-hoang-hon/cover-hoanghon.jpg"
 cover-img: "/posts/2026/10/05/chup-binh-minh-hoang-hon/cover-hoanghon.jpg"
-thumbnail-img: "/posts/2026/10/05/chup-binh-minh-hoang-hon/cover-hoanghon.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Ánh sáng, Hoàng hôn, Bố cục]
 ---

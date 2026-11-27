@@ -77,13 +77,13 @@ subtitle: ""
       <article class="featured-story-card" data-featured-tags="{{ post_tags }}"{% unless featured_visible %} hidden{% endunless %}>
         <a class="featured-story-image" href="{{ post.url | relative_url }}">
           {%- capture thumbnail -%}
-            {% if post.thumbnail-img %}
-              {{ post.thumbnail-img }}
-            {% elsif post.cover-img %}
-              {% if post.cover-img.first %}
-                {{ post.cover-img[0].first.first }}
+            {% if post.cover-img %}
+              {{ post.cover-img }}
+            {% elsif post.banner-img %}
+              {% if post.banner-img.first %}
+                {{ post.banner-img[0].first.first }}
               {% else %}
-                {{ post.cover-img }}
+                {{ post.banner-img }}
               {% endif %}
             {% endif %}
           {%- endcapture -%}

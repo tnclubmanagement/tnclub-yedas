@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-19 00:00:00 +0700"
 title: "Đài Trung: một chiều Cao Mỹ, một tối ăn quanh Phụng Giáp"
 subtitle: "Không gian sáng tạo trong phố và cảnh ven biển ở miền trung Đài Loan"
+banner-img: "/posts/2027/01/19/dai-trung/cover.jpg"
 cover-img: "/posts/2027/01/19/dai-trung/cover.jpg"
-thumbnail-img: "/posts/2027/01/19/dai-trung/cover.jpg"
 geo: [24.3110, 120.5490]
 place_name: "Đài Trung"
 place_country: "Taiwan"

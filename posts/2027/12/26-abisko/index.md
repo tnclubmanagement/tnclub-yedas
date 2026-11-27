@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-26 00:00:00 +0700"
 title: "Abisko: hồ, thung lũng và giới hạn của một lời hứa cực quang"
 subtitle: "Vườn quốc gia miền bắc Thụy Điển cần một kế hoạch có cả ban ngày"
+banner-img: "/posts/2027/12/26-abisko/cover.jpg"
 cover-img: "/posts/2027/12/26-abisko/cover.jpg"
-thumbnail-img: "/posts/2027/12/26-abisko/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Thụy Điển, Abisko, Bắc Cực, Vườn quốc gia]
 geo: [68.36, 18.78]

@@ -66,7 +66,7 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.cover-img or page.banner-nav %}
+  {% if page.banner-img or page.banner-nav %}
     <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   {% endif %}
 
@@ -109,14 +109,14 @@
   {%- capture img -%}
     {%- if page.share-img -%}
       {{ page.share-img }}
-    {%- elsif page.cover-img -%}
-      {%- if page.cover-img.first -%}
-        {{ page.cover-img[0].first.first }}
+    {%- elsif page.banner-img -%}
+      {%- if page.banner-img.first -%}
+        {{ page.banner-img[0].first.first }}
       {%- else -%}
-        {{ page.cover-img }}
+        {{ page.banner-img }}
       {%- endif -%}
-    {%- elsif page.thumbnail-img -%}
-      {{ page.thumbnail-img }}
+    {%- elsif page.cover-img -%}
+      {{ page.cover-img }}
     {%- elsif site.avatar -%}
       {{ site.avatar }}
     {% endif %}

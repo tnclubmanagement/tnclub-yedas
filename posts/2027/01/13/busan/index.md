@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-13 00:00:00 +0700"
 title: "Busan: theo gió biển từ Gamcheon đến Gwangalli"
 subtitle: "Những mái nhà nhiều màu, chợ cá và một buổi tối nhìn cầu sáng trên mặt nước"
+banner-img: "/posts/2027/01/13/busan/cover.jpg"
 cover-img: "/posts/2027/01/13/busan/cover.jpg"
-thumbnail-img: "/posts/2027/01/13/busan/cover.jpg"
 geo: [35.1532, 129.1186]
 place_name: "Busan"
 place_country: "Korea"

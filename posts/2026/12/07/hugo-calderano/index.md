@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-07 00:00:00 +0700"
 title: "Hugo Calderano: 'cơn lốc Brazil' phá vỡ thế độc tôn Á-Âu"
 subtitle: "Người châu Mỹ đầu tiên vào top 5 và tứ kết Olympic bóng bàn"
+banner-img: "/posts/2026/12/07/hugo-calderano/avatar.jpg"
 cover-img: "/posts/2026/12/07/hugo-calderano/avatar.jpg"
-thumbnail-img: "/posts/2026/12/07/hugo-calderano/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Hugo Calderano, Brazil]

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-19 00:00:00 +0700"
 title: "Chen Long: bức tường Trung Quốc và vàng Olympic Rio 2016"
 subtitle: "VĐV duy nhất có đủ 3 huy chương Olympic ở 3 kỳ liên tiếp"
+banner-img: "/posts/2026/11/19/chen-long/avatar.jpg"
 cover-img: "/posts/2026/11/19/chen-long/avatar.jpg"
-thumbnail-img: "/posts/2026/11/19/chen-long/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Chen Long, Trung Quốc]

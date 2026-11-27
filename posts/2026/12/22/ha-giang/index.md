@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-22 00:00:00 +0700"
 title: "Hà Giang: vùng đất địa đầu của Tổ quốc"
 subtitle: "Cao nguyên đá Đồng Văn, đèo Mã Pí Lèng và mùa hoa tam giác mạch"
+banner-img: "/posts/2026/12/22/ha-giang/cover.jpg"
 cover-img: "/posts/2026/12/22/ha-giang/cover.jpg"
-thumbnail-img: "/posts/2026/12/22/ha-giang/cover.jpg"
 geo: [22.82, 104.98]
 place_name: "Hà Giang"
 place_country: "Vietnam"

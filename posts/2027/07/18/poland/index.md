@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/18 00:00:00 +0700"
 title: "Ba Lan: Kraków — nàng thơ gothic giữa lòng Đông Âu"
 subtitle: "Quảng trường chính, lâu đài Wawel, mỏ muối Wieliczka và Warsaw tái sinh từ tro tàn"
+banner-img: "/posts/2027/07/18/poland/cover.jpg"
 cover-img: "/posts/2027/07/18/poland/cover.jpg"
-thumbnail-img: "/posts/2027/07/18/poland/cover.jpg"
 geo: [50.0647, 19.9450]
 place_name: "Kraków"
 place_country: "Poland"

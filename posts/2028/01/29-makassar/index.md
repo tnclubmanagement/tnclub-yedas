@@ -3,8 +3,8 @@ layout: post
 date: "2028-01-29 00:00:00 +0700"
 title: "Makassar: thành cảng Sulawesi từ Fort Rotterdam tới Losari"
 subtitle: "Một điểm đến ẩm thực và lịch sử trước những hành trình dài vào nội địa"
+banner-img: "/posts/2028/01/29-makassar/cover.jpg"
 cover-img: "/posts/2028/01/29-makassar/cover.jpg"
-thumbnail-img: "/posts/2028/01/29-makassar/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Indonesia, Makassar, Sulawesi, Biển]
 geo: [-5.147, 119.433]

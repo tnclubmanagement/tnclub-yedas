@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/26 00:00:00 +0700"
 title: "Thung lũng sông Rhine: Lâu đài trên mọi quả đồi"
 subtitle: "Cung đường UNESCO từ Koblenz đến Rüdesheim với 40 lâu đài giữa vườn nho"
+banner-img: "/posts/2027/04/26/rhine-valley/cover.png"
 cover-img: "/posts/2027/04/26/rhine-valley/cover.png"
-thumbnail-img: "/posts/2027/04/26/rhine-valley/cover.png"
 geo: [50.2326, 7.5930]
 place_name: "Rhine Valley, Rhineland-Palatinate"
 place_country: "Germany"

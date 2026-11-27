@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-28 00:00:00 +0700"
 title: "Tampere: gạch đỏ, hai hồ và một buổi sauna đúng nhịp"
 subtitle: "Thành phố công nghiệp cũ cho một cách nhìn khác về Phần Lan"
+banner-img: "/posts/2027/12/28-tampere/cover.jpg"
 cover-img: "/posts/2027/12/28-tampere/cover.jpg"
-thumbnail-img: "/posts/2027/12/28-tampere/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Phần Lan, Tampere, Bắc Âu, Sauna]
 geo: [61.498, 23.761]

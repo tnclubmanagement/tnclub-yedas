@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-20 00:00:00 +0700"
 title: "Lofoten: làng chài, núi nhọn và một hành trình nên để nhiều khoảng trống"
 subtitle: "Quần đảo Na Uy đẹp hơn khi không bị biến thành chuỗi điểm dừng chụp ảnh"
+banner-img: "/posts/2027/12/20-lofoten/cover.jpg"
 cover-img: "/posts/2027/12/20-lofoten/cover.jpg"
-thumbnail-img: "/posts/2027/12/20-lofoten/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Na Uy, Lofoten, Bắc Cực, Đảo, Thiên nhiên]
 geo: [68.209, 13.61]

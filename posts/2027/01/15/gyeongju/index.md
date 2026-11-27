@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-15 00:00:00 +0700"
 title: "Gyeongju: một đêm ở lại giữa dấu tích Silla"
 subtitle: "Từ những gò mộ Daereungwon đến Bulguksa và bóng lầu gỗ trên hồ Wolji"
+banner-img: "/posts/2027/01/15/gyeongju/cover.jpg"
 cover-img: "/posts/2027/01/15/gyeongju/cover.jpg"
-thumbnail-img: "/posts/2027/01/15/gyeongju/cover.jpg"
 geo: [35.8345, 129.2265]
 place_name: "Gyeongju"
 place_country: "Korea"

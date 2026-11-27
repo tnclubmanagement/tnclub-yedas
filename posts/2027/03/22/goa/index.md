@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-22 00:00:00 +0700"
 title: "Goa: bãi biển Ấn Độ mang hồn Bồ Đào Nha"
 subtitle: "Bắc Goa sôi động, Nam Goa yên bình và những nhà thờ trắng thời thuộc địa 450 năm"
+banner-img: "/posts/2027/03/22/goa/cover.png"
 cover-img: "/posts/2027/03/22/goa/cover.png"
-thumbnail-img: "/posts/2027/03/22/goa/cover.png"
 geo: [15.2993, 74.1240]
 place_name: "Goa"
 place_country: "India"

@@ -2,7 +2,7 @@
 layout: page
 title: Mẹo hay, bắt đầu từ điều đơn giản
 subtitle: Chụp ảnh, thể thao và những chuyến đi đáng nhớ
-cover-img: "/assets/img/hero-3.jpg"
+banner-img: "/assets/img/hero-3.jpg"
 permalink: /about-me/
 ---
 

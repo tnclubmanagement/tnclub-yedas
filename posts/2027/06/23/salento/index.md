@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/23 00:00:00 +0700"
 title: "Salento và thung lũng Cocora: Xứ sở cà phê và cọ sáp"
 subtitle: "Những cây cọ sáp cao nhất thế giới trong mây, thị trấn cà phê màu sắc của Eje Cafetero"
+banner-img: "/posts/2027/06/23/salento/cover.png"
 cover-img: "/posts/2027/06/23/salento/cover.png"
-thumbnail-img: "/posts/2027/06/23/salento/cover.png"
 geo: [4.6373, -75.5708]
 place_name: "Salento, Quindío"
 place_country: "Colombia"

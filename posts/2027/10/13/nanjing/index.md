@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/13 00:00:00 +0700"
 title: "Nam Kinh: Cố đô sáu triều bên sông Trường Giang"
 subtitle: "Lăng Tôn Trung Sơn, phố Tần Hoài lên đèn và bức tường thành nhà Minh còn nguyên"
+banner-img: "/posts/2027/10/13/nanjing/cover.jpg"
 cover-img: "/posts/2027/10/13/nanjing/cover.jpg"
-thumbnail-img: "/posts/2027/10/13/nanjing/cover.jpg"
 geo: [32.0603, 118.7969]
 place_name: "Nam Kinh (Nanjing)"
 place_country: "China"

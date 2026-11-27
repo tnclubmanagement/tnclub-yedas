@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/28 00:00:00 +0700"
 title: "Banff: hồ ngọc và thị trấn trong vườn quốc gia đầu tiên Canada"
 subtitle: "Lake Louise, Moraine Lake, Banff gondola và đường Icefields đẹp nhất Bắc Mỹ"
+banner-img: "/posts/2027/05/28/banff/cover.jpg"
 cover-img: "/posts/2027/05/28/banff/cover.jpg"
-thumbnail-img: "/posts/2027/05/28/banff/cover.jpg"
 geo: [51.1784, -115.5708]
 place_name: "Banff, Alberta"
 place_country: "Canada"

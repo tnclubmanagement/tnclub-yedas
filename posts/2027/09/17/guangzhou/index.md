@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/17 00:00:00 +0700"
 title: "Quảng Châu: Thủ phủ ẩm thực của Trung Quốc"
 subtitle: "Dimsum cả ngày, tháp Canton lượn sóng và hỗn hợp thuộc địa-thương cảng Shamian"
+banner-img: "/posts/2027/09/17/guangzhou/cover.jpg"
 cover-img: "/posts/2027/09/17/guangzhou/cover.jpg"
-thumbnail-img: "/posts/2027/09/17/guangzhou/cover.jpg"
 geo: [23.1291, 113.2644]
 place_name: "Quảng Châu (Guangzhou)"
 place_country: "China"

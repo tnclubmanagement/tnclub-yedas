@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-09 00:00:00 +0700"
 title: "Tanjung Puting: ba ngày trên thuyền klotok đi tìm orangutan"
 subtitle: "Sông Sekonyer đen ngòm, Camp Leakey 50 năm nghiên cứu và khoảnh khắc đười ươi bước ra từ rừng"
+banner-img: "/posts/2027/03/09/tanjung-puting/cover.jpg"
 cover-img: "/posts/2027/03/09/tanjung-puting/cover.jpg"
-thumbnail-img: "/posts/2027/03/09/tanjung-puting/cover.jpg"
 geo: [-2.7417, 111.7308]
 place_name: "Tanjung Puting, Kalimantan"
 place_country: "Indonesia"

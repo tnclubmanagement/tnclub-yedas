@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-11 00:00:00 +0700"
 title: "Mima Ito: pháp sư 'chiquita' của Nhật Bản và vàng Olympic lịch sử"
 subtitle: "Cú backhand trả giao độc nhất vô nhị và tấm vàng đầu cho bóng bàn Nhật"
+banner-img: "/posts/2026/12/11/mima-ito/avatar.jpg"
 cover-img: "/posts/2026/12/11/mima-ito/avatar.jpg"
-thumbnail-img: "/posts/2026/12/11/mima-ito/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Mima Ito, Nhật Bản]

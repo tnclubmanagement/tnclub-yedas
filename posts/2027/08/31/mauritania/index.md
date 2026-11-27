@@ -3,8 +3,8 @@ layout: post
 date: "2027/08/31 00:00:00 +0700"
 title: "Mauritania: Chinguetti — thư viện sa mạc ngàn năm"
 subtitle: "Thành phố hành hương thứ bảy của Hồi giáo, tàu quặng dài nhất thế giới và Sahara nguyên vẹn"
+banner-img: "/posts/2027/08/31/mauritania/cover.jpg"
 cover-img: "/posts/2027/08/31/mauritania/cover.jpg"
-thumbnail-img: "/posts/2027/08/31/mauritania/cover.jpg"
 geo: [20.4630, -12.3624]
 place_name: "Chinguetti"
 place_country: "Mauritania"

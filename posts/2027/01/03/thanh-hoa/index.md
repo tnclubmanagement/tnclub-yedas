@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-03 00:00:00 +0700"
 title: "Thanh Hóa: ruộng bậc thang Pù Luông và dấu đá thành nhà Hồ"
 subtitle: "Chọn một nhịp đi giữa bản làng, di sản và biển xứ Thanh"
+banner-img: "/posts/2027/01/03/thanh-hoa/cover.jpg"
 cover-img: "/posts/2027/01/03/thanh-hoa/cover.jpg"
-thumbnail-img: "/posts/2027/01/03/thanh-hoa/cover.jpg"
 geo: [20.4500, 105.1800]
 place_name: "Thanh Hóa"
 place_country: "Vietnam"

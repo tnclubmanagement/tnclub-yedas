@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-14 00:00:00 +0700"
 title: "Bali: đền biển, ruộng bậc thang và nhịp chậm của đảo thần linh"
 subtitle: "Đến đảo du lịch nổi tiếng nhất Indonesia mà vẫn giữ được khoảng lặng, nếu biết chọn khu và chọn giờ"
+banner-img: "/posts/2027/02/14/bali/cover.png"
 cover-img: "/posts/2027/02/14/bali/cover.png"
-thumbnail-img: "/posts/2027/02/14/bali/cover.png"
 geo: [-8.5069, 115.2625]
 place_name: "Ubud, Bali"
 place_country: "Indonesia"

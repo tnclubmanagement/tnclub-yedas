@@ -3,8 +3,8 @@ layout: post
 date: "2027/05/08 00:00:00 +0700"
 title: "Santorini: Hòn đảo trắng-xanh trên miệng núi lửa"
 subtitle: "Oia hoàng hôn, caldera và những bãi biển cát đen núi lửa"
+banner-img: "/posts/2027/05/08/santorini/cover.png"
 cover-img: "/posts/2027/05/08/santorini/cover.png"
-thumbnail-img: "/posts/2027/05/08/santorini/cover.png"
 geo: [36.4610, 25.3760]
 place_name: "Santorini, Cyclades"
 place_country: "Greece"

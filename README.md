@@ -48,8 +48,8 @@ layout: post
 date: "2027-03-01 00:00:00 +0700"
 title: "Tên bài của bạn"
 subtitle: "Một câu mô tả ngắn, tuỳ chọn"
+banner-img: "/posts/2027/03/01/meo-chup-do-an/cover.jpg"
 cover-img: "/posts/2027/03/01/meo-chup-do-an/cover.jpg"
-thumbnail-img: "/posts/2027/03/01/meo-chup-do-an/cover.jpg"
 category: "Chụp ảnh"                 # chuyên mục chính: Chụp ảnh / Thể thao / Du lịch
 tags: [tag1, tag2]
 ---
@@ -58,6 +58,13 @@ Nội dung bài viết bằng Markdown bình thường ở đây.
 
 Có thể chèn **chữ đậm**, *chữ nghiêng*, ảnh, link, v.v.
 ```
+
+Quy ước ảnh:
+
+- `banner-img`: ảnh lớn đầu bài; hỗ trợ một ảnh hoặc danh sách banner như trước.
+- `cover-img`: ảnh đại diện cho card, tìm kiếm, playlist và xem nhanh địa điểm trên bản đồ; thiếu cover thì dùng banner làm ảnh dự phòng.
+- Hai ảnh có thể khác nhau. Đổi banner không làm đổi cover đã khai báo, và ngược lại. Ảnh trong nội dung bài được quản lý riêng.
+- `share-img`: ảnh chia sẻ riêng nếu cần. Giữ thứ tự SEO hiện tại: share → banner → cover → avatar của site.
 
 Bài **du lịch** khai báo thêm toạ độ để hiện chấm trên bản đồ `/map`:
 
@@ -123,7 +130,7 @@ athlete:
 
 Upload ảnh vào **thư mục của bài** `posts/YYYY/MM/DD/<slug>/` (trên GitHub:
 vào thư mục đó → **Add file → Upload files**), rồi dùng đường dẫn
-`/posts/YYYY/MM/DD/<slug>/ten-anh.jpg` trong `cover-img`/`thumbnail-img`/
+`/posts/YYYY/MM/DD/<slug>/ten-anh.jpg` trong `banner-img`/`cover-img`/
 `travel_photos`. Ảnh chèn giữa nội dung dùng `{{ site.baseurl }}` hoặc
 `relative_url` để chạy đúng cả trên GitHub Pages (`/tnclub-yedas`).
 

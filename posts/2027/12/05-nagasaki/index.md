@@ -3,8 +3,8 @@ layout: post
 date: "2027-12-05 00:00:00 +0700"
 title: "Nagasaki: một thành phố cảng cần được nhìn bằng nhiều câu chuyện"
 subtitle: "Dejima, sườn đồi và không gian tưởng niệm không nên bị gom vào một cuộc chạy điểm"
+banner-img: "/posts/2027/12/05-nagasaki/cover.jpg"
 cover-img: "/posts/2027/12/05-nagasaki/cover.jpg"
-thumbnail-img: "/posts/2027/12/05-nagasaki/cover.jpg"
 category: "Du lịch"
 tags: [Du lịch, Nhật Bản, Nagasaki, Kyushu, Lịch sử, Biển]
 geo: [32.75, 129.878]

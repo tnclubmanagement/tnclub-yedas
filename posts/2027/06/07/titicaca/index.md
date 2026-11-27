@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/07 00:00:00 +0700"
 title: "Hồ Titicaca: Mặt hồ cao nhất thế giới và đảo Uros"
 subtitle: "Đảo nổi từ sậy, Taquile UNESCO và bầu trời trong ở 3.800m"
+banner-img: "/posts/2027/06/07/titicaca/cover.png"
 cover-img: "/posts/2027/06/07/titicaca/cover.png"
-thumbnail-img: "/posts/2027/06/07/titicaca/cover.png"
 geo: [-15.7654, -69.5414]
 place_name: "Puno, Lake Titicaca"
 place_country: "Peru"

@@ -3,8 +3,8 @@ layout: post
 date: "2027/04/21 00:00:00 +0700"
 title: "Edinburgh: Cố đô Scotland của lâu đài, dốc và lễ hội"
 subtitle: "Lâu đài trên núi lửa, Royal Mile, Arthur's Seat và lễ hội Fringe lớn nhất thế giới"
+banner-img: "/posts/2027/04/21/edinburgh/cover.png"
 cover-img: "/posts/2027/04/21/edinburgh/cover.png"
-thumbnail-img: "/posts/2027/04/21/edinburgh/cover.png"
 geo: [55.9533, -3.1883]
 place_name: "Edinburgh, Scotland"
 place_country: "United Kingdom"

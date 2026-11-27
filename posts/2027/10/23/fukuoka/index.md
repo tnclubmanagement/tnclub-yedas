@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/23 00:00:00 +0700"
 title: "Fukuoka: Quê hương ramen Hakata và quán ăn yatai ven sông"
 subtitle: "Dazaifu Tenmangu, đảo Nokonoshima và thành phố ăn uống dễ chịu nhất Kyushu"
+banner-img: "/posts/2027/10/23/fukuoka/cover.jpg"
 cover-img: "/posts/2027/10/23/fukuoka/cover.jpg"
-thumbnail-img: "/posts/2027/10/23/fukuoka/cover.jpg"
 geo: [33.5902, 130.4017]
 place_name: "Fukuoka (Hakata)"
 place_country: "Japan"

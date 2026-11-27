@@ -3,8 +3,8 @@ layout: post
 date: "2027/09/25 00:00:00 +0700"
 title: "Bryce Canyon: Rừng đá hoodoo đỏ cam không thật trên Trái Đất"
 subtitle: "Những tháp đá hàng nghìn năm tuổi giữa cao nguyên Utah, thiên đường ngắm sao Dark Sky"
+banner-img: "/posts/2027/09/25/bryce-canyon/cover.jpg"
 cover-img: "/posts/2027/09/25/bryce-canyon/cover.jpg"
-thumbnail-img: "/posts/2027/09/25/bryce-canyon/cover.jpg"
 geo: [37.5930, -112.1871]
 place_name: "Bryce Canyon, Utah"
 place_country: "United States"

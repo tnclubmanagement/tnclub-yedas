@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/27 00:00:00 +0700"
 title: "Algeria: Casbah trắng, sa mạc Sahara và di tích La Mã"
 subtitle: "Thủ đô Algiers hai mặt Địa Trung Hải-Hồi giáo và những thành phố cổ trong sa mạc"
+banner-img: "/posts/2027/06/27/algeria/cover.jpg"
 cover-img: "/posts/2027/06/27/algeria/cover.jpg"
-thumbnail-img: "/posts/2027/06/27/algeria/cover.jpg"
 geo: [36.7538, 3.0588]
 place_name: "Algiers"
 place_country: "Algeria"

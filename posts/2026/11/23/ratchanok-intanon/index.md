@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-23 00:00:00 +0700"
 title: "Ratchanok Intanon: thần đồng Thái Lan và chức vô địch thế giới trẻ nhất"
 subtitle: "Vô địch thế giới năm 18 tuổi — kỷ lục chưa ai phá ở đơn"
+banner-img: "/posts/2026/11/23/ratchanok-intanon/avatar.jpg"
 cover-img: "/posts/2026/11/23/ratchanok-intanon/avatar.jpg"
-thumbnail-img: "/posts/2026/11/23/ratchanok-intanon/avatar.jpg"
 category: "Thể thao"
 series: "VĐV cầu lông"
 tags: [Thể thao, Cầu lông, Tiểu sử, Ratchanok Intanon, Thái Lan]

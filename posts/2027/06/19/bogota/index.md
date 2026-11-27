@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/19 00:00:00 +0700"
 title: "Bogotá: Thủ đô trên cao nguyên 2.600m của Colombia"
 subtitle: "La Candelaria, Monserrate, bảo tàng Vàng và cà phê Colombia thật sự"
+banner-img: "/posts/2027/06/19/bogota/cover.png"
 cover-img: "/posts/2027/06/19/bogota/cover.png"
-thumbnail-img: "/posts/2027/06/19/bogota/cover.png"
 geo: [4.7110, -74.0721]
 place_name: "Bogotá"
 place_country: "Colombia"

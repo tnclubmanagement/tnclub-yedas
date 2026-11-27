@@ -3,8 +3,8 @@ layout: post
 date: "2027-01-24 00:00:00 +0700"
 title: "Osaka: ăn từng phần nhỏ, đi từ lâu đài đến phố đèn neon"
 subtitle: "Dotonbori, Kuromon, Shinsekai và một thành phố không chỉ để làm trạm ngủ ở Kansai"
+banner-img: "/posts/2027/01/24/osaka/cover.jpg"
 cover-img: "/posts/2027/01/24/osaka/cover.jpg"
-thumbnail-img: "/posts/2027/01/24/osaka/cover.jpg"
 geo: [34.6873, 135.5262]
 place_name: "Osaka"
 place_country: "Japan"

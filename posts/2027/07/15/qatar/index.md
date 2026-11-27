@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/15 00:00:00 +0700"
 title: "Qatar: Doha — hiện đại lấp lánh bên vịnh Ba Tư"
 subtitle: "Souq Waqif, bảo tàng Nghệ thuật Hồi giáo, đảo ngọc The Pearl và sa mạc chạy ra biển"
+banner-img: "/posts/2027/07/15/qatar/cover.jpg"
 cover-img: "/posts/2027/07/15/qatar/cover.jpg"
-thumbnail-img: "/posts/2027/07/15/qatar/cover.jpg"
 geo: [25.2854, 51.5310]
 place_name: "Doha"
 place_country: "Qatar"

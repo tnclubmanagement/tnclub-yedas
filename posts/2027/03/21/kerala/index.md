@@ -3,8 +3,8 @@ layout: post
 date: "2027-03-21 00:00:00 +0700"
 title: "Kerala: thiên đường nhiệt đới của kênh đào và vùng cao trà"
 subtitle: "Ngủ đêm trên houseboat ở Alleppey, đồi chè Munnar và những lưới cá Tàu bên biển Kochi"
+banner-img: "/posts/2027/03/21/kerala/cover.png"
 cover-img: "/posts/2027/03/21/kerala/cover.png"
-thumbnail-img: "/posts/2027/03/21/kerala/cover.png"
 geo: [9.4981, 76.3388]
 place_name: "Alleppey, Kerala"
 place_country: "India"

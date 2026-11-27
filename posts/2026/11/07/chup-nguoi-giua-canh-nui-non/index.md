@@ -4,8 +4,8 @@ layout: post
 date: "2026-11-07 00:00:00 +0700"
 title: "Chụp người giữa cảnh núi non sao cho vừa nổi bật vừa hùng vĩ?"
 subtitle: "Đặt nhân vật đúng chỗ để giữ được cả người và không gian"
+banner-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 cover-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
-thumbnail-img: "/posts/2026/10/10/chup-nui/cover-nui.jpg"
 category: "Chụp ảnh"
 tags: [Chụp ảnh, Du lịch, Chân dung, Núi, Bố cục]
 ---

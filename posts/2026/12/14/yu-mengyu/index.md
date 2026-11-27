@@ -3,8 +3,8 @@ layout: post
 date: "2026-12-14 00:00:00 +0700"
 title: "Yu Mengyu: chiến binh thầm lặng vươn tới bán kết Olympic"
 subtitle: "Hạng 4 đơn nữ Olympic Tokyo 2020 — đỉnh cao của một sự nghiệp bền bỉ"
+banner-img: "/posts/2026/12/14/yu-mengyu/avatar.jpg"
 cover-img: "/posts/2026/12/14/yu-mengyu/avatar.jpg"
-thumbnail-img: "/posts/2026/12/14/yu-mengyu/avatar.jpg"
 category: "Thể thao"
 series: "VĐV bóng bàn"
 tags: [Thể thao, Bóng bàn, Tiểu sử, Yu Mengyu, Singapore]

@@ -3,8 +3,8 @@ layout: post
 date: "2027/06/17 00:00:00 +0700"
 title: "Valparaíso: Thành phố nghệ sĩ trên những ngọn đồi"
 subtitle: "Cảng UNESCO đầy tranh, thang máy cổ và quê hương của Pablo Neruda"
+banner-img: "/posts/2027/06/17/valparaiso/cover.png"
 cover-img: "/posts/2027/06/17/valparaiso/cover.png"
-thumbnail-img: "/posts/2027/06/17/valparaiso/cover.png"
 geo: [-33.0472, -71.6127]
 place_name: "Valparaíso"
 place_country: "Chile"

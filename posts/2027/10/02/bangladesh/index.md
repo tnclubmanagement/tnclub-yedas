@@ -3,8 +3,8 @@ layout: post
 date: "2027/10/02 00:00:00 +0700"
 title: "Bangladesh: Đất nước của sông nước và những con người ấm nhất Nam Á"
 subtitle: "Dhaka sôi động, bãi Cox's Bazar dài nhất thế giới và rừng Sundarbans của hổ"
+banner-img: "/posts/2027/10/02/bangladesh/cover.jpg"
 cover-img: "/posts/2027/10/02/bangladesh/cover.jpg"
-thumbnail-img: "/posts/2027/10/02/bangladesh/cover.jpg"
 geo: [21.4272, 92.0058]
 place_name: "Cox's Bazar / Dhaka"
 place_country: "Bangladesh"

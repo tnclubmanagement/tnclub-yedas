@@ -3,8 +3,8 @@ layout: post
 date: "2027/07/08 00:00:00 +0700"
 title: "Nam Phi: Cape Town, Kruger và hành trình đẹp nhất châu Phi"
 subtitle: "Mũi Hảo Vọng, Table Mountain, Big Five Kruger và Garden Route dọc biển"
+banner-img: "/posts/2027/07/08/south-africa/cover.jpg"
 cover-img: "/posts/2027/07/08/south-africa/cover.jpg"
-thumbnail-img: "/posts/2027/07/08/south-africa/cover.jpg"
 geo: [-33.9249, 18.4241]
 place_name: "Cape Town"
 place_country: "South Africa"

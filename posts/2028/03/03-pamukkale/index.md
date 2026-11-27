@@ -3,8 +3,8 @@ layout: post
 date: "2028-03-03 00:00:00 +0700"
 title: "Pamukkale: lâu đài bông trắng và thành cổ Hierapolis ngay phía trên"
 subtitle: "Đi chân trần trên travertine, ngâm khoáng nóng và đừng bỏ qua nửa di sản phía sau"
+banner-img: "/posts/2028/03/03-pamukkale/cover.jpg"
 cover-img: "/posts/2028/03/03-pamukkale/cover.jpg"
-thumbnail-img: "/posts/2028/03/03-pamukkale/cover.jpg"
 geo: [37.9137, 29.1187]
 place_name: "Pamukkale"
 place_country: "Thổ Nhĩ Kỳ"

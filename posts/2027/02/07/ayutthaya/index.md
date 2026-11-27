@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-07 00:00:00 +0700"
 title: "Ayutthaya: đọc dấu thời gian trên những tháp gạch bên sông"
 subtitle: "Một đêm ở cố đô Thái Lan để bớt nắng vội và nhìn di tích trong ánh sáng đầu ngày"
+banner-img: "/posts/2027/02/07/ayutthaya/cover.jpg"
 cover-img: "/posts/2027/02/07/ayutthaya/cover.jpg"
-thumbnail-img: "/posts/2027/02/07/ayutthaya/cover.jpg"
 geo: [14.3532, 100.5689]
 place_name: "Ayutthaya"
 place_country: "Thailand"

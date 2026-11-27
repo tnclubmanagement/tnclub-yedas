@@ -3,8 +3,8 @@ layout: post
 date: "2027-02-02 00:00:00 +0700"
 title: "Thành Đô: gặp gấu trúc buổi sáng, ngồi lại bên chén trà chiều"
 subtitle: "Tứ Xuyên không chỉ có lẩu cay: còn công viên, phố cũ và nhịp sống đủ chậm để quan sát"
+banner-img: "/posts/2027/02/02/thanh-do/cover.jpg"
 cover-img: "/posts/2027/02/02/thanh-do/cover.jpg"
-thumbnail-img: "/posts/2027/02/02/thanh-do/cover.jpg"
 geo: [30.5728, 104.0668]
 place_name: "Thành Đô"
 place_country: "China"

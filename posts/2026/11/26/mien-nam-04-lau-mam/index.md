@@ -65,11 +65,11 @@ Hỏi loại cá, phần xương và độ cay trước khi gọi cho trẻ nh�
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/1SRhzJ2NCPk" title="Cá Bông Lau nấu Lẩu Mắm - Đặc sản Miền Tây" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/tr15IJySUcU" title="BÚN MẮM / LẨU MẮM - Bí quyết Miền Tây | Vanh Khuyen Legh" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/jBwdKNYMcss" title="Cá Hấp Lá Dúi đặc sản Châu Đốc" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/v5ReE0g7oSE" title="Đặc Sản Cà Mau - Lẩu mắm U Minh 4K" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

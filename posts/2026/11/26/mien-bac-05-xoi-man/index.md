@@ -63,11 +63,11 @@ Mua mang đi thì hỏi cách giữ và thời gian nên ăn, nhất là suất 
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/W2JEBLaMRxk" title="XÔI XÉO CÔ MÂY // Bản đồ ăn của Ninh Tito" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/wKZLB7Iqnu8" title="XÔI XÉO HÀ NỘI - Cách làm chuẩn vị" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/T0gwaAP5k9Y" title="FIVE Must-Eat Hanoi STREET FOODS!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/T0gwaAP5k9Y" title="FIVE Must-Eat Hanoi STREET FOODS" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

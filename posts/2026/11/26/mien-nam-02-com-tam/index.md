@@ -65,11 +65,11 @@ Canh và phần thêm tùy quán, không mặc định đều miễn phí. Hỏi
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/eDC9g5ZRf4Y" title="Cơm Tấm Sườn Bì Chả Cây Gõ Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/WqhZ39ZiZ7E" title="Anthony Bourdain - No Reservations Vietnam" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/KLOU5wEcj64" title="CƠM TẤM SÀ BÌ CHƯỞNG - Ẩm thực Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/b_JqK5tXtUk" title="How to make Cơm Tấm from Scratch" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

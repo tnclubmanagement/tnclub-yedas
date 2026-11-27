@@ -77,11 +77,11 @@ Với bữa ăn thoải mái, chọn quán trong nhà, xem menu rồi gọi rõ 
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/8AgDuPCgKuM" title="Hủ tiếu Nam Vang Trung Còi quận 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/W-XVXxTEsKo" title="Hu Tieu Restaurant vs Street | Vietnam Today" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/BheIlsxbN88" title="Tiệm Hủ Tiếu Mực Trên Đường Phố Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/YjsT-qrhcXs" title="Hủ Tiếu - Vietnamese Pork and Seafood Noodle Soup" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

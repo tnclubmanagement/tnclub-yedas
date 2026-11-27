@@ -63,11 +63,11 @@ Với bữa tại chỗ, chọn đĩa hỗn hợp nhỏ rồi gọi thêm loại
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/xhmeGA4V77Q" title="Ẩm Thực Huế: Bánh Bèo, Nậm, Bột Lọc" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/LELd6o3q7S8" title="Best street food in Hue | What The Pho" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/eXOKEOToeks" title="Savory Steamed Rice Cakes (Banh Beo)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/OHP77Zim3Ko" title="Bánh bèo - Vietnamese Savory Steamed Rice Cake | Helen's Recipes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

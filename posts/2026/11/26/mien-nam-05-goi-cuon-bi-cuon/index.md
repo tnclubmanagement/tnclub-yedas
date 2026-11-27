@@ -65,11 +65,11 @@ Một cuốn tôm thịt và một cuốn bì là cách thử gọn nếu quán 
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/ZzGj2-FU3wo" title="Vietnam Street Food in Saigon - Gỏi cuốn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/8CaadFo3sw0" title="How to make Gỏi Cuốn | Helen's Recipes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/yVVaxtD3_iI" title="Gỏi Cuốn Tôm Thịt - Càn Quét Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/bBk6ev0m9PU" title="Các món cuốn đặc sản Việt Nam | Helen's Recipes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

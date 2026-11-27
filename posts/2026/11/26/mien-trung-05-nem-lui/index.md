@@ -63,11 +63,11 @@ Có thể để nem làm món chính và gọi một bánh chia nhau. Đủ rau 
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/mVA1H8RrRwI" title="Ẩm thực đường phố Huế: bánh khoái, bún bò hẻm" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/Tg4RlyRfVEs" title="Ẩm thực chợ Đông Ba - Món Nem Lụi | Khám Phá Huế" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/Tg4RlyRfVEs" title="Ẩm thực chợ Đông Ba - Món Nem Lụi" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/UMNBed_RiAg" title="Bourdain REVISITED in Huế | Chopstick Travel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

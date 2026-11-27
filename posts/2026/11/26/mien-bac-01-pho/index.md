@@ -69,7 +69,7 @@ Nếu đi nhóm, chọn một đĩa dùng chung để so kết cấu thay vì m�
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/JDvUGM_jRvk" title="PHỞ BÁT ĐÀN - Best Pho in Hanoi, Vietnam !!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/S_214UcpS90" title="HANOI Food Guide - 30 Vietnam Must-Eats | Locavore Eats" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

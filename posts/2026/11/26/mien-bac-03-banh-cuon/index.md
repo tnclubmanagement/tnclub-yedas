@@ -63,11 +63,11 @@ Chọn hàng chế biến gọn gàng, đồ nóng được phục vụ nóng v�
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/djqz7Ar0JhI" title="Bánh cuốn - Hanoi Vietnam, Bánh cuốn nóng Hồng Anh" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/wcWORkxdyGA" title="Hanoi Food Tour - Ultimate Street Food Guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/cFbv9RnNepw" title="Bánh Cuốn Nóng: The Best Breakfast in Hanoi?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/S_214UcpS90" title="HANOI Food Guide - 30 Vietnam Must-Eats | Locavore Eats" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

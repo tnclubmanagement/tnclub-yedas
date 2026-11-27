@@ -63,11 +63,11 @@ Chỉ chọn ốc được nấu chín kỹ, ăn khi món còn ở điều kiệ
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/JlRPLaOjXoM" title="Đi ăn quán bún chả Hương Liên - bún chả Obama đông kín người" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/efG56KcQj0Q" title="Barack Obama & Anthony Bourdain Have Dinner | Parts Unknown" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/YUwR2HW86tA" title="Bún Chả 41 Cửa Đông Phố Cổ Hà Nội" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/dTpiayA6-ec" title="Did They Find the BEST Bún Chả in Hanoi? | The Rice Paper Lady" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

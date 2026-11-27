@@ -63,11 +63,11 @@ Không lấy mức cay của một hàng làm kết luận rằng mọi món Hu�
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/eOmQbJljnqE" title="How to make BUN BO HUE | Helen's Recipes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/INJK-vTKPdg" title="The Surprising Noodle Vietnam Loves Most | Best Ever Food Review Show" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/v7chvq53qqU" title="Bún Bò Huế - Better Than Phở" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/NMrgQ_dOyhk" title="Bourdain falls in love with Vietnam's street food | CNN Parts Unknown" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

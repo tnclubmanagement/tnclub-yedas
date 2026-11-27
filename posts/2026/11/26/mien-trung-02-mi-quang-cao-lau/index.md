@@ -63,11 +63,11 @@ Nếu đi hai người, hỏi quán có thể chia phần hay gọi một bát m
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/OqdL3jACuxA" title="HOI AN Food Tour (Banh Xeo, Cao Lau)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/CvpXl4J52RU" title="Vietnamese Noodles from North to South | Best Ever Food Review Show" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/UlC3wqh7RO4" title="Foodtour Hội An - 7 món PHẢI THỬ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/_OoQ5LbOFRE" title="Why Mì Quảng Is Barely Even a Soup" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

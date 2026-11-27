@@ -65,11 +65,11 @@ Bánh chiên nguội sẽ đổi kết cấu. Đi nhóm nhỏ thì gọi ít, ă
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/rkDnjxFzoaQ" title="QUÁN BÁNH KHỌT CÔ BA VŨNG TÀU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/UAUlA1pxQHM" title="Epic Street Food of Vietnam - Banh Khot in Vũng Tàu | Best Ever Food Review Show" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/Gd7U57Psi0g" title="Cách làm Bánh khọt Vũng Tàu đạt chuẩn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/qTy_FF-hEO8" title="Bánh Xèo - Sizzling Vietnamese Crepe | Helen Nguyen" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

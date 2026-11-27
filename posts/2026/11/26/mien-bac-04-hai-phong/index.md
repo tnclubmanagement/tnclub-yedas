@@ -63,11 +63,11 @@ Chọn món chín kỹ, không mặc định hải sản tươi có thể ăn s�
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/yDwemnMYzi8" title="Kinh Nghiệm đi Food Tour Hải Phòng từ A - Z" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/BXxiEgL_6g8" title="Crab Fried Specialty of Hai Phong | Curious About Vietnam" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/BXxiEgL_6g8" title="Crab Fried Specialty of Hai Phong" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/bSM-V2OqzsM" title="Bánh Đa Cua và Bún Hải Sản tại Mạnh Vương" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

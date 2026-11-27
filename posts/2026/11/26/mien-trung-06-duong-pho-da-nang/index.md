@@ -63,11 +63,11 @@ Chợ đêm có thể thay đổi hoạt động theo thời điểm. Kiểm tra
 ## Xem thêm qua video
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/OwSAL3k-DRc" title="Vietnamese Street Food Tour in Da Nang" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/czOn4nVKkBc" title="Michelin Street Food & Noodle Tour of Da Nang" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/TS_CYHYKFN8" title="Best Restaurants in Da Nang - Ultimate Food Guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/AJzAL7HHyjI" title="DIY Spring Roll Eating Experience in Da Nang" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

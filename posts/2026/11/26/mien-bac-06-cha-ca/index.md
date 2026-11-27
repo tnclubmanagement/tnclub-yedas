@@ -67,7 +67,7 @@ Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao 
 </div>
 
 <div class="video-embed">
-  <iframe src="https://www.youtube.com/embed/G3kRh7fc2Io" title="Chả Cá Lã Vọng - Street Food in Hanoi" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/wcWORkxdyGA" title="Hanoi Food Tour - Chả cá segment" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Nguồn tham khảo

@@ -99,3 +99,11 @@ test('posts without geo are skipped', () => {
   const pins = build([{ title: 'No geo' }, { athlete: { name: 'No geo either' } }]);
   assert.equal(pins.length, 0);
 });
+
+test('decode reverses the plugin XOR + base64 obfuscation', () => {
+  const key = 'yedas-map-pins-v1';
+  const json = JSON.stringify([{ placeName: 'Huế', geo: [1, 2], tags: ['Miền Trung'] }]);
+  const encoded = Buffer.from([...Buffer.from(json, 'utf8')].map((b, i) => b ^ key.charCodeAt(i % key.length))).toString('base64');
+  assert.ok(!encoded.includes('placeName'));
+  assert.deepEqual(MapPins.decode(encoded), JSON.parse(json));
+});

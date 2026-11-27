@@ -114,14 +114,24 @@
     return pins;
   }
 
-  // Tải /map-pins.json (do _plugins/map_pins_index.rb xuất) rồi build pin.
-  function load(url, opts) {
-    return fetch(url, { credentials: 'same-origin' })
-      .then(function (r) { return r.json(); })
-      .then(function (posts) { return build(posts, opts); });
+  // Giải mã map-pins.bin: base64 → XOR ngược key (khớp MapPinsIndex.encode
+  // trong _plugins/map_pins_index.rb). Chỉ là obfuscation — key nằm đây.
+  var XOR_KEY = 'yedas-map-pins-v1';
+  function decode(text) {
+    var bin = atob(text.trim());
+    var bytes = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i) ^ XOR_KEY.charCodeAt(i % XOR_KEY.length);
+    return JSON.parse(new TextDecoder().decode(bytes));
   }
 
-  var api = { build: build, load: load, canonicalRegion: canonicalRegion, rel: rel };
+  // Tải /map-pins.bin (do _plugins/map_pins_index.rb xuất) rồi build pin.
+  function load(url, opts) {
+    return fetch(url, { credentials: 'same-origin' })
+      .then(function (r) { return r.text(); })
+      .then(function (text) { return build(decode(text), opts); });
+  }
+
+  var api = { build: build, load: load, decode: decode, canonicalRegion: canonicalRegion, rel: rel };
   root.MapPins = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);

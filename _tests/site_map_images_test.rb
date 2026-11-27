@@ -26,11 +26,11 @@ fixtures = [
   output = Liquid::Template.parse(source).render!({ 'site' => site }, filters: [MapImageTestFilters], registers: { site: Struct.new(:filter_cache).new({}) })
   raise 'map-pins.js must load before site-map.js' unless output.index('map-pins.js') < output.index('site-map.js')
   urls = output.scan(/pinsUrl:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
-  raise "Wrong pinsUrl for #{baseurl.inspect}: #{urls.inspect}" unless urls == ["#{baseurl}/map-pins.json"]
+  raise "Wrong pinsUrl for #{baseurl.inspect}: #{urls.inspect}" unless urls == ["#{baseurl}/map-pins.bin?v="]
   bases = output.scan(/base:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
   raise "Wrong base for #{baseurl.inspect}: #{bases.inspect}" unless bases == ["#{baseurl}/"]
   raise 'Missing food categories option' unless output.include?('foodCategories:') && output.include?('ăn ngon')
-  raise 'Pin data must live in map-pins.json, not inline' if output.include?('pinAvatar:') || output.include?('placeName:')
+  raise 'Pin data must live in map-pins.bin, not inline' if output.include?('pinAvatar:') || output.include?('placeName:')
   raise 'Missing food filter' unless output.include?('data-filter="Ẩm thực"')
   raise 'Missing food country/region dialog' unless output.include?('id="map-food-dialog"') && output.include?('id="map-food-groups"') && output.include?('data-food-country="all"')
   raise 'Food filters must not list articles' if output.include?('data-food="')

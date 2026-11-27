@@ -1,11 +1,23 @@
+require 'base64'
+require 'digest'
 require 'json'
 
 module Yedas
-  # Xuất dữ liệu thô của các bài có tọa độ ra /map-pins.json (mỗi ngôn ngữ
-  # một file, polyglot tự nhân bản như search-index.json). JS ở
+  # Xuất dữ liệu thô của các bài có tọa độ ra /map-pins.bin (mỗi ngôn ngữ
+  # một file, polyglot tự nhân bản như search-index.json). File được làm
+  # nhiễu XOR + base64 để không đọc trực tiếp được — chỉ là obfuscation,
+  # không phải mã hóa an toàn (key nằm trong JS). JS ở
   # assets/js/map-pins.js fetch file này và build pin (MapPins.build) —
   # logic phân loại/region/fallback nằm hết ở JS, Ruby chỉ emit field.
   module MapPinsIndex
+    XOR_KEY = 'yedas-map-pins-v1'
+
+    # JSON → XOR từng byte theo key lặp → base64 (JS decode trong map-pins.js)
+    def self.encode(text)
+      key = XOR_KEY.bytes
+      obfuscated = text.bytes.each_with_index.map { |b, i| b ^ key[i % key.size] }.pack('C*')
+      Base64.strict_encode64(obfuscated)
+    end
     # Front matter → key trong JSON (đúng tên MapPins.build đọc).
     FIELDS = {
       'series' => 'series', 'category' => 'category', 'title' => 'title',
@@ -53,10 +65,12 @@ module Yedas
       priority :lowest
 
       def generate(site)
-        page = Jekyll::PageWithoutAFile.new(site, site.source, '', 'map-pins.json')
+        content = MapPinsIndex.encode(JSON.generate(MapPinsIndex.build_posts(site)))
+        page = Jekyll::PageWithoutAFile.new(site, site.source, '', 'map-pins.bin')
         page.data.merge!('layout' => nil, 'sitemap' => false, 'render_with_liquid' => false)
-        page.content = JSON.generate(MapPinsIndex.build_posts(site))
+        page.content = content
         site.pages << page
+        site.config['map_pins_digest'] = Digest::SHA256.hexdigest(content)[0, 16]
       end
     end
   end

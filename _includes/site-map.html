@@ -169,7 +169,7 @@
 
 <script src="{{ '/assets/js/map-pins.js' | relative_url }}"></script>
 <script>
-{%- capture map_pins_path -%}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}/map-pins.json{%- endcapture -%}
+{%- capture map_pins_path -%}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}/map-pins.bin?v={{ site.map_pins_digest }}{%- endcapture -%}
 window.__athleteMapConfig = {
   defaultFilter: {{ include.default_filter | default: "all" | jsonify }},
   pinsUrl: {{ map_pins_path | relative_url | jsonify }},

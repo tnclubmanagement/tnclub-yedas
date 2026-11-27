@@ -1138,7 +1138,12 @@
         window.__athletePins = pins;
         initMap();
       })
-      .catch(function () {});
+      .catch(function () {
+        var S = window.__mapStrings || {};
+        var el = document.getElementById('athlete-map');
+        if (el) el.insertAdjacentHTML('beforeend',
+          '<p class="map-load-error">' + (S.load_failed_pins || 'Không tải được dữ liệu bản đồ — thử tải lại trang.') + '</p>');
+      });
   }
 
   if (window.L) boot();

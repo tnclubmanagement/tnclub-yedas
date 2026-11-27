@@ -585,3 +585,9 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 @media (max-width: 640px) {
   .map-cluster-count { top: -5px; right: -7px; min-width: 17px; height: 17px; line-height: 17px; font-size: 0.62rem; }
 }
+.map-load-error {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  z-index: 1200; margin: 0; padding: 10px 18px; border-radius: 10px;
+  background: var(--surface); color: var(--ink); font-size: 0.85rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15); text-align: center;
+}

@@ -32,6 +32,12 @@ Dir.mktmpdir do |dir|
 
   json = JSON.generate(posts)
   raise 'Posts must serialize to clean JSON' unless JSON.parse(json).size == 3
+
+  encoded = Yedas::MapPinsIndex.encode(json)
+  raise 'Encoded output must be base64, not readable JSON' if encoded.include?('placeCountry') || encoded.include?('{')
+  key = Yedas::MapPinsIndex::XOR_KEY.bytes
+  decoded = Base64.decode64(encoded).bytes.each_with_index.map { |b, i| (b ^ key[i % key.size]).chr }.join
+  raise 'XOR + base64 roundtrip must restore original JSON' unless JSON.parse(decoded) == JSON.parse(json)
 end
 
 puts 'Map pins index tests passed: geo filter, field renames, pinAvatar disk check, athlete passthrough'

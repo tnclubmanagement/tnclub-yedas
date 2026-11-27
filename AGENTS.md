@@ -87,6 +87,23 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   Khi thêm bài ẩm thực có `geo`, cần có tag miền hoặc `place_region` để lọc theo miền.
   `site-map.js` chuẩn hóa `Vietnam` / `Việt Nam` / `Viet Nam` về khóa `Vietnam`
   cho dữ liệu và lựa chọn đã lưu; nhãn hiển thị lấy từ `map.country_vietnam`.
+- Thời tiết quickview là module riêng: `assets/js/map-weather.js`
+  (`window.MapWeather.create({ badge, fx, tx })` → `show(place)` / `clear()`,
+  tải trước `site-map.js` trong `_includes/site-map.html`) và
+  `assets/css/map-weather.css`. `site-map.js` chỉ gọi `show`/`clear`, không
+  chứa logic thời tiết. Logic thuần (`kindFromCode`, `fxPlan`, `badgeIcon`)
+  test bằng `node --test _tests/map_weather_test.js`.
+- Thời tiết quickview (chỉ địa điểm): Open-Meteo `current` (kèm `is_day`),
+  cache `yedas-map-weather-v3` 6 giờ dạng `{text, kind, wind, day}`. `kind`
+  (clear/partly/cloudy/fog/drizzle/rain/snow/storm) chọn icon Font Awesome
+  trong nhãn và hiệu ứng CSS `.athlete-qv-wx-fx[data-wx]` trên ảnh (mưa,
+  tuyết, vệt nắng, sương qua pseudo-element) cùng hình minh hoạ `.wx-part`
+  do `WX_PARTS` trong JS tạo: mặt trời (đêm đổi mặt trăng), mây trôi, mây đen
+  khi mưa, sét; gió ≥ `WX_WINDY` (20 km/h) thêm lá bay (`fa-leaf`). Mặt trời
+  và mây vẽ bằng CSS (người dùng chê icon mây Font Awesome xấu; mặt trời phải
+  vàng tươi), mây chỉ trôi chậm một đoạn ngắn, không vụt ngang cả ảnh. Chạy 1
+  lần khi mở, không loop; tắt khi `prefers-reduced-motion`. Giữ hình tránh
+  nhãn (trái trên) và nút đóng (phải trên). Đổi cấu trúc cache thì tăng `-vN`.
 - Quickview map: front matter tuỳ chọn `place_highlights` (tối đa 3 mục),
   `place_best_time`, `place_food`, `place_transport`; phần VĐV dùng
   `athlete.skills`, `athlete.achievement`, `height`, `hand`, `debut`.

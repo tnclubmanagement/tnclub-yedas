@@ -38,6 +38,7 @@
     var el = document.getElementById('athlete-map');
     var qv = document.getElementById('athlete-quickview');
     var count = document.getElementById('athlete-map-count');
+    var totalCount = document.getElementById('map-total-count');
     if (!el || !window.L || !window.__athletePins) return;
 
     // Chuỗi UI theo ngôn ngữ — đổ từ _data/strings.yml qua window.__mapStrings
@@ -287,67 +288,12 @@
       return list.childElementCount;
     }
 
-    // Thời tiết hiện tại qua Open-Meteo (miễn phí, không cần API key).
-    // Cache localStorage TTL 6 giờ theo tọa độ làm tròn để giảm số lần gọi;
-    // chỉ áp dụng kết quả mới nhất.
-    var WX_LS = 'yedas-map-weather-v1';
-    var WX_TTL = 6 * 60 * 60 * 1000;
-    var weatherInflight = {};
-    var weatherSeq = 0;
-    function wxStore() {
-      try { return JSON.parse(localStorage.getItem(WX_LS)) || {}; }
-      catch (e) { return {}; }
-    }
-    function wxGet(key) {
-      var entry = wxStore()[key];
-      return entry && (Date.now() - entry.t < WX_TTL) ? entry.v : null;
-    }
-    function wxSet(key, value) {
-      try {
-        var store = wxStore();
-        store[key] = { t: Date.now(), v: value };
-        localStorage.setItem(WX_LS, JSON.stringify(store));
-      } catch (e) {}
-    }
-    function wxDesc(code) {
-      if (code === 0) return tx('wx_clear', 'Trời quang');
-      if (code <= 2) return tx('wx_partly', 'Ít mây');
-      if (code === 3) return tx('wx_cloudy', 'Nhiều mây');
-      if (code === 45 || code === 48) return tx('wx_fog', 'Sương mù');
-      if (code >= 51 && code <= 57) return tx('wx_drizzle', 'Mưa phùn');
-      if ((code >= 71 && code <= 77) || code === 85 || code === 86) return tx('wx_snow', 'Tuyết');
-      if (code >= 95) return tx('wx_storm', 'Giông bão');
-      if ((code >= 61 && code <= 67) || (code >= 80 && code <= 82)) return tx('wx_rain', 'Mưa');
-      return '';
-    }
-    function loadWeather(d) {
-      var key = d.lat.toFixed(2) + ',' + d.lng.toFixed(2);
-      var seq = ++weatherSeq;
-      var apply = function (text) {
-        if (seq !== weatherSeq || !text) return;
-        var badge = qv.querySelector('.athlete-qv-weather');
-        badge.textContent = text;
-        badge.hidden = false;
-      };
-      var cached = wxGet(key);
-      if (cached) { apply(cached); return; }
-      if (!weatherInflight[key]) {
-        weatherInflight[key] = fetch('https://api.open-meteo.com/v1/forecast?latitude=' + d.lat +
-              '&longitude=' + d.lng + '&current=temperature_2m,weather_code,wind_speed_10m')
-          .then(function (r) { return r.json(); })
-          .then(function (j) {
-            var c = j.current;
-            if (!c) return '';
-            var text = [Math.round(c.temperature_2m) + '°C', wxDesc(c.weather_code),
-              Math.round(c.wind_speed_10m) + ' km/h'].filter(Boolean).join(' · ');
-            wxSet(key, text);
-            return text;
-          })
-          .catch(function () { return ''; })
-          .then(function (text) { delete weatherInflight[key]; return text; });
-      }
-      weatherInflight[key].then(apply);
-    }
+    // Thời tiết quick view — module riêng assets/js/map-weather.js
+    var weather = window.MapWeather && window.MapWeather.create({
+      badge: qv.querySelector('.athlete-qv-weather'),
+      fx: qv.querySelector('.athlete-qv-wx-fx'),
+      tx: tx
+    });
 
     function readScore(value) {
       if (typeof value !== 'number' && typeof value !== 'string') return null;
@@ -461,11 +407,9 @@
         qv.querySelector('.athlete-qv-link').href = d.url;
         qv.querySelector('.athlete-qv-link').textContent = d.kind === 'place'
           ? tx('view_post', 'Xem bài viết') : tx('view_profile', 'Xem hồ sơ');
-        var wdl = qv.querySelector('.athlete-qv-weather');
-        wdl.hidden = true;
-        wdl.textContent = '';
-        wdl.href = 'https://www.windy.com/' + d.lat.toFixed(3) + '/' + d.lng.toFixed(3);
-        if (isPlace) loadWeather(d); else weatherSeq++;
+        if (weather) {
+          if (isPlace) weather.show(d); else weather.clear();
+        }
         qv.hidden = false;
     }
 
@@ -884,6 +828,7 @@
         cl.marker.setTooltipContent('<strong>' + tx('cluster_tip', '%1 điểm tại đây — bấm để chọn bài').replace('%1', cl.visList.length) + '</strong>');
       });
       if (count) count.textContent = shown;
+      if (totalCount) totalCount.textContent = shown;
       renderChips(shown);
       close();
 
@@ -1127,7 +1072,7 @@
       }
       var initBtn = f === 'all' ? filterBar.querySelector('[data-filter="all"]')
         : (f === 'Thể thao' ? sportDrop : f === 'Ẩm thực' ? foodDrop : travelDrop).querySelector(':scope > .home-tab');
-      setMainFilter(f, initBtn, true); // silent: không bay zoom lúc mới load
+      setMainFilter(f, initBtn); // căn khung nhìn theo filter đã lưu, giống bấm nút ◎
     } catch (e) {}
 
     // Lần đầu vào map (chưa lưu filter): đoán quốc gia theo IP (ipwho.is,

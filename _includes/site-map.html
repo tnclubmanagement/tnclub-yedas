@@ -23,6 +23,7 @@
 {% assign map_series = map_series | uniq | sort %}
 
 <link rel="stylesheet" href="{{ '/assets/css/site-map.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/map-weather.css' | relative_url }}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
@@ -32,10 +33,21 @@
 <section class="athlete-map-section" aria-label="{{ s.map.aria_label }}">
   <div class="athlete-map-head">
     <div class="athlete-map-title">
-      <h2 class="tag-section-title">{{ s.map.title }} <span class="tag-pill-count" id="athlete-map-count">{{ pin_count }}</span></h2>
+      <h2 class="tag-section-title">{{ s.map.title }}</h2>
       <details class="map-score-help">
         <summary aria-label="{{ s.map.score_help_aria }}" aria-describedby="map-score-help-tooltip"><span class="fas fa-info-circle" aria-hidden="true"></span></summary>
-        <p id="map-score-help-tooltip" role="tooltip">{{ s.map.score_help }}</p>
+        <div class="map-score-legend" id="map-score-help-tooltip" role="tooltip">
+          <strong>{{ s.map.score_aria }}</strong>
+          <ul>
+            <li><span class="fas fa-file-alt" aria-hidden="true"></span> {{ s.map.score_content }}</li>
+            <li><span class="fas fa-map-marker-alt" aria-hidden="true"></span> {{ s.map.score_destination }}</li>
+          </ul>
+          <ul class="map-score-levels">
+            <li data-level="low"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_low }}</span> &lt;5</li>
+            <li data-level="medium"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_medium }}</span> 5–&lt;8</li>
+            <li data-level="high"><i aria-hidden="true"></i><span class="sr-only">{{ s.map.score_high }}</span> ≥8</li>
+          </ul>
+        </div>
       </details>
     </div>
     <div class="athlete-map-filters" id="athlete-map-filters">
@@ -102,6 +114,7 @@
   </div>
   <div class="map-filter-chips" id="map-filter-chips"></div>
   <div class="athlete-map" id="athlete-map">
+    <div class="map-total" aria-live="polite">{{ s.map.total }}: <strong id="map-total-count">{{ pin_count }}</strong></div>
     <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="{{ s.map.expand }}" title="{{ s.map.expand }}" aria-pressed="false">↗</button>
     <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="{{ s.map.fullscreen }}" title="{{ s.map.fullscreen }}" aria-pressed="false">⛶</button>
     <button class="map-fs-btn map-center-btn" id="map-center-btn" type="button" aria-label="{{ s.map.recenter }}" title="{{ s.map.recenter }}">◎</button>
@@ -114,6 +127,7 @@
         </div>
         <span class="athlete-qv-avatar-wrap">
           <img class="athlete-qv-avatar" src="" alt="">
+          <span class="athlete-qv-wx-fx" aria-hidden="true"></span>
           <a class="athlete-qv-weather" href="https://www.windy.com/" target="_blank"
              rel="noopener noreferrer" hidden title="{{ s.map.f_weather }} — Windy.com" aria-label="{{ s.map.f_weather }} — Windy.com"></a>
         </span>
@@ -244,4 +258,5 @@ window.__athleteMapConfig = {
 window.__mapStrings = {{ s.map | jsonify }};
 window.__spinnerStrings = {{ s.spinner | jsonify }};
 </script>
+<script src="{{ '/assets/js/map-weather.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/site-map.js' | relative_url }}"></script>

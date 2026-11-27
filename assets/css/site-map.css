@@ -188,6 +188,22 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 /* Nút về giữa vùng đang chọn — xếp chồng ngay trên nút toàn màn hình */
 .map-center-btn { bottom: 140px; }
 .map-expand-btn { bottom: 92px; }
+/* Tổng số điểm đang hiện — giữa phía trên, tránh nút zoom (trái) và quick view (phải) */
+.map-total {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: var(--z-map-controls);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+}
 /* Phóng to trong tab trình duyệt — overlay fixed phủ viewport, giữ hàng filter trên cùng */
 .athlete-map-section:is(.is-max, .is-fullscreen) {
   position: fixed;
@@ -340,23 +356,6 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
   background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.8));
 }
 .athlete-qv-avatar-wrap { position: relative; display: block; }
-.athlete-qv-weather {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  padding: 0.2rem 0.6rem;
-  border-radius: 999px;
-  background: rgba(0, 0, 0, 0.55);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.athlete-qv-weather:hover { background: rgba(0, 0, 0, 0.75); color: #fff; }
-a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
 .athlete-qv-head .athlete-qv-name { margin: 0; font-size: 1.1rem; color: #fff; text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
 .athlete-qv-head .athlete-qv-nick { margin: 0.1rem 0 0; font-size: 0.8rem; color: #fff; }
 .athlete-qv-body { padding: 0.8rem 1rem; }
@@ -372,12 +371,12 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
 .athlete-qv-score-list { display: flex; gap: 0.6rem; }
 .athlete-qv-score { --score-color: var(--muted); position: relative; flex: 1; min-width: 0; display: flex; align-items: center; gap: 0.4rem; padding: 0.45rem; border-radius: 8px; background: var(--bg-light); cursor: help; }
 .athlete-qv-score:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.athlete-qv-score[data-level="low"] { --score-color: #c4343d; }
-.athlete-qv-score[data-level="medium"] { --score-color: #9a6700; }
-.athlete-qv-score[data-level="high"] { --score-color: #168047; }
-[data-theme="dark"] .athlete-qv-score[data-level="low"] { --score-color: #ff7b83; }
-[data-theme="dark"] .athlete-qv-score[data-level="medium"] { --score-color: #f0c44f; }
-[data-theme="dark"] .athlete-qv-score[data-level="high"] { --score-color: #57d68d; }
+:is(.athlete-qv-score, .map-score-levels li)[data-level="low"] { --score-color: #c4343d; }
+:is(.athlete-qv-score, .map-score-levels li)[data-level="medium"] { --score-color: #9a6700; }
+:is(.athlete-qv-score, .map-score-levels li)[data-level="high"] { --score-color: #168047; }
+[data-theme="dark"] :is(.athlete-qv-score, .map-score-levels li)[data-level="low"] { --score-color: #ff7b83; }
+[data-theme="dark"] :is(.athlete-qv-score, .map-score-levels li)[data-level="medium"] { --score-color: #f0c44f; }
+[data-theme="dark"] :is(.athlete-qv-score, .map-score-levels li)[data-level="high"] { --score-color: #57d68d; }
 .athlete-qv-score > div:first-child { display: flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; }
 .athlete-qv-score strong { flex-shrink: 0; color: var(--score-color); font-size: 0.75rem; white-space: nowrap; }
 .athlete-qv-score-track { flex: 1; min-width: 12px; height: 5px; border-radius: 999px; background: var(--hairline); overflow: hidden; }
@@ -391,7 +390,14 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
 .map-score-help summary { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: var(--muted); cursor: pointer; list-style: none; }
 .map-score-help summary::-webkit-details-marker { display: none; }
 .map-score-help summary:focus-visible { outline: 2px solid var(--ink); border-radius: 8px; }
-.athlete-map-title .map-score-help p { position: absolute; top: 100%; left: -8rem; width: 230px; max-width: calc(100vw - 32px); margin: 0; padding: 0.7rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.78rem; line-height: 1.5; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
+.athlete-map-title .map-score-legend { position: absolute; top: 100%; left: -8rem; width: 230px; max-width: calc(100vw - 32px); margin: 0; padding: 0.7rem; border: 1px solid var(--hairline); border-radius: 10px; background: var(--surface); color: var(--ink); font-size: 0.78rem; line-height: 1.5; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); }
+.map-score-legend > strong { display: block; margin-bottom: 0.4rem; font-size: 0.78rem; }
+.map-score-legend ul { display: flex; flex-wrap: wrap; gap: 0.3rem 0.8rem; margin: 0; padding: 0; list-style: none; }
+.map-score-legend ul + ul { margin-top: 0.45rem; padding-top: 0.45rem; border-top: 1px solid var(--hairline); }
+.map-score-legend .fas { width: 1em; color: var(--muted); text-align: center; }
+.map-score-levels li { display: inline-flex; align-items: center; gap: 0.3rem; font-weight: 600; color: var(--score-color); }
+.map-score-levels i { width: 18px; height: 5px; border-radius: 999px; background: var(--score-color); }
+@media (max-width: 640px) { .athlete-map-title .map-score-legend { left: -2.5rem; } }
 .athlete-qv-more { margin-bottom: 0.8rem; border-top: 1px solid var(--hairline); }
 .athlete-qv-more summary { padding: 0.7rem 0; font-size: 0.82rem; font-weight: 600; cursor: pointer; }
 .athlete-qv-actions { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }

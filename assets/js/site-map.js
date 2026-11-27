@@ -1127,6 +1127,20 @@
     }
   }
 
-  if (window.L) initMap();
-  else document.addEventListener('DOMContentLoaded', initMap);
+  // Data pin nằm trong /map-pins.json (plugin map_pins_index.rb xuất):
+  // fetch xong mới initMap — marker xuất hiện sau 1 nhịp thay vì nhúng
+  // sẵn trong HTML như trước.
+  function boot() {
+    var cfg = window.__athleteMapConfig || {};
+    if (!window.L || !cfg.pinsUrl || !window.MapPins) return;
+    window.MapPins.load(cfg.pinsUrl, cfg)
+      .then(function (pins) {
+        window.__athletePins = pins;
+        initMap();
+      })
+      .catch(function () {});
+  }
+
+  if (window.L) boot();
+  else document.addEventListener('DOMContentLoaded', boot);
 })();

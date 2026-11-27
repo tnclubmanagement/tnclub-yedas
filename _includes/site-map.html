@@ -1,11 +1,11 @@
 {% assign s = site.data.strings[site.active_lang] | default: site.data.strings.vi %}
 {% assign athlete_posts = site.pages | where: 'layout', 'post' %}
-{% assign map_static_paths = site.static_files | map: 'path' %}
 {% assign map_series = "" | split: "" %}
 {% assign pin_count = 0 %}
 {% assign has_places = false %}
 {% assign map_food_categories = 'ăn ngon|uống ngon|tráng miệng|ẩm thực' | split: '|' %}
 {% assign map_food_posts = '' | split: '' %}
+{% comment %}Raw data bài có geo xuất ra /map-pins.json bởi _plugins/map_pins_index.rb; JS fetch + MapPins.build{% endcomment %}
 {% for post in athlete_posts %}
   {% if post.athlete and post.athlete.geo %}
     {% assign pin_count = pin_count | plus: 1 %}
@@ -167,93 +167,14 @@
   </div>
 </section>
 
+<script src="{{ '/assets/js/map-pins.js' | relative_url }}"></script>
 <script>
-window.__athletePins = [
-  {% assign first = true %}
-  {% for post in athlete_posts %}
-    {% if post.athlete and post.athlete.geo %}
-    {% unless first %},{% endunless %}{% assign first = false %}{
-      kind: "athlete",
-      lat: {{ post.athlete.geo[0] }}, lng: {{ post.athlete.geo[1] }},
-      series: {{ post.series | default: "" | jsonify }},
-      name: {{ post.athlete.name | jsonify }},
-      nick: {{ post.athlete.nickname | default: "" | jsonify }},
-      country: {{ post.athlete.country | default: "" | jsonify }},
-      born: {{ post.athlete.born | default: "" | jsonify }},
-      hometown: {{ post.athlete.hometown | default: "" | jsonify }},
-      event: {{ post.athlete.event | default: "" | jsonify }},
-      rank: {{ post.athlete.highest_rank | default: "" | jsonify }},
-      summary: {{ post.subtitle | default: "" | jsonify }},
-      skills: {{ post.athlete.skills | default: "" | jsonify }},
-      achievement: {{ post.athlete.achievement | default: "" | jsonify }},
-      height: {{ post.athlete.height | default: "" | jsonify }},
-      hand: {{ post.athlete.hand | default: "" | jsonify }},
-      debut: {{ post.athlete.debut | default: "" | jsonify }},
-      ranking: {{ post.map_ranking | default: "" | jsonify }},
-      score: {{ post.map_score | default: "" | jsonify }},
-      contentScore: {{ post.map_content_score | default: "" | jsonify }},
-      destinationScore: {{ post.map_destination_score | default: "" | jsonify }},
-      contentNote: {{ post.map_content_note | default: "" | jsonify }},
-      destinationNote: {{ post.map_destination_note | default: "" | jsonify }},
-      ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
-      url: {{ post.url | relative_url | jsonify }},
-      image: {{ post["banner-img"] | default: post.athlete.avatar | relative_url | jsonify }},
-      avatar: {{ post.athlete.avatar | relative_url | jsonify }}
-    }
-    {% elsif post.geo %}
-    {% unless first %},{% endunless %}{% assign first = false %}{
-      kind: "place",
-      topic: {% assign map_category = post.category | default: '' | downcase | strip %}{% if map_food_categories contains map_category %}"food"{% else %}"travel"{% endif %},
-      title: {{ post.title | default: post.place_name | default: '' | jsonify }},
-      lat: {{ post.geo[0] }}, lng: {{ post.geo[1] }},
-      series: {{ post.category | default: "" | jsonify }},
-      name: {{ post.place_name | default: post.title | jsonify }},
-      nick: "",
-      subtitle: {{ post.subtitle | default: "" | jsonify }},
-      {%- assign map_region = post.place_region | default: '' | strip -%}
-      {%- if map_region == '' and map_food_categories contains map_category -%}
-        {%- for tag in post.tags -%}
-          {%- assign region_tag = tag | downcase | strip -%}
-          {%- case region_tag -%}
-            {%- when 'miền bắc' -%}{%- assign map_region = 'Miền Bắc' -%}
-            {%- when 'miền trung' -%}{%- assign map_region = 'Miền Trung' -%}
-            {%- when 'miền nam' -%}{%- assign map_region = 'Miền Nam' -%}
-          {%- endcase -%}
-        {%- endfor -%}
-      {%- endif -%}
-      region: {{ map_region | jsonify }},
-      country: {{ post.place_country | default: "Vietnam" | jsonify }},
-      population: {{ post.place_population | default: "" | jsonify }},
-      area: {{ post.place_area | default: "" | jsonify }},
-      economy: {{ post.place_economy | default: "" | jsonify }},
-      festival: {{ post.place_festival | default: "" | jsonify }},
-      highlights: {{ post.place_highlights | default: "" | jsonify }},
-      bestTime: {{ post.place_best_time | default: "" | jsonify }},
-      food: {{ post.place_food | default: "" | jsonify }},
-      transport: {{ post.place_transport | default: "" | jsonify }},
-      tags: {{ post.tags | jsonify }},
-      ranking: {{ post.map_ranking | default: "" | jsonify }},
-      score: {{ post.map_score | default: "" | jsonify }},
-      contentScore: {{ post.map_content_score | default: "" | jsonify }},
-      destinationScore: {{ post.map_destination_score | default: "" | jsonify }},
-      contentNote: {{ post.map_content_note | default: "" | jsonify }},
-      destinationNote: {{ post.map_destination_note | default: "" | jsonify }},
-      ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
-      url: {{ post.url | relative_url | jsonify }},
-      image: {{ post["cover-img"] | default: post["banner-img"] | relative_url | jsonify }},
-      {% assign place_avatar = post["cover-img"] | default: post["banner-img"] %}
-      {% if post["banner-img"] and post["banner-img"] contains 'cover.' %}
-        {% assign pin_base = post["banner-img"] | split: 'cover.' | first %}
-        {% assign pin_avatar = pin_base | append: 'avatar.jpg' %}
-        {% if map_static_paths contains pin_avatar %}{% assign place_avatar = pin_avatar %}{% endif %}
-      {% endif %}
-      avatar: {{ place_avatar | relative_url | jsonify }}
-    }
-    {% endif %}
-  {% endfor %}
-];
+{%- capture map_pins_path -%}{% if site.active_lang != site.default_lang %}/{{ site.active_lang }}{% endif %}/map-pins.json{%- endcapture -%}
 window.__athleteMapConfig = {
-  defaultFilter: {{ include.default_filter | default: "all" | jsonify }}
+  defaultFilter: {{ include.default_filter | default: "all" | jsonify }},
+  pinsUrl: {{ map_pins_path | relative_url | jsonify }},
+  base: {{ '/' | relative_url | jsonify }},
+  foodCategories: {{ map_food_categories | jsonify }}
 };
 window.__mapStrings = {{ s.map | jsonify }};
 window.__spinnerStrings = {{ s.spinner | jsonify }};

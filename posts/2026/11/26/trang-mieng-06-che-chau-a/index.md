@@ -86,6 +86,24 @@ Các món “sữa” châu Á thường là **sữa + cốt dừa đi đôi**: 
 
 Nhớ gọn: ở món châu Á, **topping dai là xương sống, sữa-cốt là nước dùng** — hỏi “nước gì?” trước khi hỏi “có gì trong ly?”.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/agMhLRQSLKM" title="Chè ba màu — Vietnamese Three Colour Dessert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/sxUW-Rg-9gA" title="Chè bắp — Vietnamese corn pudding dessert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/N-qlU9gUEak" title="Chè cốm hạt sen và chè dưỡng nhan — Bếp Nhà Giang" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/Q6XwbzhG_vg" title="Chè hạt sen nhãn — Vietnamese longan lotus seed dessert" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

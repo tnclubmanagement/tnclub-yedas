@@ -102,6 +102,24 @@ Cùng họ custard-trứng còn có **mousse** (kem đánh + trứng, xốp khí
 
 Nhớ gọn: **trứng đông là flan (và brûlée), gelatin đông là panna cotta, tinh bột đông là pudding** — còn ngọt thì hỏi xem nó nằm ở nền, ở sốt hay ở lớp mặt đốt.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/tV0b_EzTvY8" title="Gordon Ramsay — Panna cotta" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/pt49NspUmKQ" title="Epicurious — 4 Levels of Custard: Amateur to Food Scientist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/HfzDoRpVKfg" title="Laura Vitale — Flan / Crème caramel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/cJYsUMscrVI" title="Crème caramel kiểu Pháp — làm bằng sữa, không dùng kem" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

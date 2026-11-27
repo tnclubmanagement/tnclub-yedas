@@ -72,6 +72,24 @@ Những mô tả dưới đây là đặc điểm thường gặp, không phải
 
 Trước khi gọi, nhớ ba câu: **nền sữa gì, đông bằng gì, ngọt từ đâu?**
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/GQ7N_lR18Vw" title="Các loại kem và sữa: từ light cream đến double cream" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/IrU6GyHNlHk" title="Panna cotta — món tráng miệng từ nền sữa và kem" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/ae02nzDgUtM" title="Bên trong sữa chua Hy Lạp — sữa lên men làm món gì" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/jD-YV9LwZVs" title="Crème brûlée — custard từ sữa và kem" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

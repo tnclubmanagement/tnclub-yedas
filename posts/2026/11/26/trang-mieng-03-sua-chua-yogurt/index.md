@@ -86,6 +86,24 @@ Sữa chua là nhóm tráng miệng “nhẹ” nhất trong series: nền sữa
 
 Nhớ gọn: nhóm sữa chua **chua là gốc, ngọt là thêm** — hỏi nền có đường không trước khi quyết định topping.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/IOLUL67VPQ0" title="Sữa chua nếp cẩm bằng nồi Instant Pot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/5y65VMpsbQI" title="Vietnamese yogurt / Da ua — sữa chua kiểu Việt" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/oSGLYCiVws4" title="Sữa chua Hy Lạp thật sự được làm thế nào — xưởng Stani, Athens" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/kUdodQq1BT8" title="Vì sao Greek yogurt đắt gấp đôi sữa chua thường — CNA Talking Point" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

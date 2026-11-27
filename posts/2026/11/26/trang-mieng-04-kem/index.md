@@ -106,6 +106,24 @@ Hai nhóm kem này thường rẻ và ngọt đậm từ sữa đặc/cốt dừ
 
 Nhớ gọn: **nhiều kem = béo và mịn; nhiều khí = nhẹ và tan nhanh; đông cứng khuôn = dai và đã** — nhìn kết cấu là đoán được loại kem.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/YxJM6DTRosw" title="The Science of Ice Cream — vì sao kem mịn hay có đá" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/4EvtzRoLi6Q" title="Cách chọn và ăn gelato đúng kiểu Ý" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/-Idyc3my5m0" title="Ice cream vs Gelato — khác nhau chính xác ở điểm nào" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/7d7Enwv5Sg4" title="Gelato vs Ice Cream — giải thích nhanh bằng mô hình" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

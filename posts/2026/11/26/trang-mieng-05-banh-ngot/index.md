@@ -102,6 +102,24 @@ Ngược lại, nếu muốn món sữa nhẹ sau bữa nặng, flan hay panna c
 
 Nhớ gọn: **phô mai kem làm ruột bánh, sữa ngâm làm ruột mềm** — cheesecake chua béo, tiramisu đắng cà phê-mascarpone, flan dừa ngọt sữa đặc-cốt, tres leches ngọt sữa ba lớp.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/TR6wp5pB1CQ" title="Joshua Weissman — Tiramisu 10 phút" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/2-3IKGxmxxM" title="Gordon Ramsay — Tiramisu" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/m1TPXJv3Ztg" title="Basque cheesecake (Tarta de Queso) kiểu La Viña" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/1J2V7SPgVgc" title="New York cheesecake kiểu Philadelphia" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 Ảnh minh họa từ Pexels, đã resize để tải nhẹ; tác giả và trang ảnh gốc ghi dưới từng hình. Sử dụng theo [giấy phép Pexels](https://www.pexels.com/license/).

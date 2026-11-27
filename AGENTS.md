@@ -229,3 +229,7 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
 - Mỗi bài con có ít nhất hai ảnh trong thân bài, không tính ảnh bìa/thumbnail. Bài tổng hợp ốc và hải sản cần bộ 10 ảnh món ăn khác nhau. Không gắn tên món cho ảnh món khác; thiếu ảnh đúng món thì báo rõ.
 - Có thể dùng Wikimedia Commons/Flickr với giấy phép tái sử dụng rõ ràng khi Pexels thiếu ảnh; ghi tác giả, link gốc, giấy phép và thay đổi ảnh.
 - Các series Ăn ngon miền Bắc/Trung/Nam chỉ giữ món mặn; chè, bánh ngọt thuộc mục Tráng miệng, cà phê thuộc series riêng.
+- Video nhúng cuối bài (`## Xem thêm qua video`, `.video-embed` + iframe
+  `youtube.com/embed`): mặc định ~4 video mỗi bài, ưu tiên video CHẤT LƯỢNG CAO — kênh uy tín/dựng hình
+  tốt (Gordon Ramsay, Epicurious, Joshua Weissman, Natasha's Kitchen...),
+  đúng món trong bài; tránh video mờ, quay ẩu hay nội dung lệch chủ đề.

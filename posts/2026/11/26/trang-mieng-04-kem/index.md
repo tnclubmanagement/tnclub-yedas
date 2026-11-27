@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 10:04:00 +0700"
 title: "[04 · Món tráng miệng từ sữa] : Kem: tươi, ý, ốc quế và chuối"
 subtitle: "Kem tươi, gelato, kem ốc quế và kem chuối — cùng sữa đông lạnh, khác độ béo và kết cấu"
-cover-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/trang-mieng-tu-sua/banner.jpg"
+cover-img: "/posts/2026/11/26/trang-mieng-04-kem/banner.jpg"
+thumbnail-img: "/posts/2026/11/26/trang-mieng-04-kem/banner.jpg"
 category: "Tráng miệng"
 tags: [Ăn Ngon, Kem]
 series: "Món tráng miệng từ sữa"

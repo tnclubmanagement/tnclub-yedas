@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
+map_content_score: 4
+map_content_note: "Điểm biên tập sơ bộ: có ảnh phở bò, phở gà và hướng dẫn gọi món cơ bản; phần biến thể còn ngắn, thiếu đối chiếu chuyên sâu và khảo sát quán thực tế."
+map_rating_updated: "2026-11-27"
 ---
 
 Đi ăn phở ở Hà Nội, câu cần trả lời đầu tiên không phải quán nào nổi tiếng nhất mà là muốn ăn bò hay gà, phần thịt nào và có ăn hành không. Nói rõ ngay lúc gọi giúp bát phở đến bàn gần khẩu vị hơn.

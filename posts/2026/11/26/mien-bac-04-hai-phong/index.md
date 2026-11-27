@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hải Phòng"
 place_country: "Việt Nam"
 geo: [20.8449, 106.6881]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: ghép nhiều món nhưng chỉ có ảnh bối cảnh; thiếu ảnh bánh đa cua, bánh mì cay, nem cua bể và lịch trình đã kiểm chứng."
+map_rating_updated: "2026-11-27"
 ---
 
 Hải Phòng đáng có một buổi ăn riêng. Từ bát bánh đa cua đến chiếc bánh mì cay nhỏ, món ở đất cảng không chỉ là bản sao của những hàng ăn Hà Nội.

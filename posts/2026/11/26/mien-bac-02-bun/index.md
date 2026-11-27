@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: mới phân biệt ba món ở mức cơ bản; thiếu ảnh đúng món bún thang, bún ốc và đối chiếu khẩu vị cụ thể."
+map_rating_updated: "2026-11-27"
 ---
 
 Cùng một sợi bún trắng nhưng cách ăn có thể đổi hoàn toàn. Bún chả là bữa có thịt nướng và nước chấm; bún thang dựa vào nước dùng cùng nguyên liệu thái nhỏ; bún ốc lại có vị chua và độ giòn của ốc.

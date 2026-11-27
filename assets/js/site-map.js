@@ -167,7 +167,11 @@
       Guinea: 'africa', Togo: 'africa', Benin: 'africa', Niger: 'africa',
       'Sierra Leone': 'africa', Liberia: 'africa'
     };
-    var COUNTRY_LABEL = { 'United Arab Emirates': 'UAE' };
+    var COUNTRY_LABEL = { Vietnam: tx('country_vietnam', 'Việt Nam'), 'United Arab Emirates': 'UAE' };
+    function normalizeCountry(country) {
+      var value = (country || '').trim();
+      return /^(việt nam|viet nam|vietnam)$/i.test(value) ? 'Vietnam' : value;
+    }
     var COUNTRY_CODE = {
       Vietnam: 'vn', China: 'cn', Japan: 'jp', Taiwan: 'tw',
       Thailand: 'th', Korea: 'kr', Indonesia: 'id', Malaysia: 'my',
@@ -384,6 +388,7 @@
     }
 
     var entries = window.__athletePins.map(function (d, i) {
+      d.country = normalizeCountry(d.country);
       var icon = L.divIcon({
         className: 'athlete-pin-wrap' + (d.kind === 'place' ? ' place-pin-wrap' : ''),
         html: '<span class="athlete-pin' + (d.kind === 'place' ? ' place-pin' : '') + '" style="animation-delay:' + Math.min(i * 20, 1200) + 'ms">' +
@@ -421,8 +426,8 @@
           [tx('updated', 'Cập nhật'), d.ranking || (!hasScores && hasLegacyScore) ? d.ratingUpdated : '']
         ]);
         renderFacts('.athlete-qv-grid', isPlace
-          ? [[tx('f_country', 'Quốc gia'), d.country, COUNTRY_CODE[d.country]], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
-          : [[tx('f_nationality', 'Quốc tịch'), d.country, COUNTRY_CODE[d.country]], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
+          ? [[tx('f_country', 'Quốc gia'), COUNTRY_LABEL[d.country] || d.country, COUNTRY_CODE[d.country]], [tx('f_region', 'Vùng'), d.region], [tx('f_area', 'Diện tích'), d.area], [tx('f_population', 'Dân số'), d.population]]
+          : [[tx('f_nationality', 'Quốc tịch'), COUNTRY_LABEL[d.country] || d.country, COUNTRY_CODE[d.country]], [tx('f_event', 'Nội dung'), d.event], [tx('f_best_rank', 'Hạng cao nhất'), d.rank]]);
         renderFacts('.athlete-qv-facts', isPlace
           ? [[tx('f_highlights', 'Nên ghé'), d.highlights], [tx('f_best_time', 'Thời điểm nên đi'), d.bestTime]]
           : [[tx('f_skills', 'Kỹ năng nổi bật'), d.skills], [tx('f_achievement', 'Thành tích'), d.achievement]]);
@@ -453,7 +458,7 @@
       });
       return {
         marker: m, kind: d.kind, topic: d.topic, url: d.url, region: d.region || '', series: d.series, country: d.country || '',
-        searchText: normalizeText([d.name, d.title, d.nick, d.series, d.country, d.hometown,
+        searchText: normalizeText([d.name, d.title, d.nick, d.series, d.country, COUNTRY_LABEL[d.country], d.hometown,
           d.event, d.subtitle, d.region, d.economy, d.festival,
           CONTINENT_LABEL[COUNTRY_CONTINENT[d.country]] || ''].join(' '))
       };
@@ -594,9 +599,14 @@
         countryButton.type = 'button';
         countryButton.className = 'drop-group-title';
         countryButton.dataset.foodCountry = country;
-        countryButton.textContent = country;
+        countryButton.textContent = COUNTRY_LABEL[country] || country;
         group.appendChild(countryButton);
-        foodCountries[country].sort().forEach(function (region) {
+        var regionOrder = ['Miền Bắc', 'Miền Trung', 'Miền Nam'];
+        foodCountries[country].sort(function (a, b) {
+          var aIndex = regionOrder.indexOf(a), bIndex = regionOrder.indexOf(b);
+          return (aIndex === -1 ? regionOrder.length : aIndex) -
+            (bIndex === -1 ? regionOrder.length : bIndex) || a.localeCompare(b);
+        }).forEach(function (region) {
           var b = document.createElement('button');
           b.type = 'button';
           b.className = 'drop-item';
@@ -622,7 +632,7 @@
       foodDrop.querySelectorAll('[data-food-region]').forEach(function (b) {
         b.classList.toggle('drop-item-active', b.dataset.foodCountryName === activeFoodCountry && b.dataset.foodRegion === activeFoodRegion);
       });
-      foodLabel.textContent = tx('food', 'Ẩm thực') + (activeFoodCountry === 'all' ? '' : ': ' + activeFoodCountry) +
+      foodLabel.textContent = tx('food', 'Ẩm thực') + (activeFoodCountry === 'all' ? '' : ': ' + (COUNTRY_LABEL[activeFoodCountry] || activeFoodCountry)) +
         (activeFoodRegion === 'all' ? '' : ' · ' + activeFoodRegion);
     }
     var countryDialog = document.getElementById('map-country-dialog');
@@ -798,7 +808,7 @@
         travelDrop.querySelectorAll('.drop-group-title').forEach(function (b) {
           b.classList.remove('drop-group-title-active');
         });
-        travelLabel.textContent = activeCountry === 'all' ? tx('travel', 'Du lịch') : tx('travel', 'Du lịch') + ': ' + activeCountry;
+        travelLabel.textContent = activeCountry === 'all' ? tx('travel', 'Du lịch') : tx('travel', 'Du lịch') + ': ' + (COUNTRY_LABEL[activeCountry] || activeCountry);
         setMainFilter('Du lịch', travelDrop.querySelector('[data-filter="Du lịch"]'));
         countryDialog.close();
         return;
@@ -916,6 +926,8 @@
     // Khôi phục filter lần trước (localStorage), fallback về default
     try {
       var saved = JSON.parse(localStorage.getItem(LS_KEY) || 'null') || {};
+      saved.country = normalizeCountry(saved.country);
+      if (saved.food) saved.food.country = normalizeCountry(saved.food.country);
       var f = ['all', 'Thể thao', 'Du lịch', 'Ẩm thực'].indexOf(saved.f) >= 0 ? saved.f : DEFAULT_FILTER;
       if ((f === 'Du lịch' && !travelDrop) || (f === 'Ẩm thực' && !foodDrop)) f = 'all';
       if (saved.food && foodDialog && Object.prototype.hasOwnProperty.call(foodCountries, saved.food.country)) {
@@ -935,7 +947,7 @@
         var cb = travelDrop.querySelector('[data-country="' + saved.country + '"]');
         travelDrop.querySelector('[data-country="all"]').classList.remove('drop-item-active');
         cb.classList.add('drop-item-active');
-        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + activeCountry;
+        travelLabel.textContent = tx('travel', 'Du lịch') + ': ' + (COUNTRY_LABEL[activeCountry] || activeCountry);
       }
       if (saved.country && travelDrop && saved.country.indexOf('continent:') === 0 &&
           travelDrop.querySelector('[data-continent="' + saved.country.slice(10) + '"]')) {

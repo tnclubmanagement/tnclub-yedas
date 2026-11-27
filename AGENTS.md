@@ -82,6 +82,11 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   `.athlete-index-*`, kỹ năng, responsive và animation) ở
   `assets/css/athlete-card.css`, chỉ tải qua `_includes/head.html` khi
   `page.athlete` có giá trị hoặc `page.url == '/series/'`.
+- Bộ lọc ẩm thực trên bản đồ ưu tiên `place_region`; nếu thiếu thì lấy tag
+  `Miền Bắc` / `Miền Trung` / `Miền Nam` (không phân biệt hoa thường).
+  Khi thêm bài ẩm thực có `geo`, cần có tag miền hoặc `place_region` để lọc theo miền.
+  `site-map.js` chuẩn hóa `Vietnam` / `Việt Nam` / `Viet Nam` về khóa `Vietnam`
+  cho dữ liệu và lựa chọn đã lưu; nhãn hiển thị lấy từ `map.country_vietnam`.
 - Quickview map: front matter tuỳ chọn `place_highlights` (tối đa 3 mục),
   `place_best_time`, `place_food`, `place_transport`; phần VĐV dùng
   `athlete.skills`, `athlete.achievement`, `height`, `hand`, `debut`.

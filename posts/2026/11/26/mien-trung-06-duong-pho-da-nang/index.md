@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-trung/"
 place_name: "Đà Nẵng"
 place_country: "Việt Nam"
 geo: [16.0544, 108.2022]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: bài tập trung bánh tráng cuốn nhưng ảnh bìa là mì Quảng, ảnh trong bài chưa đúng món; gợi ý chợ và tuyến ăn còn khái quát."
+map_rating_updated: "2026-11-27"
 ---
 
 Đà Nẵng hợp với một vòng ăn gọn: chọn một món chính rồi ghé chợ hoặc một hàng nhỏ trên đường về. Bài này tập trung món ăn, không lặp lại cà phê muối hay món sữa đã có ở các series khác.

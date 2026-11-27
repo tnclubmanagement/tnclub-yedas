@@ -195,7 +195,18 @@ window.__athletePins = [
       name: {{ post.place_name | default: post.title | jsonify }},
       nick: "",
       subtitle: {{ post.subtitle | default: "" | jsonify }},
-      region: {{ post.place_region | default: "" | jsonify }},
+      {%- assign map_region = post.place_region | default: '' | strip -%}
+      {%- if map_region == '' and map_food_categories contains map_category -%}
+        {%- for tag in post.tags -%}
+          {%- assign region_tag = tag | downcase | strip -%}
+          {%- case region_tag -%}
+            {%- when 'miền bắc' -%}{%- assign map_region = 'Miền Bắc' -%}
+            {%- when 'miền trung' -%}{%- assign map_region = 'Miền Trung' -%}
+            {%- when 'miền nam' -%}{%- assign map_region = 'Miền Nam' -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      {%- endif -%}
+      region: {{ map_region | jsonify }},
       country: {{ post.place_country | default: "Vietnam" | jsonify }},
       population: {{ post.place_population | default: "" | jsonify }},
       area: {{ post.place_area | default: "" | jsonify }},

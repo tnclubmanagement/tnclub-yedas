@@ -5,7 +5,7 @@ subtitle: "6 bài để chọn món, hiểu cách ăn và đi chậm qua những
 cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
 ---
 
-Một bát <span class="menu-tag">phở</span> buổi sáng, suất <span class="menu-tag">bún chả</span> buổi trưa, rồi bữa <span class="menu-tag">chả cá</span> ngồi lại buổi tối: ăn ngon không nhất thiết phải chạy qua thật nhiều quán. Series này bắt đầu ở Hà Nội, dành một chặng riêng cho Hải Phòng, để nhận diện món trước khi chọn chỗ ngồi.
+Một bát <span>phở</span> buổi sáng, suất <span>bún chả</span> buổi trưa, rồi bữa <span>chả cá</span> ngồi lại buổi tối: ăn ngon không nhất thiết phải chạy qua thật nhiều quán. Series này bắt đầu ở Hà Nội, dành một chặng riêng cho Hải Phòng, để nhận diện món trước khi chọn chỗ ngồi.
 
 Sáu bài là sáu gợi ý gọi món, không phải bảng xếp hạng hay lời khẳng định mọi tỉnh miền Bắc đều ăn giống nhau. Không cần đọc theo thứ tự; chọn món hợp bụng và hỏi lại thành phần, giá, giờ bán tại quán.
 
@@ -14,27 +14,27 @@ Sáu bài là sáu gợi ý gọi món, không phải bảng xếp hạng hay l�
 <div class="menu-series">
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-01-pho/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-01-pho/pho.jpg' | relative_url }}" alt="Bát phở bò với hành và rau" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 01</span><h3 class="menu-series-title"><span class="menu-tag">Phở bò</span>, <span class="menu-tag">phở gà</span> và biến thể</h3><p class="menu-series-desc">Hà Nội: chọn phần thịt, nếm nước dùng rồi mới thêm gia vị.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 01</span><h3 class="menu-series-title"><span>Phở bò</span>, <span>phở gà</span> và biến thể</h3><p class="menu-series-desc">Hà Nội: chọn phần thịt, nếm nước dùng rồi mới thêm gia vị.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-02-bun/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-02-bun/bun-cha.jpg' | relative_url }}" alt="Bún chả ăn cùng rau và nước chấm" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span class="menu-tag">Bún chả</span>, <span class="menu-tag">bún thang</span>, <span class="menu-tag">bún ốc</span></h3><p class="menu-series-desc">Cùng sợi bún nhưng khác hẳn cách ăn, nước dùng và độ chua.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span>Bún chả</span>, <span>bún thang</span>, <span>bún ốc</span></h3><p class="menu-series-desc">Cùng sợi bún nhưng khác hẳn cách ăn, nước dùng và độ chua.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-03-banh-cuon/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-03-banh-cuon/banh-cuon.jpg' | relative_url }}" alt="Ảnh minh họa bánh gạo dạng sợi với bát nước chấm riêng, không phải bánh cuốn" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span class="menu-tag">Bánh cuốn</span> và đồ sáng Hà Nội</h3><p class="menu-series-desc">Bánh nóng, bát cháo hay bánh mì: chọn một bữa sáng vừa đủ.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span>Bánh cuốn</span> và đồ sáng Hà Nội</h3><p class="menu-series-desc">Bánh nóng, bát cháo hay bánh mì: chọn một bữa sáng vừa đủ.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-04-hai-phong/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-04-hai-phong/ban-an.jpg' | relative_url }}" alt="Bối cảnh bàn món Việt tại Hải Phòng" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 04</span><h3 class="menu-series-title">Hải Phòng: <span class="menu-tag">bánh đa cua</span>, <span class="menu-tag">bánh mì cay</span></h3><p class="menu-series-desc">Một chặng riêng ở đất cảng, thêm nem cua bể và bữa hải sản.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 04</span><h3 class="menu-series-title">Hải Phòng: <span>bánh đa cua</span>, <span>bánh mì cay</span></h3><p class="menu-series-desc">Một chặng riêng ở đất cảng, thêm nem cua bể và bữa hải sản.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-05-xoi-man/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-05-xoi-man/hang-qua.jpg' | relative_url }}" alt="Quầy hàng ăn ngoài trời tại Hà Nội" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span class="menu-tag">Xôi xéo</span>, <span class="menu-tag">xôi ngô</span> và <span class="menu-tag">xôi thịt</span></h3><p class="menu-series-desc">Bữa no phố cổ: chọn nền nếp và đồ mặn ăn kèm vừa bụng.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span>Xôi xéo</span>, <span>xôi ngô</span> và <span>xôi thịt</span></h3><p class="menu-series-desc">Bữa no phố cổ: chọn nền nếp và đồ mặn ăn kèm vừa bụng.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/hang-nuong.jpg' | relative_url }}" alt="Bối cảnh chế biến món nóng bên phố Hà Nội" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title"><span class="menu-tag">Chả cá</span> Hà Nội</h3><p class="menu-series-desc">Cá nóng, hành, thì là, bún và nước chấm cho một bữa ngồi lại.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title"><span>Chả cá</span> Hà Nội</h3><p class="menu-series-desc">Cá nóng, hành, thì là, bún và nước chấm cho một bữa ngồi lại.</p></div>
   </a>
 </div>
 

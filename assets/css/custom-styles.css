@@ -1372,6 +1372,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  filter: grayscale(20%);
 }
 
 /* Chip chủ đề trên card — nằm ngay dưới thumbnail, không đè lên ảnh */

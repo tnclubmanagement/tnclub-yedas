@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-trung/"
 place_name: "Huế"
 place_country: "Việt Nam"
 geo: [16.4637, 107.5909]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: ghép cơm hến với bữa hải sản khá rộng; ảnh trong bài chủ yếu là bối cảnh, chưa minh họa rõ cơm hến, bún hến và món vùng đầm phá."
+map_rating_updated: "2026-11-27"
 ---
 
 Hến là một chặng ăn riêng của Huế: nhỏ, nhiều thành phần và dễ khiến người mới gọi thêm gia vị quá tay. Bữa hải sản ở vùng ven biển, đầm phá lại cần một cách chuẩn bị khác, từ quãng đường đến cách tính tiền.

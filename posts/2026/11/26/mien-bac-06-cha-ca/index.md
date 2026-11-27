@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: chưa có ảnh chảo chả cá đúng món; hướng dẫn ăn còn cơ bản, thiếu minh họa thao tác và khảo sát thực tế."
+map_rating_updated: "2026-11-27"
 ---
 
 Chả cá Hà Nội là lý do để ngồi lại một bữa, thay vì liên tục chuyển hàng ăn. Cá được tẩm ướp, làm chín rồi đảo nóng với hành và thì là; người ăn ghép cùng bún, rau và nước chấm ngay trên bàn.

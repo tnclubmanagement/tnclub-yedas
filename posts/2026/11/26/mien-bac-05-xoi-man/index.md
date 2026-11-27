@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: thiếu ảnh đúng các loại xôi; mô tả nếp, đậu và đồ kèm còn ngắn, nhiều lời khuyên chung hơn thông tin riêng về món."
+map_rating_updated: "2026-11-27"
 ---
 
 Một gói xôi có thể thay cả bữa sáng, nhất là khi thêm thịt, trứng hoặc pate. Đừng gọi nó như món ăn chơi chỉ vì phần nếp nằm gọn trong chiếc bát nhỏ.

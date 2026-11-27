@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-bac/"
 place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
+map_content_score: 2
+map_content_note: "Điểm biên tập sơ bộ: ảnh minh họa chính không phải bánh cuốn Hà Nội; nội dung Thanh Trì còn khái quát, cần ảnh đúng món và tư liệu chi tiết hơn."
+map_rating_updated: "2026-11-27"
 ---
 
 Bữa sáng Hà Nội có thể bắt đầu bằng tiếng mở nắp nồi tráng bánh, không nhất thiết bằng một tô nước dùng. Bánh cuốn nóng hợp với người muốn một phần mềm, vừa bụng và có nước chấm tự điều chỉnh.

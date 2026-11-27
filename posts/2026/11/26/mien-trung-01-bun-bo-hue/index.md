@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:01:00 +0700"
 title: "[01 · Ăn ngon miền Trung] : Bún bò Huế, gọi theo phần thịt và độ cay"
 subtitle: "Thơm sả, đậm mắm ruốc và không chỉ có thịt bò"
-cover-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/cover.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/cover.jpg"
+cover-img: "/posts/2026/11/26/mien-trung-01-bun-bo-hue/banner-dai-noi.jpg"
+thumbnail-img: "https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Huế, Bún bò]
 series: "Ăn ngon miền Trung"
@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-trung/"
 place_name: "Huế"
 place_country: "Việt Nam"
 geo: [16.4637, 107.5909]
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: đã có ảnh Bún bò Huế nhưng còn ảnh bối cảnh chưa sát nội dung; hướng dẫn gọi món ngắn, chưa có khảo sát quán và so sánh biến thể."
+map_rating_updated: "2026-11-27"
 ---
 
 Một tô bún bò ở Huế đáng bắt đầu bằng việc hỏi phần thịt và nếm nước dùng. Tên có chữ bò nhưng bát bún có thể kèm giò heo, huyết hoặc chả tùy hàng; người không ăn thịt lợn cần hỏi cả nền nước dùng.
@@ -30,8 +33,8 @@ Nếm nước rồi thêm chanh từng ít; bắp chuối và rau ăn kèm cho �
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-trung-01-bun-bo-hue/bua-an-hue.jpg' | relative_url }}" alt="Các tô món sợi cùng rau xanh trên bàn ăn ở Huế" loading="lazy">
-  <figcaption>Bữa món sợi tại Huế: ảnh bối cảnh, không phải tô bún bò để đối chiếu thành phần. Ảnh: <a href="https://www.pexels.com/photo/authentic-vietnamese-noodles-in-hue-36913126/" target="_blank" rel="noopener">nhavantuonglai / Pexels</a>.</figcaption>
+  <img src="https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg" alt="Bún bò Huế" loading="lazy">
+  <figcaption>Bún bò Huế. Nguồn ảnh: <a href="https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg" target="_blank" rel="noopener">MediaMart</a>.</figcaption>
 </figure>
 </div>
 
@@ -61,7 +64,8 @@ Không lấy mức cay của một hàng làm kết luận rằng mọi món Hu�
 
 - [Vietnam Tourism — Hue’s Best to Eat, From the Palace to the Street](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): bún bò, giò heo và nguyên liệu nước dùng.
 - [Vietnam Tourism — Hue](https://vietnam.travel/place-to-go/north-central-coast/hue/): mùi sả, mắm ruốc trong bún bò.
-- Ảnh bìa: tô bún bò Huế — [Alpha / Wikimedia Commons, CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:B%C3%BAn_b%C3%B2_hu%C3%AA_-_Dakao_Hoang.jpg).
+- Ảnh banner: Đại Nội Huế, do người biên soạn cung cấp.
+- Ảnh thumbnail và ảnh Bún bò Huế trong bài: [MediaMart](https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg).
 - Ảnh Pexels tải bản rộng tối đa 800 px; tác giả và trang gốc dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

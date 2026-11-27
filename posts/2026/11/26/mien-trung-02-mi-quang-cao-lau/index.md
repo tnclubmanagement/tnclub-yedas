@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 12:02:00 +0700"
 title: "[02 · Ăn ngon miền Trung] : Mì Quảng và cao lầu ở Hội An"
 subtitle: "Ít nước không có nghĩa giống nhau: nhìn sợi, nhân và phần giòn"
-cover-img: "/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cover.jpg"
-thumbnail-img: "/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cover.jpg"
+cover-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg"
+thumbnail-img: "https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Trung, Hội An, Mì Quảng, Cao lầu]
 series: "Ăn ngon miền Trung"
@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-trung/"
 place_name: "Hội An"
 place_country: "Việt Nam"
 geo: [15.8801, 108.3380]
+map_content_score: 4
+map_content_note: "Điểm biên tập sơ bộ: đã có ảnh đúng mì Quảng và cao lầu, phân biệt được kết cấu cơ bản; còn thiếu đối chiếu sâu về cách làm sợi, biến thể và trải nghiệm thực tế."
+map_rating_updated: "2026-11-27"
 ---
 
 Ở Hội An, mì Quảng và cao lầu đều có thể khiến người quen phở nước ngạc nhiên vì lượng nước ít. Nhưng đó là cách hoàn thiện món, không phải quán quên chan đầy bát.
@@ -30,8 +33,8 @@ Trộn nhẹ để nước nhân bám sợi, bẻ bánh tráng từng phần đ�
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cho-hoi-an.jpg' | relative_url }}" alt="Cảnh mua bán ở chợ Hội An dưới những mái nhà" loading="lazy">
-  <figcaption>Chợ Hội An — ảnh bối cảnh nơi tìm món, không phải ảnh mì Quảng. Ảnh: <a href="https://www.pexels.com/photo/vibrant-market-scene-in-hoi-an-vietnam-38207559/" target="_blank" rel="noopener">Pham Huynh Tuan Vy / Pexels</a>.</figcaption>
+  <img src="https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg" alt="Mì Quảng" loading="lazy">
+  <figcaption>Mì Quảng. Nguồn ảnh: <a href="https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg" target="_blank" rel="noopener">Vietnamnomad</a>.</figcaption>
 </figure>
 </div>
 
@@ -46,8 +49,8 @@ Nguồn du lịch nhắc đến kỹ thuật làm sợi và nguyên liệu đị
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/quan-pho.jpg' | relative_url }}" alt="Chỗ ngồi ngoài hiên với đèn lồng ở Hội An" loading="lazy">
-  <figcaption>Không gian quán Hội An, ảnh bối cảnh cho điểm nghỉ; không phải ảnh cao lầu. Ảnh: <a href="https://www.pexels.com/photo/charming-vietnamese-cafe-in-hoi-an-36658490/" target="_blank" rel="noopener">Daciana Cristina Visan / Pexels</a>.</figcaption>
+  <img src="https://danangfantasticity.com/wp-content/uploads/2025/09/tong-hop-cac-mon-an-nhat-dinh-phai-thu-khi-den-da-nang-hoi-an-CAO-LAU-03.jpg" alt="Cao lầu Hội An" loading="lazy">
+  <figcaption>Cao lầu Hội An. Nguồn ảnh: <a href="https://danangfantasticity.com/wp-content/uploads/2025/09/tong-hop-cac-mon-an-nhat-dinh-phai-thu-khi-den-da-nang-hoi-an-CAO-LAU-03.jpg" target="_blank" rel="noopener">Danang Fantasticity</a>.</figcaption>
 </figure>
 </div>
 
@@ -62,7 +65,8 @@ Nếu đi hai người, hỏi quán có thể chia phần hay gọi một bát m
 - [Vietnam Tourism — Explore the food of Hoi An](https://vietnam.travel/things-to-do/explore-food-hoi-an/): cao lầu và ẩm thực Hội An.
 - [Vietnam Tourism — 4 must-try dishes from Quang Nam](https://vietnam.travel/things-to-do/4-must-try-dishes-quang-nam/): mì Quảng, cao lầu và sợi mì.
 - [Vietnam Tourism — A foodie guide to Vietnam’s noodles](https://vietnam.travel/things-to-do/noodles-of-vietnam/): cách ăn hai nhóm món ít nước.
-- Ảnh bìa: mì Quảng — [Gary Stevens / Wikimedia Commons, CC BY 2.0](https://commons.wikimedia.org/wiki/File:Mi_Quang_at_Ngoc_Mai_(with_noodles_uncovered).jpg).
-- Ảnh bối cảnh Pexels, credit dưới từng hình; bài chưa có ảnh cận cảnh đúng hai món.
+- Ảnh banner: [Vietnamnomad](https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Vietnam-Membership-Program-Footer-Banner-Mobile.jpg).
+- Ảnh thumbnail và ảnh Mì Quảng trong bài: [Vietnamnomad](https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg).
+- Ảnh Mì Quảng từ Vietnamnomad và ảnh cao lầu từ Danang Fantasticity có nguồn dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Trung]({{ page.series_url | relative_url }})

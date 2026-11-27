@@ -5,7 +5,7 @@ subtitle: "6 bài đi từ Huế qua Hội An đến Đà Nẵng, chọn món th
 cover-img: "/posts/2026/11/26/an-ngon-mien-trung/banner.jpg"
 ---
 
-Miền Trung không chỉ có món cay. Một chén <span class="menu-tag">bánh bèo</span>, tô <span class="menu-tag">mì Quảng</span> ít nước hay cuốn <span class="menu-tag">nem lụi</span> nhiều rau tạo ra những bữa ăn rất khác nhau. Series này chọn ba điểm dừng Huế, Hội An và Đà Nẵng, không cố đại diện toàn bộ dải đất miền Trung.
+Miền Trung không chỉ có món cay. Một chén <span>bánh bèo</span>, tô <span>mì Quảng</span> ít nước hay cuốn <span>nem lụi</span> nhiều rau tạo ra những bữa ăn rất khác nhau. Series này chọn ba điểm dừng Huế, Hội An và Đà Nẵng, không cố đại diện toàn bộ dải đất miền Trung.
 
 Không cần đọc theo thứ tự. Chọn món đang có trên menu, xem thành phần và cách ăn rồi gọi phần vừa đủ. Đây là hướng dẫn nhận diện, không phải danh sách quán đã kiểm chứng thực địa; giá, giờ bán và công thức cần hỏi lại tại nơi ăn.
 
@@ -13,28 +13,28 @@ Không cần đọc theo thứ tự. Chọn món đang có trên menu, xem thàn
 
 <div class="menu-series">
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-01-bun-bo-hue/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-trung-01-bun-bo-hue/cover.jpg' | relative_url }}" alt="Tô bún bò Huế nước đỏ với thịt bò, chả và rau thơm" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 01</span><h3 class="menu-series-title"><span class="menu-tag">Bún bò Huế</span></h3><p class="menu-series-desc">Nước dùng thơm sả, chọn phần thịt và điều chỉnh độ cay.</p></div>
+    <img src="https://cdn.mediamart.vn/images/news/hc-cach-nu-bun-bo-hu-thom-ngon-dung-chun-huong-v_519e659c.jpg" alt="Bún bò Huế" loading="lazy">
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 01</span><h3 class="menu-series-title"><span>Bún bò Huế</span></h3><p class="menu-series-desc">Nước dùng thơm sả, chọn phần thịt và điều chỉnh độ cay.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/' | relative_url }}">
-    <img src="{{ '/posts/2026/11/26/mien-trung-02-mi-quang-cao-lau/cover.jpg' | relative_url }}" alt="Tô mì Quảng sợi vàng với tôm, thịt và rau ăn kèm" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span class="menu-tag">Mì Quảng</span> và <span class="menu-tag">cao lầu</span></h3><p class="menu-series-desc">Hội An: hai món ít nước nhưng không phải cùng một kiểu sợi.</p></div>
+    <img src="https://vietnamnomad.com/wp-content/uploads/2022/09/What-is-Mi-Quang-Quang-Noodle-Vietnamnomad-696x522.jpg" alt="Mì Quảng" loading="lazy">
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 02</span><h3 class="menu-series-title"><span>Mì Quảng</span> và <span>cao lầu</span></h3><p class="menu-series-desc">Hội An: hai món ít nước nhưng không phải cùng một kiểu sợi.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-03-beo-nam-loc/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-trung-03-beo-nam-loc/cover.jpg' | relative_url }}" alt="Mâm bánh bèo, bánh bột lọc và nem chua bày cùng nhau" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span class="menu-tag">Bánh bèo</span>, <span class="menu-tag">nậm</span>, <span class="menu-tag">lọc</span></h3><p class="menu-series-desc">Bột gạo mềm hay bột năng dai, gọi đĩa thử trước khi thêm.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 03</span><h3 class="menu-series-title"><span>Bánh bèo</span>, <span>nậm</span>, <span>lọc</span></h3><p class="menu-series-desc">Bột gạo mềm hay bột năng dai, gọi đĩa thử trước khi thêm.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-04-hen-hai-san/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-trung-04-hen-hai-san/cover.jpg' | relative_url }}" alt="Dĩa hến trộn với hành phi, ớt và rau thơm" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 04</span><h3 class="menu-series-title"><span class="menu-tag">Cơm hến</span> và hải sản xứ Huế</h3><p class="menu-series-desc">Bát trộn nhỏ và bữa hải sản cần thống nhất cách tính tiền.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 04</span><h3 class="menu-series-title"><span>Cơm hến</span> và hải sản xứ Huế</h3><p class="menu-series-desc">Bát trộn nhỏ và bữa hải sản cần thống nhất cách tính tiền.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-05-nem-lui/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-trung-05-nem-lui/cover.jpg' | relative_url }}" alt="Bánh khoái Huế giòn vàng, cắt đôi lộ nhân tôm thịt và giá" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span class="menu-tag">Nem lụi</span> và <span class="menu-tag">bánh khoái</span></h3><p class="menu-series-desc">Cuốn vừa một miếng, hỏi nước chấm và đồ ăn kèm ở Huế.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 05</span><h3 class="menu-series-title"><span>Nem lụi</span> và <span>bánh khoái</span></h3><p class="menu-series-desc">Cuốn vừa một miếng, hỏi nước chấm và đồ ăn kèm ở Huế.</p></div>
   </a>
   <a class="menu-series-card" href="{{ '/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/' | relative_url }}">
     <img src="{{ '/posts/2026/11/26/mien-trung-06-duong-pho-da-nang/cover.jpg' | relative_url }}" alt="Tô mì Quảng tôm thịt với đậu phộng và bánh đa tại Đà Nẵng" loading="lazy">
-    <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title">Đà Nẵng: <span class="menu-tag">bánh tráng cuốn thịt heo</span> và chợ phố</h3><p class="menu-series-desc">Một vòng ăn gọn, không lặp lại nội dung cà phê và món sữa.</p></div>
+    <div class="menu-series-card-body"><span class="menu-series-num">Bài 06</span><h3 class="menu-series-title">Đà Nẵng: <span>bánh tráng cuốn thịt heo</span> và chợ phố</h3><p class="menu-series-desc">Một vòng ăn gọn, không lặp lại nội dung cà phê và món sữa.</p></div>
   </a>
 </div>
 

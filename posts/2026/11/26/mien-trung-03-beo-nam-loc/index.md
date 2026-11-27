@@ -13,6 +13,9 @@ series_url: "/posts/2026/11/26/an-ngon-mien-trung/"
 place_name: "Huế"
 place_country: "Việt Nam"
 geo: [16.4637, 107.5909]
+map_content_score: 3
+map_content_note: "Điểm biên tập sơ bộ: phân biệt được ba kiểu bột nhưng thiếu ảnh riêng từng bánh Huế; ảnh bánh lọc là biến thể tại Phan Thiết, cần tư liệu sát địa phương hơn."
+map_rating_updated: "2026-11-27"
 ---
 
 Bèo, nậm, lọc thường đứng cạnh nhau trên menu nhưng không phải ba tên của cùng một chiếc bánh. Cách chứa bánh và loại bột giúp đoán kết cấu trước khi ăn.

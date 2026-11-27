@@ -226,7 +226,7 @@ window.__athletePins = [
       destinationNote: {{ post.map_destination_note | default: "" | jsonify }},
       ratingUpdated: {{ post.map_rating_updated | default: "" | jsonify }},
       url: {{ post.url | relative_url | jsonify }},
-      image: {{ post["cover-img"] | relative_url | jsonify }},
+      image: {{ post["thumbnail-img"] | default: post["cover-img"] | relative_url | jsonify }},
       {% assign place_avatar = post["thumbnail-img"] | default: post["cover-img"] %}
       {% if post["cover-img"] and post["cover-img"] contains 'cover.' %}
         {% assign pin_base = post["cover-img"] | split: 'cover.' | first %}

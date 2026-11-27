@@ -60,6 +60,16 @@ Bánh gói lá dễ mang nhưng không có nghĩa để ngoài trời lâu vẫn
 
 Với bữa tại chỗ, chọn đĩa hỗn hợp nhỏ rồi gọi thêm loại thích nhất. Kết thúc khi còn thấy ngon sẽ dễ nhớ sự khác nhau giữa ba lớp bột hơn cố ăn hết một mâm chỉ vì bánh trông nhỏ.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/xhmeGA4V77Q" title="Ẩm Thực Huế: Bánh Bèo, Nậm, Bột Lọc" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/eXOKEOToeks" title="Savory Steamed Rice Cakes (Banh Beo)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Hue News — Duc Buu banh beo, banh nam, and banh loc craft village](https://news.huengaynay.vn/photos/duc-buu-banh-beo-banh-nam-and-banh-loc-craft-village-126441.html): bột gạo, bột năng, nhân tôm thịt và gói lá.

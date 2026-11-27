@@ -62,6 +62,16 @@ Nước mắm pha có thể ngọt, cay sẵn; mỡ hành có thể dùng dầu 
 
 Canh và phần thêm tùy quán, không mặc định đều miễn phí. Hỏi giá suất đã chọn, ăn hết phần vừa sức rồi mới thêm cơm. Một bữa ngon không cần biến thành thử thách ăn đủ mọi món trên bảng.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/eDC9g5ZRf4Y" title="Cơm Tấm Sườn Bì Chả Cây Gõ Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/KLOU5wEcj64" title="CƠM TẤM SÀ BÌ CHƯỞNG - Ẩm thực Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Ho Chi Minh City Cuisine](https://vietnam.travel/things-to-do/ho-chi-minh-city-cuisine-street-eats-fine-dining/): cơm tấm, sườn nướng và đồ ăn kèm.

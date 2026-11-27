@@ -62,6 +62,16 @@ Cá kho tộ hợp với cơm nóng và rau; bún cá Châu Đốc là lựa ch�
 
 Hỏi loại cá, phần xương và độ cay trước khi gọi cho trẻ nhỏ hoặc người khó ăn xương. Bữa cá sông vẫn cần nấu chín kỹ; đồ tươi và món lên men không tự đồng nghĩa ăn sống được an toàn. Ăn một món rõ vị cũng đủ cảm nhận một chặng miền Tây.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/1SRhzJ2NCPk" title="Cá Bông Lau nấu Lẩu Mắm - Đặc sản Miền Tây" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/jBwdKNYMcss" title="Cá Hấp Lá Dúi đặc sản Châu Đốc" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — An Giang, Must-try Flavours](https://vietnam.travel/place-to-go/mekong-delta/an-giang/): lẩu mắm và bún cá Châu Đốc.

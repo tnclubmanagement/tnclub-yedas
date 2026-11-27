@@ -60,6 +60,16 @@ Rau và bắp chuối làm bát bún có độ tươi, giòn. Nếu không dùng
 
 Không lấy mức cay của một hàng làm kết luận rằng mọi món Huế đều cay. Tìm ra tô bún hợp khẩu vị quan trọng hơn cố chứng minh mình ăn được nhiều ớt. Một bữa ngon có thể kết thúc ngay ở tô bún vừa đủ, không cần ghép thêm món khác.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/eOmQbJljnqE" title="How to make BUN BO HUE | Helen's Recipes" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/v7chvq53qqU" title="Bún Bò Huế - Better Than Phở" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Hue’s Best to Eat, From the Palace to the Street](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): bún bò, giò heo và nguyên liệu nước dùng.

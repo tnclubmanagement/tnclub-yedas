@@ -60,6 +60,16 @@ Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao 
 
 Để bữa ăn này làm điểm chính của buổi tối thay vì món thứ tư trong một vòng ăn. Sau cá nóng và dầu, đi bộ một đoạn rồi nghỉ có thể vừa đủ; không cần thêm ly cà phê hay món sữa để khép lại mọi hành trình.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/kayZHRNghzU" title="CHẢ CÁ LÃ VỌNG - món ngon gắn liền đất Hà Thành" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/G3kRh7fc2Io" title="Chả Cá Lã Vọng - Street Food in Hanoi" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): chả cá với hành, thì là và cách làm nóng tại bàn.

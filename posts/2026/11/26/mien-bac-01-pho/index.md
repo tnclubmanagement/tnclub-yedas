@@ -62,6 +62,16 @@ Phở nước không đại diện cho mọi món có chữ phở. Phở xào d�
 
 Nếu đi nhóm, chọn một đĩa dùng chung để so kết cấu thay vì mỗi người gọi một phần lớn. Hỏi nước chấm có sẵn ớt hay không và xác nhận thành phần khi dị ứng; bỏ rau nhìn thấy trên mặt không loại bỏ nguyên liệu đã có trong nước dùng.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/e17Oa3XiYBo" title="THIS IS WHAT REAL PHO IN HANOI TASTES LIKE" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/JDvUGM_jRvk" title="PHỞ BÁT ĐÀN - Best Pho in Hanoi, Vietnam !!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - Ảnh banner: [Tuổi Trẻ](https://cdn.tuoitre.vn/471584752817336320/2024/8/16/kv-revised-107-1723767064945925136241.jpg).

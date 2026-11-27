@@ -60,6 +60,16 @@ Muốn món nóng mềm hơn có thể chọn cháo; muốn cầm đi thì bánh
 
 Chọn hàng chế biến gọn gàng, đồ nóng được phục vụ nóng và có chỗ ngồi không cản lối đi. Nếu sáng còn phải di chuyển, ăn một món chính rồi mang nước theo thường hợp lý hơn cố ghép cả lịch ăn trong một giờ.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/djqz7Ar0JhI" title="Bánh cuốn - Hanoi Vietnam, Bánh cuốn nóng Hồng Anh" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/cFbv9RnNepw" title="Bánh Cuốn Nóng: The Best Breakfast in Hanoi?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - Ảnh banner toàn cảnh Hà Nội về đêm: [Thủ Thuật Phần Mềm](https://img5.thuthuatphanmem.vn/uploads/2021/12/06/anh-toan-canh-ha-noi-ve-dem_013054022.jpg).

@@ -2,6 +2,38 @@
   // Icon "x" của Lucide (inline SVG, không cần tải thư viện icon ngoài)
   var CLOSE_ICON = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
 
+  function buildClusterPopup(list, countryLabels) {
+    function escape(value) {
+      return String(value || '').replace(/[&<>"']/g, function (ch) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
+      });
+    }
+    var groups = [];
+    list.forEach(function (en, idx) {
+      var d = en.d;
+      var label = d.kind === 'place' && d.topic === 'food' && d.title ? d.title : d.name;
+      var sub = d.kind === 'place'
+        ? [countryLabels[d.country] || d.country, d.region].filter(Boolean).join(' · ')
+        : [d.event || d.series, countryLabels[d.country] || d.country].filter(Boolean).join(' · ');
+      var match = d.topic === 'food' && label.match(/^\[\s*\d+\s*·\s*([^\]]+)\]\s*:\s*(.+)$/);
+      var title = match ? match[1].trim() : '';
+      if (match) label = match[2].trim();
+      var group = title && groups.filter(function (g) { return g.title === title && g.sub === sub; })[0];
+      if (!group) {
+        group = { title: title, sub: sub, items: [] };
+        groups.push(group);
+      }
+      group.items.push('<button type="button" class="map-cluster-item" data-idx="' + idx + '">' +
+        (d.avatar ? '<img src="' + escape(d.avatar) + '" alt="" loading="lazy">' : '<span class="map-cluster-noimg"></span>') +
+        '<span class="map-cluster-text"><strong>' + escape(label) + '</strong>' +
+        (!title && sub ? '<small>' + escape(sub) + '</small>' : '') + '</span></button>');
+    });
+    return '<div class="map-cluster-list">' + groups.map(function (group) {
+      return (group.title ? '<div class="map-cluster-heading"><h3>' + escape(group.title) + '</h3>' +
+        (group.sub ? '<small>' + escape(group.sub) + '</small>' : '') + '</div>' : '') + group.items.join('');
+    }).join('') + '</div>';
+  }
+
   function initMap() {
     var el = document.getElementById('athlete-map');
     var qv = document.getElementById('athlete-quickview');
@@ -497,17 +529,7 @@
       cm.on('click', function () {
         if (cl.visList.length === 1) { map.closePopup(); openQuickview(cl.visList[0].d); return; }
         if (!cl.visList.length) return;
-        var html = '<div class="map-cluster-list">' + cl.visList.map(function (en, idx) {
-          var d = en.d;
-          var label = d.kind === 'place' ? (d.topic === 'food' && d.title ? d.title : d.name) : d.name;
-          var sub = d.kind === 'place'
-            ? [COUNTRY_LABEL[d.country] || d.country, d.region].filter(Boolean).join(' · ')
-            : [d.event || d.series, COUNTRY_LABEL[d.country] || d.country].filter(Boolean).join(' · ');
-          return '<button type="button" class="map-cluster-item" data-idx="' + idx + '">' +
-            (d.avatar ? '<img src="' + d.avatar + '" alt="" loading="lazy">' : '<span class="map-cluster-noimg"></span>') +
-            '<span class="map-cluster-text"><strong>' + label + '</strong>' +
-            (sub ? '<small>' + sub + '</small>' : '') + '</span></button>';
-        }).join('') + '</div>';
+        var html = buildClusterPopup(cl.visList, COUNTRY_LABEL);
         cm.getPopup().setContent(html);
       });
       cm.on('popupopen', function () {

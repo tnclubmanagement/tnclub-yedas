@@ -74,6 +74,16 @@ Trộn nhẹ lúc mới ra để sốt bám đều. Thử một đũa trước k
 
 Với bữa ăn thoải mái, chọn quán trong nhà, xem menu rồi gọi rõ nhân, sợi, khô/nước và phần rau. Không gian trong nhà cũng không tự bảo đảm vệ sinh: quan sát cách giữ thực phẩm, dụng cụ và phục vụ món nóng vẫn cần thiết.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/8AgDuPCgKuM" title="Hủ tiếu Nam Vang Trung Còi quận 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/BheIlsxbN88" title="Tiệm Hủ Tiếu Mực Trên Đường Phố Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Ho Chi Minh City Cuisine](https://vietnam.travel/things-to-do/ho-chi-minh-city-cuisine-street-eats-fine-dining/): phần nhân và bản khô/nước.

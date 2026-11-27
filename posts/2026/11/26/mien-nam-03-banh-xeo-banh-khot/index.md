@@ -62,6 +62,16 @@ Rau cho độ tươi và làm miếng bánh bớt cảm giác nhiều dầu; đ�
 
 Bánh chiên nguội sẽ đổi kết cấu. Đi nhóm nhỏ thì gọi ít, ăn hết mới thêm; đi một mình có thể chọn một loại thay vì buộc phải thử cả hai trong một bữa. Hỏi rõ phần rau hoặc bánh tráng thêm có tính tiền không.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/rkDnjxFzoaQ" title="QUÁN BÁNH KHỌT CÔ BA VŨNG TÀU" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/Gd7U57Psi0g" title="Cách làm Bánh khọt Vũng Tàu đạt chuẩn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Ho Chi Minh City, Must-try Flavours](https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/): bánh khọt Vũng Tàu và bánh xèo hải sản vùng Bà Rịa–Vũng Tàu.

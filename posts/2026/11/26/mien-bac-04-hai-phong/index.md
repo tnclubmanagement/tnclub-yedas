@@ -60,6 +60,16 @@ Nếu muốn ăn hải sản, dành riêng một bữa thay vì gọi thêm sau 
 
 Chọn món chín kỹ, không mặc định hải sản tươi có thể ăn sống an toàn. Nếu đi trong ngày bằng tàu, để một khoảng đệm trước giờ về thay vì xếp quán cuối sát giờ khởi hành. Không cần ăn đủ tất cả mới tính là đã trải nghiệm thành phố.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/yDwemnMYzi8" title="Kinh Nghiệm đi Food Tour Hải Phòng từ A - Z" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/BXxiEgL_6g8" title="Crab Fried Specialty of Hai Phong" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - Ảnh banner bánh đa cua: [HoangTuanAnh / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BANH_DA_CUA_1.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); giữ kích thước gốc 800 × 532 px, khung banner cắt theo màn hình.

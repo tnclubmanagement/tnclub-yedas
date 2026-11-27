@@ -32,6 +32,9 @@ expected = ['/posts/small/avatar.jpg', '/posts/cover-only/cover.jpg', '/posts/th
   avatars = output.scan(/avatar:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
   wanted = expected.map { |path| path.start_with?('https://', 'http://') ? path : "#{baseurl}#{path}" }
   raise "Wrong map avatars for #{baseurl.inspect}: #{avatars.inspect}" unless avatars == wanted
+  images = output.scan(/image:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
+  wanted_images = fixtures.map { |post| post['thumbnail-img'] || post['cover-img'] || post.dig('athlete', 'avatar') }.map { |path| path.start_with?('https://', 'http://') ? path : "#{baseurl}#{path}" }
+  raise "Quickview must prefer cover/thumbnail over banner for #{baseurl.inspect}: #{images.inspect}" unless images == wanted_images
   raise 'Missing food filter' unless output.include?('data-filter="Ẩm thực"')
   raise 'Wrong food classification' unless output.scan(/topic:\s*"food"/).size == 3 && output.scan(/topic:\s*"travel"/).size == 4
   raise 'Missing food country/region dialog' unless output.include?('id="map-food-dialog"') && output.include?('id="map-food-groups"') && output.include?('data-food-country="all"')

@@ -60,6 +60,16 @@ Bánh xèo kiểu địa phương thường được chia miếng, cuốn rau v�
 
 Chợ đêm có thể thay đổi hoạt động theo thời điểm. Kiểm tra lịch hiện hành, giữ đường về đơn giản và đừng xếp thêm một bữa lớn chỉ vì phố vẫn sáng đèn. Kết thúc bằng nước uống và một đoạn đi bộ đã đủ để nhớ bữa ăn.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/OwSAL3k-DRc" title="Vietnamese Street Food Tour in Da Nang" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/TS_CYHYKFN8" title="Best Restaurants in Da Nang - Ultimate Food Guide" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — A foodie’s guide to Da Nang](https://vietnam.travel/things-to-do/foodie-guide-da-nang/): mì Quảng, bánh xèo và món ăn địa phương.

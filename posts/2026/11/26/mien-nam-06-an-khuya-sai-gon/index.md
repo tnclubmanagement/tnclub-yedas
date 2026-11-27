@@ -130,6 +130,16 @@ Xem trước chỗ ngồi, menu và giờ nhận khách cuối. Nếu quán đô
 
 Nếu có uống rượu bia, không tự lái. Một bữa nhỏ và đường về ngắn sẽ hợp hơn kéo dài thêm nhiều điểm khi đã mệt. Kết thúc lúc còn dễ chịu cũng là một phần của ăn ngon.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/Lrw9MymAq4Y" title="Late night street food in Saigon" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/20UI5XR2znc" title="Ẩm thực chợ đêm Tân Định" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Explore delicious dishes in Ho Chi Minh City](https://vietnam.travel/things-to-do/explore-delicious-dishes-ho-chi-minh-city/): các cách chế biến ốc và nhóm hải sản như hàu, cua, tôm, mực.

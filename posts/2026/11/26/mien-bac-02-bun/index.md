@@ -60,6 +60,16 @@ Bún ốc nóng thường gặp với cà chua, vị chua và rau thơm; bún �
 
 Chỉ chọn ốc được nấu chín kỹ, ăn khi món còn ở điều kiện phục vụ phù hợp. Nếu dị ứng nhuyễn thể, bỏ ốc ra khỏi bát không làm nước dùng trở thành an toàn. Muốn so ba món, chia chúng ra ba bữa sẽ cảm nhận rõ hơn và đỡ phí thức ăn.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/JlRPLaOjXoM" title="Đi ăn quán bún chả Hương Liên - bún chả Obama đông kín người" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/YUwR2HW86tA" title="Bún Chả 41 Cửa Đông Phố Cổ Hà Nội" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - Ảnh banner: [Markus Winkler / Pexels](https://www.pexels.com/photo/bun-cha-served-on-a-winnowing-basket-3858270/).

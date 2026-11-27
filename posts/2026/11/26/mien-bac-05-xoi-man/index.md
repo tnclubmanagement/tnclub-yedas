@@ -60,6 +60,16 @@ Gọi một nền xôi và một món kèm trước. Nếu đi nhóm, có thể 
 
 Mua mang đi thì hỏi cách giữ và thời gian nên ăn, nhất là suất có trứng, thịt hoặc pate. Bọc kín không có nghĩa có thể để cả buổi trong xe nóng. Ăn khi món vừa được phục vụ sẽ rõ kết cấu nếp hơn để lâu rồi hâm nhiều lần.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/W2JEBLaMRxk" title="XÔI XÉO CÔ MÂY // Bản đồ ăn của Ninh Tito" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/T0gwaAP5k9Y" title="FIVE Must-Eat Hanoi STREET FOODS!" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - Ảnh banner Hồ Gươm: [Vietravel](https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-ha-noi-v18484.aspx), dùng lại ảnh từ bài Hà Nội trên site; ảnh phong cảnh, không minh họa món xôi.

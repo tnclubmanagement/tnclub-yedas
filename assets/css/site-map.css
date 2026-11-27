@@ -535,8 +535,11 @@ a.athlete-qv-weather, a.athlete-qv-weather:visited { color: #fff !important; }
   background: var(--bg-light);
 }
 .map-cluster-text { display: flex; flex-direction: column; min-width: 0; }
-.map-cluster-text strong { font-size: 0.85rem; color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.map-cluster-text strong { font-size: 0.85rem; color: var(--ink); white-space: normal; overflow-wrap: anywhere; }
 .map-cluster-text small { font-size: 0.72rem; color: var(--muted); }
+.map-cluster-heading { padding: 0.5rem 1.4rem 0.4rem 0.5rem; }
+.map-cluster-heading h3 { margin: 0; font-size: 0.95rem; font-weight: 700; color: var(--ink); }
+.map-cluster-heading small { font-size: 0.72rem; color: var(--muted); }
 
 /* ---------- Hàng chip lựa chọn đang áp dụng ---------- */
 .map-filter-chips {

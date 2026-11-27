@@ -60,6 +60,16 @@ Nếu dành bữa khác cho vùng ven biển hoặc đầm phá quanh Huế, h�
 
 Chọn món nấu chín kỹ, không mặc định đồ vừa bắt lên có thể ăn sống an toàn. Chuyến đi xa trung tâm cần thời gian về và phương tiện phù hợp; nếu có uống rượu bia, không tự lái. Đây là lưu ý tổ chức bữa ăn, không phải đề xuất một nhà hàng đã được kiểm tra.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/e0_ys3QwrTw" title="Hến trộn + Bánh bèo Huế" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/fOkdL9JD-Og" title="CÁCH LÀM MÓN CƠM HẾN ĐẶC SẢN HUẾ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): cơm hến và nguyên liệu ăn kèm.

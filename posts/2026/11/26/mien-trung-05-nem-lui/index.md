@@ -60,6 +60,16 @@ Trước khi gọi, kiểm tra một suất có bao nhiêu que nem, bánh khoái
 
 Có thể để nem làm món chính và gọi một bánh chia nhau. Đủ rau và một ít sốt thường cân bằng hơn cuốn chỉ toàn thịt rồi chấm ngập. Muốn nghỉ giữa bữa, tạm dừng gọi thêm sẽ tốt hơn để bánh mới ra nguội dần trên bàn.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/mVA1H8RrRwI" title="Ẩm thực đường phố Huế: bánh khoái, bún bò hẻm" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/Tg4RlyRfVEs" title="Ẩm thực chợ Đông Ba - Món Nem Lụi" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Hue’s Best to Eat](https://vietnam.travel/things-to-do/hue-best-to-eat-palace-street/): nem lụi, bánh khoái, nguyên liệu và cách cuốn.

@@ -60,6 +60,16 @@ Nếu đi hai người, hỏi quán có thể chia phần hay gọi một bát m
 
 Ăn chay cần hỏi nước nhân, mỡ, nước mắm và phần thịt chứ không chỉ xin bỏ xá xíu. Rau sống là lựa chọn tùy người; có thể hỏi rau trụng khi cần thận trọng hơn với đồ sống.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/OqdL3jACuxA" title="HOI AN Food Tour (Banh Xeo, Cao Lau)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/UlC3wqh7RO4" title="Foodtour Hội An - 7 món PHẢI THỬ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — Explore the food of Hoi An](https://vietnam.travel/things-to-do/explore-food-hoi-an/): cao lầu và ẩm thực Hội An.

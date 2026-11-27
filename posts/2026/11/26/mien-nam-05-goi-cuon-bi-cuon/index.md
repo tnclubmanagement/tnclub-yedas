@@ -62,6 +62,16 @@ Một cuốn tôm thịt và một cuốn bì là cách thử gọn nếu quán 
 
 Đồ có tôm thịt chín và rau sống vẫn cần bảo quản phù hợp. Mua mang đi nên hỏi thời gian dùng, tránh để lâu trong xe nóng. Ăn lúc mới cuốn thường dễ chịu hơn khi bánh đã khô mép hoặc dính chặt vào nhau.
 
+## Xem thêm qua video
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/ZzGj2-FU3wo" title="Vietnam Street Food in Saigon - Gỏi cuốn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/yVVaxtD3_iI" title="Gỏi Cuốn Tôm Thịt - Càn Quét Sài Gòn" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ### Nguồn tham khảo
 
 - [Vietnam Tourism — 10 delicious Vietnamese rolls](https://vietnam.travel/things-to-do/10-delicious-vietnamese-rolls/): gỏi cuốn, nhân tôm thịt và lựa chọn chay.

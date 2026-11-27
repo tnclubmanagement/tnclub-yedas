@@ -126,6 +126,29 @@
       var selectedTag = "";
       var displayMode = "grid";
       var restoringUrl = false;
+      var masonryFrame;
+      var supportsMasonry = !!homeControls.querySelector('[data-mode="masonry"]');
+
+      function layoutMasonry() {
+        cancelAnimationFrame(masonryFrame);
+        masonryFrame = requestAnimationFrame(function () {
+          var active = displayMode === "masonry" && window.innerWidth > 640;
+          cards.forEach(function (card) {
+            card.style.gridRowEnd = active && !card.hidden ?
+              "span " + Math.ceil(card.querySelector("article").offsetHeight + 34) : "";
+          });
+        });
+      }
+
+      if (supportsMasonry) {
+        window.addEventListener("resize", layoutMasonry);
+        postsList.addEventListener("load", layoutMasonry, true);
+        if ("ResizeObserver" in window) {
+          var masonryObserver = new ResizeObserver(layoutMasonry);
+          cards.forEach(function (card) { masonryObserver.observe(card.querySelector("article")); });
+        }
+        if (document.fonts) document.fonts.ready.then(layoutMasonry);
+      }
 
       function updatePostsUrl(replace) {
         if (restoringUrl) return;
@@ -149,8 +172,10 @@
         });
         search.value = params.get("q") || "";
         setTag(validCategory ? category : "");
-        var mode = params.get("view") || localStorage.getItem("yedas-home-display-mode");
-        setDisplayMode(mode === "list" ? "list" : "grid");
+        var savedMode;
+        try { savedMode = localStorage.getItem("yedas-home-display-mode"); } catch (error) {}
+        var mode = params.get("view") || savedMode;
+        setDisplayMode(mode === "list" || (mode === "masonry" && supportsMasonry) ? mode : "grid");
         restoringUrl = false;
       }
       var PAGE_SIZE = 24;
@@ -170,6 +195,7 @@
           card.hidden = !matches || matched >= visibleLimit;
           if (matches) matched++;
         });
+        layoutMasonry();
         var shown = Math.min(matched, visibleLimit);
         if (totalCount) {
           var unit = totalCount.dataset.unit || "bài viết";
@@ -217,12 +243,14 @@
       function setDisplayMode(mode) {
         displayMode = mode;
         postsList.classList.toggle("posts-list-mode-list", mode === "list");
+        postsList.classList.toggle("posts-list-mode-masonry", mode === "masonry" && supportsMasonry);
+        layoutMasonry();
         modeButtons.forEach(function (button) {
           var active = button.dataset.mode === mode;
           button.classList.toggle("is-active", active);
           button.setAttribute("aria-pressed", String(active));
         });
-        localStorage.setItem("yedas-home-display-mode", mode);
+        try { localStorage.setItem("yedas-home-display-mode", mode); } catch (error) {}
         updatePostsUrl(false);
       }
 

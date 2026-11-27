@@ -64,6 +64,10 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   `_includes/head.html` khi `page.url` là `/` hoặc `/index.html`, cả VI/EN.
   Các class `home-*` của bộ lọc/danh sách bài vẫn dùng chung ở
   `custom-styles.css` vì trang `/posts/` cũng sử dụng.
+  Trang `/posts/` hỗ trợ Grid / Masonry / List, không áp dụng cho trang chủ.
+  Masonry dùng CSS Grid row spans, đo chiều cao article bằng ResizeObserver
+  trong `custom-animations.js`; mobile ≤640px trở về một cột. Chế độ lưu ở
+  `yedas-home-display-mode`, tham số URL `view` được ưu tiên hơn lựa chọn lưu.
 - Các khối CSS lớn tải có điều kiện qua `_includes/head.html`:
   - `assets/css/header.css`: ảnh bìa/header và banner controls, khi có
     `page.cover-img` hoặc `page.banner-nav`.

@@ -1222,6 +1222,12 @@ body {
   display: inline-block;
 }
 
+.navbar-custom .nav-line-icon {
+  flex: 0 0 18px;
+  vertical-align: -3px;
+  margin-right: 6px;
+}
+
 .nav-link-home,
 .nav-link-icon {
   display: flex !important;
@@ -1309,6 +1315,22 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+}
+
+@media (min-width: 641px) {
+  #posts-list.posts-list-mode-masonry {
+    grid-auto-rows: 1px;
+    row-gap: 0;
+    align-items: start;
+  }
+
+  #posts-list.posts-list-mode-masonry .post-preview {
+    align-self: start;
+  }
+
+  #posts-list.posts-list-mode-masonry .post-image img {
+    height: auto;
+  }
 }
 
 @media (max-width: 640px) {

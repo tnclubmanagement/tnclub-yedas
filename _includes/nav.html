@@ -24,7 +24,7 @@
             {%- endfor -%}
           {%- endfor -%}
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle{% if dropdown_active %} is-active{% endif %}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% assign parent_label = link[0] %}{{ s.nav[parent_label] | default: link[0] }}</a>
+            <a class="nav-link dropdown-toggle{% if dropdown_active %} is-active{% endif %}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg class="nav-line-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m16 8-2 6-6 2 2-6 6-2Z"/></svg> {% assign parent_label = link[0] %}{{ s.nav[parent_label] | default: link[0] }}</a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               {%- for childlink in link[1] -%}
                 {%- for linkparts in childlink %}
@@ -44,17 +44,18 @@
           {%- endif -%}
           {%- capture icon -%}
             {%- case link[1] -%}
-              {%- when "posts" -%}fa-file-text
-              {%- when "about-me" -%}fa-info-circle
-              {%- when "tags" -%}fa-tags
-              {%- when "contact" -%}fa-envelope
-              {%- when "privacy" -%}fa-shield-alt
-              {%- else -%}fa-circle
+              {%- when "posts" -%}<path d="M8 3h8l4 4v14H4V3h4Z M14 3v6h6 M8 13h8 M8 17h6"/>
+              {%- when "about-me" -%}<circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>
+              {%- when "store" -%}<path d="M4 8h16l-1 13H5L4 8Z M8 8V6a4 4 0 0 1 8 0v2"/>
+              {%- when "tags" -%}<path d="m3 3 8 0 10 10-8 8L3 11V3Z"/><circle cx="7.5" cy="7.5" r="1"/>
+              {%- when "contact" -%}<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/>
+              {%- when "privacy" -%}<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/>
+              {%- else -%}<circle cx="12" cy="12" r="9"/><path d="M12 11v6 M12 7h.01"/>
             {%- endcase -%}
           {%- endcapture -%}
           <li class="nav-item">
             <a class="nav-link nav-link-icon{% if nav_active %} is-active{% endif %}" href="{{ link[1] | relative_url }}"{% if nav_active %} aria-current="page"{% endif %}>
-              <span class="fa {{ icon | strip }}" aria-hidden="true"></span>
+              <svg class="nav-line-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">{{ icon | strip }}</svg>
               {% assign item_label = link[0] %}
               <span>{{ s.nav[item_label] | default: link[0] }}</span>
             </a>

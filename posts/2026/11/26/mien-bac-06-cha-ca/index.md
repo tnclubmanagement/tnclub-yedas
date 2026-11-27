@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:06:00 +0700"
 title: "[06 · Ăn ngon miền Bắc] : Chả cá Hà Nội và một bữa ăn ngồi lại"
 subtitle: "Cá nóng, thì là, hành và bún — tự ghép từng miếng thay vì trộn cả bàn"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg"
+thumbnail-img: "/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Chả cá]
 series: "Ăn ngon miền Bắc"
@@ -14,7 +14,7 @@ place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: chưa có ảnh chảo chả cá đúng món; hướng dẫn ăn còn cơ bản, thiếu minh họa thao tác và khảo sát thực tế."
+map_content_note: "Điểm biên tập sơ bộ: đã có ảnh chảo chả cá đúng món; hướng dẫn ăn còn cơ bản, thiếu minh họa thao tác và khảo sát thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
@@ -33,8 +33,8 @@ Nếu bàn có bếp, nhờ nhân viên hướng dẫn lúc cho rau và điều 
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/hang-nuong.jpg' | relative_url }}" alt="Người bán chế biến đồ nướng bên phố Hà Nội" loading="lazy">
-  <figcaption>Bối cảnh chế biến món nóng ở Hà Nội; không phải ảnh chảo chả cá. Ảnh: <a href="https://www.pexels.com/photo/photography-of-man-and-woman-grilling-food-788954/" target="_blank" rel="noopener">Amy Chandra / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/chao-cha-ca-la-vong.jpg' | relative_url }}" alt="Chảo chả cá Lã Vọng với hành hoa và thì là đang nóng trên bàn" loading="lazy">
+  <figcaption>Chảo chả cá Lã Vọng với hành và thì là — đúng món được bàn đến. Ảnh: <a href="https://www.vietnamstyletravel.com/" target="_blank" rel="noopener">Vietnam Style Travel</a>.</figcaption>
 </figure>
 </div>
 
@@ -49,7 +49,7 @@ Không ăn được mắm tôm thì hỏi nước chấm thay thế từ lúc g�
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/bat-an.jpg' | relative_url }}" alt="Những chồng bát ở một hàng ăn Hà Nội" loading="lazy">
+  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg' | relative_url }}" alt="Những chồng bát ở một hàng ăn Hà Nội" loading="lazy">
   <figcaption>Bát ăn tại hàng phố Hà Nội — ảnh bối cảnh, không phải bộ đồ ăn của quán chả cá được giới thiệu. Ảnh: <a href="https://www.pexels.com/photo/stack-of-bowls-in-vietnamese-street-food-stall-32281559/" target="_blank" rel="noopener">Nimit N / Pexels</a>.</figcaption>
 </figure>
 </div>
@@ -64,6 +64,6 @@ Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao 
 
 - [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): chả cá với hành, thì là và cách làm nóng tại bàn.
 - [Vietnam Tourism — 21 must-try Vietnamese dishes](https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes/): các nhóm món Việt và cách ăn kèm.
-- Ảnh bối cảnh từ Pexels; tác giả và link gốc dưới từng hình. Chưa có ảnh chả cá đúng món trong bài.
+- Ảnh chảo chả cá Lã Vọng: [Vietnam Style Travel](https://www.vietnamstyletravel.com/). Ảnh bối cảnh còn lại từ Pexels; tác giả và link gốc dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

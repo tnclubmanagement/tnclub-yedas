@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:03:00 +0700"
 title: "[03 · Ăn ngon miền Bắc] : Bánh cuốn và bữa sáng Hà Nội"
 subtitle: "Một đĩa bánh nóng, nước chấm riêng và nhịp phố vừa thức"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "https://img5.thuthuatphanmem.vn/uploads/2021/12/06/anh-toan-canh-ha-noi-ve-dem_013054022.jpg"
+thumbnail-img: "https://tse1.mm.bing.net/th/id/OIP.jLzn7ogmsmQsWxbdKILouwHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Bánh cuốn]
 series: "Ăn ngon miền Bắc"
@@ -33,8 +33,8 @@ Gắp một miếng nhỏ, chấm vừa đủ để nhận ra độ mềm của 
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-03-banh-cuon/banh-cuon.jpg' | relative_url }}" alt="Bánh gạo dạng sợi trắng tím bày trên lá với nước chấm" loading="lazy">
-  <figcaption>Bánh gạo dạng sợi trắng tím với nước chấm riêng: ảnh minh họa đồ ăn từ gạo, không phải bánh cuốn Hà Nội (nhãn ảnh gốc ghi ban cuon). Ảnh: <a href="https://www.pexels.com/photo/vietnamese-cuisine-with-ban-cuon-and-dipping-sauce-35749936/" target="_blank" rel="noopener">Sóc Năng Động / Pexels</a>.</figcaption>
+  <img src="https://i.ebayimg.com/images/g/FNEAAeSwOe5pj2MP/s-l960.jpg" alt="Bánh cuốn Hà Nội — ảnh minh họa món ăn" loading="lazy">
+  <figcaption>Bánh cuốn — ảnh minh họa do người dùng cung cấp. <a href="https://i.ebayimg.com/images/g/FNEAAeSwOe5pj2MP/s-l960.jpg" target="_blank" rel="noopener">Link ảnh trên eBay</a>.</figcaption>
 </figure>
 </div>
 
@@ -49,8 +49,8 @@ Câu hỏi đơn giản là “bánh không nhân hay có thịt, nước chấm
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-03-banh-cuon/pho-sang.jpg' | relative_url }}" alt="Hàng ăn ngoài trời trong phố Hà Nội" loading="lazy">
-  <figcaption>Nhịp hàng ăn Hà Nội — ảnh bối cảnh, không phải hàng bánh cuốn Thanh Trì. Ảnh: <a href="https://www.pexels.com/photo/vibrant-street-food-stall-in-hanoi-vietnam-32143267/" target="_blank" rel="noopener">Nimit N / Pexels</a>.</figcaption>
+  <img src="https://cdn3.ivivu.com/2022/09/b%C3%A1nh-cu%E1%BB%91n3.jpg" alt="Bánh cuốn Thanh Trì" loading="lazy">
+  <figcaption>Bánh cuốn Thanh Trì — ảnh minh họa món ăn. Ảnh: <a href="https://cdn3.ivivu.com/2022/09/b%C3%A1nh-cu%E1%BB%91n3.jpg" target="_blank" rel="noopener">iVIVU</a>.</figcaption>
 </figure>
 </div>
 
@@ -62,8 +62,11 @@ Chọn hàng chế biến gọn gàng, đồ nóng được phục vụ nóng v�
 
 ### Nguồn tham khảo
 
+- Ảnh banner toàn cảnh Hà Nội về đêm: [Thủ Thuật Phần Mềm](https://img5.thuthuatphanmem.vn/uploads/2021/12/06/anh-toan-canh-ha-noi-ve-dem_013054022.jpg).
+- Ảnh cover/thumbnail: [ảnh qua Bing do người dùng cung cấp](https://tse1.mm.bing.net/th/id/OIP.jLzn7ogmsmQsWxbdKILouwHaEn?r=0&rs=1&pid=ImgDetMain&o=7&rm=3).
+
 - [Vietnam Tourism — Famous Ha Noi Food and International Fine Dining](https://vietnam.travel/things-to-do/famous-ha-noi-food-and-international-fine-dining/): bánh cuốn và cách tráng bánh.
 - [Vietnam Tourism — Cuisine: A gateway to Hanoi’s culture](https://vietnam.travel/things-to-do/cuisine-gateway-hanoi%E2%80%99s-culture/): bữa ăn đường phố và bánh mì.
-- Ảnh tải từ CDN Pexels ở bản rộng tối đa 800 px; tác giả và link gốc ghi dưới hình.
+- Ảnh trong bài: ảnh bánh cuốn do người dùng cung cấp qua eBay và ảnh bánh cuốn Thanh Trì từ iVIVU; link nguồn dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

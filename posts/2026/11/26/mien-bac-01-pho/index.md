@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:01:00 +0700"
 title: "[01 · Ăn ngon miền Bắc] : Phở bò, phở gà và cách gọi ở Hà Nội"
 subtitle: "Chọn phần thịt trước, nếm nước dùng sau, rồi mới quyết định thêm gì"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "https://cdn.tuoitre.vn/471584752817336320/2024/8/16/kv-revised-107-1723767064945925136241.jpg"
+thumbnail-img: "https://dienmaynguyenkhoi.vn/wp-content/uploads/2023/02/an-pho-tai-nam-khi-nong-1.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Phở]
 series: "Ăn ngon miền Bắc"
@@ -63,6 +63,9 @@ Phở nước không đại diện cho mọi món có chữ phở. Phở xào d�
 Nếu đi nhóm, chọn một đĩa dùng chung để so kết cấu thay vì mỗi người gọi một phần lớn. Hỏi nước chấm có sẵn ớt hay không và xác nhận thành phần khi dị ứng; bỏ rau nhìn thấy trên mặt không loại bỏ nguyên liệu đã có trong nước dùng.
 
 ### Nguồn tham khảo
+
+- Ảnh banner: [Tuổi Trẻ](https://cdn.tuoitre.vn/471584752817336320/2024/8/16/kv-revised-107-1723767064945925136241.jpg).
+- Ảnh cover/thumbnail: [Điện máy Nguyên Khôi](https://dienmaynguyenkhoi.vn/wp-content/uploads/2023/02/an-pho-tai-nam-khi-nong-1.jpg).
 
 - [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): phở và gia vị ăn kèm.
 - [Vietnam Tourism — Famous Ha Noi Food and International Fine Dining](https://vietnam.travel/things-to-do/famous-ha-noi-food-and-international-fine-dining/): phở bò, phở gà.

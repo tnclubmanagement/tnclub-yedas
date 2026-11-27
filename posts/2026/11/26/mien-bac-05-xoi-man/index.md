@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:05:00 +0700"
 title: "[05 · Ăn ngon miền Bắc] : Xôi mặn và bữa no phố cổ Hà Nội"
 subtitle: "Xôi xéo, xôi ngô hay xôi thịt — chọn nền nếp và đồ kèm vừa bụng"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "/posts/2026/12/30/ha-noi/cover.jpg"
+thumbnail-img: "https://tse2.mm.bing.net/th/id/OIP.hmCI_KthT4FyeMR8UySzBwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Xôi]
 series: "Ăn ngon miền Bắc"
@@ -33,8 +33,8 @@ Nếu ăn chay, hỏi mỡ phi hành và phần rưới lên xôi. Không thấy
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-05-xoi-man/hang-qua.jpg' | relative_url }}" alt="Quầy hàng ăn với nhiều món tại Hà Nội" loading="lazy">
-  <figcaption>Hàng quà Hà Nội — ảnh bối cảnh, không phải ảnh nhận diện xôi xéo. Ảnh: <a href="https://www.pexels.com/photo/vibrant-street-food-stall-in-hanoi-vietnam-32143267/" target="_blank" rel="noopener">Nimit N / Pexels</a>.</figcaption>
+  <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/fe/a9/a8/caption.jpg?w=1200&amp;h=-1&amp;s=1" alt="Xôi xéo" loading="lazy">
+  <figcaption>Xôi xéo — ảnh minh họa món ăn. Ảnh: <a href="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/fe/a9/a8/caption.jpg?w=1200&amp;h=-1&amp;s=1" target="_blank" rel="noopener">Tripadvisor</a>.</figcaption>
 </figure>
 </div>
 
@@ -49,8 +49,8 @@ Thịt kho và nước rưới làm nếp mềm, đậm hơn; nếu thích nền
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-05-xoi-man/nghi-chan.jpg' | relative_url }}" alt="Khách ngồi nghỉ tại một quán góc phố Hà Nội" loading="lazy">
-  <figcaption>Khoảng ngồi nghỉ bên phố Hà Nội; ảnh bối cảnh, không phải hàng xôi được đánh giá. Ảnh: <a href="https://www.pexels.com/photo/street-corner-cafe-in-hanoi-vietnam-32281557/" target="_blank" rel="noopener">Nimit N / Pexels</a>.</figcaption>
+  <img src="https://cdn.tasteatlas.com/images/dishes/26d83eac87704bcebaea5d2ef830f92f.jpg?m=facebook" alt="Xôi gà" loading="lazy">
+  <figcaption>Xôi gà — ảnh minh họa món ăn. Ảnh: <a href="https://cdn.tasteatlas.com/images/dishes/26d83eac87704bcebaea5d2ef830f92f.jpg?m=facebook" target="_blank" rel="noopener">TasteAtlas</a>.</figcaption>
 </figure>
 </div>
 
@@ -62,8 +62,11 @@ Mua mang đi thì hỏi cách giữ và thời gian nên ăn, nhất là suất 
 
 ### Nguồn tham khảo
 
+- Ảnh banner Hồ Gươm: [Vietravel](https://travel.com.vn/tin-tuc-du-lich/dia-diem-du-lich-ha-noi-v18484.aspx), dùng lại ảnh từ bài Hà Nội trên site; ảnh phong cảnh, không minh họa món xôi.
+- Ảnh cover/thumbnail: [ảnh qua Bing do người dùng cung cấp](https://tse2.mm.bing.net/th/id/OIP.hmCI_KthT4FyeMR8UySzBwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3).
+
 - [Cục Du lịch Quốc gia Việt Nam — Xoi, the quintessential comfort food](https://vietnamtourism.gov.vn/en/post/15404): xôi xéo, xôi ngô, xôi với thịt, gà, trứng và pate.
 - [Vietnam Tourism — 21 must-try Vietnamese dishes](https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes/): nhóm xôi mặn.
-- Ảnh bối cảnh từ Pexels; không dùng ảnh hàng ăn chung để xác nhận món cụ thể.
+- Ảnh trong bài: xôi xéo từ Tripadvisor, xôi gà từ TasteAtlas; link nguồn dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

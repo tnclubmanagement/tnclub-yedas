@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:02:00 +0700"
 title: "[02 · Ăn ngon miền Bắc] : Bún chả, bún thang và bún ốc Hà Nội"
 subtitle: "Một món chấm, một bát thanh, một bát chua — đừng gọi chỉ vì cùng tên bún"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-bac-02-bun/bun-cha.jpg"
+thumbnail-img: "https://www.seriouseats.com/thmb/J0g7JWjk9r6CHESo1CIrD1BfGd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VyTran-BunChaHanoi-19-f623913c6ef34a9185bcd6e5680c545f.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hà Nội, Bún]
 series: "Ăn ngon miền Bắc"
@@ -49,8 +49,8 @@ Mắm tôm có thể được dùng để tăng mùi, tùy hàng và tùy ngư�
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-02-bun/hang-bun.jpg' | relative_url }}" alt="Hàng bún chả bên phố Hà Nội" loading="lazy">
-  <figcaption>Bối cảnh hàng bún chả Hà Nội; không phải ảnh bún thang. Ảnh: <a href="https://www.pexels.com/photo/vietnamese-street-food-vendor-in-hanoi-38003956/" target="_blank" rel="noopener">Valeria Drozdova / Pexels</a>.</figcaption>
+  <img src="https://tse2.mm.bing.net/th/id/OIP.KRZeibx7ZBOiQ17xkCta4AHaF7?r=0&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" alt="Bún thang Hà Nội" loading="lazy">
+  <figcaption>Bún thang — ảnh minh họa do người dùng cung cấp qua <a href="https://tse2.mm.bing.net/th/id/OIP.KRZeibx7ZBOiQ17xkCta4AHaF7?r=0&amp;rs=1&amp;pid=ImgDetMain&amp;o=7&amp;rm=3" target="_blank" rel="noopener">Bing</a>.</figcaption>
 </figure>
 </div>
 
@@ -61,6 +61,9 @@ Bún ốc nóng thường gặp với cà chua, vị chua và rau thơm; bún �
 Chỉ chọn ốc được nấu chín kỹ, ăn khi món còn ở điều kiện phục vụ phù hợp. Nếu dị ứng nhuyễn thể, bỏ ốc ra khỏi bát không làm nước dùng trở thành an toàn. Muốn so ba món, chia chúng ra ba bữa sẽ cảm nhận rõ hơn và đỡ phí thức ăn.
 
 ### Nguồn tham khảo
+
+- Ảnh banner: [Markus Winkler / Pexels](https://www.pexels.com/photo/bun-cha-served-on-a-winnowing-basket-3858270/).
+- Ảnh cover/thumbnail: [Serious Eats](https://www.seriouseats.com/thmb/J0g7JWjk9r6CHESo1CIrD1BfGd0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20231204-SEA-VyTran-BunChaHanoi-19-f623913c6ef34a9185bcd6e5680c545f.jpg).
 
 - [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): bún chả, bún thang và thành phần thường gặp.
 - [Vietnam Tourism — Cuisine: A gateway to Hanoi’s culture](https://vietnam.travel/things-to-do/cuisine-gateway-hanoi%E2%80%99s-culture/): nhịp ăn đường phố Hà Nội.

@@ -3,8 +3,8 @@ layout: post
 date: "2026-11-26 11:04:00 +0700"
 title: "[04 · Ăn ngon miền Bắc] : Bánh đa cua và quà vặt Hải Phòng"
 subtitle: "Dành riêng một chặng cho đất cảng thay vì ghép vào bữa ăn Hà Nội"
-cover-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
-thumbnail-img: "/posts/2026/11/26/an-ngon-mien-bac/banner.jpg"
+cover-img: "/posts/2026/11/26/mien-bac-04-hai-phong/banh-da-cua-banner.jpg"
+thumbnail-img: "https://chaca.com.vn/wp-content/uploads/2020/12/cach-nau-banh-da-cua-hai-phong.jpg"
 category: "Ăn Ngon"
 tags: [Ăn Ngon, Miền Bắc, Hải Phòng, Bánh đa cua]
 series: "Ăn ngon miền Bắc"
@@ -33,8 +33,8 @@ Nếm nước trước, gắp sợi bánh ăn cùng rau rồi mới thêm tươn
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-04-hai-phong/ban-an.jpg' | relative_url }}" alt="Bàn bày nhiều món ăn Việt ngoài trời tại Hải Phòng" loading="lazy">
-  <figcaption>Bàn món Việt chụp tại Hải Phòng, ảnh bối cảnh; không dùng để nhận diện bánh đa cua. Ảnh: <a href="https://www.pexels.com/photo/traditional-vietnamese-food-arrangement-outdoors-30018456/" target="_blank" rel="noopener">Thanh Long Bùi / Pexels</a>.</figcaption>
+  <img src="https://dilyhouse.vn/images/signature-banh-da-cua.webp" alt="Bánh đa cua" loading="lazy">
+  <figcaption>Bánh đa cua — ảnh minh họa món ăn. Ảnh: <a href="https://dilyhouse.vn/images/signature-banh-da-cua.webp" target="_blank" rel="noopener">Dily House</a>.</figcaption>
 </figure>
 </div>
 
@@ -49,8 +49,8 @@ Nem cua bể có hình vuông đặc trưng, nhân có thể gồm cua, thịt v
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-04-hai-phong/quan-nghi.jpg' | relative_url }}" alt="Bàn cà phê ngoài trời có ly nước tại Hải Phòng" loading="lazy">
-  <figcaption>Một điểm nghỉ chân tại Hải Phòng — ảnh bối cảnh, không phải ảnh nem hay bánh mì cay. Ảnh: <a href="https://www.pexels.com/photo/cozy-outdoor-cafe-table-with-drink-in-haiphong-35795991/" target="_blank" rel="noopener">Steven Cloudy / Pexels</a>.</figcaption>
+  <img src="https://bepxua.vn/wp-content/uploads/2021/05/26-3318.jpeg" alt="Ảnh minh họa mục Bánh mì cay, nem cua bể" loading="lazy">
+  <figcaption>Ảnh minh họa cho mục bánh mì cay, nem cua bể. Nguồn: <a href="https://bepxua.vn/wp-content/uploads/2021/05/26-3318.jpeg" target="_blank" rel="noopener">Bếp Xưa</a>.</figcaption>
 </figure>
 </div>
 
@@ -62,8 +62,11 @@ Chọn món chín kỹ, không mặc định hải sản tươi có thể ăn s�
 
 ### Nguồn tham khảo
 
+- Ảnh banner bánh đa cua: [HoangTuanAnh / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:BANH_DA_CUA_1.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/); giữ kích thước gốc 800 × 532 px, khung banner cắt theo màn hình.
+- Ảnh cover/thumbnail: [chaca.com.vn](https://chaca.com.vn/wp-content/uploads/2020/12/cach-nau-banh-da-cua-hai-phong.jpg).
+
 - [Vietnam Tourism — Hai Phong, Must-try Flavours](https://vietnam.travel/place-to-go/red-river-delta/hai-phong/): bánh đa cua, bánh mì cay, nem cua bể và hải sản.
 - [Cục Du lịch Quốc gia Việt Nam — Bánh đa cua Hải Phòng](https://vietnamtourism.vn/index.php/about/items/2021): sợi bánh đa và cách ăn địa phương.
-- Ảnh bối cảnh Pexels chụp tại Hải Phòng, tác giả và link gốc dưới từng hình.
+- Ảnh trong bài: bánh đa cua từ Dily House; ảnh mục bánh mì cay, nem cua bể từ Bếp Xưa. Link nguồn dưới từng hình.
 
 [Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

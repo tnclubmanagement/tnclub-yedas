@@ -1133,7 +1133,9 @@
   function boot() {
     var cfg = window.__athleteMapConfig || {};
     if (!window.L || !cfg.pinsUrl || !window.MapPins) return;
-    window.MapPins.load(cfg.pinsUrl, cfg)
+    // Promise public để module khác (travel-spinner) chờ pins sẵn sàng
+    window.__mapPinsReady = window.MapPins.load(cfg.pinsUrl, cfg);
+    window.__mapPinsReady
       .then(function (pins) {
         window.__athletePins = pins;
         initMap();

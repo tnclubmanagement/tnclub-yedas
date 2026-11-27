@@ -1,6 +1,7 @@
 /* Module "Vòng quay may mắn": quay chọn điểm đến du lịch ngẫu nhiên.
-   Đọc window.__athletePins (kind="place") do site-map.html xuất ra. */
-(function () {
+   Đọc window.__athletePins (kind="place") — pins giờ load async qua
+   map-pins.bin nên chờ window.__mapPinsReady nếu có. */
+window.__runTravelSpinner = function () {
   var root = document.querySelector('.travel-spinner');
   if (!root) return;
 
@@ -362,4 +363,8 @@
     openModal();
     drawWheel(shuffle(pins).slice(0, Math.min(MAX_SLICES, pins.length)));
   }
-})();
+};
+
+// Trang có bản đồ (site-map.js boot) → chờ promise pins; trang khác chạy ngay
+if (window.__mapPinsReady) window.__mapPinsReady.then(window.__runTravelSpinner, function () {});
+else window.__runTravelSpinner();

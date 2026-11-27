@@ -7,7 +7,7 @@ banner-img: "https://tinviettravel.com/uploads/cam-nang-du-lich/2026_03/food-tou
 
 Một bát <span>phở</span> buổi sáng, suất <span>bún chả</span> buổi trưa, rồi bữa <span>chả cá</span> ngồi lại buổi tối: ăn ngon không nhất thiết phải chạy qua thật nhiều quán. Series này bắt đầu ở Hà Nội, dành một chặng riêng cho Hải Phòng, để nhận diện món trước khi chọn chỗ ngồi.
 
-Sáu bài là sáu gợi ý gọi món, không phải bảng xếp hạng hay lời khẳng định mọi tỉnh miền Bắc đều ăn giống nhau. Không cần đọc theo thứ tự; chọn món hợp bụng và hỏi lại thành phần, giá, giờ bán tại quán.
+Sáu bài là sáu gợi ý gọi món, không cần đọc theo thứ tự — chọn món hợp bụng, hỏi lại giá và giờ bán tại quán.
 
 ## Chọn bài theo món và điểm đến
 
@@ -40,7 +40,7 @@ Sáu bài là sáu gợi ý gọi món, không phải bảng xếp hạng hay l�
 
 ## Đừng biến bữa ăn thành cuộc chạy đua
 
-Bắt đầu bằng một món chính, để bụng cho một món quà nhỏ. Với món có mắm tôm, ốc, cua, lạc hoặc trứng, hỏi thành phần trước nếu cần kiêng hay có dị ứng. Giá bán và khẩu phần thay đổi; bài không đưa địa chỉ hay mức giá như thông tin đã kiểm chứng thực địa.
+Bắt đầu bằng một món chính, để bụng cho một món quà nhỏ. Ai kiêng hoặc dị ứng mắm tôm, ốc, cua, lạc, trứng thì hỏi thành phần trước khi gọi.
 
 <figure>
   <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/7a/d3/ff/caption.jpg?w=1400&amp;h=800&amp;s=1" alt="Ảnh minh họa cho mục Đừng biến bữa ăn thành cuộc chạy đua" loading="lazy">

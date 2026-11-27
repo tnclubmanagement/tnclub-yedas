@@ -16,22 +16,22 @@ geo: [10.3460, 107.0843]
 place_region: "Miền Nam"
 place_food: "Bánh khọt tôm, bánh xèo, rau cuốn"
 map_content_score: 3
-map_content_note: "Điểm biên tập sơ bộ: mô tả bánh xèo và bánh khọt còn ngắn; ảnh từ nhiều nguồn, chưa có khảo sát quán tại Vũng Tàu."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; chưa có khảo sát quán tại Vũng Tàu."
 map_rating_updated: "2026-11-27"
 ---
 
-Bánh xèo và bánh khọt đều là bánh mặn, ăn với rau và nước chấm, không phải nhóm bánh ngọt tráng miệng. Trong chuyến ghé Vũng Tàu, có thể dành một bữa cho bánh khọt rồi thử bánh xèo ở bữa khác để so kết cấu.
+Vũng Tàu nổi tiếng nhất là bánh khọt — nhưng bánh xèo ở đây cũng đáng một bữa. Cả hai cùng là bột chiên giòn ăn với rau và nước mắm, khác nhau ở kích thước và kết cấu.
 
-Tọa độ đặt ở Vũng Tàu vì đây là điểm dừng chính của bài. Ảnh minh họa từ nơi khác được ghi rõ, không dùng để khẳng định công thức mọi quán ven biển đều giống nhau.
+Ăn bánh khọt một bữa, bánh xèo bữa khác, sẽ so được rõ hai kiểu giòn khác nhau đó.
 
 ## Bánh khọt: từng chiếc nhỏ, ăn cùng rau
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bánh được đổ trong khuôn nhỏ, thường có tôm trên mặt, đi với rau, đồ chua và nước mắm pha. Mặt giòn, ruột và độ dày thay đổi theo hàng. Hỏi một phần có bao nhiêu chiếc để gọi vừa số người.
+Bánh khọt đổ trong khuôn gang nhiều lỗ nhỏ, vỏ giòn rụm, giữa mềm béo nước cốt dừa, mặt nguyên con tôm. Ăn kẹp rau sống, đồ chua, chấm nước mắm chua ngọt.
 
-Lấy một chiếc cùng ít rau, chấm nhẹ trước khi thêm nước. Nếu vừa rời khuôn, để nguội bớt vừa đủ ăn để tránh bỏng; không cần đợi cả bàn chụp ảnh xong khiến mọi chiếc đều nguội. Muốn gọi thêm thì gọi theo lượt nhỏ.
+Một phần thường 6–10 chiếc, hỏi trước để gọi vừa người. Bánh vừa rời khuôn thì để bớt nóng một chút rồi ăn ngay — gọi theo lượt nhỏ để lúc nào cũng có bánh giòn.
 
 </div>
 <figure>
@@ -45,9 +45,9 @@ Lấy một chiếc cùng ít rau, chấm nhẹ trước khi thêm nước. Nế
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bánh xèo dùng bột gạo tráng trên chảo nóng, thường có nhân tôm, thịt, giá; ở vùng biển còn có biến thể hải sản. Bánh lớn nên chia miếng vừa, ăn cùng rau thay vì cố cuộn cả nửa chiếc.
+Bánh xèo là chảo bột gạo nghệ tráng mỏng, nhân tôm thịt giá, gập đôi to bằng cái dĩa — vùng biển còn có bản hải sản mực, tôm.
 
-Không phải bánh vàng nào cũng có cùng công thức bột. Hỏi nếu cần tránh trứng, sữa hoặc nguyên liệu khác; màu vàng tự nó không chứng minh có trứng. Tôm, mực và nước chấm cũng cần kiểm tra khi có dị ứng, kể cả lúc xin phần bánh không nhân.
+Chia bánh thành miếng vừa, cuốn rau chấm nước mắm. Mép bánh giòn nhất là phần đáng tranh nhau. Người dị ứng tôm mực hay trứng báo trước, vì nhân hòa sẵn trong bột chứ không chỉ đặt trên mặt.
 
 </div>
 <figure>
@@ -58,9 +58,9 @@ Không phải bánh vàng nào cũng có cùng công thức bột. Hỏi nếu c
 
 ## Rau, đồ chua và nước chấm: không chỉ để đầy đĩa
 
-Rau cho độ tươi và làm miếng bánh bớt cảm giác nhiều dầu; đồ chua thêm vị chua, giòn. Hỏi loại rau không nhận ra nếu có kiêng kỵ. Nếu không dùng được rau sống, có thể hỏi lựa chọn khác chứ không cần ép mình theo một cách ăn duy nhất.
+Rau sống kèm bánh không phải trang trí: lá cách, cải xanh, tía tô... làm miếng bánh bớt ngấy và thêm mùi. Đồ chua cho vị chua giòn.
 
-Bánh chiên nguội sẽ đổi kết cấu. Đi nhóm nhỏ thì gọi ít, ăn hết mới thêm; đi một mình có thể chọn một loại thay vì buộc phải thử cả hai trong một bữa. Hỏi rõ phần rau hoặc bánh tráng thêm có tính tiền không.
+Bánh chiên nguội là mất giòn — đi nhóm thì gọi ít, ăn hết gọi thêm. Đi một mình chọn một loại thôi, khỏi cố thử cả hai trong một bữa.
 
 ## Xem thêm qua video
 

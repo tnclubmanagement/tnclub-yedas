@@ -14,22 +14,22 @@ place_name: "Đà Nẵng"
 place_country: "Việt Nam"
 geo: [16.0544, 108.2022]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: bài tập trung bánh tráng cuốn nhưng ảnh bìa là mì Quảng, ảnh trong bài chưa đúng món; gợi ý chợ và tuyến ăn còn khái quát."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; ảnh bìa là mì Quảng chưa đúng món chính của bài."
 map_rating_updated: "2026-11-27"
 ---
 
-Đà Nẵng hợp với một vòng ăn gọn: chọn một món chính rồi ghé chợ hoặc một hàng nhỏ trên đường về. Bài này tập trung món ăn, không lặp lại cà phê muối hay món sữa đã có ở các series khác.
+Ăn Đà Nẵng nên gọn: một món chính — bánh tráng cuốn thịt heo — rồi ghé chợ hoặc một hàng nhỏ trên đường về là đủ.
 
-Chợ Cồn, chợ Hàn và các khu ăn tối là những kiểu không gian khác nhau. Hãy chọn theo tuyến di chuyển của ngày hôm đó, không coi chúng là ba điểm bắt buộc phải ghé liên tiếp.
+Chợ Cồn, chợ Hàn và khu ăn tối ven sông là ba kiểu không gian khác nhau; chọn theo tuyến đi trong ngày, không cần ghé cả ba liên tiếp.
 
 ## Bánh tráng cuốn thịt heo: mắm nêm là phần cần hỏi
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Thịt heo thái lát ăn với bánh tráng, rau và mắm nêm. Cuốn một ít thịt với vài loại rau trước, chấm nhẹ để thấy vị sốt. Phần thịt nạc, mỡ và độ mỏng tùy nơi; có thể hỏi trước nếu không thích mỡ.
+Thịt heo luộc thái lát hai đầu da, cuốn trong bánh tráng với rau sống, chuối xanh, khế — chấm mắm nêm. Đây là món đặc trưng nhất của thành phố này.
 
-Mắm nêm có mùi đậm và có thể đã pha tỏi, ớt, dứa hoặc đường tùy công thức. Người dị ứng cá cần kiểm tra sốt; xin nước chấm khác không tự làm bếp trở thành nơi không có tiếp xúc chéo. Nếu không dùng được rau sống, hỏi lựa chọn rau trụng thay vì cố ăn cho đúng cách.
+Mắm nêm mùi rất đậm, thường pha sẵn tỏi ớt dứa — chấm ít trước để quen mùi. Không chịu được mắm thì xin nước mắm chua ngọt. Người dị ứng cá nên hỏi kỹ sốt trước khi gọi.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Mắm nêm có mùi đậm và có thể đã pha tỏi, ớt, dứa hoặc đư
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Chợ Cồn được giới thiệu như một điểm ăn món địa phương, còn chợ Hàn tiện kết hợp mua sắm khu trung tâm. Có thể tìm món sợi, bánh nhỏ hoặc đồ mang về, nhưng thành phần và giờ bán từng quầy cần hỏi tại chỗ.
+Chợ Cồn là điểm ăn món địa phương quen thuộc với khu ăn vặt lớn; chợ Hàn nhỏ hơn, tiện ghép với vòng mua sắm trung tâm. Cả hai đều có quầy món sợi, bánh nhỏ và đồ mang về.
 
-Chọn quầy có giá rõ, đồ che đậy gọn và chế biến phù hợp. Hỏi một phần bao nhiêu, có tính thêm đồ ăn kèm không; gọi ít trước sẽ dễ thử hơn mua cùng lúc nhiều túi khi chưa biết mình thích món nào.
+Chọn quầy niêm yết giá rõ, gọi ít trước rồi thêm — đừng mua một lúc nhiều túi khi chưa biết thích món nào.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Chọn quầy có giá rõ, đồ che đậy gọn và chế biến phù hợp. 
 
 ## Bánh xèo, ốc và buổi tối: chọn một hướng
 
-Bánh xèo kiểu địa phương thường được chia miếng, cuốn rau và dùng với nước chấm; muốn thử có thể chọn một phần dùng chung. Nếu chọn ốc hay hải sản thay thế, thống nhất loại con, khối lượng và cách nấu trước, ưu tiên đồ chín kỹ.
+Muốn thêm món thì bánh xèo miền Trung nhỏ giòn, cuốn rau chấm sốt, gọi một phần dùng chung là vừa. Đổi hướng sang ốc hay hải sản thì chốt loại, khối lượng và cách nấu trước khi gọi.
 
-Chợ đêm có thể thay đổi hoạt động theo thời điểm. Kiểm tra lịch hiện hành, giữ đường về đơn giản và đừng xếp thêm một bữa lớn chỉ vì phố vẫn sáng đèn. Kết thúc bằng nước uống và một đoạn đi bộ đã đủ để nhớ bữa ăn.
+Chợ đêm thay đổi lịch hoạt động theo mùa — kiểm tra trước khi đi. Khép bữa bằng một đoạn đi bộ dọc sông Hàn là đủ, đừng xếp thêm bữa lớn chỉ vì phố còn sáng đèn.
 
 ## Xem thêm qua video
 

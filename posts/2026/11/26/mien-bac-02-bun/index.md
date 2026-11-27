@@ -14,22 +14,22 @@ place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
 map_content_score: 3
-map_content_note: "Điểm biên tập sơ bộ: mới phân biệt ba món ở mức cơ bản; thiếu ảnh đúng món bún thang, bún ốc và đối chiếu khẩu vị cụ thể."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ phân biệt ba món đã viết lại gọn; thiếu ảnh đúng món bún thang, bún ốc."
 map_rating_updated: "2026-11-27"
 ---
 
-Cùng một sợi bún trắng nhưng cách ăn có thể đổi hoàn toàn. Bún chả là bữa có thịt nướng và nước chấm; bún thang dựa vào nước dùng cùng nguyên liệu thái nhỏ; bún ốc lại có vị chua và độ giòn của ốc.
+Cùng một sợi bún trắng mà ba món khác nhau hẳn: bún chả là bữa trưa với thịt nướng và bát chấm chua ngọt; bún thang thanh nhẹ, dựa vào nước dùng và nguyên liệu thái mảnh; bún ốc chua cay, giòn ốc.
 
-Chọn theo thứ đang muốn ăn sẽ dễ hơn chạy theo tên quán. Nếu chỉ có một bữa trưa ở Hà Nội, một món ăn thong thả thường đáng nhớ hơn ba bát ăn vội.
+Chọn theo thứ đang thèm sẽ dễ hơn chạy theo tên quán. Chỉ có một bữa trưa ở Hà Nội thì một món ăn thong thả đáng nhớ hơn ba bát ăn vội.
 
 ## Bún chả: gắp từng ít vào bát chấm
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Chả miếng và chả viên nướng đi cùng bún, rau sống, nước mắm pha và đồ chua. Bát nước có thịt không phải bát canh để chan ngập mọi thứ ngay từ đầu: có thể gắp một ít bún, rau và thịt vào cùng một miếng ăn.
+Chả miếng và chả viên nướng than thơm khét nằm trong bát nước mắm chua ngọt cùng đu đủ ngâm; bún và rau sống dọn riêng. Ăn kiểu gắp từng ít bún, rau vào bát chấm — đừng chan ngập cả mẹt bún từ đầu.
 
-Nếm nước chấm trước khi thêm tỏi ớt. Nem rán thường là phần gọi thêm; hỏi rõ suất đã gồm gì để không vô tình gọi quá no. Người không ăn thịt lợn cần chọn món khác, không chỉ bỏ vài miếng thịt khỏi nước chấm đã ngâm chả.
+Nếm nước chấm trước rồi mới thêm tỏi ớt. Nem rán là phần gọi thêm, không có sẵn trong suất. Người không ăn thịt lợn nên chọn món khác, vì bát chấm đã ngâm chả.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Nếm nước chấm trước khi thêm tỏi ớt. Nem rán thường là phầ
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bún thang thường có thịt gà xé, giò lụa và trứng tráng thái sợi trên nền nước dùng trong. Các thành phần nhỏ khiến mỗi đũa có nhiều kết cấu hơn vẻ ngoài nhẹ nhàng của bát bún.
+Bún thang là bát bún cầu kỳ: gà xé, giò lụa, trứng tráng thái sợi mảnh xếp trên nước dùng trong và ngọt xương. Nhìn nhẹ nhàng nhưng mỗi đũa có nhiều lớp kết cấu.
 
-Mắm tôm có thể được dùng để tăng mùi, tùy hàng và tùy người ăn. Hỏi trước nếu không dùng được; món nhìn thanh không đồng nghĩa chay hoặc không có hải sản. Với người dị ứng trứng, cần báo từ lúc gọi thay vì chỉ gạt lớp trứng trên mặt.
+Nhiều hàng chấm kèm mắm tôm để tăng mùi — hỏi trước nếu không dùng được. Ai kiêng trứng nhớ báo từ lúc gọi, vì gạt lớp trứng tráng trên mặt không bỏ được trứng đã trộn trong bát.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Mắm tôm có thể được dùng để tăng mùi, tùy hàng và tùy ngư�
 
 ## Bún ốc: hỏi loại ốc và độ chua
 
-Bún ốc nóng thường gặp với cà chua, vị chua và rau thơm; bún ốc nguội là một trải nghiệm khác, không phải bát bún nóng để quên. Hãy hỏi quán đang bán kiểu nào, ốc to hay nhỏ, có thêm thịt bò hoặc giò không.
+Bún ốc nóng có nước dùng cà chua chua cay, ốc giòn, rau thơm; bún ốc nguội trộn giấm tỏi ớt là kiểu ăn mùa hè khác hẳn. Hỏi quán đang bán kiểu nào, ốc to hay nhỏ, có thêm thịt bò hay giò không.
 
-Chỉ chọn ốc được nấu chín kỹ, ăn khi món còn ở điều kiện phục vụ phù hợp. Nếu dị ứng nhuyễn thể, bỏ ốc ra khỏi bát không làm nước dùng trở thành an toàn. Muốn so ba món, chia chúng ra ba bữa sẽ cảm nhận rõ hơn và đỡ phí thức ăn.
+Người dị ứng nhuyễn thể nên chọn món khác — bỏ ốc ra khỏi bát không làm nước dùng mất thành phần ốc. Còn muốn so cả ba món, chia ra ba bữa sẽ nếm rõ hơn là ăn dồn một buổi.
 
 ## Xem thêm qua video
 

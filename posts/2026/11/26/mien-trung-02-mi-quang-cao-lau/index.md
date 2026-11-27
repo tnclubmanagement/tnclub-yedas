@@ -14,22 +14,22 @@ place_name: "Hội An"
 place_country: "Việt Nam"
 geo: [15.8801, 108.3380]
 map_content_score: 4
-map_content_note: "Điểm biên tập sơ bộ: đã có ảnh đúng mì Quảng và cao lầu, phân biệt được kết cấu cơ bản; còn thiếu đối chiếu sâu về cách làm sợi, biến thể và trải nghiệm thực tế."
+map_content_note: "Điểm biên tập sơ bộ: có ảnh đúng hai món, phần chữ đã viết lại gọn; thiếu đối chiếu sâu về cách làm sợi và trải nghiệm thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
-Ở Hội An, mì Quảng và cao lầu đều có thể khiến người quen phở nước ngạc nhiên vì lượng nước ít. Nhưng đó là cách hoàn thiện món, không phải quán quên chan đầy bát.
+Hai món sợi nổi tiếng của Hội An đều ít nước — người quen tô phở chan đầy sẽ ngạc nhiên, nhưng đó là cố ý: nước chỉ đủ để trộn đậm sợi và nhân.
 
-Bài đặt điểm bản đồ ở Hội An, nơi có thể tìm cả hai món. Mì Quảng thuộc truyền thống ẩm thực xứ Quảng rộng hơn, không phải món chỉ có trong phố cổ.
+Điểm bản đồ đặt ở Hội An vì nơi đây dễ tìm cả hai; riêng mì Quảng là món của cả xứ Quảng, không giới hạn trong phố cổ.
 
 ## Mì Quảng: trộn nước nhân với sợi và rau
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Sợi mì gạo bản dẹt đi cùng phần nhân đậm vị, rau, lạc rang và bánh tráng giòn. Nhân có thể là gà, tôm, thịt hoặc lựa chọn khác tùy quán. Màu sợi không phải dấu hiệu duy nhất để xác định món.
+Sợi mì gạo bản to dẹt, nhân đậm vị nấu sệt — gà, tôm thịt, ếch hay vịt tùy quán — ăn với rau sống, lạc rang và bánh tráng nướng bẻ giòn. Chén nước nhân ít ỏi chính là linh hồn món.
 
-Trộn nhẹ để nước nhân bám sợi, bẻ bánh tráng từng phần để còn độ giòn. Nếu dị ứng lạc, tôm hay vừng, báo trước vì chúng có thể có trong phần nước và bánh ăn kèm, không chỉ là lớp rắc trên mặt.
+Trộn nhẹ cho nước nhân bám sợi, bẻ bánh tráng từng miếng để giữ độ giòn. Dị ứng lạc, tôm hay vừng thì báo trước: chúng có trong cả nước nhân lẫn đồ rắc, không chỉ nằm trên mặt.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Trộn nhẹ để nước nhân bám sợi, bẻ bánh tráng từng phần đ�
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Cao lầu thường có sợi dày, chắc, thịt lợn xá xíu, rau và phần giòn; lượng nước vừa đủ làm ẩm, không giống bát canh. Trộn khi món còn mới để sợi, thịt và rau nhận đều gia vị.
+Sợi cao lầu dày, chắc, dai khác hẳn mì Quảng — theo truyền thống làm từ gạo ngâm nước giếng Ba Lễ và tro củi địa phương. Trên sợi là xá xíu thái lát, rau húng và da heo chiên giòn, nước chỉ đủ thấm.
 
-Nguồn du lịch nhắc đến kỹ thuật làm sợi và nguyên liệu địa phương gắn với Hội An. Không nên biến câu chuyện đó thành lời khẳng định mọi quán đều dùng đúng một giếng nước hay cùng quy trình; người ăn khó tự xác minh xuất xứ chỉ bằng một bát mì.
+Ăn khi mới dọn, trộn đều để sợi, thịt và rau cùng thấm vị. Câu chuyện giếng nước hay để nghe thêm — điều thú vị ngay trong bát là độ dai sợi không giống nơi nào khác.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Nguồn du lịch nhắc đến kỹ thuật làm sợi và nguyên liệu đị
 
 ## Chợ Hội An: chọn một bát thay vì hai suất lớn
 
-Nếu đi hai người, hỏi quán có thể chia phần hay gọi một bát mỗi loại để cùng thử không. Đi một mình thì tách hai món thành hai bữa sẽ thấy khác biệt rõ hơn. Hỏi giá và đồ kèm trước khi gọi; vị trí gần điểm du lịch không tự nói lên chất lượng.
+Đi hai người thì mỗi người một món rồi đổi thử; đi một mình nên tách hai món ra hai bữa để nếm rõ sự khác biệt.
 
-Ăn chay cần hỏi nước nhân, mỡ, nước mắm và phần thịt chứ không chỉ xin bỏ xá xíu. Rau sống là lựa chọn tùy người; có thể hỏi rau trụng khi cần thận trọng hơn với đồ sống.
+Người ăn chay hỏi kỹ nước nhân, mỡ và nước mắm — xin bỏ xá xíu không làm bát mì thành chay. Rau sống ăn bao nhiêu tùy thích; không quen đồ sống thì xin rau trụng.
 
 ## Xem thêm qua video
 

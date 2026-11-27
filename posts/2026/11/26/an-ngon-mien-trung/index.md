@@ -7,7 +7,7 @@ banner-img: "https://vietnamnomad.com/wp-content/uploads/2022/12/Welcome-to-Viet
 
 Miền Trung không chỉ có món cay. Một chén <span>bánh bèo</span>, tô <span>mì Quảng</span> ít nước hay cuốn <span>nem lụi</span> nhiều rau tạo ra những bữa ăn rất khác nhau. Series này chọn ba điểm dừng Huế, Hội An và Đà Nẵng, không cố đại diện toàn bộ dải đất miền Trung.
 
-Không cần đọc theo thứ tự. Chọn món đang có trên menu, xem thành phần và cách ăn rồi gọi phần vừa đủ. Đây là hướng dẫn nhận diện, không phải danh sách quán đã kiểm chứng thực địa; giá, giờ bán và công thức cần hỏi lại tại nơi ăn.
+Không cần đọc theo thứ tự — chọn món đang có trên menu rồi gọi phần vừa đủ. Giá, giờ bán và công thức hỏi lại tại nơi ăn.
 
 ## Chọn bài theo món và thành phố
 
@@ -40,7 +40,7 @@ Không cần đọc theo thứ tự. Chọn món đang có trên menu, xem thàn
 
 ## Hỏi độ cay, nhưng đừng chỉ hỏi mỗi ớt
 
-Mắm ruốc, mắm nêm, tôm, lạc và nước chấm đã pha là những thành phần cần hỏi nếu có dị ứng hoặc kiêng kỵ. Xin “không thêm ớt” không thể làm nhạt phần nước dùng đã cay sẵn.
+Nước dùng Huế đã nấu cay sẵn — xin "không thêm ớt" không làm nó nhạt. Người kiêng hoặc dị ứng mắm ruốc, mắm nêm, tôm, lạc cũng nên hỏi luôn phần nước chấm đã pha.
 
 <div class="row">
   <figure class="col-sm-4">
@@ -57,7 +57,7 @@ Mắm ruốc, mắm nêm, tôm, lạc và nước chấm đã pha là những th
   </figure>
 </div>
 
-Ngoài ớt tươi thêm vào, cần hỏi cả sa tế, tương ớt và gia vị đã pha sẵn trong món; màu sắc, hình dáng quả ớt không đủ để xác định độ cay.
+Cay không chỉ đến từ ớt tươi: sa tế, tương ớt và gia vị pha sẵn trong món mới là phần đáng hỏi.
 
 ## Đi ít điểm, ăn rõ từng món
 

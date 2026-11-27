@@ -16,22 +16,22 @@ geo: [10.7067, 105.1170]
 place_region: "Miền Nam"
 place_food: "Lẩu mắm, cá kho tộ, bún cá Châu Đốc"
 map_content_score: 3
-map_content_note: "Điểm biên tập sơ bộ: nội dung lẩu mắm và rau nhúng còn khái quát, chưa làm rõ các biến thể địa phương."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; chưa làm rõ biến thể địa phương và khảo sát quán."
 map_rating_updated: "2026-11-27"
 ---
 
-Châu Đốc gắn với cá sông và mắm, nên bữa ăn ở đây đáng dành thời gian ngồi cùng một nồi lẩu hoặc đĩa cá kho. Đừng coi mùi mắm là thứ chỉ có trong chén nước chấm đặt bên cạnh.
+Châu Đốc là đất của cá sông và mắm — lẩu mắm ở đây không phải món "dám thử" mà là bữa chính đáng ngồi cả tiếng. Mùi mắm nấu lên thơm sâu, khác xa mùi mắm sống trong chén chấm.
 
-Bài chọn Châu Đốc làm điểm dừng, không gắn một tọa độ chung cho cả đồng bằng. Những loại rau và cá trong bữa thực tế cần hỏi theo mùa, theo hàng; tên món không bảo đảm lúc nào cũng đủ cùng một mâm nguyên liệu.
+Rau nhúng và cá thay đổi theo mùa nước — hỏi quán hôm nay có gì thay vì mong đủ một mâm cố định.
 
 ## Lẩu mắm: nếm phần nước trước khi nhúng thêm
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Mắm cá được nấu làm nền nước lẩu, kết hợp sả và gia vị theo công thức quán. Cá, thịt lợn, tôm hoặc mực có thể là phần nhúng; rau tạo thêm vị ngọt, đắng nhẹ và độ giòn khác nhau. Hỏi một nồi gồm gì, dành cho mấy người và phần thêm tính thế nào.
+Nước lẩu nấu từ mắm cá linh hoặc cá sặc, lọc lấy nước, đun với sả, sả bằm và tóp mỡ — mặn ngọt đậm mà không hăng. Nhúng cá lóc, ba sa, thịt ba chỉ, tôm, mực; rau đi kèm là bông súng, rau đắng, bắp chuối, kèo nèo tùy mùa.
 
-Đợi nước sôi phù hợp rồi cho nguyên liệu theo hướng dẫn của quán, dùng dụng cụ riêng cho đồ sống và chín. Mùi mắm đậm không chứng minh thịt cá đã chín. Người dị ứng cá không thể giải quyết bằng việc bỏ miếng cá: mắm đã là phần nền của nước lẩu.
+Nước sôi thì thả nguyên liệu theo lượt, đừng trút cả đĩa. Hỏi một nồi dành mấy người và phần thêm tính sao. Người dị ứng cá không ăn được món này — mắm là nền nước lẩu, không bỏ riêng được.
 
 </div>
 <figure>
@@ -45,9 +45,9 @@ Mắm cá được nấu làm nền nước lẩu, kết hợp sả và gia vị
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Rau lẩu có thể gồm bông súng, rau đắng, cà tím hoặc những loại theo mùa. Không nhất thiết quán nào cũng có bông điên điển quanh năm. Hỏi tên rau lạ và cách dùng, cho từng ít để ăn đúng độ thay vì trút cả đĩa một lần.
+Rau lẩu mắm là phần đáng tiền nhất: bông súng giòn, rau đắng dừa, bông điên điển mùa nước nổi, bắp chuối, kèo nèo — mỗi thứ một vị ngọt đắng khác nhau. Gặp rau lạ thì hỏi tên và độ nhúng.
 
-Bún là phần ăn cùng giúp thành bữa no. Gọi nồi vừa, ăn rau và bún cân với cá thịt sẽ hợp hơn thêm liên tục đĩa đạm. Nếu nước cạn hoặc đậm dần, nhờ quán thêm nước dùng phù hợp; không tự đoán loại nước bổ sung.
+Cho rau từng ít, chín tới đâu gắp tới đó. Bún ăn kèm giúp thành bữa no; nước cạn hay đậm dần thì nhờ quán thêm nước lẩu.
 
 </div>
 <figure>
@@ -58,9 +58,9 @@ Bún là phần ăn cùng giúp thành bữa no. Gọi nồi vừa, ăn rau và 
 
 ## Cá kho tộ và bún cá: hai bữa khác để thử
 
-Cá kho tộ hợp với cơm nóng và rau; bún cá Châu Đốc là lựa chọn bữa sáng với sợi bún, cá và nước dùng thường có màu nghệ. Không nên gộp cả lẩu, cá kho và bún cá vào một suất thử nếu chỉ đi ít người.
+Chuyến sau thì cá kho tộ — cá lóc hay cá bông kho tộ đậm màu nước dừa, ăn cơm nóng — và bún cá Châu Đốc nước nghệ vàng, cá lóc thái lát, mùa nào cũng có.
 
-Hỏi loại cá, phần xương và độ cay trước khi gọi cho trẻ nhỏ hoặc người khó ăn xương. Bữa cá sông vẫn cần nấu chín kỹ; đồ tươi và món lên men không tự đồng nghĩa ăn sống được an toàn. Ăn một món rõ vị cũng đủ cảm nhận một chặng miền Tây.
+Trẻ nhỏ hoặc người khó gặp xương thì hỏi loại cá trước khi gọi. Ba món ba bữa khác nhau là vừa — đừng gộp chung một ngày.
 
 ## Xem thêm qua video
 

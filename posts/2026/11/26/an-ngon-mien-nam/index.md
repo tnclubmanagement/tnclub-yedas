@@ -7,7 +7,7 @@ banner-img: "https://monngonmoingay.com/wp-content/uploads/2025/05/mon-ngon-mien
 
 Mùi sườn nướng của <span>cơm tấm</span>, tô <span>hủ tiếu</span> nóng hay nồi <span>lẩu mắm</span> nhiều rau kể những câu chuyện khác nhau về bữa ăn miền Nam. Series chọn Sài Gòn, Vũng Tàu và Châu Đốc làm ba điểm dừng, không coi cả vùng có cùng một khẩu vị.
 
-Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở các mục riêng. Ưu tiên quán trong nhà với bàn ghế thoải mái, menu rõ ràng. Đây là hướng dẫn chọn món, không phải xếp hạng quán hay thông tin giá và giờ bán đã kiểm chứng thực địa.
+Sáu bài chỉ nói món mặn — cà phê và tráng miệng để ở mục riêng. Chọn quán trong nhà, bàn ghế thoải mái, menu rõ là được.
 
 ## Chọn bài theo bữa ăn
 
@@ -40,7 +40,7 @@ Sáu bài chỉ tập trung món mặn; cà phê và tráng miệng để ở c�
 
 ## Nhớ hỏi phần ăn và nước chấm
 
-“Suất này gồm gì, sốt để riêng được không?” giúp gọi gọn hơn. Nhiều món có lạc, tôm, trứng hoặc mắm cá trong phần nền; bỏ nguyên liệu trên mặt chưa chắc đã đáp ứng được yêu cầu kiêng hay dị ứng.
+"Suất này gồm gì, sốt để riêng được không?" — hai câu đó giúp gọi gọn hơn nhiều. Người kiêng hoặc dị ứng lạc, tôm, trứng, mắm cá nhớ hỏi cả phần nền, không chỉ phần nhìn thấy trên mặt.
 
 <figure>
   <img src="{{ '/posts/2026/11/26/an-ngon-mien-nam/banner.jpg' | relative_url }}" alt="Bàn nhiều món Việt chụp từ trên cao với các tô món sợi, gỏi cuốn, rau và nước chấm" loading="lazy">

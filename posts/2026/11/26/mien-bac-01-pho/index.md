@@ -14,24 +14,24 @@ place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
 map_content_score: 4
-map_content_note: "Điểm biên tập sơ bộ: có ảnh phở bò, phở gà và hướng dẫn gọi món cơ bản; phần biến thể còn ngắn, thiếu đối chiếu chuyên sâu và khảo sát quán thực tế."
+map_content_note: "Điểm biên tập sơ bộ: có ảnh phở bò, phở gà và hướng dẫn gọi món đã viết lại gọn; thiếu đối chiếu chuyên sâu và khảo sát quán thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
-Đi ăn phở ở Hà Nội, câu cần trả lời đầu tiên không phải quán nào nổi tiếng nhất mà là muốn ăn bò hay gà, phần thịt nào và có ăn hành không. Nói rõ ngay lúc gọi giúp bát phở đến bàn gần khẩu vị hơn.
+Ăn phở ở Hà Nội, câu đầu tiên cần trả lời không phải quán nào nổi tiếng nhất mà là: bò hay gà, phần thịt nào, có ăn hành không. Nói rõ ngay lúc gọi, bát phở đến bàn sẽ gần khẩu vị hơn hẳn.
 
-Đây là cách nhận diện những lựa chọn thường gặp, không phải quy chuẩn bắt mọi hàng phở phải giống nhau. Độ đậm, độ béo và loại bánh thay đổi theo quán.
+Độ đậm của nước, độ béo và loại bánh khác nhau tùy hàng — dưới đây là cách đọc các lựa chọn thường gặp.
 
 ## Phở bò: tái, chín, nạm không phải tên nước dùng
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-**Tái** chỉ cách xử lý phần thịt bò thái mỏng; **chín**, **nạm**, **gầu** là những lựa chọn có kết cấu và độ béo khác nhau. Không chắc nên hỏi quán phần nào mềm, phần nào ít mỡ thay vì gọi “đầy đủ” rồi bỏ lại.
+**Tái** là bò thái mỏng chín vừa trong nước dùng nóng; **chín** mềm quen thuộc; **nạm** nạc hơn; **gầu** béo và giòn mỡ. Không chắc thì hỏi quán phần nào mềm, phần nào ít mỡ — đừng gọi “đầy đủ” rồi bỏ lại nửa bát.
 
-Nếm một thìa nước dùng trước khi thêm giấm tỏi hay tương ớt. Nước dùng đã có vị của xương, thịt và gia vị; thêm nhiều ngay từ đầu sẽ khó nhận ra sự khác biệt giữa các hàng.
+Bát đến bàn, nếm một thìa nước dùng nguyên trước. Nước đã có vị xương, thịt và gia vị; chỉ sau đó mới thêm giấm tỏi hay tương ớt, từng chút một.
 
-Nếu cần tránh thịt chưa chín, gọi thịt chín kỹ và nói rõ yêu cầu; không mặc định nước chan nóng luôn đủ để làm chín mọi lát thịt.
+Ai không ăn thịt tái thì gọi chín kỹ ngay từ đầu — nước chan không đủ nóng để làm chín mọi lát thịt.
 
 </div>
 <figure>
@@ -45,9 +45,9 @@ Nếu cần tránh thịt chưa chín, gọi thịt chín kỹ và nói rõ yêu
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Phở gà thường có nước dùng từ gà, thịt thái hoặc xé, hành và có thể thêm lá chanh. Phần đùi, lườn, da hay lòng cho trải nghiệm khác nhau; hỏi trước nếu chỉ muốn thịt nạc hoặc không ăn nội tạng.
+Phở gà có nước dùng ngọt thanh từ xương gà, thịt xé hoặc thái, hành và đôi khi vài lá chanh. Đùi mềm ngọt, lườn nạc, da giòn, lòng đậm — nói rõ phần muốn ăn hoặc phần không ăn (nhất là nội tạng) ngay lúc gọi.
 
-Chanh và ớt nên thêm từng chút. Muốn ăn quẩy thì gọi riêng, nhúng một phần để có miếng giòn, miếng mềm; không cần ngâm cả đĩa từ đầu. Một bát nhỏ với vài miếng quẩy có thể vừa hơn suất nhiều thịt nếu còn muốn thử món khác trong buổi sáng.
+Muốn ăn quẩy thì gọi đĩa riêng, nhúng từng miếng để có cái giòn cái mềm — ngâm cả đĩa từ đầu là mất phần giòn. Bát nhỏ kèm vài miếng quẩy thường vừa đủ nếu buổi sáng còn định thử thêm món khác.
 
 </div>
 <figure>
@@ -58,9 +58,9 @@ Chanh và ớt nên thêm từng chút. Muốn ăn quẩy thì gọi riêng, nh�
 
 ## Phở xào, phở cuốn: cùng bánh gạo, khác bữa ăn
 
-Phở nước không đại diện cho mọi món có chữ phở. Phở xào dùng bánh phở đảo trên chảo với thịt và rau; phở cuốn dùng tấm bánh cuộn nhân rồi chấm riêng. Đừng mong hai món này có bát nước dùng như phở nước.
+Phở xào là bánh phở đảo trên chảo lửa lớn với thịt bò và cải, thơm mùi khét chảo; phở cuốn là tấm bánh cuộn nhân thịt rau, chấm nước mắm chua ngọt. Cả hai đều không có bát nước dùng đi kèm — đó là điểm khác biệt lớn nhất khi đọc menu.
 
-Nếu đi nhóm, chọn một đĩa dùng chung để so kết cấu thay vì mỗi người gọi một phần lớn. Hỏi nước chấm có sẵn ớt hay không và xác nhận thành phần khi dị ứng; bỏ rau nhìn thấy trên mặt không loại bỏ nguyên liệu đã có trong nước dùng.
+Đi nhóm thì gọi một đĩa dùng chung để thử kết cấu thay vì mỗi người một phần. Người dị ứng nhớ hỏi thành phần nhân và nước chấm, vì bỏ phần rau nhìn thấy trên mặt không loại bỏ nguyên liệu đã trộn bên trong.
 
 ## Xem thêm qua video
 

@@ -16,22 +16,22 @@ geo: [10.7769, 106.7009]
 place_region: "Miền Nam"
 place_food: "Cơm tấm sườn nướng, bì, chả trứng"
 map_content_score: 3
-map_content_note: "Điểm biên tập sơ bộ: mới giới thiệu sườn, bì, chả ở mức cơ bản; hướng dẫn khẩu vị và so sánh suất ăn còn hạn chế."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; chưa có khảo sát quán thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
-Cơm tấm có thể là bữa sáng, trưa hoặc tối, không chỉ một đĩa cơm sườn ăn khi đã quá đói. Hạt gạo tấm và đồ mặn ăn kèm làm nên món; không cần phủ kín mặt đĩa mới thành một bữa đủ.
+Cơm tấm là bữa nào cũng được ở Sài Gòn — sáng, trưa, tối, khuya. Hạt tấm nhỏ xốp hút nước mắm là nền; sườn, bì, chả, trứng là những món ghép lên theo ý mình.
 
-Tên suất thường ghép những gì mình chọn: sườn, bì, chả, trứng. Hỏi suất cơ bản gồm gì sẽ đỡ nhầm phần nào được kèm, phần nào tính thêm.
+Tên suất chính là những gì trên đĩa: hỏi suất cơ bản gồm gì, phần nào tính thêm, đỡ phải đoán.
 
 ## Sườn nướng: chọn phần thịt thay vì chỉ nhìn kích thước
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Sườn được ướp rồi nướng, mùi khói và lớp gia vị là điểm dễ nhận. Một miếng lớn có thể gồm nhiều xương hoặc mỡ; nếu thích thịt nạc, hỏi quán phần phù hợp thay vì chọn bằng diện tích trên đĩa.
+Sườn ướp nướng than, cạnh cháy xém thơm — đó là linh hồn đĩa cơm tấm. Miếng to chưa chắc nhiều thịt: thích nạc thì nói quán chọn miếng nạc, đừng chọn bằng diện tích.
 
-Nếm cơm với một miếng thịt trước khi chan nước mắm. Thịt đã ướp đậm, thêm nhiều nước chấm từ đầu dễ làm mất cân bằng. Có thể xin ít mỡ hành hoặc để nước chấm riêng nếu muốn tự điều chỉnh.
+Nếm cơm và một miếng sườn trước khi chan nước mắm — thịt đã ướp đậm, chan nhiều từ đầu dễ mặn. Muốn tự chỉnh thì xin nước mắm và mỡ hành để riêng.
 
 </div>
 <figure>
@@ -45,9 +45,9 @@ Nếm cơm với một miếng thịt trước khi chan nước mắm. Thịt đ
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bì thường là da và thịt lợn thái sợi trộn thính; chả trứng hấp thường có thịt, trứng cùng các thành phần khác tùy công thức. Trứng chiên thêm lại là một lựa chọn riêng. Cả ba không bắt buộc phải xuất hiện cùng lúc.
+Bì là da và thịt lợn thái sợi trộn thính — dai, bùi. Chả trứng hấp mềm đậm, mặt vàng mỡ hành. Trứng ốp la thêm cho ai muốn nóng giòn lòng đào. Ba món chọn theo ý, không bắt buộc đủ bộ.
 
-Nếu không ăn da lợn, bỏ bì từ lúc gọi. Nếu dị ứng trứng, cần hỏi cả chả thay vì chỉ bỏ trứng ốp la. Muốn đĩa cơm đơn giản có thể bắt đầu bằng một món mặn chính, thêm đồ chua và rau ăn kèm theo khẩu vị.
+Không ăn da lợn thì bỏ bì; dị ứng trứng nhớ chả cũng có trứng, đừng chỉ trừ quả ốp la. Đĩa đơn giản nhất ngon nhất thường là cơm + một món mặn + đồ chua.
 
 </div>
 <figure>
@@ -58,9 +58,9 @@ Nếu không ăn da lợn, bỏ bì từ lúc gọi. Nếu dị ứng trứng, c
 
 ## Nước mắm, đồ chua, canh: hỏi cả những phần nhỏ
 
-Nước mắm pha có thể ngọt, cay sẵn; mỡ hành có thể dùng dầu hoặc mỡ tùy nơi. Người cần kiểm soát thành phần nên xin riêng, nhưng cũng cần nhớ gia vị đã có trong thịt ướp. Đồ chua cho độ giòn và vị chua, không phải chi tiết chỉ để trang trí.
+Nước mắm cơm tấm pha chua ngọt cay sẵn; đồ chua đu đủ cà rốt giòn chua giữ cho miếng ăn không bị ngấy; chén canh nóng kèm theo là phần không thể thiếu.
 
-Canh và phần thêm tùy quán, không mặc định đều miễn phí. Hỏi giá suất đã chọn, ăn hết phần vừa sức rồi mới thêm cơm. Một bữa ngon không cần biến thành thử thách ăn đủ mọi món trên bảng.
+Ăn hết phần vừa sức rồi mới thêm cơm — bữa ngon không cần thử hết mọi món trong tủ một lúc.
 
 ## Xem thêm qua video
 

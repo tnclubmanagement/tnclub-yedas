@@ -14,22 +14,22 @@ place_name: "Huế"
 place_country: "Việt Nam"
 geo: [16.4637, 107.5909]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: ghép cơm hến với bữa hải sản khá rộng; ảnh trong bài chủ yếu là bối cảnh, chưa minh họa rõ cơm hến, bún hến và món vùng đầm phá."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; ảnh trong bài vẫn là bối cảnh, chưa minh họa rõ cơm hến, bún hến."
 map_rating_updated: "2026-11-27"
 ---
 
-Hến là một chặng ăn riêng của Huế: nhỏ, nhiều thành phần và dễ khiến người mới gọi thêm gia vị quá tay. Bữa hải sản ở vùng ven biển, đầm phá lại cần một cách chuẩn bị khác, từ quãng đường đến cách tính tiền.
+Hến là một chặng ăn riêng của Huế: bát nhỏ mà chục thứ trong đó — hến, rau, lạc, tóp mỡ, mắm. Bữa hải sản vùng đầm phá thì khác, cần đi xa hơn và chốt giá trước.
 
-Tọa độ bài là trung tâm Huế để định hướng, không phải vị trí quán hến hay nhà hàng đầm phá. Hai kiểu bữa không nên bị nhét chung vào một giờ ăn trưa.
+Điểm bản đồ đặt ở trung tâm Huế để định hướng. Hai kiểu bữa nên tách riêng, đừng nhét chung một buổi trưa.
 
 ## Cơm hến: trộn từng phần để hiểu vị
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Cơm hến thường có cơm để nguội, hến chín, rau, lạc, tóp mỡ và phần mắm gia vị; nước hến có thể được dọn riêng. Một bát nhìn nhỏ nhưng cùng lúc có mềm, giòn, bùi và cay.
+Cơm nguội trộn với thịt hến xào, rau chuối bào, lạc rang, tóp mỡ và mắm hến — một bát có đủ mềm, giòn, bùi, cay. Nước luộc hến thường dọn chén riêng để chan thêm hoặc húp cuối bữa.
 
-Hỏi độ cay trước khi quán trộn. Cho nước hến từng ít nếu muốn ăn ẩm hơn, không nhất thiết chan thành bát canh. Không ăn được hến, lạc hay mắm ruốc cần báo rõ từ đầu: các phần nhỏ trộn lẫn sẽ khó tách sạch sau khi dọn ra.
+Dặn độ cay trước khi quán trộn, vì trộn rồi khó sửa. Người dị ứng hến, lạc hoặc mắm ruốc báo rõ từ đầu: các phần nhỏ trộn lẫn nhau, không tách ra được sau khi dọn.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Hỏi độ cay trước khi quán trộn. Cho nước hến từng ít nếu mu
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bún hến thay phần cơm bằng bún; người thích sợi mềm có thể hợp hơn, nhưng gia vị và đồ trộn vẫn cần hỏi theo quán. Nếu có cả hai lựa chọn, gọi một món mỗi người để so sẽ hợp lý hơn thêm hai bát cho cùng một người.
+Bún hến cùng bộ đồ trộn ấy nhưng đổi nền cơm thành sợi bún — mềm và thấm vị hơn. Đi hai người thì gọi một cơm một bún để so.
 
-Khu Cồn Hến được nhắc trong hướng dẫn du lịch Huế như một nơi tìm cơm và bún hến. Kiểm tra đường đi, giờ bán trước khi đến; bài không xác nhận hàng nào còn hoạt động vào ngày bạn ghé.
+Cồn Hến, cồn nhỏ trên sông Hương, là nơi nổi tiếng bán hai món này. Kiểm tra đường qua và giờ bán trước khi đi.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Khu Cồn Hến được nhắc trong hướng dẫn du lịch Huế như một 
 
 ## Hải sản vùng đầm biển: chốt món và khối lượng trước
 
-Nếu dành bữa khác cho vùng ven biển hoặc đầm phá quanh Huế, hỏi rõ tên con, giá theo kg hay đĩa, khối lượng trước chế biến và phí làm món. Hấp, nướng, xào cho lượng dầu và gia vị khác nhau; không cần gọi nhiều cách làm cho cùng một loại chỉ để bàn trông đầy.
+Bữa hải sản ở vùng đầm phá (như đầm Lập An, Cầu Hai) đáng đi riêng. Chốt trước ba thứ: giá theo kg hay theo đĩa, khối lượng trước chế biến, và phí làm món — hấp, nướng hay xào sốt mỗi kiểu một vị.
 
-Chọn món nấu chín kỹ, không mặc định đồ vừa bắt lên có thể ăn sống an toàn. Chuyến đi xa trung tâm cần thời gian về và phương tiện phù hợp; nếu có uống rượu bia, không tự lái. Đây là lưu ý tổ chức bữa ăn, không phải đề xuất một nhà hàng đã được kiểm tra.
+Đi xa trung tâm thì tính cả đường về và phương tiện; có uống rượu bia thì đừng tự lái.
 
 ## Xem thêm qua video
 

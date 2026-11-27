@@ -14,22 +14,22 @@ place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: thiếu ảnh đúng các loại xôi; mô tả nếp, đậu và đồ kèm còn ngắn, nhiều lời khuyên chung hơn thông tin riêng về món."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; thiếu ảnh đúng các loại xôi."
 map_rating_updated: "2026-11-27"
 ---
 
-Một gói xôi có thể thay cả bữa sáng, nhất là khi thêm thịt, trứng hoặc pate. Đừng gọi nó như món ăn chơi chỉ vì phần nếp nằm gọn trong chiếc bát nhỏ.
+Một gói xôi thay được cả bữa sáng — đừng xem nó là đồ ăn chơi chỉ vì phần nếp nằm gọn trong bát nhỏ.
 
-Bài này chỉ nói nhóm xôi ăn bữa mặn ở Hà Nội. Chọn nền nếp trước, đồ kèm sau sẽ dễ hơn gọi một suất thập cẩm rồi không nhận ra vị của từng phần.
+Bài này nói nhóm xôi mặn ăn bữa ở Hà Nội. Chọn nền nếp trước, đồ kèm sau, sẽ dễ hơn gọi một suất thập cẩm rồi không nhận ra vị của từng phần.
 
 ## Xôi xéo, xôi ngô: bắt đầu từ nếp và đậu
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Xôi xéo thường đi cùng đậu xanh và hành phi; xôi ngô có thêm ngô, tạo cảm giác nhai khác. Phần nếp dẻo khiến suất nhìn nhỏ vẫn khá no. Gọi cơ bản trước sẽ dễ nhận mùi nếp, đậu và hành hơn một phần phủ kín thịt.
+Xôi xéo là nếp vàng quyện đậu xanh giã nhuyễn, rưới mỡ hành phi — thơm béo dù chưa có miếng thịt nào. Xôi ngô dùng hạt ngô nấu cùng nếp, ngọt bùi, cảm giác nhai khác hẳn.
 
-Nếu ăn chay, hỏi mỡ phi hành và phần rưới lên xôi. Không thấy miếng thịt chưa đủ để kết luận món không có mỡ động vật. Với xôi lạc hay muối vừng, nhớ hỏi kỹ nếu dị ứng lạc, vừng.
+Nếp dẻo nên suất nhìn nhỏ mà no lâu; gọi phần cơ bản trước để thấy rõ mùi nếp, đậu, hành. Người ăn chay hoặc dị ứng lạc, vừng hỏi kỹ phần mỡ rưới và đồ kèm.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Nếu ăn chay, hỏi mỡ phi hành và phần rưới lên xôi. Không thấy
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Xôi thêm thịt kho, gà, trứng hoặc pate biến thành bữa chính rõ rệt. Tên một suất có thể chỉ phần đồ kèm chính, không bao gồm mọi món đang bày trong tủ. Hỏi từng phần thêm được tính thế nào trước khi gọi.
+Thêm thịt kho trứng, gà xé, pate hay giò là xôi thành bữa chính hẳn hoi. Tên suất thường chỉ tính phần kèm chính — hỏi từng món thêm giá bao nhiêu trước khi chỉ vào tủ.
 
-Thịt kho và nước rưới làm nếp mềm, đậm hơn; nếu thích nền xôi ráo, xin để nước riêng. Người không ăn nội tạng cần lưu ý pate. Dị ứng trứng cũng cần hỏi cả phần chả, không chỉ quả trứng nhìn thấy trên bát.
+Thịt kho và nước rưới làm nếp mềm đậm; thích xôi ráo thì xin để nước riêng. Pate là nội tạng xay — người kiêng nội tạng hoặc dị ứng trứng nhớ hỏi cả phần chả, không chỉ nhìn quả trứng trên mặt.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Thịt kho và nước rưới làm nếp mềm, đậm hơn; nếu thích nền
 
 ## Hàng xôi phố cổ: chọn phần nhỏ rồi mới thêm
 
-Gọi một nền xôi và một món kèm trước. Nếu đi nhóm, có thể gọi nền khác nhau để thử, nhưng nên dùng dụng cụ sạch khi chia. Một bữa ăn nhiều nếp không nhất thiết cần thêm bánh mì hay một bát món sợi ngay sau đó.
+Gọi một nền xôi kèm một món trước; đi nhóm thì mỗi người một nền khác nhau để đổi thử. Bữa nhiều nếp rồi thì khỏi cần thêm bánh mì hay bát món sợi nữa.
 
-Mua mang đi thì hỏi cách giữ và thời gian nên ăn, nhất là suất có trứng, thịt hoặc pate. Bọc kín không có nghĩa có thể để cả buổi trong xe nóng. Ăn khi món vừa được phục vụ sẽ rõ kết cấu nếp hơn để lâu rồi hâm nhiều lần.
+Xôi ăn ngon nhất lúc vừa lấy ra khỏi sọt/nồi hấp. Mua mang đi thì nên ăn trong buổi — để lâu rồi hâm lại, nếp khô và mất độ dẻo.
 
 ## Xem thêm qua video
 

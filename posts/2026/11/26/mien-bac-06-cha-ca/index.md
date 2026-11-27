@@ -14,22 +14,22 @@ place_name: "Hà Nội"
 place_country: "Việt Nam"
 geo: [21.0285, 105.8542]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: đã có ảnh chảo chả cá đúng món; hướng dẫn ăn còn cơ bản, thiếu minh họa thao tác và khảo sát thực tế."
+map_content_note: "Điểm biên tập sơ bộ: có ảnh chảo chả cá và bàn ăn đầy đủ đúng món; phần chữ đã viết lại gọn, vẫn thiếu khảo sát quán thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
-Chả cá Hà Nội là lý do để ngồi lại một bữa, thay vì liên tục chuyển hàng ăn. Cá được tẩm ướp, làm chín rồi đảo nóng với hành và thì là; người ăn ghép cùng bún, rau và nước chấm ngay trên bàn.
+Chả cá Hà Nội là một bữa ăn ngồi lại: cá cắt miếng tẩm nghệ, làm chín rồi đảo nóng ngay trên bàn với hành hoa và thì là. Người ăn tự ghép từng bát bún, rau, lạc rang và nước chấm thay vì được dọn một tô trộn sẵn.
 
-Chữ “chả cá” ở đây không chỉ miếng cá xay chiên thường gặp trong bát bún. Hỏi rõ kiểu món trước khi gọi, nhất là khi menu chỉ ghi tên ngắn.
+Lưu ý duy nhất khi đọc menu: “chả cá” ở đây là kiểu chảo nóng ăn tại bàn, khác với miếng cá xay chiên thường gặp trong bát bún. Hỏi rõ trước khi gọi nếu menu chỉ ghi tên ngắn.
 
 ## Chảo cá với hành, thì là: ăn khi vừa nóng
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Cá cắt miếng tẩm gia vị, thường có nghệ, được làm nóng cùng nhiều hành và thì là. Loại cá và cách tẩm ướp thay đổi theo quán; không cần lấy một công thức làm tiêu chuẩn duy nhất để đánh giá.
+Miếng cá tẩm nghệ vàng, săn mặt ngoài, được đảo cùng nắm hành hoa và thì là trên chảo nóng. Mùi thì là chín tỏa ra lúc này là phần đáng nhớ nhất của món.
 
-Nếu bàn có bếp, nhờ nhân viên hướng dẫn lúc cho rau và điều chỉnh lửa. Để chảo quá lâu có thể làm cá khô, rau nhũn hoặc dầu bắn. Gắp từng lượt vừa ăn giúp phần còn lại không bị đảo nát vì sốt ruột.
+Nếu bàn có bếp, để nhân viên hướng dẫn lúc cho rau và chỉnh lửa — để chảo quá lâu cá sẽ khô, rau nhũn. Gắp vừa lượt ăn, đừng đảo cả chảo một lần.
 
 </div>
 <figure>
@@ -43,22 +43,22 @@ Nếu bàn có bếp, nhờ nhân viên hướng dẫn lúc cho rau và điều 
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Cho một ít bún vào bát, thêm cá, rau vừa chín và lạc rang rồi chấm vừa đủ. Ăn một lượt ít gia vị trước để thấy mùi cá và thì là, sau đó mới điều chỉnh độ mặn, chua, cay.
+Cho ít bún vào bát, gắp cá và rau vừa chín từ chảo, rắc lạc rang rồi chấm. Nước chấm kinh điển là mắm tôm pha chanh ớt — mùi nặng nhưng hợp cá nghệ lắm; không quen thì xin nước mắm chua ngọt ngay lúc gọi.
 
-Không ăn được mắm tôm thì hỏi nước chấm thay thế từ lúc gọi. Nếu dị ứng giáp xác hoặc lạc, báo rõ để quán kiểm tra cả phần ướp, nước chấm và dụng cụ; chỉ bỏ bát mắm hoặc nhặt lạc ra có thể chưa đủ. Người dị ứng cá nên chọn món khác.
+Người dị ứng lạc, giáp xác hoặc cá cần báo quán kiểm tra cả phần ướp và nước chấm, không chỉ bỏ riêng phần nhìn thấy.
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg' | relative_url }}" alt="Những chồng bát ở một hàng ăn Hà Nội" loading="lazy">
-  <figcaption>Bát ăn tại hàng phố Hà Nội — ảnh bối cảnh, không phải bộ đồ ăn của quán chả cá được giới thiệu. Ảnh: <a href="https://www.pexels.com/photo/stack-of-bowls-in-vietnamese-street-food-stall-32281559/" target="_blank" rel="noopener">Nimit N / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/mien-bac-06-cha-ca/cha-ca-la-vong.jpg' | relative_url }}" alt="Bàn ăn chả cá đầy đủ: chảo cá nghệ với thì là, bún, lạc rang, mắm tôm và ớt" loading="lazy">
+  <figcaption>Một bàn chả cá đủ món kèm: chảo cá, bún, lạc rang, mắm tôm và chén ớt. Ảnh: <a href="https://www.vietnamstyletravel.com/" target="_blank" rel="noopener">Vietnam Style Travel</a>.</figcaption>
 </figure>
 </div>
 
 ## Một bữa chả cá: hỏi cách tính suất
 
-Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao nhiêu cá và đồ kèm, phần thêm tính thế nào. Bún và rau trên bàn không nhất thiết đều được thêm miễn phí. Bài không đưa mức giá vì chưa kiểm chứng menu hiện hành của từng quán.
+Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao nhiêu cá và đồ kèm, phần thêm tính thế nào — bún và rau trên bàn không phải lúc nào cũng được thêm miễn phí.
 
-Để bữa ăn này làm điểm chính của buổi tối thay vì món thứ tư trong một vòng ăn. Sau cá nóng và dầu, đi bộ một đoạn rồi nghỉ có thể vừa đủ; không cần thêm ly cà phê hay món sữa để khép lại mọi hành trình.
+Chả cá đáng là món chính của buổi tối, không phải trạm thứ tư trong một vòng ăn vặt. Sau chảo cá nóng nhiều dầu, đi bộ một đoạn phố cổ rồi về là vừa.
 
 ## Xem thêm qua video
 
@@ -74,6 +74,6 @@ Trước khi gọi, hỏi suất tính theo người hay theo chảo, gồm bao 
 
 - [Vietnam Tourism — 10 must-try Hanoian dishes](https://vietnam.travel/things-to-do/10-must-try-hanoi-dishes/): chả cá với hành, thì là và cách làm nóng tại bàn.
 - [Vietnam Tourism — 21 must-try Vietnamese dishes](https://vietnam.travel/things-to-do/21-must-try-vietnamese-dishes/): các nhóm món Việt và cách ăn kèm.
-- Ảnh chảo chả cá Lã Vọng: [Vietnam Style Travel](https://www.vietnamstyletravel.com/). Ảnh bối cảnh còn lại từ Pexels; tác giả và link gốc dưới từng hình.
+- Ảnh chảo chả cá và bàn ăn đầy đủ trong bài: [Vietnam Style Travel](https://www.vietnamstyletravel.com/).
 
 [Mở trang tổng quan Ăn ngon miền Bắc]({{ page.series_url | relative_url }})

@@ -16,22 +16,22 @@ geo: [10.7769, 106.7009]
 place_region: "Miền Nam"
 place_food: "Ốc, hải sản, bánh mì, món nướng"
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: bài ghép nhiều nhóm món, nội dung còn mỏng so với ảnh; độ đại diện và nguồn ảnh vẫn đang hoàn thiện."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; bộ ảnh là minh họa, chưa phải khảo sát quán Sài Gòn."
 map_rating_updated: "2026-11-27"
 ---
 
-Ăn khuya Sài Gòn có thể là một bữa ngồi trong quán thoải mái, không cần chen chúc sát lòng đường. Một phần ốc chia nhau, chiếc bánh mì vừa làm hoặc ít món nướng đã đủ cho điểm dừng cuối ngày.
+Ăn khuya Sài Gòn đơn giản lắm: một đĩa ốc chia nhau, ổ bánh mì nóng hoặc vài xiên nướng là đủ khép một ngày. Chọn quán trong nhà, bàn ghế sạch, menu rõ — không cần chen sát lòng đường.
 
-Ưu tiên quán trong nhà có bàn ghế sạch, menu rõ và giờ phục vụ phù hợp. Bài chỉ nói món mặn, không ghép cà phê hay tráng miệng; cần kiểm tra giờ mở cửa của quán cụ thể thay vì mặc định mọi nơi đều bán xuyên đêm.
+Một lưu ý duy nhất: kiểm tra giờ mở cửa trước khi đi, không phải quán nào cũng bán xuyên đêm.
 
 ## Ốc và hải sản: chọn con, cách nấu rồi mới gọi số đĩa
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Một quán ốc thường có nhiều loại nhuyễn thể và hải sản, chế biến với tỏi, sả, ớt hoặc sốt. Hỏi tên con, giá theo phần hay khối lượng, phần nào có thể chia nhỏ. Hai đĩa ít sốt có thể dễ nhận vị hơn một bàn cùng phủ bơ tỏi.
+Quán ốc có cả chục loại con và cách chế biến: hấp sả, nướng mỡ hành, xào me, rang muối. Chọn con trước, cách nấu sau — hai đĩa khác kiểu sẽ thú vị hơn hai đĩa cùng sốt.
 
-Chọn quán có chỗ ngồi trong nhà và khu giữ hải sản gọn, dụng cụ phục vụ riêng. Chọn đồ chín kỹ, không lấy nước sốt đậm làm dấu hiệu món đã được nấu đủ; dị ứng hải sản nên chọn bữa khác phù hợp. Không gian đẹp không thay thế được việc hỏi thành phần và quan sát cách phục vụ.
+Hỏi giá theo đĩa hay theo cân trước khi gọi, nhất là với cua và tôm lớn. Người dị ứng hải sản thì chọn bữa khác.
 
 </div>
 <figure>
@@ -42,11 +42,11 @@ Chọn quán có chỗ ngồi trong nhà và khu giữ hải sản gọn, dụng
 
 ### Chọn thêm sò, nghêu, mực, tôm hay cua?
 
-Với **sò, nghêu và vẹm**, hỏi kiểu hấp, nướng hay làm sốt đang có. Mỡ hành, lạc, bơ tỏi hoặc sốt kem làm thay đổi vị món và thành phần cần kiêng. Không phải quán nào cũng có mọi kiểu chế biến; chọn một phần nhẹ sốt trước nếu muốn nhận vị của hải sản.
+Với **sò, nghêu, vẹm**: hấp sả thì ngọt tự nhiên, nướng mỡ hành thì béo thơm, xào me hay sốt thì đậm — gọi một món nhẹ sốt trước để thấy vị của con.
 
-Với **mực và tôm**, hỏi rõ phần nguyên con hay đã làm sạch, có vỏ hay không và giá theo đĩa hay khối lượng. **Cua** cần xác nhận loại, trọng lượng và phí chế biến trước khi chọn; ảnh cua bày đĩa không thể dùng để suy ra giá một suất tại quán.
+Với **mực, tôm, cua**: hỏi nguyên con hay đã tách, giá theo đĩa hay theo cân, phí chế biến ra sao.
 
-Bộ mười ảnh gồm mâm hải sản phía trên và chín ảnh dưới đây, chụp cận cảnh món ăn với nhiều kiểu trình bày. Đây không phải thực đơn của một quán Sài Gòn đã được kiểm chứng; có cả cách phục vụ với bánh mì hoặc sốt kiểu nhà hàng.
+Bộ ảnh dưới đây minh họa các kiểu món hải sản thường gặp — từ ốc hấp đến cua tách đĩa:
 
 <div class="photo-grid">
 <figure>
@@ -92,9 +92,9 @@ Bộ mười ảnh gồm mâm hải sản phía trên và chín ảnh dưới đ
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bánh mì có thể gồm pate, thịt, rau, đồ chua và sốt; nhân thay đổi theo quán. Hỏi trước nếu không ăn nội tạng hoặc muốn bỏ ớt. Đồ chua và rau giúp miếng ăn có độ giòn, không phải chỉ là phần lấp đầy ổ bánh. Có thể chọn cửa hàng có bàn trong nhà để ăn khi bánh còn giòn.
+Bánh mì khuya ngon nhất khi vỏ còn giòn: pate, thịt, đồ chua, rau, sốt — nhân đổi theo tiệm. Không ăn nội tạng thì dặn bỏ pate, không cay thì bỏ ớt.
 
-Với món nướng, gọi một đĩa nhỏ rồi xem có cần thêm. Chọn thịt nấu chín kỹ, hỏi sốt đã cay sẵn không. Nếu đã dùng bữa tối, không cần gọi lại một suất cơm hay tô lớn chỉ vì quán còn mở.
+Món nướng gọi một đĩa nhỏ trước rồi thêm. Đã ăn tối rồi thì đừng gọi lại suất lớn chỉ vì quán còn mở.
 
 </div>
 <figure>
@@ -103,7 +103,7 @@ Với món nướng, gọi một đĩa nhỏ rồi xem có cần thêm. Chọn t
 </figure>
 </div>
 
-Bánh mì Việt có nhiều nhân hơn một cái tên chung. Dưới đây là các kiểu thường gặp; nhân và giá theo từng tiệm nên hỏi trước khi gọi.
+Vài kiểu bánh mì thường gặp — nhân và giá tùy tiệm:
 
 <div class="photo-grid">
 <figure>
@@ -126,9 +126,9 @@ Bánh mì Việt có nhiều nhân hơn một cái tên chung. Dưới đây là
 
 ## Chọn quán thuận đường về, không cần chạy nhiều điểm
 
-Xem trước chỗ ngồi, menu và giờ nhận khách cuối. Nếu quán đông, hỏi thời gian chờ; có thể chọn nơi khác gần hơn thay vì đứng đợi lâu chỉ để hoàn thành một danh sách. Bài không cung cấp địa chỉ như thông tin đã kiểm chứng thực địa.
+Chọn quán thuận đường về, xem trước giờ nhận khách cuối. Quán đông quá thì đổi chỗ gần hơn — đừng đứng đợi lâu chỉ để tick một cái tên trong danh sách.
 
-Nếu có uống rượu bia, không tự lái. Một bữa nhỏ và đường về ngắn sẽ hợp hơn kéo dài thêm nhiều điểm khi đã mệt. Kết thúc lúc còn dễ chịu cũng là một phần của ăn ngon.
+Có uống rượu bia thì đừng tự lái. Bữa nhỏ, đường về ngắn, kết thúc lúc còn dễ chịu — đó cũng là ăn ngon.
 
 ## Xem thêm qua video
 

@@ -14,22 +14,22 @@ place_name: "Hải Phòng"
 place_country: "Việt Nam"
 geo: [20.8449, 106.6881]
 map_content_score: 2
-map_content_note: "Điểm biên tập sơ bộ: ghép nhiều món nhưng chỉ có ảnh bối cảnh; thiếu ảnh bánh đa cua, bánh mì cay, nem cua bể và lịch trình đã kiểm chứng."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; thiếu ảnh đúng bánh đa cua, bánh mì cay, nem cua bể."
 map_rating_updated: "2026-11-27"
 ---
 
-Hải Phòng đáng có một buổi ăn riêng. Từ bát bánh đa cua đến chiếc bánh mì cay nhỏ, món ở đất cảng không chỉ là bản sao của những hàng ăn Hà Nội.
+Hải Phòng đáng có một buổi ăn riêng, không ghép vào hành trình Hà Nội. Từ bát bánh đa cua đỏ đến chiếc bánh mì cay nhỏ xíu, món ở đất cảng có cá tính riêng.
 
-Tọa độ bài đặt ở trung tâm Hải Phòng để định hướng thành phố, không phải vị trí một quán. Lịch dưới đây là gợi ý chia bữa; kiểm tra giờ bán và thời gian di chuyển trước khi đi.
+Tọa độ trên bản đồ đặt ở trung tâm thành phố để định hướng, không phải vị trí một quán cụ thể.
 
 ## Bánh đa cua: sợi đỏ, nước cua và đồ kèm
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Điểm dễ nhận là sợi bánh đa đỏ, đi cùng nước cua và rau; chả lá lốt, thịt hoặc các phần thêm tùy hàng. “Đầy đủ” không phải một danh sách cố định, nên hỏi rõ trước khi gọi nếu muốn bát gọn hoặc cần tránh một nguyên liệu.
+Dấu hiệu nhận món ngay: sợi bánh đa đỏ dai, nước dùng cua ngọt sánh có gạch cua, rau muống chẻ và thường thêm chả lá lốt. "Tô đầy đủ" gồm gì thì hỏi trước vì mỗi hàng một kiểu.
 
-Nếm nước trước, gắp sợi bánh ăn cùng rau rồi mới thêm tương ớt. Người dị ứng cua không thể chỉ gạt riêu ra: thành phần cua đã nằm trong nước dùng. Một bát vừa đủ để còn dành bụng cho món nhỏ sau đó.
+Nếm nước trước, gắp bánh đa ăn cùng rau rồi mới thêm tương ớt. Người dị ứng cua không ăn được món này — cua đã nằm sẵn trong nước dùng, không gạt riêu ra được. Bát vừa đủ để còn bụng cho món nhỏ phía sau.
 
 </div>
 <figure>
@@ -43,9 +43,9 @@ Nếm nước trước, gắp sợi bánh ăn cùng rau rồi mới thêm tươn
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bánh mì cay thường là chiếc bánh nhỏ, giòn với pate và tương ớt. Dễ ăn liên tiếp vài chiếc nhưng nên hỏi độ cay và phần pate trước; nếu không ăn nội tạng, đây không phải món có thể giải quyết chỉ bằng cách bỏ rau.
+Bánh mì cay là chiếc bánh mì que nhỏ, vỏ giòn, nhân chỉ có pate và tương ớt — cay thật, nên gọi một hai chiếc trước rồi thêm. Ai không ăn nội tạng lưu ý phần pate.
 
-Nem cua bể có hình vuông đặc trưng, nhân có thể gồm cua, thịt và nấm. Một phần chia nhau sẽ hợp hơn gọi thêm nguyên suất sau bát bánh đa. Nem chiên không đồng nghĩa hết nguy cơ dị ứng hải sản; hãy báo yêu cầu rõ với quán.
+Nem cua bể vuông vức, chiên giòn, nhân cua bể trộn thịt, nấm và miến. Một đĩa chia nhau vừa hơn gọi nguyên suất sau khi đã có bát bánh đa. Người dị ứng hải sản báo rõ với quán — chiên kỹ không làm nem mất thành phần cua.
 
 </div>
 <figure>
@@ -56,9 +56,9 @@ Nem cua bể có hình vuông đặc trưng, nhân có thể gồm cua, thịt v
 
 ## Hải sản đất cảng: dành cho một bữa khác
 
-Nếu muốn ăn hải sản, dành riêng một bữa thay vì gọi thêm sau khi đã no bánh đa và nem. Hỏi rõ loại con, giá theo đĩa hay khối lượng, phí chế biến và cách nấu trước khi đồng ý. Hấp, nướng và xào sốt sẽ cho những trải nghiệm khác nhau dù cùng một nguyên liệu.
+Muốn ăn hải sản thì dành hẳn một bữa, đừng gọi thêm khi đã no bánh đa và nem. Hỏi rõ giá theo đĩa hay theo cân, phí chế biến và cách nấu trước khi đồng ý — hấp, nướng mỡ hành hay xào sốt cho kết quả rất khác nhau.
 
-Chọn món chín kỹ, không mặc định hải sản tươi có thể ăn sống an toàn. Nếu đi trong ngày bằng tàu, để một khoảng đệm trước giờ về thay vì xếp quán cuối sát giờ khởi hành. Không cần ăn đủ tất cả mới tính là đã trải nghiệm thành phố.
+Đi trong ngày bằng tàu thì chừa một khoảng đệm trước giờ về, đừng xếp quán cuối sát giờ khởi hành.
 
 ## Xem thêm qua video
 

@@ -16,22 +16,22 @@ geo: [10.7769, 106.7009]
 place_region: "Miền Nam"
 place_food: "Gỏi cuốn tôm thịt, bì cuốn"
 map_content_score: 3
-map_content_note: "Điểm biên tập sơ bộ: phân biệt gỏi cuốn và bì cuốn mới ở mức cơ bản; ảnh cho phần bì cuốn vẫn chỉ minh họa nhóm cuốn tươi."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ đã viết lại gọn; ảnh phần bì cuốn vẫn chỉ là minh họa nhóm cuốn tươi."
 map_rating_updated: "2026-11-27"
 ---
 
-Một vài cuốn là lựa chọn gọn khi muốn ăn mặn nhưng chưa cần một bữa cơm lớn. Lớp bánh tráng nhìn trong không có nghĩa bên trong chỉ có rau; tôm, thịt, bì và nước chấm mới quyết định phần lớn hương vị.
+Vài cuốn gỏi cuốn là bữa gọn: mặn đủ, rau nhiều, không cần chiên dầu. Nhìn qua lớp bánh tráng trong thấy rau bên trong nhưng vị món nằm ở nhân và nước chấm.
 
-Ở Sài Gòn, có thể gọi từng cuốn để so loại nhân. Hỏi giá theo chiếc hay phần, số cuốn tối thiểu và loại nước chấm trước khi chọn một đĩa thập cẩm.
+Ở Sài Gòn gọi được từng cuốn — một cuốn tôm thịt, một cuốn bì, là đủ để so hai nhân khác nhau.
 
 ## Gỏi cuốn tôm thịt: nhìn được nhân, vẫn nên hỏi sốt
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Gỏi cuốn thường có tôm chín, thịt lợn, bún, rau và hẹ trong lớp bánh tráng làm mềm. Bánh không chiên giữ độ dẻo; cắn một miếng vừa để phần rau, bún và thịt đi cùng nhau thay vì kéo hết nhân ra.
+Gỏi cuốn là tôm luộc, thịt ba chỉ, bún, rau sống và hẹ cuộn trong bánh tráng mềm — không chiên nên vỏ dẻo, nhân tươi. Nước chấm kinh điển là tương đậu phộng hoặc nước mắm chua ngọt.
 
-Có nơi dùng tương pha với lạc, có nơi nước mắm chua ngọt hoặc kiểu chấm khác. Dị ứng lạc phải hỏi cả sốt xay, không chỉ lớp rắc trên mặt. Muốn món chay, xác nhận cả nhân và nước chấm; xin bỏ tôm chưa đủ nếu vẫn có thịt hoặc nước mắm.
+Người dị ứng lạc hỏi kỹ sốt: lạc xay sẵn trong tương, không chỉ rắc trên mặt. Muốn cuốn chay phải xác nhận cả nhân lẫn nước chấm.
 
 </div>
 <figure>
@@ -45,9 +45,9 @@ Có nơi dùng tương pha với lạc, có nơi nước mắm chua ngọt hoặ
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bì cuốn có bì lợn thái sợi, thịt và thính gạo rang, thường cuốn với rau, có thể thêm bún tùy hàng. Mùi bùi của thính và độ dai của bì làm nó khác gỏi cuốn tôm thịt dù cùng một lớp bánh bên ngoài.
+Bì cuốn thay nhân tôm thịt bằng bì — da và thịt lợn thái sợi trộn thính rang. Dai bì, bùi thính, mùi nước mắm tỏi ớt khác hẳn gỏi cuốn dù cùng lớp vỏ.
 
-Nếu không ăn da hoặc thịt lợn, chọn loại cuốn khác. Nước mắm pha thường đi cùng bì cuốn nhưng cách phục vụ không cố định; hỏi để chọn đúng vị. Cuốn không chiên vẫn có phần tinh bột từ bánh tráng và bún, không nên mặc định là món chỉ có rau.
+Không ăn da hoặc thịt lợn thì chọn cuốn khác. Và "không chiên" không có nghĩa nhẹ — bánh tráng và bún vẫn là tinh bột.
 
 </div>
 <figure>
@@ -58,9 +58,9 @@ Nếu không ăn da hoặc thịt lợn, chọn loại cuốn khác. Nước m�
 
 ## Gọi ít, ăn mới cuốn và đừng ngâm cả đĩa trong sốt
 
-Một cuốn tôm thịt và một cuốn bì là cách thử gọn nếu quán bán lẻ. Chấm từng đầu cuốn vào bát riêng; không cần rưới sốt lên toàn bộ đĩa khiến lớp bánh nhanh mềm nhão. Đi nhóm có người dị ứng thì không dùng chung chén chấm.
+Gọi một cuốn mỗi loại nếu quán bán lẻ, chấm từng miếng vào chén riêng — rưới sốt cả đĩa làm vỏ nhão nhanh.
 
-Đồ có tôm thịt chín và rau sống vẫn cần bảo quản phù hợp. Mua mang đi nên hỏi thời gian dùng, tránh để lâu trong xe nóng. Ăn lúc mới cuốn thường dễ chịu hơn khi bánh đã khô mép hoặc dính chặt vào nhau.
+Ăn ngay khi mới cuốn; mua mang đi thì dùng trong buổi, để lâu bánh khô mép dính nhau.
 
 ## Xem thêm qua video
 

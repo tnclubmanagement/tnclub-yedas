@@ -16,22 +16,22 @@ geo: [10.7769, 106.7009]
 place_region: "Miền Nam"
 place_food: "Hủ tiếu Nam Vang, hủ tiếu mực, hủ tiếu sườn, hủ tiếu khô"
 map_content_score: 4
-map_content_note: "Điểm biên tập sơ bộ: đã phân biệt các kiểu hủ tiếu nhưng còn thiếu đối chiếu chuyên sâu và trải nghiệm quán."
+map_content_note: "Điểm biên tập sơ bộ: phần chữ phân biệt các kiểu hủ tiếu đã viết lại gọn; thiếu trải nghiệm quán thực tế."
 map_rating_updated: "2026-11-27"
 ---
 
-Đi ăn hủ tiếu ở Sài Gòn, nên chọn hai thứ riêng: **nhân gì** và **ăn khô hay nước**. Nam Vang, mực, sườn nói nhiều về phần nhân; khô và nước nói về cách hoàn thiện tô sợi. Không phải những lựa chọn loại trừ nhau.
+Ăn hủ tiếu ở Sài Gòn, gọi hai thứ riêng: **nhân gì** và **khô hay nước**. Nam Vang, mực, sườn là phần nhân; khô và nước là cách dọn tô sợi — một tô Nam Vang khô hoàn toàn hợp lệ.
 
-Ưu tiên quán trong nhà, bàn ghế thoải mái, khu chế biến gọn và giá niêm yết rõ. Bài hướng dẫn nhận diện món, không giới thiệu hàng rong hay khẳng định quán cụ thể đã được kiểm tra vệ sinh.
+Chọn quán trong nhà, bàn ghế thoải mái, giá niêm yết rõ là được; phần còn lại là đọc đúng menu.
 
 ## Hủ tiếu Nam Vang: tôm, thịt và những phần thêm
 
 <div class="coffee-media-row coffee-media-row-left" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Tô thường có thịt lợn, thịt băm, tôm, trứng cút và có thể có gan hoặc lòng. Nước dùng có thể ninh từ xương cùng tôm khô, mực khô và rau củ tùy hàng. Không thấy hải sản trên mặt không có nghĩa phần nước không có hải sản.
+Tô Nam Vang kinh điển có thịt nạc xay, thịt thái, tôm, trứng cút, thường thêm gan lòng. Nước dùng ninh xương với tôm khô, mực khô — ngọt sâu đặc trưng của món.
 
-Hỏi suất cơ bản gồm gì, có bỏ gan lòng được không và rau giá có thể trụng riêng không. Nếm nước trước khi thêm gia vị để nhận vị của nước dùng. Tên “đặc biệt” không bảo đảm cùng một danh sách nhân ở mọi quán.
+Hỏi suất cơ bản gồm gì và bỏ gan lòng được không. Nếm nước trước rồi mới thêm gia vị. "Đặc biệt" mỗi quán một danh sách nhân khác nhau, đừng mặc định.
 
 </div>
 <figure>
@@ -42,24 +42,24 @@ Hỏi suất cơ bản gồm gì, có bỏ gan lòng được không và rau gi�
 
 ## Hủ tiếu mực: mực tươi và mùi thơm của nước lèo
 
-Hủ tiếu mực thường dùng mực cắt khoanh, có thể thêm thịt băm, thịt viên hoặc trứng cút. Một số công thức nấu nước lèo với mực khô để tạo mùi thơm; vì vậy không nên chỉ nhìn phần mực trắng trên mặt mà đoán toàn bộ thành phần.
+Hủ tiếu mực dùng mực cắt khoanh giòn sần sật, kèm thịt băm, thịt viên, trứng cút. Nước lèo nhiều nơi nấu với mực khô nên mùi thơm rất riêng.
 
-Mực chín có độ giòn, nhưng nấu lâu dễ dai. Hỏi quán có phần chỉ mực hay phần thập cẩm, loại sợi nào và sốt chấm riêng là gì. Người dị ứng nhuyễn thể cần chọn món khác; bỏ khoanh mực khỏi tô không làm nước dùng hết thành phần mực.
+Mực vừa chín thì giòn, nấu lâu sẽ dai — hỏi quán có phần chỉ mực hay thập cẩm. Người dị ứng nhuyễn thể chọn món khác: mực đã nằm cả trong nước dùng.
 
 ## Hủ tiếu sườn: đổi phần nhân, để ý xương và độ mềm
 
-Thay vì tôm, gan hoặc thịt thái, hủ tiếu sườn lấy những khúc sườn ninh làm trọng tâm. Phần thịt bám xương, mỡ và độ mềm thay đổi theo miếng sườn cũng như cách nấu của quán; tên món không có nghĩa suất nào cũng là sườn non nhiều thịt.
+Hủ tiếu sườn lấy khúc sườn ninh mềm làm trọng tâm thay cho tôm gan. Thịt bám xương ngọt, mỡ vừa — nhưng không phải suất nào cũng sườn non nhiều thịt, hỏi trước.
 
-Hỏi phần sườn tính theo tô hay gọi thêm, có kèm thịt băm hoặc viên không. Nếu ăn cùng trẻ nhỏ hoặc người khó nhai, nhờ quán chọn miếng mềm và tách xương cẩn thận. Nước trong không đồng nghĩa chỉ có xương: vẫn nên hỏi về hải sản khô hoặc gia vị nếu cần kiêng.
+Ăn cùng trẻ nhỏ hoặc người khó nhai thì nhờ quán chọn miếng mềm và gỡ xương kỹ.
 
 ## Hủ tiếu khô: trộn sốt trong tô, nước dùng để riêng
 
 <div class="coffee-media-row" markdown="1">
 <div class="coffee-media-text" markdown="1">
 
-Bản khô thường để sợi và nhân trong tô, trộn với sốt, còn nước dùng dọn riêng. Có thể gặp Nam Vang khô hoặc những kiểu nhân khác; hãy hỏi lựa chọn của quán thay vì coi “khô” là tên một bộ nhân cố định.
+Bản khô để sợi và nhân trong tô trộn sốt, nước dùng dọn chén riêng. Nam Vang khô là phổ biến nhất nhưng các kiểu nhân khác cũng có bản khô — hỏi quán, đừng coi "khô" là một món cố định.
 
-Trộn nhẹ lúc mới ra để sốt bám đều. Thử một đũa trước khi thêm tương, ớt hoặc nước dùng; chan hết chén nước ngay từ đầu sẽ làm mất trải nghiệm của bản khô. Khô không tự đồng nghĩa ít dầu, ít muối hay ít đường hơn bản nước.
+Trộn đều lúc mới ra cho sốt bám sợi, nếm một đũa trước khi thêm tương ớt. Chén nước dùng để húp kèm — chan hết vào tô từ đầu là mất trải nghiệm của bản khô.
 
 </div>
 <figure>
@@ -70,9 +70,7 @@ Trộn nhẹ lúc mới ra để sốt bám đều. Thử một đũa trước k
 
 ## Hủ tiếu gõ: biết tên gọi, không cần chọn chỗ ngồi vỉa hè
 
-“Gõ” gắn với hình thức bán rong quen thuộc, không phải một công thức nhân duy nhất. Chỉ cần biết sự khác biệt đó để đọc menu; không cần tìm xe đẩy hay ngồi sát đường mới thưởng thức được món hủ tiếu.
-
-Với bữa ăn thoải mái, chọn quán trong nhà, xem menu rồi gọi rõ nhân, sợi, khô/nước và phần rau. Không gian trong nhà cũng không tự bảo đảm vệ sinh: quan sát cách giữ thực phẩm, dụng cụ và phục vụ món nóng vẫn cần thiết.
+"Gõ" là tiếng gọi quen thuộc của hàng rong đêm Sài Gòn — tiếng gõ cặp mõ báo hiệu xe hủ tiếu đi qua. Ngày nay nó chỉ còn là tên gọi trên menu; ăn trong quán bàn ghế thoải mái vẫn là hủ tiếu đúng nghĩa.
 
 ## Xem thêm qua video
 

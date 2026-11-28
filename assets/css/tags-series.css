@@ -1,5 +1,5 @@
 /* ---------- Trang /tags/ ---------- */
-/* Toolbar: ô tìm kiếm + tab chủ đề + nút đổi kiểu xem trên cùng 1 hàng
+/* Toolbar: ô tìm kiếm + dropdown chủ đề + nút đổi kiểu xem trên cùng 1 hàng
    (tự xuống dòng khi hẹp). */
 .tags-toolbar {
   display: flex;
@@ -14,10 +14,8 @@
   flex: 1 1 240px;
 }
 
-.tags-toolbar .home-tabs {
+.tags-toolbar .tags-topic {
   margin: 0;
-  height: 2.5rem;
-  align-items: center;
 }
 
 .tags-toolbar .view-toggle {
@@ -26,8 +24,9 @@
   align-items: center;
 }
 
-/* Select sắp xếp thẻ trong toolbar /tags */
-.tags-sort select {
+/* Select sắp xếp thẻ + lọc chủ đề trong toolbar /tags */
+.tags-sort select,
+.tags-topic select {
   height: 2.5rem;
   padding: 0 0.9rem;
   font-size: 0.85rem;

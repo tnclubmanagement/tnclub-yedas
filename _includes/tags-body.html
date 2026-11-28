@@ -30,11 +30,17 @@
     <input type="text" id="tag-search" placeholder="{{ s.tags.search_placeholder }}" autocomplete="off" title="{{ s.tags.search_placeholder }}">
   </div>
 
-  <div class="home-tabs" role="group" aria-label="{{ s.filters.tabs_label }}">
-    <button type="button" class="home-tab tag-topic-tab is-active" data-topic="" aria-pressed="true" data-tip="{{ s.tags.tip_all }}">{{ s.filters.all }}</button>
-    <button type="button" class="home-tab tag-topic-tab" data-topic="Chụp ảnh" aria-pressed="false" data-tip="{{ s.tags.tip_photo }}">{{ s.filters.photo }}</button>
-    <button type="button" class="home-tab tag-topic-tab" data-topic="Thể thao" aria-pressed="false" data-tip="{{ s.tags.tip_sport }}">{{ s.filters.sport }}</button>
-    <button type="button" class="home-tab tag-topic-tab" data-topic="Du lịch" aria-pressed="false" data-tip="{{ s.tags.tip_travel }}">{{ s.filters.travel }}</button>
+  <div class="tags-topic">
+    <span class="sr-only">{{ s.filters.tabs_label }}</span>
+    <select id="tags-topic" title="{{ s.filters.tabs_label }}">
+      <option value="">{{ s.filters.all }}</option>
+      <option value="Chụp ảnh">{{ s.filters.photo }}</option>
+      <option value="Thể thao">{{ s.filters.sport }}</option>
+      <option value="Du lịch">{{ s.filters.travel }}</option>
+      <option value="Ăn Ngon">{{ s.filters.food }}</option>
+      <option value="Uống Ngon">{{ s.filters.drinks }}</option>
+      <option value="Tráng miệng">{{ s.filters.desserts }}</option>
+    </select>
   </div>
 
   <div class="tags-sort">
@@ -139,21 +145,23 @@
   const totalPages = Math.max(1, Math.ceil(pills.length / PAGE_SIZE));
   const postsDataEl = document.getElementById('tag-posts-data');
   const postsData = postsDataEl ? JSON.parse(postsDataEl.textContent) : [];
-  const topicTabs = document.querySelectorAll('.tag-topic-tab');
+  const topicSel = document.getElementById('tags-topic');
   let tagParam = new URLSearchParams(location.search).get('tag');
   let topic = '';
   let page = 0;
 
+  function norm(s) { return (s || '').normalize('NFC'); }
+
   function cardMatchesTopic(c) {
     if (!topic) return true;
-    if ((c.dataset.postCategory || '') === topic) return true;
-    return (c.dataset.postTags || '').split(',').indexOf(topic) !== -1;
+    if (norm(c.dataset.postCategory) === topic) return true;
+    return norm(c.dataset.postTags).split(',').map(norm).indexOf(topic) !== -1;
   }
 
   function postMatchesTopic(p) {
     if (!topic) return true;
-    if (p.c === topic) return true;
-    return (p.g || []).indexOf(topic) !== -1;
+    if (norm(p.c) === topic) return true;
+    return (p.g || []).map(norm).indexOf(topic) !== -1;
   }
 
   function postRefs(section) {
@@ -206,6 +214,8 @@
     const searching = q !== '';
     // Lọc exact-match theo ?tag= trong URL (ví dụ /tags?tag=Hy Lạp) — chỉ khi không gõ tìm kiếm
     const tagFiltered = !!(tagParam && !searching);
+
+    const topicActive = topic !== '';
 
     pills.forEach(function (pill) {
       const idx = Number(pill.dataset.tagIndex);
@@ -264,7 +274,21 @@
         section.hidden = !hasVisible;
         if (moreBtn) moreBtn.hidden = true;
       } else {
-        if (inPage) hydrate(section);
+        // Đang lọc chủ đề: xét mọi section (bỏ phân trang), kiểm tra nhanh
+        // qua JSON trước khi hydrate để tránh tạo DOM thừa.
+        const inScope = topicActive || inPage;
+        if (topicActive && section.dataset.hydrated !== '1' && section.dataset.postRefs) {
+          const anyMatch = postRefs(section).some(function (ri) {
+            const p = postsData[ri];
+            return p && postMatchesTopic(p);
+          });
+          if (!anyMatch) {
+            section.hidden = true;
+            if (moreBtn) moreBtn.hidden = true;
+            return;
+          }
+        }
+        if (inScope) hydrate(section);
         const shown = Number(section.dataset.shownCards || INITIAL_CARDS);
         const cardEls = section.querySelectorAll('.tag-post-card');
         let hasVisible = false;
@@ -273,17 +297,17 @@
           c.hidden = !ok;
           if (ok) hasVisible = true;
         });
-        section.hidden = !inPage || !hasVisible;
+        section.hidden = !inScope || !hasVisible;
         if (moreBtn) {
           const remaining = cardEls.length - shown;
-          moreBtn.hidden = !inPage || remaining <= 0;
+          moreBtn.hidden = !inScope || remaining <= 0;
           moreBtn.textContent = fmt('more_fmt', 'Xem thêm %1 bài viết', remaining);
         }
       }
     });
 
     if (pager) {
-      pager.style.display = searching || tagFiltered || totalPages <= 1 ? 'none' : '';
+      pager.style.display = searching || tagFiltered || topicActive || totalPages <= 1 ? 'none' : '';
       if (pageInfo) pageInfo.textContent = fmt('page_fmt', 'Trang %1 / %2', page + 1, totalPages);
       if (prevBtn) prevBtn.disabled = page <= 0;
       if (nextBtn) nextBtn.disabled = page >= totalPages - 1;
@@ -334,17 +358,12 @@
     });
   }
 
-  topicTabs.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      topic = btn.dataset.topic;
-      topicTabs.forEach(function (b) {
-        const active = b === btn;
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-pressed', String(active));
-      });
+  if (topicSel) {
+    topicSel.addEventListener('change', function () {
+      topic = topicSel.value.normalize('NFC');
       render();
     });
-  });
+  }
   // Click pill: lọc exact-match + đổi URL thành ?tag= (không reload, vẫn share được)
   pills.forEach(function (pill) {
     pill.addEventListener('click', function (e) {

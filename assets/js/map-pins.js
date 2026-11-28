@@ -13,8 +13,9 @@
 
   function str(v) { return v == null ? '' : v; }
 
-  // Nối đường dẫn tương đối với baseurl ('/' local, '/tnclub-yedas/' và
-  // '/tnclub-yedas/en/' trên GitHub Pages); giữ nguyên URL tuyệt đối.
+  // Mọi URL pin (bài viết, ảnh) đi qua hàm này: nối baseurl + prefix
+  // ngôn ngữ (EN = 'en/') + path; giữ nguyên URL tuyệt đối.
+  // VI: base + 'posts/x/' · EN: base + 'en/posts/x/'
   function rel(base, path) {
     path = String(path || '');
     if (!path || /^https?:\/\//.test(path)) return path;
@@ -97,7 +98,9 @@
 
   function build(posts, opts) {
     opts = opts || {};
-    var base = opts.base || '/';
+    // Prefix ngôn ngữ: trang EN dùng base + 'en/' để link về bản /en/...
+    var langPrefix = opts.lang && opts.lang !== opts.defaultLang ? opts.lang + '/' : '';
+    var base = (opts.base || '/') + langPrefix;
     var foodCategories = {};
     (opts.foodCategories || []).forEach(function (c) {
       foodCategories[String(c).toLowerCase().trim()] = true;

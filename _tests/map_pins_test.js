@@ -89,10 +89,14 @@ test('place defaults: Vietnam country, name falls back to title', () => {
   assert.equal(pin.series, 'Du lịch');
 });
 
-test('EN baseurl prefixes every relative path', () => {
-  const [pin] = build([{ geo: [1, 2], banner: '/p/cover.jpg', url: '/p/' }], '/tnclub-yedas/en/');
-  assert.equal(pin.url, '/tnclub-yedas/en/p/');
-  assert.equal(pin.image, '/tnclub-yedas/en/p/cover.jpg');
+test('EN lang prefix applies to every relative path', () => {
+  const posts = [{ geo: [1, 2], banner: '/p/cover.jpg', url: '/p/' }];
+  const [vi] = MapPins.build(posts, { base: '/tnclub-yedas/', lang: 'vi', defaultLang: 'vi', foodCategories: FOOD });
+  const [en] = MapPins.build(posts, { base: '/tnclub-yedas/', lang: 'en', defaultLang: 'vi', foodCategories: FOOD });
+  assert.equal(vi.url, '/tnclub-yedas/p/');
+  assert.equal(en.url, '/tnclub-yedas/en/p/');
+  assert.equal(en.image, '/tnclub-yedas/en/p/cover.jpg');
+  assert.equal(en.avatar, '/tnclub-yedas/en/p/cover.jpg');
 });
 
 test('posts without geo are skipped', () => {

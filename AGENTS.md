@@ -94,11 +94,13 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
   `MapPins.load(pinsUrl, opts)` trong `assets/js/map-pins.js` (load trước
   `site-map.js`) rồi `MapPins.build` tạo `window.__athletePins`. Toàn bộ
   logic phân loại kind/topic, chuẩn hóa miền, fallback ảnh/tên nằm ở JS —
-  không thêm `case`/`if` nghiệp vụ vào Liquid. `base`/`pinsUrl`/`foodCategories`
-  emit qua `__athleteMapConfig` trong `_includes/site-map.html`; `pinsUrl`
-  kèm `?v={{ site.map_pins_digest }}` chống cache cũ; `pinAvatar` resolve
-  trong plugin bằng `File.exist?` (ảnh posts/ không nằm trong
-  `site.static_files`). Fetch lỗi hiện `.map-load-error` với chuỗi
+  không thêm `case`/`if` nghiệp vụ vào Liquid. `base`/`lang`/`defaultLang`/
+  `pinsUrl`/`foodCategories` emit qua `__athleteMapConfig` trong
+  `_includes/site-map.html`; mọi URL pin đi qua `rel()` trong map-pins.js —
+  nó tự thêm prefix `en/` khi `lang != defaultLang` nên pin trang /en/ trỏ
+  về bài /en/; `pinsUrl` kèm `?v={{ site.map_pins_digest }}` chống cache cũ;
+  `pinAvatar` resolve trong plugin bằng `File.exist?` (ảnh posts/ không nằm
+  trong `site.static_files`). Fetch lỗi hiện `.map-load-error` với chuỗi
   `map.load_failed_pins`. Test logic bằng `node --test _tests/map_pins_test.js`,
   test plugin `bundle exec ruby _tests/map_pins_index_test.rb`, test emit
   `_tests/site_map_images_test.rb`.

@@ -30,6 +30,7 @@ fixtures = [
   bases = output.scan(/base:\s*("(?:[^"\\]|\\.)*")/).flatten.map { |value| JSON.parse(value) }
   raise "Wrong base for #{baseurl.inspect}: #{bases.inspect}" unless bases == ["#{baseurl}/"]
   raise 'Missing food categories option' unless output.include?('foodCategories:') && output.include?('ăn ngon')
+  raise 'Missing lang config for URL prefixing' unless output.include?('lang: "vi"') && output.include?('defaultLang: "vi"')
   raise 'Pin data must live in map-pins.bin, not inline' if output.include?('pinAvatar:') || output.include?('placeName:')
   raise 'Missing food filter' unless output.include?('data-filter="Ẩm thực"')
   raise 'Missing food country/region dialog' unless output.include?('id="map-food-dialog"') && output.include?('id="map-food-groups"') && output.include?('data-food-country="all"')

@@ -462,7 +462,7 @@ body:has(.map-country-dialog[open]) { overflow: hidden; }
 .athlete-modal-close { position: sticky; float: right; margin-right: -0.5rem; }
 .athlete-modal-close:hover, .athlete-detail-close:hover { color: var(--ink); }
 .athlete-media-title { margin: 0 0 1rem; font-size: 1.15rem; color: var(--ink); }
-.athlete-media-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.9rem; }
+.athlete-media-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 0.9rem; }
 .athlete-media-gallery figure { margin: 0; }
 .athlete-media-gallery figure, .athlete-media-gallery figure img { float: none !important; width: 100% !important; max-width: none !important; }
 .athlete-media-videos { display: grid; gap: 1.1rem; }

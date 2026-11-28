@@ -3,13 +3,16 @@ layout: post
 date: "2026-11-26 08:04:00 +0700"
 title: "[04 · Hiểu menu cà phê] : Espresso, Americano và cà phê đen"
 subtitle: "Ly nhỏ cô đọng hay ly đen để nhâm nhi? Phân biệt cách chiết xuất với việc thêm nước"
-banner-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
-cover-img: "/posts/2026/11/26/doc-menu-ca-phe/banner.jpg"
+banner-img: "/posts/2026/11/26/ca-phe-04-espresso/banner.jpg"
+cover-img: "/posts/2026/11/26/ca-phe-04-espresso/banner.jpg"
 category: "Uống Ngon"
 tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 4
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 6.0
+map_content_note: "Điểm biên tập sơ bộ: phân biệt rõ espresso/ristretto/lungo/Americano, nhấn đúng điểm dễ nhầm về quá trình chiết xuất; tỷ lệ cụ thể vẫn phụ thuộc quán."
+map_rating_updated: "2026-11-28"
 ---
 
 Cùng là cà phê đen pha máy, nhưng espresso nhỏ gọn khác với Americano nhiều nước. Ristretto và lungo lại khác ở quá trình chiết xuất, không chỉ việc chọn cỡ ly.

@@ -65,6 +65,11 @@
     function close() { qv.hidden = true; }
     var detail = document.getElementById('athlete-detail');
     var modal = document.getElementById('athlete-modal');
+    // Đưa modal ra <body> để position:fixed thoát khỏi mọi stacking context /
+    // containing block của ancestor trong section (lỗi modal nằm dưới navbar).
+    if (modal && modal.parentElement !== document.body) {
+      document.body.appendChild(modal);
+    }
     var mediaContent = document.getElementById('athlete-media-content');
     var detailCache = {};
 
@@ -999,12 +1004,18 @@
       }
     });
     if (window.ResizeObserver) new ResizeObserver(function () { map.invalidateSize(); }).observe(el);
+    var navEl = document.querySelector('.navbar-custom');
+    function updateNavOffset() {
+      if (!section.classList.contains('is-max') && !section.classList.contains('is-fullscreen')) return;
+      var navBottom = navEl ? navEl.getBoundingClientRect().bottom : 0;
+      section.style.setProperty('--nav-h', Math.max(Math.round(navBottom), 0) + 'px');
+    }
+    if (navEl && window.ResizeObserver) new ResizeObserver(updateNavOffset).observe(navEl);
+    if (navEl) navEl.addEventListener('transitionend', updateNavOffset);
+    window.addEventListener('scroll', updateNavOffset, { passive: true });
     function setMax(on) {
-      if (on) {
-        var nav = document.querySelector('.navbar-custom');
-        section.style.setProperty('--nav-h', (nav ? nav.offsetHeight : 66) + 'px');
-      }
       section.classList.toggle('is-max', on);
+      updateNavOffset();
       document.body.style.overflow = on || section.classList.contains('is-fullscreen') ? 'hidden' : '';
       expandBtn.textContent = on ? '↙' : '↗';
       expandBtn.title = on ? tx('collapse', 'Thu gọn bản đồ') : tx('expand', 'Expand — Mở rộng bản đồ');

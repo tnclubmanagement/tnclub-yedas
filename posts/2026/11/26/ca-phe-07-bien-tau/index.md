@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 7
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 6.3
+map_content_note: "Điểm biên tập sơ bộ: bao phủ rộng nhóm biến tấu (mocha, tonic, kem, đá xay), mẹo hỏi syrup/topping thực dụng; tên thương mại thay đổi nhanh nên cần rà soát định kỳ."
+map_rating_updated: "2026-11-28"
 ---
 
 Chocolate, trái cây và kem có thể biến cà phê thành ly giải khát hoặc một phần tráng miệng. Đây cũng là nhóm dễ chọn nhầm nếu chỉ nhìn ảnh mà không đọc thành phần.
@@ -67,8 +70,8 @@ Tên thương mại không bảo đảm công thức chung giữa các hãng. H�
 
 </div>
 <figure>
-  <img src="{{ '/posts/2026/11/26/ca-phe-07-bien-tau/affogato.jpg' | relative_url }}" alt="Ly affogato kem vanilla bên cạnh bánh croissant" width="800" height="1422" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
-  <figcaption>Affogato: kem ăn kèm espresso nóng, gần món tráng miệng hơn ly nước. Ảnh: <a href="https://www.pexels.com/photo/delicious-croissant-and-affogato-in-cafe-setting-32627927/" target="_blank" rel="noopener">Diana Reyes / Pexels</a>.</figcaption>
+  <img src="{{ '/posts/2026/11/26/ca-phe-07-bien-tau/affogato.jpg' | relative_url }}" alt="Ba món espresso con panna, macchiato và affogato" width="768" height="384" loading="lazy" style="display: block; width: auto; height: auto; max-width: 100%; max-height: 280px; margin: 0 auto;">
+  <figcaption>Espresso con panna, macchiato và affogato — cà phê đi với kem và sữa. Ảnh: <a href="https://coffeeandteacorner.com/" target="_blank" rel="noopener">Coffee and Tea Corner</a>.</figcaption>
 </figure>
 </div>
 

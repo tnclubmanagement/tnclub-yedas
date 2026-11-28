@@ -1,5 +1,43 @@
 .playlist-button-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   margin: 1.5rem 0 0.5rem;
+}
+
+.playlist-fav-btn {
+  width: 2.6rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--hairline);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.playlist-fav-btn svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}
+
+.playlist-fav-btn:hover {
+  color: #e0245e;
+  border-color: #e0245e;
+}
+
+.playlist-fav-btn.active {
+  color: #e0245e;
+  border-color: #e0245e;
+}
+
+.playlist-fav-btn:active {
+  transform: scale(0.9);
 }
 
 .playlist-intro {
@@ -118,6 +156,11 @@
   opacity: 0.7;
 }
 
+.playlist-card--fav .playlist-cover {
+  background: linear-gradient(135deg, rgba(224, 36, 94, 0.14), rgba(224, 36, 94, 0.22));
+  color: #e0245e;
+}
+
 .playlist-card-body {
   flex: 1;
   min-width: 0;
@@ -155,7 +198,8 @@
 }
 
 .playlist-rename-btn,
-.playlist-delete-btn {
+.playlist-delete-btn,
+.playlist-clear-btn {
   width: 2.1rem;
   height: 2.1rem;
   display: inline-flex;
@@ -170,7 +214,8 @@
 }
 
 .playlist-rename-btn svg,
-.playlist-delete-btn svg {
+.playlist-delete-btn svg,
+.playlist-clear-btn svg {
   width: 1rem;
   height: 1rem;
 }
@@ -181,7 +226,8 @@
   background: rgba(0, 113, 227, 0.08);
 }
 
-.playlist-delete-btn:hover {
+.playlist-delete-btn:hover,
+.playlist-clear-btn:hover {
   color: #c5221f;
   border-color: #c5221f;
   background: rgba(197, 34, 31, 0.08);

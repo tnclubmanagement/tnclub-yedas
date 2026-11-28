@@ -10,6 +10,58 @@
   }
 
   onReady(function () {
+    // Gạch chân trượt trên nav: tĩnh dưới mục active, trượt theo mục đang
+    // hover/focus, trượt về khi rời nav. Chỉ bật khi có mục is-active;
+    // lang-link không tham gia. Không có JS thì underline tĩnh vẫn hiện.
+    var navList = document.querySelector(".navbar-custom .navbar-nav");
+    var activeNavLink = navList &&
+      navList.querySelector(".nav-link.is-active:not(.lang-link)");
+    if (navList && activeNavLink) {
+      var navIndicator = document.createElement("span");
+      navIndicator.className = "nav-active-indicator";
+      navIndicator.setAttribute("aria-hidden", "true");
+      navList.appendChild(navIndicator);
+
+      var currentNavLink = activeNavLink;
+      function moveNavIndicator(link) {
+        currentNavLink = link;
+        // Đo theo rect thay offsetLeft/Top: li.dropdown của Bootstrap có
+        // position:relative nên offset* của link con đo theo li, không phải ul.
+        var listRect = navList.getBoundingClientRect();
+        var rect = link.getBoundingClientRect();
+        navIndicator.style.left = (rect.left - listRect.left) + "px";
+        navIndicator.style.top = (rect.bottom - listRect.top + 4) + "px";
+        navIndicator.style.width = rect.width + "px";
+      }
+
+      moveNavIndicator(activeNavLink);
+      requestAnimationFrame(function () {
+        navList.classList.add("nav-indicator-ready");
+      });
+
+      function hoverNavLink(event) {
+        var link = event.target.closest(".nav-link");
+        if (link && navList.contains(link) && !link.classList.contains("lang-link")) {
+          moveNavIndicator(link);
+        }
+      }
+      navList.addEventListener("mouseover", hoverNavLink);
+      navList.addEventListener("focusin", hoverNavLink);
+      navList.addEventListener("mouseleave", function () {
+        moveNavIndicator(activeNavLink);
+      });
+      navList.addEventListener("focusout", function (event) {
+        if (!navList.contains(event.relatedTarget)) moveNavIndicator(activeNavLink);
+      });
+      window.addEventListener("resize", function () {
+        moveNavIndicator(currentNavLink);
+      });
+      // Font web load xong có thể đổi bề rộng chữ — đo lại cho đúng.
+      if (document.fonts) {
+        document.fonts.ready.then(function () { moveNavIndicator(currentNavLink); });
+      }
+    }
+
     // Đổi cách hiển thị từng gallery: lưới gọn hoặc xem từng ảnh lớn.
     var galleries = document.querySelectorAll(".post-gallery");
     galleries.forEach(function (gallery) {
@@ -182,17 +234,31 @@
       var PAGE_SIZE = 24;
       var visibleLimit = PAGE_SIZE;
       var moreBtn = document.getElementById("posts-load-more");
+      var FAV_TAG = "__fav";
+
+      function favouriteUrlSet() {
+        var set = {};
+        try {
+          var data = JSON.parse(localStorage.getItem("yedas_playlists_v1") || "null");
+          var fav = Array.isArray(data) && data.find(function (p) { return p.id === "favourite"; });
+          ((fav && fav.items) || []).forEach(function (item) { set[item.url] = true; });
+        } catch (error) {}
+        return set;
+      }
 
       function filterPosts() {
         var query = (search.value || "").trim().toLowerCase();
+        var favSet = selectedTag === FAV_TAG ? favouriteUrlSet() : null;
         var matched = 0;
         cards.forEach(function (card) {
           var title = (card.dataset.postTitle || "").toLowerCase();
           var category = (card.dataset.postCategory || "").toLowerCase();
           var tags = (card.dataset.postTags || "").toLowerCase();
-          var matches = (!query || title.indexOf(query) !== -1) &&
-            (!selectedTag || category === selectedTag ||
+          var matchesTag = !selectedTag || (favSet
+            ? !!favSet[card.dataset.postUrl]
+            : category === selectedTag ||
               (!category && tags.split(",").indexOf(selectedTag) !== -1));
+          var matches = (!query || title.indexOf(query) !== -1) && matchesTag;
           card.hidden = !matches || matched >= visibleLimit;
           if (matches) matched++;
         });

@@ -2,7 +2,7 @@
 layout: post
 date: "2026-11-26 13:05:00 +0700"
 title: "[05 · Ăn ngon miền Nam] : Gỏi cuốn và bì cuốn Sài Gòn"
-subtitle: "Không chiên, nhiều rau nhưng phần nhân và nước chấm vẫn cần đọc kỹ"
+subtitle: "KKhông chiên, nhiều rau, nhưng món này có nhẹ bụng hay không còn tùy phần nhân và lượng nước chấm ăn kèm."
 banner-img: "/posts/2026/11/26/mien-nam-05-goi-cuon-bi-cuon/goi-cuon.jpg"
 cover-img: "/posts/2026/11/26/mien-nam-05-goi-cuon-bi-cuon/goi-cuon.jpg"
 category: "Ăn Ngon"

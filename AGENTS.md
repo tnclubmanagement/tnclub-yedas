@@ -219,7 +219,16 @@ mục dưới đây trước khi coi là "xong" (trừ khi người dùng nói r
     `window.__playlistStrings` trước `footer-scripts.html` để cả trang
     playlist và nút lưu trong bài viết dùng chung bản dịch. Giữ nguyên key
     localStorage `yedas_playlists_v1` / `yedas_playlist_v1` và tên, dữ liệu
-    playlist người dùng đã lưu khi đổi ngôn ngữ.
+    playlist người dùng đã lưu khi đổi ngôn ngữ. Playlist `id: 'favourite'`
+    (`builtin: true`) là "Yêu thích" cố định: `ensureFav()` trong
+    `playlist.js` luôn ghim nó lên đầu, không xóa/đổi tên được (tên lấy từ
+    chuỗi `playlist.favourite_name` theo ngôn ngữ), chỉ clear hết bài; nó
+    KHÔNG tính vào `MAX_PLAYLISTS`. Nút tim `.playlist-fav-btn` trên trang
+    bài viết toggle thẳng vào playlist này, không mở picker. Trang `/posts`
+    có tab `data-tag="__fav"` lọc bài theo playlist Yêu thích: card có
+    `data-post-url`, JS (`favouriteUrlSet` trong custom-animations.js) đọc
+    `yedas_playlists_v1` mỗi lần filter; `post.url | relative_url` là URL
+    gốc (không prefix /en) trùng với `item.url` đã lưu ở mọi ngôn ngữ.
 
 ## Kiểm tra ảnh và bài du lịch
 

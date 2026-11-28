@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 5
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 5.7
+map_content_note: "Điểm biên tập sơ bộ: có bảng so sánh latte/cappuccino/flat white tiện tra cứu; bài ngắn hơn các bài còn lại, một số món ít phổ biến ở Việt Nam chưa có ảnh riêng."
+map_rating_updated: "2026-11-28"
 ---
 
 Latte, cappuccino và flat white thường đứng cạnh nhau trên menu, nhưng tên món không nói ngay ly nào nhiều sữa hay nhiều bọt. Điều cần so là lượng sữa, kết cấu bọt, cỡ ly và số shot của chính quán đó.

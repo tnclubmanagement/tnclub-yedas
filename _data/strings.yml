@@ -157,6 +157,9 @@ vi:
     food: "Ăn Ngon"
     drinks: "Uống Ngon"
     desserts: "Tráng Miệng"
+    favourites: "Yêu thích"
+    favourites_tip: "Bài viết bạn đã bấm tim"
+    favourites_intro: "Chưa có bài yêu thích nào. Mở một bài viết và bấm nút tim để lưu lại đây."
     tip_photo: "Bài viết chủ đề chụp ảnh"
     tip_sport: "Bài viết chủ đề thể thao"
     tip_travel: "Bài viết chủ đề du lịch"
@@ -241,6 +244,12 @@ vi:
     delete: "Xóa playlist này"
     delete_confirm: 'Xóa playlist "%1"? Các bài viết vẫn được giữ nguyên.'
     rename_prompt: "Tên mới cho playlist:"
+    favourite_name: "Yêu thích"
+    favourite_empty: "Chưa có bài nào — mở một bài viết và bấm nút tim."
+    favourite_add: "Thêm bài này vào Yêu thích"
+    favourite_remove: "Bỏ khỏi Yêu thích"
+    clear: "Xóa tất cả bài trong Yêu thích"
+    clear_confirm: 'Xóa toàn bộ %1 bài trong "Yêu thích"?'
 en:
   nav:
     Giới thiệu: "About"
@@ -396,6 +405,9 @@ en:
     food: "Food"
     drinks: "Drinks"
     desserts: "Desserts"
+    favourites: "Favourites"
+    favourites_tip: "Posts you have hearted"
+    favourites_intro: "No favourite posts yet. Open a post and tap the heart button to save it here."
     tip_photo: "Photography posts"
     tip_sport: "Sports posts"
     tip_travel: "Travel posts"
@@ -480,3 +492,9 @@ en:
     delete: "Delete this playlist"
     delete_confirm: 'Delete playlist "%1"? The original posts will not be deleted.'
     rename_prompt: "New playlist name:"
+    favourite_name: "Favourites"
+    favourite_empty: "No posts yet — open a post and tap the heart button."
+    favourite_add: "Add this post to Favourites"
+    favourite_remove: "Remove from Favourites"
+    clear: "Remove all posts from Favourites"
+    clear_confirm: 'Remove all %1 posts from "Favourites"?'

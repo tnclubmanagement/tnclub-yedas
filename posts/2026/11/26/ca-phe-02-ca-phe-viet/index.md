@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 2
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 5.8
+map_content_note: "Điểm biên tập sơ bộ: giải thích đen/sữa/nâu thực tế, mẹo gọi ít sữa đặc hữu ích; ít ảnh hơn các bài khác và chưa đối chiếu thực địa nhiều vùng."
+map_rating_updated: "2026-11-28"
 ---
 
 Đen đá, sữa đá và bạc xỉu đều quen tên, nhưng gọi sai độ ngọt hoặc lượng sữa vẫn dễ nhận về ly không hợp gu. Khác biệt chính không nằm ở tên gọi cầu kỳ mà ở vai trò của cà phê và sữa trong ly.

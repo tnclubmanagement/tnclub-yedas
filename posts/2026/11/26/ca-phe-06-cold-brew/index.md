@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 6
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 6.0
+map_content_note: "Điểm biên tập sơ bộ: tách rõ cách pha (lọc, french press, cold brew, nitro) khỏi cách uống lạnh, cảnh báo đoán caffeine qua màu sắc hợp lý; chưa kiểm chứng mức caffeine công bố."
+map_rating_updated: "2026-11-28"
 ---
 
 Không phải ly cà phê lạnh nào cũng là cold brew, và cà phê lọc trông nhẹ không có nghĩa ít caffeine. Nhóm này cần hiểu cách pha trước khi chọn theo hình ảnh.

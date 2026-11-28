@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê, Nguyên liệu]
 series: "Hiểu menu cà phê"
 series_order: 1
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 6.2
+map_content_note: "Điểm biên tập sơ bộ: bài nền mở đầu rõ cấu trúc, nhiều ảnh minh họa có ghi nguồn, phần 'khi gọi' thực dụng; chưa kiểm chứng định lượng tại quán cụ thể."
+map_rating_updated: "2026-11-28"
 ---
 
 Menu có thể dài, nhưng phần lớn món cà phê được ghép từ một nền cà phê với nước, sữa hoặc nguyên liệu tạo hương. Hiểu những thành phần ấy sẽ giúp bạn chọn món dễ hơn nhiều.

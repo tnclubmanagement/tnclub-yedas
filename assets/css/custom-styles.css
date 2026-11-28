@@ -206,6 +206,10 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+.home-tab-fav .fa-heart {
+  color: #e0245e;
+}
+
 .home-total {
   color: var(--muted);
   font-size: 0.85rem;
@@ -1217,6 +1221,42 @@ body {
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 6px;
+}
+
+/* Gạch chân trượt (sliding indicator): JS tạo 1 vạch duy nhất chạy dưới
+   navbar-nav — tĩnh ở mục active, trượt theo mục đang hover, trượt về khi
+   rời nav. Khi indicator hoạt động thì bỏ underline tĩnh của mục active. */
+.navbar-custom .navbar-nav {
+  position: relative;
+}
+
+.nav-active-indicator {
+  position: absolute;
+  height: 2px;
+  /* Vạt xéo 2 đầu thành hình bình hành cho sắc nét */
+  clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+  background: var(--ink);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navbar-nav.nav-indicator-ready .nav-active-indicator {
+  opacity: 1;
+  /* ease-out-quint: phóng nhanh lúc đầu rồi hạ cánh mềm, cả 2 mép trượt
+     đều nhau — sạch và mượt, không giãn/nảy gây cảm giác lỗi. */
+  transition: left 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              width 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              top 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.navbar-nav.nav-indicator-ready .nav-link.is-active:not(.lang-link) {
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar-nav.nav-indicator-ready .nav-active-indicator {
+    transition: none;
+  }
 }
 
 /* Mục con đang xem trong dropdown nav */

@@ -10,6 +10,9 @@ tags: [Uống Ngon, Cà phê]
 series: "Hiểu menu cà phê"
 series_order: 3
 series_url: "/posts/2026/11/26/doc-menu-ca-phe/"
+map_content_score: 5.9
+map_content_note: "Điểm biên tập sơ bộ: nhóm món béo ngọt kiểu Việt trình bày gọn, có lưu ý dị ứng và trứng chưa chín; công thức biến thiên nhiều theo quán, chưa khảo sát thực tế."
+map_rating_updated: "2026-11-28"
 ---
 
 Nếu thích cà phê nhưng cũng mê vị kem, dừa hoặc sữa chua, nhóm này rất đáng tìm hiểu. Những nguyên liệu đi cùng có thể khiến ly cà phê gần với món tráng miệng hơn một ly đen để nhâm nhi.

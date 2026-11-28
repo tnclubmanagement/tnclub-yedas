@@ -1135,12 +1135,15 @@
     if (!window.L || !cfg.pinsUrl || !window.MapPins) return;
     // Promise public để module khác (travel-spinner) chờ pins sẵn sàng
     window.__mapPinsReady = window.MapPins.load(cfg.pinsUrl, cfg);
+    var loading = document.getElementById('map-loading');
     window.__mapPinsReady
       .then(function (pins) {
+        if (loading) loading.remove();
         window.__athletePins = pins;
         initMap();
       })
       .catch(function () {
+        if (loading) loading.remove();
         var S = window.__mapStrings || {};
         var el = document.getElementById('athlete-map');
         if (el) el.insertAdjacentHTML('beforeend',

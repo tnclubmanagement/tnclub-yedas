@@ -114,6 +114,7 @@
   </div>
   <div class="map-filter-chips" id="map-filter-chips"></div>
   <div class="athlete-map" id="athlete-map">
+    <div class="map-loading" id="map-loading" role="status"><span class="map-loading-dot"></span> {{ s.map.loading }}</div>
     <div class="map-total" aria-live="polite">{{ s.map.total }}: <strong id="map-total-count">{{ pin_count }}</strong></div>
     <button class="map-fs-btn map-expand-btn" id="map-expand-btn" type="button" aria-label="{{ s.map.expand }}" title="{{ s.map.expand }}" aria-pressed="false">↗</button>
     <button class="map-fs-btn" id="map-fs-btn" type="button" aria-label="{{ s.map.fullscreen }}" title="{{ s.map.fullscreen }}" aria-pressed="false">⛶</button>

@@ -309,7 +309,8 @@ body {
 
 .posts-list.posts-list-mode-list .post-preview .post-title,
 .posts-list.posts-list-mode-list .post-preview .post-subtitle,
-.posts-list.posts-list-mode-list .post-preview .post-meta {
+.posts-list.posts-list-mode-list .post-preview .post-meta,
+.posts-list.posts-list-mode-list .post-preview .post-scores {
   grid-column: 2;
   padding-left: 0;
   padding-right: 0;
@@ -1466,6 +1467,87 @@ body {
   color: var(--muted);
   font-size: 0.8rem;
 }
+
+/* Điểm biên tập trên card bài viết (trang /posts/) — cùng quy ước màu với
+   quickview bản đồ: đỏ <5, vàng 5–<8, xanh ≥8, gạch ngang khi chưa đánh giá. */
+.post-preview .post-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin: -0.35rem 0 0.6rem;
+}
+
+/* Bài có ảnh cover: chip điểm đè lên mép trên ảnh, chỉ hiện khi hover card */
+.post-preview .post-image .post-scores {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  z-index: var(--z-layer-1, 1);
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.post-preview:hover .post-image .post-scores,
+.post-preview:focus-within .post-image .post-scores {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-preview .post-image .post-scores {
+    transition: none;
+    transform: none;
+  }
+}
+
+.post-score {
+  --score-color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.55rem;
+  border-radius: 6px;
+  background: var(--bg-light);
+  color: var(--muted);
+  font-size: 0.72rem;
+  cursor: help;
+}
+
+.post-score strong {
+  color: var(--score-color);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.post-score-track {
+  width: 32px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--hairline);
+  overflow: hidden;
+}
+
+.post-score-track > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--score-color);
+}
+
+.post-score[data-level="low"] { --score-color: #c4343d; }
+.post-score[data-level="medium"] { --score-color: #9a6700; }
+.post-score[data-level="high"] { --score-color: #168047; }
+[data-theme="dark"] .post-score[data-level="low"] { --score-color: #ff7b83; }
+[data-theme="dark"] .post-score[data-level="medium"] { --score-color: #f0c44f; }
+[data-theme="dark"] .post-score[data-level="high"] { --score-color: #57d68d; }
 
 .post-preview .blog-tags {
   padding-left: 1.25rem;

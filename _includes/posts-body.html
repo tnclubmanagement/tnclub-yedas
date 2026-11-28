@@ -20,13 +20,13 @@
 </div>
 <div class="home-tabs-row">
   <div class="home-tabs" role="group" aria-label="{{ s.filters.tabs_label }}">
-    <button type="button" class="home-tab is-active" data-tag="" aria-pressed="true" data-tip="{{ s.filters.all_tip }}">{{ s.filters.all }}</button>
-    <button type="button" class="home-tab" data-tag="chụp ảnh" aria-pressed="false" data-tip="{{ s.filters.tip_photo }}">{{ s.filters.photo }}</button>
-    <button type="button" class="home-tab" data-tag="thể thao" aria-pressed="false" data-tip="{{ s.filters.tip_sport }}">{{ s.filters.sport }}</button>
-    <button type="button" class="home-tab" data-tag="du lịch" aria-pressed="false" data-tip="{{ s.filters.tip_travel }}">{{ s.filters.travel }}</button>
-    <button type="button" class="home-tab" data-tag="ăn ngon" aria-pressed="false">{{ s.filters.food }}</button>
-    <button type="button" class="home-tab" data-tag="uống ngon" aria-pressed="false">{{ s.filters.drinks }}</button>
-    <button type="button" class="home-tab" data-tag="tráng miệng" aria-pressed="false">{{ s.filters.desserts }}</button>
+    <button type="button" class="home-tab is-active" data-tag="" aria-pressed="true" data-tip="{{ s.filters.all_tip }}"><span class="fas fa-layer-group fa-fw" aria-hidden="true"></span> {{ s.filters.all }}</button>
+    <button type="button" class="home-tab" data-tag="chụp ảnh" aria-pressed="false" data-tip="{{ s.filters.tip_photo }}"><span class="fas fa-camera fa-fw" aria-hidden="true"></span> {{ s.filters.photo }}</button>
+    <button type="button" class="home-tab" data-tag="thể thao" aria-pressed="false" data-tip="{{ s.filters.tip_sport }}"><span class="fas fa-table-tennis fa-fw" aria-hidden="true"></span> {{ s.filters.sport }}</button>
+    <button type="button" class="home-tab" data-tag="du lịch" aria-pressed="false" data-tip="{{ s.filters.tip_travel }}"><span class="fas fa-plane fa-fw" aria-hidden="true"></span> {{ s.filters.travel }}</button>
+    <button type="button" class="home-tab" data-tag="ăn ngon" aria-pressed="false"><span class="fas fa-utensils fa-fw" aria-hidden="true"></span> {{ s.filters.food }}</button>
+    <button type="button" class="home-tab" data-tag="uống ngon" aria-pressed="false"><span class="fas fa-mug-hot fa-fw" aria-hidden="true"></span> {{ s.filters.drinks }}</button>
+    <button type="button" class="home-tab" data-tag="tráng miệng" aria-pressed="false"><span class="fas fa-birthday-cake fa-fw" aria-hidden="true"></span> {{ s.filters.desserts }}</button>
   </div>
   <span class="home-total" id="home-post-total" data-tip="{{ s.filters.total_tip }}" data-unit="{{ s.filters.posts_unit }}" aria-live="polite"></span>
 </div>
@@ -65,11 +65,62 @@
         {% else %}{% assign topic_mod = "other" %}
       {% endcase %}
 
+      {%- assign c_level = "empty" -%}
+      {%- if post.map_content_score != nil -%}
+        {%- assign c_num = post.map_content_score | plus: 0 -%}
+        {%- if c_num < 5 -%}{%- assign c_level = "low" -%}
+        {%- elsif c_num < 8 -%}{%- assign c_level = "medium" -%}
+        {%- else -%}{%- assign c_level = "high" -%}{%- endif -%}
+      {%- endif -%}
+      {%- assign c_tip = s.map.score_content | append: ": " -%}
+      {%- if post.map_content_score != nil -%}
+        {%- assign c_tip = c_tip | append: post.map_content_score | append: "/10" -%}
+        {%- if post.map_content_note %}{% assign c_tip = c_tip | append: ". " | append: post.map_content_note %}{% endif -%}
+        {%- if post.map_rating_updated %}{% assign c_tip = c_tip | append: " · " | append: s.map.updated | append: ": " | append: post.map_rating_updated %}{% endif -%}
+      {%- else -%}
+        {%- assign c_tip = c_tip | append: s.map.not_rated -%}
+      {%- endif -%}
+      {%- if post.geo -%}
+        {%- assign d_level = "empty" -%}
+        {%- if post.map_destination_score != nil -%}
+          {%- assign d_num = post.map_destination_score | plus: 0 -%}
+          {%- if d_num < 5 -%}{%- assign d_level = "low" -%}
+          {%- elsif d_num < 8 -%}{%- assign d_level = "medium" -%}
+          {%- else -%}{%- assign d_level = "high" -%}{%- endif -%}
+        {%- endif -%}
+        {%- assign d_tip = s.map.score_destination | append: ": " -%}
+        {%- if post.map_destination_score != nil -%}
+          {%- assign d_tip = d_tip | append: post.map_destination_score | append: "/10" -%}
+          {%- if post.map_destination_note %}{% assign d_tip = d_tip | append: ". " | append: post.map_destination_note %}{% endif -%}
+          {%- if post.map_rating_updated %}{% assign d_tip = d_tip | append: " · " | append: s.map.updated | append: ": " | append: post.map_rating_updated %}{% endif -%}
+        {%- else -%}
+          {%- assign d_tip = d_tip | append: s.map.not_rated -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {%- capture post_scores -%}
+      <div class="post-scores" aria-label="{{ s.map.score_aria }}">
+        <span class="post-score" data-level="{{ c_level }}" data-tip="{{ c_tip | escape }}">
+          <span class="fas fa-file-alt" aria-hidden="true"></span>
+          <strong>{% if post.map_content_score != nil %}{{ post.map_content_score }}/10{% else %}—{% endif %}</strong>
+          <span class="post-score-track" aria-hidden="true"><span style="width: {% if post.map_content_score != nil %}{{ c_num | times: 10 }}{% else %}0{% endif %}%"></span></span>
+        </span>
+        {% if post.geo %}
+        <span class="post-score" data-level="{{ d_level }}" data-tip="{{ d_tip | escape }}">
+          <span class="fas fa-map-marker-alt" aria-hidden="true"></span>
+          <strong>{% if post.map_destination_score != nil %}{{ post.map_destination_score }}/10{% else %}—{% endif %}</strong>
+          <span class="post-score-track" aria-hidden="true"><span style="width: {% if post.map_destination_score != nil %}{{ d_num | times: 10 }}{% else %}0{% endif %}%"></span></span>
+        </span>
+        {% endif %}
+      </div>
+      {%- endcapture -%}
+
       {% if thumbnail != "" %}
       <div class="post-image post-image-normal">
         <a href="{{ post.url | relative_url }}" aria-label="Thumbnail">
           <img src="{{ thumbnail | relative_url }}" alt="{{ post.title | strip_html | escape }}" loading="lazy">
         </a>
+        {{ post_scores }}
         {% if topic != "" %}<span class="post-topic post-topic-{{ topic_mod }}">{{ topic }}</span>{% endif %}
       </div>
       {% endif %}
@@ -89,6 +140,8 @@
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         {{ post.date | date: date_format }}
       </p>
+
+      {% if thumbnail == "" %}{{ post_scores }}{% endif %}
 
       {% if post.tags.size > 0 %}
       <div class="blog-tags">
